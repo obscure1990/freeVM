@@ -1,39 +1,40 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: cab5fd74-3898-4730-b7c1-d676a5f82697
-- alterId: 0
-  cipher: auto
-  name: 22|台湾 04  | 1x TWN
+  name: 22,24|台湾 04  | 1x TWN
   network: tcp
   port: '31301'
   server: 2d1t5w04.mcfront.xyz
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c0703e59-6543-4c8a-b9e2-113999f256e8
+  uuid: b5d50aec-1fce-4267-98b4-71312c2024b4
 - alterId: 0
   cipher: auto
-  name: 8|🇹🇼 Taiwan 03 @nodpai
-  network: ws
-  port: 443
-  server: tw98-1g-hinet.mytls888.com
-  skip-cert-verify: true
-  tls: false
+  name: 22,24|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
   type: vmess
-  udp: true
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-  ws-opts:
-    headers:
-      Host: tw98-1g-hinet.mytls888.com
-    path: /
+  uuid: b5d50aec-1fce-4267-98b4-71312c2024b4
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25,28|🇹🇼 台湾独家|@ripaojiedian
+  password: b0f52ff5be5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw1000mline005.chilines.club
+    mode: websocket
+    mux: true
+    path: /smabwqyo
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 103.177.33.189
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 25|🇹🇼 台湾|@ripaojiedian
@@ -44,7 +45,50 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|🇹🇼台湾06
+  name: 9|台湾_0902085
+  network: ''
+  port: '11872'
+  server: 61.219.15.81
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+- alterId: 0
+  cipher: auto
+  name: 12,15,19,20,21,24|台湾省中华电信(HiNet) 3
+  network: tcp
+  port: 56568
+  server: hinettw1.applebench.tech
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+- alterId: 0
+  cipher: auto
+  name: 24|7,8|🇹🇼 Taiwan 12 @nodpai
+  network: ws
+  port: '443'
+  server: tw98-1g-hinet.mytls888.com
+  tls: false
+  type: vmess
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+  ws-opts:
+    headers:
+      Host: tw98-1g-hinet.mytls888.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9,21,24|台湾_0902012
+  network: tcp
+  port: '11872'
+  server: gamespeed-gateway-1.numastergame.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
   network: tcp
   port: '36311'
   server: 8t6w06.abzoones.xyz
@@ -54,7 +98,7 @@ proxies:
   uuid: cab5fd74-3898-4730-b7c1-d676a5f82697
 - alterId: 0
   cipher: auto
-  name: 11|🇹🇼台湾05
+  name: 11,24|🇹🇼台湾05
   network: tcp
   port: '36306'
   server: 8t6w05.abzoones.xyz
@@ -64,46 +108,56 @@ proxies:
   uuid: cab5fd74-3898-4730-b7c1-d676a5f82697
 - alterId: 0
   cipher: auto
-  name: 22|台湾 06  | 1x TWN
+  name: 9|台湾_0902011
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
+  port: '11872'
+  server: 61.219.15.81
+  servername: ''
+  tls: false
   type: vmess
-  uuid: c0703e59-6543-4c8a-b9e2-113999f256e8
-- cipher: chacha20-ietf-poly1305
-  name: 8,25,28|🇹🇼 Taiwan 01 @nodpai
-  password: b0f52ff5be5b
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw1000mline005.chilines.club
-    mode: websocket
-    mux: true
-    path: /smabwqyo
-    skip-cert-verify: true
-    tls: true
-  port: 443
-  server: 103.177.33.189
-  type: ss
-  udp: true
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - alterId: 0
   cipher: auto
-  name: 22|台湾 05  | 1x TWN
+  name: 8|🇹🇼 Taiwan 54 @nodpai
+  network: ws
+  port: 443
+  server: tw99-hinet.mynodes001.one
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+  ws-opts:
+    headers:
+      Host: tw99-hinet.mynodes001.one
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cab5fd74-3898-4730-b7c1-d676a5f82697
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_0902002
+  network: ''
+  port: '11872'
+  server: gamespeed-gateway-1.numastergame.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
   network: tcp
   port: '31306'
   server: 2d1t5w05.mcfront.xyz
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c0703e59-6543-4c8a-b9e2-113999f256e8
-- alterId: 0
-  cipher: auto
-  name: 12,15,19,20,21|台湾省中华电信(HiNet) 3
-  network: tcp
-  port: 56568
-  server: hinettw1.applebench.tech
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  uuid: b5d50aec-1fce-4267-98b4-71312c2024b4
