@@ -1,31 +1,14 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: 7,8|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '2082'
-  server: tokyo.mfa.ee
-  tls: false
-  type: vmess
-  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
-  ws-opts:
-    headers:
-      Host: tokyo.mfa.ee
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9,16,17,19|法国_0902002
-  network: ws
-  port: '80'
-  server: uk2-vmess.greenssh.xyz
+  cipher: aes-128-gcm
+  name: 9|法国_0902131
+  network: tcp
+  port: '1950'
+  server: 51.159.183.138
   servername: ''
   tls: false
   type: vmess
-  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
-  ws-opts:
-    headers:
-      Host: uk2-vmess.greenssh.xyz
-    path: /
+  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
 - alterId: 0
   cipher: aes-128-gcm
   name: 9|法国_0902129
@@ -71,6 +54,16 @@ proxies:
   type: vmess
   uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
 - alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_0902135
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+- alterId: 0
   cipher: auto
   name: 19|7,8|🇫🇷 France 01 @nodpai
   network: ws
@@ -84,25 +77,18 @@ proxies:
       Host: cdn.twitter.now.cc
     path: /ikun
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0902135
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
+  cipher: auto
+  name: 7,8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '2082'
+  server: tokyo.mfa.ee
   tls: false
   type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0902131
-  network: tcp
-  port: '1950'
-  server: 51.159.183.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+  ws-opts:
+    headers:
+      Host: tokyo.mfa.ee
+    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
   name: 7,8,19|🇫🇷 France 02 @nodpai
@@ -115,4 +101,18 @@ proxies:
   ws-opts:
     headers:
       Host: cloudqwq.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9,16,17,19|法国_0902002
+  network: ws
+  port: '80'
+  server: uk2-vmess.greenssh.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  ws-opts:
+    headers:
+      Host: uk2-vmess.greenssh.xyz
     path: /
