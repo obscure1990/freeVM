@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8|中转 🇨🇳 China 02 @nodpai
-  network: ws
-  port: 19709
-  server: 123.249.101.15
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 8|中转 🇨🇳 China 29 @nodpai
   network: ws
   port: 443
@@ -25,45 +12,15 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     path: /path/146731261014
-- alterId: 0
-  cipher: auto
-  name: 0,12,14,18,20|🇺🇸 _FR_法国->🇺🇸_US_美国
-  network: ws
-  port: '80'
-  server: 173.245.49.236
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '0|🇺🇸 _US_美国->🇨🇳_CN_中国 #2'
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
 - alterId: 64
   cipher: auto
-  name: 30|🇫🇷_FR_法国->🇳🇱_NL_荷兰_48_48
-  network: ws
-  port: 443
-  server: 156.249.18.49
-  tls: true
+  name: 0,2,3,4,9,14,19,20,21,26,30|🇭🇰 _CN_中国->🇭🇰_HK_香港
+  network: tcp
+  port: '51904'
+  server: 120.233.43.62
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.69414502.xyz
-    path: /path/1693564312893
 - alterId: 0
   cipher: auto
   name: 8|中转 🇯🇵 Japan 24 @nodpai
@@ -77,13 +34,36 @@ proxies:
   uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76
   ws-opts:
     path: /soda
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 25 @nodpai
-  password: 7b5e7dee-645f-476b-bd25-7748d5f69962
-  port: 54455
-  server: free.node.kk-proxy.pro
-  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,20,23|_US_美国->🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: 172.64.203.172
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 0,12,14,18,20|🇺🇸 _FR_法国->🇺🇸_US_美国
+  network: ws
+  port: '80'
+  server: 173.245.49.236
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
 - alterId: 64
   cipher: auto
   name: '2,3,4,6,12,13,19,20,30|_CN_中国->🇺🇸_US_美国 #1'
@@ -95,147 +75,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 30|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  name: 0|🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国
   network: ws
-  port: 2095
-  server: frsadubibb.76898102.xyz
+  port: '8080'
+  server: 190.93.244.188
   tls: false
   type: vmess
-  uuid: f78a8c93-fbd4-38e9-ac8d-5ffc476503d3
-  ws-opts:
-    headers:
-      Host: frsadubib.76898102.xyz
-    path: /funsdfrh
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,8,19,23,25,28|_CN_中国->🇺🇸_US_美国
-  port: 59902
-  server: 183.232.249.130
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇬🇧 United Kingdom 07 @nodpa...
-  network: ws
-  port: 64091
-  server: in06.my1188.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-  ws-opts:
-    headers:
-      Host: in06.my1188.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,12,14,18,20|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
-  network: ws
-  port: '80'
-  server: 172.64.161.58
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '0,10,12,20|🇺🇸 _US_美国->🇨🇳_CN_中国 #4'
-  network: ws
-  port: '80'
-  server: 172.67.10.151
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇺🇸 United States 182 @nodpa...
-  network: ws
-  port: 443
-  server: 198.2.223.9
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1693564312893
-- alterId: 0
-  cipher: auto
-  name: 6,12,13,15,20|🇭🇰_HK_香港->🇺🇸_US_美国
-  network: ws
-  port: 2052
-  server: 103.160.204.31
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
   ws-opts:
     headers:
       Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 64
-  cipher: auto
-  name: 21|🇺🇸 _US_美国->🇳🇱_NL_荷兰_5@1
-  network: tcp
-  port: 53797
-  server: 156.225.67.101
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 0,20|🇭🇰 _HK_香港->🇺🇸_US_美国
-  network: ws
-  port: '80'
-  server: 103.160.204.98
-  tls: false
-  type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue06
-- alterId: 0
-  cipher: auto
-  name: '6,13|🇭🇰_HK_香港->🇺🇸_US_美国 #1'
-  network: ws
-  port: 80
-  server: 103.160.204.154
-  tls: false
-  type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue06
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇯🇵 Japan 09 @nodpai
-  network: ws
-  port: 64005
-  server: in06.my1188.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-  ws-opts:
-    headers:
-      Host: in06.my1188.org
-    path: /
+    path: /blue
 - alterId: 0
   cipher: auto
   name: '0,30|🇺🇸 _US_美国->🇨🇳_CN_中国 #5'
@@ -251,29 +101,57 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,20,23,30|_US_美国->🇨🇳_CN_中国 5
+  name: '6,13|🇭🇰_HK_香港->🇺🇸_US_美国 #1'
   network: ws
   port: 80
-  server: 172.67.149.100
+  server: 103.160.204.154
+  tls: false
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue06
+- alterId: 0
+  cipher: auto
+  name: 0,20|🇭🇰 _HK_香港->🇺🇸_US_美国
+  network: ws
+  port: '80'
+  server: 103.160.204.98
+  tls: false
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue06
+- alterId: 0
+  cipher: auto
+  name: 8|中转 🇭🇰 Hong Kong 28 @nodpai
+  network: ws
+  port: 40342
+  server: wwe5g.cdn.node.a.tddns-ounk.com
   skip-cert-verify: true
-  tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 60ea91bb-fc92-37b9-9aeb-8394c24f5f9e
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+      Host: wwe5g.cdn.node.a.tddns-ounk.com
+    path: /9e66ba-7635-451c-ae7e-457b17.j.live.m3u8
 - alterId: 0
   cipher: auto
-  name: 30|🇺🇸_US_美国->🇱🇺_LU_卢森堡_30_30
+  client-fingerprint: chrome
+  name: 1,2,3,4,12,15,20,21,23|_US_美国->🇱🇺_LU_卢森堡
   network: ws
   port: 443
-  server: 104.31.16.196
+  server: zfc.windowsupdate1.com
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vmess
+  udp: true
   uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
   ws-opts:
     headers:
@@ -281,10 +159,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,12,20|🇺🇸 _US_美国->🇨🇳_CN_中国 #3'
+  name: '0|🇺🇸 _US_美国->🇨🇳_CN_中国 #2'
   network: ws
   port: '80'
-  server: 172.64.202.22
+  server: cf-lt.sharecentre.online
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -294,81 +172,31 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,18,20,23|_US_美国->🇨🇳_CN_中国 3
+  name: 30|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
   network: ws
-  port: 80
-  server: 172.67.92.119
-  skip-cert-verify: true
-  tfo: false
+  port: 2095
+  server: frsadubibb.76898102.xyz
   tls: false
   type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: f78a8c93-fbd4-38e9-ac8d-5ffc476503d3
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+      Host: frsadubib.76898102.xyz
+    path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: 8|中转 🇺🇸 United States 169 @nodpa...
-  network: ws
-  port: 64014
-  server: in06.my1188.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-  ws-opts:
-    headers:
-      Host: in06.my1188.org
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 30|🇭🇰_HK_香港->🇳🇱_NL_荷兰_37_37
+  name: 21|🇺🇸_US_美国->🇫🇷_FR_法国_3_15@24
   network: ws
   port: 443
-  server: 156.245.8.235
+  server: Lille.kotick.site
+  servername: ''
   tls: true
   type: vmess
-  uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
+  uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
   ws-opts:
     headers:
-      Host: www.92873889.xyz
-    path: /path/1693564312893
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,20,23,30|_US_美国->🇨🇳_CN_中国 2
-  network: ws
-  port: 80
-  server: 172.64.105.187
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇮🇳 India 02 @nodpai
-  network: ws
-  port: 64051
-  server: in06.my1188.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-  ws-opts:
-    headers:
-      Host: in06.my1188.org
-    path: /
+      Host: ''
+    path: /speedtest
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -386,6 +214,34 @@ proxies:
     headers:
       Host: panel2.hodorauth.com
     path: /vsg1.0bad.com/chat
+- alterId: 0
+  cipher: auto
+  name: 8|中转 🇮🇳 India 02 @nodpai
+  network: ws
+  port: 64051
+  server: in06.my1188.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+  ws-opts:
+    headers:
+      Host: in06.my1188.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,8,12,15,20|🇺🇸 _US_美国->🇨🇱_CL_智利
+  network: ws
+  port: '80'
+  server: sdygarm.e5outllok.me
+  tls: false
+  type: vmess
+  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  ws-opts:
+    headers:
+      Host: sdygarm.e5outllok.me
+    path: /
 - alterId: 0
   cipher: auto
   name: 8,10|中转 🇺🇸 United States 26 @nodpai
@@ -418,50 +274,50 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇨🇳 China 31 @nodpai
-  network: ws
-  port: 443
-  server: 198.2.208.83
-  servername: www.71653718.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/1692270323396
-- alterId: 0
-  cipher: auto
-  name: 21|🇺🇸_US_美国->🇫🇷_FR_法国_3_15@24
-  network: ws
-  port: 443
-  server: Lille.kotick.site
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958
-  ws-opts:
-    headers:
-      Host: ''
-    path: /speedtest
 - alterId: 64
   cipher: auto
-  name: '0,2,3,4,14,19,20,26,30|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1'
+  name: 30|🇭🇰_HK_香港->🇳🇱_NL_荷兰_37_37
+  network: ws
+  port: 443
+  server: 156.245.8.235
+  tls: true
+  type: vmess
+  uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
+  ws-opts:
+    headers:
+      Host: www.92873889.xyz
+    path: /path/1693564312893
+- alterId: 0
+  cipher: auto
+  name: 8|中转 🇺🇸 United States 169 @nodpa...
+  network: ws
+  port: 64014
+  server: in06.my1188.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+  ws-opts:
+    headers:
+      Host: in06.my1188.org
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,26,30|🇺🇸 _CN_中国->🇺🇸_US_美国
   network: tcp
-  port: '53300'
-  server: 120.226.50.92
+  port: '54004'
+  server: 183.232.249.40
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,20,23|_US_美国->🇨🇳_CN_中国
+  name: 1,2,3,4,20,23,30|_US_美国->🇨🇳_CN_中国 5
   network: ws
   port: 80
-  server: 172.64.203.172
+  server: 172.67.149.100
   skip-cert-verify: true
   tfo: false
   tls: false
@@ -472,6 +328,19 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 8|中转 🇺🇸 United States 182 @nodpa...
+  network: ws
+  port: 443
+  server: 198.2.223.9
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1693564312893
 - alterId: 0
   cipher: auto
   name: 8|中转 🇺🇸 United States 388 @nodpa...
@@ -488,80 +357,82 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,12,15,20,21,23|_US_美国->🇱🇺_LU_卢森堡
+  name: 1,2,3,4,18,20,23|_US_美国->🇨🇳_CN_中国 3
   network: ws
-  port: 443
-  server: zfc.windowsupdate1.com
+  port: 80
+  server: 172.67.92.119
   skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: us-1.acyun.tk
-    path: /
+      Host: ca.ilovescp.com
+    path: /shirker
 - alterId: 0
   cipher: auto
-  name: 0,8,12,15,20|🇺🇸 _US_美国->🇨🇱_CL_智利
+  client-fingerprint: chrome
+  name: 1,2,3,4,20,23,30|_US_美国->🇨🇳_CN_中国 2
+  network: ws
+  port: 80
+  server: 172.64.105.187
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: '0,12,20|🇺🇸 _US_美国->🇨🇳_CN_中国 #3'
   network: ws
   port: '80'
-  server: sdygarm.e5outllok.me
+  server: 172.64.202.22
   tls: false
   type: vmess
-  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: sdygarm.e5outllok.me
-    path: /
-- alterId: 0
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 64
   cipher: auto
-  name: 0,14,18,21|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  name: 30|🇫🇷_FR_法国->🇳🇱_NL_荷兰_48_48
   network: ws
-  port: '443'
-  server: singapore.com
+  port: 443
+  server: 156.249.18.49
   tls: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 0|🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国
-  network: ws
-  port: '8080'
-  server: 190.93.244.188
-  tls: false
-  type: vmess
-  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 8|中转 🇷🇺 Russia 05 @nodpai
-  network: ws
-  port: 64009
-  server: in06.my1188.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-  ws-opts:
-    headers:
-      Host: in06.my1188.org
-    path: /
+      Host: www.69414502.xyz
+    path: /path/1693564312893
 - alterId: 0
   cipher: auto
   name: '0|🇺🇸 _US_美国->🇨🇳_CN_中国 #6'
   network: ws
   port: '80'
   server: 162.159.243.53
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: '0,12,14,18,20|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
+  network: ws
+  port: '80'
+  server: 172.64.161.58
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -584,6 +455,103 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
+  name: 0,9,14,18,21|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: '443'
+  server: singapore.com
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: '0,10,12,20|🇺🇸 _US_美国->🇨🇳_CN_中国 #4'
+  network: ws
+  port: '80'
+  server: 172.67.10.151
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 8|中转 🇷🇺 Russia 05 @nodpai
+  network: ws
+  port: 64009
+  server: in06.my1188.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+  ws-opts:
+    headers:
+      Host: in06.my1188.org
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '0,2,3,4,9,14,19,20,26,30|🇭🇰 _CN_中国->🇭🇰_HK_香港 #1'
+  network: tcp
+  port: '53300'
+  server: 120.226.50.92
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,8,19,23,25,28|_CN_中国->🇺🇸_US_美国
+  port: 59902
+  server: 183.232.249.130
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 8|中转 🇯🇵 Japan 09 @nodpai
+  network: ws
+  port: 64005
+  server: in06.my1188.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+  ws-opts:
+    headers:
+      Host: in06.my1188.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 8|中转 🇨🇳 China 02 @nodpai
+  network: ws
+  port: 19709
+  server: 123.249.101.15
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇺🇸 United States 25 @nodpai
+  password: 7b5e7dee-645f-476b-bd25-7748d5f69962
+  port: 54455
+  server: free.node.kk-proxy.pro
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 8|中转 🇩🇪 Germany 21 @nodpai
   network: ws
   port: 64092
@@ -597,15 +565,20 @@ proxies:
     headers:
       Host: in06.my1188.org
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 0,26,30|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: tcp
-  port: '54004'
-  server: 183.232.249.40
-  tls: false
+  name: 8|中转 🇨🇳 China 31 @nodpai
+  network: ws
+  port: 443
+  server: 198.2.208.83
+  servername: www.71653718.xyz
+  skip-cert-verify: true
+  tls: true
   type: vmess
+  udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1692270323396
 - alterId: 0
   cipher: auto
   name: 0,10,12,15,20|🇺🇸 _US_美国->🇻🇳_VN_越南
@@ -621,25 +594,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 8|中转 🇭🇰 Hong Kong 28 @nodpai
+  name: 6,12,13,15,20|🇭🇰_HK_香港->🇺🇸_US_美国
   network: ws
-  port: 40342
-  server: wwe5g.cdn.node.a.tddns-ounk.com
+  port: 2052
+  server: 103.160.204.31
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue99
+- alterId: 0
+  cipher: auto
+  name: 8|中转 🇬🇧 United Kingdom 07 @nodpa...
+  network: ws
+  port: 64091
+  server: in06.my1188.org
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 60ea91bb-fc92-37b9-9aeb-8394c24f5f9e
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
   ws-opts:
     headers:
-      Host: wwe5g.cdn.node.a.tddns-ounk.com
-    path: /9e66ba-7635-451c-ae7e-457b17.j.live.m3u8
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,14,19,20,21,26,30|🇭🇰 _CN_中国->🇭🇰_HK_香港
-  network: tcp
-  port: '51904'
-  server: 120.233.43.62
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: in06.my1188.org
+    path: /
