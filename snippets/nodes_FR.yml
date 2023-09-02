@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: aes-128-gcm
-  name: 9|法国_0902131
-  network: tcp
-  port: '1950'
-  server: 51.159.183.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
-- alterId: 0
-  cipher: aes-128-gcm
   name: 9|法国_0902129
   network: tcp
   port: '443'
@@ -21,7 +11,7 @@ proxies:
   uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
 - alterId: 64
   cipher: auto
-  name: 16,17,19|FR_speednode_0011
+  name: 21,24|FR_speednode_0011
   network: ws
   port: 443
   server: 156.249.18.67
@@ -34,15 +24,30 @@ proxies:
       Host: www.52326732.xyz
     path: /path/1692873927587
 - alterId: 0
+  cipher: auto
+  name: 8|🇫🇷 France 01 @nodpai
+  network: ws
+  port: 2095
+  server: frsadubiaa.76898102.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0df3c8ff-9bce-3556-986f-7b313064d542
+  ws-opts:
+    headers:
+      Host: frsadubiaa.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
   cipher: aes-128-gcm
-  name: 9,16,17,19|法国_0902128
+  name: 9|法国_0902131
   network: tcp
   port: '1950'
-  server: 163.172.160.133
+  server: 51.159.183.138
   servername: ''
   tls: false
   type: vmess
-  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
+  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
 - alterId: 0
   cipher: aes-128-gcm
   name: 9|法国_0902136
@@ -53,50 +58,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0902135
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- alterId: 0
-  cipher: auto
-  name: 19|7,8|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '443'
-  server: cdn.twitter.now.cc
-  tls: true
-  type: vmess
-  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-  ws-opts:
-    headers:
-      Host: cdn.twitter.now.cc
-    path: /ikun
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0015
+  obfs: tls1.2_ticket_auth
+  password: RcfVcDzzB
+  port: 8181
+  protocol: origin
+  protocol-param: Non%%
+  server: fr-am1-5.eqsunshine.com
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 7,8|🇫🇷 France 01 @nodpai
+  name: 8,24|🇫🇷 France 02 @nodpai
   network: ws
-  port: '2082'
-  server: tokyo.mfa.ee
-  tls: false
-  type: vmess
-  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
-  ws-opts:
-    headers:
-      Host: tokyo.mfa.ee
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 7,8,19|🇫🇷 France 02 @nodpai
-  network: ws
-  port: '80'
+  port: 80
   server: cloudqwq.cf
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: cd0c570f-757c-48d2-a1b6-c0940431cc47
   ws-opts:
     headers:
@@ -104,7 +84,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,16,17,19|法国_0902002
+  name: 9,21,24|法国_0902002
   network: ws
   port: '80'
   server: uk2-vmess.greenssh.xyz
@@ -116,3 +96,33 @@ proxies:
     headers:
       Host: uk2-vmess.greenssh.xyz
     path: /
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_0902135
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+- alterId: 64
+  cipher: auto
+  name: 21,24|FR_speednode_0007
+  network: tcp
+  port: 44775
+  server: 156.249.18.24
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9,21,24|法国_0902128
+  network: tcp
+  port: '1950'
+  server: 163.172.160.133
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
