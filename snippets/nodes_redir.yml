@@ -1,23 +1,64 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 30|🇭🇰_HK_香港->🇳🇱_NL_荷兰_37_37
+  network: ws
+  port: 443
+  server: 156.245.8.235
+  tls: true
+  type: vmess
+  uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
+  ws-opts:
+    headers:
+      Host: www.92873889.xyz
+    path: /path/1693564312893
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇨🇦 Canada 02 @nodpai
+  name: 7,27|中转 🇹🇼 Taiwan 03 @nodpai
   network: tcp
-  port: '25016'
-  server: piscium.verdens.xyz
+  port: '30009'
+  server: orionis.weltknoten.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 22 @nodpai
-  password: 76190d93-5503-472c-a7b4-0a5e27107fe9
-  port: 14909
-  server: sh-zz-xx.newbluecloud.top
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '0,14,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
+  name: 0,7,8,27,30|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '2082'
+  server: scw-fr.iiio.wiki
+  tls: false
+  type: vmess
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
+  ws-opts:
+    headers:
+      Host: scw-fr.iiio.wiki
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇯🇵 Japan 06 @nodpai
+  network: tcp
+  port: '25024'
+  server: centauri.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 27|中转 🇭🇰 Hong Kong 26 @nodpai
+  network: ws
+  port: '40342'
+  server: wwe5g.cdn.node.a.tddns-ounk.com
+  tls: false
+  type: vmess
+  uuid: 60ea91bb-fc92-37b9-9aeb-8394c24f5f9e
+  ws-opts:
+    headers:
+      Host: wwe5g.cdn.node.a.tddns-ounk.com
+    path: /9e66ba-7635-451c-ae7e-457b17.j.live.m3u8
+- alterId: 0
+  cipher: auto
+  name: '0,10,14,27|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
   network: ws
   port: '80'
   server: 172.67.10.151
@@ -30,110 +71,16 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 7,9,24,26,27|中转 🇭🇰 Hong Kong 01 @nodpai
+  name: 7,27|中转 🇺🇸 United States 30 @nodpai
   network: tcp
-  port: '54073'
-  server: 36.141.40.34
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇯🇵 Japan 09 @nodpai
-  network: tcp
-  port: '25024'
-  server: centauri.verdens.xyz
+  port: '30014'
+  server: monocerotis.weltknoten.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇹🇼 Taiwan 05 @nodpai
-  network: tcp
-  port: '25014'
-  server: piscium.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 64
-  cipher: auto
-  name: 24,30|17|🇫🇷_FR_法国->🇳🇱_NL_荷兰_48_48
-  network: ws
-  port: 443
-  server: 156.249.18.49
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.69414502.xyz
-    path: /path/1693564312893
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇫🇷 France 02 @nodpai
-  password: 76190d93-5503-472c-a7b4-0a5e27107fe9
-  port: 35672
-  server: sh-zz-xx.newbluecloud.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇺🇸 United States 78 @nodpai
-  network: ws
-  port: '42231'
-  server: mf631fx.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: ef78e23d-598f-442e-a29b-35f25901a5a1
-  ws-opts:
-    headers:
-      Host: mf631fx.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 6,12,13,15,20,24,27|🇺🇸_US_美国->🇻🇳_VN_越南
-  network: ws
-  port: 2052
-  server: Tokyo.mfa.ee
-  tls: false
-  type: vmess
-  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
-  ws-opts:
-    headers:
-      Host: vnpt.iiio.wiki
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,13,15,20,23,24,27|_US_美国->🇭🇰_HK_香港
-  network: ws
-  port: 80
-  server: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: 0,6,9,12,13,15,18,20,24,27|🇸🇬 _US_美国->🇸🇬_SG_新加坡
-  network: ws
-  port: '80'
-  server: cfyd.starsea.vip
-  tls: false
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  ws-opts:
-    headers:
-      Host: sg1-v2ray.sshkit.org
-    path: /sshkit/1736960111/64ee26041efcc/
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|中转 🇩🇪 Germany 03 @nodpai
+  name: 27|中转 🇩🇪 Germany 03 @nodpai
   network: ws
   port: '23616'
   server: 16.v2-ray.cyou
@@ -144,204 +91,6 @@ proxies:
     headers:
       Host: 16.v2-ray.cyou
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-  password: 76190d93-5503-472c-a7b4-0a5e27107fe9
-  port: 14563
-  server: sh-zz-xx.newbluecloud.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇸🇬 Singapore 14 @nodpai
-  network: tcp
-  port: '30007'
-  server: andromedae.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 29 @nodpai
-  network: tcp
-  port: '3503'
-  server: fusion.mlinuu.top
-  tls: false
-  type: vmess
-  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|中转 🇺🇸 United States 30 @no...
-  network: ws
-  port: '23614'
-  server: 14.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
-  ws-opts:
-    headers:
-      Host: 14.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇺🇸 United States 49 @nodpai
-  network: tcp
-  port: '25007'
-  server: centauri.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇯🇵 Japan 07 @nodpai
-  network: tcp
-  port: '30005'
-  server: phoenicis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 03 @nodpai
-  password: 76190d93-5503-472c-a7b4-0a5e27107fe9
-  port: 50410
-  server: gz-zz-xx.newbluecloud.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,20,21,23,24,27|_US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 443
-  server: 172.67.135.195
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: AB135628-07F6-4F78-AF4D-E9CD8715143C
-  ws-opts:
-    headers:
-      Host: Amsterdam.bobbykotick.rip
-    path: /speedtest?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|中转 🇺🇸 United States 39 @no...
-  network: ws
-  port: '23615'
-  server: 15.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
-  ws-opts:
-    headers:
-      Host: 15.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 39 @nodpai
-  network: tcp
-  port: '3503'
-  server: cn2.mlinuu.top
-  tls: false
-  type: vmess
-  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
-- alterId: 0
-  cipher: auto
-  name: 24,30|17|🇺🇸_US_美国->🇨🇳_CN_中国_4_39_39
-  network: ws
-  port: 80
-  server: 172.67.57.119
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 6,9,10,12,13,15,18,20,21,24,27|🇺🇸_US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: 80
-  server: 172.67.205.203
-  tls: false
-  type: vmess
-  uuid: 99c25b0e-db17-494d-bbb4-98397ea8fe4e
-  ws-opts:
-    headers:
-      Host: sbl3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,20,23,24,27|_US_美国->🇨🇳_CN_中国
-  network: ws
-  port: 80
-  server: 172.67.49.28
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 11 @nodpai
-  network: tcp
-  port: '30021'
-  server: andromedae.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,14,18,20,23,24,27|_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 443
-  server: cdn.twitter.now.cc
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-  ws-opts:
-    headers:
-      Host: eu4.twittei.me
-    path: /ikun
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇹🇼 Taiwan 11 @nodpai
-  network: tcp
-  port: '3507'
-  server: fusion.mlinuu.top
-  tls: false
-  type: vmess
-  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇬🇧 United Kingdom 04 @nodpa...
-  network: tcp
-  port: '30015'
-  server: phoenicis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 16 @nodpai
-  network: tcp
-  port: '25026'
-  server: ophiuchi.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
   name: 27|「www.dafei.xyz中转机场」NL2-CF-HTTP
@@ -358,100 +107,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,9,12,15,20,23,24,27|_US_美国->🇨🇱_CL_智利 2
-  network: ws
-  port: 80
-  server: sdygarm.e5outllok.me
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
-  ws-opts:
-    headers:
-      Host: sdygarm.e5outllok.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,27|7|中转 🇯🇵 Japan 04 @nodpai
-  network: tcp
-  port: '23608'
-  server: 8.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,6,13,19,20,24,27|_CN_中国->🇦🇺_AU_澳大利亚
-  network: tcp
-  port: '64003'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇨🇳 China 17 @nodpai
-  network: tcp
-  port: '50002'
-  server: 111.230.252.149
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 19 @nodpai
-  network: tcp
-  port: '3501'
-  server: fusion.mlinuu.top
-  tls: false
-  type: vmess
-  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇺🇸 United States 53 @nodpai
-  network: tcp
-  port: '30014'
-  server: monocerotis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 24,27|7|中转 🇭🇰 Hong Kong 37 @nodpai
-  network: tcp
-  port: '8388'
-  server: 1807516e-rr0tc0-1cwfu.hk.tcpbbr.net
-  tls: true
-  type: vmess
-  uuid: 6550ed3c-f4de-11eb-a0fc-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: '0,12,15,20,24,27|🇭🇰 _HK_香港->🇺🇸_US_美国 #3'
-  network: ws
-  port: '2052'
-  server: 103.160.204.31
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue99
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,6,13,19,20,24,26,27|_CN_中国->🇭🇰_HK_香港
-  network: tcp
-  port: '64096'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,12,13,20,21,23,24,27|_US_美国->🇱🇺_LU_卢森堡
+  name: 1,2,3,4,6,12,13,20,21,23,27|_US_美国->🇱🇺_LU_卢森堡
   network: ws
   port: 443
   server: zfc.windowsupdate1.com
@@ -467,17 +123,228 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇺🇸 United States 54 @nodpai
+  name: 7,27|中转 🇭🇰 Hong Kong 13 @nodpai
   network: tcp
-  port: '30013'
+  port: '30002'
+  server: monocerotis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,8|中转 🇺🇸 United States 47 @nodpai
+  network: ws
+  port: '42231'
+  server: mf631fx.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: ef78e23d-598f-442e-a29b-35f25901a5a1
+  ws-opts:
+    headers:
+      Host: mf631fx.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4,14,20,23|🇺🇸 _US_美国->🇨🇳_CN_中国 #2'
+  network: ws
+  port: '80'
+  server: 172.67.148.210
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 20 @nodpai
+  network: tcp
+  port: '10011'
+  server: fusion.mlinuu.top
+  tls: false
+  type: vmess
+  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇭🇰 Hong Kong 12 @nodpai
+  network: tcp
+  port: '30001'
   server: andromedae.weltknoten.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
+  name: 6,12,13,15,20,27|🇺🇸_US_美国->🇻🇳_VN_越南
+  network: ws
+  port: 2052
+  server: Tokyo.mfa.ee
+  tls: false
+  type: vmess
+  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
+  ws-opts:
+    headers:
+      Host: vnpt.iiio.wiki
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 30|🇳🇱_NL_荷兰->🇫🇷_FR_法国_由快嘴科技提供：kkz...
+  network: ws
+  port: 2095
+  server: frsadubibb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: f78a8c93-fbd4-38e9-ac8d-5ffc476503d3
+  ws-opts:
+    headers:
+      Host: frsadubib.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
+  name: 27|中转 🇺🇸 United States 39 @nodpai
+  network: ws
+  port: '23615'
+  server: 15.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
+  ws-opts:
+    headers:
+      Host: 15.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇭🇰 Hong Kong 47 @nodpai
+  network: tcp
+  port: '8388'
+  server: 1807516e-rr0tc0-1cwfu.hk.tcpbbr.net
+  tls: true
+  type: vmess
+  uuid: 6550ed3c-f4de-11eb-a0fc-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: '27|中转 🇩🇪 Germany 04 @nodpai #1'
+  network: ws
+  port: '23618'
+  server: 18.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
+  ws-opts:
+    headers:
+      Host: 18.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇭🇰 Hong Kong 04 @nodpai
+  network: tcp
+  port: '25025'
+  server: centauri.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: '0,12,20,27|🇺🇸 _US_美国->🇨🇳_CN_中国 #3'
+  network: ws
+  port: '80'
+  server: 172.67.211.253
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰 _HK_香港->🇺🇸_US_美国
+  network: ws
+  port: '80'
+  server: 103.160.204.154
+  tls: false
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue06
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇭🇰 Hong Kong 06 @nodpai
+  network: tcp
+  port: '25021'
+  server: aquaril.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 27|中转 🇯🇵 Japan 04 @nodpai
+  network: tcp
+  port: '23608'
+  server: 8.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇨🇦 Canada 03 @nodpai
+  network: tcp
+  port: '30018'
+  server: orionis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 27|中转 🇬🇧 United Kingdom 01 @nodpa...
+  network: ws
+  port: '23613'
+  server: 13.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
+  ws-opts:
+    headers:
+      Host: 13.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇺🇸 United States 31 @nodpai
+  network: tcp
+  port: '30011'
+  server: phoenicis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 0,6,12,13,15,18,20,27|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+  network: ws
+  port: '80'
+  server: cfyd.starsea.vip
+  tls: false
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  ws-opts:
+    headers:
+      Host: sg1-v2ray.sshkit.org
+    path: /sshkit/1736960111/64ee26041efcc/
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇹🇼 Taiwan 02 @nodpai
+  network: tcp
+  port: '30010'
+  server: orionis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,14,20,21,23,24,27|_US_美国->🇮🇹_IT_意大利
+  name: 1,2,3,4,14,20,21,23,27|_US_美国->🇮🇹_IT_意大利
   network: ws
   port: 80
   server: 172.67.179.254
@@ -493,220 +360,70 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8,24,27|中转 🇺🇸 United States 13 @nodpai
-  network: ws
-  port: '13376'
-  server: sh-zz-xx.newbluecloud.top
-  tls: true
-  type: vmess
-  uuid: 76190d93-5503-472c-a7b4-0a5e27107fe9
-  ws-opts:
-    headers:
-      Host: sh-zz-xx.newbluecloud.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8,24,27|中转 🇨🇳 China 01 @nodpai
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇺🇸 United States 57 @nodpai
+  name: 7,27|中转 🇨🇳 China 12 @nodpai
   network: tcp
-  port: '25006'
-  server: aquaril.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇨🇳 China 19 @nodpai
-  network: tcp
-  port: '56002'
-  server: 39.103.165.178
+  port: '50002'
+  server: 111.230.252.149
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇷🇺 Russia 02 @nodpai
+  name: 7,27|中转 🇭🇰 Hong Kong 11 @nodpai
   network: tcp
-  port: '25020'
-  server: piscium.verdens.xyz
+  port: '30021'
+  server: andromedae.weltknoten.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇺🇸 United States 56 @nodpai
+  name: 27|中转 🇯🇵 Japan 03 @nodpai
+  network: ws
+  port: '23619'
+  server: 19.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
+  ws-opts:
+    headers:
+      Host: 19.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇭🇰 Hong Kong 10 @nodpai
   network: tcp
-  port: '30011'
+  port: '30004'
   server: phoenicis.weltknoten.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇨🇦 Canada 03 @nodpai
+  name: '27|中转 🇺🇸 United States 30 @nodpai #1'
+  network: ws
+  port: '23614'
+  server: 14.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
+  ws-opts:
+    headers:
+      Host: 14.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇭🇰 Hong Kong 17 @nodpai
   network: tcp
-  port: '30018'
+  port: '30023'
   server: orionis.weltknoten.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 12 @nodpai
-  network: tcp
-  port: '30020'
-  server: scorpii.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 64
-  cipher: auto
-  name: 24,27,30|17|🇨🇳_CN_中国->🇭🇰_HK_香港_由快嘴科技提供：...
-  network: tcp
-  port: 53300
-  server: 120.226.50.92
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 34 @nodpai
-  network: tcp
-  port: '3506'
-  server: fusion.mlinuu.top
-  tls: false
-  type: vmess
-  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
-- alterId: 0
-  cipher: auto
-  name: 0,24,27|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '443'
-  server: 172.67.8.239
-  tls: true
-  type: vmess
-  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
-  ws-opts:
-    headers:
-      Host: vceu3e.twittei.me
-    path: /ikun
-- alterId: 0
-  cipher: auto
-  name: 24,30|17|🇺🇸_US_美国->🇨🇳_CN_中国_2_28_28
-  network: ws
-  port: 80
-  server: 172.64.105.187
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '0,24,27,30|🇺🇸 _US_美国->🇨🇳_CN_中国 #4'
-  network: ws
-  port: '80'
-  server: 172.67.196.139
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 64
-  cipher: auto
-  name: 24,30|17|🇭🇰_HK_香港->🇳🇱_NL_荷兰_37_37
-  network: ws
-  port: 443
-  server: 156.245.8.235
-  tls: true
-  type: vmess
-  uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
-  ws-opts:
-    headers:
-      Host: www.92873889.xyz
-    path: /path/1693564312893
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|中转 🇩🇪 Germany 04 @nodpai
-  network: ws
-  port: '23618'
-  server: 18.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
-  ws-opts:
-    headers:
-      Host: 18.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇺🇸 United States 50 @nodpai
-  network: tcp
-  port: '25009'
-  server: ophiuchi.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇯🇵 Japan 10 @nodpai
-  network: tcp
-  port: '25027'
-  server: aquaril.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇸🇬 Singapore 13 @nodpai
-  network: tcp
-  port: '30008'
-  server: monocerotis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,8,24,27|中转 🇺🇸 United States 23 @nodpai
-  network: ws
-  port: '13375'
-  server: sh-zz-xx.newbluecloud.top
-  tls: true
-  type: vmess
-  uuid: 76190d93-5503-472c-a7b4-0a5e27107fe9
-  ws-opts:
-    headers:
-      Host: sh-zz-xx.newbluecloud.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇨🇦 Canada 04 @nodpai
-  network: tcp
-  port: '15037'
-  server: 15037.kuaiyin.win
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,20,23,24,27|_US_美国->🇨🇳_CN_中国 3
+  name: 1,2,3,4,20,23,27|_US_美国->🇨🇳_CN_中国 3
   network: ws
   port: 80
   server: 172.67.6.189
@@ -722,64 +439,32 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇮🇳 India 01 @nodpai
+  name: 7,27|中转 🇨🇳 China 11 @nodpai
   network: tcp
-  port: '25018'
-  server: leonis.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 10 @nodpai
-  network: tcp
-  port: '25022'
-  server: leonis.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇬🇧 United Kingdom 03 @nodpa...
-  network: tcp
-  port: '25019'
-  server: aquaril.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 14 @nodpai
-  network: tcp
-  port: '25023'
-  server: piscium.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 42 @nodpai
-  network: tcp
-  port: '10103'
-  server: campus.mlinuu.top
+  port: '50002'
+  server: 175.27.154.61
   tls: false
   type: vmess
-  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 0,6,9,12,13,19,20,24,27|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: tcp
-  port: '35977'
-  server: 156.225.67.171
-  tls: false
+  name: 30|🇫🇷_FR_法国->🇳🇱_NL_荷兰_48_48
+  network: ws
+  port: 443
+  server: 156.249.18.49
+  tls: true
   type: vmess
-  uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.69414502.xyz
+    path: /path/1693564312893
 - alterId: 0
   cipher: auto
-  name: '0,6,13,24,27|🇭🇰 _HK_香港->🇺🇸_US_美国 #2'
+  name: '0,10,12,15,20,27|🇭🇰 _HK_香港->🇺🇸_US_美国 #3'
   network: ws
   port: '2052'
-  server: 103.160.204.63
+  server: 103.160.204.31
   tls: false
   type: vmess
   uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
@@ -787,49 +472,18 @@ proxies:
     headers:
       Host: ecc.vtcss.top
     path: /blue99
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 7,24,27|中转 🇰🇷 South Korea 03 @nodpai
+  name: 0,2,3,4,19,20,26,27,30|🇺🇸 _CN_中国->🇺🇸_US_美国
   network: tcp
-  port: '30024'
-  server: andromedae.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇺🇸 United States 55 @nodpai
-  network: tcp
-  port: '25008'
-  server: leonis.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,8,27|中转 🇺🇸 United States 36 @nodpai
-  network: ws
-  port: '42232'
-  server: mf632fx.micloud.buzz
+  port: '54004'
+  server: 183.232.249.40
   tls: false
   type: vmess
-  uuid: c633cbf9-fb85-42eb-bae7-f2b5e2bbefe3
-  ws-opts:
-    headers:
-      Host: mf632fx.micloud.buzz
-    path: /zh-cn
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇷🇺 Russia 01 @nodpai
-  network: tcp
-  port: '30019'
-  server: andromedae.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇩🇪 Germany 05 @nodpai
+  name: 7,27|中转 🇩🇪 Germany 04 @nodpai
   network: tcp
   port: '30017'
   server: scorpii.weltknoten.xyz
@@ -838,71 +492,64 @@ proxies:
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇯🇵 Japan 26 @nodpai
-  network: tcp
-  port: '10011'
-  server: fusion.mlinuu.top
-  tls: false
-  type: vmess
-  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇸🇬 Singapore 12 @nodpai
-  network: tcp
-  port: '25013'
-  server: ophiuchi.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇹🇼 Taiwan 07 @nodpai
-  network: tcp
-  port: '30009'
-  server: orionis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|中转 🇭🇰 Hong Kong 26 @nodpai
+  name: 6,10,12,13,15,18,20,21,27|🇺🇸_US_美国->🇧🇷_BR_巴西
   network: ws
-  port: '40342'
-  server: wwe5g.cdn.node.a.tddns-ounk.com
+  port: 80
+  server: 172.67.205.203
   tls: false
   type: vmess
-  uuid: 60ea91bb-fc92-37b9-9aeb-8394c24f5f9e
+  uuid: 99c25b0e-db17-494d-bbb4-98397ea8fe4e
   ws-opts:
     headers:
-      Host: wwe5g.cdn.node.a.tddns-ounk.com
-    path: /9e66ba-7635-451c-ae7e-457b17.j.live.m3u8
+      Host: sbl3.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,6,13,20,23,24,27|_CN_中国->🇹🇼_TW_台湾
+  name: 1,2,3,4,20,23,27|_US_美国->🇨🇳_CN_中国
   network: ws
-  port: 18075
-  server: 221.131.165.186
+  port: 80
+  server: 172.67.49.28
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
   udp: true
-  uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
-    path: /soda
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇯🇵 Japan 08 @nodpai
+  name: 7,27|中转 🇯🇵 Japan 08 @nodpai
   network: tcp
-  port: '30006'
-  server: scorpii.weltknoten.xyz
+  port: '30005'
+  server: phoenicis.weltknoten.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 0,14,21,24,27|🇺🇸 _US_美国->🇮🇹_IT_意大利
+  name: 7,27|中转 🇺🇸 United States 23 @nodpai
+  network: tcp
+  port: '25008'
+  server: leonis.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇬🇧 United Kingdom 03 @nodpa...
+  network: tcp
+  port: '30015'
+  server: phoenicis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 0,14,21,27|🇺🇸 _US_美国->🇮🇹_IT_意大利
   network: ws
   port: '80'
   server: 172.67.91.164
@@ -915,19 +562,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇨🇳 China 15 @nodpai
-  network: tcp
-  port: '50002'
-  server: 175.27.154.61
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '0,1,2,3,4,14,20,23,24|🇺🇸 _US_美国->🇨🇳_CN_中国 #2'
+  name: 0,12,20,27|🇺🇸 _US_美国->🇨🇳_CN_中国
   network: ws
   port: '80'
-  server: 172.67.148.210
+  server: 172.67.59.39
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -937,244 +575,35 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '0,6,13,24,27|🇭🇰 _HK_香港->🇺🇸_US_美国 #1'
-  network: ws
-  port: '80'
-  server: 103.160.204.98
-  tls: false
-  type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue06
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|中转 🇬🇧 United Kingdom 02 @n...
-  network: ws
-  port: '23605'
-  server: 5.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
-  ws-opts:
-    headers:
-      Host: 5.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,24,27,30|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '2082'
-  server: scw-fr.iiio.wiki
-  tls: false
-  type: vmess
-  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
-  ws-opts:
-    headers:
-      Host: scw-fr.iiio.wiki
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,14,20,23,24,27|_US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: 172.67.75.194
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇸🇬 Singapore 11 @nodpai
+  name: 7,27|中转 🇭🇰 Hong Kong 05 @nodpai
   network: tcp
-  port: '25012'
-  server: leonis.verdens.xyz
+  port: '25023'
+  server: piscium.verdens.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 7,24,27|中转 🇺🇸 United States 51 @nodpai
+  name: 0,2,3,4,6,7,13,19,20,26,27,30|🇭🇰 _CN_中国->🇭🇰_HK_香港
   network: tcp
-  port: '30012'
-  server: scorpii.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 15 @nodpai
-  network: tcp
-  port: '30023'
-  server: orionis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,13,18,20,23,24,27,30|_US_美国->🇨🇱_CL_智利
-  network: ws
-  port: 80
-  server: 172.67.149.81
-  skip-cert-verify: true
-  tfo: false
+  port: '51904'
+  server: 120.233.43.62
   tls: false
   type: vmess
-  udp: true
-  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
-  ws-opts:
-    headers:
-      Host: sdygarm.e5outllok.me
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 18 @nodpai
+  name: 7,27|中转 🇸🇬 Singapore 05 @nodpai
   network: tcp
-  port: '30001'
-  server: andromedae.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 09 @nodpai
-  network: tcp
-  port: '30002'
+  port: '30008'
   server: monocerotis.weltknoten.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 0,6,13,24,27|🇸🇬 _CN_中国->🇸🇬_SG_新加坡
-  network: tcp
-  port: '64012'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 22 @nodpai
-  network: tcp
-  port: '30004'
-  server: phoenicis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇩🇪 Germany 04 @nodpai
-  network: tcp
-  port: '25017'
-  server: centauri.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 13 @nodpai
-  network: tcp
-  port: '30003'
-  server: orionis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇰🇷 South Korea 01 @nodpai
-  password: 76190d93-5503-472c-a7b4-0a5e27107fe9
-  port: 55461
-  server: sh-zz-xx.newbluecloud.top
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 08 @nodpai
-  network: tcp
-  port: '25021'
-  server: aquaril.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇨🇳 China 16 @nodpai
-  network: tcp
-  port: '50002'
-  server: 112.132.212.112
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 24,27,30|17|🇺🇸_US_美国->🇨🇳_CN_中国_由快嘴科技提供：...
-  network: ws
-  port: 80
-  server: 172.67.149.100
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,10,19,20,24,26,27,30|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: tcp
-  port: '54004'
-  server: 183.232.249.40
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|中转 🇰🇷 South Korea 01 @nodp...
-  network: ws
-  port: '23611'
-  server: 11.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
-  ws-opts:
-    headers:
-      Host: 11.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|中转 🇬🇧 United Kingdom 01 @n...
-  network: ws
-  port: '23613'
-  server: 13.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
-  ws-opts:
-    headers:
-      Host: 13.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇮🇳 India 02 @nodpai
-  network: tcp
-  port: '30016'
-  server: andromedae.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,9,14,18,20,23,24,27|_US_美国->🇨🇦_CA_加拿大 2
+  name: 1,2,3,4,14,18,20,23,27|_US_美国->🇨🇦_CA_加拿大 2
   network: ws
   port: 443
   server: singapore.com
@@ -1190,41 +619,72 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 0,6,13,20,21,24,27,30|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: '443'
-  server: 104.31.16.196
+  name: 7,27|中转 🇺🇸 United States 29 @nodpai
+  network: tcp
+  port: '30013'
+  server: andromedae.weltknoten.xyz
   tls: true
   type: vmess
-  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 27|中转 🇺🇸 United States 126 @nodpa...
+  network: ws
+  port: '13375'
+  server: sh-zz-xx.newbluecloud.top
+  tls: true
+  type: vmess
+  uuid: 76190d93-5503-472c-a7b4-0a5e27107fe9
   ws-opts:
     headers:
-      Host: us-1.acyun.tk
+      Host: sh-zz-xx.newbluecloud.top
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,14,24,27|中转 🇺🇸 United States 70 @nodpai
+  name: 7,27|中转 🇭🇰 Hong Kong 14 @nodpai
   network: tcp
-  port: '51209'
-  server: 198.200.37.232
-  tls: false
+  port: '30020'
+  server: scorpii.weltknoten.xyz
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇨🇳 China 18 @nodpai
+  name: 7|中转 🇸🇬 Singapore 16 @nodpai
   network: tcp
-  port: '50002'
-  server: 114.117.234.12
+  port: '3506'
+  server: fusion.mlinuu.top
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
 - alterId: 0
   cipher: auto
-  name: 0,12,20,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国
+  name: '0,6,13,27|🇭🇰 _HK_香港->🇺🇸_US_美国 #2'
+  network: ws
+  port: '2052'
+  server: 103.160.204.63
+  tls: false
+  type: vmess
+  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue99
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇮🇳 India 01 @nodpai
+  network: tcp
+  port: '25018'
+  server: leonis.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: '0,27,30|🇺🇸 _US_美国->🇨🇳_CN_中国 #4'
   network: ws
   port: '80'
-  server: 172.67.59.39
+  server: 172.67.196.139
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -1234,29 +694,29 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 6,13,24,27|🇭🇰_HK_香港->🇺🇸_US_美国
-  network: ws
-  port: 80
-  server: 103.160.204.21
-  tls: false
-  type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  ws-opts:
-    headers:
-      Host: ecc.vtcss.top
-    path: /blue06
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|中转 🇹🇼 Taiwan 06 @nodpai
+  name: 7,27|中转 🇭🇰 Hong Kong 08 @nodpai
   network: tcp
-  port: '30010'
-  server: orionis.weltknoten.xyz
+  port: '25026'
+  server: ophiuchi.verdens.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 0,18,21,24,27|🇺🇸 _US_美国->🇫🇮_FI_芬兰
+  name: 27|中转 🇺🇸 United States 123 @nodpa...
+  network: ws
+  port: '13376'
+  server: sh-zz-xx.newbluecloud.top
+  tls: true
+  type: vmess
+  uuid: 76190d93-5503-472c-a7b4-0a5e27107fe9
+  ws-opts:
+    headers:
+      Host: sh-zz-xx.newbluecloud.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,18,21,27|🇺🇸 _US_美国->🇫🇮_FI_芬兰
   network: ws
   port: '80'
   server: 172.64.25.70
@@ -1269,29 +729,130 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 0,24|🇭🇰 _HK_香港->🇺🇸_US_美国
+  name: 30|🇺🇸_US_美国->🇨🇳_CN_中国_4_39_39
   network: ws
-  port: '80'
-  server: 103.160.204.154
+  port: 80
+  server: 172.67.57.119
   tls: false
   type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: ecc.vtcss.top
-    path: /blue06
+      Host: ca.ilovescp.com
+    path: /shirker
 - alterId: 0
   cipher: auto
-  name: 7,24,27|中转 🇭🇰 Hong Kong 17 @nodpai
+  name: 7|中转 🇭🇰 Hong Kong 38 @nodpai
   network: tcp
-  port: '25025'
-  server: centauri.verdens.xyz
+  port: '3503'
+  server: cn2.mlinuu.top
+  tls: false
+  type: vmess
+  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
+- alterId: 0
+  cipher: auto
+  name: 7,8,27|中转 🇺🇸 United States 04 @nodpai
+  network: ws
+  port: '42232'
+  server: mf632fx.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: c633cbf9-fb85-42eb-bae7-f2b5e2bbefe3
+  ws-opts:
+    headers:
+      Host: mf632fx.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,7,8,12,15,20,23,27|_US_美国->🇨🇱_CL_智利 2
+  network: ws
+  port: 80
+  server: sdygarm.e5outllok.me
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  ws-opts:
+    headers:
+      Host: sdygarm.e5outllok.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇯🇵 Japan 07 @nodpai
+  network: tcp
+  port: '25027'
+  server: aquaril.verdens.xyz
   tls: true
   type: vmess
   uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
 - alterId: 0
   cipher: auto
-  name: 24,27|7,8|中转 🇸🇬 Singapore 05 @nodpai
+  name: 7,27|中转 🇷🇺 Russia 01 @nodpai
+  network: tcp
+  port: '25020'
+  server: piscium.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 2,3,4,6,13,19,20,26,27|_CN_中国->🇭🇰_HK_香港
+  network: tcp
+  port: '64096'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇨🇳 China 24 @nodpai
+  network: tcp
+  port: '50002'
+  server: 112.132.212.112
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 21 @nodpai
+  network: tcp
+  port: '3501'
+  server: fusion.mlinuu.top
+  tls: false
+  type: vmess
+  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
+- alterId: 0
+  cipher: auto
+  name: '27|中转 🇰🇷 South Korea 01 @nodpai #1'
+  network: ws
+  port: '23611'
+  server: 11.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
+  ws-opts:
+    headers:
+      Host: 11.v2-ray.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8,27|中转 🇨🇳 China 01 @nodpai
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '27|中转 🇸🇬 Singapore 05 @nodpai #1'
   network: ws
   port: '23612'
   server: 12.v2-ray.cyou
@@ -1302,18 +863,24 @@ proxies:
     headers:
       Host: 12.v2-ray.cyou
     path: /
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,6,7,13,19,20,24,26,27,30|🇭🇰 _CN_中国->🇭🇰_HK_香港
-  network: tcp
-  port: '51904'
-  server: 120.233.43.62
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇷🇺 Russia 03 @nodpai
+  client-fingerprint: chrome
+  name: 1,2,3,4,6,13,20,23,27|_CN_中国->🇹🇼_TW_台湾
+  network: ws
+  port: 18075
+  server: 221.131.165.186
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76
+  ws-opts:
+    path: /soda
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇷🇺 Russia 05 @nodpai
   network: tcp
   port: '10010'
   server: fusion.mlinuu.top
@@ -1322,33 +889,272 @@ proxies:
   uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
 - alterId: 0
   cipher: auto
-  name: '0,10,12,20,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 #3'
-  network: ws
-  port: '80'
-  server: 172.67.211.253
+  name: 7,14,27|中转 🇺🇸 United States 41 @nodpai
+  network: tcp
+  port: '51209'
+  server: 198.200.37.232
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 24,27|7,8|中转 🇯🇵 Japan 03 @nodpai
+  name: 7,27|中转 🇺🇸 United States 25 @nodpai
+  network: tcp
+  port: '25009'
+  server: ophiuchi.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 0,6,13,20,21,27,30|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
   network: ws
-  port: '23619'
-  server: 19.v2-ray.cyou
+  port: '443'
+  server: 104.31.16.196
+  tls: true
+  type: vmess
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  ws-opts:
+    headers:
+      Host: us-1.acyun.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇨🇦 Canada 01 @nodpai
+  network: tcp
+  port: '15037'
+  server: 15037.kuaiyin.win
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- alterId: 0
+  cipher: auto
+  name: 27|中转 🇬🇧 United Kingdom 02 @nodpa...
+  network: ws
+  port: '23605'
+  server: 5.v2-ray.cyou
   tls: false
   type: vmess
   uuid: 845141c6-d809-3d7a-8b32-4c708a884a48
   ws-opts:
     headers:
-      Host: 19.v2-ray.cyou
+      Host: 5.v2-ray.cyou
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇺🇸 United States 71 @nodpai
+  name: 2,3,4,6,13,19,20,27|_CN_中国->🇦🇺_AU_澳大利亚
+  network: tcp
+  port: '64003'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,6,13,15,20,23,27|_US_美国->🇭🇰_HK_香港
+  network: ws
+  port: 80
+  server: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇸🇬 Singapore 02 @nodpai
+  network: tcp
+  port: '25012'
+  server: leonis.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇸🇬 Singapore 03 @nodpai
+  network: tcp
+  port: '25013'
+  server: ophiuchi.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,26,27|中转 🇭🇰 Hong Kong 02 @nodpai
+  network: tcp
+  port: '54073'
+  server: 36.141.40.34
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇺🇸 United States 27 @nodpai
+  network: tcp
+  port: '30012'
+  server: scorpii.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,6,13,18,20,23,27,30|_US_美国->🇨🇱_CL_智利
+  network: ws
+  port: 80
+  server: 172.67.149.81
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f31c0b34-977b-4c2b-acfa-becfdfc1f267
+  ws-opts:
+    headers:
+      Host: sdygarm.e5outllok.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇨🇳 China 14 @nodpai
+  network: tcp
+  port: '56002'
+  server: 39.103.165.178
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇮🇳 India 02 @nodpai
+  network: tcp
+  port: '30016'
+  server: andromedae.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇨🇳 China 13 @nodpai
+  network: tcp
+  port: '50002'
+  server: 114.117.234.12
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇹🇼 Taiwan 01 @nodpai
+  network: tcp
+  port: '25014'
+  server: piscium.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇬🇧 United Kingdom 04 @nodpa...
+  network: tcp
+  port: '25019'
+  server: aquaril.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db
+- alterId: 0
+  cipher: auto
+  name: '0,6,13,27|🇭🇰 _HK_香港->🇺🇸_US_美国 #1'
+  network: ws
+  port: '80'
+  server: 103.160.204.98
+  tls: false
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue06
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,20,21,23,27|_US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: 443
+  server: 172.67.135.195
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: AB135628-07F6-4F78-AF4D-E9CD8715143C
+  ws-opts:
+    headers:
+      Host: Amsterdam.bobbykotick.rip
+    path: /speedtest?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇹🇼 Taiwan 06 @nodpai
+  network: tcp
+  port: '10008'
+  server: fusion.mlinuu.top
+  tls: false
+  type: vmess
+  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇭🇰 Hong Kong 45 @nodpai
+  network: tcp
+  port: '3503'
+  server: fusion.mlinuu.top
+  tls: false
+  type: vmess
+  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇸🇬 Singapore 04 @nodpai
+  network: tcp
+  port: '30007'
+  server: andromedae.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇯🇵 Japan 09 @nodpai
+  network: tcp
+  port: '30006'
+  server: scorpii.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇨🇦 Canada 02 @nodpai
+  network: tcp
+  port: '25016'
+  server: piscium.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 0,27|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '443'
+  server: 172.67.8.239
+  tls: true
+  type: vmess
+  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+  ws-opts:
+    headers:
+      Host: vceu3e.twittei.me
+    path: /ikun
+- alterId: 0
+  cipher: auto
+  name: 7,8|中转 🇺🇸 United States 100 @nodpa...
   network: ws
   port: '443'
   server: 198.2.193.2
@@ -1359,3 +1165,153 @@ proxies:
     headers:
       Host: ''
     path: /path/252617081903
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,14,18,20,23,27|_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 443
+  server: cdn.twitter.now.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8d2ba456-2f0d-4c13-b8a0-bff99c679709
+  ws-opts:
+    headers:
+      Host: eu4.twittei.me
+    path: /ikun
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇺🇸 United States 24 @nodpai
+  network: tcp
+  port: '25006'
+  server: aquaril.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,14,20,23,27|_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 443
+  server: 172.67.75.194
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 0,6,13,27|🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+  network: tcp
+  port: '64012'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+- alterId: 0
+  cipher: auto
+  name: 6,13,27|🇭🇰_HK_香港->🇺🇸_US_美国
+  network: ws
+  port: 80
+  server: 103.160.204.21
+  tls: false
+  type: vmess
+  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
+  ws-opts:
+    headers:
+      Host: ecc.vtcss.top
+    path: /blue06
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇭🇰 Hong Kong 09 @nodpai
+  network: tcp
+  port: '30003'
+  server: orionis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇺🇸 United States 26 @nodpai
+  network: tcp
+  port: '25007'
+  server: centauri.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇰🇷 South Korea 01 @nodpai
+  network: tcp
+  port: '30024'
+  server: andromedae.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇷🇺 Russia 02 @nodpai
+  network: tcp
+  port: '30019'
+  server: andromedae.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇭🇰 Hong Kong 07 @nodpai
+  network: tcp
+  port: '25022'
+  server: leonis.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: 9ff96fbd-91d0-3aef-a229-b53280623d39
+- alterId: 0
+  cipher: auto
+  name: 7,10|中转 🇭🇰 Hong Kong 44 @nodpai
+  network: tcp
+  port: '3504'
+  server: fusion.mlinuu.top
+  tls: false
+  type: vmess
+  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇩🇪 Germany 05 @nodpai
+  network: tcp
+  port: '25017'
+  server: centauri.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: ae63dcc2-fea8-3ccd-999b-a162c5dbb5db
+- alterId: 64
+  cipher: auto
+  name: 0,6,12,13,19,20,27|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: tcp
+  port: '35977'
+  server: 156.225.67.171
+  tls: false
+  type: vmess
+  uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4
+- alterId: 0
+  cipher: auto
+  name: 7,8|中转 🇺🇸 United States 16 @nodpai
+  network: ws
+  port: '12356'
+  server: 106.75.142.25
+  tls: false
+  type: vmess
+  uuid: 08910a9b-8ed1-4106-bec2-9018f6e3cc3d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
