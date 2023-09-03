@@ -1,6 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7,9,14,21,24,27,28,31|🇨🇳 China 08 @nodpai
+  network: tcp
+  port: '46500'
+  server: 199.188.111.250
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 6,13,24,27|🇨🇳_CN_中国
+  network: ws
+  port: 19106
+  server: 221.131.165.175
+  tls: false
+  type: vmess
+  uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76
+  ws-opts:
+    path: /soda
+- alterId: 0
+  cipher: auto
   name: 19,20|CN-183.240.117.54-188
   network: tcp
   port: 36679
@@ -14,22 +34,54 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,12,15,20,23,24|_CN_中国
+  name: 19|CN-120.240.55.137-090
   network: ws
-  port: '13003'
-  server: cdn.node.user-sub.pddns-usersdk.com
+  port: 38201
+  server: 120.240.55.137
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    Host: 120.240.55.137
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7,8,24,27|🇨🇳 China 09 @nodpai
+  network: ws
+  port: '443'
+  server: 192.74.243.51
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: cdn.node.user-sub.pddns-usersdk.com
-    path: /ef483582-6269-468c-93af-c511eccb8a69
+      Host: ''
+    path: /path/173300203323
 - cipher: chacha20-ietf-poly1305
   name: 19|CN-117.149.247.11-247
   password: 8e949d75-3510-4678-8593-3c5032dd931a
   port: 30818
   server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 19|CN-119.36.161.40-047
+  network: ws
+  port: 443
+  server: 119.36.161.40
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: www.79759381.xyz
+  ws-path: /path/323127100515
+- cipher: aes-256-gcm
+  name: 19|CN-111.12.60.84-204
+  password: bBEXIq
+  port: 32201
+  server: i1.go001.buzz
   type: ss
 - alterId: 0
   cipher: auto
@@ -46,17 +98,57 @@ proxies:
   ws-path: /soda
 - alterId: 0
   cipher: auto
-  name: 24,27|7,8|🇨🇳 China 12 @nodpai
+  name: 19|CN-112.45.36.156-004
   network: ws
-  port: '443'
-  server: 142.4.100.108
+  port: 13003
+  server: cdn.node.user-sub.pddns-usersdk.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d
+  ws-headers:
+    Host: cdn.node.user-sub.pddns-usersdk.com
+  ws-path: /ef483582-6269-468c-93af-c511eccb8a69
+- alterId: 1
+  cipher: auto
+  name: 19|CN-112.30.145.132-186
+  network: ws
+  port: 50205
+  server: data-hk-v1.heisey.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    Host: tv.cctv.com
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 2
+  cipher: auto
+  name: 27|🇨🇳CN中国15
+  network: tcp
+  port: '25015'
+  server: piscium.verdens.xyz
   tls: true
   type: vmess
+  uuid: 64e4e80c-d929-390e-aa08-9ad23a633511
+- alterId: 0
+  cipher: auto
+  name: 7,24,27|🇨🇳 China 06 @nodpai
+  network: tcp
+  port: '42002'
+  server: 142.4.111.77
+  tls: false
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693650902893
+- alterId: 2
+  cipher: auto
+  name: 27|🇨🇳CN中国30
+  network: tcp
+  port: '30022'
+  server: monocerotis.weltknoten.xyz
+  tls: true
+  type: vmess
+  uuid: 64e4e80c-d929-390e-aa08-9ad23a633511
 - alterId: 0
   cipher: auto
   name: 19,20|CN-120.233.27.135-180
@@ -76,46 +168,9 @@ proxies:
   port: 31905
   server: i1.go001.buzz
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 27|🇨🇳CN中国30
-  network: tcp
-  port: '30022'
-  server: monocerotis.weltknoten.xyz
-  tls: true
-  type: vmess
-  uuid: 64e4e80c-d929-390e-aa08-9ad23a633511
-- cipher: aes-256-gcm
-  name: 19|CN-111.12.60.84-204
-  password: bBEXIq
-  port: 32201
-  server: i1.go001.buzz
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 7,8,24,27|🇨🇳 China 15 @nodpai
-  network: ws
-  port: '443'
-  server: 192.74.243.51
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/173300203323
-- alterId: 0
-  cipher: auto
-  name: 24,27|7|🇨🇳 China 09 @nodpai
-  network: tcp
-  port: '42002'
-  server: 142.4.111.77
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7,24,27|🇨🇳 China 13 @nodpai
+  name: 7,24,27|🇨🇳 China 07 @nodpai
   network: tcp
   port: '51715'
   server: 142.4.126.27
@@ -124,115 +179,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 24,27|7,8|🇨🇳 China 15 @nodpai
+  name: 0,1,2,3,4,7,8,12,15,20,23,24,27|_CN_中国
   network: ws
-  port: '443'
-  server: 142.0.132.35
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693650902893
-- alterId: 64
-  cipher: auto
-  name: 19|CN-119.36.161.40-047
-  network: ws
-  port: 443
-  server: 119.36.161.40
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: www.79759381.xyz
-  ws-path: /path/323127100515
-- alterId: 2
-  cipher: auto
-  name: 27|🇨🇳CN中国15
-  network: tcp
-  port: '25015'
-  server: piscium.verdens.xyz
-  tls: true
-  type: vmess
-  uuid: 64e4e80c-d929-390e-aa08-9ad23a633511
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|🇨🇳 China 11 @nodpai
-  network: ws
-  port: '443'
-  server: 142.4.115.171
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693650902893
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|🇨🇳 China 10 @nodpai
-  network: ws
-  port: '443'
-  server: 192.74.243.60
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693650902893
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|🇨🇳 China 13 @nodpai
-  network: ws
-  port: '443'
-  server: 192.74.231.72
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693632914931
-- alterId: 0
-  cipher: auto
-  name: 6,13,24,27|🇨🇳_CN_中国
-  network: ws
-  port: 19106
-  server: 221.131.165.175
-  tls: false
-  type: vmess
-  uuid: 1b35440a-1309-339b-9dd3-ff90ff887d76
-  ws-opts:
-    path: /soda
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.215-185
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 19|CN-112.45.36.156-004
-  network: ws
-  port: 13003
+  port: '13003'
   server: cdn.node.user-sub.pddns-usersdk.com
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d
-  ws-headers:
-    Host: cdn.node.user-sub.pddns-usersdk.com
-  ws-path: /ef483582-6269-468c-93af-c511eccb8a69
+  ws-opts:
+    headers:
+      Host: cdn.node.user-sub.pddns-usersdk.com
+    path: /ef483582-6269-468c-93af-c511eccb8a69
 - alterId: 0
   cipher: auto
   name: 19,20|CN-183.240.117.54-171
@@ -248,36 +205,14 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: 19|CN-112.30.145.132-186
+  name: 19|CN-111.38.37.215-185
   network: ws
   port: 50205
-  server: data-hk-v1.heisey.cn
+  server: data-hk-v2.shwjfkw.cn
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-headers:
-    Host: tv.cctv.com
+    Host: data-hk-v2.shwjfkw.cn
   ws-path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.240.55.137-090
-  network: ws
-  port: 38201
-  server: 120.240.55.137
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-headers:
-    Host: 120.240.55.137
-  ws-path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 7,9,14,21,24,27,28,30|🇨🇳 China 14 @nodpai
-  network: tcp
-  port: '46500'
-  server: 199.188.111.250
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
