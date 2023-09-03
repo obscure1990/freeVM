@@ -1,8 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ba93959b-ed7d-4c9b-b1ec-732e676aa9bf
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,6,10,13,20,21,23,24|_CA_加拿大
+  name: 1,2,3,4,6,13,20,21,23,24|_CA_加拿大
   network: ws
   port: 443
   server: 23.227.38.81
@@ -11,6 +21,19 @@ proxies:
   tls: true
   type: vmess
   udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.38.82
+  tls: true
+  type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
@@ -38,31 +61,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 01d731ee-0581-4682-812d-b69df2c478e8
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇨🇦 CA(AzadNet.t.me)_004
-  network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 70986b9b-bf43-4084-905c-b8606c9f8fff
+  uuid: 626a5d94-d1b2-4f0f-9bb9-ff181697f567
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦 加拿大_0902008
@@ -79,14 +78,15 @@ proxies:
     path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
+  name: 24|12|🇨🇦 CA(AzadNet.t.me)_004
   network: ws
-  port: 443
-  server: 23.227.38.82
-  tls: true
+  port: 80
+  server: ca1-vmess.greenssh.xyz
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+      Host: ca1-vmess.greenssh.xyz
+    path: /
