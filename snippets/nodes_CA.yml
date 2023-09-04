@@ -1,18 +1,42 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.79.50.242-095
+  password: YTdiM
+  port: 8388
+  server: ca01.proxysocks.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.79.53.254-114
+  password: Y2RkM
+  port: 8388
+  server: ca02.proxysocks.xyz
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 CA(AzadNet.t.me)_004
+  name: 7,8,24|🇨🇦 Canada 03 @nodpai
   network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  servername: ''
+  port: '2095'
+  server: camtlebb.76898102.xyz
   tls: false
   type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
   ws-opts:
     headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: dongtaiwang2.com
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
 - cipher: chacha20-ietf-poly1305
   name: 28|CA_speednode_0001
   password: cLc4PM8ADUxgOin4hAZDAA
@@ -20,6 +44,16 @@ proxies:
   server: 193.203.203.86
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a4380e54-1ba7-47e8-b1d6-e6e4beee6350
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -37,41 +71,20 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.79.53.254-114
-  password: Y2RkM
-  port: 8388
-  server: ca02.proxysocks.xyz
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
+  name: 21,24|🇨🇦 CA(AzadNet.t.me)_004
   network: ws
-  port: 443
-  server: dongtaiwang2.com
-  tls: true
+  port: 80
+  server: ca1-vmess.greenssh.xyz
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
   ws-opts:
     headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5ea7ab14-6461-40de-b142-8abed7baab06
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.79.50.242-095
-  password: YTdiM
-  port: 8388
-  server: ca01.proxysocks.xyz
-  type: ss
+      Host: ca1-vmess.greenssh.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -82,16 +95,3 @@ proxies:
   tls: true
   type: vmess
   uuid: eb823a2f-0f26-433f-bbd8-841113b77d19
-- alterId: 0
-  cipher: auto
-  name: 7,24|🇨🇦 Canada 03 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
