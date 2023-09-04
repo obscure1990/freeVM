@@ -1,33 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 CA(AzadNet.t.me)_004
-  network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: dongtaiwang2.com
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 1,2,3,4,12,14,20,23,24,25,26|_CA_加拿大
   network: ws
@@ -43,12 +16,39 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.79.50.242-095
-  password: YTdiM
-  port: 8388
-  server: ca01.proxysocks.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5005165e-3043-4e97-9f41-a7319f7d931d
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: dongtaiwang2.com
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5293295d-9cf7-4b1d-8223-20e8f3737433
 - cipher: chacha20-ietf-poly1305
   name: 28|CA_speednode_0001
   password: cLc4PM8ADUxgOin4hAZDAA
@@ -62,6 +62,26 @@ proxies:
   port: 8388
   server: ca02.proxysocks.xyz
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.79.50.242-095
+  password: YTdiM
+  port: 8388
+  server: ca01.proxysocks.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 CA(AzadNet.t.me)_004
+  network: ws
+  port: 80
+  server: ca1-vmess.greenssh.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
+  ws-opts:
+    headers:
+      Host: ca1-vmess.greenssh.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 24|7,8|🇨🇦 Canada 04 @nodpai
@@ -75,23 +95,3 @@ proxies:
     headers:
       Host: camtlebb.76898102.xyz
     path: /funsdfrh
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 5005165e-3043-4e97-9f41-a7319f7d931d
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5293295d-9cf7-4b1d-8223-20e8f3737433
