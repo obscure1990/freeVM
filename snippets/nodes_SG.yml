@@ -1,4 +1,27 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 28|SG_speednode_0028
+  obfs: tls1.2_ticket_auth
+  obfs-param: None
+  password: 3g0dHlKME
+  port: 32001
+  protocol: origin
+  protocol-param: ''
+  server: sg-am3.eqsunshine.com
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 24|7,8|🇸🇬 Singapore 41 @nodpai
+  network: ws
+  port: '80'
+  server: 172.67.74.240
+  tls: false
+  type: vmess
+  uuid: 722b14be-9571-4510-a348-936822af7a3b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /videos
 - alterId: 0
   cipher: auto
   name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #1'
@@ -12,22 +35,6 @@ proxies:
     headers:
       Host: in-sg-1.onebox6.org
     path: /hls/cctv5phd.m3u8
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-225
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e2ba1f27-18c3-431a-ba1f-451f909e3cdf
 - alterId: 0
   cipher: auto
   name: 24|7,8|🇸🇬 Singapore 29 @nodpai
@@ -56,145 +63,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 22,24|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cce9420a-f7e1-459a-aac7-c7d95b516833
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇸🇬 Singapore 20 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.128.0
-  tls: false
-  type: vmess
-  uuid: 722b14be-9571-4510-a348-936822af7a3b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /videos
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e2ba1f27-18c3-431a-ba1f-451f909e3cdf
-- alterId: 0
-  cipher: auto
-  name: 24|7,8|🇸🇬 Singapore 28 @nodpai
+  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #2'
   network: ws
   port: '443'
-  server: 172.64.229.129
-  tls: true
+  server: cs.hgdbk.ga
+  tls: false
   type: vmess
-  uuid: 235fa4fe-078c-4bd9-bb4f-d799d3193d3f
+  uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef
   ws-opts:
     headers:
-      Host: ''
-    path: /ec3a017507e0/
+      Host: YouTube-aweikeji
+    path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: 19,20|SG-43.156.47.216-083
-  network: tcp
-  port: 33536
-  server: 43.156.47.216
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 05d96121-fae4-4167-dc12-1e6fe003e45a
-  ws-headers:
-    Host: 43.156.47.216
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|SG-139.162.7.74-132
-  network: ws
-  port: 443
-  server: vsg1.0bad.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-headers:
-    Host: vsg1.0bad.com
-  ws-path: /chat
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇸🇬 Singapore 19 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.129.44
-  tls: false
-  type: vmess
-  uuid: 722b14be-9571-4510-a348-936822af7a3b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /videos
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 09 @nodpai
-  password: 235fa4fe-078c-4bd9-bb4f-d799d3193d3f
-  port: 24961
-  server: free.node.kk-proxy.pro
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|SG_speednode_0028
-  obfs: tls1.2_ticket_auth
-  obfs-param: None
-  password: 3g0dHlKME
-  port: 32001
-  protocol: origin
-  protocol-param: ''
-  server: sg-am3.eqsunshine.com
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cce9420a-f7e1-459a-aac7-c7d95b516833
-- alterId: 64
-  cipher: auto
-  name: 19|SG-159.223.94.156-229
-  network: ws
-  port: 80
-  server: 159.223.94.156
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  ws-headers:
-    Host: 159.223.94.156
-  ws-path: /anti13.zingfast.vn
-- alterId: 0
-  cipher: auto
-  name: 19,20|SG-138.2.86.43-174
-  network: tcp
-  port: 32574
-  server: 138.2.86.43
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6e0aae55-230c-45a0-8591-7fce1ec7a326
-  ws-headers:
-    Host: 138.2.86.43
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 06 @nodpai
+  name: 7,8|🇸🇬 Singapore 01 @nodpai
   network: ws
   port: '80'
   server: cfyd.starsea.vip
@@ -205,44 +87,6 @@ proxies:
     headers:
       Host: cfyd.starsea.vip
     path: /sshkit/1736960111/64ee26041efcc/
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cce9420a-f7e1-459a-aac7-c7d95b516833
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.250.97.26
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇸🇬 Singapore 18 @nodpai
-  network: ws
-  port: '80'
-  server: 172.67.74.240
-  tls: false
-  type: vmess
-  uuid: 722b14be-9571-4510-a348-936822af7a3b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /videos
-- cipher: chacha20-ietf-poly1305
-  name: 8,19|🇸🇬 Singapore 01 @nodpai
-  password: 235fa4fe-078c-4bd9-bb4f-d799d3193d3f
-  port: 24962
-  server: free.node.kk-proxy.pro
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 19|SG-158.178.229.189-033
@@ -258,6 +102,19 @@ proxies:
   ws-path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
+  name: 7,8|🇸🇬 Singapore 07 @nodpai
+  network: ws
+  port: '443'
+  server: b3.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
+  ws-opts:
+    headers:
+      Host: b3.wuxianliulianng.xyz
+    path: /sometimesnaive
+- alterId: 0
+  cipher: auto
   name: 21,24|SG_50 |42.06Mb
   network: ws
   port: 36788
@@ -270,51 +127,75 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 21 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.129.99
-  tls: false
-  type: vmess
-  uuid: 722b14be-9571-4510-a348-936822af7a3b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /videos
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 17 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.152.0
-  tls: false
-  type: vmess
-  uuid: 722b14be-9571-4510-a348-936822af7a3b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /videos
 - cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-223
+  name: 19|SG-54.251.168.143-225
   password: amazonskr05
   port: 443
-  server: 13.213.46.196
+  server: 54.251.168.143
   type: ss
 - alterId: 0
   cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #2'
+  name: 19|SG-139.162.7.74-132
+  network: ws
+  port: 443
+  server: vsg1.0bad.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    Host: vsg1.0bad.com
+  ws-path: /chat
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e2ba1f27-18c3-431a-ba1f-451f909e3cdf
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cce9420a-f7e1-459a-aac7-c7d95b516833
+- alterId: 0
+  cipher: auto
+  name: 24|7,8|🇸🇬 Singapore 28 @nodpai
   network: ws
   port: '443'
-  server: cs.hgdbk.ga
-  tls: false
+  server: 172.64.229.129
+  tls: true
   type: vmess
-  uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef
+  uuid: 235fa4fe-078c-4bd9-bb4f-d799d3193d3f
   ws-opts:
     headers:
-      Host: YouTube-aweikeji
-    path: /cctv13/hd.m3u8
+      Host: ''
+    path: /ec3a017507e0/
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e2ba1f27-18c3-431a-ba1f-451f909e3cdf
+- cipher: chacha20-ietf-poly1305
+  name: 8,19|🇸🇬 Singapore 05 @nodpai
+  password: 235fa4fe-078c-4bd9-bb4f-d799d3193d3f
+  port: 24962
+  server: free.node.kk-proxy.pro
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 20|🇸🇬 新加坡(油管:破解资源君2.0)
@@ -330,6 +211,73 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
+  name: 22,24|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cce9420a-f7e1-459a-aac7-c7d95b516833
+- alterId: 0
+  cipher: auto
+  name: 24|7,8|🇸🇬 Singapore 42 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.128.0
+  tls: false
+  type: vmess
+  uuid: 722b14be-9571-4510-a348-936822af7a3b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /videos
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.97.26
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-223
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cce9420a-f7e1-459a-aac7-c7d95b516833
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 04 @nodpai
+  password: 235fa4fe-078c-4bd9-bb4f-d799d3193d3f
+  port: 24961
+  server: free.node.kk-proxy.pro
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19,20|SG-43.156.47.216-083
+  network: tcp
+  port: 33536
+  server: 43.156.47.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 05d96121-fae4-4167-dc12-1e6fe003e45a
+  ws-headers:
+    Host: 43.156.47.216
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 11,24|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -338,9 +286,22 @@ proxies:
   tls: true
   type: vmess
   uuid: e2ba1f27-18c3-431a-ba1f-451f909e3cdf
+- alterId: 64
+  cipher: auto
+  name: 19|SG-159.223.94.156-229
+  network: ws
+  port: 80
+  server: 159.223.94.156
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  ws-headers:
+    Host: 159.223.94.156
+  ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: 24|7,8|🇸🇬 Singapore 04 @nodpai
+  name: 7,8,24|🇸🇬 Singapore 03 @nodpai
   network: ws
   port: '443'
   server: free2.node.kk-proxy.pro
@@ -351,3 +312,29 @@ proxies:
     headers:
       Host: free2.node.kk-proxy.pro
     path: /ec3a017507e0/
+- alterId: 0
+  cipher: auto
+  name: 19,20|SG-138.2.86.43-174
+  network: tcp
+  port: 32574
+  server: 138.2.86.43
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6e0aae55-230c-45a0-8591-7fce1ec7a326
+  ws-headers:
+    Host: 138.2.86.43
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 24|7,8|🇸🇬 Singapore 43 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.129.44
+  tls: false
+  type: vmess
+  uuid: 722b14be-9571-4510-a348-936822af7a3b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /videos
