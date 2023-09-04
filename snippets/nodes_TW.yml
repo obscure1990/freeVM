@@ -1,11 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾06
+  name: 11,24|🇹🇼台湾04
   network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
   uuid: 596d1eb5-44c0-41e3-9ce2-d0d8b10ea467
@@ -25,6 +25,15 @@ proxies:
   server: 103.177.33.68
   tfo: false
   type: ss
+- name: 8|🇹🇼 Taiwan 01 @nodpai
+  password: 26bae9b023
+  port: 20443
+  server: h3816tw.strongpipe.live
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: dcf12c7e7d
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 06  | 1x TWN
@@ -37,43 +46,14 @@ proxies:
   uuid: a9090c2c-bfc6-49fa-b8b5-985bfaee69ba
 - alterId: 0
   cipher: auto
-  name: 21,24|🇹🇼 Taiwan 05 @nodpai
-  network: ws
-  port: '443'
-  server: tw98-1g-hinet.mytls888.com
-  tls: false
-  type: vmess
-  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
-  ws-opts:
-    headers:
-      Host: tw98-1g-hinet.mytls888.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
+  name: 11,24|🇹🇼台湾06
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a9090c2c-bfc6-49fa-b8b5-985bfaee69ba
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
   tls: true
   type: vmess
   uuid: 596d1eb5-44c0-41e3-9ce2-d0d8b10ea467
-- cipher: aes-256-gcm
-  name: 19|TW-111.246.3.245-253
-  password: 66018fc4-c8c2-411f-99ae-fe410993a3bd
-  port: 42141
-  server: zsr.tw.hinet.661145.xyz
-  type: ss
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 04  | 1x TWN
@@ -97,15 +77,6 @@ proxies:
   ws-headers:
     Host: diamonds-july-egg-sporting.trycloudflare.com
   ws-path: /
-- name: 8|🇹🇼 Taiwan 02 @nodpai
-  password: 43b48c1412
-  port: 20443
-  server: pqs-tw-11444.strongpipe.live
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: c0b15b8aea
 - alterId: 0
   cipher: auto
   name: 12,19,20,24|台湾省 中华电信
@@ -126,12 +97,41 @@ proxies:
   tls: true
   type: vmess
   uuid: 596d1eb5-44c0-41e3-9ce2-d0d8b10ea467
-- name: 8|🇹🇼 Taiwan 01 @nodpai
-  password: 26bae9b023
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇹🇼 Taiwan 05 @nodpai
+  network: ws
+  port: '443'
+  server: tw98-1g-hinet.mytls888.com
+  tls: false
+  type: vmess
+  uuid: 886ac452-590a-3dae-bed9-96203e9aacfb
+  ws-opts:
+    headers:
+      Host: tw98-1g-hinet.mytls888.com
+    path: /
+- name: 8|🇹🇼 Taiwan 02 @nodpai
+  password: 43b48c1412
   port: 20443
-  server: h3816tw.strongpipe.live
+  server: pqs-tw-11444.strongpipe.live
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: dcf12c7e7d
+  username: c0b15b8aea
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a9090c2c-bfc6-49fa-b8b5-985bfaee69ba
+- cipher: aes-256-gcm
+  name: 19|TW-111.246.3.245-253
+  password: 66018fc4-c8c2-411f-99ae-fe410993a3bd
+  port: 42141
+  server: zsr.tw.hinet.661145.xyz
+  type: ss
