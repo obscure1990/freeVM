@@ -1,10 +1,27 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.79.53.254-107
-  password: Y2RkM
-  port: 8388
-  server: ca02.proxysocks.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 45c28d58-ef46-4d33-8c62-52566aa55c30
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 03 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
+  ws-opts:
+    headers:
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -37,6 +54,16 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
+  name: 11|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 69f204e6-a22b-4849-ab4d-ed8dc7565074
+- alterId: 0
+  cipher: auto
   name: 21|🇨🇦 加拿大_0902008
   network: ws
   port: 59618
@@ -49,42 +76,15 @@ proxies:
     headers:
       Host: ''
     path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 22|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 45c28d58-ef46-4d33-8c62-52566aa55c30
-- alterId: 0
-  cipher: auto
-  name: 11|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 69f204e6-a22b-4849-ab4d-ed8dc7565074
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 03 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
 - cipher: chacha20-ietf-poly1305
   name: 19|CA-51.79.50.242-088
   password: YTdiM
   port: 8388
   server: ca01.proxysocks.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.79.53.254-107
+  password: Y2RkM
+  port: 8388
+  server: ca02.proxysocks.xyz
   type: ss
