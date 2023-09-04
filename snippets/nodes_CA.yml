@@ -1,4 +1,24 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 28|CA_speednode_0003
+  password: cLc4PM8ADUxgOin4hAZDAA
+  port: 80
+  server: 193.203.203.86
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: dongtaiwang2.com
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -16,16 +36,19 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 28|CA_speednode_0003
-  password: cLc4PM8ADUxgOin4hAZDAA
-  port: 80
-  server: 193.203.203.86
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8,24|🇨🇦 Canada 02 @nodpai
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 42e6d0f9-8bff-46f6-b655-f782d997bb87
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 04 @nodpai
   network: ws
   port: '2095'
   server: camtlebb.76898102.xyz
@@ -38,16 +61,6 @@ proxies:
     path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0ea341be-e7b3-4bf0-adcf-8a8569b50154
-- alterId: 0
-  cipher: auto
   name: 22,24|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -56,16 +69,3 @@ proxies:
   tls: true
   type: vmess
   uuid: cc14a702-887a-407c-934d-6cfaa616f887
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: dongtaiwang2.com
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
