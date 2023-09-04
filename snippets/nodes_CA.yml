@@ -5,6 +5,12 @@ proxies:
   port: 8388
   server: ca02.proxysocks.xyz
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.79.50.242-095
+  password: YTdiM
+  port: 8388
+  server: ca01.proxysocks.xyz
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -15,12 +21,20 @@ proxies:
   tls: true
   type: vmess
   uuid: 596d1eb5-44c0-41e3-9ce2-d0d8b10ea467
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.79.50.242-095
-  password: YTdiM
-  port: 8388
-  server: ca01.proxysocks.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 CA(AzadNet.t.me)_004
+  network: ws
+  port: 80
+  server: ca1-vmess.greenssh.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
+  ws-opts:
+    headers:
+      Host: ca1-vmess.greenssh.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -34,6 +48,23 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 28|CA_speednode_0001
+  password: cLc4PM8ADUxgOin4hAZDAA
+  port: 80
+  server: 193.203.203.86
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d29914fb-9935-415c-b859-124c5262c079
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -53,21 +84,7 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 CA(AzadNet.t.me)_004
-  network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 06 @nodpai
+  name: 24|7,8|🇨🇦 Canada 03 @nodpai
   network: ws
   port: '2095'
   server: camtlebb.76898102.xyz
@@ -78,20 +95,3 @@ proxies:
     headers:
       Host: camtlebb.76898102.xyz
     path: /funsdfrh
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a9090c2c-bfc6-49fa-b8b5-985bfaee69ba
-- cipher: chacha20-ietf-poly1305
-  name: 28|CA_speednode_0001
-  password: cLc4PM8ADUxgOin4hAZDAA
-  port: 80
-  server: 193.203.203.86
-  type: ss
-  udp: true
