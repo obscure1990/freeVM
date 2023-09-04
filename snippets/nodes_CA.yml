@@ -1,4 +1,17 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 28|CA_speednode_0003
+  password: cLc4PM8ADUxgOin4hAZDAA
+  port: 80
+  server: 193.203.203.86
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.79.53.254-114
+  password: Y2RkM
+  port: 8388
+  server: ca02.proxysocks.xyz
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -12,6 +25,12 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.79.50.242-095
+  password: YTdiM
+  port: 8388
+  server: ca01.proxysocks.xyz
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -21,7 +40,20 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bca9b78f-4946-4fb8-af19-e1d7dde976b7
+  uuid: 43398467-216d-4c27-94b0-8274646408a4
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 07 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
+  ws-opts:
+    headers:
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -41,19 +73,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇦 Canada 09 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
-- alterId: 0
-  cipher: auto
   name: 24|12|🇨🇦 CA(AzadNet.t.me)_004
   network: ws
   port: 80
@@ -66,25 +85,6 @@ proxies:
     headers:
       Host: ca1-vmess.greenssh.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.79.53.254-114
-  password: Y2RkM
-  port: 8388
-  server: ca02.proxysocks.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.79.50.242-095
-  password: YTdiM
-  port: 8388
-  server: ca01.proxysocks.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CA_speednode_0003
-  password: cLc4PM8ADUxgOin4hAZDAA
-  port: 80
-  server: 193.203.203.86
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -94,4 +94,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 715c52cb-4fa5-45f6-9efa-a6522922497b
+  uuid: a94674a5-17bf-4e5f-940d-5918bc3ae770
