@@ -1,4 +1,43 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 28|CA_speednode_0002
+  password: cLc4PM8ADUxgOin4hAZDAA
+  port: 80
+  server: 193.203.203.86
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9b934441-c506-43be-8e38-4fd55f53d867
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 728dd0ed-8915-4a2f-bcbf-c7b600c7cd46
+- alterId: 0
+  cipher: auto
+  name: 0,21,24,25,26|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 24|7,8|🇨🇦 Canada 02 @nodpai
@@ -14,32 +53,6 @@ proxies:
     path: /tuyoyoloveeveryone
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d13f762f-a6bf-43d7-a36e-f0ca0df0e337
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 728dd0ed-8915-4a2f-bcbf-c7b600c7cd46
-- cipher: chacha20-ietf-poly1305
-  name: 28|CA_speednode_0002
-  password: cLc4PM8ADUxgOin4hAZDAA
-  port: 80
-  server: 193.203.203.86
-  type: ss
-- alterId: 0
-  cipher: auto
   name: '0,18,21,24,31|🇨🇦 _CA_加拿大 #1'
   network: ws
   port: '443'
@@ -50,17 +63,4 @@ proxies:
   ws-opts:
     headers:
       Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 0,21,24,25,26|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
     path: /dongtaiwang.com
