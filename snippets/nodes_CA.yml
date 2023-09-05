@@ -1,6 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 49b21eda-2308-4675-9295-89838b1a394a
+- cipher: chacha20-ietf-poly1305
+  name: 28|CA_speednode_0002
+  password: cLc4PM8ADUxgOin4hAZDAA
+  port: 80
+  server: 193.203.203.86
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 0,21,23,24,25,26|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
@@ -12,26 +28,6 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 45e85bc2-a246-4f39-b8c9-503199125245
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 49b21eda-2308-4675-9295-89838b1a394a
 - alterId: 0
   cipher: auto
   name: '0,18,21,24,31|🇨🇦 _CA_加拿大 #1'
@@ -47,20 +43,11 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 7,8,24|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '2095'
-  server: speedip.tuyoyo.link
-  tls: false
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: f37827de-199b-474a-847e-1da4f28fedcc
-  ws-opts:
-    headers:
-      Host: speedip.tuyoyo.link
-    path: /tuyoyoloveeveryone
-- cipher: chacha20-ietf-poly1305
-  name: 28|CA_speednode_0002
-  password: cLc4PM8ADUxgOin4hAZDAA
-  port: 80
-  server: 193.203.203.86
-  type: ss
+  uuid: 45e85bc2-a246-4f39-b8c9-503199125245
