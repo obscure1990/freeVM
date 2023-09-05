@@ -1,17 +1,26 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 28|CA_speednode_0002
+  password: cLc4PM8ADUxgOin4hAZDAA
+  port: 80
+  server: 193.203.203.86
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  name: 0,21,23,24,25,26|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
   tls: true
   type: vmess
-  uuid: 33b324be-45b4-4af8-89ad-45262242fe23
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 7,8,24|🇨🇦 Canada 01 @nodpai
+  name: 7,8,24|🇨🇦 Canada 02 @nodpai
   network: ws
   port: '2095'
   server: camtlebb.76898102.xyz
@@ -24,7 +33,17 @@ proxies:
     path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: '0,18,20,24,31|🇨🇦 _CA_加拿大 #1'
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 96afefc5-6d59-4b67-8e72-ca254fa9c8aa
+- alterId: 0
+  cipher: auto
+  name: '0,18,21,24,31|🇨🇦 _CA_加拿大 #1'
   network: ws
   port: '443'
   server: 23.227.39.109
@@ -37,30 +56,11 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
+  name: 11,24|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5da2921b-e0fc-4690-8688-3f4bacc1329e
-- cipher: chacha20-ietf-poly1305
-  name: 28|CA_speednode_0002
-  password: cLc4PM8ADUxgOin4hAZDAA
-  port: 80
-  server: 193.203.203.86
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0,20,23,24,25,26|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+  uuid: f03dc3df-9229-49fd-a41d-00d1db7079cf
