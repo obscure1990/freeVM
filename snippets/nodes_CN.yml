@@ -1,16 +1,25 @@
 proxies:
-- alterId: 1
+- alterId: 2
   cipher: auto
-  name: 19|CN-111.38.37.215-188
+  name: 14|中国_【YouTube-VV科技】_29
+  network: tcp
+  port: 10003
+  server: cnah2.lanyunshi.cc
+  tls: false
+  type: vmess
+  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
+- alterId: 0
+  cipher: auto
+  name: 19|CN-120.240.55.137-157
   network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
+  port: 38201
+  server: 120.240.55.137
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
   ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
+    Host: 120.240.55.137
   ws-path: /hls/cctv5phd.m3u8
 - alterId: 2
   cipher: auto
@@ -21,32 +30,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 19|CN-113.142.205.92-051
+  name: 19|CN-112.30.145.132-189
   network: ws
-  port: 443
-  server: 113.142.205.92
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2fb8c800-89c1-44dd-a425-b37bc0bb2a0a
-  ws-headers:
-    Host: zxdz1962cc.czsx1624.tk
-  ws-path: /f65a148681c42/
-- alterId: 0
-  cipher: auto
-  name: 19|CN-112.45.36.156-301
-  network: ws
-  port: 13003
-  server: cdn.node.user-sub.pddns-usersdk.com
+  port: 50205
+  server: data-hk-v1.heisey.cn
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-headers:
-    Host: cdn.node.user-sub.pddns-usersdk.com
-  ws-path: /ef483582-6269-468c-93af-c511eccb8a69
+    Host: tv.cctv.com
+  ws-path: /hls/cctv5phd.m3u8
 - alterId: 2
   cipher: auto
   name: 14|中国_【YouTube-VV科技】_1
@@ -56,21 +52,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 14|中国_【YouTube-VV科技】_29
+  name: 19,20|CN-120.233.27.151-271
   network: tcp
-  port: 10003
-  server: cnah2.lanyunshi.cc
+  port: 50000
+  server: cc-iepl.244312.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9c01940a-10b1-3978-b0fb-aeb14179f174
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-241
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
+  uuid: bdd25afb-36f7-421c-b5da-3f4212de3398
+  ws-headers:
+    Host: cc-iepl.244312.xyz
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 19|CN-42.186.175.8-140
@@ -90,58 +84,19 @@ proxies:
   port: 1815
   server: g05.hk05-ae5.entry.hsrtd.club
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.240.55.137-157
-  network: ws
-  port: 38201
-  server: 120.240.55.137
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-headers:
-    Host: 120.240.55.137
-  ws-path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-120.233.27.151-271
-  network: tcp
-  port: 50000
-  server: cc-iepl.244312.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bdd25afb-36f7-421c-b5da-3f4212de3398
-  ws-headers:
-    Host: cc-iepl.244312.xyz
-  ws-path: /
 - alterId: 1
   cipher: auto
-  name: 19|CN-112.30.145.132-189
+  name: 19|CN-111.38.37.215-188
   network: ws
   port: 50205
-  server: data-hk-v1.heisey.cn
+  server: data-hk-v2.shwjfkw.cn
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-headers:
-    Host: tv.cctv.com
+    Host: data-hk-v2.shwjfkw.cn
   ws-path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-120.233.27.135-190
-  network: tcp
-  port: 36676
-  server: 4.hk.zz.xxxxx.x-t-fuckword.network
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
-  ws-path: /
 - alterId: 64
   cipher: auto
   name: 19|CN-119.36.161.40-104
@@ -155,3 +110,48 @@ proxies:
   ws-headers:
     Host: www.25055502.xyz
   ws-path: /path/323127100515
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-241
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|CN-113.142.205.92-051
+  network: ws
+  port: 443
+  server: 113.142.205.92
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2fb8c800-89c1-44dd-a425-b37bc0bb2a0a
+  ws-headers:
+    Host: zxdz1962cc.czsx1624.tk
+  ws-path: /f65a148681c42/
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-120.233.27.135-190
+  network: tcp
+  port: 36676
+  server: 4.hk.zz.xxxxx.x-t-fuckword.network
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  ws-headers:
+    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CN-112.45.36.156-301
+  network: ws
+  port: 13003
+  server: cdn.node.user-sub.pddns-usersdk.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5f9f4df4-5398-35d1-9a6a-44a8a575832d
+  ws-headers:
+    Host: cdn.node.user-sub.pddns-usersdk.com
+  ws-path: /ef483582-6269-468c-93af-c511eccb8a69
