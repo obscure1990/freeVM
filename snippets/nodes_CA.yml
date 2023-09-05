@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
+  ws-opts:
+    headers:
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
   name: 0,21,23,24,25,26|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
@@ -14,32 +27,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 741caf1d-ef70-49a0-9449-82ee32c2cac2
-- cipher: chacha20-ietf-poly1305
-  name: 28|CA_speednode_0002
-  password: cLc4PM8ADUxgOin4hAZDAA
-  port: 80
-  server: 193.203.203.86
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 24504a33-8e91-4e8a-b917-41f1646717e5
-- alterId: 0
-  cipher: auto
   name: '0,18,21,24,31|🇨🇦 _CA_加拿大 #1'
   network: ws
   port: '443'
@@ -51,16 +38,29 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 28|CA_speednode_0002
+  password: cLc4PM8ADUxgOin4hAZDAA
+  port: 80
+  server: 193.203.203.86
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇦 Canada 02 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
+  uuid: 741caf1d-ef70-49a0-9449-82ee32c2cac2
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5f1b8ca4-3188-4e2d-a292-aa7aecf05883
