@@ -1,23 +1,20 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 1d929433-4cf1-4726-ae0d-8d451d9faad6
 - cipher: chacha20-ietf-poly1305
   name: 28|CA_speednode_0002
   password: cLc4PM8ADUxgOin4hAZDAA
   port: 80
   server: 193.203.203.86
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
 - alterId: 0
   cipher: auto
   name: '0,12,15,18,20,21,24|🇨🇦 _CA_加拿大 #1'
@@ -31,16 +28,6 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8a50b5de-44e4-4130-a6b0-b14351748cdd
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -64,3 +51,16 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 02 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
+  ws-opts:
+    headers:
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
