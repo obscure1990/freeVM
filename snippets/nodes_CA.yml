@@ -1,23 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,3,4,15,20,23,24,25,26|_CA_加拿大
-  network: ws
-  port: 443
-  server: dongtaiwang3.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
   name: 24|7,8|🇨🇦 Canada 20 @nodpai
   network: ws
   port: '2095'
@@ -31,21 +14,11 @@ proxies:
     path: /funsdfrh
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f41f9f4c-ed31-45db-9a99-76965a69d160
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 1,3,4,10,14,20,23,24|_CA_加拿大 2
+  name: 1,3,4,15,20,23,24,25,26|_CA_加拿大
   network: ws
   port: 443
-  server: 23.227.38.81
+  server: dongtaiwang3.com
   skip-cert-verify: true
   tfo: false
   tls: true
@@ -71,13 +44,21 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|CA 3 → tg@nicevpn123
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  tls: false
+  client-fingerprint: chrome
+  name: 1,3,4,10,14,20,23,24|_CA_加拿大 2
+  network: ws
+  port: 443
+  server: 23.227.38.81
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -88,3 +69,22 @@ proxies:
   tls: true
   type: vmess
   uuid: 51207dc5-e5a1-4d1c-8bab-71847104ad48
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f41f9f4c-ed31-45db-9a99-76965a69d160
+- alterId: 0
+  cipher: auto
+  name: 21,24|CA 3 → tg@nicevpn123
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
