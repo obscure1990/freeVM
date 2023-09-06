@@ -1,39 +1,54 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
-- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 25|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 30005
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|7,8|🇯🇵 Japan 10 @nodpai
+  name: 28|JP_speednode_0059
   network: ws
-  port: '443'
-  server: a9.wuxianliulianng.xyz
+  port: 443
+  server: ec97cf28-527a-4f01-843f-1e2306b78848.xn--9kq12xdq7a.com
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vmess
-  uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1
+  udp: true
+  uuid: caa995ed-86a9-4968-a332-9c11e7e13107
   ws-opts:
     headers:
-      Host: a9.wuxianliulianng.xyz
-    path: /mp4
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇯🇵 Japan 59 @nodpai
+  network: ws
+  port: '443'
+  server: ec97cf28-527a-4f01-843f-1e2306b78848.xn--9kq12xdq7a.com
+  tls: true
+  type: vmess
+  uuid: caa995ed-86a9-4968-a332-9c11e7e13107
+  ws-opts:
+    headers:
+      Host: ec97cf28-527a-4f01-843f-1e2306b78848.xn--9kq12xdq7a.com
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.194.185.11
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本小火箭|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+  password: hGkQ6915tD
+  port: 11554
+  protocol: auth_aes128_md5
+  protocol-param: 285687:f0Lp5Kiqg4
+  server: iepl-zh.safetelescope.cc
+  tfo: false
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 21,24|联通丨JP丨03丨V.ps「已优化」
@@ -47,40 +62,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 24,30|15,17|日本BGP|tg频道:@ripaojiedian
-  network: tcp
-  port: '50001'
-  server: word.1.1.fuckword.club
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
-- cipher: aes-128-gcm
-  name: 19|JP-172.105.236.77-102
-  password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
-  port: 10005
-  server: 172.105.236.77
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,24|🇯🇵 Japan 11 @nodpai
-  network: tcp
-  port: '11776'
-  server: jp02-vm0.entry.srthdw.art
-  tls: false
-  type: vmess
-  uuid: 54672550-dda2-35d3-9a2d-23f1a79d1fe1
-- alterId: 0
-  cipher: auto
-  name: 7,24|🇯🇵 Japan 10 @nodpai
-  network: tcp
-  port: '21584'
-  server: jp01-alt-vm0.entry.srthdw.art
-  tls: true
-  type: vmess
-  uuid: 54672550-dda2-35d3-9a2d-23f1a79d1fe1
 - cipher: aes-256-cfb
   name: 19|JP-54.199.83.239-212
   password: doub.io
@@ -102,137 +83,20 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 25,26|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 443
-  server: 219.76.13.183
-  servername: 5.wuxianliulianng.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
-  ws-opts:
-    headers:
-      Host: 5.wuxianliulianng.xyz
-    path: /mp4
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
-- alterId: 0
-  cipher: auto
-  name: 24|7,8|🇯🇵 Japan 65 @nodpai
-  network: ws
-  port: '443'
-  server: c5.wuxianliulianng.xyz
-  tls: true
-  type: vmess
-  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
-  ws-opts:
-    headers:
-      Host: c5.wuxianliulianng.xyz
-    path: /mp4
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.194.185.11
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇯🇵 Japan 74 @nodpai
-  network: ws
-  port: '443'
-  server: a10.wuxianliulianng.xyz
-  tls: true
-  type: vmess
-  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
-  ws-opts:
-    headers:
-      Host: a10.wuxianliulianng.xyz
-    path: /mp4
-- alterId: 0
-  cipher: auto
-  name: 24|7|🇯🇵 Japan 13 @nodpai
-  network: tcp
-  port: '28786'
-  server: jp06-vm0.entry.jpojpoh.art
-  tls: true
-  type: vmess
-  uuid: 54672550-dda2-35d3-9a2d-23f1a79d1fe1
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0a0dd158-1f49-4c13-97d4-a5fdbb23bb3d
-- alterId: 64
-  cipher: auto
-  name: 21,24|🇯🇵 日本 350
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 28|JP_speednode_0059
-  network: ws
-  port: 443
-  server: ec97cf28-527a-4f01-843f-1e2306b78848.xn--9kq12xdq7a.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: caa995ed-86a9-4968-a332-9c11e7e13107
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0a0dd158-1f49-4c13-97d4-a5fdbb23bb3d
-- alterId: 0
-  cipher: auto
-  name: 24|7,8|🇯🇵 Japan 64 @nodpai
+  name: 7,8,24|🇯🇵 Japan 05 @nodpai
   network: ws
   port: '443'
   server: b5.wuxianliulianng.xyz
   tls: true
   type: vmess
-  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
+  uuid: 3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1
   ws-opts:
     headers:
       Host: b5.wuxianliulianng.xyz
     path: /mp4
 - alterId: 0
   cipher: auto
-  name: 19,20,24|JP-109.123.229.43-271
+  name: 19,20|JP-109.123.229.43-271
   network: tcp
   port: 55473
   server: 109.123.229.43
@@ -260,6 +124,124 @@ proxies:
     headers:
       Host: tms.dingtalk.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|JP-155.248.170.1-097
+  network: tcp
+  port: 12038
+  server: 155.248.170.1
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3e013f74-4380-4392-a053-05b14fad98e9
+  ws-headers:
+    Host: 155.248.170.1
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 7,24|🇯🇵 Japan 07 @nodpai
+  network: tcp
+  port: '21584'
+  server: jp01-alt-vm0.entry.srthdw.art
+  tls: true
+  type: vmess
+  uuid: 54672550-dda2-35d3-9a2d-23f1a79d1fe1
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇯🇵 Japan 70 @nodpai
+  network: ws
+  port: '443'
+  server: a9.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
+  ws-opts:
+    headers:
+      Host: a9.wuxianliulianng.xyz
+    path: /mp4
+- alterId: 0
+  cipher: auto
+  name: 7,24|🇯🇵 Japan 10 @nodpai
+  network: tcp
+  port: '11776'
+  server: jp02-vm0.entry.srthdw.art
+  tls: false
+  type: vmess
+  uuid: 54672550-dda2-35d3-9a2d-23f1a79d1fe1
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇯🇵白嫖-053
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 64
+  cipher: auto
+  name: 21,24|🇯🇵 日本 350
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 21,24|🇯🇵 日本 319
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
+- alterId: 0
+  cipher: auto
+  name: 24,25,26|14,15|🇯🇵 日本2|@ripaojiedian
+  network: ws
+  port: 443
+  server: 219.76.13.183
+  servername: 5.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
+  ws-opts:
+    headers:
+      Host: 5.wuxianliulianng.xyz
+    path: /mp4
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇯🇵 _JP_日本_2_11@9
+  network: tcp
+  port: 41545
+  server: 141.147.153.244
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25,28|🇯🇵 日本KT2|@ripaojiedian
@@ -278,26 +260,32 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|14,15|🇯🇵 日本2|@ripaojiedian
-  network: ws
-  port: 80
-  server: fd.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 70a93fcb-f8c0-4916-96b5-8c54f3394708
-  ws-opts:
-    headers:
-      Host: db2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,19,20,21,24|🇯🇵 Japan 15 @nodpai
+  name: 7,19,20,21,24|🇯🇵 Japan 08 @nodpai
   network: tcp
   port: '23234'
   server: jp6.lianpi.xyz
   tls: false
   type: vmess
   uuid: 9269fb97-4fa8-472a-9e77-76b6a641142a
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
+- alterId: 0
+  cipher: auto
+  name: 21,24|联通丨JP丨10丨O「已优化」
+  network: tcp
+  port: '48897'
+  server: gxlt.mqs.xyz
+  tls: false
+  type: vmess
+  uuid: 21125749-db67-4e0a-9a2c-50884636ee71
 - alterId: 0
   cipher: auto
   name: 22,24|日本 05  | 1x JP
@@ -307,91 +295,55 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0a0dd158-1f49-4c13-97d4-a5fdbb23bb3d
-- alterId: 64
-  cipher: auto
-  name: 21,24|🇯🇵 日本 319
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 5dcbeea0-e9a3-49bf-8b16-5f1f970463f2
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 30005
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: 19|JP-172.105.236.77-102
+  password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b
+  port: 10005
+  server: 172.105.236.77
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 21,24|🇯🇵白嫖-053
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0e2648c3-109b-4fa1-9efb-00c091fa5599
-- alterId: 0
-  cipher: auto
-  name: 24|7|🇯🇵 Japan 39 @nodpai
-  network: tcp
-  port: '447'
-  server: jp04-vm0.entry.srthdw.art
-  tls: false
-  type: vmess
-  uuid: 54672550-dda2-35d3-9a2d-23f1a79d1fe1
-- alterId: 0
-  cipher: auto
-  name: 24|7,8|🇯🇵 Japan 36 @nodpai
+  name: 7,8,24|🇯🇵 Japan 15 @nodpai
   network: ws
   port: '443'
-  server: ec97cf28-527a-4f01-843f-1e2306b78848.xn--9kq12xdq7a.com
+  server: a10.wuxianliulianng.xyz
   tls: true
   type: vmess
-  uuid: caa995ed-86a9-4968-a332-9c11e7e13107
+  uuid: 3a4d4b52-81ff-4aea-a451-99ed4587bfb4
   ws-opts:
     headers:
-      Host: ec97cf28-527a-4f01-843f-1e2306b78848.xn--9kq12xdq7a.com
-    path: /
+      Host: a10.wuxianliulianng.xyz
+    path: /mp4
 - alterId: 0
   cipher: auto
-  name: 19,20|JP-155.248.170.1-097
+  name: 22,24|日本 06  | 1x JP
   network: tcp
-  port: 12038
-  server: 155.248.170.1
-  skip-cert-verify: true
-  tls: false
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 3e013f74-4380-4392-a053-05b14fad98e9
-  ws-headers:
-    Host: 155.248.170.1
-  ws-path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本小火箭|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-  password: hGkQ6915tD
-  port: 11554
-  protocol: auth_aes128_md5
-  protocol-param: 285687:f0Lp5Kiqg4
-  server: iepl-zh.safetelescope.cc
-  tfo: false
-  type: ssr
+  uuid: 5dcbeea0-e9a3-49bf-8b16-5f1f970463f2
 - alterId: 0
   cipher: auto
-  name: 21,24|🇯🇵 _JP_日本_2_11@9
+  name: 22,24|日本 04  | 1x JP
   network: tcp
-  port: 41545
-  server: 141.147.153.244
-  servername: ''
-  tls: false
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: d47d7135-0954-46ab-a190-17b6c8630a85
+  uuid: 5dcbeea0-e9a3-49bf-8b16-5f1f970463f2
