@@ -1,50 +1,60 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 24|7,8|🇨🇦 Canada 17 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 02 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.142.217
-  tls: false
-  type: vmess
-  uuid: bbed2cba-ad42-455a-9c0e-127db657156f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1654431
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.142.212
-  tls: false
-  type: vmess
-  uuid: bbed2cba-ad42-455a-9c0e-127db657156f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1654431
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 1,3,4,10,12,15,20,21,23,24,25,26|_CA_加拿大
   network: ws
   port: 443
   server: dongtaiwang3.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 21,24|CA 4 → tg@nicevpn123
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: eb591cb0-b69a-45f3-8f8a-356e308249da
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.38.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,3,4,10,14,20,21,23,24|_CA_加拿大 2
+  network: ws
+  port: 443
+  server: 23.227.38.81
   skip-cert-verify: true
   tfo: false
   tls: true
@@ -71,36 +81,43 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: eb591cb0-b69a-45f3-8f8a-356e308249da
-- alterId: 0
-  cipher: auto
-  name: 21,24|CA 4 → tg@nicevpn123
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
+  name: 24|7,8|🇨🇦 Canada 17 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.212
+  tls: false
+  type: vmess
+  uuid: bbed2cba-ad42-455a-9c0e-127db657156f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 02 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.217
+  tls: false
+  type: vmess
+  uuid: bbed2cba-ad42-455a-9c0e-127db657156f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -111,20 +128,3 @@ proxies:
   tls: true
   type: vmess
   uuid: a3939f9c-19bf-422b-ba18-34a7918d73fe
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,3,4,10,14,20,21,23,24|_CA_加拿大 2
-  network: ws
-  port: 443
-  server: 23.227.38.81
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
