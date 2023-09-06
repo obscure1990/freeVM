@@ -1,36 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇳 China 12 @nodpai
-  network: ws
-  port: '443'
-  server: 137.175.18.81
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693650902893
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.240.55.137-052
-  network: ws
-  port: 38201
-  server: 120.240.55.137
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-headers:
-    Host: 120.240.55.137
-  ws-path: /hls/cctv5phd.m3u8
-- cipher: aes-256-gcm
-  name: 19|CN-36.141.40.10-242
-  password: 0c724557-db51-31ef-8ef9-d8902a31982f
-  port: 1815
-  server: g05.hk05-ae5.entry.hsrtd.club
-  type: ss
 - alterId: 64
   cipher: auto
   name: 19|CN-119.36.161.40-169
@@ -44,11 +12,11 @@ proxies:
   ws-headers:
     Host: www.25055502.xyz
   ws-path: /path/323127100515
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-221
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
+- cipher: aes-256-gcm
+  name: 19|CN-36.141.40.10-242
+  password: 0c724557-db51-31ef-8ef9-d8902a31982f
+  port: 1815
+  server: g05.hk05-ae5.entry.hsrtd.club
   type: ss
 - alterId: 1
   cipher: auto
@@ -65,10 +33,11 @@ proxies:
   ws-path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国_39
-  network: tcp
-  port: 50882
-  server: 2.7.1.fuckppppp.today
+  name: 9|中国_0906023
+  network: ''
+  port: '58417'
+  server: 103.234.128.130
+  servername: ''
   tls: false
   type: vmess
   uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
@@ -85,6 +54,19 @@ proxies:
   ws-headers:
     Host: cc-iepl.244312.xyz
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CN-120.240.55.137-052
+  network: ws
+  port: 38201
+  server: 120.240.55.137
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    Host: 120.240.55.137
+  ws-path: /hls/cctv5phd.m3u8
 - alterId: 64
   cipher: auto
   name: 19|CN-42.186.175.8-079
@@ -100,40 +82,32 @@ proxies:
   ws-path: /path/323127100515
 - alterId: 0
   cipher: auto
-  name: 9|中国_0906023
-  network: ''
-  port: '58417'
-  server: 103.234.128.130
-  servername: ''
+  name: 19,20|CN-120.233.27.135-057
+  network: tcp
+  port: 36676
+  server: 4.hk.zz.xxxxx.x-t-fuckword.network
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  ws-headers:
+    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-221
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24,31|17|🇨🇳_CN_中国_39
+  network: tcp
+  port: 50882
+  server: 2.7.1.fuckppppp.today
   tls: false
   type: vmess
   uuid: fd8023ea-8a91-3351-aace-905f3b4a3d6e
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.215-089
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.233.27.138-005
-  network: ws
-  port: 8858
-  server: 120.233.27.138
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 666c4a01-fac8-46b8-8df1-f16abdbd4d4d
-  ws-headers:
-    Host: 120.233.27.138
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19,20|CN-183.240.117.54-050
@@ -149,14 +123,40 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-120.233.27.135-057
-  network: tcp
-  port: 36676
-  server: 4.hk.zz.xxxxx.x-t-fuckword.network
+  name: 19|CN-120.233.27.138-005
+  network: ws
+  port: 8858
+  server: 120.233.27.138
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  uuid: 666c4a01-fac8-46b8-8df1-f16abdbd4d4d
   ws-headers:
-    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
+    Host: 120.233.27.138
   ws-path: /
+- alterId: 1
+  cipher: auto
+  name: 19|CN-111.38.37.215-089
+  network: ws
+  port: 50205
+  server: data-hk-v2.shwjfkw.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    Host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇳 China 12 @nodpai
+  network: ws
+  port: '443'
+  server: 137.175.18.81
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1693650902893
