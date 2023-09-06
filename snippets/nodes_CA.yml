@@ -1,34 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 51207dc5-e5a1-4d1c-8bab-71847104ad48
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 1,3,4,14,20,23,24|_CA_加拿大 2
+  name: 1,3,4,15,20,23,24,25,26|_CA_加拿大
   network: ws
   port: 443
-  server: 23.227.38.81
+  server: dongtaiwang3.com
   skip-cert-verify: true
   tfo: false
   tls: true
@@ -64,11 +41,43 @@ proxies:
   uuid: 93077dc6-eafa-4ca7-bb36-dffeaf5d3215
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,3,4,15,20,23,24,25,26|_CA_加拿大
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: c54b4e2d-2178-4138-9367-e0f17417d2e9
+- alterId: 0
+  cipher: auto
+  name: 21,24|CA 3 → tg@nicevpn123
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
   network: ws
   port: 443
-  server: dongtaiwang3.com
+  server: 23.227.38.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,3,4,14,20,23,24|_CA_加拿大 2
+  network: ws
+  port: 443
+  server: 23.227.38.81
   skip-cert-verify: true
   tfo: false
   tls: true
@@ -79,12 +88,3 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 21,24|CA 3 → tg@nicevpn123
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
