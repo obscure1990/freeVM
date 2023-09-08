@@ -1,24 +1,111 @@
 proxies:
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 9|加拿大_0908099
+  cipher: auto
+  name: 9,21,24|加拿大_0908008
   network: tcp
-  port: '8443'
-  server: 15.235.48.92
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: c295b9ac-3ae4-4aa2-aed7-f12dd7d04f0b
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0908052
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f0849105-d5c8-445a-8d0a-b0bc03e7ad1e
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0908021
   network: ws
-  port: '34666'
-  server: 23.26.239.110
+  port: '59618'
+  server: 23.26.239.91
   servername: ''
   tls: false
   type: vmess
-  uuid: 3bfae17d-5c9f-4b1b-9a5c-dc22bab41425
+  uuid: 37bf27bb-e7d0-41c1-a849-e847afad9ab0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0908024
+  network: ws
+  port: '48731'
+  server: 23.26.239.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1059be0b-a595-4f76-be64-7f07b8fb4d6a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: '0,24,25,26,30|🇨🇦 _CA_加拿大 #1'
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 94038290-7465-4f55-91ec-e7882f87ef82
+- alterId: 0
+  cipher: auto
+  name: 14,21,24|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 0,21,24|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.38.81
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0908022
+  network: ws
+  port: '17804'
+  server: 23.26.239.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fd0804c9-763f-4584-c2b5-a3fc76b02b42
   ws-opts:
     headers:
       Host: ''
@@ -46,125 +133,16 @@ proxies:
   port: 808
   server: 196.247.59.156
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.161.118.38-117
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 51.161.118.38
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 14,21,24|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0908022
-  network: ws
-  port: '17804'
-  server: 23.26.239.241
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fd0804c9-763f-4584-c2b5-a3fc76b02b42
-  ws-opts:
-    headers:
-      Host: ''
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 0,21,24|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: 23.227.38.81
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-100
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 196.247.59.156
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-119
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 196.247.59.156
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0908021
-  network: ws
-  port: '59618'
-  server: 23.26.239.91
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 37bf27bb-e7d0-41c1-a849-e847afad9ab0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 9,21,24|加拿大_0908008
-  network: tcp
+  name: 9|加拿大_0908044
+  network: ''
   port: '22324'
   server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 8570fbd6-9fe2-489a-a4f8-6006c406202f
-- alterId: 0
-  cipher: auto
-  name: '0,24,25,26,30|🇨🇦 _CA_加拿大 #1'
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0908024
-  network: ws
-  port: '48731'
-  server: 23.26.239.241
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1059be0b-a595-4f76-be64-7f07b8fb4d6a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0908054
@@ -179,26 +157,12 @@ proxies:
     headers:
       Host: ''
     path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0908044
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|加拿大_0908100
-  network: tcp
-  port: '443'
-  server: 15.235.45.203
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eb713638-ec89-49e5-8358-b00a472f788e
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-119
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 196.247.59.156
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9,10,20,21,24|加拿大_0908004
@@ -213,6 +177,42 @@ proxies:
     headers:
       Host: nl10gbps.6577617.xyz
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-100
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|加拿大_0908100
+  network: tcp
+  port: '443'
+  server: 15.235.45.203
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb713638-ec89-49e5-8358-b00a472f788e
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.161.118.38-117
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 51.161.118.38
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0908052
+  network: ws
+  port: '34666'
+  server: 23.26.239.110
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3bfae17d-5c9f-4b1b-9a5c-dc22bab41425
+  ws-opts:
+    headers:
+      Host: ''
+    path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -231,12 +231,12 @@ proxies:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
 - alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
+  cipher: aes-128-gcm
+  name: 9|加拿大_0908099
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  port: '8443'
+  server: 15.235.48.92
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 94038290-7465-4f55-91ec-e7882f87ef82
+  uuid: c295b9ac-3ae4-4aa2-aed7-f12dd7d04f0b
