@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8,24,28|🇨🇳 China 09 @nodpai
+  name: 19|CN-120.240.55.137-071
   network: ws
-  port: '443'
-  server: 198.2.215.113
-  tls: true
+  port: 38201
+  server: 120.240.55.137
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693992821776
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    Host: 120.240.55.137
+  ws-path: /hls/cctv5phd.m3u8
 - alterId: 1
   cipher: auto
   name: 19|CN-111.38.37.215-074
@@ -25,32 +25,6 @@ proxies:
   ws-headers:
     Host: data-hk-v2.shwjfkw.cn
   ws-path: /hls/cctv5phd.m3u8
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-170
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 9|中国_0907085
-  network: ''
-  port: '42055'
-  server: 120.226.50.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 9|中国_0907086
-  network: ''
-  port: '51165'
-  server: 183.233.187.232
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 19|CN-119.36.161.40-043
@@ -66,6 +40,19 @@ proxies:
   ws-path: /path/323127100515
 - alterId: 0
   cipher: auto
+  name: 7,8,24|🇨🇳 China 24 @nodpai
+  network: ws
+  port: '443'
+  server: 137.175.82.129
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1693992821776
+- alterId: 0
+  cipher: auto
   name: 19,20|CN-120.233.27.135-088
   network: tcp
   port: 36676
@@ -77,22 +64,28 @@ proxies:
   ws-headers:
     Host: 4.hk.zz.xxxxx.x-t-fuckword.network
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-170
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-183.240.117.54-031
-  network: tcp
-  port: 58418
-  server: 4.3.1.fuckppppp.today
-  skip-cert-verify: true
-  tls: false
+  name: 7,8,24,28|🇨🇳 China 23 @nodpai
+  network: ws
+  port: '443'
+  server: 198.2.215.113
+  tls: true
   type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.3.1.fuckppppp.today
-  ws-path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1693992821776
 - alterId: 0
   cipher: auto
-  name: 7,8,24,28|🇨🇳 China 07 @nodpai
+  name: 7,8,24,28|🇨🇳 China 22 @nodpai
   network: ws
   port: '443'
   server: 137.175.69.209
@@ -103,6 +96,19 @@ proxies:
     headers:
       Host: ''
     path: /path/1693992821776
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-183.240.117.54-063
+  network: tcp
+  port: 36679
+  server: 3.sg.zz.xxxxx.x-t-fuckword.network
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  ws-headers:
+    Host: 3.sg.zz.xxxxx.x-t-fuckword.network
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19,20,24|CN-36.140.102.11-136
@@ -118,30 +124,17 @@ proxies:
   ws-path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 7,8,24|🇨🇳 China 10 @nodpai
-  network: ws
-  port: '443'
-  server: 137.175.82.129
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1693992821776
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.240.55.137-071
-  network: ws
-  port: 38201
-  server: 120.240.55.137
+  name: 19,20|CN-183.240.117.54-031
+  network: tcp
+  port: 58418
+  server: 4.3.1.fuckppppp.today
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
   ws-headers:
-    Host: 120.240.55.137
-  ws-path: /hls/cctv5phd.m3u8
+    Host: 4.3.1.fuckppppp.today
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19,20|CN-36.140.102.11-138
@@ -155,16 +148,3 @@ proxies:
   ws-headers:
     Host: 39.kccic2pa.xyz
   ws-path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-183.240.117.54-063
-  network: tcp
-  port: 36679
-  server: 3.sg.zz.xxxxx.x-t-fuckword.network
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 3.sg.zz.xxxxx.x-t-fuckword.network
-  ws-path: /
