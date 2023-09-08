@@ -1,17 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 10|法国 OVH SAS
-  network: ws
-  port: '80'
-  server: pl2-vmess.greenssh.xyz
-  tls: false
-  type: vmess
-  uuid: a60d4d2f-6a61-4c16-9d63-94a97e65d1f3
-  ws-opts:
-    headers:
-      Host: pl2-vmess.greenssh.xyz
-    path: /
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -25,6 +12,16 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
+- cipher: aes-256-ctr
+  name: 28|FR_speednode_0012
+  obfs: tls1.2_ticket_auth
+  obfs-param: Non%%
+  password: HowdyBypasser2022
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 94.23.116.190
+  type: ssr
 - cipher: chacha20-ietf-poly1305
   name: 19|FR-51.38.118.42-113
   password: Ultr@r00t_2017
@@ -44,13 +41,3 @@ proxies:
     headers:
       Host: ms.shabijichang.com
     path: /
-- cipher: aes-256-ctr
-  name: 28|FR_speednode_0012
-  obfs: tls1.2_ticket_auth
-  obfs-param: Non%%
-  password: HowdyBypasser2022
-  port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 94.23.116.190
-  type: ssr
