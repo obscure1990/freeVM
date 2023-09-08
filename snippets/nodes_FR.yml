@@ -1,18 +1,5 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: 21,24|🇫🇷 France 02 @nodpai
-  network: ws
-  port: '80'
-  server: ms.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
-  ws-opts:
-    headers:
-      Host: ms.shabijichang.com
-    path: /
-- alterId: 0
   cipher: aes-128-gcm
   name: 9|法国_0908129
   network: tcp
@@ -22,12 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4bd09859-c671-49a2-80c4-83d77264946d
-- cipher: chacha20-ietf-poly1305
-  name: 19|FR-51.38.118.42-113
-  password: Ultr@r00t_2017
-  port: 811
-  server: 51.38.118.42
-  type: ss
 - alterId: 0
   cipher: aes-128-gcm
   name: 9|法国_0908132
@@ -53,6 +34,16 @@ proxies:
     path: /path/1693992821776
 - alterId: 0
   cipher: aes-128-gcm
+  name: 9|法国_0908127
+  network: tcp
+  port: '443'
+  server: 51.158.238.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+- alterId: 0
+  cipher: aes-128-gcm
   name: 9|法国_0908131
   network: tcp
   port: '443'
@@ -61,6 +52,12 @@ proxies:
   tls: false
   type: vmess
   uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+- cipher: chacha20-ietf-poly1305
+  name: 19|FR-51.38.118.42-113
+  password: Ultr@r00t_2017
+  port: 811
+  server: 51.38.118.42
+  type: ss
 - cipher: aes-256-ctr
   name: 28|FR_speednode_0012
   obfs: tls1.2_ticket_auth
@@ -82,12 +79,15 @@ proxies:
   type: vmess
   uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0908127
-  network: tcp
-  port: '443'
-  server: 51.158.238.229
-  servername: ''
+  cipher: auto
+  name: 21,24|🇫🇷 France 02 @nodpai
+  network: ws
+  port: '80'
+  server: ms.shabijichang.com
   tls: false
   type: vmess
-  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
+  ws-opts:
+    headers:
+      Host: ms.shabijichang.com
+    path: /
