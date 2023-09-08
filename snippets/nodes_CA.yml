@@ -1,11 +1,17 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.161.118.38-112
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 51.161.118.38
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4|_CA_加拿大 2
+  name: 1,2,3,4,6,12,13,20,21,24|_CA_加拿大
   network: ws
   port: 443
-  server: 23.227.38.82
+  server: 23.227.39.82
   skip-cert-verify: true
   tfo: false
   tls: true
@@ -29,63 +35,12 @@ proxies:
     headers:
       Host: ''
     path: /1654431
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-044
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 196.247.59.156
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '0,21,24,25,26,31|🇨🇦 _CA_加拿大 #1'
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 91a2d966-7376-4f61-a1a7-2ccac0eeaac3
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 11 @nodpai
-  network: ws
-  port: '2095'
-  server: camtlebb.76898102.xyz
-  tls: false
-  type: vmess
-  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
-  ws-opts:
-    headers:
-      Host: camtlebb.76898102.xyz
-    path: /funsdfrh
-- alterId: 0
-  cipher: auto
-  name: 6,21,24|🇨🇦_CA_加拿大
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 24 @nodpai
+  name: 7,8,24|🇨🇦 Canada 22 @nodpai
   network: ws
   port: '80'
-  server: 162.159.142.218
+  server: 162.159.142.214
   tls: false
   type: vmess
   uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
@@ -93,6 +48,42 @@ proxies:
     headers:
       Host: ''
     path: /1654431
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-114
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 24 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.215
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,24|_CA_加拿大 2
+  network: ws
+  port: 443
+  server: 23.227.38.82
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -105,10 +96,91 @@ proxies:
   uuid: abebcf5a-13b6-4c68-92e4-5b191e05721e
 - alterId: 0
   cipher: auto
-  name: 7,8,24|🇨🇦 Canada 31 @nodpai
+  name: 7,8,24|🇨🇦 Canada 25 @nodpai
   network: ws
   port: '80'
-  server: 162.159.142.213
+  server: 162.159.142.217
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 91a2d966-7376-4f61-a1a7-2ccac0eeaac3
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 21 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.211
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 28 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.216
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-095
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|7,8|🇨🇦 Canada 11 @nodpai
+  network: ws
+  port: '2095'
+  server: camtlebb.76898102.xyz
+  tls: false
+  type: vmess
+  uuid: 0e8f0867-85a0-39af-a5eb-3685d26f8413
+  ws-opts:
+    headers:
+      Host: camtlebb.76898102.xyz
+    path: /funsdfrh
+- alterId: 0
+  cipher: auto
+  name: '0,10,21,24,25,26,31|🇨🇦 _CA_加拿大 #1'
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 27 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.218
   tls: false
   type: vmess
   uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
@@ -129,110 +201,15 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 23 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.142.217
-  tls: false
-  type: vmess
-  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1654431
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 28 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.142.219
-  tls: false
-  type: vmess
-  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1654431
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 26 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.142.214
-  tls: false
-  type: vmess
-  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1654431
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 27 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.142.211
-  tls: false
-  type: vmess
-  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1654431
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇨🇦 Canada 30 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.142.215
-  tls: false
-  type: vmess
-  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1654431
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,12,13,20,21,24|_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.39.82
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.161.118.38-112
+  name: 19|CA-196.247.59.156-044
   password: G!yBwPWH3Vao
   port: 808
-  server: 51.161.118.38
+  server: 196.247.59.156
   type: ss
 - alterId: 0
   cipher: auto
-  name: 7,8,24|🇨🇦 Canada 25 @nodpai
-  network: ws
-  port: '80'
-  server: 162.159.142.216
-  tls: false
-  type: vmess
-  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1654431
-- alterId: 0
-  cipher: auto
-  name: 0,6,21,24|🇨🇦 _CA_加拿大
+  name: 0,21,24|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
   server: 23.227.38.81
@@ -243,15 +220,38 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-095
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 196.247.59.156
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-114
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 196.247.59.156
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 23 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.213
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦_CA_加拿大
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇨🇦 Canada 26 @nodpai
+  network: ws
+  port: '80'
+  server: 162.159.142.219
+  tls: false
+  type: vmess
+  uuid: f425df23-6ab6-449a-87bd-3ba74fdc1777
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1654431
