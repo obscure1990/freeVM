@@ -1,10 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: da08ae57-5c58-4a10-99bf-8e1e01ab9ff1
+- alterId: 0
+  cipher: auto
   name: 9,21,24|台湾_0908025
   network: tcp
   port: '11872'
   server: gamespeed-gateway-1.numastergame.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_0908028
+  network: tcp
+  port: '11872'
+  server: 61.219.15.81
   servername: ''
   tls: false
   type: vmess
@@ -18,23 +38,7 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 87f0fc0e-c603-4d93-912c-6b87090cb131
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 25,28|🇹🇼 台湾独家|@ripaojiedian
-  password: EhbOd1BRf4BMzhwx
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw600mliness005.fengchiline.live
-    mode: websocket
-    mux: true
-    path: /vcyuuubfni
-    skip-cert-verify: false
-    tls: true
-  port: 15405
-  server: 103.177.33.68
-  tfo: false
-  type: ss
+  uuid: da08ae57-5c58-4a10-99bf-8e1e01ab9ff1
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 04  | 1x TWN
@@ -44,36 +48,23 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cbb82579-0957-41a3-818a-608713899828
+  uuid: c79350e7-00ec-4e9c-93ea-77c7c0d81c41
 - alterId: 0
   cipher: auto
-  name: 24|12|🇹🇼 Taiwan 10 @nodpai
-  network: ws
-  port: '18804'
-  server: xiongda006.daxiongda.top
-  tls: false
-  type: vmess
-  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
-  ws-opts:
-    headers:
-      Host: xiongda006.daxiongda.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
+  name: 11,24|🇹🇼台湾04
   network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 87f0fc0e-c603-4d93-912c-6b87090cb131
+  uuid: da08ae57-5c58-4a10-99bf-8e1e01ab9ff1
 - alterId: 0
   cipher: auto
-  name: 9|台湾_0908028
-  network: tcp
+  name: 9|台湾_0908001
+  network: ''
   port: '11872'
-  server: 61.219.15.81
+  server: gamespeed-gateway-1.numastergame.com
   servername: ''
   tls: false
   type: vmess
@@ -97,27 +88,7 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cbb82579-0957-41a3-818a-608713899828
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_0908001
-  network: ''
-  port: '11872'
-  server: gamespeed-gateway-1.numastergame.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 87f0fc0e-c603-4d93-912c-6b87090cb131
+  uuid: c79350e7-00ec-4e9c-93ea-77c7c0d81c41
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 06  | 1x TWN
@@ -127,4 +98,33 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cbb82579-0957-41a3-818a-608713899828
+  uuid: c79350e7-00ec-4e9c-93ea-77c7c0d81c41
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇹🇼 Taiwan 10 @nodpai
+  network: ws
+  port: '18804'
+  server: xiongda006.daxiongda.top
+  tls: false
+  type: vmess
+  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
+  ws-opts:
+    headers:
+      Host: xiongda006.daxiongda.top
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 25,28|🇹🇼 台湾独家|@ripaojiedian
+  password: EhbOd1BRf4BMzhwx
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw600mliness005.fengchiline.live
+    mode: websocket
+    mux: true
+    path: /vcyuuubfni
+    skip-cert-verify: false
+    tls: true
+  port: 15405
+  server: 103.177.33.68
+  tfo: false
+  type: ss
