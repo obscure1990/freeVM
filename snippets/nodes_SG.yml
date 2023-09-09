@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '27|新加坡_Telegram@kxswa #1'
-  network: ws
-  port: '443'
-  server: 18.143.75.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 405c4c45-df2a-4adf-b8e6-13f0de358e3a
-  ws-opts:
-    headers:
-      Host: 18.143.75.80
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 28|SG_speednode_0077
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -24,6 +10,53 @@ proxies:
   server: 185.230.245.212
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 18,27|🇸🇬_SG_新加坡_6
+  network: ws
+  port: '80'
+  server: si4co.09vpn.com
+  servername: si4co.09vpn.com
+  tls: false
+  type: vmess
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+  ws-opts:
+    headers:
+      Host: si4co.09vpn.com
+    path: /vmess/
+- alterId: 64
+  cipher: auto
+  name: 21,24|🇸🇬 SG(AzadNet.t.me)_022
+  network: tcp
+  port: 55264
+  server: 202.79.174.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
+- alterId: 64
+  cipher: auto
+  name: 19|SG-159.223.94.156-223
+  network: ws
+  port: 80
+  server: 159.223.94.156
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  ws-headers:
+    Host: 159.223.94.156
+  ws-path: /anti13.zingfast.vn
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 0f20e104-05f5-4add-9956-2105bf16d4e2
 - alterId: 0
   cipher: auto
   name: 18|🇸🇬_SG_新加坡_5
@@ -49,44 +82,12 @@ proxies:
   server: 5.44.249.42
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 20|🇸🇬 新加坡(油管:破解资源君2.0)
-  network: ws
-  port: '38701'
-  server: in-sg-1.onebox6.org
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-opts:
-    headers:
-      Host: in-sg-1.onebox6.org
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 18,27|🇸🇬_SG_新加坡_6
-  network: ws
-  port: '80'
-  server: si4co.09vpn.com
-  servername: si4co.09vpn.com
-  tls: false
-  type: vmess
-  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
-  ws-opts:
-    headers:
-      Host: si4co.09vpn.com
-    path: /vmess/
-- cipher: chacha20-ietf-poly1305
-  name: 28|SG_speednode_0079
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 103.172.116.221
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-217
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 14|新加坡_【YouTube-VV科技】
@@ -100,35 +101,31 @@ proxies:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 7f58e018-193c-4ee0-b8a5-df8b34759c37
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.212.81.249
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 28|SG_speednode_0076
+  name: 28|SG_speednode_0079
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 7a40fa6:41065
     mode: tls
   port: 2377
-  server: 5.44.249.45
+  server: 103.172.116.221
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '27|新加坡_Telegram@kxswa #1'
+  network: ws
+  port: '443'
+  server: 18.143.75.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 405c4c45-df2a-4adf-b8e6-13f0de358e3a
+  ws-opts:
+    headers:
+      Host: 18.143.75.80
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 25|🇸🇬 狮城特殊|@ripaojiedian
@@ -148,51 +145,14 @@ proxies:
   server: 5.44.249.43
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|SG_speednode_0075
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 5.44.249.50
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.212.81.249
+  tfo: false
   type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0f20e104-05f5-4add-9956-2105bf16d4e2
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0f20e104-05f5-4add-9956-2105bf16d4e2
-- alterId: 0
-  cipher: auto
-  name: 27|新加坡_Telegram@kxswa
-  network: ws
-  port: '2082'
-  server: js.bfyun.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8b3b7b54-19f9-41c1-945c-53ed3fa4b5b2
-  ws-opts:
-    headers:
-      Host: hostodo.galenet.online
-    path: /hostodo
 - cipher: chacha20-ietf-poly1305
   name: 28|SG_speednode_0081
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -202,65 +162,6 @@ proxies:
     mode: tls
   port: 2377
   server: 5.44.249.44
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 0f20e104-05f5-4add-9956-2105bf16d4e2
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-219
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|SG_speednode_0080
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 5.44.249.52
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|SG_speednode_0082
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 103.172.116.220
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 21,24|🇸🇬 SG(AzadNet.t.me)_022
-  network: tcp
-  port: 55264
-  server: 202.79.174.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
-- cipher: chacha20-ietf-poly1305
-  name: 28|SG_speednode_0073
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 185.230.245.210
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -276,6 +177,20 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 27|新加坡_Telegram@kxswa
+  network: ws
+  port: '2082'
+  server: js.bfyun.eu.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8b3b7b54-19f9-41c1-945c-53ed3fa4b5b2
+  ws-opts:
+    headers:
+      Host: hostodo.galenet.online
+    path: /hostodo
+- alterId: 0
+  cipher: auto
   name: 22,24|新加坡 05 | 1x SG
   network: tcp
   port: '31206'
@@ -283,7 +198,17 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7f58e018-193c-4ee0-b8a5-df8b34759c37
+  uuid: 446f57b4-a23b-42ce-a9a4-51894249b1db
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 446f57b4-a23b-42ce-a9a4-51894249b1db
 - alterId: 0
   cipher: auto
   name: 22,24|新加坡 06 | 1x SG
@@ -293,26 +218,73 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7f58e018-193c-4ee0-b8a5-df8b34759c37
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-217
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
+  uuid: 446f57b4-a23b-42ce-a9a4-51894249b1db
+- cipher: chacha20-ietf-poly1305
+  name: 28|SG_speednode_0075
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 5.44.249.50
   type: ss
-- alterId: 64
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 19|SG-159.223.94.156-223
+  name: 11,24|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 0f20e104-05f5-4add-9956-2105bf16d4e2
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 0f20e104-05f5-4add-9956-2105bf16d4e2
+- cipher: chacha20-ietf-poly1305
+  name: 28|SG_speednode_0080
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 5.44.249.52
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 20|🇸🇬 新加坡(油管:破解资源君2.0)
   network: ws
-  port: 80
-  server: 159.223.94.156
-  skip-cert-verify: true
+  port: '38701'
+  server: in-sg-1.onebox6.org
   tls: false
   type: vmess
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  ws-headers:
-    Host: 159.223.94.156
-  ws-path: /anti13.zingfast.vn
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: in-sg-1.onebox6.org
+    path: /hls/cctv5phd.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: 28|SG_speednode_0082
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 103.172.116.220
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 19,20|SG-138.2.86.43-093
@@ -326,3 +298,31 @@ proxies:
   ws-headers:
     Host: 138.2.86.43
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 28|SG_speednode_0076
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 5.44.249.45
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-219
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|SG_speednode_0073
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 185.230.245.210
+  type: ss
+  udp: true
