@@ -1,10 +1,65 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: fad98b87-3ef9-4a33-9674-a61f24e139e0
+- alterId: 0
+  cipher: auto
+  name: 14,18,21,24,27|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.154-173
+  name: 19|CA-196.247.59.154-087
   password: G!yBwPWH3Vao
-  port: 806
+  port: 809
   server: 196.247.59.154
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-078
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 6,13,23,24,27|🇨🇦_CA_加拿大
+  network: ws
+  port: 443
+  server: 23.227.38.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 19|CA-167.114.113.228-121
+  network: ws
+  port: 80
+  server: ca2.v2rayserv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+  ws-headers:
+    Host: ca2.v2rayserv.com
+  ws-path: /sshocean
 - alterId: 0
   cipher: auto
   name: 21,24|CA 5 → tg@nicevpn123
@@ -28,15 +83,23 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-171
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 196.247.59.156
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦_CA_加拿大_nodpai
+  name: 27|加拿大_Telegram@kxswa
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 18,27|🇨🇦_CA_加拿大_nodpai
   network: ws
   port: '80'
   server: mtlr.shabijichang.com
@@ -50,7 +113,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18,21,24|🇨🇦_CA_加拿大_分享师_55
+  name: 18,21,24,27|🇨🇦_CA_加拿大_分享师_55
   network: ws
   port: '443'
   server: 23.227.38.81
@@ -64,25 +127,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 14,18,21,24|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-174
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 196.247.59.156
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 11,24|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -91,32 +135,9 @@ proxies:
   tls: true
   type: vmess
   uuid: 357093f4-d2af-4a28-bc3b-ac031d29b4f6
-- alterId: 0
-  cipher: auto
-  name: 6,13,20,23,24|🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 23832324-0eac-4319-a22f-899de06856fa
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.154-172
+  name: 19|CA-196.247.59.154-101
   password: G!yBwPWH3Vao
-  port: 809
+  port: 806
   server: 196.247.59.154
   type: ss
