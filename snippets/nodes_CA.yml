@@ -1,23 +1,14 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.154-173
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 196.247.59.154
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 6,13,23,24|🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.82
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+  uuid: 8639ba21-674a-452b-9816-c151ae14ee93
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -28,37 +19,32 @@ proxies:
   tls: true
   type: vmess
   uuid: 40fb3c13-aa71-4322-b894-e621f4176406
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-171
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 196.247.59.156
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0eb73b0d-0761-4eb3-9c5d-202ce98a6bd8
-- alterId: 0
-  cipher: auto
-  name: 18,21,24|🇨🇦_CA_加拿大_分享师_55
+  name: 18|🇨🇦_CA_加拿大_nodpai
   network: ws
-  port: '443'
-  server: 23.227.38.81
+  port: '80'
+  server: mtlr.shabijichang.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+      Host: mtlr.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 18,23,24,31|🇨🇦_CA_加拿大_09
+  name: 6,13,23,24|🇨🇦_CA_加拿大
   network: ws
-  port: '443'
-  server: 23.227.39.82
-  servername: ''
+  port: 443
+  server: 23.227.38.82
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -76,16 +62,38 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 18,23,24,31|🇨🇦_CA_加拿大_09
+  network: ws
+  port: '443'
+  server: 23.227.39.82
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 24,31|12,14,15,18|🇨🇦 加拿大 20
+  network: ws
+  port: 443
+  server: dongtaiwang3.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.154-172
+  name: 19|CA-196.247.59.156-174
   password: G!yBwPWH3Vao
   port: 809
-  server: 196.247.59.154
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-171
-  password: G!yBwPWH3Vao
-  port: 808
   server: 196.247.59.156
   type: ss
 - alterId: 0
@@ -104,23 +112,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦_CA_加拿大_nodpai
+  name: 18,21,24|🇨🇦_CA_加拿大_分享师_55
   network: ws
-  port: '80'
-  server: mtlr.shabijichang.com
+  port: '443'
+  server: 23.227.38.81
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
-      Host: mtlr.shabijichang.com
-    path: /
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-174
+  name: 19|CA-196.247.59.154-173
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 196.247.59.154
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.154-172
   password: G!yBwPWH3Vao
   port: 809
-  server: 196.247.59.156
+  server: 196.247.59.154
   type: ss
 - alterId: 0
   cipher: auto
@@ -147,18 +161,4 @@ proxies:
   ws-opts:
     headers:
       Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 24,31|12,14,15,18|🇨🇦 加拿大 20
-  network: ws
-  port: 443
-  server: dongtaiwang3.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
     path: /dongtaiwang.com

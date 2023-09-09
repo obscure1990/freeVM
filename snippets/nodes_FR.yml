@@ -1,5 +1,15 @@
 proxies:
 - cipher: aes-256-ctr
+  name: 28|FR_speednode_0013
+  obfs: tls1.2_ticket_auth
+  obfs-param: Non%%
+  password: HowdyBypasser2022
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 94.23.116.190
+  type: ssr
+- cipher: aes-256-ctr
   name: 28|FR_speednode_0012
   obfs: tls1.2_ticket_auth
   obfs-param: ''
@@ -10,14 +20,21 @@ proxies:
   server: 94.23.116.190
   type: ssr
   udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0009
+- cipher: chacha20-ietf-poly1305
+  name: 19|FR-51.38.118.42-072
+  password: Ultr@r00t_2017
+  port: 811
+  server: 51.38.118.42
+  type: ss
+- cipher: aes-256-ctr
+  name: 28|FR_speednode_0011
   obfs: tls1.2_ticket_auth
-  password: RcfVcDzzB
-  port: 8181
+  obfs-param: None
+  password: HowdyBypasser2022
+  port: 443
   protocol: origin
-  protocol-param: Non%%
-  server: fr-am1-5.eqsunshine.com
+  protocol-param: ''
+  server: 94.23.116.190
   type: ssr
 - alterId: 64
   cipher: auto
@@ -32,29 +49,12 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
-- cipher: aes-256-ctr
-  name: 28|FR_speednode_0011
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0009
   obfs: tls1.2_ticket_auth
-  obfs-param: None
-  password: HowdyBypasser2022
-  port: 443
+  password: RcfVcDzzB
+  port: 8181
   protocol: origin
-  protocol-param: ''
-  server: 94.23.116.190
+  protocol-param: Non%%
+  server: fr-am1-5.eqsunshine.com
   type: ssr
-- cipher: aes-256-ctr
-  name: 28|FR_speednode_0013
-  obfs: tls1.2_ticket_auth
-  obfs-param: Non%%
-  password: HowdyBypasser2022
-  port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 94.23.116.190
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 19|FR-51.38.118.42-072
-  password: Ultr@r00t_2017
-  port: 811
-  server: 51.38.118.42
-  type: ss
