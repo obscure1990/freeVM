@@ -1,39 +1,121 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 21,24,27|🇯🇵 Japan 12 @nodpai
-  network: ws
-  port: '80'
-  server: db2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
-  ws-opts:
-    headers:
-      Host: db2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 20|🇯🇵 日本(油管:破解资源君2.0)
-  network: ws
-  port: '443'
-  server: vjp1.0bad.com
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      Host: vjp1.0bad.com
-    path: /chat
 - cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0065
+  name: 28|JP_speednode_0052
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG@WangCai_1)7a40fa6:41065
     mode: tls
   port: 2377
-  server: 54.64.211.52
+  server: 18.179.37.79
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0048
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 139.162.102.32
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0058
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 139.162.84.183
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0038
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 103.168.155.69
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0068
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 172.105.230.133
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0037
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 103.168.155.60
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0047
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 139.162.108.118
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 357093f4-d2af-4a28-bc3b-ac031d29b4f6
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 23832324-0eac-4319-a22f-899de06856fa
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0054
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 18.177.142.32
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0059
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 172.105.208.94
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -49,56 +131,41 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 21,24|🇯🇵白嫖-061
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
+  name: 19|JP-139.162.77.244-063
+  network: ws
+  port: 443
+  server: vjp1.0bad.com
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    Host: vjp1.0bad.com
+  ws-path: /chat
 - cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0047
+  name: 28|JP_speednode_0066
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG@WangCai_1)7a40fa6:41065
     mode: tls
   port: 2377
-  server: 139.162.108.118
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0038
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 103.168.155.69
+  server: 54.250.34.221
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 357093f4-d2af-4a28-bc3b-ac031d29b4f6
-- alterId: 64
-  cipher: auto
-  name: 21,24|🇯🇵 JP(AzadNet.t.me)_023
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
+  name: 24,25,26|14,15|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 80
+  server: 162.159.142.231
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 65b2cf63-a998-417f-88df-8e1c4ff27a98
+  ws-opts:
+    headers:
+      Host: jp3.mybestjj.com
+    path: /1654431
 - cipher: chacha20-ietf-poly1305
   name: 28|JP_speednode_0055
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -110,15 +177,160 @@ proxies:
   server: 18.179.58.237
   type: ss
   udp: true
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.58-162
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 85.208.108.58
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0039
+  name: 28|JP_speednode_0051
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG@WangCai_1)7a40fa6:41065
     mode: tls
   port: 2377
-  server: 103.168.155.73
+  server: 18.179.16.135
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0069
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 172.104.90.43
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0044
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 103.29.70.9
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0064
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 172.105.205.214
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0062
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 54.178.26.105
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0041
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 103.168.155.74
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25,28|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20014
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇯🇵 日本(油管:破解资源君2.0)
+  network: ws
+  port: '443'
+  server: vjp1.0bad.com
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      Host: vjp1.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 23832324-0eac-4319-a22f-899de06856fa
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 30005
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0061
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 54.249.220.208
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0063
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 52.199.249.206
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0049
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 139.162.119.212
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -127,31 +339,6 @@ proxies:
   port: 2333
   server: 54.199.83.239
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0043
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 103.168.155.123
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 27|日本_Telegram@kxswa
-  network: ws
-  port: '2082'
-  server: jpcdn.bh8189.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8b3b7b54-19f9-41c1-945c-53ed3fa4b5b2
-  ws-opts:
-    headers:
-      Host: hostodo.galenet.online
-    path: /hostodo
 - cipher: chacha20-ietf-poly1305
   name: 28|JP_speednode_0042
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -174,16 +361,35 @@ proxies:
   server: 52.199.164.162
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.181.170.237
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本04
+  name: 11,24|🇯🇵日本06
   network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
   uuid: 357093f4-d2af-4a28-bc3b-ac031d29b4f6
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0039
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 103.168.155.73
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 28|JP_speednode_0056
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -196,88 +402,16 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0068
+  name: 28|JP_speednode_0065
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG@WangCai_1)7a40fa6:41065
     mode: tls
   port: 2377
-  server: 172.105.230.133
+  server: 54.64.211.52
   type: ss
   udp: true
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25,28|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20014
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.19-164
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 85.208.108.19
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0050
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 139.162.79.8
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0059
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 172.105.208.94
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0049
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 139.162.119.212
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0066
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 54.250.34.221
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.58-162
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 85.208.108.58
-  type: ss
 - alterId: 64
   cipher: auto
   name: 21,24|🇯🇵 日本 350
@@ -288,71 +422,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0061
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 54.249.220.208
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0048
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 139.162.102.32
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0069
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 172.104.90.43
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.181.170.237
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 24,25,26,27|14,15|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 80
-  server: 162.159.142.231
+  name: 21,24|🇯🇵白嫖-053
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  servername: ''
   tls: false
   type: vmess
-  uuid: 65b2cf63-a998-417f-88df-8e1c4ff27a98
-  ws-opts:
-    headers:
-      Host: jp3.mybestjj.com
-    path: /1654431
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0040
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 103.29.68.226
-  type: ss
-  udp: true
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - cipher: chacha20-ietf-poly1305
   name: 28|JP_speednode_0057
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -362,6 +441,34 @@ proxies:
     mode: tls
   port: 2377
   server: 172.104.96.103
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.19-164
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 85.208.108.19
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0043
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 103.168.155.123
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0040
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG@WangCai_1)7a40fa6:41065
+    mode: tls
+  port: 2377
+  server: 103.29.68.226
   type: ss
   udp: true
 - alterId: 0
@@ -374,103 +481,54 @@ proxies:
   tls: true
   type: vmess
   uuid: 23832324-0eac-4319-a22f-899de06856fa
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 30005
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 21,24|🇯🇵白嫖-053
+  name: 21,24|🇯🇵 JP(AzadNet.t.me)_023
   network: tcp
-  port: 1069
-  server: 152.69.197.60
+  port: 51801
+  server: 45.88.43.163
   servername: ''
   tls: false
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0062
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 54.178.26.105
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.58-163
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 85.208.108.58
   type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇯🇵 Japan 12 @nodpai
+  network: ws
+  port: '80'
+  server: db2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
+  ws-opts:
+    headers:
+      Host: db2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇯🇵白嫖-061
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0037
+  name: 28|JP_speednode_0050
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: (TG@WangCai_1)7a40fa6:41065
     mode: tls
   port: 2377
-  server: 103.168.155.60
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0041
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 103.168.155.74
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0051
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 18.179.16.135
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0063
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 52.199.249.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0058
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 139.162.84.183
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0054
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 18.177.142.32
+  server: 139.162.79.8
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -486,83 +544,11 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 22,24|日本 04  | 1x JP
+  name: 11,24|🇯🇵日本05
   network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 23832324-0eac-4319-a22f-899de06856fa
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.58-163
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 85.208.108.58
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0052
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 18.179.37.79
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 19|JP-139.162.77.244-063
-  network: ws
-  port: 443
-  server: vjp1.0bad.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-headers:
-    Host: vjp1.0bad.com
-  ws-path: /chat
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0064
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 172.105.205.214
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 23832324-0eac-4319-a22f-899de06856fa
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0044
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG@WangCai_1)7a40fa6:41065
-    mode: tls
-  port: 2377
-  server: 103.29.70.9
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
   tls: true
   type: vmess
   uuid: 357093f4-d2af-4a28-bc3b-ac031d29b4f6
