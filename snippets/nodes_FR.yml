@@ -1,19 +1,26 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇫🇷 France 02 @nodpai
-  network: ws
-  port: '80'
-  server: ms.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
-  ws-opts:
-    headers:
-      Host: ms.shabijichang.com
-    path: /
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0009
+  obfs: tls1.2_ticket_auth
+  password: RcfVcDzzB
+  port: 8181
+  protocol: origin
+  protocol-param: Non%%
+  server: fr-am1-5.eqsunshine.com
+  type: ssr
 - cipher: aes-256-ctr
   name: 28|FR_speednode_0012
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: HowdyBypasser2022
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 94.23.116.190
+  type: ssr
+  udp: true
+- cipher: aes-256-ctr
+  name: 28|FR_speednode_0013
   obfs: tls1.2_ticket_auth
   obfs-param: Non%%
   password: HowdyBypasser2022
@@ -22,6 +29,19 @@ proxies:
   protocol-param: ''
   server: 94.23.116.190
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇫🇷 France 03 @nodpai
+  network: ws
+  port: '80'
+  server: bl.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -41,3 +61,13 @@ proxies:
   port: 811
   server: 51.38.118.42
   type: ss
+- cipher: aes-256-ctr
+  name: 28|FR_speednode_0011
+  obfs: tls1.2_ticket_auth
+  obfs-param: None
+  password: HowdyBypasser2022
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 94.23.116.190
+  type: ssr
