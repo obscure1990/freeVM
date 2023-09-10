@@ -1,40 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18,21,23,24|🇨🇦_CA_加拿大_09
-  network: ws
-  port: '443'
-  server: 23.227.39.82
-  servername: ''
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,13,20,23,24|_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+  uuid: 055c4e5d-4c03-4223-a8ac-ba5f0f5863ec
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.154-099
+  name: 19|CA-196.247.59.156-076
   password: G!yBwPWH3Vao
-  port: 806
-  server: 196.247.59.154
+  port: 808
+  server: 196.247.59.156
   type: ss
 - alterId: 0
   cipher: auto
@@ -52,37 +31,25 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,24|加拿大_Telegram@kxswa
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
+  name: 21,24|CA 17 → tg@nicevpn123
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
   type: vmess
-  uuid: 055c4e5d-4c03-4223-a8ac-ba5f0f5863ec
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 18,21,24|🇨🇦_CA_加拿大_分享师_55
+  client-fingerprint: chrome
+  name: 1,2,3,4,6,13,20,23,24|_CA_加拿大
   network: ws
-  port: '443'
-  server: 23.227.38.81
-  servername: ''
+  port: 443
+  server: 23.227.38.82
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vmess
+  udp: true
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
@@ -101,18 +68,6 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.154-085
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 196.247.59.154
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-076
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 196.247.59.156
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -123,6 +78,40 @@ proxies:
   tls: true
   type: vmess
   uuid: f86adf8f-3ab6-446b-bd65-d496b674fea5
+- alterId: 0
+  cipher: auto
+  name: 18,21,23,24|🇨🇦_CA_加拿大_09
+  network: ws
+  port: '443'
+  server: 23.227.39.82
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.154-099
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 196.247.59.154
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 18,21,24|🇨🇦_CA_加拿大_分享师_55
+  network: ws
+  port: '443'
+  server: 23.227.38.81
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 19|CA-167.114.113.228-119
@@ -138,10 +127,21 @@ proxies:
   ws-path: /sshocean
 - alterId: 0
   cipher: auto
-  name: 21,24|CA 17 → tg@nicevpn123
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  tls: false
+  name: 21,24|加拿大_Telegram@kxswa
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.154-085
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 196.247.59.154
+  type: ss
