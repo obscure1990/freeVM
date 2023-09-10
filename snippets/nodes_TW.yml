@@ -1,20 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 23,25|15|台湾|tg频道:@ripaojiedian
-  network: tcp
-  port: '50013'
-  server: 13.kccic2pa.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b89d57b7-df76-4a1b-9054-b38b497a8b50
-- alterId: 0
-  cipher: auto
   name: 27|TW_speednode_0053
   network: ws
   port: 888
   server: wqryo-1075-v2-0.d-hinet-02.ddll.bond
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 27|TW_speednode_0054
+  network: ws
+  port: 888
+  server: vlejs-1097-v2-0.d-hinet-01.tuil.xyz
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -36,14 +41,14 @@ proxies:
   uuid: a9c7092c-d331-489b-958f-1ca239db74d9
 - alterId: 0
   cipher: auto
-  name: 21,23|台湾 06  | 1x TWN
+  name: 9,11,18,19,20,23|台湾省 中华电信
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
+  port: 11872
+  server: gamespeed-gateway-1.numastergame.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 80fbfd65-fba4-4539-b3a6-c42be2be2924
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - alterId: 0
   cipher: auto
   name: 21,23|台湾 04  | 1x TWN
@@ -53,27 +58,7 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 80fbfd65-fba4-4539-b3a6-c42be2be2924
-- alterId: 0
-  cipher: auto
-  name: 10,23|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a9c7092c-d331-489b-958f-1ca239db74d9
-- alterId: 0
-  cipher: auto
-  name: 9,11,18,19,20,23|台湾省 中华电信
-  network: tcp
-  port: 11872
-  server: gamespeed-gateway-1.numastergame.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+  uuid: 66e354b3-4642-410c-b7ad-22fd43230c39
 - alterId: 0
   cipher: auto
   name: 10,23|🇹🇼台湾06
@@ -86,19 +71,24 @@ proxies:
   uuid: a9c7092c-d331-489b-958f-1ca239db74d9
 - alterId: 0
   cipher: auto
-  name: 27|TW_speednode_0054
-  network: ws
-  port: 888
-  server: vlejs-1097-v2-0.d-hinet-01.tuil.xyz
-  skip-cert-verify: false
+  name: 21,23|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  udp: true
-  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
+  uuid: 66e354b3-4642-410c-b7ad-22fd43230c39
+- alterId: 0
+  cipher: auto
+  name: 10,23|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a9c7092c-d331-489b-958f-1ca239db74d9
 - alterId: 0
   cipher: auto
   name: 21,23|台湾 05  | 1x TWN
@@ -108,4 +98,14 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 80fbfd65-fba4-4539-b3a6-c42be2be2924
+  uuid: 66e354b3-4642-410c-b7ad-22fd43230c39
+- alterId: 0
+  cipher: auto
+  name: 23,25|15|台湾|tg频道:@ripaojiedian
+  network: tcp
+  port: '50013'
+  server: 13.kccic2pa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b89d57b7-df76-4a1b-9054-b38b497a8b50
