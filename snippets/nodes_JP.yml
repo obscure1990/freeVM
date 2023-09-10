@@ -1,41 +1,165 @@
 proxies:
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 30005
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19,20|JP-54.248.202.183-104
+  network: tcp
+  port: 443
+  server: 54.248.202.183
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bb7eeda8-9be7-4f43-9066-b730aadccdf7
+  ws-headers:
+    Host: 54.248.202.183
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 24|7|🇯🇵 Japan 03 @nodpai
+  network: tcp
+  port: '23234'
+  server: jp6.lianpi.xyz
+  tls: false
+  type: vmess
+  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+- cipher: aes-256-cfb
+  name: 19|JP-54.199.83.239-132
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
 - cipher: aes-256-gcm
   name: 19|JP-85.208.108.58-040
   password: e4FCWrgpkji3QY
   port: 9101
   server: 85.208.108.58
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇯🇵 Japan 03 @nodpai
-  network: ws
-  port: '80'
-  server: japan11451.baiduvideos.online
-  tls: false
-  type: vmess
-  uuid: d64eca38-adf2-43b2-ac10-84acf65f50b9
-  ws-opts:
-    headers:
-      Host: japan11451.baiduvideos.online
-    path: /114514
-- cipher: aes-256-cfb
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 25|🇯🇵 东京特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.250.246.118
+  name: 25|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20014
+  server: 183.232.170.32
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本06
+  name: 19,20|JP-103.173.178.110-047
   network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
+  port: 40443
+  server: 103.173.178.110
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: a3ad26fd-df1f-4c4f-9f8c-44aa559b3fa5
+  uuid: B2560548-5F75-3015-82F9-1C3DF8628009
+  ws-headers:
+    Host: node.napsternetv.com
+  ws-path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 35.72.2.153
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 62f6c578-fa11-4d4a-ad37-14e87fe719e1
+- alterId: 0
+  cipher: auto
+  name: 21,24,28|JP_speednode_0017
+  network: ws
+  port: 40794
+  server: 155.248.177.112
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 038ea99a-eab0-3e54-bf26-ce164f3766b5
+  ws-opts:
+    headers:
+      Host: tk-007.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 9,12,24,28|日本_0911001
+  network: ws
+  port: '888'
+  server: sigdg-1060-v2-1.d-cmi.ddll.bond
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 64
+  cipher: auto
+  name: 9|日本_0911104
+  network: ''
+  port: '51801'
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 9|日本_0911108
+  network: ''
+  port: '10080'
+  server: 172.105.222.106
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a82e7a29-8cc8-45fa-bb3c-2f321f9e2cd5
+- alterId: 64
+  cipher: auto
+  name: 9,21,24|日本_0911033
+  network: tcp
+  port: '51801'
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d4efba2b-5adc-45e2-b67a-7676fcccf6b5
 - alterId: 0
   cipher: auto
   name: 21,24|🇯🇵白嫖-061
@@ -56,6 +180,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 24|7,8|🇯🇵 Japan 05 @nodpai
+  network: ws
+  port: '80'
+  server: japan11451.baiduvideos.online
+  tls: false
+  type: vmess
+  uuid: d64eca38-adf2-43b2-ac10-84acf65f50b9
+  ws-opts:
+    headers:
+      Host: japan11451.baiduvideos.online
+    path: /114514
 - alterId: 64
   cipher: auto
   name: 9,21,24|日本_0911030
@@ -66,108 +203,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19,20|JP-54.248.202.183-104
-  network: tcp
-  port: 443
-  server: 54.248.202.183
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bb7eeda8-9be7-4f43-9066-b730aadccdf7
-  ws-headers:
-    Host: 54.248.202.183
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 9|日本_0911108
-  network: ''
-  port: '10080'
-  server: 172.105.222.106
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a82e7a29-8cc8-45fa-bb3c-2f321f9e2cd5
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20014
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d4efba2b-5adc-45e2-b67a-7676fcccf6b5
-- alterId: 0
-  cipher: auto
-  name: 24|7|🇯🇵 Japan 03 @nodpai
-  network: tcp
-  port: '23234'
-  server: jp6.lianpi.xyz
-  tls: false
-  type: vmess
-  uuid: 1f3d67b4-6929-4598-90ca-84a841bf02e4
-- alterId: 0
-  cipher: auto
-  name: 21,24,28|JP_speednode_0017
-  network: ws
-  port: 40794
-  server: 155.248.177.112
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 038ea99a-eab0-3e54-bf26-ce164f3766b5
-  ws-opts:
-    headers:
-      Host: tk-007.xiaoxiaobujidao.xyz
-    path: /xiaodao?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 21,24,28|JP_speednode_0019
-  network: ws
-  port: 20403
-  server: 0122.763352.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
-  ws-opts:
-    headers:
-      Host: 0122.763352.top
-    path: /some.php
-- alterId: 64
-  cipher: auto
-  name: 9,21,24|日本_0911033
-  network: tcp
-  port: '51801'
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 19|JP-54.199.83.239-132
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
 - alterId: 0
   cipher: auto
   name: 19|JP-103.168.155.33-128
@@ -183,6 +218,28 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: 21,24,28|JP_speednode_0019
+  network: ws
+  port: 20403
+  server: 0122.763352.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 343e890c-e0ad-4184-a4fc-1ca01c13a4f7
+  ws-opts:
+    headers:
+      Host: 0122.763352.top
+    path: /some.php
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.250.246.118
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 22,24|日本 05  | 1x JP
   network: tcp
   port: '31106'
@@ -191,30 +248,6 @@ proxies:
   tls: true
   type: vmess
   uuid: d4efba2b-5adc-45e2-b67a-7676fcccf6b5
-- alterId: 64
-  cipher: auto
-  name: 9|日本_0911104
-  network: ''
-  port: '51801'
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 9,12,24,28|日本_0911001
-  network: ws
-  port: '888'
-  server: sigdg-1060-v2-1.d-cmi.ddll.bond
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
   name: 22,24|日本 06  | 1x JP
@@ -225,13 +258,16 @@ proxies:
   tls: true
   type: vmess
   uuid: d4efba2b-5adc-45e2-b67a-7676fcccf6b5
-- cipher: aes-256-cfb
-  name: 8,25|🇯🇵 Japan 04 @nodpai
-  password: amazonskr05
-  port: 443
-  server: 35.72.2.153
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 62f6c578-fa11-4d4a-ad37-14e87fe719e1
 - alterId: 0
   cipher: auto
   name: 19|JP-38.150.10.51-185
@@ -247,46 +283,11 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本04
+  name: 11,24|🇯🇵日本06
   network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a3ad26fd-df1f-4c4f-9f8c-44aa559b3fa5
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a3ad26fd-df1f-4c4f-9f8c-44aa559b3fa5
-- alterId: 0
-  cipher: auto
-  name: 19,20|JP-103.173.178.110-047
-  network: tcp
-  port: 40443
-  server: 103.173.178.110
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: B2560548-5F75-3015-82F9-1C3DF8628009
-  ws-headers:
-    Host: node.napsternetv.com
-  ws-path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 30005
-  server: 183.232.170.32
-  tfo: false
-  type: ss
+  uuid: 62f6c578-fa11-4d4a-ad37-14e87fe719e1
