@@ -1,17 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 28|FR_speednode_0023
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 19|FR-51.38.118.42-114
-  password: Ultr@r00t_2017
-  port: 811
-  server: 51.38.118.42
-  type: ss
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -25,9 +12,53 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
+- cipher: aes-256-ctr
+  name: 28|FR_speednode_0006
+  obfs: tls1.2_ticket_auth
+  obfs-param: None
+  password: HowdyBypasser2022
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 94.23.116.190
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 21,24|🇫🇷 France 01 @nodpai
+  network: ws
+  port: '80'
+  server: bl.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 52cce261-ff53-439a-b97d-f36201842cdb
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|FR-51.38.118.42-114
+  password: Ultr@r00t_2017
+  port: 811
+  server: 51.38.118.42
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 28|FR_speednode_0004
+  network: ws
+  port: 80
+  server: 57.128.173.208
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4e66e7d6-bab0-403d-8ab2-6397090d3612
+  ws-opts:
+    headers:
+      Host: uk2-vmess.greenssh.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇫🇷 France 02 @nodpai
   network: ws
   port: '80'
   server: ms.shabijichang.com
@@ -38,14 +69,3 @@ proxies:
     headers:
       Host: ms.shabijichang.com
     path: /
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0021
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: RcfVcDzzB
-  port: 8181
-  protocol: origin
-  protocol-param: None
-  server: fr-am1-5.eqsunshine.com
-  type: ssr
-  udp: true
