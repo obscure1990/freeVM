@@ -1,4 +1,64 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 28|HK_speednode_0021
+  obfs: tls1.2_ticket_auth
+  obfs-param: cloudfront.net
+  password: iFqnzSscN
+  port: 8083
+  protocol: origin
+  protocol-param: ''
+  server: 150.107.46.21
+  type: ssr
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|HK-42.3.19.141-095
+  network: ws
+  port: 888
+  server: asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  ws-headers:
+    Host: edge.cjhh.mom
+  ws-path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #5'
+  network: ws
+  port: '8880'
+  server: fr.2121999.xyz
+  tls: false
+  type: vmess
+  uuid: 2a3955be-acbc-48b6-ab96-559a967ae7fb
+  ws-opts:
+    headers:
+      Host: fr.2121999.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 70255195-1197-438a-b147-4ed0b80e0376
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇭🇰 Hong Kong 09 @nodpai
+  network: ws
+  port: '80'
+  server: hongkong1145141.baiduvideos.online
+  tls: false
+  type: vmess
+  uuid: 9186a3f7-8952-417b-bf1e-193f53447777
+  ws-opts:
+    headers:
+      Host: hongkong1145141.baiduvideos.online
+    path: /11451
 - alterId: 64
   cipher: auto
   name: '14|香港_【YouTube-VV科技】 #2'
@@ -22,66 +82,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 0376ffd8-0369-4884-93a4-691851315845
-- cipher: aes-256-cfb
-  name: 28|HK_speednode_0021
-  obfs: tls1.2_ticket_auth
-  obfs-param: cloudfront.net
-  password: iFqnzSscN
-  port: 8083
-  protocol: origin
-  protocol-param: ''
-  server: 150.107.46.21
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 20|🇭🇰 香港(油管:破解资源君2.0)
-  network: ws
-  port: '888'
-  server: hk-hkg-hgc-b-v2.jd.cjhh.mom
-  tls: true
-  type: vmess
-  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
-  ws-opts:
-    headers:
-      Host: cdn.savoy.click
-    path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: 19|HK-42.3.19.141-091
-  network: ws
-  port: 888
-  server: asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
-  ws-headers:
-    Host: edge.cjhh.mom
-  ws-path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: 19|HK-223.16.97.227-036
-  network: ws
-  port: 888
-  server: hk-hkg-hgc-b-v2.jd.cjhh.mom
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
-  ws-headers:
-    Host: cdn.savoy.click
-  ws-path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1185cc29-3281-462e-a771-36ac815ecc14
 - alterId: 1
   cipher: auto
   name: '20|🇭🇰 香港(油管:破解资源君2.0) #1'
@@ -97,29 +97,6 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 11,24|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1185cc29-3281-462e-a771-36ac815ecc14
-- alterId: 0
-  cipher: auto
-  name: 6,13,24|🇭🇰_HK_香港
-  network: ws
-  port: 443
-  server: hk01.isddns.tk
-  tls: true
-  type: vmess
-  uuid: 2a898bd8-c0d1-4f7d-a88e-831d5682a9b9
-  ws-opts:
-    headers:
-      Host: hk01.isddns.tk
-    path: /ray
-- alterId: 0
-  cipher: auto
   name: 11,24|🇭🇰香港04
   network: tcp
   port: '36601'
@@ -127,37 +104,46 @@ proxies:
   servername: hk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1185cc29-3281-462e-a771-36ac815ecc14
-- cipher: chacha20-ietf-poly1305
-  name: 8|「蛋挞云,流媒体全解锁」🇭🇰 HK 02
-  password: daad7ae1-39cc-47da-ac65-29baf55e079d
-  port: 40003
-  server: 39.175.1.22
-  type: ss
-  udp: true
+  uuid: 70255195-1197-438a-b147-4ed0b80e0376
 - alterId: 0
   cipher: auto
-  name: 7,8,9,10,24|🇭🇰 Hong Kong 13 @nodpai
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #4'
   network: ws
-  port: '8080'
-  server: hk2.mianfenyun012.eu.org
-  tls: false
-  type: vmess
-  uuid: a04922f6-5766-49ba-d9fb-8aba40f49277
-  ws-opts:
-    headers:
-      Host: hk2.mianfenyun012.eu.org
-    path: /jdbp606
-- alterId: 0
-  cipher: auto
-  name: 22,24|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
+  port: '39918'
+  server: zduwg-1047-v2-1.hkg-r-kcd-b.jd.cjhh.lol
   tls: true
   type: vmess
-  uuid: 0376ffd8-0369-4884-93a4-691851315845
+  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #2'
+  network: ws
+  port: '443'
+  server: 172.67.167.120
+  tls: true
+  type: vmess
+  uuid: f5e74e66-0241-447c-83a4-a4005f438536
+  ws-opts:
+    headers:
+      Host: m4.v2rayfree1.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #3'
+  network: ws
+  port: '888'
+  server: asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom
+  tls: true
+  type: vmess
+  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  ws-opts:
+    headers:
+      Host: edge.cjhh.mom
+    path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
   name: 22,24|香港 04 | 1x HK
@@ -168,15 +154,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 0376ffd8-0369-4884-93a4-691851315845
-- alterId: 64
-  cipher: auto
-  name: 14,19,20|香港_【YouTube-VV科技】
-  network: tcp
-  port: 34417
-  server: 156.245.8.247
-  tls: false
-  type: vmess
-  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25|🇭🇰 香港KT|@ripaojiedian
@@ -195,30 +172,40 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '20|🇭🇰 香港(油管:破解资源君2.0) #3'
-  network: ws
-  port: '39918'
-  server: zduwg-1047-v2-1.hkg-r-kcd-b.jd.cjhh.lol
+  name: 22,24|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
+  uuid: 0376ffd8-0369-4884-93a4-691851315845
 - alterId: 0
   cipher: auto
-  name: '20|🇭🇰 香港(油管:破解资源君2.0) #2'
+  name: 19|HK-223.16.97.227-030
   network: ws
-  port: '888'
-  server: asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom
+  port: 888
+  server: hk-hkg-hgc-b-v2.jd.cjhh.mom
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
+  ws-headers:
+    Host: cdn.savoy.click
+  ws-path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇭🇰 Hong Kong 10 @nodpai
+  network: ws
+  port: '8080'
+  server: hk2.mianfenyun012.eu.org
+  tls: false
+  type: vmess
+  uuid: a04922f6-5766-49ba-d9fb-8aba40f49277
   ws-opts:
     headers:
-      Host: edge.cjhh.mom
-    path: /je5x3pBN1vez3NQudNkB
+      Host: hk2.mianfenyun012.eu.org
+    path: /jdbp606
 - alterId: 0
   cipher: auto
   name: '14|香港_【YouTube-VV科技】 #1'
@@ -232,3 +219,48 @@ proxies:
     headers:
       Host: 18.wyhkaa0.gq
     path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 20|🇭🇰 香港(油管:破解资源君2.0)
+  network: ws
+  port: '888'
+  server: hk-hkg-hgc-b-v2.jd.cjhh.mom
+  tls: true
+  type: vmess
+  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
+  ws-opts:
+    headers:
+      Host: cdn.savoy.click
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 70255195-1197-438a-b147-4ed0b80e0376
+- alterId: 64
+  cipher: auto
+  name: 14,19,20|香港_【YouTube-VV科技】
+  network: tcp
+  port: 34417
+  server: 156.245.8.247
+  tls: false
+  type: vmess
+  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+- alterId: 0
+  cipher: auto
+  name: 6,13,24|🇭🇰_HK_香港
+  network: ws
+  port: 443
+  server: hk01.isddns.tk
+  tls: true
+  type: vmess
+  uuid: 2a898bd8-c0d1-4f7d-a88e-831d5682a9b9
+  ws-opts:
+    headers:
+      Host: hk01.isddns.tk
+    path: /ray
