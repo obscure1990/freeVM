@@ -1,21 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,20,23,24|_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.39.82
-  skip-cert-verify: true
-  tfo: false
-  tls: true
+  name: 21,24|CA 17 → tg@nicevpn123
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  tls: false
   type: vmess
-  udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -25,33 +17,20 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 27cda03c-869c-40c4-a786-5ec964454682
+  uuid: a1916a28-7a67-4dfd-a7b4-2a21f2837908
 - alterId: 0
   cipher: auto
-  name: '0,6,12,13,15,16,24|🇨🇦 _CA_加拿大 #1'
+  name: 19|CA-167.114.113.228-059
   network: ws
-  port: '443'
-  server: dongtaiwang2.com
-  tls: true
+  port: 80
+  server: ca2.v2rayserv.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 14,21,24|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
+  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+  ws-headers:
+    Host: ca2.v2rayserv.com
+  ws-path: /sshocean
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -64,19 +43,6 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 0,6,12,13,16,20,21,24|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  tls: true
-  type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
@@ -104,26 +70,60 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b236ce06-4ac7-4a00-9def-403ca712cd2b
+  uuid: 4e4663d0-5e8f-4706-bc3e-ba6a90de639d
 - alterId: 0
   cipher: auto
-  name: 19|CA-167.114.113.228-059
+  name: 14,21,24|加拿大_【YouTube-VV科技】
   network: ws
-  port: 80
-  server: ca2.v2rayserv.com
-  skip-cert-verify: true
-  tls: false
+  port: 443
+  server: 23.227.39.109
+  tls: true
   type: vmess
-  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
-  ws-headers:
-    Host: ca2.v2rayserv.com
-  ws-path: /sshocean
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|CA 17 → tg@nicevpn123
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  tls: false
+  name: 0,6,12,13,16,20,21,24|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: '0,6,12,13,15,16,24|🇨🇦 _CA_加拿大 #1'
+  network: ws
+  port: '443'
+  server: dongtaiwang2.com
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,20,23,24|_CA_加拿大
+  network: ws
+  port: 443
+  server: 23.227.39.82
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
