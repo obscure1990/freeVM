@@ -1,4 +1,16 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 19|CN-36.137.19.45-191
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55102
+  server: 36.137.19.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0003
+  password: 26feb150-2803-450d-8e0e-16829ad9461f
+  port: 20304
+  server: 01-2.qqingca.cc
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19|CN-120.241.29.164-097
@@ -12,47 +24,16 @@ proxies:
   ws-headers:
     Host: cdn.cjhh.lol
   ws-path: /je5x3pBN1vez3NQudNkB
-- cipher: aes-256-gcm
-  name: 28|CN_speednode_0023
-  password: IgP0IOaVkqdJFj0E
-  port: 37377
-  server: zjxc.pmxu.link
-  type: ss
-  udp: true
-- name: 28|CN_speednode_0019
-  network: tcp
-  password: PtxApBjJcFkxXnYZAQTvALYNvhXjpWKg
-  port: 29969
-  server: coydr-1083-tr-6.r-kcd-b.tuil.xyz
-  skip-cert-verify: true
-  sni: cdn.cjhh.lol
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 28|CN_speednode_0013
-  network: ws
-  port: 64082
-  server: in06.my1188.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: hkt3-cdn.tencent.best
-    path: /
-- cipher: aes-128-gcm
-  name: 19|CN-36.137.19.45-194
-  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
-  port: 55107
-  server: 36.137.19.45
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0006
+  password: 26feb150-2803-450d-8e0e-16829ad9461f
+  port: 20320
+  server: 01-2.qqingca.cc
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0014
+  name: 28|CN_speednode_0005
   password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20309
+  port: 20302
   server: 01-2.qqingca.cc
   type: ss
 - alterId: 0
@@ -68,101 +49,49 @@ proxies:
   ws-headers:
     Host: 3.sg.zz.xxxxx.x-t-fuckword.network
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.241.29.167-153
-  network: ws
-  port: 39918
-  server: kvxul-1092-v2-4.r-kcd-b.iote.bond
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
-  ws-headers:
-    Host: cdn.cjhh.lol
-  ws-path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-183.240.117.54-111
-  network: tcp
-  port: 58418
-  server: 4.3.1.fuckppppp.today
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.3.1.fuckppppp.today
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-223.95.40.39-172
-  password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
-  port: 27119
-  server: foshan.chiguayun.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0018
-  password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20317
-  server: 01-2.qqingca.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-223.95.40.39-165
-  password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
-  port: 27137
-  server: foshan.chiguayun.cc
-  type: ss
-- cipher: aes-128-gcm
-  name: 19|CN-36.137.19.45-196
-  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
-  port: 55110
-  server: 36.137.19.45
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0006
-  password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20320
-  server: 01-2.qqingca.cc
-  type: ss
-- cipher: aes-256-gcm
-  name: 19,25|CN-116.148.200.53-171
-  password: YX3wgYWMpLKYEnho
-  port: 47024
-  server: zjxc.pmxu.link
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.164.185.220-118
+  name: 19|CN-117.164.185.220-101
   password: ec3d404b-e7de-44d7-a646-c6b52bdb148c
-  port: 61027
+  port: 61026
   server: 117.164.185.220
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-159
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
+- cipher: aes-256-gcm
+  name: 28|CN_speednode_0021
+  password: IgP0IOaVkqdJFj0E
+  port: 55906
+  server: shct.pmxu.link
   type: ss
+  udp: true
 - cipher: aes-128-gcm
-  name: 19|CN-36.137.19.45-193
+  name: 19|CN-36.137.19.45-189
   password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
-  port: 55104
+  port: 55105
   server: 36.137.19.45
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0007
-  password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20305
-  server: 01-1.qqingca.cc
+- cipher: aes-128-gcm
+  name: 19|CN-36.137.19.45-195
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55106
+  server: 36.137.19.45
   type: ss
+- name: 28|CN_speednode_0019
+  network: tcp
+  password: PtxApBjJcFkxXnYZAQTvALYNvhXjpWKg
+  port: 29969
+  server: coydr-1083-tr-6.r-kcd-b.tuil.xyz
+  skip-cert-verify: true
+  sni: cdn.cjhh.lol
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0010
-  password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20314
-  server: 01-2.qqingca.cc
+  name: 19|CN-112.26.231.83-219
+  password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
+  port: 27115
+  server: hefei.chiguayun.cc
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12,15,24|广东省深圳市移动 18
+  name: 12,15,24,27|广东省深圳市移动 18
   network: ws
   port: 29938
   server: rbaun-1079-v2-1.r-kcd-c.iote.bond
@@ -175,53 +104,21 @@ proxies:
       Host: cdn.cjhh.lol
     path: /je5x3pBN1vez3NQudNkB
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0003
-  password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20304
-  server: 01-2.qqingca.cc
-  type: ss
-- cipher: aes-128-gcm
-  name: 19|CN-36.137.19.45-190
-  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
-  port: 55103
-  server: 36.137.19.45
-  type: ss
-- cipher: aes-128-gcm
-  name: 19|CN-36.137.19.45-189
-  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
-  port: 55105
-  server: 36.137.19.45
+  name: 19|CN-117.164.185.220-133
+  password: ec3d404b-e7de-44d7-a646-c6b52bdb148c
+  port: 61025
+  server: 117.164.185.220
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0002
-  password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20347
-  server: 01-1.qqingca.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-148
+  name: 19|CN-223.95.40.39-227
   password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
-  port: 27103
-  server: hefei.chiguayun.cc
+  port: 27116
+  server: foshan.chiguayun.cc
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12,15,20,24|广东省深圳市移动 16
-  network: ws
-  port: '39918'
-  server: kvxul-1092-v2-4.r-kcd-b.iote.bond
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0017
+  name: 28|CN_speednode_0012
   password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20322
+  port: 20313
   server: 01-2.qqingca.cc
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -230,63 +127,23 @@ proxies:
   port: 20356
   server: 02-1.qqingca.cc
   type: ss
-- cipher: aes-128-gcm
-  name: 19|CN-36.137.19.45-192
-  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
-  port: 55108
-  server: 36.137.19.45
-  type: ss
 - cipher: aes-256-gcm
-  name: 19,28|CN-101.89.218.202-213
+  name: 19,25|CN-116.148.200.53-171
   password: YX3wgYWMpLKYEnho
-  port: 22177
-  server: shct.pmxu.link
+  port: 47024
+  server: zjxc.pmxu.link
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0009
-  password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20337
-  server: 03-1.qqingca.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-154
-  password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
-  port: 27133
-  server: hefei.chiguayun.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0005
-  password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20302
-  server: 01-2.qqingca.cc
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 14|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.240.55.137-038
-  network: ws
-  port: 38201
-  server: 120.240.55.137
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-headers:
-    Host: 120.240.55.137
-  ws-path: /hls/cctv5phd.m3u8
 - cipher: chacha20-ietf-poly1305
   name: 28|CN_speednode_0001
   password: 26feb150-2803-450d-8e0e-16829ad9461f
   port: 20394
   server: 02-1.qqingca.cc
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-223.95.40.39-165
+  password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
+  port: 27137
+  server: foshan.chiguayun.cc
   type: ss
 - alterId: 0
   cipher: auto
@@ -302,86 +159,79 @@ proxies:
     Host: 4.hk.zz.xxxxx.x-t-fuckword.network
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-223.95.40.39-227
+  name: 28|CN_speednode_0017
+  password: 26feb150-2803-450d-8e0e-16829ad9461f
+  port: 20322
+  server: 01-2.qqingca.cc
+  type: ss
+- cipher: aes-128-gcm
+  name: 19|CN-36.137.19.45-190
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55103
+  server: 36.137.19.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-154
   password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
-  port: 27116
-  server: foshan.chiguayun.cc
-  type: ss
-- cipher: aes-256-gcm
-  name: 28|CN_speednode_0015
-  password: IgP0IOaVkqdJFj0E
-  port: 42862
-  server: zjxc.pmxu.link
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.164.185.220-133
-  password: ec3d404b-e7de-44d7-a646-c6b52bdb148c
-  port: 61025
-  server: 117.164.185.220
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.164.185.220-101
-  password: ec3d404b-e7de-44d7-a646-c6b52bdb148c
-  port: 61026
-  server: 117.164.185.220
-  type: ss
-- cipher: aes-128-gcm
-  name: 19|CN-36.137.19.45-195
-  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
-  port: 55106
-  server: 36.137.19.45
-  type: ss
-- cipher: aes-128-gcm
-  name: 19|CN-36.137.19.45-197
-  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
-  port: 55101
-  server: 36.137.19.45
+  port: 27133
+  server: hefei.chiguayun.cc
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19|CN-120.241.29.167-155
-  network: ws
-  port: 29938
-  server: rbaun-1079-v2-1.r-kcd-c.iote.bond
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
-  ws-headers:
-    Host: cdn.cjhh.lol
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0011
-  password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20307
-  server: 02-2.qqingca.cc
-  type: ss
-- cipher: aes-256-gcm
-  name: 28|CN_speednode_0021
-  password: IgP0IOaVkqdJFj0E
-  port: 55906
-  server: shct.pmxu.link
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.215-054
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
+  name: 19,20|CN-183.240.117.54-111
+  network: tcp
+  port: 58418
+  server: 4.3.1.fuckppppp.today
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
   ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
+    Host: 4.3.1.fuckppppp.today
+  ws-path: /
 - cipher: aes-128-gcm
-  name: 19|CN-36.137.19.45-191
+  name: 19|CN-36.137.19.45-196
   password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
-  port: 55102
+  port: 55110
   server: 36.137.19.45
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0009
+  password: 26feb150-2803-450d-8e0e-16829ad9461f
+  port: 20337
+  server: 03-1.qqingca.cc
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-148
+  password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
+  port: 27103
+  server: hefei.chiguayun.cc
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0014
+  password: 26feb150-2803-450d-8e0e-16829ad9461f
+  port: 20309
+  server: 01-2.qqingca.cc
+  type: ss
+- cipher: aes-128-gcm
+  name: 19|CN-36.137.19.45-194
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55107
+  server: 36.137.19.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-223.95.40.39-172
+  password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
+  port: 27119
+  server: foshan.chiguayun.cc
+  type: ss
+- cipher: aes-256-gcm
+  name: 28|CN_speednode_0023
+  password: IgP0IOaVkqdJFj0E
+  port: 37377
+  server: zjxc.pmxu.link
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 20|🇨🇳 github.com/freefq - 广东省深圳市移...
@@ -396,15 +246,21 @@ proxies:
       Host: cdn.cjhh.lol
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-219
-  password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109
-  port: 27115
-  server: hefei.chiguayun.cc
+  name: 28|CN_speednode_0011
+  password: 26feb150-2803-450d-8e0e-16829ad9461f
+  port: 20307
+  server: 02-2.qqingca.cc
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0012
+  name: 28|CN_speednode_0002
   password: 26feb150-2803-450d-8e0e-16829ad9461f
-  port: 20313
+  port: 20347
+  server: 01-1.qqingca.cc
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0010
+  password: 26feb150-2803-450d-8e0e-16829ad9461f
+  port: 20314
   server: 01-2.qqingca.cc
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -413,3 +269,145 @@ proxies:
   port: 20379
   server: 04-2.qqingca.cc
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|CN-120.241.29.167-153
+  network: ws
+  port: 39918
+  server: kvxul-1092-v2-4.r-kcd-b.iote.bond
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
+  ws-headers:
+    Host: cdn.cjhh.lol
+  ws-path: /je5x3pBN1vez3NQudNkB
+- cipher: aes-128-gcm
+  name: 19|CN-36.137.19.45-192
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55108
+  server: 36.137.19.45
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 19|CN-111.38.37.215-054
+  network: ws
+  port: 50205
+  server: data-hk-v2.shwjfkw.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    Host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 64
+  cipher: auto
+  name: 14|中国_【YouTube-VV科技】
+  network: tcp
+  port: 42055
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.164.185.220-118
+  password: ec3d404b-e7de-44d7-a646-c6b52bdb148c
+  port: 61027
+  server: 117.164.185.220
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|CN-120.241.29.167-155
+  network: ws
+  port: 29938
+  server: rbaun-1079-v2-1.r-kcd-c.iote.bond
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
+  ws-headers:
+    Host: cdn.cjhh.lol
+  ws-path: /
+- cipher: aes-128-gcm
+  name: 19|CN-36.137.19.45-193
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55104
+  server: 36.137.19.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-159
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0007
+  password: 26feb150-2803-450d-8e0e-16829ad9461f
+  port: 20305
+  server: 01-1.qqingca.cc
+  type: ss
+- cipher: aes-256-gcm
+  name: 28|CN_speednode_0015
+  password: IgP0IOaVkqdJFj0E
+  port: 42862
+  server: zjxc.pmxu.link
+  type: ss
+- cipher: aes-256-gcm
+  name: 19,28|CN-101.89.218.202-213
+  password: YX3wgYWMpLKYEnho
+  port: 22177
+  server: shct.pmxu.link
+  type: ss
+- cipher: aes-128-gcm
+  name: 19|CN-36.137.19.45-197
+  password: edfcc7a5-a469-4e4a-9520-84b8f9a31bbe
+  port: 55101
+  server: 36.137.19.45
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8,16,17,27|「蛋挞云,流媒体全解锁」🇨🇳 CN 01
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0018
+  password: 26feb150-2803-450d-8e0e-16829ad9461f
+  port: 20317
+  server: 01-2.qqingca.cc
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|CN-120.240.55.137-038
+  network: ws
+  port: 38201
+  server: 120.240.55.137
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    Host: 120.240.55.137
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 12,15,20,24,27|广东省深圳市移动 16
+  network: ws
+  port: '39918'
+  server: kvxul-1092-v2-4.r-kcd-b.iote.bond
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ac5be27f-0af3-4a22-bc90-f0cc5fdc2291
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
