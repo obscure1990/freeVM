@@ -1,30 +1,8 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 0,14,24|🇸🇬 _CN_中国->🇸🇬_SG_新加坡
-  network: tcp
-  port: '40702'
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|中转 🇯🇵 Japan 02 @nodpai
-  network: ws
-  port: '64005'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: in06.my1188.org
-    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,14,15,16,20,21,23,24,31|_US_美国->🇨🇦_CA_加拿大
+  name: 1,2,3,4,14,15,16,20,21,23,24,27,31|_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 443
   server: singapore.com
@@ -40,7 +18,20 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇮🇳 India 01 @nodpai
+  name: 7,8,24,27|中转 🇯🇵 Japan 02 @nodpai
+  network: ws
+  port: '64005'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: in06.my1188.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|中转 🇮🇳 India 02 @nodpai
   network: ws
   port: '64051'
   server: in06.my1188.org
@@ -53,151 +44,61 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇺🇸 United States 13 @nodpai
+  name: 24,27,31|17|🇳🇱_NL_荷兰->🇺🇸_US_美国_48
   network: ws
-  port: '40262'
-  server: 111.38.37.73
-  tls: false
+  port: 8443
+  server: 188.114.99.0
+  tls: true
   type: vmess
-  uuid: 72bea5d3-7591-3ca4-9d61-3c89bd6e45a5
+  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
   ws-opts:
     headers:
-      Host: ''
-    path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
+      Host: cloudconebbb.gorgorchicken.one
+    path: /cloudconebbb
 - alterId: 64
   cipher: auto
-  name: 2,3,4,7,19,20,24,26|_CN_中国->🇺🇸_US_美国
+  name: 2,3,4,19,20,24,26,27|_CN_中国->🇺🇸_US_美国
   network: tcp
   port: '51165'
   server: 183.233.187.232
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 8,17|中转 🇯🇵 Japan 03 @nodpai
-  password: 2a23c437-de2c-47e3-b779-fb1d2289578f
-  port: 27202
-  server: 112.26.46.24
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 6,13,24|🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  name: 6,13,14,24,27|🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 443
-  server: 104.31.16.196
+  server: 172.67.75.194
   tls: true
   type: vmess
-  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
   ws-opts:
     headers:
-      Host: us-1.acyun.tk
-    path: /
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,18,20,23,24,31|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '80'
-  server: v101.runba.gq
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: v101.runba.gq
-    path: /frfrxxx0fk832v101N
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,10,12,15,16,18,20,23,24,31|_US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: 443
-  server: 104.27.193.64
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1
-  ws-opts:
-    headers:
-      Host: avaspeed.jetspeed.fun
-    path: /pDDgT3v8NaAJHFPuEaDfC8t
-- alterId: 64
-  cipher: auto
-  name: 6,13,24|🇺🇸_US_美国->🇭🇰_HK_香港
-  network: ws
-  port: 80
-  server: 172.67.188.127
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: 7,8,16,17|中转 🇨🇳 China 02 @nodpai
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇯🇵_JP_日本_2@14
-  network: ws
-  port: 443
-  server: ming2.kiwireich.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 24,31|17|🇺🇸_US_美国->🇫🇷_FR_法国_由快嘴科技提供：...
-  network: ws
-  port: 80
-  server: v157.runba.gq
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: v157.runba.gq
-    path: /frfrfffvmn01N
-- alterId: 0
-  cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国->🇯🇵_JP_日本_43
-  network: ws
-  port: 64005
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: biteb-jp98-cdn.mynodes001.one
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,24,31|中转 🇰🇷 South Korea 01 @nodpai
+  name: 7,24,27,31|中转 🇦🇺 Australia 01 @nodpai
   network: tcp
-  port: '64097'
+  port: '64003'
   server: in06.my1188.org
   tls: false
   type: vmess
   uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+- alterId: 0
+  cipher: auto
+  name: 24,27,31|17|🇨🇳_CN_中国->🇧🇷_BR_巴西_34
+  network: ws
+  port: 64002
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: br01.tencent.best
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,14,24|🇸🇬 _US_美国->🇸🇬_SG_新加坡
@@ -211,16 +112,71 @@ proxies:
     headers:
       Host: vless.wyhkaa0.cf
     path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇮🇳 India 01 @nodpai
+  network: tcp
+  port: '15018'
+  server: 15018.kuaiyin.win
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- alterId: 64
+  cipher: auto
+  name: 0,14,24|🇸🇬 _CN_中国->🇸🇬_SG_新加坡
+  network: tcp
+  port: '40702'
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 8,17|中转 🇸🇬 Singapore 43 @nodpai
+  name: 8,17|中转 🇯🇵 Japan 04 @nodpai
   password: 2a23c437-de2c-47e3-b779-fb1d2289578f
-  port: 27201
-  server: fs.xianyuwangluo.cyou
+  port: 27202
+  server: 112.26.46.24
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8,19,25|中转 🇺🇸 United States 12 @nodpai
+  password: 1623ddeb-165b-4845-86fc-a254a9464b04
+  port: 44184
+  server: 112.45.36.142
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,10,12,15,20,23,24|🇭🇰 _US_美国->🇭🇰_HK_香港
+  name: 7,8,27|中转 🇺🇸 United States 08 @nodpai
+  network: ws
+  port: '40262'
+  server: 111.38.37.73
+  tls: false
+  type: vmess
+  uuid: 72bea5d3-7591-3ca4-9d61-3c89bd6e45a5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,9,16,20,23,24,27|_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 8880
+  server: ns1.v2-vip.fun
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr7.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,7,8,10,12,15,20,23,24,27|🇭🇰 _US_美国->🇭🇰_HK_香港
   network: ws
   port: '8080'
   server: hk2.mianfenyun012.eu.org
@@ -231,45 +187,6 @@ proxies:
     headers:
       Host: hk2.mianfenyun012.eu.org
     path: /jdbp606
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,13,20,23,24|_US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: 443
-  server: zfc.windowsupdate1.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-  ws-opts:
-    headers:
-      Host: us-1.acyun.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇯🇵 Japan 01 @nodpai
-  network: ws
-  port: '64011'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: in06.my1188.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,31|7,17|中转 🇭🇰 Hong Kong 02 @nodpa...
-  network: tcp
-  port: '64010'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -289,33 +206,80 @@ proxies:
     path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 6,13,14,24|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  client-fingerprint: chrome
+  name: 1,2,3,4,6,13,20,23,24,27|_US_美国->🇱🇺_LU_卢森堡
   network: ws
   port: 443
-  server: 172.67.75.194
+  server: zfc.windowsupdate1.com
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  udp: true
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 6,10,13,24|🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 8880
-  server: lt1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf
-  ws-opts:
-    headers:
-      Host: euserv2.vpn66.eu.org
+      Host: us-1.acyun.tk
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇭🇰 Hong Kong 02 @nodpai
+  name: 27|「www.dafei.xyz中转机场」NL2-CF-HTTP
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: nl2.sharecentrepro.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,9,10,12,15,16,18,20,23,24,27,31|_US_美国->🇮🇷_IR_伊朗
+  network: ws
+  port: 443
+  server: 104.27.193.64
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8bb01190-f127-4a5a-9845-e6adf93eccc1
+  ws-opts:
+    headers:
+      Host: avaspeed.jetspeed.fun
+    path: /pDDgT3v8NaAJHFPuEaDfC8t
+- alterId: 0
+  cipher: auto
+  name: 24,27,31|17|🇨🇳_CN_中国->🇯🇵_JP_日本_43
+  network: ws
+  port: 64005
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: biteb-jp98-cdn.mynodes001.one
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24,27,31|17|🇨🇳_CN_中国->🇺🇸_US_美国_2_46
+  network: ws
+  port: 64014
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: us01.wechat-cdn-us01.one
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|中转 🇭🇰 Hong Kong 04 @nodpai
   network: ws
   port: '64082'
   server: in06.my1188.org
@@ -328,66 +292,85 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,16,20,23,24|_US_美国->🇫🇷_FR_法国
+  name: 6,13,24,27|🇺🇸_US_美国->🇱🇺_LU_卢森堡
   network: ws
-  port: 8880
-  server: ns1.v2-vip.fun
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr7.tehme100.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 0
-  cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国->🇧🇷_BR_巴西_34
-  network: ws
-  port: 64002
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: br01.tencent.best
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,31|17|🇳🇱_NL_荷兰->🇺🇸_US_美国_48
-  network: ws
-  port: 8443
-  server: 188.114.99.0
+  port: 443
+  server: 104.31.16.196
   tls: true
   type: vmess
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
   ws-opts:
     headers:
-      Host: cloudconebbb.gorgorchicken.one
-    path: /cloudconebbb
-- alterId: 0
+      Host: us-1.acyun.tk
+    path: /
+- alterId: 64
   cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提供：...
-  network: tcp
-  port: 64003
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-- alterId: 0
-  cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国->🇺🇸_US_美国_2_46
+  name: 6,13,24,27|🇺🇸_US_美国->🇭🇰_HK_香港
   network: ws
-  port: 64014
+  port: 80
+  server: 172.67.188.127
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,18,20,23,24,27,31|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '80'
+  server: v101.runba.gq
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: v101.runba.gq
+    path: /frfrxxx0fk832v101N
+- alterId: 0
+  cipher: auto
+  name: 24,27,31|7,17|中转 🇭🇰 Hong Kong 02 @nodpa...
+  network: tcp
+  port: '64010'
   server: in06.my1188.org
   tls: false
   type: vmess
   uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+- alterId: 0
+  cipher: auto
+  name: 7,24,27,31|中转 🇰🇷 South Korea 01 @nodpai
+  network: tcp
+  port: '64097'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇺🇸_US_美国->🇯🇵_JP_日本_2@14
+  network: ws
+  port: 443
+  server: ming2.kiwireich.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
   ws-opts:
     headers:
-      Host: us01.wechat-cdn-us01.one
+      Host: ''
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 6,9,10,13,24,27|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 8880
+  server: lt1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf
+  ws-opts:
+    headers:
+      Host: euserv2.vpn66.eu.org
     path: /
