@@ -1,78 +1,104 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,24|🇺🇸 _US_美国->🇨🇳_CN_中国 #4'
+  client-fingerprint: chrome
+  name: '1,2,3,4,20,23|🇺🇸 _US_美国->🇫🇷_FR_法国 #1'
   network: ws
-  port: '80'
-  server: 172.67.148.210
+  port: 8080
+  server: fr-01.gujuji.top
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: d46d992a-8d80-4586-84fb-f1823757552e
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '6,13,14,15,20,24,27|🇺🇸_US_美国->🇨🇳_CN_中国 #2'
-  network: ws
-  port: 80
-  server: 172.64.105.187
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 0,6,13,15,20,21,24,27|🇸🇬 _US_美国->🇸🇬_SG_新加坡
-  network: ws
-  port: '80'
-  server: sg1.wyhkaa0.cf
-  tls: false
-  type: vmess
-  uuid: f4575c03-8145-4612-a1b2-7a48117f6fc2
-  ws-opts:
-    headers:
-      Host: sg1.wyhkaa0.cf
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,7,24,27,31|🇰🇷 _CN_中国->🇰🇷_KR_韩国
-  network: tcp
-  port: '64097'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-- alterId: 0
-  cipher: auto
-  name: 7,8,24,27|中转 🇧🇷 Brazil 01 @nodpai
-  network: ws
-  port: '64002'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: in06.my1188.org
+      Host: fr-01.gujuji.top
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,12,14,15,16,20,24,27,31|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  name: '6,13,24,27|🇺🇸_US_美国->🇨🇳_CN_中国 #1'
   network: ws
-  port: '443'
-  server: singapore.com
-  tls: true
+  port: 80
+  server: cf-lt.sharecentre.online
+  tls: false
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 6,12,13,20,24,27|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: ca-01.gujuji.top
+  tls: false
+  type: vmess
+  uuid: d46d992a-8d80-4586-84fb-f1823757552e
+  ws-opts:
+    headers:
+      Host: ca-01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,24,31|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '80'
+  server: v157.runba.gq
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: v157.runba.gq
+    path: /frfrfffvmn01N
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,14,20,23|🇺🇸 _US_美国->🇨🇳_CN_中国 4
+  network: ws
+  port: 80
+  server: 172.67.196.139
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '1,2,3,4,6,12,13,15,20,23,24,27|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: 80
+  server: v117.runba.gq
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
+  ws-opts:
+    headers:
+      Host: v117.runba.gq
+    path: /v117DEcxDXxxOvD
+- alterId: 0
+  cipher: auto
+  name: 6,12,13,15,16,20,21,24,27|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 8880
+  server: ns1.v2-vip.fun
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr7.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 - alterId: 0
   cipher: auto
   name: 24,27,31|17|🇨🇳_CN_中国->🇧🇷_BR_巴西_34
@@ -88,56 +114,57 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,14,20,24,31|🇺🇸 _US_美国->🇨🇳_CN_中国 #2'
+  name: 0,12,15,16,18,20,24,27|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
   port: '80'
-  server: 172.64.90.186
+  server: us01.runba.gq
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+      Host: us01.runba.gq
+    path: /v1893298323Py
 - alterId: 0
   cipher: auto
-  name: '0,16,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 #5'
+  name: 0,12,15,20,24,27|🇰🇷 _KR_韩国->🇨🇦_CA_加拿大
   network: ws
   port: '80'
-  server: 172.67.120.174
+  server: 130.162.158.81
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+      Host: 18.wyhkaa0.gq
+    path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 20,24,27|🇭🇰 _US_美国->🇭🇰_HK_香港
+  name: 21,24|🇺🇸_US_美国->🇯🇵_JP_日本_3@14
   network: ws
-  port: '8080'
-  server: hk2.mianfenyun012.eu.org
-  tls: false
-  type: vmess
-  uuid: a04922f6-5766-49ba-d9fb-8aba40f49277
-  ws-opts:
-    headers:
-      Host: hk2.mianfenyun012.eu.org
-    path: /jdbp606
-- alterId: 0
-  cipher: auto
-  name: 0,24,27,31|🇺🇸 _NL_荷兰->🇺🇸_US_美国
-  network: ws
-  port: '8443'
-  server: 188.114.99.0
+  port: 443
+  server: ming2.kiwireich.com
+  servername: ''
   tls: true
   type: vmess
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
   ws-opts:
     headers:
-      Host: cloudconebbb.gorgorchicken.one
-    path: /cloudconebbb
+      Host: ''
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '0,24,27,28,31|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
+  network: ws
+  port: '64014'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: us01.wechat-cdn-us01.one
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -156,20 +183,262 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '1,2,3,4,6,10,12,13,15,20,23,24,27|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  name: '0,24|🇺🇸 _US_美国->🇨🇳_CN_中国 #4'
   network: ws
-  port: 80
-  server: v117.runba.gq
-  skip-cert-verify: false
-  tfo: false
+  port: '80'
+  server: 172.67.148.210
   tls: false
   type: vmess
-  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: v117.runba.gq
-    path: /v117DEcxDXxxOvD
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 24,27|1,2,3,4|_US_美国->🇭🇰_HK_香港
+  network: ws
+  port: 8080
+  server: hk2.mianfenyun012.eu.org
+  tls: false
+  type: vmess
+  uuid: a04922f6-5766-49ba-d9fb-8aba40f49277
+  ws-opts:
+    headers:
+      Host: hk2.mianfenyun012.eu.org
+    path: /jdbp606
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,10,14,20,23,24|🇺🇸 _CA_加拿大->🇺🇸_US_美国
+  network: ws
+  port: '443'
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4,20,23,24|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
+  network: ws
+  port: '80'
+  server: 172.64.161.58
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: '2,3,4,19,20,24,27,31|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: '64003'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+- alterId: 0
+  cipher: auto
+  name: '0,6,10,13,14,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 #6'
+  network: ws
+  port: '80'
+  server: 172.67.10.151
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 27|「www.dafei.xyz中转机场」NL2-CF-HTTP
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: nl2.sharecentrepro.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 7,8,24,27|中转 🇧🇷 Brazil 01 @nodpai
+  network: ws
+  port: '64002'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: in06.my1188.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,18,20,23,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国
+  network: ws
+  port: '80'
+  server: 172.67.92.119
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 0,24,27,31|🇺🇸 _NL_荷兰->🇺🇸_US_美国
+  network: ws
+  port: '8443'
+  server: 188.114.99.0
+  tls: true
+  type: vmess
+  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+  ws-opts:
+    headers:
+      Host: cloudconebbb.gorgorchicken.one
+    path: /cloudconebbb
+- alterId: 0
+  cipher: auto
+  name: '0,14,24,31|🇺🇸 _US_美国->🇨🇳_CN_中国 #2'
+  network: ws
+  port: '80'
+  server: 172.64.90.186
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,7,19,20,24,27,31|🇰🇷 _CN_中国->🇰🇷_KR_韩国
+  network: tcp
+  port: '64097'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+- alterId: 0
+  cipher: auto
+  name: 7,8,24,27|中转 🇮🇳 India 01 @nodpai
+  network: ws
+  port: '64051'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: in06.my1188.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇺🇸 _US_美国->🇱🇺_LU_卢森堡 2 2
+  network: ws
+  port: 443
+  server: 104.31.16.196
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
+  ws-opts:
+    headers:
+      Host: us-1.acyun.tk
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,7,24,26,27|🇺🇸 _CN_中国->🇺🇸_US_美国
+  network: tcp
+  port: '51165'
+  server: 183.233.187.232
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4,20,23,24|🇺🇸 _US_美国->🇨🇳_CN_中国 #3'
+  network: ws
+  port: '80'
+  server: 172.67.149.100
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 6,13,24,27|🇺🇸_US_美国->🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: hongkong1145141.baiduvideos.online
+  tls: false
+  type: vmess
+  uuid: 95252c48-c73b-4a1f-94d0-d351de9c50c8
+  ws-opts:
+    headers:
+      Host: hongkong1145141.baiduvideos.online
+    path: /11451
+- alterId: 0
+  cipher: auto
+  name: 0,24,27,31|🇭🇰 _CN_中国->🇭🇰_HK_香港
+  network: tcp
+  port: '64010'
+  server: in06.my1188.org
+  tls: false
+  type: vmess
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+- alterId: 0
+  cipher: auto
+  name: 24,31|1,2,3,4,17|_HK_香港->🇨🇦_CA_加拿大
+  network: ws
+  port: 80
+  server: 103.160.204.108
+  tls: false
+  type: vmess
+  uuid: 7ca21098-691c-4c12-8aac-934b21635423
+  ws-opts:
+    headers:
+      Host: 16.wyhkaa0.gq
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 0,6,13,15,20,21,24,27|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+  network: ws
+  port: '80'
+  server: sg1.wyhkaa0.cf
+  tls: false
+  type: vmess
+  uuid: f4575c03-8145-4612-a1b2-7a48117f6fc2
+  ws-opts:
+    headers:
+      Host: sg1.wyhkaa0.cf
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 0,12,14,15,16,24,27,31|🇺🇸 _US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: '443'
+  server: singapore.com
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 0,1,2,3,4,12,15,16,18,20,23,24,27,31|🇺🇸 _US_美国->🇮🇷_IR_伊朗
@@ -186,38 +455,25 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,14,23|🇺🇸 _US_美国->🇨🇳_CN_中国 4
+  name: 1,2,3,4,20,23|🇯🇵 _US_美国->🇯🇵_JP_日本
   network: ws
   port: 80
-  server: 172.67.196.139
+  server: japan11451.baiduvideos.online
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: d64eca38-adf2-43b2-ac10-84acf65f50b9
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+      Host: japan11451.baiduvideos.online
+    path: /114514
 - alterId: 0
   cipher: auto
-  name: 0,24,31|🇺🇸 _US_美国->🇫🇷_FR_法国
+  name: '0,16,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 #5'
   network: ws
   port: '80'
-  server: v157.runba.gq
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: v157.runba.gq
-    path: /frfrfffvmn01N
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,18,20,23,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国
-  network: ws
-  port: '80'
-  server: 172.67.92.119
+  server: 172.67.120.174
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -227,152 +483,17 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,4,20,23,24|🇺🇸 _US_美国->🇨🇳_CN_中国 #3'
-  network: ws
-  port: '80'
-  server: 172.67.149.100
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 7,8,24,27|中转 🇮🇳 India 01 @nodpai
-  network: ws
-  port: '64051'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: in06.my1188.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6,13,24,27|🇺🇸_US_美国->🇨🇳_CN_中国
+  name: '6,13,24,27|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
   network: ws
   port: 80
-  server: hongkong1145141.baiduvideos.online
-  tls: false
-  type: vmess
-  uuid: 95252c48-c73b-4a1f-94d0-d351de9c50c8
-  ws-opts:
-    headers:
-      Host: hongkong1145141.baiduvideos.online
-    path: /11451
-- alterId: 0
-  cipher: auto
-  name: 27|「www.dafei.xyz中转机场」NL2-CF-HTTP
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
+  server: 172.67.59.39
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: nl2.sharecentrepro.com
+      Host: ca.ilovescp.com
     path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 0,24,27,31|🇯🇵 _CN_中国->🇯🇵_JP_日本
-  network: ws
-  port: '64005'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: biteb-jp98-cdn.mynodes001.one
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,24,27,31|🇭🇰 _CN_中国->🇭🇰_HK_香港
-  network: tcp
-  port: '64010'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-- alterId: 0
-  cipher: auto
-  name: '0,24,27,28,31|🇺🇸 _CN_中国->🇺🇸_US_美国 #1'
-  network: ws
-  port: '64014'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: us01.wechat-cdn-us01.one
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 20,24,31|🇭🇰 _HK_香港->🇨🇦_CA_加拿大
-  network: ws
-  port: '80'
-  server: 103.160.204.108
-  tls: false
-  type: vmess
-  uuid: 7ca21098-691c-4c12-8aac-934b21635423
-  ws-opts:
-    headers:
-      Host: 16.wyhkaa0.gq
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 0,12,15,16,18,20,24,27|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '80'
-  server: us01.runba.gq
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us01.runba.gq
-    path: /v1893298323Py
-- alterId: 0
-  cipher: auto
-  name: 0,1,2,3,4,14,23,24|🇺🇸 _CA_加拿大->🇺🇸_US_美国
-  network: ws
-  port: '443'
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: '2,3,4,24,27,31|🇺🇸 _CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: '64003'
-  server: in06.my1188.org
-  tls: false
-  type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-- alterId: 0
-  cipher: auto
-  name: 6,12,13,15,16,20,21,24,27|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 8880
-  server: ns1.v2-vip.fun
-  tls: false
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr7.tehme100.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 - alterId: 0
   cipher: auto
   name: '0,24|🇺🇸 _US_美国->🇨🇳_CN_中国 #7'
@@ -388,131 +509,6 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: '0,6,13,14,20,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 #6'
-  network: ws
-  port: '80'
-  server: 172.67.10.151
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '0,1,2,3,4,23,24|🇺🇸 _US_美国->🇨🇳_CN_中国 #1'
-  network: ws
-  port: '80'
-  server: 172.64.161.58
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,23|🇯🇵 _US_美国->🇯🇵_JP_日本
-  network: ws
-  port: 80
-  server: japan11451.baiduvideos.online
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d64eca38-adf2-43b2-ac10-84acf65f50b9
-  ws-opts:
-    headers:
-      Host: japan11451.baiduvideos.online
-    path: /114514
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸_US_美国->🇯🇵_JP_日本_3@14
-  network: ws
-  port: 443
-  server: ming2.kiwireich.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: '6,13,20,24,27|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
-  network: ws
-  port: 80
-  server: 172.67.59.39
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '6,13,24,27|🇺🇸_US_美国->🇨🇳_CN_中国 #1'
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇺🇸 _US_美国->🇱🇺_LU_卢森堡 2 2
-  network: ws
-  port: 443
-  server: 104.31.16.196
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-  ws-opts:
-    headers:
-      Host: us-1.acyun.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,10,12,15,20,24,27|🇰🇷 _KR_韩国->🇨🇦_CA_加拿大
-  network: ws
-  port: '80'
-  server: 130.162.158.81
-  tls: false
-  type: vmess
-  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
-  ws-opts:
-    headers:
-      Host: 18.wyhkaa0.gq
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '1,2,3,4,23|🇺🇸 _US_美国->🇫🇷_FR_法国 #1'
-  network: ws
-  port: 8080
-  server: fr-01.gujuji.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d46d992a-8d80-4586-84fb-f1823757552e
-  ws-opts:
-    headers:
-      Host: fr-01.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: 7,8,16,17,24,27|中转 🇨🇳 China 02 @nodpai
   network: ws
   port: '19709'
@@ -526,23 +522,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,12,13,20,24,27|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  name: '6,13,14,15,20,24,27|🇺🇸_US_美国->🇨🇳_CN_中国 #2'
   network: ws
-  port: 8080
-  server: ca-01.gujuji.top
+  port: 80
+  server: 172.64.105.187
   tls: false
   type: vmess
-  uuid: d46d992a-8d80-4586-84fb-f1823757552e
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: ca-01.gujuji.top
-    path: /
-- alterId: 64
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
   cipher: auto
-  name: 0,7,19,20,24,26,27|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: tcp
-  port: '51165'
-  server: 183.233.187.232
+  name: 0,24,27,31|🇯🇵 _CN_中国->🇯🇵_JP_日本
+  network: ws
+  port: '64005'
+  server: in06.my1188.org
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: biteb-jp98-cdn.mynodes001.one
+    path: /

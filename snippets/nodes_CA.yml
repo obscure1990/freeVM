@@ -1,89 +1,15 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.85-154
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 134.195.196.85
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-029
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 196.247.59.156
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 18ad2b49-808e-4cef-8fb0-78ac53caca44
-- alterId: 0
-  cipher: auto
-  name: '6,13,24,27|🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 443
-  server: 23.227.39.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 21,24|Canada OVH
-  network: tcp
-  port: '443'
-  server: sw-15.235.45.203.nip.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eb713638-ec89-49e5-8358-b00a472f788e
-- alterId: 0
-  cipher: auto
-  name: 6,13,24,27|🇨🇦_CA_加拿大
-  network: ws
-  port: 443
-  server: 23.227.38.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-030
+  name: 19|CA-196.247.59.156-035
   password: G!yBwPWH3Vao
   port: 806
   server: 196.247.59.156
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 _CA_加拿大_2_5@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-027
+  name: 19|CA-196.247.59.156-034
   password: G!yBwPWH3Vao
-  port: 803
+  port: 808
   server: 196.247.59.156
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.161.118.38-031
-  password: G!yBwPWH3Vao
-  port: 812
-  server: 51.161.118.38
   type: ss
 - alterId: 0
   cipher: auto
@@ -98,18 +24,12 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-028
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 196.247.59.156
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 0,24,27|🇨🇦 _CA_加拿大
+  name: '6,13,24,27|🇨🇦_CA_加拿大 #1'
   network: ws
-  port: '443'
-  server: 23.227.38.80
+  port: 443
+  server: 23.227.39.82
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -130,12 +50,6 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-160
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 196.247.59.156
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -146,3 +60,89 @@ proxies:
   tls: true
   type: vmess
   uuid: 43f5bb1c-0f3e-4ec1-8dd0-f4031d9200b4
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-033
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 6,10,13,20,24,27|🇨🇦_CA_加拿大
+  network: ws
+  port: 443
+  server: 23.227.38.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 _CA_加拿大_2_5@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 0,24,27|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.38.80
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-032
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 196.247.59.156
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.161.118.38-036
+  password: G!yBwPWH3Vao
+  port: 812
+  server: 51.161.118.38
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 21,24|Canada OVH
+  network: tcp
+  port: '443'
+  server: sw-15.235.45.203.nip.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb713638-ec89-49e5-8358-b00a472f788e
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 59b17ab0-2812-4abf-8601-58a98b97721c
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.85-159
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 134.195.196.85
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-165
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 196.247.59.156
+  type: ss
