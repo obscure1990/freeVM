@@ -1,15 +1,4 @@
 proxies:
-- cipher: aes-256-ctr
-  name: 28|FR_speednode_0024
-  obfs: tls1.2_ticket_auth
-  obfs-param: cdn.appsflyer.c%�
-  password: NewBypasser2023
-  port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 195.154.118.40
-  type: ssr
-  udp: true
 - alterId: 64
   cipher: auto
   name: 21,24|🇫🇷_FR_法国_欢迎订阅yui科技_180
@@ -23,19 +12,19 @@ proxies:
     headers:
       Host: www.16046626.xyz
     path: /path/1694341232847
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 24|12|🇫🇷_FR_法国_欢迎订阅yui科技_163
+  name: 19|FR-13.38.35.189-170
   network: ws
-  port: 443
-  server: 156.249.18.50
-  tls: true
+  port: 8888
+  server: awsfr.oppo.quest
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.69414502.xyz
-    path: /path/1694429908748
+  uuid: 4c2ecad4-5f8c-4b2d-a912-48fb8e784c97
+  ws-headers:
+    Host: wapsd.189.cn
+  ws-path: /fr
 - alterId: 0
   cipher: auto
   name: 18,20,24,31|🇫🇷_FR_法国_ConfigsHub
@@ -50,6 +39,25 @@ proxies:
     headers:
       Host: v101.runba.gq
     path: /frfrxxx0fk832v101N
+- alterId: 64
+  cipher: auto
+  name: 24|12|🇫🇷_FR_法国_欢迎订阅yui科技_163
+  network: ws
+  port: 443
+  server: 156.249.18.50
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.69414502.xyz
+    path: /path/1694429908748
+- cipher: chacha20-ietf-poly1305
+  name: 19|FR-51.38.118.42-166
+  password: Ultr@r00t_2017
+  port: 811
+  server: 51.38.118.42
+  type: ss
 - alterId: 0
   cipher: auto
   name: 7,8,24,27|🇫🇷 France 02 @nodpai
@@ -70,25 +78,17 @@ proxies:
   server: 51.15.27.48
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 19|FR-51.38.118.42-166
-  password: Ultr@r00t_2017
-  port: 811
-  server: 51.38.118.42
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|FR-13.38.35.189-170
-  network: ws
-  port: 8888
-  server: awsfr.oppo.quest
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4c2ecad4-5f8c-4b2d-a912-48fb8e784c97
-  ws-headers:
-    Host: wapsd.189.cn
-  ws-path: /fr
+- cipher: aes-256-ctr
+  name: 28|FR_speednode_0024
+  obfs: tls1.2_ticket_auth
+  obfs-param: cdn.appsflyer.c%�
+  password: NewBypasser2023
+  port: 443
+  protocol: origin
+  protocol-param: ''
+  server: 195.154.118.40
+  type: ssr
+  udp: true
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
