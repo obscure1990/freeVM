@@ -1,6 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,24|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 8ca8001e-91cb-444b-b5f6-70dbdff2c0b2
+- alterId: 0
+  cipher: auto
+  name: 28|TW_speednode_0113
+  network: ws
+  port: 443
+  server: tw98-1g-hinet.mytls888.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
+  ws-opts:
+    headers:
+      Host: pull.free.video.10010.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 11,24|🇹🇼台湾05
   network: tcp
   port: '36306'
@@ -11,17 +36,14 @@ proxies:
   uuid: 8ca8001e-91cb-444b-b5f6-70dbdff2c0b2
 - alterId: 0
   cipher: auto
-  name: 0,15,24,27|🇹🇼 _TW_台湾
-  network: ws
-  port: '443'
-  server: tw98-1g-hinet.mytls888.com
-  tls: false
+  name: 22,24|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
-  ws-opts:
-    headers:
-      Host: tw98-1g-hinet.mytls888.com
-    path: /
+  uuid: 207951f3-ff9e-4f3e-acaa-e3ac3dd36954
 - alterId: 0
   cipher: auto
   name: 24,26,27|15|台湾B|@ripaojiedian
@@ -44,10 +66,10 @@ proxies:
   uuid: 207951f3-ff9e-4f3e-acaa-e3ac3dd36954
 - alterId: 0
   cipher: auto
-  name: 28|TW_speednode_0113
+  name: 28|TW_speednode_0112
   network: ws
   port: 443
-  server: tw98-1g-hinet.mytls888.com
+  server: tw99-hinet.mynodes001.one
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -55,18 +77,21 @@ proxies:
   uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
   ws-opts:
     headers:
-      Host: pull.free.video.10010.com
+      Host: a.189.cn
     path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 207951f3-ff9e-4f3e-acaa-e3ac3dd36954
+- name: 28|TW_speednode_0114
+  network: ws
+  password: 182228812d1e0f23
+  port: 3306
+  server: 60.248.114.188
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
 - alterId: 0
   cipher: auto
   name: 6,13,21,24,27|🇹🇼_TW_台湾
@@ -82,6 +107,16 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 207951f3-ff9e-4f3e-acaa-e3ac3dd36954
+- alterId: 0
+  cipher: auto
   name: 11,24|🇹🇼台湾06
   network: tcp
   port: '36311'
@@ -92,36 +127,14 @@ proxies:
   uuid: 8ca8001e-91cb-444b-b5f6-70dbdff2c0b2
 - alterId: 0
   cipher: auto
-  name: 28|TW_speednode_0112
+  name: 0,24,27|🇹🇼 _TW_台湾
   network: ws
-  port: 443
-  server: tw99-hinet.mynodes001.one
-  skip-cert-verify: true
+  port: '443'
+  server: tw98-1g-hinet.mytls888.com
   tls: false
   type: vmess
-  udp: true
   uuid: c78d7d2c-d93e-3cfd-98e0-e3d43cc1096d
   ws-opts:
     headers:
-      Host: a.189.cn
+      Host: tw98-1g-hinet.mytls888.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 8ca8001e-91cb-444b-b5f6-70dbdff2c0b2
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 207951f3-ff9e-4f3e-acaa-e3ac3dd36954
