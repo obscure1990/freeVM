@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,21,24|🇨🇦 _CA_加拿大
+  name: 6,13,18,21,24,31|🇨🇦_CA_加拿大
   network: ws
-  port: '443'
-  server: 23.227.38.80
+  port: 443
+  server: 23.227.38.81
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -12,6 +12,26 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-176
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 39
+  network: ws
+  port: 443
+  server: waynn.makeup
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
 - cipher: chacha20-ietf-poly1305
   name: 19|CA-196.247.59.156-086
   password: G!yBwPWH3Vao
@@ -40,81 +60,13 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦_加拿大_fd_232
-  network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  tls: false
-  type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 10
+  client-fingerprint: chrome
+  name: '1,2,3,4,20,23,24|🇨🇦 _CA_加拿大 #2'
   network: ws
   port: 443
-  server: ophelia.mom
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 39
-  network: ws
-  port: 443
-  server: waynn.makeup
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 40267121-dd73-4783-bef9-9e4dd48e89b7
-- alterId: 1
-  cipher: auto
-  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-  network: ws
-  port: 443
-  server: edeen.makeup
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-064
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 196.247.59.156
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16,21,24|@hkaa0 | 加拿大
-  network: ws
-  port: 443
-  server: dongtaiwang3.com
+  server: 23.227.39.82
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -123,27 +75,17 @@ proxies:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-176
+  name: 19|CA-196.247.59.156-064
   password: G!yBwPWH3Vao
-  port: 808
+  port: 801
   server: 196.247.59.156
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CA_speednode_0001
-  password: ir9WVSvxuGmcU4OKanFMCZ
-  port: 80
-  server: 193.203.203.86
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '1,2,3,4,20,23,24|🇨🇦 _CA_加拿大 #2'
+  name: 0,21,24|🇨🇦 _CA_加拿大
   network: ws
-  port: 443
-  server: 23.227.39.82
-  skip-cert-verify: false
-  tfo: false
+  port: '443'
+  server: 23.227.38.80
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -160,7 +102,24 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a9240b56-3702-49b7-b0c8-5836cf9b19f4
+  uuid: ee4e7a9c-bb0d-4c8a-b926-ad3366b54e03
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ef616425-cc53-4d85-b586-003cd3ed94f4
+- cipher: chacha20-ietf-poly1305
+  name: 28|CA_speednode_0001
+  password: ir9WVSvxuGmcU4OKanFMCZ
+  port: 80
+  server: 193.203.203.86
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '0,1,2,3,4,20,21,23,24|🇨🇦 _CA_加拿大 #1'
@@ -174,6 +133,20 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 1
+  cipher: auto
+  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 61
+  network: ws
+  port: 443
+  server: alvvin.click
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦 CA 14 → tg@nicevpn123
@@ -186,10 +159,23 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 6,13,18,21,24,31|🇨🇦_CA_加拿大
+  name: 21,24|🇨🇦_加拿大_fd_232
+  network: ws
+  port: 80
+  server: ca1-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
+  ws-opts:
+    headers:
+      Host: ca1-vmess.greenssh.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16,21,24|@hkaa0 | 加拿大
   network: ws
   port: 443
-  server: 23.227.38.81
+  server: dongtaiwang3.com
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -197,6 +183,20 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 1
+  cipher: auto
+  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 10
+  network: ws
+  port: 443
+  server: ophelia.mom
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
 - cipher: chacha20-ietf-poly1305
   name: 19|CA-196.247.59.156-175
   password: G!yBwPWH3Vao
@@ -205,10 +205,10 @@ proxies:
   type: ss
 - alterId: 1
   cipher: auto
-  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 61
+  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
   network: ws
   port: 443
-  server: alvvin.click
+  server: edeen.makeup
   servername: ''
   tls: true
   type: vmess
