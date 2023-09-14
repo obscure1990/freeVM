@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|🇹🇼台湾05
+  name: 11,24|🇹🇼台湾05
   network: tcp
   port: '36306'
   server: 8t6w05.abzoones.xyz
@@ -9,9 +9,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 218653dc-d699-4644-b893-3632c4e839c3
+- cipher: chacha20-ietf-poly1305
+  name: 8|「蛋挞云,超低价格,超高体验」🇹🇼 TW 01
+  password: 8cfdc816-26ae-4bc0-9dc8-efd58d9c4e47
+  port: 61005
+  server: api-a-asia-2.mcqqn.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 11|🇹🇼台湾06
+  name: 11,24|🇹🇼台湾06
   network: tcp
   port: '36311'
   server: 8t6w06.abzoones.xyz
@@ -21,27 +28,30 @@ proxies:
   uuid: 218653dc-d699-4644-b893-3632c4e839c3
 - alterId: 0
   cipher: auto
-  name: 22|台湾 05  | 1x TWN
+  name: 7,8|🇹🇼 Taiwan 03 @nodpai
+  network: ws
+  port: '18804'
+  server: xiongda006.daxiongda.top
+  tls: false
+  type: vmess
+  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
+  ws-opts:
+    headers:
+      Host: xiongda006.daxiongda.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 04  | 1x TWN
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
   uuid: dd2d62b9-dfcf-4d53-b7fb-ee77b4e8e197
 - alterId: 0
   cipher: auto
-  name: 22|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: dd2d62b9-dfcf-4d53-b7fb-ee77b4e8e197
-- alterId: 0
-  cipher: auto
-  name: 11|🇹🇼台湾04
+  name: 11,24|🇹🇼台湾04
   network: tcp
   port: '36301'
   server: 8t6w04.abzoones.xyz
@@ -51,11 +61,21 @@ proxies:
   uuid: 218653dc-d699-4644-b893-3632c4e839c3
 - alterId: 0
   cipher: auto
-  name: 22|台湾 04  | 1x TWN
+  name: 22,24|台湾 06  | 1x TWN
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: dd2d62b9-dfcf-4d53-b7fb-ee77b4e8e197
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
   uuid: dd2d62b9-dfcf-4d53-b7fb-ee77b4e8e197
