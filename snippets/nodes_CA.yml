@@ -1,7 +1,51 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,2,3,4,15,20,21,23,24|🇨🇦 _CA_加拿大 #1'
+  name: 9|加拿大_0915061
+  network: ws
+  port: '48731'
+  server: 23.26.239.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1059be0b-a595-4f76-be64-7f07b8fb4d6a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 722704b7-46f6-46cb-832f-db05be45f0bf
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|加拿大_0915109
+  network: tcp
+  port: '443'
+  server: 15.235.45.203
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb713638-ec89-49e5-8358-b00a472f788e
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0915014
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4,9,12,15,20,21,23,24|🇨🇦 _CA_加拿大 #1'
   network: ws
   port: '443'
   server: 23.227.38.82
@@ -14,40 +58,96 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦_加拿大_fd_232
+  name: 9|加拿大_0915062
   network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
+  port: '17804'
+  server: 23.26.239.241
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 67 2
-  network: ws
-  port: 443
-  server: edeen.makeup
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: fd0804c9-763f-4584-c2b5-a3fc76b02b42
   ws-opts:
     headers:
       Host: ''
-    path: linkvws
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0915063
+  network: ws
+  port: '33760'
+  server: 23.26.239.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0d89f6c-b8ca-4450-967c-39f5a84925f4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: '0,16,21,24|🇨🇦 _CA_加拿大 #2'
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|加拿大_0915108
+  network: tcp
+  port: '8443'
+  server: 15.235.48.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c295b9ac-3ae4-4aa2-aed7-f12dd7d04f0b
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '1,2,3,4,20,23,24|🇨🇦 _CA_加拿大 #3'
+  name: '1,2,3,4,20,21,23,24|🇨🇦 _CA_加拿大 #3'
   network: ws
   port: 443
   server: 23.227.39.82
   skip-cert-verify: false
   tfo: false
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CA_speednode_0001
+  password: ir9WVSvxuGmcU4OKanFMCZ
+  port: 80
+  server: 193.203.203.86
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9,21,24|加拿大_0915031
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 0,18,21,24,31|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.38.81
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -64,44 +164,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a3191a3c-6910-4c26-86dc-53c9d0857841
+  uuid: c51908b6-81fb-46e3-9f70-63a012fd44b7
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 CA 14 → tg@nicevpn123
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
+  name: 9,21,24|加拿大_0915013
+  network: ws
+  port: '80'
+  server: ca1-vmess.greenssh.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: '0,16,21,24|🇨🇦 _CA_加拿大 #2'
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
   ws-opts:
     headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 2 2
-  network: ws
-  port: 443
-  server: odelia.autos
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
+      Host: ca1-vmess.greenssh.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦_加拿大_fd_209
@@ -115,47 +192,27 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 21,24|⚡️@DeamNet_🔻 🇨🇦Canada 10
+  name: 9|加拿大_0915064
   network: ws
-  port: 443
-  server: ophelia.mom
+  port: '80'
+  server: 2.wyhkaa0.gq
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: f336c0ab-87fb-4f6f-e069-14fbc903b67d
   ws-opts:
     headers:
       Host: ''
-    path: linkvws
+    path: /TG:@hkaa0
 - alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
+  cipher: aes-128-gcm
+  name: 9|加拿大_0915107
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 3eb80965-e76a-496b-b0ee-102f30145405
-- alterId: 0
-  cipher: auto
-  name: 0,6,13,18,24,31|🇨🇦 _CA_加拿大
-  network: ws
   port: '443'
-  server: 23.227.38.81
-  tls: true
+  server: sw-15.235.45.203.nip.io
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 28|CA_speednode_0005
-  password: t.me/OutlineVpnOfficial
-  port: 8880
-  server: 172.105.25.94
-  type: ss
-  udp: true
+  uuid: eb713638-ec89-49e5-8358-b00a472f788e
