@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦_CA_加拿大_2_8@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 28|CA_speednode_0001
@@ -10,23 +20,13 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦_CA_fd_169
+  client-fingerprint: chrome
+  name: 1,2,3,4,20,21,23,24|🇨🇦 _CA_加拿大 3
   network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  tls: false
-  type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,1,2,3,4,12,15,20,23,24|🇨🇦 _CA_加拿大 #1'
-  network: ws
-  port: '443'
-  server: 23.227.38.82
+  port: 443
+  server: 23.227.39.82
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -46,35 +46,6 @@ proxies:
   uuid: 03e50a1e-849f-43ed-807d-063784be4ae8
 - alterId: 0
   cipher: auto
-  name: 0,1,2,3,4,18,20,23,24,31|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: 23.227.38.81
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,20,21,23,24|🇨🇦 _CA_加拿大 3
-  network: ws
-  port: 443
-  server: 23.227.39.82
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
   name: '0,16,21,24|🇨🇦 _CA_加拿大 #2'
   network: ws
   port: '443'
@@ -88,14 +59,17 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦_CA_加拿大_2_8@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
+  name: 21,24|🇨🇦_CA_fd_169
+  network: ws
+  port: 80
+  server: ca1-vmess.greenssh.xyz
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
+  ws-opts:
+    headers:
+      Host: ca1-vmess.greenssh.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -106,3 +80,29 @@ proxies:
   tls: true
   type: vmess
   uuid: 9c4e38ef-1509-4ef3-af46-4600353af725
+- alterId: 0
+  cipher: auto
+  name: 0,1,2,3,4,18,20,23,24,31|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 23.227.38.81
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: '0,1,2,3,4,12,15,20,23,24|🇨🇦 _CA_加拿大 #1'
+  network: ws
+  port: '443'
+  server: 23.227.38.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
