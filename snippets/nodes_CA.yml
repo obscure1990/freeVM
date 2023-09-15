@@ -1,55 +1,20 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CA_speednode_0001
-  password: ir9WVSvxuGmcU4OKanFMCZ
-  port: 80
-  server: 193.203.203.86
-  tfo: false
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
+  name: 22,24|加拿大 02 | 1x CA
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 03e50a1e-849f-43ed-807d-063784be4ae8
+  uuid: ec844078-7b1a-4273-bd58-dda335924c3d
 - alterId: 0
   cipher: auto
   name: '0,1,2,3,4,12,15,20,23,24|🇨🇦 _CA_加拿大 #1'
   network: ws
   port: '443'
   server: 23.227.38.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '80'
-  server: dld.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: dld.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,16,21,24|🇨🇦 _CA_加拿大 #2'
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -69,17 +34,14 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦_CA_fd_169
-  network: ws
-  port: 80
-  server: ca1-vmess.greenssh.xyz
-  tls: false
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
-  ws-opts:
-    headers:
-      Host: ca1-vmess.greenssh.xyz
-    path: /
+  uuid: 03e50a1e-849f-43ed-807d-063784be4ae8
 - alterId: 0
   cipher: auto
   name: 0,1,2,3,4,18,20,23,24,31|🇨🇦 _CA_加拿大
@@ -93,6 +55,54 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 02 @nodpai
+  network: ws
+  port: '80'
+  server: mtlr.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: mtlr.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 03 @nodpai
+  network: ws
+  port: '80'
+  server: dld.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: dld.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦_CA_fd_169
+  network: ws
+  port: 80
+  server: ca1-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 2557e01c-dbcc-4d34-a259-11ae69f5f041
+  ws-opts:
+    headers:
+      Host: ca1-vmess.greenssh.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CA_speednode_0001
+  password: ir9WVSvxuGmcU4OKanFMCZ
+  port: 80
+  server: 193.203.203.86
+  tfo: false
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -111,11 +121,14 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: '0,16,21,24|🇨🇦 _CA_加拿大 #2'
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
   tls: true
   type: vmess
-  uuid: 9c4e38ef-1509-4ef3-af46-4600353af725
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
