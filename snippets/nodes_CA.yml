@@ -1,22 +1,61 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-059
+  name: 19|CA-196.247.59.156-155
   password: G!yBwPWH3Vao
-  port: 801
+  port: 806
   server: 196.247.59.156
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-099
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 196.247.59.156
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-122
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 196.247.59.156
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 638e8108-cc12-446c-a676-d91f290565cc
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦_CA_加拿大_顺丰_96
+  network: ws
+  port: '80'
+  server: 172.67.131.98
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 19|CA-158.69.1.79-053
+  network: ws
+  port: 80
+  server: ca1.vmess.tunnel.cx
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d6343cfa-3517-11ed-8d1a-27f322ae0dec
+  ws-headers:
+    Host: ca1.vmess.tunnel.cx
+  ws-path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦_CA_加拿大_顺丰_173
+  network: ws
+  port: '80'
+  server: 172.67.134.209
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
 - cipher: chacha20-ietf-poly1305
   name: 19|CA-196.247.59.156-120
   password: G!yBwPWH3Vao
@@ -37,25 +76,31 @@ proxies:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-144
+  name: 19|CA-196.247.59.156-122
   password: G!yBwPWH3Vao
-  port: 809
+  port: 804
+  server: 196.247.59.156
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-099
+  password: G!yBwPWH3Vao
+  port: 808
   server: 196.247.59.156
   type: ss
 - alterId: 0
   cipher: auto
-  name: 22|加拿大 02 | 1x CA
+  name: 11|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3b340944-8b9a-4fa9-b597-c65a409fdd2b
+  uuid: 2d24daaa-8417-4688-9ec1-46fb02648aa7
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-155
+  name: 19|CA-196.247.59.156-144
   password: G!yBwPWH3Vao
-  port: 806
+  port: 809
   server: 196.247.59.156
   type: ss
 - alterId: 0
@@ -76,17 +121,20 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 19|CA-158.69.1.79-053
+  client-fingerprint: chrome
+  name: 1,2,4,20,23,30|🇨🇦 _CA_加拿大 3
   network: ws
-  port: 80
-  server: ca1.vmess.tunnel.cx
-  skip-cert-verify: true
-  tls: false
+  port: 443
+  server: 23.227.39.82
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: d6343cfa-3517-11ed-8d1a-27f322ae0dec
-  ws-headers:
-    Host: ca1.vmess.tunnel.cx
-  ws-path: /vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -105,46 +153,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦_CA_加拿大_顺丰_173
-  network: ws
-  port: '80'
-  server: 172.67.134.209
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,4,20,23,30|🇨🇦 _CA_加拿大 3
-  network: ws
-  port: 443
-  server: 23.227.39.82
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 11|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2d24daaa-8417-4688-9ec1-46fb02648aa7
-- alterId: 0
-  cipher: auto
   name: 21|🇨🇦_CA_fd_169
   network: ws
   port: 80
@@ -156,17 +164,9 @@ proxies:
     headers:
       Host: ca1-vmess.greenssh.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦_CA_加拿大_顺丰_96
-  network: ws
-  port: '80'
-  server: 172.67.131.98
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-059
+  password: G!yBwPWH3Vao
+  port: 801
+  server: 196.247.59.156
+  type: ss
