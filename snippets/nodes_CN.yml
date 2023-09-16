@@ -1,84 +1,97 @@
 proxies:
-- 8|中转 🇭🇰 Hong Kong 03 @nodpai: None
-  alterId: 0
+- alterId: 0
   cipher: auto
-  name: 28|CN_speednode_0018
+  name: 28|CN_speednode_0028
   network: ws
-  port: 24129
-  server: hkiplc.relay-idc.top
+  port: 18805
+  server: yd.559xp5.cn
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: c2154903-bf82-42b5-85d4-747b9d593c4d
+  udp: true
+  uuid: 24adcbe4-b1ba-3821-a65d-8cf1d3d74ae5
   ws-opts:
     headers:
-      Host: hkiplc.relay-idc.top
-    path: /gitee
+      Host: yd.559xp5.cn
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0019
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 24997
-  server: tw.relay-idc.top
+  name: 28|CN_speednode_0003
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 15014
+  server: hk2.fxzbjs.xyz
   type: ss
+- alterId: 1
+  cipher: auto
+  name: 19|CN-111.38.37.215-116
+  network: ws
+  port: 50205
+  server: data-hk-v2.shwjfkw.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    Host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
+- name: 28|CN_speednode_0051
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18055
+  server: zbus9.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0046
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18059
+  server: zbus11.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0013
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18071
+  server: zbsg10.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0041
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18011
+  server: zbus3.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0011
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18019
+  server: zbsg1.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0050
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18009
+  server: zbus1.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0002
-  password: 2144790a-2ec5-4388-b56f-4edcfb14cda4
-  port: 10808
-  server: yd.qianggewangluo.buzz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.79-193
+  name: 19|CN-112.26.231.79-208
   password: 51239bce-01ab-454d-baa5-c0940c9f1751
   port: 10701
   server: yidong.liulangdiqiu.cyou
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|7|🇨🇳 China 01 @nodpai
-  network: tcp
-  port: '59614'
-  server: 142.4.125.84
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0017
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 27585
-  server: th1.relay-idc.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-188
-  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
-  port: 27145
-  server: hefei.chiguayun.cc
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: '14|中国_【YouTube-VV科技】 #1'
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: 19|CN-183.240.209.15-074
-  password: bBEXIq
-  port: 31905
-  server: 183.240.209.15
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0011
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 29575
-  server: hkt.relay-idc.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-101.91.116.224-248
-  password: cf4d88ea-ae0d-4272-8f75-8eabdf018981
-  port: 24961
-  server: free.node.kk-proxy.pro
   type: ss
 - alterId: 0
   cipher: auto
@@ -93,54 +106,193 @@ proxies:
     headers:
       Host: cnyzcm01.fastbiubiu.com
     path: /6
-- alterId: 2
-  cipher: auto
-  name: 28|CN_speednode_0009
-  network: ws
-  port: 30866
-  server: v29.heduian.online
+- name: 28|CN_speednode_0027
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18017
+  server: zbjp3.fxzbjs.xyz
   skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 28|CN_speednode_0035
+  network: ws
+  port: 18812
+  server: yd.559xp5.cn
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 24adcbe4-b1ba-3821-a65d-8cf1d3d74ae5
   ws-opts:
     headers:
-      Host: v29.heduian.online
-    path: /oooo
+      Host: yd.559xp5.cn
+    path: /
+- name: 28|CN_speednode_0031
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18022
+  server: zbjp7.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0043
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18060
+  server: zbus12.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0049
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18067
+  server: zbus12.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0022
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 40595
-  server: jp.relay-idc.top
+  name: 28|CN_speednode_0025
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 15023
+  server: jp2.fxzbjs.xyz
   type: ss
-  速度保证」🇯...: None
+- name: 28|CN_speednode_0052
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18010
+  server: zbus2.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: zbus2.fffferter.xyz
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0020
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 55739
-  server: cu.relay-idc.top
+  name: 28|CN_speednode_0012
+  password: 2144790a-2ec5-4388-b56f-4edcfb14cda4
+  port: 10805
+  server: yd.qianggewangluo.buzz
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0015
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 48957
-  server: hgc.relay-idc.top
+  name: 28|CN_speednode_0036
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 15008
+  server: jp2.fxzbjs.xyz
   type: ss
+- name: 28|CN_speednode_0048
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18056
+  server: zbus10.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0034
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18052
+  server: zbjp8.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,8,16,17|「蛋挞云,超低价格,超高体验」🇨🇳 CN 01
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-gcm
+  name: 19|CN-183.240.209.15-079
+  password: bBEXIq
+  port: 31905
+  server: 183.240.209.15
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: '14|中国_【YouTube-VV科技】 #1'
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0013
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 27934
-  server: jp1.relay-idc.top
+  name: 28|CN_speednode_0008
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 15019
+  server: sg3.fxzbjs.xyz
   type: ss
-  超低价格: None
-  超高体验」🇯🇵 JP 03: None
+- name: 28|CN_speednode_0001
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18003
+  server: zbhk1.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-202
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
+  name: 19|CN-101.91.116.224-204
+  password: cf4d88ea-ae0d-4272-8f75-8eabdf018981
+  port: 24961
+  server: free.node.kk-proxy.pro
   type: ss
+- name: 28|CN_speednode_0030
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18015
+  server: zbjp1.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 28|CN_speednode_0039
+  network: ws
+  port: 18805
+  server: dx.559xp5.cn
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 24adcbe4-b1ba-3821-a65d-8cf1d3d74ae5
+  ws-opts:
+    headers:
+      Host: dx.559xp5.cn
+    path: /
+- name: 28|CN_speednode_0009
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18020
+  server: zbsg2.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0016
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18070
+  server: zbsg9.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: 14|中国_【YouTube-VV科技】
@@ -151,101 +303,161 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0014
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 11363
-  server: 25us1.relay-idc.top
+  name: 28|CN_speednode_0017
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 15018
+  server: sg2.fxzbjs.xyz
   type: ss
-- 8|中转 🇯🇵 Japan 06 @nodpai: None
-  alterId: 0
+- name: 28|CN_speednode_0045
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18012
+  server: zbus4.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0015
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18065
+  server: zbsg6.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 28|CN_speednode_0024
+  name: 28|CN_speednode_0038
   network: ws
-  port: 37724
-  server: jpiplc.relay-idc.top
+  port: 18832
+  server: yd.559xp5.cn
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: c2154903-bf82-42b5-85d4-747b9d593c4d
+  udp: true
+  uuid: 24adcbe4-b1ba-3821-a65d-8cf1d3d74ae5
   ws-opts:
     headers:
-      Host: jpiplc.relay-idc.top
-    path: /gitee
+      Host: yd.559xp5.cn
+    path: /
+- name: 28|CN_speednode_0044
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18026
+  server: zbus7.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0010
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18001
+  server: zbtwn1.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0042
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18066
+  server: zbus12.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- name: 28|CN_speednode_0014
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18068
+  server: zbsg7.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 24|7|🇨🇳 China 01 @nodpai
+  network: tcp
+  port: '59614'
+  server: 142.4.125.84
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 28|CN_speednode_0047
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18014
+  server: zbus6.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: zbus6.fffferter.xyz
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0005
+  name: 19|CN-117.149.247.11-199
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- name: 28|CN_speednode_0022
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18021
+  server: zbsg3.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0029
   password: 2144790a-2ec5-4388-b56f-4edcfb14cda4
-  port: 10814
+  port: 10807
   server: yd.qianggewangluo.buzz
   type: ss
+- name: 28|CN_speednode_0032
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18053
+  server: zbjp9.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-189
+  name: 19|CN-112.26.231.83-188
+  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
+  port: 27145
+  server: hefei.chiguayun.cc
+  type: ss
+- name: 28|CN_speednode_0020
+  network: tcp
+  password: e698fbda-78cc-4daf-926c-3f2742974683
+  port: 18005
+  server: zbhk3.fxzbjs.xyz
+  skip-cert-verify: true
+  sni: alibaba-nhost.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 28|CN_speednode_0033
+  network: ws
+  port: 18808
+  server: yh.559xp5.cn
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 24adcbe4-b1ba-3821-a65d-8cf1d3d74ae5
+  ws-opts:
+    headers:
+      Host: yh.559xp5.cn
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-248
   password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
   port: 27124
   server: hefei.chiguayun.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0023
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 13552
-  server: us.relay-idc.top
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16,17|@hkaa0 | 中国
-  network: ws
-  port: 19709
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.215-111
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0016
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 13595
-  server: cu.relay-idc.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0012
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 27711
-  server: jp.relay-idc.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0004
-  password: 2144790a-2ec5-4388-b56f-4edcfb14cda4
-  port: 10813
-  server: yd.qianggewangluo.buzz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0025
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 20041
-  server: us.relay-idc.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0010
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 20930
-  server: hkbgp1.relay-idc.top
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0021
-  password: c2154903-bf82-42b5-85d4-747b9d593c4d
-  port: 24222
-  server: sakura.relay-idc.top
   type: ss
