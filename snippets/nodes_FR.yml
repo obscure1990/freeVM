@@ -1,30 +1,20 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 6,13,21,24,27|🇫🇷_FR_法国
-  network: ws
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0044
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.25.187
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 28|FR_speednode_0045
+  password: asdKkaskJKfnsa
   port: 443
-  server: 156.249.18.9
-  tls: true
-  type: vmess
-  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
-  ws-opts:
-    headers:
-      Host: www.48643700.xyz
-    path: /path/1684580752213
-- alterId: 64
-  cipher: auto
-  name: 14|法国_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 156.249.18.25
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.49291261.xyz
-    path: /path/1693992821776
+  server: 146.59.111.212
+  tfo: false
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: '6,13,24,27|🇫🇷_FR_法国 #1'
@@ -38,13 +28,46 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1685530089600
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0044
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.25.187
-  type: ss
-  udp: true
+- alterId: 64
+  cipher: auto
+  name: '6,13,21,24,27,30|🇫🇷_FR_法国 #2'
+  network: ws
+  port: 443
+  server: 156.249.18.16
+  tls: true
+  type: vmess
+  uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9
+  ws-opts:
+    headers:
+      Host: www.36318181.xyz
+    path: /path/1685094923408
+- alterId: 0
+  cipher: auto
+  name: 27|「宇宙机场.com 低价套餐」FR-CF-HTTP
+  network: ws
+  port: '80'
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: fr.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 15,21,24,28|github.com/freefq - 法国OVH SAS ...
+  network: ws
+  port: 80
+  server: 217.182.76.202
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7487c25a-e899-44d8-9d71-8b9ab4ff5d26
+  ws-opts:
+    headers:
+      Host: pl2-vmess.greenssh.xyz
+    path: /vmess
 - alterId: 64
   cipher: auto
   name: 21,24|🇫🇷_FR_法国_2
@@ -72,67 +95,12 @@ proxies:
     headers:
       Host: cf-lt.sharecentre.online
     path: /shirker
-- alterId: 64
-  cipher: auto
-  name: '6,13,21,24,27,30|🇫🇷_FR_法国 #2'
-  network: ws
-  port: 443
-  server: 156.249.18.16
-  tls: true
-  type: vmess
-  uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9
-  ws-opts:
-    headers:
-      Host: www.36318181.xyz
-    path: /path/1685094923408
-- alterId: 0
-  cipher: auto
-  name: 27|🇫🇷法国 | 0.1倍
-  network: ws
-  port: '443'
-  server: zfc.windowsupdate1.com
-  tls: true
-  type: vmess
-  uuid: db38d357-3ff3-4fff-b311-6a65501a1b10
-  ws-opts:
-    headers:
-      Host: fr1.hnokkdf.top
-    path: /kbjc/fr1
-- alterId: 0
-  cipher: auto
-  name: 19|FR-193.70.33.128-106
-  network: ws
-  port: 17772
-  server: 193.70.33.128
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
-  ws-headers:
-    Host: 193.70.33.128
-  ws-path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 27|「宇宙机场.com 低价套餐」FR-CF-HTTP
-  network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: fr.ilovescp.com
-    path: /shirker
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 28|FR_speednode_0045
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 146.59.111.212
-  tfo: false
+- cipher: chacha20-ietf-poly1305
+  name: 19|FR-51.38.118.42-170
+  password: Ultr@r00t_2017
+  port: 811
+  server: 51.38.118.42
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 20|🇫🇷 法国(油管:破解资源君2.0)
@@ -148,21 +116,53 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: 21,24,28|FR_speednode_0042
+  name: 27|🇫🇷法国 | 0.1倍
   network: ws
-  port: 80
-  server: 217.182.76.202
-  servername: ''
-  tls: false
+  port: '443'
+  server: zfc.windowsupdate1.com
+  tls: true
   type: vmess
-  uuid: 7487c25a-e899-44d8-9d71-8b9ab4ff5d26
+  uuid: db38d357-3ff3-4fff-b311-6a65501a1b10
   ws-opts:
     headers:
-      Host: pl2-vmess.greenssh.xyz
-    path: /vmess
-- cipher: chacha20-ietf-poly1305
-  name: 19|FR-51.38.118.42-170
-  password: Ultr@r00t_2017
-  port: 811
-  server: 51.38.118.42
-  type: ss
+      Host: fr1.hnokkdf.top
+    path: /kbjc/fr1
+- alterId: 64
+  cipher: auto
+  name: 6,13,24,27|🇫🇷_FR_法国
+  network: ws
+  port: 443
+  server: 156.249.18.9
+  tls: true
+  type: vmess
+  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
+  ws-opts:
+    headers:
+      Host: www.48643700.xyz
+    path: /path/1684580752213
+- alterId: 64
+  cipher: auto
+  name: 14|法国_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 156.249.18.25
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.49291261.xyz
+    path: /path/1693992821776
+- alterId: 0
+  cipher: auto
+  name: 19|FR-193.70.33.128-106
+  network: ws
+  port: 17772
+  server: 193.70.33.128
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
+  ws-headers:
+    Host: 193.70.33.128
+  ws-path: /cctv13/hd.m3u8
