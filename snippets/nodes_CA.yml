@@ -1,10 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-122
+  name: 19|CA-196.247.59.156-059
   password: G!yBwPWH3Vao
-  port: 804
+  port: 801
   server: 196.247.59.156
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|CA-158.69.1.79-053
+  network: ws
+  port: 80
+  server: ca1.vmess.tunnel.cx
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d6343cfa-3517-11ed-8d1a-27f322ae0dec
+  ws-headers:
+    Host: ca1.vmess.tunnel.cx
+  ws-path: /vmess
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-155
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '20,24,31|🇨🇦 _CA_加拿大 #1'
+  network: ws
+  port: '443'
+  server: 23.227.38.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 16,24,31|@hkaa0 | 加拿大
@@ -30,29 +62,23 @@ proxies:
   uuid: 1e9ab15f-461f-421d-bb10-e5bf514e7864
 - alterId: 0
   cipher: auto
-  name: 19|CA-158.69.1.79-053
+  name: 7,8|🇨🇦 Canada 02 @nodpai
   network: ws
-  port: 80
-  server: ca1.vmess.tunnel.cx
-  skip-cert-verify: true
+  port: '80'
+  server: mtlr.shabijichang.com
   tls: false
   type: vmess
-  uuid: d6343cfa-3517-11ed-8d1a-27f322ae0dec
-  ws-headers:
-    Host: ca1.vmess.tunnel.cx
-  ws-path: /vmess
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-120
-  password: G!yBwPWH3Vao
-  port: 803
-  server: 196.247.59.156
-  type: ss
+  uuid: f1865e50-2510-46d1-bcb2-e00b4b656305
+  ws-opts:
+    headers:
+      Host: mtlr.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: '20,23,24,31|🇨🇦 _CA_加拿大 #2'
+  name: 20|🇨🇦 _CA_加拿大
   network: ws
   port: '443'
-  server: 23.227.39.82
+  server: 23.227.38.81
   tls: true
   type: vmess
   uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
@@ -60,6 +86,44 @@ proxies:
     headers:
       Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-122
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14,18,20,24,31|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-099
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: dld.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: dld.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦_CA_fd_169
@@ -75,17 +139,53 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 14,18,20,23,24,31|加拿大_【YouTube-VV科技】
+  name: 18|🇨🇦_CA_加拿大_顺丰_173
   network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
+  port: '80'
+  server: 172.67.134.209
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: 3.freek1.xyz
+      Host: ca.ilovescp.com
+    path: /shirker
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-144
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 196.247.59.156
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '20,24,31|🇨🇦 _CA_加拿大 #2'
+  network: ws
+  port: '443'
+  server: 23.227.39.82
+  tls: true
+  type: vmess
+  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 1ad8efef-e2f9-4a67-8e5e-d60fd76c0788
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-120
+  password: G!yBwPWH3Vao
+  port: 803
+  server: 196.247.59.156
+  type: ss
 - alterId: 0
   cipher: auto
   name: 18|🇨🇦_CA_加拿大_顺丰_96
@@ -100,77 +200,3 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-059
-  password: G!yBwPWH3Vao
-  port: 801
-  server: 196.247.59.156
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦_CA_加拿大_顺丰_173
-  network: ws
-  port: '80'
-  server: 172.67.134.209
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '20,23,24,31|🇨🇦 _CA_加拿大 #1'
-  network: ws
-  port: '443'
-  server: 23.227.38.82
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-099
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 196.247.59.156
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20,23|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: 23.227.38.81
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-144
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 196.247.59.156
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 775121db-4106-4c99-9c4c-432484043196
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-155
-  password: G!yBwPWH3Vao
-  port: 806
-  server: 196.247.59.156
-  type: ss
