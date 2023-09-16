@@ -1,6 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ec62c1fa-58d0-4e8e-ab74-fea96046418d
+- alterId: 0
+  cipher: auto
+  name: 11|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ec62c1fa-58d0-4e8e-ab74-fea96046418d
+- alterId: 0
+  cipher: auto
+  name: 19|TW-152.32.229.149-053
+  network: ws
+  port: 443
+  server: 152.32.229.149
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-headers:
+    Host: diamonds-july-egg-sporting.trycloudflare.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 22|台湾 06  | 1x TWN
   network: tcp
   port: '31311'
@@ -11,20 +44,10 @@ proxies:
   uuid: edc661f3-c0c3-4019-aa2e-f46fb0827b61
 - alterId: 0
   cipher: auto
-  name: 11|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 13780dc3-1e69-4461-805c-44c7a63300fb
-- alterId: 0
-  cipher: auto
-  name: 19|TW-152.32.229.149-053
+  name: 19|TW-60.249.92.67-151
   network: ws
   port: 443
-  server: 152.32.229.149
+  server: 60.249.92.67
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -42,16 +65,6 @@ proxies:
   tls: true
   type: vmess
   uuid: edc661f3-c0c3-4019-aa2e-f46fb0827b61
-- alterId: 0
-  cipher: auto
-  name: 11|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 13780dc3-1e69-4461-805c-44c7a63300fb
 - client-fingerprint: chrome
   name: 1,8,19,23,25,28|🇹🇼 _TW_台湾
   password: d02058f4f819dced
@@ -63,6 +76,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 11|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ec62c1fa-58d0-4e8e-ab74-fea96046418d
+- alterId: 0
+  cipher: auto
   name: 22|台湾 05  | 1x TWN
   network: tcp
   port: '31306'
@@ -71,39 +94,3 @@ proxies:
   tls: true
   type: vmess
   uuid: edc661f3-c0c3-4019-aa2e-f46fb0827b61
-- alterId: 0
-  cipher: auto
-  name: 19|TW-60.249.92.67-151
-  network: ws
-  port: 443
-  server: 60.249.92.67
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-headers:
-    Host: diamonds-july-egg-sporting.trycloudflare.com
-  ws-path: /
-- name: 8|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
-  network: ws
-  password: 8a5360b3b31229d8
-  port: 3306
-  server: 110.72.99.118
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: 11|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 13780dc3-1e69-4461-805c-44c7a63300fb
