@@ -1,24 +1,9 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 24,26,27,31|12,15,18|CN_youtube@资源分享师_44
-  network: tcp
-  port: 53300
-  server: 120.226.50.78
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: 19|CN-183.232.170.32-218
-  password: g12sQi#ss#&1
-  port: 30005/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D%3Bobfs-uri%3D%2F
-  server: 183.232.170.32
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CN-183.240.209.15-170
-  password: bBEXIq
-  port: 31905
-  server: 183.240.209.15
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-207
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
   type: ss
 - cipher: chacha20-ietf
   name: 28|CN_speednode_0002
@@ -30,31 +15,19 @@ proxies:
   protocol-param: 114733:ildqXMCMd8HXeOMP
   server: a2jphkzxwmzjylmt.bacida745.me
   type: ssr
-- cipher: chacha20-ietf
-  name: 28|CN_speednode_0001
-  obfs: http_simple
-  obfs-param: a9476114733.microsoft.com
-  password: lbNVOz
-  port: 7011
-  protocol: auth_aes128_md5
-  protocol-param: 114733:ildqXMCMd8HXeOMP
-  server: bsdhd77cdys65sxx.bacida745.me
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-207
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 14|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  tls: false
+  name: 19|CN-120.241.29.163-224
+  network: ws
+  port: 29968
+  server: ihine-1083-v2-1.r-kcd-b.tuil.xyz
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-headers:
+    Host: cdn.cjhh.lol
+  ws-path: /je5x3pBN1vez3NQudNkB
 - alterId: 64
   cipher: auto
   name: '14|中国_【YouTube-VV科技】 #1'
@@ -64,6 +37,44 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19|CN-120.241.29.169-226
+  network: ws
+  port: 39928
+  server: vxyfa-1080-v2-2.d-kcd.tuil.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-headers:
+    Host: edge.cjhh.mom
+  ws-path: /je5x3pBN1vez3NQudNkB
+- cipher: aes-256-gcm
+  name: 19|CN-183.240.209.15-170
+  password: bBEXIq
+  port: 31905
+  server: 183.240.209.15
+  type: ss
+- cipher: aes-128-gcm
+  name: 19|CN-183.232.170.32-218
+  password: g12sQi#ss#&1
+  port: 30005/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D%3Bobfs-uri%3D%2F
+  server: 183.232.170.32
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-183.232.249.107-217
+  network: tcp
+  port: 59902
+  server: 183.232.249.107
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 183.232.249.107
+  ws-path: /
 - alterId: 1
   cipher: auto
   name: 19|CN-111.38.37.215-183
@@ -79,44 +90,6 @@ proxies:
   ws-path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 19|CN-120.241.29.169-226
-  network: ws
-  port: 39928
-  server: vxyfa-1080-v2-2.d-kcd.tuil.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
-  ws-headers:
-    Host: edge.cjhh.mom
-  ws-path: /je5x3pBN1vez3NQudNkB
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-214
-  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
-  port: 27124
-  server: hefei.chiguayun.cc
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.241.29.163-224
-  network: ws
-  port: 29968
-  server: ihine-1083-v2-1.r-kcd-b.tuil.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
-  ws-headers:
-    Host: cdn.cjhh.lol
-  ws-path: /je5x3pBN1vez3NQudNkB
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-234
-  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
-  port: 27145
-  server: hefei.chiguayun.cc
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 16,17,27|@hkaa0 | 中国
   network: ws
   port: 19709
@@ -126,16 +99,43 @@ proxies:
   uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
   ws-opts:
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 19,20|CN-183.232.249.107-217
+  name: 14|中国_【YouTube-VV科技】
   network: tcp
-  port: 59902
-  server: 183.232.249.107
-  skip-cert-verify: true
+  port: 42055
+  server: 120.226.50.93
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 183.232.249.107
-  ws-path: /
+- cipher: chacha20-ietf
+  name: 28|CN_speednode_0001
+  obfs: http_simple
+  obfs-param: a9476114733.microsoft.com
+  password: lbNVOz
+  port: 7011
+  protocol: auth_aes128_md5
+  protocol-param: 114733:ildqXMCMd8HXeOMP
+  server: bsdhd77cdys65sxx.bacida745.me
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-234
+  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
+  port: 27145
+  server: hefei.chiguayun.cc
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 24,26,27,31|12,15,18|CN_youtube@资源分享师_44
+  network: tcp
+  port: 53300
+  server: 120.226.50.78
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-214
+  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
+  port: 27124
+  server: hefei.chiguayun.cc
+  type: ss
