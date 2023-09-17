@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,8|🇹🇼 Taiwan 03 @nodpai
-  network: ws
-  port: '443'
-  server: 1.164.141.208
-  tls: true
-  type: vmess
-  uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
-  ws-opts:
-    headers:
-      Host: ''
-    path: /b12
-- alterId: 0
-  cipher: auto
   name: 11,24|🇹🇼台湾05
   network: tcp
   port: '36306'
@@ -21,7 +8,17 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ad8492dc-e818-4d1f-abfa-8b8eaaa05a66
+  uuid: 9d35094a-500f-41f5-91ae-0cc2c8300a61
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9d35094a-500f-41f5-91ae-0cc2c8300a61
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 04  | 1x TWN
@@ -31,30 +28,31 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3eba573e-fb16-4f7b-ab33-536a2e289865
+  uuid: 2bac7f7b-fc41-44be-b12f-60e120ae7e3a
 - alterId: 0
   cipher: auto
-  name: 7,8|🇹🇼 Taiwan 06 @nodpai
+  client-fingerprint: chrome
+  name: 25,26|🇹🇼 台湾|tg频道:@ripaojiedian
   network: ws
-  port: '443'
-  server: 36.232.129.35
+  port: 443
+  server: 1.164.141.208
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
   ws-opts:
-    headers:
-      Host: ''
-    path: /vbub2
+    path: /b12
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
+  name: 11,24|🇹🇼台湾04
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3eba573e-fb16-4f7b-ab33-536a2e289865
+  uuid: 9d35094a-500f-41f5-91ae-0cc2c8300a61
 - client-fingerprint: chrome
   name: 1,8,19,23,25,28|🇹🇼 _TW_台湾
   password: d02058f4f819dced
@@ -66,27 +64,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾04
+  name: 22,24|台湾 06  | 1x TWN
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ad8492dc-e818-4d1f-abfa-8b8eaaa05a66
+  uuid: 2bac7f7b-fc41-44be-b12f-60e120ae7e3a
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: ad8492dc-e818-4d1f-abfa-8b8eaaa05a66
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇹🇼 Taiwan 05 @nodpai
+  name: 24,27|7,8|🇹🇼 Taiwan 01 @nodpai
   network: ws
   port: '443'
   server: 36.232.167.112
@@ -97,42 +85,6 @@ proxies:
     headers:
       Host: ''
     path: /vbub1
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇹🇼 Taiwan 04 @nodpai
-  network: ws
-  port: '443'
-  server: 36.232.146.14
-  tls: true
-  type: vmess
-  uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vbub3
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇹🇼 Taiwan 02 @nodpai
-  network: ws
-  port: '443'
-  server: 118.165.37.98
-  tls: true
-  type: vmess
-  uuid: 7bcd1b11-ac49-40f7-9197-4df867192564
-  ws-opts:
-    headers:
-      Host: ''
-    path: /b11
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 3eba573e-fb16-4f7b-ab33-536a2e289865
 - alterId: 0
   cipher: auto
   name: 19|TW-152.32.229.149-139
@@ -146,24 +98,13 @@ proxies:
   ws-headers:
     Host: diamonds-july-egg-sporting.trycloudflare.com
   ws-path: /
-- cipher: aes-256-gcm
-  name: 8|「节点冠名招商 @nodpai」🇹🇼 TW 01
-  password: a845f902-f4d2-44e8-b774-aea733ae3e48
-  port: 50937
-  server: aca-ct-gz-2g-1.cfprefer1.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 21,24|🇹🇼_TW_台湾_2_3@30
-  network: ws
-  port: 888
-  server: wqryo-1075-v2-0.d-hinet-02.ddll.bond
-  servername: ''
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
-  ws-opts:
-    headers:
-      Host: ''
-    path: /je5x3pBN1vez3NQudNkB
+  uuid: 2bac7f7b-fc41-44be-b12f-60e120ae7e3a
