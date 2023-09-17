@@ -1,4 +1,84 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 14|中国_【YouTube-VV科技】
+  network: tcp
+  port: 42055
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-234
+  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
+  port: 27145
+  server: hefei.chiguayun.cc
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: '14|中国_【YouTube-VV科技】 #1'
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  name: 19|CN-183.232.170.32-218
+  password: g12sQi#ss#&1
+  port: 30005/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D%3Bobfs-uri%3D%2F
+  server: 183.232.170.32
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CN-183.240.209.15-170
+  password: bBEXIq
+  port: 31905
+  server: 183.240.209.15
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-207
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 28|CN_speednode_0003
+  network: ws
+  port: 40261
+  server: 6q59.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 72bea5d3-7591-3ca4-9d61-3c89bd6e45a5
+  ws-opts:
+    headers:
+      Host: 6q59.cdn.node.a.tddns-ounk.com
+    path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
+- alterId: 1
+  cipher: auto
+  name: 19|CN-111.38.37.215-183
+  network: ws
+  port: 50205
+  server: data-hk-v2.shwjfkw.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    Host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
+- cipher: chacha20-ietf
+  name: 28|CN_speednode_0002
+  obfs: http_simple
+  obfs-param: a9476114733.microsoft.com
+  password: lbNVOz
+  port: 7041
+  protocol: auth_aes128_md5
+  protocol-param: 114733:ildqXMCMd8HXeOMP
+  server: a2jphkzxwmzjylmt.bacida745.me
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 19|CN-120.241.29.169-226
@@ -12,12 +92,32 @@ proxies:
   ws-headers:
     Host: edge.cjhh.mom
   ws-path: /je5x3pBN1vez3NQudNkB
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-207
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8,16,17|「节点冠名招商 @nodpai」🇨🇳 CN 01
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CN-120.241.29.163-224
+  network: ws
+  port: 29968
+  server: ihine-1083-v2-1.r-kcd-b.tuil.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
+  ws-headers:
+    Host: cdn.cjhh.lol
+  ws-path: /je5x3pBN1vez3NQudNkB
 - cipher: chacha20-ietf
   name: 28|CN_speednode_0001
   obfs: http_simple
@@ -34,80 +134,6 @@ proxies:
   port: 27124
   server: hefei.chiguayun.cc
   type: ss
-- cipher: aes-128-gcm
-  name: 19|CN-183.232.170.32-218
-  password: g12sQi#ss#&1
-  port: 30005/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D%3Bobfs-uri%3D%2F
-  server: 183.232.170.32
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 14|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16,17,24|@hkaa0 | 中国
-  network: ws
-  port: 19709
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: 19|CN-183.240.209.15-170
-  password: bBEXIq
-  port: 31905
-  server: 183.240.209.15
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.241.29.163-224
-  network: ws
-  port: 29968
-  server: ihine-1083-v2-1.r-kcd-b.tuil.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a590e692-4c8d-42dd-ba80-b1765a34f699
-  ws-headers:
-    Host: cdn.cjhh.lol
-  ws-path: /je5x3pBN1vez3NQudNkB
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-234
-  password: 788c06bf-83b0-4186-b45d-8966efc7c3fc
-  port: 27145
-  server: hefei.chiguayun.cc
-  type: ss
-- cipher: chacha20-ietf
-  name: 28|CN_speednode_0002
-  obfs: http_simple
-  obfs-param: a9476114733.microsoft.com
-  password: lbNVOz
-  port: 7041
-  protocol: auth_aes128_md5
-  protocol-param: 114733:ildqXMCMd8HXeOMP
-  server: a2jphkzxwmzjylmt.bacida745.me
-  type: ssr
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.215-183
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
   name: 19,20|CN-183.232.249.107-217
@@ -121,12 +147,3 @@ proxies:
   ws-headers:
     Host: 183.232.249.107
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: '14|中国_【YouTube-VV科技】 #1'
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
