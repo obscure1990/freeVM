@@ -1,44 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-36.139.153.95-008
-  network: tcp
-  port: 46425
-  server: 36.139.153.95
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e547df83-a0a0-45af-82dd-345d6bec7d74
-  ws-headers:
-    Host: 36.139.153.95
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-101.91.116.224-145
-  password: 6b95fbcf-2e3e-472e-b3ad-b7ff33b7afce
-  port: 55928
-  server: free.node.kk-proxy.pro
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-140
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-36.137.191.123-074
-  network: tcp
-  port: 55111
-  server: 36.137.191.123
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e547df83-a0a0-45af-82dd-345d6bec7d74
-  ws-headers:
-    Host: 36.137.191.123
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 19,20|CN-36.137.191.123-073
   network: tcp
   port: 25566
@@ -50,56 +12,6 @@ proxies:
   ws-headers:
     Host: 36.137.191.123
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8,16,17,27|「节点冠名招商 @nodpai」🇨🇳 CN 01
-  network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
-  type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '14|中国_【YouTube-VV科技】 #1'
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19|CN-111.38.37.57-130
-  network: ws
-  port: 40261
-  server: 6q59.cdn.node.a.tddns-ounk.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 72bea5d3-7591-3ca4-9d61-3c89bd6e45a5
-  ws-headers:
-    Host: 6q59.cdn.node.a.tddns-ounk.com
-  ws-path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
-- cipher: aes-256-gcm
-  name: 19|CN-183.240.209.15-040
-  password: bBEXIq
-  port: 31905
-  server: 183.240.209.15
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16,17,27|@hkaa0 | 中国
-  network: tcp
-  port: 50022
-  server: 22.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
 - alterId: 64
   cipher: auto
   name: 14|中国_【YouTube-VV科技】
@@ -109,6 +21,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 28|CN_speednode_0002
+  network: ws
+  password: 6c8b18adb11737af
+  port: 3306
+  server: 110.72.99.118
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
 - alterId: 0
   cipher: auto
   name: 19,20|CN-36.137.144.34-018
@@ -124,6 +49,61 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: '16,17,24,27|@hkaa0 | 中国 #2'
+  network: tcp
+  port: 50004
+  server: 04.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+- alterId: 0
+  cipher: auto
+  name: '16,17,27|@hkaa0 | 中国 #1'
+  network: ws
+  port: 19709
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CN-111.38.37.57-130
+  network: ws
+  port: 40261
+  server: 6q59.cdn.node.a.tddns-ounk.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 72bea5d3-7591-3ca4-9d61-3c89bd6e45a5
+  ws-headers:
+    Host: 6q59.cdn.node.a.tddns-ounk.com
+  ws-path: /d1af668b-cff6-464a-9415-a7782ead72d5.j.live003.m3u8
+- alterId: 0
+  cipher: auto
+  name: 16,17,27|@hkaa0 | 中国
+  network: tcp
+  port: 50022
+  server: 22.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 569dad3e-46e0-474f-8350-8acc959ff5f7
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-36.137.191.123-074
+  network: tcp
+  port: 55111
+  server: 36.137.191.123
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e547df83-a0a0-45af-82dd-345d6bec7d74
+  ws-headers:
+    Host: 36.137.191.123
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 19,20|CN-36.139.153.95-072
   network: tcp
   port: 25565
@@ -135,19 +115,12 @@ proxies:
   ws-headers:
     Host: 36.139.153.95
   ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.215-011
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
+- cipher: aes-256-gcm
+  name: 19|CN-183.240.209.15-040
+  password: bBEXIq
+  port: 31905
+  server: 183.240.209.15
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19,20|CN-183.240.117.54-009
@@ -161,6 +134,34 @@ proxies:
   ws-headers:
     Host: 3.sg.zz.xxxxx.x-t-fuckword.network
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-101.91.116.224-145
+  password: 6b95fbcf-2e3e-472e-b3ad-b7ff33b7afce
+  port: 55928
+  server: free.node.kk-proxy.pro
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-36.139.153.95-008
+  network: tcp
+  port: 46425
+  server: 36.139.153.95
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e547df83-a0a0-45af-82dd-345d6bec7d74
+  ws-headers:
+    Host: 36.139.153.95
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '14|中国_【YouTube-VV科技】 #1'
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 9,16,17,24,26,27|中国_0918004
@@ -171,6 +172,25 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-140
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 19|CN-111.38.37.215-011
+  network: ws
+  port: 50205
+  server: data-hk-v2.shwjfkw.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    Host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
   name: 19,20|CN-36.137.191.123-019
