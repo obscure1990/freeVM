@@ -1,16 +1,57 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 19|FR-193.70.33.128-045
+  network: ws
+  port: 17772
+  server: 193.70.33.128
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
+  ws-headers:
+    Host: 193.70.33.128
+  ws-path: /cctv13/hd.m3u8
 - cipher: aes-256-cfb
-  name: 28|FR_speednode_0025
+  name: 28|FR_speednode_0024
   password: asdKkaskJKfnsa
   port: 443
-  server: 51.159.222.35
+  server: 62.210.88.201
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|FR_speednode_0026
+  name: 28|FR_speednode_0028
   password: asdKkaskJKfnsa
   port: 443
-  server: 51.159.14.40
+  server: 51.159.221.231
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0032
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.169
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0023
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.220
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0031
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.95
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0016
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.226
   type: ss
   udp: true
 - alterId: 64
@@ -27,100 +68,10 @@ proxies:
       Host: www.49291261.xyz
     path: /path/1693992821776
 - cipher: aes-256-cfb
-  name: 28|FR_speednode_0022
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.203
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0024
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 62.210.88.201
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0018
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.222
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 28|FR_speednode_0029
   password: asdKkaskJKfnsa
   port: 443
   server: 51.159.222.38
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0031
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.95
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0032
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.200.169
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 19|FR-193.70.33.128-045
-  network: ws
-  port: 17772
-  server: 193.70.33.128
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
-  ws-headers:
-    Host: 193.70.33.128
-  ws-path: /cctv13/hd.m3u8
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0021
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.225
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0017
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 141.95.99.192
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0028
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.231
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0019
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.54.167
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0027
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.37.62
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0023
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.159.221.220
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -131,10 +82,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 28|FR_speednode_0016
+  name: 28|FR_speednode_0022
   password: asdKkaskJKfnsa
   port: 443
-  server: 51.159.221.226
+  server: 51.159.221.203
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0019
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.54.167
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -142,5 +100,47 @@ proxies:
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.37.167
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0026
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.14.40
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0027
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.37.62
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0017
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 141.95.99.192
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0018
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.222
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0021
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.225
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0025
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.222.35
   type: ss
   udp: true
