@@ -1,28 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_0918003
-  network: ws
-  port: '40813'
-  server: 146.190.93.191
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94948644-37ce-472f-d0eb-cdf1a2f94ee6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /SHALANA
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ec759219-ea76-47e2-8cc7-dd26cde85e74
+- cipher: chacha20-ietf-poly1305
+  name: 19|SG-194.124.35.23-172
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 194.124.35.23
+  type: ss
 - alterId: 64
   cipher: auto
   name: 9,21,24|新加坡_0918057
@@ -33,12 +15,71 @@ proxies:
   tls: false
   type: vmess
   uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
+- name: 8|🇸🇬 Singapore 06 @nodpai
+  network: ws
+  password: 111b927ef6be6671
+  port: 3306
+  server: 5.44.249.44
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: '%2fgateway%2fconnect'
 - alterId: 0
   cipher: auto
-  name: '27|Singapore-Akamai #3'
+  name: 9|新加坡_0918058
+  network: ws
+  port: '443'
+  server: 18.143.75.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 405c4c45-df2a-4adf-b8e6-13f0de358e3a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,27|🇸🇬 Singapore 02 @nodpai
+  network: tcp
+  port: '54126'
+  server: sg5.lianpi.xyz
+  tls: false
+  type: vmess
+  uuid: 666d382c-d614-4129-aedb-06c63982820a
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ec759219-ea76-47e2-8cc7-dd26cde85e74
+- cipher: chacha20-ietf-poly1305
+  name: 28|SG_speednode_0098
+  password: 666d382c-d614-4129-aedb-06c63982820a
+  port: 61675
+  server: sg2.lianpi.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|SG-139.59.192.63-219
+  password: '!!str 202309302355000000000020'
+  port: 1020/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbulianglin.com%3Bobfs-uri%3D%2F
+  server: dosg.securevpn.cc
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '27|Singapore-Akamai #4'
   network: tcp
   port: '64012'
-  server: 15.164.237.48
+  server: 183.249.20.149
   servername: ''
   tls: false
   type: vmess
@@ -57,6 +98,74 @@ proxies:
     headers:
       Host: ''
     path: /vmess/
+- name: 8|🇸🇬 Singapore 10 @nodpai
+  network: ws
+  password: 111b927ef6be6671
+  port: 3306
+  server: 5.44.249.43
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: '%2fgateway%2fconnect'
+- alterId: 0
+  cipher: auto
+  name: '27|Singapore-Akamai #5'
+  network: tcp
+  port: '64012'
+  server: 183.249.20.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-202
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-204
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+- name: 8|🇸🇬 Singapore 07 @nodpai
+  network: ws
+  password: b09d2aaa443af97a
+  port: 3306
+  server: 5.44.249.42
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: '%2fgateway%2fconnect'
+- alterId: 0
+  cipher: auto
+  name: '27|Singapore-Akamai #1'
+  network: tcp
+  port: '64012'
+  server: 183.249.20.153
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ec759219-ea76-47e2-8cc7-dd26cde85e74
 - alterId: 0
   cipher: auto
   name: 27|Singapore-Akamai
@@ -67,16 +176,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ec759219-ea76-47e2-8cc7-dd26cde85e74
 - alterId: 64
   cipher: auto
   name: 19|SG-159.223.94.156-208
@@ -92,39 +191,6 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: 22,24|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ec759219-ea76-47e2-8cc7-dd26cde85e74
-- name: 8,25|🇸🇬 Singapore 04 @nodpai
-  network: ws
-  password: 36fe28a331638747
-  port: 3306
-  server: 5.44.249.42
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: '27|Singapore-Akamai #4'
-  network: tcp
-  port: '64012'
-  server: 183.249.20.149
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
   name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #1'
   network: ws
   port: '17019'
@@ -136,39 +202,6 @@ proxies:
     headers:
       Host: hk7.fkfirewall.top
     path: /
-- name: 8|🇸🇬 Singapore 05 @nodpai
-  network: ws
-  password: 111b927ef6be6671
-  port: 3306
-  server: 5.44.249.44
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: '%2fgateway%2fconnect'
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 10 @nodpai
-  password: 666d382c-d614-4129-aedb-06c63982820a
-  port: 64578
-  server: sg3.lianpi.xyz
-  type: ss
-  udp: true
-- name: 8|🇸🇬 Singapore 06 @nodpai
-  network: ws
-  password: b09d2aaa443af97a
-  port: 3306
-  server: 5.44.249.42
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: '%2fgateway%2fconnect'
 - alterId: 0
   cipher: auto
   name: 11,24|🇸🇬新加坡04
@@ -179,6 +212,13 @@ proxies:
   tls: true
   type: vmess
   uuid: 6ca36be5-d469-4911-8dba-831995dedfca
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 03 @nodpai
+  password: 666d382c-d614-4129-aedb-06c63982820a
+  port: 64578
+  server: sg3.lianpi.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 11,24|🇸🇬新加坡05
@@ -186,46 +226,6 @@ proxies:
   port: '36206'
   server: 9s5g05.abzoones.xyz
   servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 6ca36be5-d469-4911-8dba-831995dedfca
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_0918058
-  network: ws
-  port: '443'
-  server: 18.143.75.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 405c4c45-df2a-4adf-b8e6-13f0de358e3a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '27|Singapore-Akamai #5'
-  network: tcp
-  port: '64012'
-  server: 183.249.20.151
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- cipher: aes-128-gcm
-  name: 19|SG-139.59.192.63-219
-  password: '!!str 202309302355000000000020'
-  port: 1020/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbulianglin.com%3Bobfs-uri%3D%2F
-  server: dosg.securevpn.cc
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
   uuid: 6ca36be5-d469-4911-8dba-831995dedfca
@@ -244,18 +244,76 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 27|🇸🇬 Singapore 01 @nodpai
+  name: '27|Singapore-Akamai #3'
   network: tcp
-  port: '54126'
-  server: sg5.lianpi.xyz
+  port: '64012'
+  server: 15.164.237.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ec759219-ea76-47e2-8cc7-dd26cde85e74
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_0918003
+  network: ws
+  port: '40813'
+  server: 146.190.93.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94948644-37ce-472f-d0eb-cdf1a2f94ee6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /SHALANA
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 01 @nodpai
+  password: 666d382c-d614-4129-aedb-06c63982820a
+  port: 56138
+  server: sg1.lianpi.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,8,27|🇸🇬 Singapore 04 @nodpai
+  network: ws
+  port: '15638'
+  server: sg6.lianpi.xyz
   tls: false
   type: vmess
   uuid: 666d382c-d614-4129-aedb-06c63982820a
-- name: 8|🇸🇬 Singapore 07 @nodpai
+  ws-opts:
+    headers:
+      Host: sg6.lianpi.xyz
+    path: /
+- name: 8,25|🇸🇬 Singapore 08 @nodpai
+  network: ws
+  password: 36fe28a331638747
+  port: 3306
+  server: 5.44.249.42
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
+- name: 8|🇸🇬 Singapore 09 @nodpai
   network: ws
   password: 111b927ef6be6671
   port: 3306
-  server: 5.44.249.43
+  server: 5.44.249.50
   skip-cert-verify: true
   sni: n2.gladns.com
   type: trojan
@@ -264,41 +322,6 @@ proxies:
     headers:
       Host: n2.gladns.com
     path: '%2fgateway%2fconnect'
-- alterId: 0
-  cipher: auto
-  name: '27|Singapore-Akamai #2'
-  network: tcp
-  port: '64012'
-  server: 120.232.12.112
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 11 @nodpai
-  password: 666d382c-d614-4129-aedb-06c63982820a
-  port: 56138
-  server: sg1.lianpi.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 19|SG-194.124.35.23-172
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 194.124.35.23
-  type: ss
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-204
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-202
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|新加坡_【YouTube-VV科技】
@@ -312,33 +335,23 @@ proxies:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
-- cipher: chacha20-ietf-poly1305
-  name: 28|SG_speednode_0098
-  password: 666d382c-d614-4129-aedb-06c63982820a
-  port: 61675
-  server: sg2.lianpi.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '27|Singapore-Akamai #1'
+  name: 11,24|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6ca36be5-d469-4911-8dba-831995dedfca
+- alterId: 0
+  cipher: auto
+  name: '27|Singapore-Akamai #2'
   network: tcp
   port: '64012'
-  server: 183.249.20.153
+  server: 120.232.12.112
   servername: ''
   tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 27|🇸🇬 Singapore 03 @nodpai
-  network: ws
-  port: '15638'
-  server: sg6.lianpi.xyz
-  tls: false
-  type: vmess
-  uuid: 666d382c-d614-4129-aedb-06c63982820a
-  ws-opts:
-    headers:
-      Host: sg6.lianpi.xyz
-    path: /
