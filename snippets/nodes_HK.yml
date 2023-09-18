@@ -1,24 +1,83 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '27|香港Akari-dip-1.5x #12'
-  network: tcp
-  port: '64093'
-  server: 183.249.20.151
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari #1'
-  network: tcp
-  port: '64010'
+  name: '27|香港HKT-dip-2x #1'
+  network: ws
+  port: '64082'
   server: 183.249.20.153
   servername: ''
   tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+  ws-opts:
+    headers:
+      Host: hkt3-cdn.tencent.best
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '27|香港HKT-dip #1'
+  network: ws
+  port: '64004'
+  server: 183.249.20.149
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+  ws-opts:
+    headers:
+      Host: hkt2-cdn.tencent.best
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '14|香港_【YouTube-VV科技】 #1'
+  network: ws
+  port: 80
+  server: 103.160.204.12
+  tls: false
+  type: vmess
+  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
+  ws-opts:
+    headers:
+      Host: 18.wyhkaa0.gq
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 19|HK-223.16.97.227-125
+  network: ws
+  port: 888
+  server: hk-hkg-hgc-b-v2.jd.cjhh.mom
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
+  ws-headers:
+    Host: cdn.savoy.click
+  ws-path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #2'
+  network: ws
+  port: '47291'
+  server: hk5.fkfirewall.top
+  tls: true
+  type: vmess
+  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
+  ws-opts:
+    headers:
+      Host: hk5.fkfirewall.top
+    path: /run
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇭🇰 香港小火箭|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+  password: hGkQ6915tD
+  port: 11808
+  protocol: auth_aes128_md5
+  protocol-param: 291971:xPmH40B1go
+  server: iepl-zh.safetelescope.cc
+  tfo: false
+  type: ssr
 - alterId: 0
   cipher: auto
   name: '27|香港Akari-dip-1.5x #7'
@@ -31,27 +90,73 @@ proxies:
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
 - alterId: 0
   cipher: auto
-  name: '27|香港Akari-dip-1.5x #15'
-  network: tcp
-  port: '64099'
-  server: 183.249.20.153
+  name: 27|香港HKT-dip-2x
+  network: ws
+  port: '64082'
+  server: 120.241.46.222
   servername: ''
   tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '20|🇭🇰 香港(油管:破解资源君2.0) #3'
-  network: ws
-  port: '443'
-  server: hk1.fkfirewall.top
-  tls: true
-  type: vmess
-  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
   ws-opts:
     headers:
-      Host: hk1.fkfirewall.top
-    path: /run
+      Host: hkt3-cdn.tencent.best
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '27|香港Baxet-2x #3'
+  network: tcp
+  port: '64090'
+  server: 120.232.12.112
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 32
+  cipher: auto
+  name: 21|014+10—🇭🇰—HK
+  network: ws
+  port: '80'
+  server: 182.16.1.194
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: '27|香港Baxet-2x #1'
+  network: tcp
+  port: '64090'
+  server: 120.241.46.222
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 27|香港Akari-dip-1.5x
+  network: tcp
+  port: '64093'
+  server: 183.249.20.149
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港HKT-dip-2x #5'
+  network: ws
+  port: '64082'
+  server: 15.164.237.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+  ws-opts:
+    headers:
+      Host: hkt3-cdn.tencent.best
+    path: ''
 - alterId: 0
   cipher: auto
   name: '27|香港HKT-dip-2x #4'
@@ -68,17 +173,28 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 19|HK-223.16.97.227-125
-  network: ws
-  port: 888
-  server: hk-hkg-hgc-b-v2.jd.cjhh.mom
-  skip-cert-verify: true
-  tls: true
+  name: '27|香港Akari-dip-1.5x #10'
+  network: tcp
+  port: '64099'
+  server: 120.232.12.112
+  servername: ''
+  tls: false
   type: vmess
-  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
-  ws-headers:
-    Host: cdn.savoy.click
-  ws-path: /je5x3pBN1vez3NQudNkB
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港HKT-dip #3'
+  network: ws
+  port: '64004'
+  server: 120.241.46.222
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+  ws-opts:
+    headers:
+      Host: hkt2-cdn.tencent.best
+    path: ''
 - alterId: 0
   cipher: auto
   name: 27|香港Akari
@@ -89,79 +205,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 32
-  cipher: auto
-  name: 21|014+10—🇭🇰—HK
-  network: ws
-  port: '80'
-  server: 182.16.1.194
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    path: /opt/video/images
 - alterId: 0
   cipher: auto
-  name: '27|香港Akari-dip-1.5x #5'
+  name: '27|香港Akari-dip-1.5x #1'
   network: tcp
   port: '64093'
-  server: 15.164.237.48
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇭🇰 15|香港B|@ripaojiedian
-  network: ws
-  port: 55455
-  server: hkt.123ddns.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
-  ws-opts:
-    headers:
-      Host: hkt.123ddns.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 25|🇭🇰 香港T|@ripaojiedian
-  network: ws
-  password: d02058f4f819dced
-  port: 3306
-  server: 45.11.104.94
-  skip-cert-verify: false
-  sni: n2.gladns.com
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: '27|香港Baxet-2x #1'
-  network: tcp
-  port: '64090'
   server: 120.241.46.222
   servername: ''
   tls: true
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '14|香港_【YouTube-VV科技】 #2'
+  name: 24,27|7,8|🇭🇰 Hong Kong 06 @nodpai
   network: ws
-  port: 443
-  server: 156.245.8.142
-  tls: true
+  port: '80'
+  server: speedip.eu.org
+  tls: false
   type: vmess
-  uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
+  uuid: 88955ce4-7c17-4e75-9f17-00c6dc4fdc02
   ws-opts:
     headers:
-      Host: www.92873889.xyz
-    path: /path/1693018744512
+      Host: speedip.eu.org
+    path: /xingsuyun
 - alterId: 0
   cipher: auto
   name: 27|香港HKT-dip
@@ -178,22 +244,32 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '27|香港Akari #5'
+  name: '27|香港Akari-dip-1.5x #17'
   network: tcp
-  port: '64010'
-  server: 183.249.20.149
+  port: '64099'
+  server: 120.241.46.222
   servername: ''
   tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
 - alterId: 0
   cipher: auto
-  name: '27|香港Akari-dip-1.5x #16'
+  name: '27|香港Baxet-2x #2'
   network: tcp
-  port: '64096'
-  server: 15.164.237.48
+  port: '64090'
+  server: 183.249.20.151
   servername: ''
-  tls: false
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港Baxet-2x #4'
+  network: tcp
+  port: '64090'
+  server: 183.249.20.153
+  servername: ''
+  tls: true
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
 - alterId: 0
@@ -212,20 +288,49 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '27|香港Akari-dip-1.5x #1'
+  name: '27|香港Akari-dip-1.5x #2'
   network: tcp
-  port: '64093'
-  server: 120.241.46.222
+  port: '64096'
+  server: 183.249.20.151
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
 - alterId: 0
   cipher: auto
-  name: '27|香港HKT-dip #1'
+  name: 11,24|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: dd8c3638-7244-4192-8ee4-7b9a0b9c792e
+- alterId: 64
+  cipher: auto
+  name: 4,9,19,20,24,31|🇭🇰 _HK_香港
+  network: tcp
+  port: '42914'
+  server: 156.245.8.144
+  tls: false
+  type: vmess
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari-dip-1.5x #15'
+  network: tcp
+  port: '64099'
+  server: 183.249.20.153
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港HKT-dip #5'
   network: ws
   port: '64004'
-  server: 183.249.20.149
+  server: 120.232.12.112
   servername: ''
   tls: false
   type: vmess
@@ -236,6 +341,62 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
+  name: 7|「蛋挞云,流媒体全解锁」🇭🇰 HK 01
+  network: tcp
+  port: '50011'
+  server: 11.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari-dip-1.5x #3'
+  network: tcp
+  port: '64099'
+  server: 183.249.20.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 27|香港_Telegram@kxswa
+  network: ws
+  port: '24129'
+  server: hkiplc.relay-idc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c2154903-bf82-42b5-85d4-747b9d593c4d
+  ws-opts:
+    headers:
+      Host: hkiplc.relay-idc.top
+    path: /gitee
+- alterId: 0
+  cipher: auto
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #1'
+  network: ws
+  port: '47291'
+  server: hk7.fkfirewall.top
+  tls: true
+  type: vmess
+  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
+  ws-opts:
+    headers:
+      Host: hk7.fkfirewall.top
+    path: /run
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari #5'
+  network: tcp
+  port: '64010'
+  server: 183.249.20.149
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
   name: '27|香港Akari-dip-1.5x #9'
   network: tcp
   port: '64096'
@@ -244,24 +405,268 @@ proxies:
   tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 1
-  cipher: auto
-  name: 20|🇭🇰 香港(油管:破解资源君2.0)
-  network: ws
-  port: '50205'
-  server: data-hk-v2.shwjfkw.cn
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-hk-v2.shwjfkw.cn
-    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '27|香港Akari-dip-1.5x #8'
+  name: '27|香港Akari-dip-1.5x #13'
+  network: tcp
+  port: '64093'
+  server: 120.232.12.112
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇭🇰香港04
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: dd8c3638-7244-4192-8ee4-7b9a0b9c792e
+- alterId: 0
+  cipher: auto
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #3'
+  network: ws
+  port: '443'
+  server: hk1.fkfirewall.top
+  tls: true
+  type: vmess
+  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
+  ws-opts:
+    headers:
+      Host: hk1.fkfirewall.top
+    path: /run
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari-dip-1.5x #4'
   network: tcp
   port: '64096'
+  server: 120.232.12.112
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari-dip-1.5x #6'
+  network: tcp
+  port: '64099'
+  server: 15.164.237.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari-dip-1.5x #14'
+  network: tcp
+  port: '64093'
+  server: 183.249.20.153
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 27|香港Baxet-2x
+  network: tcp
+  port: '64090'
+  server: 15.164.237.48
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari-dip-1.5x #12'
+  network: tcp
+  port: '64093'
+  server: 183.249.20.151
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港HKT-dip-2x #3'
+  network: ws
+  port: '64082'
+  server: 183.249.20.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+  ws-opts:
+    headers:
+      Host: hkt3-cdn.tencent.best
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari-dip-1.5x #5'
+  network: tcp
+  port: '64093'
+  server: 15.164.237.48
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari #4'
+  network: tcp
+  port: '64010'
+  server: 15.164.237.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 22,24|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 724674ef-a83b-4cc9-a6a1-4da007d2827b
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇭🇰 15|香港B|@ripaojiedian
+  network: ws
+  port: 55455
+  server: hkt.123ddns.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d2ce45e6-9f22-492d-d81d-d639067a7583
+  ws-opts:
+    headers:
+      Host: hkt.123ddns.xyz
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇭🇰 香港KT|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 443
+  server: 8.210.119.75
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '27|香港Baxet-2x #5'
+  network: tcp
+  port: '64090'
+  server: 183.249.20.149
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari #2'
+  network: tcp
+  port: '64010'
+  server: 183.249.20.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇭🇰 香港1|@ripaojiedian
+  password: 6YRXJP
+  port: 56015
+  server: 14.29.170.223
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 25|🇭🇰 香港T|@ripaojiedian
+  network: ws
+  password: d02058f4f819dced
+  port: 3306
+  server: 45.11.104.94
+  skip-cert-verify: false
+  sni: n2.gladns.com
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari-dip-1.5x #16'
+  network: tcp
+  port: '64096'
+  server: 15.164.237.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇭🇰 香港A|@ripaojiedian
+  password: 47338ef6-5f8d-43b4-9920-49e46b341956
+  port: 51321
+  server: gz-zz-xx.newbluecloud.top
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|香港 05 | 1x HK
+  network: tcp
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 724674ef-a83b-4cc9-a6a1-4da007d2827b
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari-dip-1.5x #11'
+  network: tcp
+  port: '64096'
+  server: 183.249.20.153
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇭🇰香港05
+  network: tcp
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: dd8c3638-7244-4192-8ee4-7b9a0b9c792e
+- alterId: 64
+  cipher: auto
+  name: 14|香港_【YouTube-VV科技】
+  network: tcp
+  port: 34417
+  server: 156.245.8.247
+  tls: false
+  type: vmess
+  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+- alterId: 0
+  cipher: auto
+  name: '27|香港Akari #3'
+  network: tcp
+  port: '64010'
   server: 120.241.46.222
   servername: ''
   tls: false
@@ -285,85 +690,37 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '27|香港Akari #2'
+  name: '27|香港Akari-dip-1.5x #8'
   network: tcp
-  port: '64010'
-  server: 183.249.20.151
+  port: '64096'
+  server: 120.241.46.222
   servername: ''
   tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: dd8c3638-7244-4192-8ee4-7b9a0b9c792e
-- alterId: 0
-  cipher: auto
-  name: '27|香港HKT-dip-2x #3'
-  network: ws
-  port: '64082'
-  server: 183.249.20.151
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-  ws-opts:
-    headers:
-      Host: hkt3-cdn.tencent.best
-    path: ''
 - alterId: 64
   cipher: auto
-  name: 4,9,19,20,24,31|🇭🇰 _HK_香港
-  network: tcp
+  name: 9|香港_0918043
+  network: ''
   port: '42914'
   server: 156.245.8.144
+  servername: ''
   tls: false
   type: vmess
   uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: '27|香港HKT-dip #5'
+  name: 20|🇭🇰 香港(油管:破解资源君2.0)
   network: ws
-  port: '64004'
-  server: 120.232.12.112
-  servername: ''
+  port: '50205'
+  server: data-hk-v2.shwjfkw.cn
   tls: false
   type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-opts:
     headers:
-      Host: hkt2-cdn.tencent.best
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '27|香港HKT-dip #3'
-  network: ws
-  port: '64004'
-  server: 120.241.46.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-  ws-opts:
-    headers:
-      Host: hkt2-cdn.tencent.best
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari-dip-1.5x #17'
-  network: tcp
-  port: '64099'
-  server: 120.241.46.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+      Host: data-hk-v2.shwjfkw.cn
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
   name: 22,24|香港 04 | 1x HK
@@ -374,16 +731,19 @@ proxies:
   tls: true
   type: vmess
   uuid: 724674ef-a83b-4cc9-a6a1-4da007d2827b
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11,24|🇭🇰香港06
-  network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
+  name: '14|香港_【YouTube-VV科技】 #2'
+  network: ws
+  port: 443
+  server: 156.245.8.142
   tls: true
   type: vmess
-  uuid: dd8c3638-7244-4192-8ee4-7b9a0b9c792e
+  uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
+  ws-opts:
+    headers:
+      Host: www.92873889.xyz
+    path: /path/1693018744512
 - alterId: 0
   cipher: auto
   name: '27|香港HKT-dip #4'
@@ -397,28 +757,6 @@ proxies:
   ws-opts:
     headers:
       Host: hkt2-cdn.tencent.best
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇭🇰 香港A|@ripaojiedian
-  password: 47338ef6-5f8d-43b4-9920-49e46b341956
-  port: 51321
-  server: gz-zz-xx.newbluecloud.top
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '27|香港HKT-dip-2x #5'
-  network: ws
-  port: '64082'
-  server: 15.164.237.48
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-  ws-opts:
-    headers:
-      Host: hkt3-cdn.tencent.best
     path: ''
 - alterId: 0
   cipher: auto
@@ -434,107 +772,11 @@ proxies:
     headers:
       Host: hkt3-cdn.tencent.best
     path: ''
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 14|香港_【YouTube-VV科技】
+  name: '27|香港Akari #1'
   network: tcp
-  port: 34417
-  server: 156.245.8.247
-  tls: false
-  type: vmess
-  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari-dip-1.5x #2'
-  network: tcp
-  port: '64096'
-  server: 183.249.20.151
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 22,24|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 724674ef-a83b-4cc9-a6a1-4da007d2827b
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari-dip-1.5x #6'
-  network: tcp
-  port: '64099'
-  server: 15.164.237.48
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|香港Baxet-2x #2'
-  network: tcp
-  port: '64090'
-  server: 183.249.20.151
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 27|香港HKT-dip-2x
-  network: ws
-  port: '64082'
-  server: 120.241.46.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-  ws-opts:
-    headers:
-      Host: hkt3-cdn.tencent.best
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '20|🇭🇰 香港(油管:破解资源君2.0) #2'
-  network: ws
-  port: '47291'
-  server: hk5.fkfirewall.top
-  tls: true
-  type: vmess
-  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
-  ws-opts:
-    headers:
-      Host: hk5.fkfirewall.top
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari-dip-1.5x #3'
-  network: tcp
-  port: '64099'
-  server: 183.249.20.151
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|香港Baxet-2x #5'
-  network: tcp
-  port: '64090'
-  server: 183.249.20.149
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari-dip-1.5x #11'
-  network: tcp
-  port: '64096'
+  port: '64010'
   server: 183.249.20.153
   servername: ''
   tls: false
@@ -542,241 +784,11 @@ proxies:
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
 - alterId: 0
   cipher: auto
-  name: '14|香港_【YouTube-VV科技】 #1'
-  network: ws
-  port: 80
-  server: 103.160.204.12
+  name: '8,19,23,25,28|「蛋挞云,流媒体全解锁」🇭🇰 HK 01 #1'
+  port: 50011
+  server: 11.kccic2pa.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
-  ws-opts:
-    headers:
-      Host: 18.wyhkaa0.gq
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari-dip-1.5x #4'
-  network: tcp
-  port: '64096'
-  server: 120.232.12.112
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari-dip-1.5x #10'
-  network: tcp
-  port: '64099'
-  server: 120.232.12.112
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 22,24|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 724674ef-a83b-4cc9-a6a1-4da007d2827b
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari-dip-1.5x #14'
-  network: tcp
-  port: '64093'
-  server: 183.249.20.153
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 27|香港Akari-dip-1.5x
-  network: tcp
-  port: '64093'
-  server: 183.249.20.149
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 27|香港_Telegram@kxswa
-  network: ws
-  port: '24129'
-  server: hkiplc.relay-idc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c2154903-bf82-42b5-85d4-747b9d593c4d
-  ws-opts:
-    headers:
-      Host: hkiplc.relay-idc.top
-    path: /gitee
-- cipher: aes-256-gcm
-  name: 8|「蛋挞云,流媒体全解锁」🇭🇰 HK 02
-  password: '!!str 123456'
-  port: 31101
-  server: cm1-go.go001.buzz
-  type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇭🇰 香港1|@ripaojiedian
-  password: 6YRXJP
-  port: 56015
-  server: 14.29.170.223
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 9|香港_0918043
-  network: ''
-  port: '42914'
-  server: 156.245.8.144
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 8.210.119.75
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: dd8c3638-7244-4192-8ee4-7b9a0b9c792e
-- alterId: 0
-  cipher: auto
-  name: '27|香港Baxet-2x #4'
-  network: tcp
-  port: '64090'
-  server: 183.249.20.153
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '20|🇭🇰 香港(油管:破解资源君2.0) #1'
-  network: ws
-  port: '47291'
-  server: hk7.fkfirewall.top
-  tls: true
-  type: vmess
-  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
-  ws-opts:
-    headers:
-      Host: hk7.fkfirewall.top
-    path: /run
-- alterId: 0
-  cipher: auto
-  name: 24,27|7,8|🇭🇰 Hong Kong 06 @nodpai
-  network: ws
-  port: '80'
-  server: speedip.eu.org
-  tls: false
-  type: vmess
-  uuid: 88955ce4-7c17-4e75-9f17-00c6dc4fdc02
-  ws-opts:
-    headers:
-      Host: speedip.eu.org
-    path: /xingsuyun
-- alterId: 0
-  cipher: auto
-  name: 27|香港Baxet-2x
-  network: tcp
-  port: '64090'
-  server: 15.164.237.48
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari #4'
-  network: tcp
-  port: '64010'
-  server: 15.164.237.48
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇭🇰 香港小火箭|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-  password: hGkQ6915tD
-  port: 11808
-  protocol: auth_aes128_md5
-  protocol-param: 291971:xPmH40B1go
-  server: iepl-zh.safetelescope.cc
-  tfo: false
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: '27|香港Baxet-2x #3'
-  network: tcp
-  port: '64090'
-  server: 120.232.12.112
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari #3'
-  network: tcp
-  port: '64010'
-  server: 120.241.46.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|香港HKT-dip-2x #1'
-  network: ws
-  port: '64082'
-  server: 183.249.20.153
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-  ws-opts:
-    headers:
-      Host: hkt3-cdn.tencent.best
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '27|香港Akari-dip-1.5x #13'
-  network: tcp
-  port: '64093'
-  server: 120.232.12.112
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
