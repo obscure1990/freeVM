@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 19|SG-139.59.192.63-224
+  password: '!!str 202309302355000000000020'
+  port: 1020/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbulianglin.com%3Bobfs-uri%3D%2F
+  server: dosg.securevpn.cc
+  type: ss
 - name: 8|🇸🇬 Singapore 148 @nodpai
   network: ws
   password: 111b927ef6be6671
@@ -12,109 +18,21 @@ proxies:
     headers:
       Host: n2.gladns.com
     path: /gateway/connect
-- name: 8,25,28|🇸🇬 Singapore 219 @nodpai
-  network: ws
-  password: b84d16a244460e09
-  port: 3306
-  server: 45.11.104.94
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 36 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 8d242c5.dl.nintendo.net:123597
-    mode: tls
-  port: 2377
-  server: 103.172.116.43
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 22,24|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ca809e4c-ecb3-4b7e-a50d-9790318c81b8
-- name: 8|🇸🇬 Singapore 107 @nodpai
+  name: 8,24|🇸🇬 Singapore 216 @nodpai
   network: ws
-  password: 6c8b18adb11737af
-  port: 3306
-  server: 5.44.249.43
+  port: 80
+  server: cfyd.starsea.vip
   skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- name: 8|🇸🇬 Singapore 83 @nodpai
-  network: ws
-  password: 8e6f2dc7eb9f9a13
-  port: 3306
-  server: 5.44.249.52
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 099ea702-daa5-406c-abbb-04fa04a1a0b7
-- name: 8|🇸🇬 Singapore 04 @nodpai
-  network: ws
-  password: 36fe28a331638747
-  port: 3306
-  server: 5.44.249.42
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: '%2fgateway%2fconnect'
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇸🇬 新加坡_0918045
-  network: ws
-  port: 15638
-  server: sg6.lianpi.xyz
-  servername: ''
   tls: false
   type: vmess
-  uuid: a0043275-5033-4923-9f22-b2f466a8794a
+  udp: true
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
   ws-opts:
     headers:
-      Host: sg6.lianpi.xyz
-    path: /
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-207
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
+      Host: cfyd.starsea.vip
+    path: /sshkit/1736960111/64ee26041efcc/
 - alterId: 0
   cipher: auto
   name: 20|🇸🇬 新加坡(油管:破解资源君2.0)
@@ -134,18 +52,19 @@ proxies:
   port: 808
   server: 194.124.35.23
   type: ss
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-205
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
-  type: ss
-- cipher: aes-128-gcm
-  name: 19|SG-139.59.192.63-224
-  password: '!!str 202309302355000000000020'
-  port: 1020/?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dbulianglin.com%3Bobfs-uri%3D%2F
-  server: dosg.securevpn.cc
-  type: ss
+- name: 8|🇸🇬 Singapore 04 @nodpai
+  network: ws
+  password: 36fe28a331638747
+  port: 3306
+  server: 5.44.249.42
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: '%2fgateway%2fconnect'
 - name: 8|🇸🇬 Singapore 87 @nodpai
   network: ws
   password: faf42aa0a9ad4c1e
@@ -169,59 +88,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_0918058
-  network: ws
-  port: '443'
-  server: 18.143.75.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 405c4c45-df2a-4adf-b8e6-13f0de358e3a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 8|🇸🇬 Singapore 79 @nodpai
-  network: ws
-  password: b84d16a244460e09
-  port: 3306
-  server: 5.44.249.43
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: '%2fgateway%2fconnect'
-- name: 8|🇸🇬 Singapore 100 @nodpai
-  network: ws
-  password: 8e6f2dc7eb9f9a13
-  port: 3306
-  server: 5.44.249.53
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #1'
-  network: ws
-  port: '17019'
-  server: hk7.fkfirewall.top
-  tls: true
-  type: vmess
-  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
-  ws-opts:
-    headers:
-      Host: hk7.fkfirewall.top
-    path: /
 - name: 8|🇸🇬 Singapore 118 @nodpai
   network: ws
   password: 0cc6b4268dea0ba8
@@ -237,52 +103,6 @@ proxies:
     path: /gateway/connect
 - alterId: 0
   cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 099ea702-daa5-406c-abbb-04fa04a1a0b7
-- name: 8,25|🇸🇬 Singapore 16 @nodpai
-  network: ws
-  password: 182228812d1e0f23
-  port: 3306
-  server: 5.44.249.42
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ca809e4c-ecb3-4b7e-a50d-9790318c81b8
-- name: 8|🇸🇬 Singapore 76 @nodpai
-  network: ws
-  password: 5227e84e4f026b71
-  port: 3306
-  server: 5.44.249.50
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: '%2fgateway%2fconnect'
-- alterId: 0
-  cipher: auto
   name: 22,24|新加坡 05 | 1x SG
   network: tcp
   port: '31206'
@@ -290,7 +110,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ca809e4c-ecb3-4b7e-a50d-9790318c81b8
+  uuid: e775f090-0b7b-4400-9025-e259237111dc
 - alterId: 64
   cipher: auto
   name: 19|SG-159.223.94.156-211
@@ -306,6 +126,42 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 099ea702-daa5-406c-abbb-04fa04a1a0b7
+- name: 8|🇸🇬 Singapore 76 @nodpai
+  network: ws
+  password: 5227e84e4f026b71
+  port: 3306
+  server: 5.44.249.50
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: '%2fgateway%2fconnect'
+- name: 8|🇸🇬 Singapore 107 @nodpai
+  network: ws
+  password: 6c8b18adb11737af
+  port: 3306
+  server: 5.44.249.43
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
   name: 14|新加坡_【YouTube-VV科技】
   network: ws
   port: 2082
@@ -317,54 +173,11 @@ proxies:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
-- alterId: 0
-  cipher: auto
-  name: 9,21,24|新加坡_0918003
-  network: ws
-  port: '40813'
-  server: 146.190.93.191
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94948644-37ce-472f-d0eb-cdf1a2f94ee6
-  ws-opts:
-    headers:
-      Host: ''
-    path: /SHALANA
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_0918056
-  network: ws
-  port: '80'
-  server: 194.233.95.180
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 8,24|🇸🇬 Singapore 216 @nodpai
-  network: ws
-  port: 80
-  server: cfyd.starsea.vip
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  ws-opts:
-    headers:
-      Host: cfyd.starsea.vip
-    path: /sshkit/1736960111/64ee26041efcc/
-- name: 8|🇸🇬 Singapore 78 @nodpai
+- name: 8|🇸🇬 Singapore 79 @nodpai
   network: ws
   password: b84d16a244460e09
   port: 3306
-  server: 5.44.249.52
+  server: 5.44.249.43
   skip-cert-verify: true
   sni: n2.gladns.com
   type: trojan
@@ -386,6 +199,48 @@ proxies:
     headers:
       Host: n2.gladns.com
     path: '%2fgateway%2fconnect'
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-207
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+- name: 8|🇸🇬 Singapore 100 @nodpai
+  network: ws
+  password: 8e6f2dc7eb9f9a13
+  port: 3306
+  server: 5.44.249.53
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 099ea702-daa5-406c-abbb-04fa04a1a0b7
+- name: 8,25,28|🇸🇬 Singapore 219 @nodpai
+  network: ws
+  password: b84d16a244460e09
+  port: 3306
+  server: 45.11.104.94
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
 - alterId: 0
   cipher: auto
   name: 21,24|🇸🇬 SG(AzadNet.t.me)_009
@@ -402,11 +257,156 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 11,24|🇸🇬新加坡04
+  name: 9|新加坡_0918056
+  network: ws
+  port: '80'
+  server: 194.233.95.180
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-205
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡06
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
   tls: true
   type: vmess
   uuid: 099ea702-daa5-406c-abbb-04fa04a1a0b7
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇸🇬 新加坡_0918045
+  network: ws
+  port: 15638
+  server: sg6.lianpi.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a0043275-5033-4923-9f22-b2f466a8794a
+  ws-opts:
+    headers:
+      Host: sg6.lianpi.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e775f090-0b7b-4400-9025-e259237111dc
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #1'
+  network: ws
+  port: '17019'
+  server: hk7.fkfirewall.top
+  tls: true
+  type: vmess
+  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
+  ws-opts:
+    headers:
+      Host: hk7.fkfirewall.top
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 36 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 8d242c5.dl.nintendo.net:123597
+    mode: tls
+  port: 2377
+  server: 103.172.116.43
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9,21,24|新加坡_0918003
+  network: ws
+  port: '40813'
+  server: 146.190.93.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94948644-37ce-472f-d0eb-cdf1a2f94ee6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /SHALANA
+- name: 8,25|🇸🇬 Singapore 16 @nodpai
+  network: ws
+  password: 182228812d1e0f23
+  port: 3306
+  server: 5.44.249.42
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_0918058
+  network: ws
+  port: '443'
+  server: 18.143.75.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 405c4c45-df2a-4adf-b8e6-13f0de358e3a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e775f090-0b7b-4400-9025-e259237111dc
+- name: 8|🇸🇬 Singapore 83 @nodpai
+  network: ws
+  password: 8e6f2dc7eb9f9a13
+  port: 3306
+  server: 5.44.249.52
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
+- name: 8|🇸🇬 Singapore 78 @nodpai
+  network: ws
+  password: b84d16a244460e09
+  port: 3306
+  server: 5.44.249.52
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: '%2fgateway%2fconnect'
