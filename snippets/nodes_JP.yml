@@ -1,23 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 19|JP-54.199.83.239-203
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|🇯🇵 日本(油管:破解资源君2.0)
-  network: ws
-  port: '443'
-  server: jp1.fkfirewall.top
-  tls: true
-  type: vmess
-  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
-  ws-opts:
-    headers:
-      Host: jp1.fkfirewall.top
-    path: /run
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25,28|🇯🇵 日本KT2|@ripaojiedian
@@ -36,6 +17,153 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 6,13,15,24,27|🇯🇵_JP_日本
+  network: tcp
+  port: 23234
+  server: jp6.lianpi.xyz
+  tls: false
+  type: vmess
+  uuid: a0043275-5033-4923-9f22-b2f466a8794a
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.93-097
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 85.208.108.93
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇯🇵 日本(油管:破解资源君2.0)
+  network: ws
+  port: '443'
+  server: jp1.fkfirewall.top
+  tls: true
+  type: vmess
+  uuid: 4e88352a-7b25-44ba-90b7-8f498c602a29
+  ws-opts:
+    headers:
+      Host: jp1.fkfirewall.top
+    path: /run
+- alterId: 0
+  cipher: auto
+  name: 24|7,8|🇯🇵 Japan 04 @nodpai
+  network: ws
+  port: '45123'
+  server: jp5.lianpi.xyz
+  tls: true
+  type: vmess
+  uuid: 666d382c-d614-4129-aedb-06c63982820a
+  ws-opts:
+    headers:
+      Host: jp5.lianpi.xyz
+    path: /
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.93-098
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.93
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19,20|JP-138.2.8.227-050
+  network: tcp
+  port: 59442
+  server: 138.2.8.227
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6fd042fa-e864-4a95-85bc-6f590a03d34a
+  ws-headers:
+    Host: 138.2.8.227
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c7a5ded8-7eb8-45ee-a453-0214199501e4
+- alterId: 0
+  cipher: auto
+  name: '27|🇯🇵 Japan 05 @nodpai #1'
+  network: ws
+  port: '2087'
+  server: cf9.jiasuq.top
+  tls: true
+  type: vmess
+  uuid: c36d64fa-cad1-43c7-a391-c13392af2e1b
+  ws-opts:
+    headers:
+      Host: cf9.jiasuq.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 27|🇯🇵日本 | 0.1倍计算
+  network: ws
+  port: '443'
+  server: zfc.windowsupdate1.com
+  tls: true
+  type: vmess
+  uuid: db38d357-3ff3-4fff-b311-6a65501a1b10
+  ws-opts:
+    headers:
+      Host: jp1.hnokkdf.top
+    path: /kbjc/jp1
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c7a5ded8-7eb8-45ee-a453-0214199501e4
+- alterId: 0
+  cipher: auto
+  name: 19,20|JP-168.138.201.208-072
+  network: tcp
+  port: 10328
+  server: 168.138.201.208
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
+  ws-headers:
+    Host: 168.138.201.208
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 9,21,24|日本_0918087
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 27|「蛋挞云,流媒体全解锁」🇯🇵 JP 01
+  network: tcp
+  port: '50029'
+  server: 29.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
+- alterId: 0
+  cipher: auto
+  name: 7,15,21,24,26,27|「eggtartcloud.shop 自选入口,速度保证」🇯...
+  network: tcp
+  port: '50018'
+  server: 18.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
+- alterId: 0
+  cipher: auto
   name: 9,21,24|日本_0918089
   network: ws
   port: '12860'
@@ -50,17 +178,20 @@ proxies:
     path: /vm?ed=2048
 - alterId: 0
   cipher: auto
-  name: 22,24|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #2'
+  network: ws
+  port: '63632'
+  server: jp06.xiaoqi99.cf
+  tls: false
   type: vmess
-  uuid: c7a5ded8-7eb8-45ee-a453-0214199501e4
+  uuid: e2c77239-02ad-4ae8-8b71-77b8ed447919
+  ws-opts:
+    headers:
+      Host: jp06.xiaoqi99.cf
+    path: /
 - alterId: 0
   cipher: auto
-  name: 27|🇯🇵 Japan 04 @nodpai
+  name: '27|🇯🇵 Japan 04 @nodpai #1'
   network: ws
   port: '2087'
   server: cf8.jiasuq.top
@@ -71,6 +202,86 @@ proxies:
     headers:
       Host: cf8.jiasuq.top
     path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.238.87.162
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|JP-54.199.83.239-203
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 9|日本_0918011
+  network: ''
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 04c2a3b4-2fe0-42fd-8fba-c1e6f6526165
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇯🇵 Japan 04 @nodpai
+  network: ws
+  port: '443'
+  server: 104.19.237.65
+  tls: true
+  type: vmess
+  uuid: 99357805-2332-4548-95d7-73bf03c24599
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #3'
+  network: ws
+  port: '888'
+  server: hk-hkg-hgc-b-v2.jd.cjhh.mom
+  tls: true
+  type: vmess
+  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
+  ws-opts:
+    headers:
+      Host: cdn.savoy.click
+    path: /je5x3pBN1vez3NQudNkB
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c7a5ded8-7eb8-45ee-a453-0214199501e4
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 04c2a3b4-2fe0-42fd-8fba-c1e6f6526165
 - alterId: 0
   cipher: auto
   name: 9|日本_0918010
@@ -97,121 +308,16 @@ proxies:
     path: /sometime
 - alterId: 0
   cipher: auto
-  name: 22,24|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c7a5ded8-7eb8-45ee-a453-0214199501e4
-- alterId: 0
-  cipher: auto
-  name: 19,20|JP-168.138.201.208-072
-  network: tcp
-  port: 10328
-  server: 168.138.201.208
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
-  ws-headers:
-    Host: 168.138.201.208
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 28|JP_speednode_0095
-  password: 666d382c-d614-4129-aedb-06c63982820a
-  port: 34234
-  server: jp3.lianpi.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 东京特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.238.87.162
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 27|🇯🇵日本 | 0.1倍计算
+  name: 7,8|🇯🇵 Japan 05 @nodpai
   network: ws
   port: '443'
-  server: zfc.windowsupdate1.com
-  tls: true
-  type: vmess
-  uuid: db38d357-3ff3-4fff-b311-6a65501a1b10
-  ws-opts:
-    headers:
-      Host: jp1.hnokkdf.top
-    path: /kbjc/jp1
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.250.93.125
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇯🇵 Japan 06 @nodpai
-  network: ws
-  port: '443'
-  server: 104.19.237.65
+  server: 190.93.247.161
   tls: true
   type: vmess
   uuid: 99357805-2332-4548-95d7-73bf03c24599
   ws-opts:
     headers:
       Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 04c2a3b4-2fe0-42fd-8fba-c1e6f6526165
-- alterId: 0
-  cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #1'
-  network: ws
-  port: '27675'
-  server: 146.56.40.117
-  tls: false
-  type: vmess
-  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
-  ws-opts:
-    headers:
-      Host: 146.56.40.117
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 04c2a3b4-2fe0-42fd-8fba-c1e6f6526165
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇯🇵 Japan 08 @nodpai
-  network: ws
-  port: '45123'
-  server: jp5.lianpi.xyz
-  tls: true
-  type: vmess
-  uuid: 666d382c-d614-4129-aedb-06c63982820a
-  ws-opts:
-    headers:
-      Host: jp5.lianpi.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -227,12 +333,16 @@ proxies:
     headers:
       Host: jp.kxking.eu.org
     path: /vm?ed=2048
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.19-100
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 85.208.108.19
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 9|日本_0918013
+  network: ''
+  port: '51801'
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 9|日本_0918019
@@ -247,61 +357,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇯🇵 Japan 05 @nodpai
-  network: ws
-  port: '443'
-  server: 190.93.247.161
-  tls: true
-  type: vmess
-  uuid: 99357805-2332-4548-95d7-73bf03c24599
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c7a5ded8-7eb8-45ee-a453-0214199501e4
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.93-098
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.93
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #3'
-  network: ws
-  port: '888'
-  server: hk-hkg-hgc-b-v2.jd.cjhh.mom
-  tls: true
-  type: vmess
-  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
-  ws-opts:
-    headers:
-      Host: cdn.savoy.click
-    path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: 19,20|JP-138.2.8.227-050
-  network: tcp
-  port: 59442
-  server: 138.2.8.227
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6fd042fa-e864-4a95-85bc-6f590a03d34a
-  ws-headers:
-    Host: 138.2.8.227
-  ws-path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25|🇯🇵 日本KT|@ripaojiedian
@@ -314,50 +369,27 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '27|🇯🇵 Japan 05 @nodpai #1'
-  network: ws
-  port: '2087'
-  server: cf9.jiasuq.top
-  tls: true
-  type: vmess
-  uuid: c36d64fa-cad1-43c7-a391-c13392af2e1b
-  ws-opts:
-    headers:
-      Host: cf9.jiasuq.top
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 9|日本_0918013
-  network: ''
-  port: '51801'
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 9,21,24|日本_0918087
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.58-099
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 85.208.108.58
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.183.242.17
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.250.93.125
+  tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 19|JP-85.208.108.93-097
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 85.208.108.93
+  name: 19|JP-85.208.108.19-100
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 85.208.108.19
   type: ss
 - alterId: 0
   cipher: auto
@@ -373,25 +405,29 @@ proxies:
     headers:
       Host: bak-hinet.kidcc.xyz
     path: /
-- alterId: 64
-  cipher: auto
-  name: 9|日本_0918011
-  network: ''
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 28|JP_speednode_0095
+  password: 666d382c-d614-4129-aedb-06c63982820a
+  port: 34234
+  server: jp3.lianpi.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 6,7,13,15,24,27|🇯🇵_JP_日本
+  name: 11,24|🇯🇵日本06
   network: tcp
-  port: 23234
-  server: jp6.lianpi.xyz
-  tls: false
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: a0043275-5033-4923-9f22-b2f466a8794a
+  uuid: 04c2a3b4-2fe0-42fd-8fba-c1e6f6526165
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.58-099
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 85.208.108.58
+  type: ss
 - alterId: 64
   cipher: auto
   name: 9,21,24|日本_0918090
@@ -402,36 +438,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.183.242.17
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 04c2a3b4-2fe0-42fd-8fba-c1e6f6526165
-- alterId: 0
-  cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #2'
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #1'
   network: ws
-  port: '63632'
-  server: jp06.xiaoqi99.cf
+  port: '27675'
+  server: 146.56.40.117
   tls: false
   type: vmess
-  uuid: e2c77239-02ad-4ae8-8b71-77b8ed447919
+  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
   ws-opts:
     headers:
-      Host: jp06.xiaoqi99.cf
+      Host: 146.56.40.117
     path: /
 - alterId: 0
   cipher: auto
