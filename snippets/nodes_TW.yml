@@ -1,42 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d094430e-4491-4e7e-bf76-e065f3e58da9
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f0afafef-4871-4bc2-8895-bbea5b87b0ed
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f0afafef-4871-4bc2-8895-bbea5b87b0ed
-- alterId: 0
-  cipher: auto
   name: '27|台北Akari-dip-1.5x #3'
   network: tcp
   port: '64094'
   server: 183.249.20.151
   servername: ''
   tls: true
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: '27|台中Hinet-dip #5'
+  network: tcp
+  port: '64098'
+  server: 120.241.46.222
+  servername: ''
+  tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
 - alterId: 0
@@ -65,22 +45,12 @@ proxies:
     path: /je5x3pBN1vez3NQudNkB
 - alterId: 0
   cipher: auto
-  name: '27|台中Hinet-dip #1'
+  name: '27|台北Akari-dip-1.5x #4'
   network: tcp
-  port: '64098'
+  port: '64094'
   server: 15.164.237.48
   servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|台中Hinet-dip #2'
-  network: tcp
-  port: '64098'
-  server: 183.249.20.151
-  servername: ''
-  tls: false
+  tls: true
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
 - alterId: 0
@@ -95,20 +65,10 @@ proxies:
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
 - alterId: 0
   cipher: auto
-  name: '27|台中Hinet-dip #3'
-  network: tcp
-  port: '64098'
-  server: 183.249.20.153
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|台北Akari-dip-1.5x #4'
+  name: '27|台北Akari-dip-1.5x #5'
   network: tcp
   port: '64094'
-  server: 15.164.237.48
+  server: 120.232.12.112
   servername: ''
   tls: true
   type: vmess
@@ -125,22 +85,76 @@ proxies:
   uuid: f0afafef-4871-4bc2-8895-bbea5b87b0ed
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
+  name: '27|台中Hinet-dip #2'
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '64098'
+  server: 183.249.20.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 64
+  cipher: auto
+  name: 24,25,26,27|14,15|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  port: 443
+  server: 103.177.33.21
+  servername: www.62840078.xyz
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.62840078.xyz
+    path: /path/143534141104
+- alterId: 0
+  cipher: auto
+  name: '27|台中Hinet-dip #3'
+  network: tcp
+  port: '64098'
+  server: 183.249.20.153
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
   uuid: d094430e-4491-4e7e-bf76-e065f3e58da9
 - alterId: 0
   cipher: auto
-  name: '27|台北Akari-dip-1.5x #5'
+  name: '27|台中Hinet-dip #1'
   network: tcp
-  port: '64094'
+  port: '64098'
+  server: 15.164.237.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: f0afafef-4871-4bc2-8895-bbea5b87b0ed
+- alterId: 0
+  cipher: auto
+  name: 27|台中Hinet-dip
+  network: tcp
+  port: '64098'
   server: 120.232.12.112
   servername: ''
-  tls: true
+  tls: false
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
 - alterId: 0
@@ -149,26 +163,6 @@ proxies:
   network: tcp
   port: '64098'
   server: 183.249.20.149
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: '27|台中Hinet-dip #5'
-  network: tcp
-  port: '64098'
-  server: 120.241.46.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 0
-  cipher: auto
-  name: 27|台中Hinet-dip
-  network: tcp
-  port: '64098'
-  server: 120.232.12.112
   servername: ''
   tls: false
   type: vmess
@@ -193,17 +187,23 @@ proxies:
   tls: true
   type: vmess
   uuid: 4553f020-9035-3367-a69a-e809fa09e98c
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 24,25,26,27|14,15|🇹🇼 台湾|@ripaojiedian
-  network: ws
-  port: 443
-  server: 103.177.33.21
-  servername: www.62840078.xyz
+  name: 22,24|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.62840078.xyz
-    path: /path/143534141104
+  uuid: d094430e-4491-4e7e-bf76-e065f3e58da9
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: f0afafef-4871-4bc2-8895-bbea5b87b0ed
