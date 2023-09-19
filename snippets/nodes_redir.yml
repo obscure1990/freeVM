@@ -2,10 +2,58 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,6,13,14,18,20,23,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 3
+  name: 1,2,3,4,9,12,15,16,20,21,23,24,27|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
   network: ws
   port: 80
-  server: 162.159.243.53
+  server: sg1.wyhkaa0.cf
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f4575c03-8145-4612-a1b2-7a48117f6fc2
+  ws-opts:
+    headers:
+      Host: sg1.wyhkaa0.cf
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,20,23,24,27,31|🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: buyvm5.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,9,16,20,23,24,27,28,31|🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
+  network: ws
+  port: 80
+  server: 172.67.76.172
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fc426675-5daa-46c0-d998-61f9f5323e3f
+  ws-opts:
+    headers:
+      Host: sg2.wyhkaa0.cf
+    path: /TG:@hkaa0
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,14,20,23,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: 172.67.196.139
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -30,85 +78,29 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,13,20,23,24,27|🇺🇸 _US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  skip-cert-verify: false
-  tfo: false
+  name: 7|中转 🇸🇬 Singapore 06 @nodpai
+  network: tcp
+  port: '26768'
+  server: sg-gy.115cloud.link
   tls: false
   type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
+  uuid: e33a2115-cdad-3a0b-bf8c-6faa99ea86b2
 - alterId: 0
   cipher: auto
-  name: 24,27|7,8|中转 🇺🇸 United States 08 @no...
-  network: ws
-  port: '443'
-  server: 198.2.202.85
-  tls: true
+  name: 6,13,24,27|🇨🇳_CN_中国->🇭🇰_HK_香港
+  network: tcp
+  port: 50010
+  server: 10.kccic2pa.xyz
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1695032909164
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,9,10,12,15,16,20,23,24,27,31|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+  name: 1,2,3,4,6,13,14,18,20,23,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 3
   network: ws
   port: 80
-  server: sg2.wyhkaa0.cf
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fc426675-5daa-46c0-d998-61f9f5323e3f
-  ws-opts:
-    headers:
-      Host: sg2.wyhkaa0.cf
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: '6,13,24,27,31|🇺🇸_US_美国->🇨🇳_CN_中国 #1'
-  network: ws
-  port: 80
-  server: 172.67.6.189
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,20,23,24,27,31|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: 80
-  server: 172.64.202.2
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 81fc114e-44d7-44c7-9912-942453b03154
-  ws-opts:
-    headers:
-      Host: hdlb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,14,20,23,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国
-  network: ws
-  port: 80
-  server: 172.67.196.139
+  server: 162.159.243.53
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -118,6 +110,33 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 6,13,24,27|🇨🇳_CN_中国->🇬🇧_GB_英国
+  network: tcp
+  port: 50009
+  server: 09.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇬🇧 United Kingdom 01 @nodpa...
+  network: tcp
+  port: '18085'
+  server: uk-zl-gy.115cloud.link
+  tls: false
+  type: vmess
+  uuid: e33a2115-cdad-3a0b-bf8c-6faa99ea86b2
+- alterId: 0
+  cipher: auto
+  name: 24,27|7|中转 🇺🇸 United States 06 @nodp...
+  network: tcp
+  port: '50016'
+  server: 16.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: b1c9fdae-2c24-4e41-b89f-503716a0650d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -150,135 +169,19 @@ proxies:
     headers:
       Host: se2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,20,23,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 2
-  network: ws
-  port: 80
-  server: 162.159.253.16
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,9,13,20,23,24,27|🇺🇸 _US_美国->🇻🇳_VN_越南
-  network: ws
-  port: 2052
-  server: Tokyo.mfa.ee
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
-  ws-opts:
-    headers:
-      Host: vnpt.iiio.wiki
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,27|7|中转 🇺🇸 United States 06 @nodp...
-  network: tcp
-  port: '50016'
-  server: 16.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: b1c9fdae-2c24-4e41-b89f-503716a0650d
-- alterId: 0
-  cipher: auto
-  name: '6,13,24,27|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: tcp
-  port: 50017
-  server: 17.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
-- alterId: 0
-  cipher: auto
-  name: 24,27|7|中转 🇺🇸 United States 11 @nodp...
-  network: tcp
-  port: '50006'
-  server: 06.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: b1c9fdae-2c24-4e41-b89f-503716a0650d
-- alterId: 0
-  cipher: auto
-  name: '6,9,13,21,24,27|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
-  network: ws
-  port: 80
-  server: 104.31.16.14
-  tls: false
-  type: vmess
-  uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276
-  ws-opts:
-    headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,9,16,20,23,24,27,28,31|🇸🇬 _US_美国->🇸🇬_SG_新加坡 3
-  network: ws
-  port: 80
-  server: 172.67.76.172
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fc426675-5daa-46c0-d998-61f9f5323e3f
-  ws-opts:
-    headers:
-      Host: sg2.wyhkaa0.cf
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 6,13,24,27|🇨🇳_CN_中国->🇬🇧_GB_英国
-  network: tcp
-  port: 50009
-  server: 09.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
-- alterId: 0
-  cipher: auto
-  name: 24,27,31|17|🇺🇸_US_美国->🇮🇳_IN_印度_4_32
-  network: ws
-  port: 80
-  server: hdlb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: hdlb2.shabijichang.com
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇭🇰 Hong Kong 08 @nodpai
+  password: 1a1b59e7-4795-49e6-9d0f-4eda1f78c117
+  port: 10113
+  server: pinhk.cu.edu.kg
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 6,13,24,27|🇺🇸_US_美国->🇨🇳_CN_中国
   network: ws
   port: 80
   server: 172.67.211.253
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: '6,13,18,24,27,31|🇺🇸_US_美国->🇨🇳_CN_中国 #2'
-  network: ws
-  port: 80
-  server: 172.67.92.119
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
@@ -304,17 +207,107 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 6,13,24,27|🇺🇸_US_美国->🇩🇪_DE_德国
+  client-fingerprint: chrome
+  name: 1,2,3,4,6,13,20,23,24,27,31|🇺🇸 _US_美国->🇨🇳_CN_中国 5
   network: ws
-  port: 8880
-  server: yd1.992688.xyz
+  port: 80
+  server: 172.67.149.100
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: vceu3.vpn66.eu.org
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: '6,13,18,24,27,31|🇺🇸_US_美国->🇨🇳_CN_中国 #2'
+  network: ws
+  port: 80
+  server: 172.67.92.119
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,20,23,24,27|🇺🇸 _US_美国->🇨🇳_CN_中国 2
+  network: ws
+  port: 80
+  server: 162.159.253.16
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,9,12,15,20,21,23,24,27,31|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 443
+  server: api.jquery.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sub.yifenjichang.top
+    path: /oliv.beauty:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 7,8,24,27|中转 🇺🇸 United States 06 @nodpai
+  network: ws
+  port: '443'
+  server: 198.2.202.85
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1695032909164
+- alterId: 0
+  cipher: auto
+  name: 24,27,31|17|🇺🇸_US_美国->🇮🇳_IN_印度_4_32
+  network: ws
+  port: 80
+  server: hdlb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: hdlb2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1,2,3,4,9,12,15,16,20,23,24,27,31|🇸🇬 _US_美国->🇸🇬_SG_新加坡
+  network: ws
+  port: 80
+  server: sg2.wyhkaa0.cf
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fc426675-5daa-46c0-d998-61f9f5323e3f
+  ws-opts:
+    headers:
+      Host: sg2.wyhkaa0.cf
+    path: /TG:@hkaa0
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -334,48 +327,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,9,12,15,20,21,23,24,27,31|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 443
-  server: api.jquery.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sub.yifenjichang.top
-    path: /oliv.beauty:443/linkvws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,9,12,13,15,20,21,23,24,27|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 8880
-  server: 172.64.229.116
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
-  ws-opts:
-    headers:
-      Host: netherlands.yj2022.gq
-    path: /XQ2WCa29jfDMGBcbnQ
-- alterId: 0
-  cipher: auto
-  name: 6,13,24,27|🇨🇳_CN_中国->🇭🇰_HK_香港
-  network: tcp
-  port: 50010
-  server: 10.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,6,9,12,13,15,20,21,23,24,27|🇺🇸 _US_美国->🇨🇱_CL_智利 2
+  name: 1,2,3,4,6,9,12,13,15,20,23,24,27|🇺🇸 _US_美国->🇨🇱_CL_智利 2
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -391,19 +343,76 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,6,13,20,23,24,27,31|🇺🇸 _US_美国->🇨🇳_CN_中国 5
+  name: 1,2,3,4,6,13,20,23,24,27|🇺🇸 _US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
-  server: 172.67.149.100
+  server: mrb2.shabijichang.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+      Host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6,9,13,15,21,24,27|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  network: ws
+  port: 80
+  server: 104.31.16.14
+  tls: false
+  type: vmess
+  uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276
+  ws-opts:
+    headers:
+      Host: de1vm.cdn-03.live
+    path: /@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: 24,27|7|中转 🇺🇸 United States 11 @nodp...
+  network: tcp
+  port: '50006'
+  server: 06.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: b1c9fdae-2c24-4e41-b89f-503716a0650d
+- alterId: 0
+  cipher: auto
+  name: '6,13,24,27|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  network: tcp
+  port: 50017
+  server: 17.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 66a5e5f4-4d18-474a-ad2d-3f11e09058e9
+- alterId: 0
+  cipher: auto
+  name: 6,13,24,27|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 8880
+  server: yd1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,13,24,27|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 443
+  server: 104.31.16.14
+  tls: true
+  type: vmess
+  uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276
+  ws-opts:
+    headers:
+      Host: de1vm.cdn-03.live
+    path: /@hopev2ray
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -423,48 +432,64 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,20,23,24,27,31|🇺🇸 _CR_哥斯达黎加->🇺🇸_US_美国
+  name: 1,2,3,4,6,9,12,13,15,20,23,24,27|🇺🇸 _US_美国->🇳🇱_NL_荷兰
   network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
+  port: 8880
+  server: 172.64.229.116
   skip-cert-verify: false
   tfo: false
+  tls: false
+  type: vmess
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    headers:
+      Host: netherlands.yj2022.gq
+    path: /XQ2WCa29jfDMGBcbnQ
+- alterId: 0
+  cipher: auto
+  name: '6,13,24,27,31|🇺🇸_US_美国->🇨🇳_CN_中国 #1'
+  network: ws
+  port: 80
+  server: 172.67.6.189
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: buyvm5.ilovescp.com
+      Host: ca.ilovescp.com
     path: /shirker
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,9,12,15,16,20,21,23,24,27|🇸🇬 _US_美国->🇸🇬_SG_新加坡 2
+  name: 1,2,3,4,6,9,13,20,23,24,27|🇺🇸 _US_美国->🇻🇳_VN_越南
   network: ws
-  port: 80
-  server: sg1.wyhkaa0.cf
+  port: 2052
+  server: Tokyo.mfa.ee
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: f4575c03-8145-4612-a1b2-7a48117f6fc2
+  uuid: 992889a7-296e-4a44-98c2-0eb89af4411d
   ws-opts:
     headers:
-      Host: sg1.wyhkaa0.cf
-    path: /TG:@hkaa0
+      Host: vnpt.iiio.wiki
+    path: /
 - alterId: 0
   cipher: auto
-  name: 6,13,24,27|🇺🇸_US_美国->🇫🇷_FR_法国
+  client-fingerprint: chrome
+  name: 1,2,3,4,20,23,24,27,31|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
-  port: 443
-  server: 104.31.16.14
-  tls: true
+  port: 80
+  server: 172.64.202.2
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: d53cc5f9-b8ff-4cbe-bf10-295956c03276
+  uuid: 81fc114e-44d7-44c7-9912-942453b03154
   ws-opts:
     headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray
+      Host: hdlb2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 6,13,24,27|🇨🇳_CN_中国->🇺🇸_US_美国
