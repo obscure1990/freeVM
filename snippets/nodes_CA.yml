@@ -1,17 +1,53 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14,18|加拿大_【YouTube-VV科技】
+  name: 19|CA-158.69.1.79-083
   network: ws
-  port: 443
-  server: 23.227.39.109
+  port: 80
+  server: ca1.vmess.tunnel.cx
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d6343cfa-3517-11ed-8d1a-27f322ae0dec
+  ws-headers:
+    Host: ca1.vmess.tunnel.cx
+  ws-path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
+  uuid: 1bd50d10-571f-4aa7-beb8-e3798b73a98e
+- alterId: 0
+  cipher: auto
+  name: 9,21,24|加拿大_0919029
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-134.195.196.178-093
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 134.195.196.178
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 694d3c9e-0843-4c9a-b71a-c8fe6a0a39f8
 - alterId: 0
   cipher: auto
   name: '20|🇨🇦 加拿大(油管:破解资源君2.0) #1'
@@ -27,45 +63,49 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦_CA_加拿大_2_12@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 19|CA-158.69.1.79-083
+  name: 7,8|🇨🇦 Canada 01 @nodpai
   network: ws
-  port: 80
-  server: ca1.vmess.tunnel.cx
-  skip-cert-verify: true
-  tls: false
+  port: '443'
+  server: api.jquery.com
+  tls: true
   type: vmess
-  uuid: d6343cfa-3517-11ed-8d1a-27f322ae0dec
-  ws-headers:
-    Host: ca1.vmess.tunnel.cx
-  ws-path: /vmess
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-074
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 196.247.59.156
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-134.195.196.178-093
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 134.195.196.178
-  type: ss
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: api.jquery.com
+    path: /oliv.beauty:443/linkvws
 - cipher: chacha20-ietf-poly1305
   name: 19|CA-134.195.196.143-092
   password: G!yBwPWH3Vao
   port: 805
   server: 134.195.196.143
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇨🇦 加拿大(油管:破解资源君2.0)
+  network: ws
+  port: '443'
+  server: ca2.3320.top
+  tls: true
+  type: vmess
+  uuid: fdfe8f6a-5901-46ff-aa39-f4be758aa150
+  ws-opts:
+    headers:
+      Host: ca2.3320.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,18|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 18|🇨🇦_CA_加拿大_顺丰_96
@@ -82,27 +122,41 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 694d3c9e-0843-4c9a-b71a-c8fe6a0a39f8
-- alterId: 0
-  cipher: auto
-  name: 20|🇨🇦 加拿大(油管:破解资源君2.0)
+  name: 7,8|🇨🇦 Canada 02 @nodpai
   network: ws
   port: '443'
-  server: ca2.3320.top
+  server: codepen.io
   tls: true
   type: vmess
-  uuid: fdfe8f6a-5901-46ff-aa39-f4be758aa150
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ca2.3320.top
-    path: /
+      Host: codepen.io
+    path: /octavi.cfd:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0919004
+  network: ws
+  port: '2052'
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /V2RayyNGvpn
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0919018
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 18|🇨🇦_CA_加拿大_顺丰_173
@@ -117,13 +171,9 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 101abdd2-4a93-4e6b-8d24-ce2cdf1bb8e9
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-196.247.59.156-074
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 196.247.59.156
+  type: ss
