@@ -1,37 +1,76 @@
 proxies:
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0919106
-  network: tcp
-  port: '443'
-  server: 51.158.238.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+- cipher: aes-256-gcm
+  name: 8|「蛋挞云,超低价格,超高体验」🇫🇷 FR 01
+  password: 7fd4c200-368b-415c-8612-d04eae7941e3
+  port: 45010
+  server: kqs-jp.kunlun-three.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 27|「宇宙机场.com 低价套餐」FR-CF-HTTP
+  name: 19|FR-193.70.33.128-119
+  network: ws
+  port: 17772
+  server: 193.70.33.128
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d019484c-2181-4d4a-a0fb-302a55351156
+  ws-headers:
+    Host: 193.70.33.128
+  ws-path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 7,8,24,27|🇫🇷 France 06 @nodpai
   network: ws
   port: '80'
-  server: cf-lt.sharecentre.online
+  server: bl.shabijichang.com
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
   ws-opts:
     headers:
-      Host: fr.ilovescp.com
-    path: /shirker
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0919121
-  network: tcp
+  cipher: auto
+  name: 7,8,24,27|🇫🇷 France 05 @nodpai
+  network: ws
   port: '443'
-  server: 135.125.134.177
-  servername: ''
+  server: api.jquery.com
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: api.jquery.com
+    path: /oliv.beauty:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 7,8,24,27|🇫🇷 France 04 @nodpai
+  network: ws
+  port: '80'
+  server: ms.shabijichang.com
   tls: false
   type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: ms.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 27|🇫🇷法国 | 0.1倍
+  network: ws
+  port: '443'
+  server: zfc.windowsupdate1.com
+  tls: true
+  type: vmess
+  uuid: db38d357-3ff3-4fff-b311-6a65501a1b10
+  ws-opts:
+    headers:
+      Host: fr1.hnokkdf.top
+    path: /kbjc/fr1
 - alterId: 64
   cipher: auto
   name: 21,24|🇫🇷_FR_法国_欢迎订阅yui科技_99
@@ -48,53 +87,6 @@ proxies:
     path: /path/1694947665388
 - alterId: 64
   cipher: auto
-  name: 24|12|🇫🇷_FR_法国_3_3@14
-  network: ws
-  port: 443
-  server: 156.249.18.16
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 375e70f0-5d46-476f-8d69-0fb35c5548a9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1685094923408
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0919104
-  network: tcp
-  port: '443'
-  server: sw-51.158.241.70.nip.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
-- alterId: 0
-  cipher: auto
-  name: 19|FR-193.70.33.128-119
-  network: ws
-  port: 17772
-  server: 193.70.33.128
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d019484c-2181-4d4a-a0fb-302a55351156
-  ws-headers:
-    Host: 193.70.33.128
-  ws-path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0919119
-  network: tcp
-  port: '1950'
-  server: 51.159.183.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
-- alterId: 64
-  cipher: auto
   name: 14|法国_【YouTube-VV科技】
   network: ws
   port: 443
@@ -108,22 +100,21 @@ proxies:
     path: /path/1693992821776
 - alterId: 0
   cipher: auto
-  name: 9|法国_0919008
+  name: 27|「宇宙机场.com 低价套餐」FR-CF-HTTP
   network: ws
   port: '80'
-  server: uk2-vmess.greenssh.xyz
-  servername: ''
+  server: cf-lt.sharecentre.online
   tls: false
   type: vmess
-  uuid: 2076df30-81e3-4312-840b-3e1462c0b85e
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: fr.ilovescp.com
+    path: /shirker
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1,2,3,4,12,20,23,24,27,31|🇫🇷 _FR_法国
+  name: 1,2,3,4,12,15,20,23,24,27|🇫🇷 _FR_法国
   network: ws
   port: 80
   server: 173.245.49.236
@@ -138,34 +129,14 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷法国 | 0.1倍
+  name: 24,27|7,8|🇫🇷 France 04 @nodpai
   network: ws
-  port: '443'
-  server: zfc.windowsupdate1.com
-  tls: true
+  port: '80'
+  server: 104.18.12.192
+  tls: false
   type: vmess
-  uuid: db38d357-3ff3-4fff-b311-6a65501a1b10
+  uuid: 60492148-7815-4259-acdc-92bd15afa81c
   ws-opts:
     headers:
-      Host: fr1.hnokkdf.top
-    path: /kbjc/fr1
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0919122
-  network: tcp
-  port: '443'
-  server: 135.125.135.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0919110
-  network: tcp
-  port: '1950'
-  server: 163.172.160.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
+      Host: ''
+    path: /vmess
