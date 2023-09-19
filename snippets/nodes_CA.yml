@@ -1,10 +1,47 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d094430e-4491-4e7e-bf76-e065f3e58da9
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 加拿大 105
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-134.195.196.178-093
+  name: 19|CA-196.247.59.156-074
   password: G!yBwPWH3Vao
-  port: 804
-  server: 134.195.196.178
+  port: 808
+  server: 196.247.59.156
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇨🇦 加拿大(油管:破解资源君2.0)
+  network: ws
+  port: '443'
+  server: ca2.3320.top
+  tls: true
+  type: vmess
+  uuid: fdfe8f6a-5901-46ff-aa39-f4be758aa150
+  ws-opts:
+    headers:
+      Host: ca2.3320.top
+    path: /
 - alterId: 0
   cipher: auto
   name: '20|🇨🇦 加拿大(油管:破解资源君2.0) #1'
@@ -18,19 +55,28 @@ proxies:
     headers:
       Host: ca1.3320.top
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-134.195.196.143-092
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 134.195.196.143
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-134.195.196.178-093
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 134.195.196.178
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 14,18|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
+  uuid: f0afafef-4871-4bc2-8895-bbea5b87b0ed
 - alterId: 0
   cipher: auto
   name: 18|🇨🇦_CA_加拿大_顺丰_96
@@ -47,18 +93,31 @@ proxies:
     path: /shirker
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 105
+  name: 18|🇨🇦_CA_加拿大_顺丰_173
   network: ws
-  port: 2096
-  server: mci1.amo2023.club
+  port: '80'
+  server: 172.67.134.209
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: mci1.amo2023.club
-    path: /
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 14,18|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 24,27|7,8|🇨🇦 Canada 01 @nodpai
@@ -74,36 +133,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦_CA_加拿大_顺丰_173
-  network: ws
-  port: '80'
-  server: 172.67.134.209
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f0afafef-4871-4bc2-8895-bbea5b87b0ed
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-196.247.59.156-074
-  password: G!yBwPWH3Vao
-  port: 808
-  server: 196.247.59.156
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 21,24|🇨🇦_CA_加拿大_2_12@11
   network: tcp
   port: 22324
@@ -112,35 +141,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 20|🇨🇦 加拿大(油管:破解资源君2.0)
-  network: ws
-  port: '443'
-  server: ca2.3320.top
-  tls: true
-  type: vmess
-  uuid: fdfe8f6a-5901-46ff-aa39-f4be758aa150
-  ws-opts:
-    headers:
-      Host: ca2.3320.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d094430e-4491-4e7e-bf76-e065f3e58da9
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-134.195.196.143-092
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 134.195.196.143
-  type: ss
 - alterId: 0
   cipher: auto
   name: 19|CA-158.69.1.79-083
