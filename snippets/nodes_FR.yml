@@ -1,30 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|FR-193.70.33.128-068
+  name: 27|「宇宙机场.com 低价套餐」FR-CF-HTTP
   network: ws
-  port: 17772
-  server: 193.70.33.128
-  skip-cert-verify: true
+  port: '80'
+  server: cf-lt.sharecentre.online
   tls: false
   type: vmess
-  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
-  ws-headers:
-    Host: 193.70.33.128
-  ws-path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 19,20|FR-163.172.166.134-150
-  network: tcp
-  port: 21008
-  server: 163.172.166.134
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  ws-headers:
-    Host: 163.172.166.134
-  ws-path: /
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: fr.ilovescp.com
+    path: /shirker
 - alterId: 0
   cipher: auto
   name: 19,20|FR-51.15.115.83-127
@@ -38,6 +25,26 @@ proxies:
   ws-headers:
     Host: 51.15.115.83
   ws-path: /
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0009
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.25.187
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19,20|FR-163.172.166.134-150
+  network: tcp
+  port: 21008
+  server: 163.172.166.134
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  ws-headers:
+    Host: 163.172.166.134
+  ws-path: /
 - cipher: aes-256-ctr
   name: 28|FR_speednode_0008
   password: XNewBypasser2023
@@ -45,35 +52,6 @@ proxies:
   server: 162.19.247.203
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 1,2,3,4,12,15,20,23,24,27|🇫🇷 _FR_法国
-  network: ws
-  port: 80
-  server: 173.245.49.236
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇫🇷 France 01 @nodpai
-  network: ws
-  port: '80'
-  server: 104.21.75.246
-  tls: false
-  type: vmess
-  uuid: 81fc114e-44d7-44c7-9912-942453b03154
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -102,21 +80,30 @@ proxies:
     path: /kbjc/fr1
 - alterId: 0
   cipher: auto
-  name: 27|「宇宙机场.com 低价套餐」FR-CF-HTTP
+  client-fingerprint: chrome
+  name: 1,2,3,4,12,15,20,23,24,27|🇫🇷 _FR_法国
   network: ws
-  port: '80'
-  server: cf-lt.sharecentre.online
+  port: 80
+  server: 173.245.49.236
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
   ws-opts:
     headers:
-      Host: fr.ilovescp.com
+      Host: ca.ilovescp.com
     path: /shirker
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0009
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.25.187
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|FR-193.70.33.128-068
+  network: ws
+  port: 17772
+  server: 193.70.33.128
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
+  ws-headers:
+    Host: 193.70.33.128
+  ws-path: /cctv13/hd.m3u8
