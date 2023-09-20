@@ -1,70 +1,51 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 19|JP-172.104.70.195-160
-  network: ws
-  port: 8080
-  server: 172.104.70.195
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436
-  ws-headers:
-    Host: 172.104.70.195
-  ws-path: /cctv13/hd.m3u8
 - alterId: 64
   cipher: auto
-  name: 21,24|🇯🇵 JP(AzadNet.t.me)_023
+  name: 9,21,24|日本_0920105
   network: tcp
-  port: 51801
+  port: '51801'
   server: 45.88.43.163
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 25,28|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20013
-  server: 183.232.170.32
+  name: 25|🇯🇵 日本特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.112.142.112
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: '27|日本_Telegram@kxswa #2'
-  network: ws
-  port: '19190'
-  server: 45.66.130.112
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: dj.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 19,20|JP-168.138.201.208-087
+  name: 19,20|JP-152.69.204.193-051
   network: tcp
-  port: 10328
-  server: 168.138.201.208
+  port: 33226
+  server: 152.69.204.193
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
+  uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
   ws-headers:
-    Host: 168.138.201.208
+    Host: 152.69.204.193
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.58-101
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 85.208.108.58
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇯🇵日本05
@@ -77,18 +58,95 @@ proxies:
   uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
 - alterId: 0
   cipher: auto
-  name: 21,24|0142+16_🇯🇵_JP_21
+  name: 22,24|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cf0233ef-e57b-478f-a598-13521469e3b4
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cf0233ef-e57b-478f-a598-13521469e3b4
+- alterId: 0
+  cipher: auto
+  name: '27|日本_Telegram@kxswa #1'
   network: ws
-  port: 12345
-  server: 152.69.197.74
+  port: '19190'
+  server: 45.66.130.112
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: amd-jp.kxking.eu.org
+    path: /vm?ed=2048
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.182.4.121
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #3'
+  network: ws
+  port: '8080'
+  server: 172.104.70.195
+  tls: false
+  type: vmess
+  uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436
+  ws-opts:
+    headers:
+      Host: 172.104.70.195
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 20|🇯🇵 日本(油管:破解资源君2.0)
+  network: ws
+  port: '27675'
+  server: 146.56.40.117
+  tls: false
+  type: vmess
+  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
+  ws-opts:
+    headers:
+      Host: 146.56.40.117
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|JP-167.179.98.62-164
+  network: tcp
+  port: 21008
+  server: 167.179.98.62
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  ws-headers:
+    Host: 167.179.98.62
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 9|日本_0920104
+  network: tcp
+  port: '15555'
+  server: 35.243.90.165
   servername: ''
   tls: false
   type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
+  uuid: fb57170b-59d5-4431-8b64-9788b3bf6099
 - alterId: 0
   cipher: auto
   name: 24,27,31|15,18|日本|tg频道:@ripaojiedian
@@ -103,6 +161,93 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 64
+  cipher: auto
+  name: 9|日本_0920005
+  network: ''
+  port: '51801'
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '27,28|日本_Telegram@kxswa #3'
+  network: ws
+  port: '19190'
+  server: 45.66.130.112
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: jp.kxking.eu.org
+    path: /vm?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 9|日本_0920006
+  network: ''
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: 19|JP-54.199.83.239-212
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇯🇵白嫖-053
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 21,24|0142+16_🇯🇵_JP_21
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: ''
+    path: /bb
+- alterId: 64
+  cipher: auto
+  name: 9,21,24|日本_0920106
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19|JP-172.104.70.195-160
+  network: ws
+  port: 8080
+  server: 172.104.70.195
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436
+  ws-headers:
+    Host: 172.104.70.195
+  ws-path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
   name: 21,24|🇯🇵白嫖-061
@@ -113,20 +258,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 0
-  cipher: auto
-  name: 27|日本_Telegram@kxswa
-  network: ws
-  port: '19190'
-  server: 45.66.130.112
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: amd-jp2.kxking.eu.org
-    path: /vm?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25|🇯🇵 日本KT2|@ripaojiedian
@@ -145,223 +276,24 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本06
+  name: 22,24|日本 04  | 1x JP
   network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
+  uuid: cf0233ef-e57b-478f-a598-13521469e3b4
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e59df713-374d-4849-b4a4-f7846596877f
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.19-108
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 85.208.108.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 27|🇯🇵日本 | 0.1倍计算
-  network: ws
-  port: '443'
-  server: zfc.windowsupdate1.com
-  tls: true
-  type: vmess
-  uuid: db38d357-3ff3-4fff-b311-6a65501a1b10
-  ws-opts:
-    headers:
-      Host: jp1.hnokkdf.top
-    path: /kbjc/jp1
-- alterId: 0
-  cipher: auto
-  name: '27,28|日本_Telegram@kxswa #3'
-  network: ws
-  port: '19190'
-  server: 45.66.130.112
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: jp.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 21,24|🇯🇵 日本 350
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
+  name: 9|日本_0920002
+  network: ''
+  port: '15555'
+  server: 35.243.90.165
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 20|🇯🇵 日本(油管:破解资源君2.0)
-  network: ws
-  port: '27675'
-  server: 146.56.40.117
-  tls: false
-  type: vmess
-  uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
-  ws-opts:
-    headers:
-      Host: 146.56.40.117
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '27|日本_Telegram@kxswa #1'
-  network: ws
-  port: '19190'
-  server: 45.66.130.112
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: amd-jp.kxking.eu.org
-    path: /vm?ed=2048
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.93-124
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.93
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.129.10
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇯🇵白嫖-053
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- cipher: aes-256-cfb
-  name: 19|JP-54.199.83.239-212
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #3'
-  network: ws
-  port: '8080'
-  server: 172.104.70.195
-  tls: false
-  type: vmess
-  uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436
-  ws-opts:
-    headers:
-      Host: 172.104.70.195
-    path: /cctv13/hd.m3u8
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.112.142.112
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,20|JP-167.179.98.62-164
-  network: tcp
-  port: 21008
-  server: 167.179.98.62
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  ws-headers:
-    Host: 167.179.98.62
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 24|14|🇯🇵 日本|tg频道:@ripaojiedian
-  network: ws
-  port: 46011
-  server: mf11fx.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: e56c43fd-1ceb-4565-ba7d-da0150d8c18a
-  ws-opts:
-    headers:
-      Host: mf11fx.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #1'
-  network: ws
-  port: '443'
-  server: jp1.3320.top
-  tls: true
-  type: vmess
-  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
-  ws-opts:
-    headers:
-      Host: jp1.3320.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|JP-178.157.63.179-242
-  network: ws
-  port: 443
-  server: 178.157.63.179
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-headers:
-    Host: jp.kxking.eu.org
-  ws-path: /vm?ed=2048
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 东京特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.192.188.144
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.182.4.121
-  tfo: false
-  type: ss
+  uuid: 7491b212-1299-45d8-8ad5-431c369a1258
 - alterId: 0
   cipher: auto
   name: '20|🇯🇵 日本(油管:破解资源君2.0) #2'
@@ -377,53 +309,148 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 22,24|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
+  name: 19|JP-178.157.63.179-242
+  network: ws
+  port: 443
+  server: 178.157.63.179
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: e59df713-374d-4849-b4a4-f7846596877f
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e59df713-374d-4849-b4a4-f7846596877f
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.58-101
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 85.208.108.58
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-headers:
+    Host: jp.kxking.eu.org
+  ws-path: /vm?ed=2048
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25,28|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20013
+  server: 183.232.170.32
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 21|JP 4 → tg@nicevpn123
+  name: 27|🇯🇵日本 | 0.1倍计算
   network: ws
-  port: '18804'
-  server: xiongda006.daxiongda.top
-  tls: false
+  port: '443'
+  server: zfc.windowsupdate1.com
+  tls: true
   type: vmess
-  uuid: b10af5ff-4d04-4fc7-ab43-8a3b15481d19
+  uuid: db38d357-3ff3-4fff-b311-6a65501a1b10
   ws-opts:
     headers:
-      Host: xiongda006.daxiongda.top
-    path: /
+      Host: jp1.hnokkdf.top
+    path: /kbjc/jp1
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 52.192.188.144
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.93-124
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.93
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 19,20|JP-152.69.204.193-051
+  name: 27|日本_Telegram@kxswa
+  network: ws
+  port: '19190'
+  server: 45.66.130.112
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: amd-jp2.kxking.eu.org
+    path: /vm?ed=2048
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.19-108
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 85.208.108.19
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|14|🇯🇵 日本|tg频道:@ripaojiedian
+  network: ws
+  port: 46011
+  server: mf11fx.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: e56c43fd-1ceb-4565-ba7d-da0150d8c18a
+  ws-opts:
+    headers:
+      Host: mf11fx.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 19,20|JP-168.138.201.208-087
   network: tcp
-  port: 33226
-  server: 152.69.204.193
+  port: 10328
+  server: 168.138.201.208
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
+  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
   ws-headers:
-    Host: 152.69.204.193
+    Host: 168.138.201.208
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
+- alterId: 0
+  cipher: auto
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #1'
+  network: ws
+  port: '443'
+  server: jp1.3320.top
+  tls: true
+  type: vmess
+  uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532
+  ws-opts:
+    headers:
+      Host: jp1.3320.top
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.129.10
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '27|日本_Telegram@kxswa #2'
+  network: ws
+  port: '19190'
+  server: 45.66.130.112
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: dj.kxking.eu.org
+    path: /vm?ed=2048
