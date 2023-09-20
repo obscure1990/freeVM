@@ -12,6 +12,13 @@ proxies:
   ws-headers:
     Host: 51.15.115.83
   ws-path: /
+- cipher: aes-256-ctr
+  name: 28|FR_speednode_0006
+  password: XNewBypasser2023
+  port: 443
+  server: 162.19.247.203
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 27|🇫🇷法国 | 0.1倍
@@ -25,11 +32,24 @@ proxies:
     headers:
       Host: fr1.hnokkdf.top
     path: /kbjc/fr1
-- cipher: aes-256-ctr
-  name: 28|FR_speednode_0006
-  password: XNewBypasser2023
-  port: 443
-  server: 162.19.247.203
+- alterId: 0
+  cipher: auto
+  name: 19,20|FR-163.172.166.134-149
+  network: tcp
+  port: 21008
+  server: 163.172.166.134
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  ws-headers:
+    Host: 163.172.166.134
+  ws-path: /
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0007
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.25.187
   type: ss
   udp: true
 - alterId: 0
@@ -58,19 +78,6 @@ proxies:
   ws-headers:
     Host: 193.70.33.128
   ws-path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 19,20|FR-163.172.166.134-149
-  network: tcp
-  port: 21008
-  server: 163.172.166.134
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  ws-headers:
-    Host: 163.172.166.134
-  ws-path: /
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -84,10 +91,3 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0007
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.25.187
-  type: ss
-  udp: true
