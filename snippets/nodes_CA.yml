@@ -1,31 +1,23 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-134.195.196.178-096
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 134.195.196.178
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0920088
-  network: ws
-  port: '8880'
-  server: dongtaiwang3.com
-  servername: ''
+  name: 19,20|CA-155.138.140.189-148
+  network: tcp
+  port: 21008
+  server: 155.138.140.189
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 208d8c18-4f63-4013-bd67-a39f62301132
-  ws-opts:
-    headers:
-      Host: cf1.freeh1.xyz
-    path: /YGhTwaEU/
-- alterId: 0
-  cipher: auto
-  name: 20|🇨🇦 加拿大(油管:破解资源君2.0)
-  network: ws
-  port: '443'
-  server: ca1.3320.top
-  tls: true
-  type: vmess
-  uuid: 0a303c5e-676e-446c-bc9b-1052b59a7499
-  ws-opts:
-    headers:
-      Host: ca1.3320.top
-    path: /
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  ws-headers:
+    Host: 155.138.140.189
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '20|🇨🇦 加拿大(油管:破解资源君2.0) #1'
@@ -41,18 +33,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 105 2
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
+  name: 9,21,24|加拿大_0920033
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
-    path: /
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 18|🇨🇦_CA_加拿大_顺丰_96
@@ -67,96 +55,6 @@ proxies:
     headers:
       Host: ca.ilovescp.com
     path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
-- alterId: 0
-  cipher: auto
-  name: 9,21,24|加拿大_0920033
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 Canada 02 @nodpai
-  network: ws
-  port: '80'
-  server: dld.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: dld.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0920005
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 9,10,12,15,21,24,27,30|加拿大_0920002
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d70c4505-c9d7-44c4-a1ff-98a0bc7ebdd3
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-134.195.196.143-131
-  password: G!yBwPWH3Vao
-  port: 805
-  server: 134.195.196.143
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦_CA_加拿大_顺丰_173
-  network: ws
-  port: '80'
-  server: 172.67.134.209
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 19,20|CA-155.138.140.189-148
-  network: tcp
-  port: 21008
-  server: 155.138.140.189
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  ws-headers:
-    Host: 155.138.140.189
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 9,21,24|加拿大_0920006
@@ -185,11 +83,24 @@ proxies:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-134.195.196.178-096
+  name: 19|CA-134.195.196.143-131
   password: G!yBwPWH3Vao
-  port: 804
-  server: 134.195.196.178
+  port: 805
+  server: 134.195.196.143
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8,9|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: mtlr.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: mtlr.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -200,3 +111,105 @@ proxies:
   tls: true
   type: vmess
   uuid: 39e85dfb-df1a-4af7-b2ce-56358bda014c
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0920005
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 加拿大 105 2
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦_CA_加拿大_顺丰_173
+  network: ws
+  port: '80'
+  server: 172.67.134.209
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0920088
+  network: ws
+  port: '8880'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 208d8c18-4f63-4013-bd67-a39f62301132
+  ws-opts:
+    headers:
+      Host: cf1.freeh1.xyz
+    path: /YGhTwaEU/
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
+- alterId: 0
+  cipher: auto
+  name: 20|🇨🇦 加拿大(油管:破解资源君2.0)
+  network: ws
+  port: '443'
+  server: ca1.3320.top
+  tls: true
+  type: vmess
+  uuid: 0a303c5e-676e-446c-bc9b-1052b59a7499
+  ws-opts:
+    headers:
+      Host: ca1.3320.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9,10,12,15,21,24,27,30|加拿大_0920002
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d70c4505-c9d7-44c4-a1ff-98a0bc7ebdd3
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 Canada 02 @nodpai
+  network: ws
+  port: '80'
+  server: dld.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: dld.shabijichang.com
+    path: /
