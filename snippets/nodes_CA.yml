@@ -1,57 +1,52 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 CA 11
+  name: 21,24|🇨🇦 加拿大 105
   network: ws
-  port: 2052
-  server: 108.181.10.17
+  port: 2096
+  server: mci1.amo2023.club
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
   ws-opts:
     headers:
-      Host: 108.181.10.17
+      Host: mci1.amo2023.club
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  name: 18|🇨🇦_CA_加拿大_顺丰_173
+  network: ws
+  port: '80'
+  server: 172.67.134.209
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
+- alterId: 0
+  cipher: auto
+  name: 18|🇨🇦_CA_加拿大_顺丰_96
+  network: ws
+  port: '80'
+  server: 172.67.131.98
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  ws-opts:
+    headers:
+      Host: ca.ilovescp.com
+    path: /shirker
 - cipher: chacha20-ietf-poly1305
   name: 19|CA-134.195.196.143-132
   password: G!yBwPWH3Vao
   port: 805
   server: 134.195.196.143
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 1470f4d8-e029-4a31-a4b6-4927eb9f27f4
-- alterId: 0
-  cipher: auto
-  name: 14,18|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: '20|🇨🇦 加拿大(油管:破解资源君2.0) #1'
@@ -67,32 +62,70 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 18|🇨🇦_CA_加拿大_顺丰_96
+  name: 19,20|CA-155.138.140.189-149
+  network: tcp
+  port: 21008
+  server: 155.138.140.189
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  ws-headers:
+    Host: 155.138.140.189
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 CA 11
   network: ws
-  port: '80'
-  server: 172.67.131.98
+  port: 2052
+  server: 108.181.10.17
   servername: ''
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
   ws-opts:
     headers:
-      Host: ca.ilovescp.com
-    path: /shirker
+      Host: 108.181.10.17
+    path: /
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 105
+  name: 14,18|加拿大_【YouTube-VV科技】
   network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
+  port: 443
+  server: 23.227.39.109
   tls: true
   type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
   ws-opts:
     headers:
-      Host: mci1.amo2023.club
-    path: /
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3cf99b2a-6215-4669-bfb5-efaccbc5658c
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 779ee299-c458-4b00-a21a-7bbb317e7103
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-134.195.196.178-097
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 134.195.196.178
+  type: ss
 - alterId: 0
   cipher: auto
   name: 20|🇨🇦 加拿大(油管:破解资源君2.0)
@@ -116,36 +149,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-134.195.196.178-097
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 134.195.196.178
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 18|🇨🇦_CA_加拿大_顺丰_173
-  network: ws
-  port: '80'
-  server: 172.67.134.209
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      Host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 19,20|CA-155.138.140.189-149
-  network: tcp
-  port: 21008
-  server: 155.138.140.189
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  ws-headers:
-    Host: 155.138.140.189
-  ws-path: /
