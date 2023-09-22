@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-182
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
 - alterId: 0
   cipher: auto
   name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #1'
@@ -14,72 +20,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|SG-8.219.179.34-026
-  network: ws
-  port: 80
-  server: cdn.chigua.tk
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
-  ws-headers:
-    Host: us6.cachexy.cf
-  ws-path: /2TokGE9A/
-- alterId: 0
-  cipher: auto
-  name: 19|SG-159.223.32.230-076
-  network: ws
-  port: 8080
-  server: 159.223.32.230
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
-  ws-headers:
-    Host: 159.223.32.230
-  ws-path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 06 | 1x SG
+  name: 22,24|新加坡 04 | 1x SG
   network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bf5d48f1-72f6-4126-aafd-c52cc33282f7
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: bf5d48f1-72f6-4126-aafd-c52cc33282f7
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇸🇬 新加坡|@ripaojiedian
-  password: f149711f-19fd-4af5-92ea-524b1c4efcac
-  port: 54455
-  server: free.node.kk-proxy.pro
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: bc697c98-3338-427f-a8d2-703276b8f90f
+  uuid: 45d7fe79-5e36-412d-aefa-04e67802469c
 - alterId: 64
   cipher: auto
-  name: 9|新加坡_0922126
-  network: ''
+  name: 9,21,24|新加坡_0922038
+  network: tcp
   port: '55264'
   server: 202.79.174.157
   servername: ''
@@ -99,25 +51,55 @@ proxies:
     headers:
       Host: sg2.3320.top
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 19|SG-159.223.94.156-186
-  network: ws
-  port: 80
-  server: 159.223.94.156
-  skip-cert-verify: true
-  tls: false
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  ws-headers:
-    Host: 159.223.94.156
-  ws-path: /anti13.zingfast.vn
+  uuid: bc697c98-3338-427f-a8d2-703276b8f90f
 - cipher: aes-256-cfb
   name: 19|SG-13.213.46.196-180
   password: amazonskr05
   port: 443
   server: 13.213.46.196
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 45d7fe79-5e36-412d-aefa-04e67802469c
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: bc697c98-3338-427f-a8d2-703276b8f90f
+- cipher: aes-256-cfb
+  name: 28|SG_speednode_0033
+  password: amazonskr05
+  port: 443
+  server: 13.250.46.234
+  type: ss
+- cipher: aes-256-cfb
+  name: 8,28|「eggtartcloud.shop 自选入口,速度保证」🇸...
+  password: amazonskr05
+  port: 443
+  server: 54.151.140.30
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 21,24|SG_36 |35.53Mb
@@ -132,12 +114,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-cfb
-  name: 28|SG_speednode_0033
-  password: amazonskr05
-  port: 443
-  server: 13.250.46.234
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇸🇬新加坡04
@@ -148,49 +124,52 @@ proxies:
   tls: true
   type: vmess
   uuid: bc697c98-3338-427f-a8d2-703276b8f90f
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-182
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
-- cipher: aes-256-cfb
-  name: 28|SG_speednode_0032
-  password: amazonskr05
-  port: 443
-  server: 54.151.140.30
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 11,24|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
+  name: 19|SG-8.219.179.34-026
+  network: ws
+  port: 80
+  server: cdn.chigua.tk
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: bc697c98-3338-427f-a8d2-703276b8f90f
+  uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
+  ws-headers:
+    Host: us6.cachexy.cf
+  ws-path: /2TokGE9A/
 - alterId: 64
   cipher: auto
-  name: 9,21,24|新加坡_0922038
+  name: 19|SG-159.223.94.156-186
+  network: ws
+  port: 80
+  server: 159.223.94.156
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  ws-headers:
+    Host: 159.223.94.156
+  ws-path: /anti13.zingfast.vn
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 06 | 1x SG
   network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 45d7fe79-5e36-412d-aefa-04e67802469c
+- alterId: 64
+  cipher: auto
+  name: 9|新加坡_0922126
+  network: ''
   port: '55264'
   server: 202.79.174.157
   servername: ''
   tls: false
   type: vmess
   uuid: 121c9c89-7d11-4f49-9112-dc1e85363f6f
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: bf5d48f1-72f6-4126-aafd-c52cc33282f7
 - alterId: 0
   cipher: auto
   name: 14|新加坡_【YouTube-VV科技】
@@ -204,3 +183,24 @@ proxies:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
+- alterId: 0
+  cipher: auto
+  name: 19|SG-159.223.32.230-076
+  network: ws
+  port: 8080
+  server: 159.223.32.230
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
+  ws-headers:
+    Host: 159.223.32.230
+  ws-path: /cctv13/hd.m3u8
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇸🇬 新加坡|@ripaojiedian
+  password: f149711f-19fd-4af5-92ea-524b1c4efcac
+  port: 54455
+  server: free.node.kk-proxy.pro
+  tfo: false
+  type: ss
