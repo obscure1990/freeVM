@@ -1,20 +1,33 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0922005
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-093
-  password: Y6R9pAtvxxzmGC
-  port: 5000
+  name: 19|CA-134.195.196.231-092
+  password: cdBIDV42DCwnfIN
+  port: 8118
   server: 134.195.196.231
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: fcae2264-4bef-409a-8ffd-3f7557d1b08b
+- alterId: 0
+  cipher: auto
+  name: 19,20|CA-155.138.140.189-120
+  network: tcp
+  port: 21008
+  server: 155.138.140.189
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  ws-headers:
+    Host: 155.138.140.189
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -25,6 +38,48 @@ proxies:
   tls: true
   type: vmess
   uuid: 6d7dee93-b06c-4908-a054-ccba4d7656bf
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0922004
+  network: ws
+  port: '2052'
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /V2RayyNGvpn
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 加拿大 105 2
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 CA 11
+  network: ws
+  port: 2052
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 108.181.10.17
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|CA-138.197.165.31-076
@@ -39,11 +94,33 @@ proxies:
     Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
   ws-path: /cctv13/hd.m3u8
 - cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-094
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-095
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
   name: 19|CA-134.195.198.95-096
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 134.195.198.95
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0922005
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0922020
@@ -68,85 +145,8 @@ proxies:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-095
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 CA 11
-  network: ws
-  port: 2052
-  server: 108.181.10.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 108.181.10.17
-    path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-094
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fcae2264-4bef-409a-8ffd-3f7557d1b08b
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0922004
-  network: ws
-  port: '2052'
-  server: 108.181.10.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /V2RayyNGvpn
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-092
-  password: cdBIDV42DCwnfIN
-  port: 8118
+  name: 19|CA-134.195.196.231-093
+  password: Y6R9pAtvxxzmGC
+  port: 5000
   server: 134.195.196.231
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 105 2
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CA-155.138.140.189-120
-  network: tcp
-  port: 21008
-  server: 155.138.140.189
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  ws-headers:
-    Host: 155.138.140.189
-  ws-path: /
