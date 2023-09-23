@@ -1,44 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9,28|加拿大_0923003
-  network: ws
-  port: '2082'
-  server: fx3-108.181.10.17.nip.io
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6491bab9-3ace-4cf4-b422-7651b88bc5f1
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0923011
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /V2RayyNGvpn
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 7,8,9,27|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '80'
-  server: mtlr.shabijichang.com
+  name: 9|加拿大_0923021
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
   tls: false
   type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: mtlr.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|CA-138.197.165.31-094
-  network: ws
-  port: 8080
-  server: 138.197.165.31
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-  ws-headers:
-    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
-  ws-path: /cctv13/hd.m3u8
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9,21,24,28|加拿大_0923002
@@ -53,16 +43,12 @@ proxies:
     headers:
       Host: internet.life.com.by
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f50d5a24-9282-41ec-b38f-6021fafd4f23
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-053
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.198.95
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -76,26 +62,6 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0923071
-  network: ws
-  port: '8080'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
-  ws-opts:
-    headers:
-      Host: dongtaiwang.freek1.xyz
-    path: /NZpcJvwS/
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-053
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 134.195.198.95
-  type: ss
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0923004
@@ -122,21 +88,42 @@ proxies:
   uuid: 978b3616-a63b-4a27-98c0-357a16ceaf04
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0923021
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
+  name: 19|CA-138.197.165.31-094
+  network: ws
+  port: 8080
+  server: 138.197.165.31
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  ws-headers:
+    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
+  ws-path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0923011
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
+  name: 9|加拿大_0923071
+  network: ws
+  port: '8080'
+  server: dongtaiwang3.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
+  ws-opts:
+    headers:
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
+- alterId: 0
+  cipher: auto
+  name: 9,28|加拿大_0923003
+  network: ws
+  port: '2082'
+  server: fx3-108.181.10.17.nip.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /V2RayyNGvpn
