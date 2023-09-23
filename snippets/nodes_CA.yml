@@ -1,29 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|CA-138.197.165.31-094
-  network: ws
-  port: 8080
-  server: 138.197.165.31
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-  ws-headers:
-    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
-  ws-path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0922005
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 22,24|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -31,21 +8,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a189fd04-50ab-4a33-8371-aadef6ca4b15
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0922004
-  network: ws
-  port: '2052'
-  server: 108.181.10.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /V2RayyNGvpn
+  uuid: 1310c67d-6fd9-4348-b60f-3e66ab419143
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -61,17 +24,32 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 105 2
+  name: 28|CA_speednode_0001
   network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
-  tls: true
+  port: 2082
+  server: fx3-108.181.10.17.nip.io
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  udp: true
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
   ws-opts:
     headers:
-      Host: mci1.amo2023.club
+      Host: internet.life.com.by
+    path: /V2RayyNGvpn
+- alterId: 0
+  cipher: auto
+  name: 21,24,28|CA_speednode_0002
+  network: ws
+  port: 8080
+  server: fx4-108.181.10.17.nip.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
     path: /
 - cipher: aes-256-gcm
   name: 19|CA-134.195.198.95-053
@@ -81,6 +59,19 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 19|CA-138.197.165.31-094
+  network: ws
+  port: 8080
+  server: 138.197.165.31
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  ws-headers:
+    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
+  ws-path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
   name: 11,24|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -88,28 +79,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: eaf392c1-0111-401e-93da-aece829a2e6c
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0922020
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 CA 11
-  network: ws
-  port: 2052
-  server: 108.181.10.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 108.181.10.17
-    path: /
+  uuid: c3ff061e-efc1-4545-bb5a-1493980e78dd
