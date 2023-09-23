@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 87623d40-2de3-41e3-89df-d90dce6b979d
-- alterId: 0
-  cipher: auto
   name: 22,24|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -18,7 +8,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 454caf2c-f196-425c-b0ce-b83e1dd3b14c
+  uuid: 1652c7bb-cf64-4782-8d2a-c6665157ed8c
 - alterId: 0
   cipher: auto
   name: 9,21,24|加拿大_0923021
@@ -31,17 +21,14 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 19|CA-138.197.165.31-070
-  network: ws
-  port: 8080
-  server: 138.197.165.31
-  skip-cert-verify: true
-  tls: false
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-  ws-headers:
-    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
-  ws-path: /cctv13/hd.m3u8
+  uuid: 339f3131-b7f2-4dca-9de8-48b8c63b3f6b
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -57,18 +44,40 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0923003
+  name: 19|CA-138.197.165.31-070
   network: ws
-  port: '2082'
-  server: fx3-108.181.10.17.nip.io
+  port: 8080
+  server: 138.197.165.31
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  ws-headers:
+    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
+  ws-path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0923011
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 12,15,20,24,27|加拿大  9
+  network: ws
+  port: '8080'
+  server: fx4-108.181.10.17.nip.io
+  tls: false
+  type: vmess
+  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
   ws-opts:
     headers:
-      Host: internet.life.com.by
-    path: /V2RayyNGvpn
+      Host: fx4-108.181.10.17.nip.io
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0923004
@@ -85,27 +94,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 10,12,15,20,24,27|加拿大 V2CROSS.COM
+  name: 21,24|🇨🇦 加拿大 150
   network: ws
-  port: '8080'
-  server: fx4-108.181.10.17.nip.io
-  tls: false
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
   type: vmess
-  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
   ws-opts:
     headers:
-      Host: fx4-108.181.10.17.nip.io
+      Host: mci1.amo2023.club
     path: /
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0923011
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9,21,24|加拿大_0923071
@@ -142,15 +142,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 150
+  name: 9|加拿大_0923003
   network: ws
-  port: 2096
-  server: mci1.amo2023.club
+  port: '2082'
+  server: fx3-108.181.10.17.nip.io
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
   ws-opts:
     headers:
-      Host: mci1.amo2023.club
-    path: /
+      Host: internet.life.com.by
+    path: /V2RayyNGvpn
