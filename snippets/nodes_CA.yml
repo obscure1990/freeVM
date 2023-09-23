@@ -1,47 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4969ddc5-60d1-4460-b167-83ccd77498d8
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0923003
+  name: 12,15,20,24,27|加拿大  9
   network: ws
-  port: '2082'
-  server: fx3-108.181.10.17.nip.io
-  servername: ''
+  port: '8080'
+  server: fx4-108.181.10.17.nip.io
   tls: false
   type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
   ws-opts:
     headers:
-      Host: internet.life.com.by
-    path: /V2RayyNGvpn
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-029
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0923004
-  network: ws
-  port: '2052'
-  server: 108.181.10.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 108.181.10.17
+      Host: fx4-108.181.10.17.nip.io
     path: /
 - alterId: 0
   cipher: auto
@@ -59,6 +28,44 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 9|加拿大_0923004
+  network: ws
+  port: '2052'
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 108.181.10.17
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0923003
+  network: ws
+  port: '2082'
+  server: fx3-108.181.10.17.nip.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /V2RayyNGvpn
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4969ddc5-60d1-4460-b167-83ccd77498d8
+- alterId: 0
+  cipher: auto
   name: 22,24|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -67,16 +74,26 @@ proxies:
   tls: true
   type: vmess
   uuid: bc2ae961-23e5-46d4-bafa-e544e15ccb70
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-029
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.198.95
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 9,21|加拿大_0923021
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
+  name: 9|加拿大_0923002
+  network: ws
+  port: '8080'
+  server: fx4-108.181.10.17.nip.io
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: internet.life.com.by
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0923011
@@ -87,19 +104,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 19|CA-138.197.165.31-070
-  network: ws
-  port: 8080
-  server: 138.197.165.31
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-  ws-headers:
-    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
-  ws-path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -113,6 +117,19 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 19|CA-138.197.165.31-070
+  network: ws
+  port: 8080
+  server: 138.197.165.31
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  ws-headers:
+    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
+  ws-path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
   name: 9,21,24|加拿大_0923071
@@ -129,18 +146,14 @@ proxies:
     path: /NZpcJvwS/
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0923002
-  network: ws
-  port: '8080'
-  server: fx4-108.181.10.17.nip.io
+  name: 9,21|加拿大_0923021
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: b2e93e40-5553-11ee-b033-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: internet.life.com.by
-    path: /
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 114
