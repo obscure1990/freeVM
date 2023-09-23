@@ -1,37 +1,12 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 87623d40-2de3-41e3-89df-d90dce6b979d
-- alterId: 0
-  cipher: auto
-  name: 19|TW-61.228.96.104-118
-  network: ws
+- name: 8,19,25,28|🇹🇼 Taiwan 01 @nodpai
+  password: ad45a324-03ab-4c71-ba4f-d1479b8ccdce
   port: 443
-  server: tw22.tutu4.one
+  server: 211.22.180.231
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 8569a016-24e9-34cd-a9d2-9de42c6ca245
-  ws-headers:
-    Host: tw22.tutu4.one
-  ws-path: /tu
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d4e4e876-f785-4742-ac5c-f7efdde86c87
+  sni: tls.yihaobao.xyz
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 28|TW_speednode_0023
@@ -48,6 +23,19 @@ proxies:
     path: /v2th1
 - alterId: 0
   cipher: auto
+  name: 12,20,24|台湾省宜兰县中华电信 6
+  network: ws
+  port: 443
+  server: tw22.tutu4.one
+  tls: true
+  type: vmess
+  uuid: 8569a016-24e9-34cd-a9d2-9de42c6ca245
+  ws-opts:
+    headers:
+      Host: tw22.tutu4.one
+    path: /tu
+- alterId: 0
+  cipher: auto
   name: 22,24|台湾 05  | 1x TWN
   network: tcp
   port: '31306'
@@ -55,27 +43,27 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d4e4e876-f785-4742-ac5c-f7efdde86c87
+  uuid: 454caf2c-f196-425c-b0ce-b83e1dd3b14c
 - alterId: 0
   cipher: auto
-  name: 9|台湾_0923002
-  network: ''
-  port: '11872'
-  server: gamespeed-gateway-1.numastergame.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_0923042
+  name: 22,24|台湾 06  | 1x TWN
   network: tcp
-  port: '11872'
-  server: gamespeed-gateway-1.numastergame.com
-  servername: ''
-  tls: false
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+  uuid: 454caf2c-f196-425c-b0ce-b83e1dd3b14c
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 87623d40-2de3-41e3-89df-d90dce6b979d
 - alterId: 0
   cipher: auto
   name: 21,24|🇹🇼_TW_台湾_2_10@30
@@ -99,7 +87,17 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d4e4e876-f785-4742-ac5c-f7efdde86c87
+  uuid: 454caf2c-f196-425c-b0ce-b83e1dd3b14c
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 87623d40-2de3-41e3-89df-d90dce6b979d
 - alterId: 0
   cipher: auto
   name: 9|台湾_0923003
@@ -122,34 +120,44 @@ proxies:
   uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾06
+  name: 9|台湾_0923042
   network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
+  port: '11872'
+  server: gamespeed-gateway-1.numastergame.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_0923002
+  network: ''
+  port: '11872'
+  server: gamespeed-gateway-1.numastergame.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0913b1ac-1f6c-436b-99b4-a5d6e343d025
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
   uuid: 87623d40-2de3-41e3-89df-d90dce6b979d
 - alterId: 0
   cipher: auto
-  name: 12,20,24|台湾省宜兰县中华电信 6
+  name: 19|TW-61.228.96.104-118
   network: ws
   port: 443
   server: tw22.tutu4.one
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 8569a016-24e9-34cd-a9d2-9de42c6ca245
-  ws-opts:
-    headers:
-      Host: tw22.tutu4.one
-    path: /tu
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 87623d40-2de3-41e3-89df-d90dce6b979d
+  ws-headers:
+    Host: tw22.tutu4.one
+  ws-path: /tu
