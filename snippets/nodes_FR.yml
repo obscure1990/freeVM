@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '20|🇫🇷 法国(油管:破解资源君2.0) #3'
-  network: ws
-  port: '10000'
-  server: hz-fr.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: hz-fr.transit.freework.cyou
-    path: /
-- alterId: 0
-  cipher: auto
   name: '20|🇫🇷 法国(油管:破解资源君2.0) #2'
   network: ws
   port: '10000'
@@ -24,6 +11,19 @@ proxies:
   ws-opts:
     headers:
       Host: hd-fr.transit.freework.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '20|🇫🇷 法国(油管:破解资源君2.0) #1'
+  network: ws
+  port: '80'
+  server: fr-1-1.transit.freework.cyou
+  tls: false
+  type: vmess
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
+  ws-opts:
+    headers:
+      Host: www.bilibili.com
     path: /
 - alterId: 64
   cipher: auto
@@ -38,13 +38,12 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0012
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.25.187
+- cipher: chacha20-ietf-poly1305
+  name: 19|FR-51.195.218.78-099
+  password: OTBhY
+  port: 8388
+  server: uk01.proxysocks.xyz
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 20|🇫🇷 法国(油管:破解资源君2.0)
@@ -57,6 +56,26 @@ proxies:
   ws-opts:
     headers:
       Host: www.bilibili.com
+    path: /
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0012
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.25.187
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '20|🇫🇷 法国(油管:破解资源君2.0) #3'
+  network: ws
+  port: '10000'
+  server: hz-fr.transit.freework.cyou
+  tls: false
+  type: vmess
+  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
+  ws-opts:
+    headers:
+      Host: hz-fr.transit.freework.cyou
     path: /
 - alterId: 0
   cipher: auto
@@ -73,26 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '20|🇫🇷 法国(油管:破解资源君2.0) #1'
-  network: ws
-  port: '80'
-  server: fr-1-1.transit.freework.cyou
-  tls: false
-  type: vmess
-  uuid: 1fc88a9a-762f-42b5-abff-8539548f6707
-  ws-opts:
-    headers:
-      Host: www.bilibili.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|FR-51.195.218.78-099
-  password: OTBhY
-  port: 8388
-  server: uk01.proxysocks.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇫🇷 France 01 @nodpai
+  name: 24|7,8|🇫🇷 France 02 @nodpai
   network: ws
   port: '80'
   server: all.gv2ray.sbs
