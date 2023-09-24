@@ -1,89 +1,4 @@
 proxies:
-- name: 1|_CA__1
-  network: tcp
-  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
-  port: 443
-  server: 108.181.22.249
-  skip-cert-verify: true
-  sni: 4-193-163-88.nhost.00cdn.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '80'
-  server: mtlr.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: mtlr.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 CA 11
-  network: ws
-  port: 2052
-  server: 108.181.10.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: 108.181.10.17
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 26b5e7d5-8f6e-4b31-ba66-dbf5e13bae4e
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-068
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 25
-  network: ws
-  port: 8080
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
-  ws-opts:
-    headers:
-      Host: dongtaiwang.freek1.xyz
-    path: /NZpcJvwS/
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇦 Canada 02 @nodpai
-  network: ws
-  port: '80'
-  server: dld.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: dld.shabijichang.com
-    path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-069
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 134.195.198.95
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -97,6 +12,21 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- name: 1|_CA__1
+  network: tcp
+  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
+  port: 443
+  server: 108.181.22.249
+  skip-cert-verify: true
+  sni: 4-193-163-88.nhost.00cdn.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-069
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 134.195.198.95
+  type: ss
 - name: 1|_CA__2
   network: tcp
   password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
@@ -108,21 +38,55 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
+  name: 11|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 26b5e7d5-8f6e-4b31-ba66-dbf5e13bae4e
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇦 加拿大 25
+  network: ws
+  port: 8080
+  server: dongtaiwang3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
+  ws-opts:
+    headers:
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
+- alterId: 0
+  cipher: auto
+  name: 22|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
   server: 3d1c4a04.mcfront.xyz
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8ffc0513-a967-41fe-9286-f621b88fb45e
+  uuid: cbb632d8-ac70-4d02-9938-52b09a7ea2bb
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-068
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 24|12|🇨🇦_CA_加拿大_2_16@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
+  name: 21|🇨🇦 CA 11
+  network: ws
+  port: 2052
+  server: 108.181.10.17
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: f37f7ce0-5550-11ee-b133-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: 108.181.10.17
+    path: /
