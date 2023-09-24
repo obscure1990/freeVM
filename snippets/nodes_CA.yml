@@ -1,14 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦_CA_加拿大_2_17@11
+- name: 1|_CA__1
   network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
+  port: 443
+  server: 108.181.22.249
+  skip-cert-verify: true
+  sni: 4-193-163-88.nhost.00cdn.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -22,6 +21,26 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦_CA_加拿大_2_17@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2f450014-f16e-4461-bebe-9213dbfec44a
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -38,39 +57,6 @@ proxies:
   port: 443
   server: 134.195.198.95
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 23d17181-aa17-46bf-a2fd-8663bd1bd13c
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 25
-  network: ws
-  port: 8080
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
-  ws-opts:
-    headers:
-      Host: dongtaiwang.freek1.xyz
-    path: /NZpcJvwS/
-- name: 1|_CA__1
-  network: tcp
-  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
-  port: 443
-  server: 108.181.22.249
-  skip-cert-verify: true
-  sni: 4-193-163-88.nhost.00cdn.com
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-068
   password: TEzjfAYq2IjtuoS
@@ -86,3 +72,17 @@ proxies:
   sni: 4-193-163-88.nhost.00cdn.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 加拿大 25
+  network: ws
+  port: 8080
+  server: dongtaiwang3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
+  ws-opts:
+    headers:
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
