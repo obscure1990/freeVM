@@ -1,18 +1,44 @@
 proxies:
-- name: 1|_CA__2
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦_CA_加拿大_2_17@11
   network: tcp
-  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
-  port: 443
-  server: 108.181.23.71
-  skip-cert-verify: true
-  sni: 4-193-163-88.nhost.00cdn.com
-  type: trojan
-  udp: true
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-068
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 1f11f3d6-23e1-41b7-9f47-b20a74b91fb6
 - name: 1|_CA__1
   network: tcp
   password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
   port: 443
   server: 108.181.22.249
+  skip-cert-verify: true
+  sni: 4-193-163-88.nhost.00cdn.com
+  type: trojan
+  udp: true
+- name: 1|_CA__2
+  network: tcp
+  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
+  port: 443
+  server: 108.181.23.71
   skip-cert-verify: true
   sni: 4-193-163-88.nhost.00cdn.com
   type: trojan
@@ -38,32 +64,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c1019e5e-8a8a-421d-b628-4a7949d1ef51
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-068
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 1f11f3d6-23e1-41b7-9f47-b20a74b91fb6
-- alterId: 0
-  cipher: auto
   name: 21,24|🇨🇦 加拿大 25
   network: ws
   port: 8080
@@ -78,11 +78,11 @@ proxies:
     path: /NZpcJvwS/
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦_CA_加拿大_2_17@11
+  name: 11,24|🇨🇦加拿大04
   network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: c1019e5e-8a8a-421d-b628-4a7949d1ef51
