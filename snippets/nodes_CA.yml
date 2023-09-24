@@ -1,29 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-068
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 134.195.196.231
-  type: ss
-- name: 1|_CA__1
-  network: tcp
-  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
-  port: 443
-  server: 108.181.22.249
-  skip-cert-verify: true
-  sni: 4-193-163-88.nhost.00cdn.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦_CA_加拿大_2_17@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -33,13 +8,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 33e3029e-c312-4c55-86e3-756a573fbef5
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-069
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 134.195.198.95
-  type: ss
+  uuid: 88f685ad-c9a9-4d99-a9d3-554008094fa6
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -50,6 +19,25 @@ proxies:
   tls: true
   type: vmess
   uuid: f6e2d7a6-4928-4d4b-b4f2-06aa88964a93
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦_CA_加拿大_2_17@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 1|_CA__1
+  network: tcp
+  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
+  port: 443
+  server: 108.181.22.249
+  skip-cert-verify: true
+  sni: 4-193-163-88.nhost.00cdn.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦 加拿大 25
@@ -64,15 +52,6 @@ proxies:
     headers:
       Host: dongtaiwang.freek1.xyz
     path: /NZpcJvwS/
-- name: 1|_CA__2
-  network: tcp
-  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
-  port: 443
-  server: 108.181.23.71
-  skip-cert-verify: true
-  sni: 4-193-163-88.nhost.00cdn.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -86,3 +65,24 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-068
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 134.195.196.231
+  type: ss
+- name: 1|_CA__2
+  network: tcp
+  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
+  port: 443
+  server: 108.181.23.71
+  skip-cert-verify: true
+  sni: 4-193-163-88.nhost.00cdn.com
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-069
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 134.195.198.95
+  type: ss
