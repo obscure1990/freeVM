@@ -1,13 +1,26 @@
 proxies:
-- name: 1|_CA__1
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-068
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦_CA_加拿大_2_17@11
   network: tcp
-  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-069
+  password: pKEW8JPByTVTLtM
   port: 443
-  server: 108.181.22.249
-  skip-cert-verify: true
-  sni: 4-193-163-88.nhost.00cdn.com
-  type: trojan
-  udp: true
+  server: 134.195.198.95
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -23,16 +36,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦_CA_加拿大_2_17@11
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 22,24|加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -41,33 +44,11 @@ proxies:
   tls: true
   type: vmess
   uuid: 2f450014-f16e-4461-bebe-9213dbfec44a
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1902fc49-e80f-4b60-8f32-3d3c6a89763e
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-069
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 134.195.198.95
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-068
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 134.195.196.231
-  type: ss
-- name: 1|_CA__2
+- name: 1|_CA__1
   network: tcp
   password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
   port: 443
-  server: 108.181.23.71
+  server: 108.181.22.249
   skip-cert-verify: true
   sni: 4-193-163-88.nhost.00cdn.com
   type: trojan
@@ -86,3 +67,22 @@ proxies:
     headers:
       Host: dongtaiwang.freek1.xyz
     path: /NZpcJvwS/
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2f3e9f4a-5728-4140-8d93-9d4dbd880c2b
+- name: 1|_CA__2
+  network: tcp
+  password: 89ce124f-42d1-4c90-b9d2-bde2861ae615
+  port: 443
+  server: 108.181.23.71
+  skip-cert-verify: true
+  sni: 4-193-163-88.nhost.00cdn.com
+  type: trojan
+  udp: true
