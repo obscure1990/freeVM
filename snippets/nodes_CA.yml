@@ -1,26 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-129
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 134.195.198.95
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-057
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 28d68035-c16c-4f52-b766-7f54ae0f9f9e
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0925025
@@ -41,10 +19,70 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4ffc78fe-72c5-448f-817f-2ef98c75ac83
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0925003
+  network: ws
+  port: '8080'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
+  ws-opts:
+    headers:
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-129
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 134.195.198.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 27|加拿大_Telegram@kxswa
+  network: ws
+  port: '443'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d70c4505-c9d7-44c4-a1ff-98a0bc7ebdd3
+  ws-opts:
+    headers:
+      Host: d.freeh1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: b8b88944-50f2-4f92-9bfa-c5325fd97b05
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-071
   password: XKFKl2rULjIp74
   port: 8008
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-057
+  password: cdBIDV42DCwnfIN
+  port: 8118
   server: 134.195.196.231
   type: ss
 - alterId: 0
@@ -63,20 +101,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0925003
-  network: ws
-  port: '8080'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
-  ws-opts:
-    headers:
-      Host: dongtaiwang.freek1.xyz
-    path: /NZpcJvwS/
-- alterId: 0
-  cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
   network: ws
   port: 443
@@ -87,28 +111,4 @@ proxies:
   ws-opts:
     headers:
       Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b8b88944-50f2-4f92-9bfa-c5325fd97b05
-- alterId: 0
-  cipher: auto
-  name: 27|加拿大_Telegram@kxswa
-  network: ws
-  port: '443'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d70c4505-c9d7-44c4-a1ff-98a0bc7ebdd3
-  ws-opts:
-    headers:
-      Host: d.freeh1.xyz
     path: /dongtaiwang.com
