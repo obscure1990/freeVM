@@ -1,14 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 21,24|🇨🇦 加拿大 156
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
   tls: true
   type: vmess
-  uuid: 9e1fcab8-d870-464c-abb6-2d4772c47459
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -24,20 +28,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 156
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
-    path: /
-- alterId: 0
-  cipher: auto
   name: 11,24|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -46,3 +36,13 @@ proxies:
   tls: true
   type: vmess
   uuid: dea8ea66-20d8-48ba-8c57-ea7faec42d53
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9e1fcab8-d870-464c-abb6-2d4772c47459
