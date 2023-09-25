@@ -1,14 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9,21,24|加拿大_0925025
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
+  name: 21,24|🇨🇦 加拿大 163
+  network: ws
+  port: 80
+  server: www.speedtest.net
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: b8be7c80-592d-11ee-b832-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: lu.0rd.net
+    path: /@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f963c9c8-63d1-4293-a3ad-2fcd64c7bd1f
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦 加拿大 156
@@ -25,9 +39,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,21,24|加拿大_0925003
+  name: 21,24|🇨🇦 加拿大 29
   network: ws
-  port: '8080'
+  port: 8080
   server: dongtaiwang3.com
   servername: ''
   tls: false
@@ -37,6 +51,29 @@ proxies:
     headers:
       Host: dongtaiwang.freek1.xyz
     path: /NZpcJvwS/
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦_CA_加拿大_2_18@11
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 27|加拿大_Telegram@kxswa
@@ -53,53 +90,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0925002
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 242d0bcd-0632-4b4d-b7e6-b3e561900a75
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 163
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8be7c80-592d-11ee-b832-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: lu.0rd.net
-    path: /@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
   name: 11,24|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -107,4 +97,4 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 21b97019-1254-4f00-97ba-0c685176f57f
+  uuid: 4956ff01-fd80-4a1c-89f8-e6d6996c8a30
