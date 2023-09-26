@@ -1,44 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0926112
-  network: tcp
-  port: '443'
-  server: sw-51.158.241.70.nip.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0926114
-  network: tcp
-  port: '443'
-  server: 51.158.238.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
-- alterId: 64
-  cipher: auto
-  name: 9|法国_0926007
-  network: ''
-  port: '54885'
-  server: 156.249.18.204
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_0926129
-  network: tcp
-  port: '443'
-  server: 135.125.135.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0028
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.25.187
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -52,6 +19,36 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_0926112
+  network: tcp
+  port: '443'
+  server: sw-51.158.241.70.nip.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇫🇷 France 01 @nodpai
+  password: 6572a788-28de-4941-a662-c7a2b6009328
+  port: 36698
+  server: cnmbdcm01.kczz2038.online
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 6,13,21,24|🇫🇷_FR_法国
+  network: ws
+  port: 443
+  server: 156.249.18.50
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.69414502.xyz
+    path: /path/1695552397318
 - alterId: 0
   cipher: auto
   grpc-opts:
@@ -80,25 +77,14 @@ proxies:
       Host: bl.shabijichang.com
     path: /
 - cipher: aes-256-cfb
-  name: 28|FR_speednode_0028
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.25.187
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 6,13,21,24|🇫🇷_FR_法国
-  network: ws
-  port: 443
-  server: 156.249.18.50
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.69414502.xyz
-    path: /path/1695552397318
+  name: 28|FR_speednode_0026
+  obfs: tls1.2_ticket_auth
+  password: RcfVcDzzB
+  port: 8181
+  protocol: origin
+  protocol-param: None
+  server: fr-am1-5.eqsunshine.com
+  type: ssr
 - alterId: 0
   cipher: aes-128-gcm
   name: 9|法国_0926127
@@ -119,6 +105,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_0926114
+  network: tcp
+  port: '443'
+  server: 51.158.238.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_0926129
+  network: tcp
+  port: '443'
+  server: 135.125.135.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
 - alterId: 64
   cipher: auto
   name: 9|法国_0926095
@@ -129,12 +135,13 @@ proxies:
   tls: false
   type: vmess
   uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0026
-  obfs: tls1.2_ticket_auth
-  password: RcfVcDzzB
-  port: 8181
-  protocol: origin
-  protocol-param: None
-  server: fr-am1-5.eqsunshine.com
-  type: ssr
+- alterId: 64
+  cipher: auto
+  name: 9|法国_0926007
+  network: ''
+  port: '54885'
+  server: 156.249.18.204
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
