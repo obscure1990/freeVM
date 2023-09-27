@@ -1,8 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 8,20,23|加拿大_0927025
-  network: tcp
+  name: 8|加拿大_0927002
+  network: ''
   port: '22324'
   server: 198.57.27.212
   servername: ''
@@ -11,8 +11,8 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 8|加拿大_0927002
-  network: ''
+  name: 8,20,23|加拿大_0927025
+  network: tcp
   port: '22324'
   server: 198.57.27.212
   servername: ''
@@ -31,6 +31,20 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
+  name: 8|加拿大_0927003
+  network: ws
+  port: '8080'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
+  ws-opts:
+    headers:
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
+- alterId: 0
+  cipher: auto
   name: 13|加拿大_【YouTube-VV科技】
   network: ws
   port: 443
@@ -44,17 +58,14 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 6,7|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '80'
-  server: dld.shabijichang.com
-  tls: false
+  name: 21,23|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: dld.shabijichang.com
-    path: /
+  uuid: 47e426bd-543b-4f1a-a558-7e62c88f479f
 - alterId: 0
   cipher: auto
   name: 10,23|🇨🇦加拿大04
@@ -65,27 +76,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 755b17f4-9691-4e81-948e-8ca657d4c59c
-- alterId: 0
-  cipher: auto
-  name: 21,23|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9e60629d-eac2-4432-a356-ac2c1913affa
-- alterId: 0
-  cipher: auto
-  name: 8|加拿大_0927003
-  network: ws
-  port: '8080'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
-  ws-opts:
-    headers:
-      Host: dongtaiwang.freek1.xyz
-    path: /NZpcJvwS/
