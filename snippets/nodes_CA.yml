@@ -1,14 +1,16 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9eb5bd19-24ff-4b73-b05d-f190819f5161
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.161.118.38-047
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 51.161.118.38
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-134.195.196.178-060
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 134.195.196.178
+  type: ss
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦 加拿大 156
@@ -35,31 +37,6 @@ proxies:
   uuid: 6de5605e-4c87-4d7a-b0ff-f493b7736c95
 - alterId: 0
   cipher: auto
-  name: 19|CA-104.247.81.72-058
-  network: ws
-  port: 443
-  server: riop.miaoge110.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: riop.miaoge110.cf
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.161.118.38-047
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 51.161.118.38
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-134.195.196.178-060
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 134.195.196.178
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
   network: ws
   port: 443
@@ -71,3 +48,26 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9eb5bd19-24ff-4b73-b05d-f190819f5161
+- alterId: 0
+  cipher: auto
+  name: 19|CA-104.247.81.72-058
+  network: ws
+  port: 443
+  server: riop.miaoge110.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: riop.miaoge110.cf
+  ws-path: /
