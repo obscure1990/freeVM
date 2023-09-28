@@ -1,13 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.161.118.38-047
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 51.161.118.38
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11|🇨🇦加拿大04
+  name: 11,24|🇨🇦加拿大04
   network: tcp
   port: '36701'
   server: 5c1a04.abzoones.xyz
@@ -17,17 +11,28 @@ proxies:
   uuid: ed57f5f8-fb3b-4575-9769-253d5c3e1fdd
 - alterId: 0
   cipher: auto
-  name: '21|Channel id: @ShadowProxy66🇨🇦'
-  network: ws
-  port: 443
-  server: cjmahdi.online
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: D8813DCB-426C-4952-B384-8951B0444EC1
+  uuid: b4a4a07f-2d30-4a68-94b0-7fc61d1dee0e
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 12|🇨🇦 加拿大 156
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
   ws-opts:
     headers:
-      Host: green-water-bb30.walidfree23.workers.dev
-    path: /speedtest/Amsterdam.kotick.site
+      Host: mci1.amo2023.club
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-058
@@ -43,28 +48,17 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇦 12|🇨🇦 加拿大 156
+  name: '21,24|Channel id: @ShadowProxy66🇨🇦'
   network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
+  port: 443
+  server: cjmahdi.online
   tls: true
   type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  uuid: D8813DCB-426C-4952-B384-8951B0444EC1
   ws-opts:
     headers:
-      Host: mci1.amo2023.club
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 22|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 91e146c3-66b0-4ad6-ad54-e747b019deb6
+      Host: green-water-bb30.walidfree23.workers.dev
+    path: /speedtest/Amsterdam.kotick.site
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -83,4 +77,10 @@ proxies:
   password: G!yBwPWH3Vao
   port: 804
   server: 134.195.196.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.161.118.38-047
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 51.161.118.38
   type: ss
