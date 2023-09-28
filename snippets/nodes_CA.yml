@@ -1,30 +1,16 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.161.118.38-047
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 51.161.118.38
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 19|CA-134.195.196.178-060
   password: G!yBwPWH3Vao
   port: 804
   server: 134.195.196.178
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 156
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.161.118.38-047
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 51.161.118.38
+  type: ss
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -34,7 +20,17 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6de5605e-4c87-4d7a-b0ff-f493b7736c95
+  uuid: 01549365-24cc-4090-a9c0-0cd3817f898e
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 7c4cf716-070b-44a6-9ad7-b79c1b993894
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -50,14 +46,18 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  name: 21,24|🇨🇦 加拿大 156
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
   tls: true
   type: vmess
-  uuid: 9eb5bd19-24ff-4b73-b05d-f190819f5161
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-058
