@@ -1,27 +1,70 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|CA-104.247.81.72-049
+  name: 19|CA-104.247.81.72-048
   network: ws
   port: 443
-  server: riop.miaoge110.cf
+  server: gaio.miaoge110.cf
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   ws-headers:
-    Host: riop.miaoge110.cf
-  ws-path: /
+    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
+  ws-path: /jcnf
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
+  name: 11,24|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 981a6f0a-f40e-4ab3-a636-0e2007808b52
+  uuid: 00df0174-e163-4eb7-86fc-771216c264de
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 加拿大 177
+  network: ws
+  port: 443
+  server: 51vfly1.win
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-054
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.198.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0928013
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0928034
@@ -34,14 +77,27 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0928013
+  name: 22,24|加拿大 02 | 1x CA
   network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 981a6f0a-f40e-4ab3-a636-0e2007808b52
+- alterId: 0
+  cipher: auto
+  name: 19|CA-104.247.81.72-049
+  network: ws
+  port: 443
+  server: riop.miaoge110.cf
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: riop.miaoge110.cf
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 9,21,24|加拿大_0928003
@@ -69,59 +125,3 @@ proxies:
     headers:
       Host: green-water-bb30.walidfree23.workers.dev
     path: /speedtest/Amsterdam.kotick.site
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 177
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 00df0174-e163-4eb7-86fc-771216c264de
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-054
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|CA-104.247.81.72-048
-  network: ws
-  port: 443
-  server: gaio.miaoge110.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
-  ws-path: /jcnf
