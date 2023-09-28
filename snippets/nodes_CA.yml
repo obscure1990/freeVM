@@ -1,4 +1,76 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-134.195.196.178-060
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 134.195.196.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.161.118.38-047
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 51.161.118.38
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 42ea155c-1137-4465-93c1-bf13aa6df8c8
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0928013
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: '21,24|Channel id: @ShadowProxy66🇨🇦'
+  network: ws
+  port: 443
+  server: cjmahdi.online
+  tls: true
+  type: vmess
+  uuid: D8813DCB-426C-4952-B384-8951B0444EC1
+  ws-opts:
+    headers:
+      Host: green-water-bb30.walidfree23.workers.dev
+    path: /speedtest/Amsterdam.kotick.site
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 9,21,24|加拿大_0928003
+  network: ws
+  port: '8080'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
+  ws-opts:
+    headers:
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0928034
@@ -11,20 +83,18 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  name: 21,24|🇨🇦 加拿大 177
+  network: ws
+  port: 443
+  server: 51vfly1.win
+  servername: ''
   tls: true
   type: vmess
-  uuid: 42ea155c-1137-4465-93c1-bf13aa6df8c8
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-134.195.196.178-060
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 134.195.196.178
-  type: ss
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -48,73 +118,3 @@ proxies:
   ws-headers:
     Host: riop.miaoge110.cf
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0928013
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 177
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.161.118.38-047
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 51.161.118.38
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '21,24|Channel id: @ShadowProxy66🇨🇦'
-  network: ws
-  port: 443
-  server: cjmahdi.online
-  tls: true
-  type: vmess
-  uuid: D8813DCB-426C-4952-B384-8951B0444EC1
-  ws-opts:
-    headers:
-      Host: green-water-bb30.walidfree23.workers.dev
-    path: /speedtest/Amsterdam.kotick.site
-- alterId: 0
-  cipher: auto
-  name: 9,21,24|加拿大_0928003
-  network: ws
-  port: '8080'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
-  ws-opts:
-    headers:
-      Host: dongtaiwang.freek1.xyz
-    path: /NZpcJvwS/
