@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 19|CA-51.161.118.38-047
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 51.161.118.38
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11|🇨🇦加拿大04
@@ -9,12 +15,6 @@ proxies:
   tls: true
   type: vmess
   uuid: a0c648a4-afcf-44eb-83b3-681106128e98
-- cipher: chacha20-ietf-poly1305
-  name: 19|CA-134.195.196.178-060
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 134.195.196.178
-  type: ss
 - alterId: 0
   cipher: auto
   name: 21|🇨🇦 12|🇨🇦 加拿大 156
@@ -43,11 +43,21 @@ proxies:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
 - cipher: chacha20-ietf-poly1305
-  name: 19|CA-51.161.118.38-047
+  name: 19|CA-134.195.196.178-060
   password: G!yBwPWH3Vao
-  port: 800
-  server: 51.161.118.38
+  port: 804
+  server: 134.195.196.178
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 22|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ecafda0e-cebb-4db3-9497-e9ac1416de34
 - alterId: 0
   cipher: auto
   name: '21|Channel id: @ShadowProxy66🇨🇦'
@@ -61,16 +71,6 @@ proxies:
     headers:
       Host: green-water-bb30.walidfree23.workers.dev
     path: /speedtest/Amsterdam.kotick.site
-- alterId: 0
-  cipher: auto
-  name: 22|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 28812a4a-074c-4996-b4e9-548ef359c572
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-058
