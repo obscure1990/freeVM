@@ -1,25 +1,6 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 9,21,24|日本_0929103
-  network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 28|JP_speednode_0028
-  network: tcp
-  password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102
-  port: 20004
-  server: fschk.1234567890spcloud.com
-  skip-cert-verify: true
-  sni: ceshii.1234567890spcloud.com
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
   name: 9|日本_0929003
   network: ''
   port: '51801'
@@ -28,26 +9,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f06631c7-ee66-4c95-b181-99f036489048
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f06631c7-ee66-4c95-b181-99f036489048
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 25|🇯🇵 日本R|@ripaojiedian
@@ -60,39 +21,22 @@ proxies:
   server: snxao52s.xn--8zrwc997j78ud7a.com
   tfo: false
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 19,20|JP-152.69.204.193-054
-  network: tcp
-  port: 33226
-  server: 152.69.204.193
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
-  ws-headers:
-    Host: 152.69.204.193
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 9,21,24|日本_0929102
-  network: tcp
-  port: '51801'
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 9|日本_0929002
-  network: ''
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30011
+  server: 183.232.170.32
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇯🇵日本04
@@ -100,6 +44,44 @@ proxies:
   port: '36116'
   server: 1j8p04.abzoones.xyz
   servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 420008fd-4341-49fd-afc4-3ab52cd848b0
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇯🇵 东京特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.183.208.50
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 106e028a-c05b-4805-ac7a-3ebf268ff9eb
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 106e028a-c05b-4805-ac7a-3ebf268ff9eb
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
   uuid: 420008fd-4341-49fd-afc4-3ab52cd848b0
@@ -114,44 +96,21 @@ proxies:
   type: vmess
   uuid: 420008fd-4341-49fd-afc4-3ab52cd848b0
 - cipher: chacha20-ietf-poly1305
-  name: 8|「蛋挞云,超低价格,超高体验」🇯🇵 JP 01
+  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇯...
   password: 6632e674-7ff0-43e0-9873-8041d726fa29
   port: 35227
   server: jps1.zzjq.xyz
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 19|JP-54.199.83.239-132
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 420008fd-4341-49fd-afc4-3ab52cd848b0
-- name: 28|JP_speednode_0025
+- name: 28|JP_speednode_0028
   network: tcp
   password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102
-  port: 20003
+  port: 20004
   server: fschk.1234567890spcloud.com
   skip-cert-verify: true
+  sni: ceshii.1234567890spcloud.com
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.207.138.93
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25,28|🇯🇵 日本KT|@ripaojiedian
@@ -170,12 +129,55 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 25|🇯🇵 东京特殊|@ripaojiedian
+  name: 25|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.183.208.50
+  server: 43.207.138.93
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 9,21,24|日本_0929103
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 9|日本_0929002
+  network: ''
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 9,21,24|日本_0929102
+  network: tcp
+  port: '51801'
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19,20|JP-152.69.204.193-054
+  network: tcp
+  port: 33226
+  server: 152.69.204.193
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
+  ws-headers:
+    Host: 152.69.204.193
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 22,24|日本 05  | 1x JP
@@ -185,20 +187,18 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f06631c7-ee66-4c95-b181-99f036489048
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 30011
-  server: 183.232.170.32
-  tfo: false
+  uuid: 106e028a-c05b-4805-ac7a-3ebf268ff9eb
+- cipher: aes-256-cfb
+  name: 19|JP-54.199.83.239-132
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
   type: ss
+- name: 28|JP_speednode_0025
+  network: tcp
+  password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102
+  port: 20003
+  server: fschk.1234567890spcloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
