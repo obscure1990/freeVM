@@ -1,18 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
+  name: 22,24|加拿大 02 | 1x CA
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 859d8e13-b765-4b65-ba85-406b693d7c77
+  uuid: 899509ce-6243-4139-9fae-beccb08c15db
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0929002
-  network: ''
+  name: 9,21,24|加拿大_0929027
+  network: tcp
   port: '22324'
   server: 198.57.27.212
   servername: ''
@@ -32,39 +32,16 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-058
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.198.95
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 9,21,24|加拿大_0929003
-  network: ws
-  port: '8080'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
-  ws-opts:
-    headers:
-      Host: dongtaiwang.freek1.xyz
-    path: /NZpcJvwS/
-- alterId: 0
-  cipher: auto
-  name: 19|CA-104.247.81.72-053
-  network: ws
-  port: 443
-  server: riop.miaoge110.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: riop.miaoge110.cf
-  ws-path: /
+  uuid: 859d8e13-b765-4b65-ba85-406b693d7c77
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦 加拿大 177
@@ -81,33 +58,17 @@ proxies:
     path: /myblog
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ca07bdee-d8a4-4c45-a09a-2bb7722bfc2a
-- name: 1|_CA_
-  network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  name: 19|CA-104.247.81.72-053
+  network: ws
   port: 443
-  server: 108.181.22.161
+  server: riop.miaoge110.cf
   skip-cert-verify: true
-  sni: glc-us2.windowsupdatea.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9,21,24|加拿大_0929027
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: riop.miaoge110.cf
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-052
@@ -121,3 +82,42 @@ proxies:
   ws-headers:
     Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
   ws-path: /jcnf
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-058
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.198.95
+  type: ss
+- name: 1|_CA_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: 108.181.22.161
+  skip-cert-verify: true
+  sni: glc-us2.windowsupdatea.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0929002
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 9,21,24|加拿大_0929003
+  network: ws
+  port: '8080'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
+  ws-opts:
+    headers:
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
