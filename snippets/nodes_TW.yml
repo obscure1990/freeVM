@@ -1,14 +1,38 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
+  name: 27|台北Hinet-dip
+  network: ws
+  port: '19046'
+  server: 183.232.230.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 069848ac-38c3-34e5-8e56-296788c59616
+  ws-opts:
+    headers:
+      Host: t.me.vpnhat
+    path: /catnet
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 10b38c2c-6db9-40bc-a037-e9467d62128d
+  uuid: 859d8e13-b765-4b65-ba85-406b693d7c77
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 859d8e13-b765-4b65-ba85-406b693d7c77
 - alterId: 0
   cipher: auto
   name: '27|台北Hinet-dip #4'
@@ -25,33 +49,34 @@ proxies:
     path: /catnet
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
+  name: 22,24|台湾 04  | 1x TWN
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 10b38c2c-6db9-40bc-a037-e9467d62128d
-- name: 1|_TW_
-  network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
+  uuid: ca07bdee-d8a4-4c45-a09a-2bb7722bfc2a
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾04
+  name: 22,24|台湾 05  | 1x TWN
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 344e9731-84c8-4744-aaa9-80ca6136740c
+  uuid: ca07bdee-d8a4-4c45-a09a-2bb7722bfc2a
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 859d8e13-b765-4b65-ba85-406b693d7c77
 - alterId: 0
   cipher: auto
   name: '27|台北Hinet-dip #2'
@@ -66,42 +91,31 @@ proxies:
     headers:
       Host: t.me.vpnhat
     path: /catnet
+- name: 1|_TW_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: download1tw.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾05
+  name: 22,24|台湾 06  | 1x TWN
   network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 344e9731-84c8-4744-aaa9-80ca6136740c
+  uuid: ca07bdee-d8a4-4c45-a09a-2bb7722bfc2a
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 10b38c2c-6db9-40bc-a037-e9467d62128d
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 344e9731-84c8-4744-aaa9-80ca6136740c
-- alterId: 0
-  cipher: auto
-  name: '27|台北Hinet-dip #1'
+  name: '27|台北Hinet-dip #5'
   network: ws
   port: '19046'
-  server: 183.232.230.43
+  server: 183.232.230.62
   servername: ''
   tls: false
   type: vmess
@@ -126,24 +140,10 @@ proxies:
     path: /catnet
 - alterId: 0
   cipher: auto
-  name: '27|台北Hinet-dip #5'
+  name: '27|台北Hinet-dip #1'
   network: ws
   port: '19046'
-  server: 183.232.230.62
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 069848ac-38c3-34e5-8e56-296788c59616
-  ws-opts:
-    headers:
-      Host: t.me.vpnhat
-    path: /catnet
-- alterId: 0
-  cipher: auto
-  name: 27|台北Hinet-dip
-  network: ws
-  port: '19046'
-  server: 183.232.230.46
+  server: 183.232.230.43
   servername: ''
   tls: false
   type: vmess
