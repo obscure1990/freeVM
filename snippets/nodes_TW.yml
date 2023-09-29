@@ -1,13 +1,4 @@
 proxies:
-- name: 1|_TW_
-  network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: '27|台北Hinet-dip #5'
@@ -23,7 +14,7 @@ proxies:
       Host: t.me.vpnhat
     path: /catnet
 - cipher: chacha20-ietf-poly1305
-  name: 8|「节点冠名招商 @nodpai」🇹🇼 TW 01
+  name: 8|「eggtartcloud.shop 自选入口,速度保证」🇹...
   password: bda780e9-268c-4d98-b0b9-d74f52047b44
   port: 31444
   server: fztw.magicby.top
@@ -31,30 +22,24 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f3a78245-b7a6-43e2-8794-ed709c2bbf7d
-- alterId: 0
-  cipher: auto
-  name: 27|台湾_Telegram@kxswa
-  network: tcp
-  port: '23000'
-  server: sneed-a.v2ok.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 490d9feb-d679-3ad1-a358-7ebdf09e30a1
-- alterId: 0
-  cipher: auto
   name: 27|台北Hinet-dip
   network: ws
   port: '19046'
   server: 183.232.230.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 069848ac-38c3-34e5-8e56-296788c59616
+  ws-opts:
+    headers:
+      Host: t.me.vpnhat
+    path: /catnet
+- alterId: 0
+  cipher: auto
+  name: '27|台北Hinet-dip #1'
+  network: ws
+  port: '19046'
+  server: 183.232.230.42
   servername: ''
   tls: false
   type: vmess
@@ -79,30 +64,10 @@ proxies:
     path: /catnet
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 95b40336-8ca3-4239-bb75-87cc2dd9585a
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 95b40336-8ca3-4239-bb75-87cc2dd9585a
-- alterId: 0
-  cipher: auto
-  name: '27|台北Hinet-dip #1'
+  name: '27|台北Hinet-dip #4'
   network: ws
   port: '19046'
-  server: 183.232.230.42
+  server: 183.232.230.46
   servername: ''
   tls: false
   type: vmess
@@ -113,18 +78,14 @@ proxies:
     path: /catnet
 - alterId: 0
   cipher: auto
-  name: '27|台北Hinet-dip #2'
-  network: ws
-  port: '19046'
-  server: 183.232.230.45
-  servername: ''
-  tls: false
+  name: 22,24|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 069848ac-38c3-34e5-8e56-296788c59616
-  ws-opts:
-    headers:
-      Host: t.me.vpnhat
-    path: /catnet
+  uuid: f3a78245-b7a6-43e2-8794-ed709c2bbf7d
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾04
@@ -137,10 +98,10 @@ proxies:
   uuid: 95b40336-8ca3-4239-bb75-87cc2dd9585a
 - alterId: 0
   cipher: auto
-  name: '27|台北Hinet-dip #4'
+  name: '27|台北Hinet-dip #2'
   network: ws
   port: '19046'
-  server: 183.232.230.46
+  server: 183.232.230.45
   servername: ''
   tls: false
   type: vmess
@@ -161,11 +122,50 @@ proxies:
   uuid: f3a78245-b7a6-43e2-8794-ed709c2bbf7d
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
+  name: 27|台湾_Telegram@kxswa
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '23000'
+  server: sneed-a.v2ok.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 490d9feb-d679-3ad1-a358-7ebdf09e30a1
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 95b40336-8ca3-4239-bb75-87cc2dd9585a
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 95b40336-8ca3-4239-bb75-87cc2dd9585a
+- name: 1|_TW_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: download1tw.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
   uuid: f3a78245-b7a6-43e2-8794-ed709c2bbf7d
