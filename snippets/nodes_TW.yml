@@ -1,14 +1,23 @@
 proxies:
+- name: 1|_TW_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: download1tw.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾04
+  name: 22,24|台湾 04  | 1x TWN
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ea359ec3-46ee-4da0-87a8-e8f02d17731f
+  uuid: 51c677df-c0df-4a72-b3b7-b65c7c97a493
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾05
@@ -39,15 +48,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 51c677df-c0df-4a72-b3b7-b65c7c97a493
-- name: 1|_TW_
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
   network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: ea359ec3-46ee-4da0-87a8-e8f02d17731f
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 05  | 1x TWN
@@ -55,16 +65,6 @@ proxies:
   port: '31306'
   server: 2d1t5w05.mcfront.xyz
   servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 51c677df-c0df-4a72-b3b7-b65c7c97a493
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
   uuid: 51c677df-c0df-4a72-b3b7-b65c7c97a493
