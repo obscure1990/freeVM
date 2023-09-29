@@ -15,6 +15,16 @@ proxies:
     path: /NZpcJvwS/
 - alterId: 0
   cipher: auto
+  name: 9|加拿大_0929027
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
   name: 21,24|加拿大01 优选（1倍率）
   network: ws
   port: '8080'
@@ -41,14 +51,60 @@ proxies:
   ws-path: /jcnf
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '8080'
+  server: go.gujuji.top
+  tls: false
+  type: vmess
+  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
+  ws-opts:
+    headers:
+      Host: go.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 加拿大 153
+  network: ws
+  port: 443
+  server: auth0.openai.com
+  servername: ''
   tls: true
   type: vmess
-  uuid: 135ea5ce-6c23-4692-9122-fcc7b57d48d4
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sub.yifenjichang.top
+    path: /odelia.autos:443/linkvws
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-058
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.198.95
+  type: ss
+- name: 1|_CA_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: 108.181.22.161
+  skip-cert-verify: true
+  sni: glc-us2.windowsupdatea.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 加拿大 177
+  network: ws
+  port: 443
+  server: 51vfly1.win
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0929002
@@ -74,69 +130,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0929027
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-058
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9177cab1-46fe-48ef-b1fd-704b2a2d0d69
-- name: 1|_CA_
-  network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
-  port: 443
-  server: 108.181.22.161
-  skip-cert-verify: true
-  sni: glc-us2.windowsupdatea.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 153
-  network: ws
-  port: 443
-  server: auth0.openai.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sub.yifenjichang.top
-    path: /odelia.autos:443/linkvws
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 177
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
-- alterId: 0
-  cipher: auto
   name: 19|CA-104.247.81.72-053
   network: ws
   port: 443
@@ -148,3 +141,23 @@ proxies:
   ws-headers:
     Host: riop.miaoge110.cf
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9177cab1-46fe-48ef-b1fd-704b2a2d0d69
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 135ea5ce-6c23-4692-9122-fcc7b57d48d4
