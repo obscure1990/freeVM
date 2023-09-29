@@ -1,18 +1,62 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 177
+  name: 19|CA-104.247.81.72-074
   network: ws
   port: 443
-  server: 51vfly1.win
+  server: gaio.miaoge110.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
+  ws-path: /jcnf
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0929002
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-129
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  uuid: 24aac416-976f-4528-abeb-1cd1de77a21f
+- alterId: 0
+  cipher: auto
+  name: 21,24|加拿大01 优选（1倍率）
+  network: ws
+  port: '8080'
+  server: go.gujuji.top
+  tls: false
+  type: vmess
+  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
   ws-opts:
     headers:
-      Host: 51vfly1.win
-    path: /myblog
+      Host: ca-01.gujuji.top
+    path: /
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-127
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9,15,20,21,24|加拿大_0929003
@@ -36,6 +80,30 @@ proxies:
   sni: glc-us2.windowsupdatea.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 加拿大 177
+  network: ws
+  port: 443
+  server: 51vfly1.win
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0929027
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-073
@@ -65,64 +133,12 @@ proxies:
   tls: true
   type: vmess
   uuid: 120998ce-5a4e-4113-88f1-b6bd560f139f
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0929027
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 19|CA-104.247.81.72-074
-  network: ws
-  port: 443
-  server: gaio.miaoge110.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
-  ws-path: /jcnf
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-129
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 21,24|加拿大01 优选（1倍率）
-  network: ws
-  port: '8080'
-  server: go.gujuji.top
-  tls: false
-  type: vmess
-  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
-  ws-opts:
-    headers:
-      Host: ca-01.gujuji.top
-    path: /
 - cipher: aes-256-gcm
   name: 19|CA-134.195.198.95-128
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.198.95
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0929002
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -150,19 +166,3 @@ proxies:
     headers:
       Host: sub.yifenjichang.top
     path: /odelia.autos:443/linkvws
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 24aac416-976f-4528-abeb-1cd1de77a21f
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-127
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 134.195.196.231
-  type: ss
