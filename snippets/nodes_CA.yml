@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
+  name: 9|加拿大_0929002
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 10a96704-2579-40fa-82c6-e9c6e61acfae
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-052
@@ -22,36 +22,6 @@ proxies:
   ws-headers:
     Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
   ws-path: /jcnf
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-058
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: d4e96e2d-a04f-4f10-af42-eac0bb9abe8a
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 加拿大 177
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
 - alterId: 0
   cipher: auto
   name: 21,24|加拿大01 优选（1倍率）
@@ -65,19 +35,45 @@ proxies:
     headers:
       Host: ca-01.gujuji.top
     path: /
+- name: 1|_CA_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: 108.181.22.161
+  skip-cert-verify: true
+  sni: glc-us2.windowsupdatea.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
+  name: 21,24|🇨🇦 加拿大 153
   network: ws
   port: 443
-  server: 23.227.39.109
+  server: auth0.openai.com
+  servername: ''
   tls: true
   type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
+      Host: sub.yifenjichang.top
+    path: /odelia.autos:443/linkvws
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-058
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.198.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 10a96704-2579-40fa-82c6-e9c6e61acfae
 - alterId: 0
   cipher: auto
   name: 21,24|加拿大02（1倍率）
@@ -93,18 +89,17 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 153
+  name: 14|加拿大_【YouTube-VV科技】
   network: ws
   port: 443
-  server: auth0.openai.com
-  servername: ''
+  server: 23.227.39.109
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
   ws-opts:
     headers:
-      Host: sub.yifenjichang.top
-    path: /odelia.autos:443/linkvws
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-053
@@ -118,12 +113,51 @@ proxies:
   ws-headers:
     Host: riop.miaoge110.cf
   ws-path: /
-- name: 1|_CA_
+- alterId: 0
+  cipher: auto
+  name: 9,21,24|加拿大_0929003
+  network: ws
+  port: '8080'
+  server: dongtaiwang3.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c6b9c8c5-cf0d-4053-8f9f-3d26d1fcb35c
+  ws-opts:
+    headers:
+      Host: dongtaiwang.freek1.xyz
+    path: /NZpcJvwS/
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
   network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d4e96e2d-a04f-4f10-af42-eac0bb9abe8a
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0929027
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 加拿大 177
+  network: ws
   port: 443
-  server: 108.181.22.161
-  skip-cert-verify: true
-  sni: glc-us2.windowsupdatea.com
-  type: trojan
-  udp: true
+  server: 51vfly1.win
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
