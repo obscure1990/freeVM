@@ -1,24 +1,23 @@
 proxies:
+- name: 1|_TW_
+  network: tcp
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: download1tw.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
+  name: 22,24|台湾 06  | 1x TWN
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
   uuid: 9dc0b566-babb-4002-a403-75916267a11c
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: dbf80ca2-696a-4fc6-bd50-2b36713135b4
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾06
@@ -41,25 +40,6 @@ proxies:
   uuid: dbf80ca2-696a-4fc6-bd50-2b36713135b4
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9dc0b566-babb-4002-a403-75916267a11c
-- name: 1|_TW_
-  network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 22,24|台湾 05  | 1x TWN
   network: tcp
   port: '31306'
@@ -68,3 +48,23 @@ proxies:
   tls: true
   type: vmess
   uuid: 9dc0b566-babb-4002-a403-75916267a11c
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9dc0b566-babb-4002-a403-75916267a11c
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: dbf80ca2-696a-4fc6-bd50-2b36713135b4
