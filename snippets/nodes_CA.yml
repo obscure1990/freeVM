@@ -1,17 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
+  name: 19|CA-104.247.81.72-052
   network: ws
   port: 443
-  server: 23.227.39.109
+  server: gaio.miaoge110.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
+  ws-path: /jcnf
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
+  uuid: 135ea5ce-6c23-4692-9122-fcc7b57d48d4
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦 加拿大 153
@@ -42,14 +52,58 @@ proxies:
     path: /NZpcJvwS/
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
+  name: 21,24|加拿大02（1倍率）
+  network: ws
+  port: '8080'
+  server: ca-02.gujuji.top
+  tls: false
+  type: vmess
+  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-058
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.198.95
+  type: ss
+- name: 1|_CA_
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
+  port: 443
+  server: 108.181.22.161
+  skip-cert-verify: true
+  sni: glc-us2.windowsupdatea.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 21,24|加拿大01 优选（1倍率）
+  network: ws
+  port: '8080'
+  server: go.gujuji.top
+  tls: false
+  type: vmess
+  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
+  ws-opts:
+    headers:
+      Host: ca-01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
   tls: true
   type: vmess
-  uuid: d4e96e2d-a04f-4f10-af42-eac0bb9abe8a
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0929002
@@ -62,27 +116,18 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 19|CA-104.247.81.72-052
+  name: 21,24|🇨🇦 加拿大 177
   network: ws
   port: 443
-  server: gaio.miaoge110.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
-  ws-path: /jcnf
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  server: 51vfly1.win
+  servername: ''
   tls: true
   type: vmess
-  uuid: 7babb961-9bdc-4f46-a81c-f976972b5183
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-053
@@ -98,36 +143,17 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 177
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  servername: ''
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
-- name: 1|_CA_
-  network: tcp
-  password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
-  port: 443
-  server: 108.181.22.161
-  skip-cert-verify: true
-  sni: glc-us2.windowsupdatea.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-058
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.198.95
-  type: ss
+  uuid: 9177cab1-46fe-48ef-b1fd-704b2a2d0d69
 - alterId: 0
   cipher: auto
-  name: 21,24|加拿大02（1倍率）
+  name: 7,8|🇨🇦 Canada 01 @nodpai
   network: ws
   port: '8080'
   server: ca-02.gujuji.top
@@ -136,8 +162,8 @@ proxies:
   uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: ca-02.gujuji.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0929027
@@ -148,16 +174,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 21,24|加拿大01 优选（1倍率）
-  network: ws
-  port: '8080'
-  server: go.gujuji.top
-  tls: false
-  type: vmess
-  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
-  ws-opts:
-    headers:
-      Host: ca-01.gujuji.top
-    path: /
