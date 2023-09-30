@@ -1,27 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|CA-104.247.81.72-081
+  name: 19|CA-104.247.81.72-090
   network: ws
   port: 443
-  server: gaio.miaoge110.cf
+  server: riop.miaoge110.cf
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   ws-headers:
-    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
-  ws-path: /jcnf
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0930003
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    Host: riop.miaoge110.cf
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -32,12 +22,16 @@ proxies:
   tls: true
   type: vmess
   uuid: bc206973-230d-4fea-87d3-bd8f3b15dee4
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.149-117
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 134.195.196.149
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0930003
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -59,17 +53,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19|CA-104.247.81.72-090
+  name: 19|CA-104.247.81.72-081
   network: ws
   port: 443
-  server: riop.miaoge110.cf
+  server: gaio.miaoge110.cf
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
   ws-headers:
-    Host: riop.miaoge110.cf
-  ws-path: /
+    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
+  ws-path: /jcnf
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 158
@@ -84,6 +78,12 @@ proxies:
     headers:
       Host: sub.yifenjichang.top
     path: /octavi.cfd:443/linkvws
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.149-117
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 134.195.196.149
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0930027
