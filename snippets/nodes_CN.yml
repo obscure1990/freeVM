@@ -1,32 +1,39 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|CN-42.186.175.8-043
-  network: ws
-  port: 443
-  server: 42.186.175.8
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2962b6dc-8de5-40c2-f5fb-5039f72d9a95
-  ws-headers:
-    Host: sgarm.ptuu.ml
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: 10,19,20|广东省深圳市 移动
+  name: 19,20|CN-183.232.159.134-203
   network: tcp
-  port: '50005'
+  port: 50005
   server: 05.kccic2pa.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 9712f569-aa6b-4b75-a993-5eb7c1dd288d
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-192
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
+  ws-headers:
+    Host: 05.kccic2pa.xyz
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 14|中国_【YouTube-VV科技】
+  network: tcp
+  port: 42055
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19|CN-210.75.24.220-044
+  network: ws
+  port: 443
+  server: 210.75.24.220
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
+  ws-headers:
+    Host: jparm.fineyoo.cf
+  ws-path: /123
 - alterId: 0
   cipher: auto
   name: '6,7,8,13,24,27|🇨🇳_CN_中国 #1'
@@ -53,30 +60,13 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19|CN-210.75.24.220-044
-  network: ws
-  port: 443
-  server: 210.75.24.220
-  skip-cert-verify: true
-  tls: true
+  name: 7|「eggtartcloud.shop 自选入口,速度保证」🇨...
+  network: tcp
+  port: '50002'
+  server: 111.230.252.149
+  tls: false
   type: vmess
-  uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
-  ws-headers:
-    Host: jparm.fineyoo.cf
-  ws-path: /123
-- alterId: 0
-  cipher: auto
-  name: 19|CN-210.75.24.222-147
-  network: ws
-  port: 443
-  server: 210.75.24.222
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1bbf1ef7-3056-4160-9cab-491e024de705
-  ws-headers:
-    Host: sgamd.ptuu.ga
-  ws-path: /123
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: '14|中国_【YouTube-VV科技】 #1'
@@ -88,17 +78,57 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-183.240.117.54-051
-  network: tcp
-  port: 58418
-  server: 4.3.1.fuckppppp.today
+  name: 6,7,8,13,24,27|🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: 36.150.27.31
+  tls: false
+  type: vmess
+  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '8,19,25,28|「eggtartcloud.shop 自选入口,速度保证」🇨... #1'
+  port: 50002
+  server: 111.230.252.149
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.3.1.fuckppppp.today
-  ws-path: /
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 7,8,24,27|「蛋挞云,超低价格,超高体验」🇨🇳 CN 04
+  network: ws
+  port: '8886'
+  server: 39.164.141.100
+  tls: false
+  type: vmess
+  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24,27|7,8|「节点冠名招商 @nodpai」🇨🇳 CN 01
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-192
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
 - alterId: 1
   cipher: auto
   name: 19|CN-111.38.37.215-055
@@ -114,34 +144,40 @@ proxies:
   ws-path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 6,7,8,13,24,27|🇨🇳_CN_中国
+  name: 19|CN-210.75.24.222-147
   network: ws
-  port: 80
-  server: 36.150.27.31
-  tls: false
+  port: 443
+  server: 210.75.24.222
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
-  ws-opts:
-    path: /
+  uuid: 1bbf1ef7-3056-4160-9cab-491e024de705
+  ws-headers:
+    Host: sgamd.ptuu.ga
+  ws-path: /123
 - alterId: 0
   cipher: auto
-  name: 7,8,24,27|「节点冠名招商 @nodpai」🇨🇳 CN 01
+  name: 19|CN-42.186.175.8-043
   network: ws
-  port: '19709'
-  server: 123.249.101.15
-  tls: false
+  port: 443
+  server: 42.186.175.8
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
+  uuid: 2962b6dc-8de5-40c2-f5fb-5039f72d9a95
+  ws-headers:
+    Host: sgarm.ptuu.ml
+  ws-path: /ray
+- alterId: 0
   cipher: auto
-  name: 14|中国_【YouTube-VV科技】
+  name: 19,20|CN-183.240.117.54-051
   network: tcp
-  port: 42055
-  server: 120.226.50.93
+  port: 58418
+  server: 4.3.1.fuckppppp.today
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  ws-headers:
+    Host: 4.3.1.fuckppppp.today
+  ws-path: /
