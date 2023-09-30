@@ -1,17 +1,16 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 19|CA-104.247.81.72-074
-  network: ws
-  port: 443
-  server: gaio.miaoge110.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
-  ws-path: /jcnf
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-127
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-129
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0929002
@@ -22,44 +21,9 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-129
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 24aac416-976f-4528-abeb-1cd1de77a21f
-- alterId: 0
-  cipher: auto
-  name: 21,24|加拿大01 优选（1倍率）
-  network: ws
-  port: '8080'
-  server: go.gujuji.top
-  tls: false
-  type: vmess
-  uuid: dfec7403-f2ab-4b20-ae77-e7cce8d76705
-  ws-opts:
-    headers:
-      Host: ca-01.gujuji.top
-    path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-127
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9,15,20,21,24|加拿大_0929003
+  name: 9,20|加拿大_0929003
   network: ws
   port: '8080'
   server: dongtaiwang3.com
@@ -71,6 +35,32 @@ proxies:
     headers:
       Host: dongtaiwang.freek1.xyz
     path: /NZpcJvwS/
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ae8cfe79-078b-43dc-af50-c2930aecf87f
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-128
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.198.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9,21,24|加拿大_0929027
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - name: 1|_CA_
   network: tcp
   password: e39371c5-b15e-48d1-98c8-d5b24b7e0301
@@ -82,63 +72,18 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 177
+  name: 21,24|🇨🇦 12|🇨🇦 加拿大 156
   network: ws
-  port: 443
-  server: 51vfly1.win
+  port: 2096
+  server: mci1.amo2023.club
   servername: ''
   tls: true
   type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
   ws-opts:
     headers:
-      Host: 51vfly1.win
-    path: /myblog
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0929027
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 19|CA-104.247.81.72-073
-  network: ws
-  port: 443
-  server: riop.miaoge110.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: riop.miaoge110.cf
-  ws-path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-130
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 120998ce-5a4e-4113-88f1-b6bd560f139f
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-128
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.198.95
-  type: ss
+      Host: mci1.amo2023.club
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -154,15 +99,43 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 153
+  name: 19|CA-104.247.81.72-073
   network: ws
   port: 443
-  server: auth0.openai.com
-  servername: ''
+  server: riop.miaoge110.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: riop.miaoge110.cf
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CA-104.247.81.72-074
+  network: ws
+  port: 443
+  server: gaio.miaoge110.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
+  ws-path: /jcnf
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-130
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: sub.yifenjichang.top
-    path: /odelia.autos:443/linkvws
+  uuid: 24aac416-976f-4528-abeb-1cd1de77a21f
