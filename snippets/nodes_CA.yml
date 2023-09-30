@@ -1,17 +1,26 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-130
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-129
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 19|CA-104.247.81.72-074
-  network: ws
-  port: 443
-  server: gaio.miaoge110.cf
-  skip-cert-verify: true
+  name: 9|加拿大_0930003
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
   tls: false
   type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
-  ws-path: /jcnf
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0930027
@@ -22,44 +31,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4a0c335f-7a7f-4026-9609-9afd5488a7c3
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-129
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 24ed4d84-1792-4e46-b0f4-1da1a36deaa7
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-130
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-128
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.198.95
-  type: ss
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -75,32 +46,14 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 加拿大 190
-  network: ws
-  port: 8880
-  server: 172.67.161.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
-  ws-opts:
-    headers:
-      Host: vcus1.vpn66.eu.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21,24|🇨🇦 12|🇨🇦 加拿大 156
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
-    path: /
+  uuid: 4a0c335f-7a7f-4026-9609-9afd5488a7c3
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-073
@@ -116,17 +69,64 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0930003
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
+  name: 19|CA-104.247.81.72-074
+  network: ws
+  port: 443
+  server: gaio.miaoge110.cf
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
+  ws-path: /jcnf
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f7fde262-8510-4ec2-827b-8b3e2c20624f
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-128
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.198.95
+  type: ss
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-127
   password: faBAoD54k87UJG7
   port: 2375
   server: 134.195.196.231
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇨🇦 12|🇨🇦 加拿大 156
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇨🇦 加拿大 190
+  network: ws
+  port: 8880
+  server: 172.67.161.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  ws-opts:
+    headers:
+      Host: vcus1.vpn66.eu.org
+    path: /
