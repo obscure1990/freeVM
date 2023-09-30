@@ -1,22 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 21,24|🇨🇦 12|🇨🇦 加拿大 156
-  network: ws
-  port: 2096
-  server: mci1.amo2023.club
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
-  ws-opts:
-    headers:
-      Host: mci1.amo2023.club
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_0930003
-  network: ''
+  name: 9|加拿大_0930027
+  network: tcp
   port: '22324'
   server: 198.57.27.212
   servername: ''
@@ -25,14 +11,17 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
+  name: 19|CA-104.247.81.72-074
+  network: ws
+  port: 443
+  server: gaio.miaoge110.cf
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 938628e8-3c72-42aa-9031-1b3be45e67a4
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
+  ws-path: /jcnf
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -42,13 +31,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e189a6bd-1324-4029-824e-f7486173ec5f
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-130
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 134.195.196.231
-  type: ss
+  uuid: ab73356f-976b-4c13-baca-62d325275f43
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇦 加拿大 190
+  network: ws
+  port: 8880
+  server: 172.67.161.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
+  ws-opts:
+    headers:
+      Host: vcus1.vpn66.eu.org
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-073
@@ -64,14 +61,47 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0930027
+  name: 22,24|加拿大 02 | 1x CA
   network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 226e333b-8f36-43ef-886f-abaf59959f6b
+- alterId: 0
+  cipher: auto
+  name: 21,24|🇨🇦 12|🇨🇦 加拿大 156
+  network: ws
+  port: 2096
+  server: mci1.amo2023.club
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f05fe41-c9bf-4b4e-e476-ac58a00da929
+  ws-opts:
+    headers:
+      Host: mci1.amo2023.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-129
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 194
@@ -88,72 +118,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 21|🇨🇦 加拿大 190
-  network: ws
-  port: 8880
-  server: 172.67.161.181
+  name: 9|加拿大_0930003
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: 67a341a7-5ae7-4d92-edad-9e8db87ce165
-  ws-opts:
-    headers:
-      Host: vcus1.vpn66.eu.org
-    path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-129
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-127
   password: faBAoD54k87UJG7
   port: 2375
   server: 134.195.196.231
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 19|CA-104.247.81.72-074
-  network: ws
-  port: 443
-  server: gaio.miaoge110.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
-  ws-path: /jcnf
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-130
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 134.195.196.231
+  type: ss
 - cipher: aes-256-gcm
   name: 19|CA-134.195.198.95-128
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.198.95
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 02 @nodpai
-  network: ws
-  port: '80'
-  server: mtlr.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: mtlr.shabijichang.com
-    path: /
