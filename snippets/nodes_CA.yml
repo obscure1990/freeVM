@@ -1,6 +1,57 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 85e440fa-3ed5-45fb-873f-9a99613bf811
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-129
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-128
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.198.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_0930027
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 19|CA-104.247.81.72-073
+  network: ws
+  port: 443
+  server: riop.miaoge110.cf
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: riop.miaoge110.cf
+  ws-path: /
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-130
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 21,24|🇨🇦 12|🇨🇦 加拿大 156
   network: ws
   port: 2096
@@ -15,25 +66,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-130
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 19|CA-104.247.81.72-074
   network: ws
   port: 443
@@ -45,25 +77,6 @@ proxies:
   ws-headers:
     Host: '%7B%22Host%22:%22gaio.miaoge110.cf%22%7D'
   ws-path: /jcnf
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-127
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|CA-104.247.81.72-073
-  network: ws
-  port: 443
-  server: riop.miaoge110.cf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: riop.miaoge110.cf
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 21,24|🇨🇦 加拿大 158
@@ -78,12 +91,6 @@ proxies:
     headers:
       Host: sub.yifenjichang.top
     path: /octavi.cfd:443/linkvws
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-129
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -96,14 +103,23 @@ proxies:
   uuid: b7f22798-6f77-475a-8bd0-078c9c092fd1
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_0930027
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-127
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|加拿大_0930003
@@ -114,19 +130,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 22c8bfe2-a1a9-41be-965c-db42ab83701e
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-128
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.198.95
-  type: ss
