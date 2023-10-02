@@ -1,6 +1,55 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2a1866b9-30a9-41d2-900f-da3b280516ec
+- alterId: 0
+  cipher: auto
+  name: '27|Singapore-Contabo #10'
+  network: ws
+  port: '19057'
+  server: 183.232.230.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 069848ac-38c3-34e5-8e56-296788c59616
+  ws-opts:
+    headers:
+      Host: t.me.vpnhat
+    path: /catnet
+- alterId: 0
+  cipher: auto
+  name: '24,27|7,8|「蛋挞云,流媒体全解锁」🇸🇬 SG 01 #1'
+  network: ws
+  port: 80
+  server: 54.169.79.3
+  tls: false
+  type: vmess
+  uuid: 0a2163ae-7e05-3de8-9946-180c01a2f490
+  ws-opts:
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '27|Singapore-Contabo #5'
+  network: ws
+  port: '19057'
+  server: 183.232.230.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 069848ac-38c3-34e5-8e56-296788c59616
+  ws-opts:
+    headers:
+      Host: t.me.vpnhat
+    path: /catnet
+- alterId: 0
+  cipher: auto
   name: 27|Singapore-Contabo
   network: ws
   port: '19079'
@@ -13,6 +62,26 @@ proxies:
     headers:
       Host: t.me.vpnhat
     path: /dahjwuh
+- cipher: aes-256-cfb
+  name: 28|SG_speednode_0040
+  password: amazonskr05
+  port: 443
+  server: 18.139.0.10
+  type: ss
+  udp: true
+- alterId: 32
+  cipher: auto
+  name: 19,20|SG-139.99.91.95-121
+  network: tcp
+  port: 443
+  server: 139.99.91.95
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  ws-headers:
+    Host: 139.99.91.95
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: '27|Singapore-Contabo #11'
@@ -29,24 +98,10 @@ proxies:
     path: /dahjwuh
 - alterId: 0
   cipher: auto
-  name: '27|Singapore-Contabo #1'
-  network: ws
-  port: '19079'
-  server: 183.232.230.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 069848ac-38c3-34e5-8e56-296788c59616
-  ws-opts:
-    headers:
-      Host: t.me.vpnhat
-    path: /dahjwuh
-- alterId: 0
-  cipher: auto
-  name: '27|Singapore-Contabo #10'
+  name: '27|Singapore-Contabo #9'
   network: ws
   port: '19057'
-  server: 183.232.230.62
+  server: 183.232.230.42
   servername: ''
   tls: false
   type: vmess
@@ -55,90 +110,6 @@ proxies:
     headers:
       Host: t.me.vpnhat
     path: /catnet
-- cipher: aes-256-cfb
-  name: 28|SG_speednode_0040
-  password: amazonskr05
-  port: 443
-  server: 18.139.0.10
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 05 @nodpai
-  network: ws
-  port: '2086'
-  server: cf-point2.handboy.top
-  tls: false
-  type: vmess
-  uuid: b5a330bc-6711-4a4f-bec6-d7f17b705b3c
-  ws-opts:
-    headers:
-      Host: cf-point2.handboy.top
-    path: /asdas
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1e0e88cf-8ed1-4dae-9478-cb18eee46075
-- alterId: 0
-  cipher: auto
-  name: '27|Singapore-Contabo #4'
-  network: ws
-  port: '19057'
-  server: 183.232.230.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 069848ac-38c3-34e5-8e56-296788c59616
-  ws-opts:
-    headers:
-      Host: t.me.vpnhat
-    path: /catnet
-- alterId: 32
-  cipher: auto
-  name: 19,20|SG-139.99.90.122-117
-  network: tcp
-  port: 443
-  server: 139.99.90.122
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  ws-headers:
-    Host: 139.99.90.122
-  ws-path: /
-- alterId: 32
-  cipher: auto
-  name: 19,20|SG-139.99.91.95-121
-  network: tcp
-  port: 443
-  server: 139.99.91.95
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  ws-headers:
-    Host: 139.99.91.95
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_1002148
-  network: ws
-  port: '80'
-  server: sgp01.4ghatde.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d
-  ws-opts:
-    headers:
-      Host: sgp01.4ghatde.com
-    path: /lq.4ghatde.com
 - alterId: 0
   cipher: auto
   name: 22,24|新加坡 04 | 1x SG
@@ -149,6 +120,47 @@ proxies:
   tls: true
   type: vmess
   uuid: 4e6c5094-65f1-4db6-8dd7-83a0d68ae132
+- alterId: 0
+  cipher: auto
+  name: '24,27|7,8|🇸🇬 Singapore 03 @nodpai #1'
+  network: ws
+  port: 80
+  server: 8.222.242.136
+  tls: false
+  type: vmess
+  uuid: 0a2163ae-7e05-3de8-9946-180c01a2f490
+  ws-opts:
+    path: /?ed=2050
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-167
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '27|Singapore-Contabo #2'
+  network: ws
+  port: '19079'
+  server: 183.232.230.62
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 069848ac-38c3-34e5-8e56-296788c59616
+  ws-opts:
+    headers:
+      Host: t.me.vpnhat
+    path: /dahjwuh
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2a1866b9-30a9-41d2-900f-da3b280516ec
 - alterId: 64
   cipher: auto
   name: 19|SG-159.223.94.156-173
@@ -164,23 +176,10 @@ proxies:
   ws-path: /anti13.zingfast.vn
 - alterId: 0
   cipher: auto
-  name: 14|新加坡_【YouTube-VV科技】
-  network: ws
-  port: 2082
-  server: 8.222.197.251
-  tls: false
-  type: vmess
-  uuid: 6db5d855-657d-4ede-9023-e594bb936d90
-  ws-opts:
-    headers:
-      Host: hostodo.galenet.online
-    path: /hostodo
-- alterId: 0
-  cipher: auto
-  name: '27|Singapore-Contabo #9'
+  name: '27|Singapore-Contabo #8'
   network: ws
   port: '19057'
-  server: 183.232.230.42
+  server: 183.232.230.44
   servername: ''
   tls: false
   type: vmess
@@ -205,10 +204,10 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '27|Singapore-Contabo #5'
+  name: '27|Singapore-Contabo #4'
   network: ws
   port: '19057'
-  server: 183.232.230.46
+  server: 183.232.230.45
   servername: ''
   tls: false
   type: vmess
@@ -219,135 +218,17 @@ proxies:
     path: /catnet
 - alterId: 0
   cipher: auto
-  name: '27|Singapore-Contabo #3'
+  name: 7,8|🇸🇬 Singapore 01 @nodpai
   network: ws
-  port: '19057'
-  server: 183.232.230.43
-  servername: ''
+  port: '2086'
+  server: cf-point2.handboy.top
   tls: false
   type: vmess
-  uuid: 069848ac-38c3-34e5-8e56-296788c59616
+  uuid: b5a330bc-6711-4a4f-bec6-d7f17b705b3c
   ws-opts:
     headers:
-      Host: t.me.vpnhat
-    path: /catnet
-- alterId: 0
-  cipher: auto
-  name: '24,27|7,8|「蛋挞云,流媒体全解锁」🇸🇬 SG 01 #1'
-  network: ws
-  port: 80
-  server: 54.169.79.3
-  tls: false
-  type: vmess
-  uuid: 0a2163ae-7e05-3de8-9946-180c01a2f490
-  ws-opts:
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1e0e88cf-8ed1-4dae-9478-cb18eee46075
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1e0e88cf-8ed1-4dae-9478-cb18eee46075
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_1002007
-  network: ws
-  port: '80'
-  server: 194.233.95.180
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '27|Singapore-Contabo #7'
-  network: ws
-  port: '19079'
-  server: 183.232.230.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 069848ac-38c3-34e5-8e56-296788c59616
-  ws-opts:
-    headers:
-      Host: t.me.vpnhat
-    path: /dahjwuh
-- alterId: 0
-  cipher: auto
-  name: '27|Singapore-Contabo #2'
-  network: ws
-  port: '19079'
-  server: 183.232.230.62
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 069848ac-38c3-34e5-8e56-296788c59616
-  ws-opts:
-    headers:
-      Host: t.me.vpnhat
-    path: /dahjwuh
-- cipher: aes-256-gcm
-  name: 19|SG-139.99.68.21-118
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 139.99.68.21
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '24,27|7,8|🇸🇬 Singapore 03 @nodpai #1'
-  network: ws
-  port: 80
-  server: 8.222.242.136
-  tls: false
-  type: vmess
-  uuid: 0a2163ae-7e05-3de8-9946-180c01a2f490
-  ws-opts:
-    path: /?ed=2050
-- alterId: 0
-  cipher: auto
-  name: 19|SG-51.79.223.202-075
-  network: ws
-  port: 80
-  server: 51.79.223.202
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d34b55f6-3e85-11ed-b327-7f562a0dd2e6
-  ws-headers:
-    Host: 51.79.223.202
-  ws-path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '27|Singapore-Contabo #8'
-  network: ws
-  port: '19057'
-  server: 183.232.230.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 069848ac-38c3-34e5-8e56-296788c59616
-  ws-opts:
-    headers:
-      Host: t.me.vpnhat
-    path: /catnet
+      Host: cf-point2.handboy.top
+    path: /asdas
 - alterId: 0
   cipher: auto
   name: 22,24|新加坡 05 | 1x SG
@@ -360,18 +241,18 @@ proxies:
   uuid: 4e6c5094-65f1-4db6-8dd7-83a0d68ae132
 - alterId: 0
   cipher: auto
-  name: 24|12|SG_36 |35.53Mb
+  name: '27|Singapore-Contabo #1'
   network: ws
-  port: 36788
-  server: 8.210.128.146
+  port: '19079'
+  server: 183.232.230.45
   servername: ''
   tls: false
   type: vmess
-  uuid: 34ae890c-eada-4160-f7ba-a2d9fba215af
+  uuid: 069848ac-38c3-34e5-8e56-296788c59616
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: t.me.vpnhat
+    path: /dahjwuh
 - alterId: 0
   cipher: auto
   name: '27|Singapore-Contabo #6'
@@ -388,6 +269,96 @@ proxies:
     path: /dahjwuh
 - alterId: 0
   cipher: auto
+  name: 24|12|SG_36 |35.53Mb
+  network: ws
+  port: 36788
+  server: 8.210.128.146
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 34ae890c-eada-4160-f7ba-a2d9fba215af
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_1002007
+  network: ws
+  port: '80'
+  server: 194.233.95.180
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_1002148
+  network: ws
+  port: '80'
+  server: sgp01.4ghatde.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d
+  ws-opts:
+    headers:
+      Host: sgp01.4ghatde.com
+    path: /lq.4ghatde.com
+- alterId: 32
+  cipher: auto
+  name: 19,20|SG-139.99.90.122-117
+  network: tcp
+  port: 443
+  server: 139.99.90.122
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  ws-headers:
+    Host: 139.99.90.122
+  ws-path: /
+- cipher: aes-256-gcm
+  name: 19|SG-139.99.68.21-118
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 139.99.68.21
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-169
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2a1866b9-30a9-41d2-900f-da3b280516ec
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡_【YouTube-VV科技】
+  network: ws
+  port: 2082
+  server: 8.222.197.251
+  tls: false
+  type: vmess
+  uuid: 6db5d855-657d-4ede-9023-e594bb936d90
+  ws-opts:
+    headers:
+      Host: hostodo.galenet.online
+    path: /hostodo
+- alterId: 0
+  cipher: auto
   name: 22,24|新加坡 06 | 1x SG
   network: tcp
   port: '31211'
@@ -396,15 +367,44 @@ proxies:
   tls: true
   type: vmess
   uuid: 4e6c5094-65f1-4db6-8dd7-83a0d68ae132
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-167
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
-  type: ss
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-169
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: '27|Singapore-Contabo #7'
+  network: ws
+  port: '19079'
+  server: 183.232.230.46
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 069848ac-38c3-34e5-8e56-296788c59616
+  ws-opts:
+    headers:
+      Host: t.me.vpnhat
+    path: /dahjwuh
+- alterId: 0
+  cipher: auto
+  name: '27|Singapore-Contabo #3'
+  network: ws
+  port: '19057'
+  server: 183.232.230.43
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 069848ac-38c3-34e5-8e56-296788c59616
+  ws-opts:
+    headers:
+      Host: t.me.vpnhat
+    path: /catnet
+- alterId: 0
+  cipher: auto
+  name: 19|SG-51.79.223.202-075
+  network: ws
+  port: 80
+  server: 51.79.223.202
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d34b55f6-3e85-11ed-b327-7f562a0dd2e6
+  ws-headers:
+    Host: 51.79.223.202
+  ws-path: /vmess
