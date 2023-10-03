@@ -1,67 +1,48 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 24|7|中转 🇯🇵 Japan 04 @nodpai
-  network: tcp
-  port: '50029'
-  server: 29.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇬🇧 United Kingdom 01 @nodpa...
-  network: tcp
-  port: '18085'
-  server: uk-zl-gy.115cloud.link
-  tls: false
-  type: vmess
-  uuid: ce99ab58-326a-33db-baaa-ffecd83b2387
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇯🇵 Japan 06 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 20583
-  server: lncu9.v2y.live
+  name: 8|中转 🇺🇸 United States 12 @nodpai
+  password: e6b79319-fc9f-4436-8050-305186c3a607
+  port: 19290
+  server: starspeed.tbh.iosds.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,24|中转 🇺🇸 United States 15 @nodpai
-  network: tcp
-  port: '50002'
-  server: 02.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇯🇵 Japan 03 @nodpai
-  network: tcp
-  port: '23608'
-  server: 8.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 7d68f34b-2eea-32c7-b795-9816d736ad00
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 07 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 57160
-  server: lncu9.v2y.live
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|中转 🇨🇳 China 03 @nodpai
+  name: '27|中转 🇺🇸 United States 11 @nodpai #1'
   network: ws
-  port: '80'
-  server: 36.150.27.31
-  tls: false
+  port: '443'
+  server: 199.188.107.153
+  tls: true
   type: vmess
-  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /path/1695809872050
+- alterId: 0
+  cipher: auto
+  name: '8,19,25,28|中转 🇭🇰 Hong Kong 01 @nodpai #1'
+  port: 16666
+  server: cn-guangzhou.applebench.tech
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 666d382c-d614-4129-aedb-06c63982820a
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇫🇷 France 03 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 47800
+  server: jscm9.v2y.live
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇭🇰 Hong Kong 02 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 26322
+  server: jscm9.v2y.live
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1,24|_US_->_DE_
@@ -77,76 +58,106 @@ proxies:
       host: vceu3.vpn66.eu.org
     path: /?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇫🇷 France 02 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 29902
-  server: jscm9.v2y.live
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇫🇷 France 03 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 44949
-  server: lncu9.v2y.live
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 09 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 46857
-  server: hl.v2y.live
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 8|中转 🇹🇼 Taiwan 01 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
   port: 61201
   server: jscm9.v2y.live
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|中转 🇨🇳 China 02 @nodpai
-  network: ws
-  port: '8886'
-  server: 39.164.141.100
-  tls: false
-  type: vmess
-  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 02 @nodpai
+  name: 8|中转 🇸🇬 Singapore 07 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 26322
+  port: 14228
   server: jscm9.v2y.live
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 24,26,27,31|15,17|🇨🇳_CN_中国->🇫🇷_FR_法国_23
+  network: tcp
+  port: 50041
+  server: 41.kccic2pa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇫🇷 France 01 @nodpai
+  name: 8|中转 🇦🇺 Australia 01 @nodpai
+  password: 3884b06d-610f-438f-8610-c8690511616e
+  port: 27254
+  server: dx.ktmwan.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇬 Singapore 11 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 48387
+  port: 14233
   server: lncu9.v2y.live
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 04 @nodpai
+  name: 8|中转 🇯🇵 Japan 01 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 49005
-  server: gd.v2y.live
+  port: 14213
+  server: jscm9.v2y.live
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇭🇰 Hong Kong 11 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 20386
+  server: jscm9.v2y.live
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 24,31|7,17|🇨🇳_CN_中国->🇺🇸_US_美国_6_27
+  name: 24,31|17|🇨🇳_CN_中国->🇺🇸_US_美国_3_9
   network: tcp
-  port: 50001
-  server: 01.kccic2pa.xyz
+  port: 50016
+  server: 36.140.102.11
   tls: false
   type: vmess
-  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
+  uuid: 9712f569-aa6b-4b75-a993-5eb7c1dd288d
+- alterId: 0
+  cipher: auto
+  name: 24,27,31|17|🇨🇳_CN_中国->🇺🇸_US_美国_4_2由快嘴科技...
+  network: ws
+  port: 46034
+  server: mf34fx.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: 81fbdd06-6aa2-42f7-b71a-2f71253d8bd3
+  ws-opts:
+    headers:
+      Host: mf34fx.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 7,24,27,31|中转 🇬🇧 United Kingdom 03 @nodpa...
+  network: tcp
+  port: '50009'
+  server: 09.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
+- alterId: 0
+  cipher: auto
+  name: 7,24,27|中转 🇺🇸 United States 11 @nodpai
+  network: tcp
+  port: '50003'
+  server: 03.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
+- alterId: 0
+  cipher: auto
+  name: 7,24,27,31|中转 🇦🇹 Austria 01 @nodpai
+  network: tcp
+  port: '50007'
+  server: 07.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
 - alterId: 0
   cipher: auto
   name: 24,31|17|🇺🇸_US_美国->🇱🇺_LU_卢森堡_由快嘴科技提供...
@@ -162,74 +173,68 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|7|中转 🇺🇸 United States 07 @nodp...
+  name: 24,27|7|中转 🇹🇼 Taiwan 01 @nodpai
   network: tcp
-  port: '50005'
-  server: 05.kccic2pa.xyz
+  port: '50008'
+  server: 08.kccic2pa.xyz
   tls: false
   type: vmess
   uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇫🇷 France 05 @nodpai
+  name: 8|中转 🇫🇷 France 04 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
   port: 46472
   server: lncu9.v2y.live
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 06 @nodpai
-  password: e6b79319-fc9f-4436-8050-305186c3a607
-  port: 47120
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 8|中转 🇭🇰 Hong Kong 10 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 20386
-  server: jscm9.v2y.live
+  port: 57160
+  server: lncu9.v2y.live
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,24,26,31|中转 🇩🇪 Germany 04 @nodpai
+  name: 7,27|中转 🇺🇸 United States 23 @nodpai
   network: tcp
-  port: '50041'
-  server: 41.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 3814af1d-9358-46d5-824d-567d4532e66e
-- alterId: 0
-  cipher: auto
-  name: 7,24|中转 🇭🇰 Hong Kong 05 @nodpai
-  network: tcp
-  port: '50010'
-  server: 10.kccic2pa.xyz
+  port: '50012'
+  server: 12.kccic2pa.xyz
   tls: false
   type: vmess
   uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇯🇵 Japan 07 @nodpai
+  name: 8|中转 🇸🇬 Singapore 08 @nodpai
+  password: d7bee830-09aa-43b2-8945-3b341b8787db
+  port: 24101
+  server: p1.bxy-fun2.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇺🇸 United States 14 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 14213
+  port: 47079
   server: jscm9.v2y.live
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8,24|中转 🇨🇳 China 04 @nodpai
-  network: ws
-  port: '443'
-  server: 36.150.27.31
+  name: 7,24,27,31|中转 🇺🇸 United States 20 @nodpai
+  network: tcp
+  port: '50001'
+  server: 01.kccic2pa.xyz
   tls: false
   type: vmess
-  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 11 @nodpai
+  name: 8|中转 🇸🇬 Singapore 04 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 17763
+  server: jscm9.v2y.live
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇺🇸 United States 13 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
   port: 41224
   server: lncu9.v2y.live
@@ -237,39 +242,40 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇩🇪 Germany 06 @nodpai
-  network: ws
-  port: '23616'
-  server: 16.v2-ray.cyou
+  name: 24,27|7|中转 🇺🇸 United States 07 @nodp...
+  network: tcp
+  port: '50005'
+  server: 05.kccic2pa.xyz
   tls: false
   type: vmess
-  uuid: 7d68f34b-2eea-32c7-b795-9816d736ad00
-  ws-opts:
-    headers:
-      Host: 16.v2-ray.cyou
-    path: /
+  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 07 @nodpai
+  name: 8|中转 🇭🇰 Hong Kong 13 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 32686
+  port: 46857
   server: hl.v2y.live
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇬🇧 United Kingdom 06 @nodpa...
-  network: ws
-  port: '23605'
-  server: 5.v2-ray.cyou
+  name: 7,24,27|中转 🇺🇸 United States 10 @nodpai
+  network: tcp
+  port: '50004'
+  server: 04.kccic2pa.xyz
   tls: false
   type: vmess
-  uuid: 7d68f34b-2eea-32c7-b795-9816d736ad00
-  ws-opts:
-    headers:
-      Host: 5.v2-ray.cyou
-    path: /
+  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
+- alterId: 0
+  cipher: auto
+  name: 7,24,27|中转 🇯🇵 Japan 17 @nodpai
+  network: tcp
+  port: '50029'
+  server: 29.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 03 @nodpai
+  name: 8|中转 🇭🇰 Hong Kong 06 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
   port: 15549
   server: gd.v2y.live
@@ -277,74 +283,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 24,31|7,17|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提...
+  name: 7|中转 🇸🇬 Singapore 13 @nodpai
   network: tcp
-  port: 50016
-  server: 16.kccic2pa.xyz
+  port: '26768'
+  server: sg-gy.115cloud.link
   tls: false
   type: vmess
-  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
+  uuid: ce99ab58-326a-33db-baaa-ffecd83b2387
 - alterId: 0
   cipher: auto
-  name: 24|7|中转 🇹🇼 Taiwan 01 @nodpai
-  network: tcp
-  port: '50008'
-  server: 08.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
-- alterId: 0
-  cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国->🇮🇳_IN_印度_2_24
-  network: tcp
-  port: 40887
-  server: shct.pmxu.link
-  tls: false
-  type: vmess
-  uuid: 5e7565bb-2a3f-37dc-8528-6c47cd88e01b
-- alterId: 0
-  cipher: auto
-  name: 7,8|中转 🇺🇸 United States 24 @nodpai
-  network: ws
-  port: '23615'
-  server: 15.v2-ray.cyou
-  tls: false
-  type: vmess
-  uuid: 7d68f34b-2eea-32c7-b795-9816d736ad00
-  ws-opts:
-    headers:
-      Host: 15.v2-ray.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇭🇰 Hong Kong 01 @nodpai
-  network: tcp
-  port: '16666'
-  server: cn-guangzhou.applebench.tech
-  tls: false
-  type: vmess
-  uuid: 666d382c-d614-4129-aedb-06c63982820a
-- alterId: 0
-  cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国->🇺🇸_US_美国_5_26
-  network: tcp
-  port: 50017
-  server: 17.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
-- alterId: 0
-  cipher: auto
-  name: 7,10,15,19,20,24,26|中转 🇨🇳 China 05 @nodpai
-  network: tcp
-  port: '51165'
-  server: 183.233.187.214
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 7,24|中转 🇺🇸 United States 22 @nodpai
+  name: 24,27|7|中转 🇺🇸 United States 21 @nodp...
   network: tcp
   port: '50014'
   server: 14.kccic2pa.xyz
@@ -353,7 +301,7 @@ proxies:
   uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇩🇪 Germany 05 @nodpai
+  name: 7,8|中转 🇩🇪 Germany 02 @nodpai
   network: ws
   port: '23618'
   server: 18.v2-ray.cyou
@@ -365,30 +313,179 @@ proxies:
       Host: 18.v2-ray.cyou
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇫🇷 France 04 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 47800
-  server: jscm9.v2y.live
+  name: 8,28|中转 🇯🇵 Japan 02 @nodpai
+  password: e6b79319-fc9f-4436-8050-305186c3a607
+  port: 25854
+  server: starspeed.tbh.iosds.com
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,24,31|中转 🇬🇧 United Kingdom 02 @nodpa...
+  name: 7,27|中转 🇱🇺 Luxembourg 01 @nodpai
   network: tcp
-  port: '50009'
-  server: 09.kccic2pa.xyz
+  port: '18353'
+  server: cn-guangzhou.applebench.tech
   tls: false
   type: vmess
-  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
+  uuid: a0043275-5033-4923-9f22-b2f466a8794a
 - alterId: 0
   cipher: auto
-  name: 7,24|中转 🇺🇸 United States 14 @nodpai
+  name: '24|7,8|中转 🇨🇳 China 05 @nodpai #1'
+  network: ws
+  port: 19709
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|7|中转 🇭🇰 Hong Kong 04 @nodpai
   network: tcp
-  port: '50003'
-  server: 03.kccic2pa.xyz
+  port: '50010'
+  server: 10.kccic2pa.xyz
   tls: false
   type: vmess
   uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇫🇷 France 02 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 29902
+  server: jscm9.v2y.live
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇭🇰 Hong Kong 12 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 39247
+  server: gd.v2y.live
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇯🇵 Japan 08 @nodpai
+  network: tcp
+  port: '23608'
+  server: 8.v2-ray.cyou
+  tls: false
+  type: vmess
+  uuid: 7d68f34b-2eea-32c7-b795-9816d736ad00
+- alterId: 0
+  cipher: auto
+  name: 7,24,27|中转 🇺🇸 United States 15 @nodpai
+  network: tcp
+  port: '50002'
+  server: 02.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇫🇷 France 01 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 48387
+  server: lncu9.v2y.live
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2,3,4,6,13,20,24,27,31|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 8880
+  server: yd1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 7,27|中转 🇬🇧 United Kingdom 01 @nodpa...
+  network: tcp
+  port: '18085'
+  server: uk-zl-gy.115cloud.link
+  tls: false
+  type: vmess
+  uuid: ce99ab58-326a-33db-baaa-ffecd83b2387
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇬 Singapore 06 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 44649
+  server: hl.v2y.live
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 2,3,4,6,13,20,24,25,26,27,31|🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国
+  network: ws
+  port: 443
+  server: csgo.com
+  tls: true
+  type: vmess
+  uuid: 6383e7fb-3128-41de-e6cf-5db0868f84fe
+  ws-opts:
+    headers:
+      Host: scp.cloudflare88.eu.org
+    path: /scp比赛专用节点
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇯🇵 Japan 03 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 20583
+  server: lncu9.v2y.live
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 24,27,31|7,17|🇨🇳_CN_中国->🇺🇸_US_美国_由快嘴科技提...
+  network: tcp
+  port: 50016
+  server: 16.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
+- alterId: 0
+  cipher: auto
+  name: 24,31|17|🇨🇳_CN_中国->🇮🇳_IN_印度_2_24
+  network: tcp
+  port: 40887
+  server: shct.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 5e7565bb-2a3f-37dc-8528-6c47cd88e01b
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇫🇷 France 05 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 44949
+  server: lncu9.v2y.live
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 24,31|17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：...
+  network: tcp
+  port: 16682
+  server: shct.pmxu.link
+  tls: false
+  type: vmess
+  uuid: 5e7565bb-2a3f-37dc-8528-6c47cd88e01b
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇸🇬 Singapore 05 @nodpai
+  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
+  port: 32686
+  server: hl.v2y.live
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,9,24,26,27|中转 🇭🇰 Hong Kong 14 @nodpai
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 1,24|_CY_->_DE_
@@ -403,167 +500,57 @@ proxies:
     headers:
       host: scp.cloudflare88.eu.org
     path: /scp
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 06 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 14228
-  server: jscm9.v2y.live
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2,3,4,6,13,20,24,25,26,31|🇨🇾_CY_塞浦路斯->🇩🇪_DE_德国
+  name: 7,8,24,27|中转 🇨🇳 China 03 @nodpai
   network: ws
-  port: 443
-  server: csgo.com
-  tls: true
-  type: vmess
-  uuid: 6383e7fb-3128-41de-e6cf-5db0868f84fe
-  ws-opts:
-    headers:
-      Host: scp.cloudflare88.eu.org
-    path: /scp比赛专用节点
-- alterId: 0
-  cipher: auto
-  name: 7,24,31|中转 🇦🇹 Austria 01 @nodpai
-  network: tcp
-  port: '50007'
-  server: 07.kccic2pa.xyz
+  port: '8886'
+  server: 39.164.141.100
   tls: false
   type: vmess
-  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
+  uuid: 29652e15-ce1e-4eb5-9df5-90b65adc425a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24,27,31|17|🇨🇳_CN_中国->🇺🇸_US_美国_5_26
+  network: tcp
+  port: 50017
+  server: 17.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 11 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 39247
-  server: gd.v2y.live
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 25 @nodpai
+  name: 8|中转 🇺🇸 United States 09 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
   port: 59927
   server: jscm9.v2y.live
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8,28|中转 🇯🇵 Japan 11 @nodpai
-  password: e6b79319-fc9f-4436-8050-305186c3a607
-  port: 25854
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,24,31|中转 🇺🇸 United States 13 @nodpai
-  network: tcp
-  port: '50020'
-  server: 20.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,6,13,20,24,31|🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 8880
-  server: yd1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇭🇰 Hong Kong 04 @nodpai
+  name: 8|中转 🇸🇬 Singapore 03 @nodpai
   password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 14233
-  server: lncu9.v2y.live
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇩🇪 Germany 02 @nodpai
-  password: 3884b06d-610f-438f-8610-c8690511616e
-  port: 27257
-  server: lt.ktmwan.top
+  port: 49005
+  server: gd.v2y.live
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 7,24|中转 🇺🇸 United States 18 @nodpai
+  name: 7,27|中转 🇭🇰 Hong Kong 01 @nodpai
   network: tcp
-  port: '50004'
-  server: 04.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 0440fbeb-687d-4209-96bd-9e20dd109a3e
-- alterId: 0
-  cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国->🇺🇸_US_美国_4_2由快嘴科技...
-  network: ws
-  port: 46034
-  server: mf34fx.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: 81fbdd06-6aa2-42f7-b71a-2f71253d8bd3
-  ws-opts:
-    headers:
-      Host: mf34fx.micloud.buzz
-    path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 29 @nodpai
-  password: e6b79319-fc9f-4436-8050-305186c3a607
-  port: 19290
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国->🇺🇸_US_美国_3_9
-  network: tcp
-  port: 50016
-  server: 36.140.102.11
-  tls: false
-  type: vmess
-  uuid: 9712f569-aa6b-4b75-a993-5eb7c1dd288d
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 16 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 47079
-  server: jscm9.v2y.live
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 05 @nodpai
-  password: e6b79319-fc9f-4436-8050-305186c3a607
-  port: 26963
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇸🇬 Singapore 08 @nodpai
-  password: 418def47-b3ee-4a35-947d-a891c82bb9ec
-  port: 44649
-  server: hl.v2y.live
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '8,19,25,28|中转 🇭🇰 Hong Kong 01 @nodpai #1'
-  port: 16666
+  port: '16666'
   server: cn-guangzhou.applebench.tech
-  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
   uuid: 666d382c-d614-4129-aedb-06c63982820a
 - alterId: 0
   cipher: auto
-  name: 24,31|17|🇨🇳_CN_中国->🇮🇳_IN_印度_由快嘴科技提供：...
+  name: 24,27,31|7,17|🇨🇳_CN_中国->🇺🇸_US_美国_2_7
   network: tcp
-  port: 16682
-  server: shct.pmxu.link
+  port: 50020
+  server: 20.kccic2pa.xyz
   tls: false
   type: vmess
-  uuid: 5e7565bb-2a3f-37dc-8528-6c47cd88e01b
+  uuid: 027c4518-7488-4b12-9fc4-65af80c6af75
