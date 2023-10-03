@@ -1,14 +1,51 @@
 proxies:
 - alterId: 0
+  cipher: auto
+  name: 7,8|🇫🇷 France 03 @nodpai
+  network: ws
+  port: '80'
+  server: 941.outline-vpn.cloud
+  tls: false
+  type: vmess
+  uuid: a1a676e4-016e-4bf0-96fe-4b6aaf53abc2
+  ws-opts:
+    headers:
+      Host: 941.outline-vpn.cloud
+    path: /
+- alterId: 0
   cipher: aes-128-gcm
-  name: 9|法国_1003096
+  name: 9|法国_1003083
   network: tcp
-  port: '1950'
-  server: 51.159.183.138
+  port: '443'
+  server: 51.158.238.229
   servername: ''
   tls: false
   type: vmess
-  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
+  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+- alterId: 64
+  cipher: auto
+  name: 1,4,19,20,24|_FR_
+  network: tcp
+  port: 54885
+  server: 156.249.18.204
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_fnet00
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 0
   cipher: aes-128-gcm
   name: 9|法国_1003098
@@ -19,41 +56,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
-- alterId: 0
-  cipher: auto
-  name: 9|法国_1003017
-  network: ws
-  port: '80'
-  server: ge1.09vpn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1fe0048e-9e4e-4b7b-894f-c7cafa2b962d
-  ws-opts:
-    headers:
-      Host: ge1.09vpn.com
-    path: /vmess/
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0009
-  obfs: tls1.2_ticket_auth
-  obfs-param: None
-  password: RcfVcDzzB
-  port: 8181
-  protocol: origin
-  protocol-param: Non%
-  server: fr-am1-5.eqsunshine.com
-  type: ssr
-  udp: true
 - cipher: aes-256-cfb
   name: 28|FR_speednode_0010
   obfs: tls1.2_ticket_auth
@@ -78,26 +80,17 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1003081
-  network: tcp
-  port: '443'
-  server: sw-51.158.241.70.nip.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1003083
-  network: tcp
-  port: '443'
-  server: 51.158.238.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0009
+  obfs: tls1.2_ticket_auth
+  obfs-param: None
+  password: RcfVcDzzB
+  port: 8181
+  protocol: origin
+  protocol-param: Non%
+  server: fr-am1-5.eqsunshine.com
+  type: ssr
+  udp: true
 - alterId: 0
   cipher: auto
   grpc-opts:
@@ -124,16 +117,50 @@ proxies:
     headers:
       Host: 54.38.79.75
     path: /5fe9v7or
-- alterId: 64
-  cipher: auto
-  name: 1,4,19,20,24|_FR_
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_1003081
   network: tcp
-  port: 54885
-  server: 156.249.18.204
-  skip-cert-verify: true
+  port: '443'
+  server: sw-51.158.241.70.nip.io
+  servername: ''
   tls: false
   type: vmess
-  uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687
+  uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
+- alterId: 0
+  cipher: auto
+  name: 9|法国_1003017
+  network: ws
+  port: '80'
+  server: ge1.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1fe0048e-9e4e-4b7b-894f-c7cafa2b962d
+  ws-opts:
+    headers:
+      Host: ge1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_1003096
+  network: tcp
+  port: '1950'
+  server: 51.159.183.138
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
@@ -158,17 +185,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
