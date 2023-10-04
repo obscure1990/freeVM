@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 179e31ce-8c72-47eb-ac4d-086ebb7c03f1
+- alterId: 0
+  cipher: auto
   name: 24|12|🇨🇦 加拿大 150
   network: ws
   port: 80
@@ -25,17 +35,15 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 19|CA-104.247.81.72-103
+  name: '24,27|7,8|🇨🇦 Canada 01 @nodpai #1'
   network: ws
-  port: 443
-  server: yu.miaoge110.cf
-  skip-cert-verify: true
+  port: 80
+  server: 172.67.98.182
   tls: false
   type: vmess
-  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-  ws-headers:
-    Host: yu.miaoge110.cf
-  ws-path: /
+  uuid: 275f19a0-1cf0-4ebb-a0c3-285edba39afb
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 145
@@ -52,25 +60,37 @@ proxies:
     path: /526-dekDP6Otf
 - alterId: 0
   cipher: auto
-  name: '24,27|7,8|🇨🇦 Canada 01 @nodpai #1'
+  name: 19|CA-104.247.81.72-103
   network: ws
-  port: 80
-  server: 172.67.98.182
+  port: 443
+  server: yu.miaoge110.cf
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 275f19a0-1cf0-4ebb-a0c3-285edba39afb
-  ws-opts:
-    path: /
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  ws-headers:
+    Host: yu.miaoge110.cf
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
+  name: 9|加拿大_1003001
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 179e31ce-8c72-47eb-ac4d-086ebb7c03f1
+  uuid: f0443818-3d33-4682-84b8-f2af699dc50a
 - alterId: 0
   cipher: auto
   name: 19|CA-104.247.81.72-104
@@ -84,26 +104,6 @@ proxies:
   ws-headers:
     Host: riop.miaoge110.cf
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a2f00e2d-24c7-4f4c-8e29-c880dcb7989d
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1003001
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
