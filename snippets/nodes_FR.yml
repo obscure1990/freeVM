@@ -9,6 +9,36 @@ proxies:
   tls: false
   type: vmess
   uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_1004094
+  network: tcp
+  port: '1950'
+  server: 51.159.183.138
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_1004096
+  network: tcp
+  port: '443'
+  server: 135.125.135.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -22,23 +52,16 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
-- cipher: chacha20-ietf-poly1305
-  name: 28|FR_speednode_0011
-  password: kjVmMRhktk0komOc
-  port: 2087
-  server: 51.195.41.122
-  type: ss
-  udp: true
 - alterId: 0
   cipher: aes-128-gcm
-  name: 9|法国_1004094
+  name: 9|法国_1004085
   network: tcp
   port: '1950'
-  server: 51.159.183.138
+  server: 163.172.160.133
   servername: ''
   tls: false
   type: vmess
-  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
+  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_fnet00
@@ -53,35 +76,6 @@ proxies:
     headers:
       Host: bl.shabijichang.com
     path: /
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0012
-  obfs: tls1.2_ticket_auth
-  password: RcfVcDzzB
-  port: 8181
-  protocol: origin
-  protocol-param: Non%%
-  server: fr-am1-5.eqsunshine.com
-  type: ssr
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1004085
-  network: tcp
-  port: '1950'
-  server: 163.172.160.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1004096
-  network: tcp
-  port: '443'
-  server: 135.125.135.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
 - alterId: 0
   cipher: auto
   grpc-opts:
@@ -109,30 +103,6 @@ proxies:
       Host: 54.38.79.75
     path: /5fe9v7or
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- alterId: 0
-  cipher: auto
-  name: 18,24|🇫🇷_FR_法国_free4allVPN
-  network: ws
-  port: '443'
-  server: phosphorylative.aurorainiceland.com
-  servername: phosphorylative.aurorainiceland.com
-  tls: true
-  type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
-  ws-opts:
-    headers:
-      Host: phosphorylative.aurorainiceland.com
-    path: /nimvws
-- alterId: 0
   cipher: auto
   name: 9|法国_1004017
   network: ws
@@ -156,3 +126,47 @@ proxies:
   tls: false
   type: vmess
   uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0012
+  obfs: tls1.2_ticket_auth
+  password: RcfVcDzzB
+  port: 8181
+  protocol: origin
+  protocol-param: Non%%
+  server: fr-am1-5.eqsunshine.com
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 18,20,24,27|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18,24|🇫🇷_FR_法国_free4allVPN
+  network: ws
+  port: '443'
+  server: phosphorylative.aurorainiceland.com
+  servername: phosphorylative.aurorainiceland.com
+  tls: true
+  type: vmess
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  ws-opts:
+    headers:
+      Host: phosphorylative.aurorainiceland.com
+    path: /nimvws
+- cipher: chacha20-ietf-poly1305
+  name: 28|FR_speednode_0011
+  password: kjVmMRhktk0komOc
+  port: 2087
+  server: 51.195.41.122
+  type: ss
+  udp: true
