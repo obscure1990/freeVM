@@ -1,112 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 20,27|🇺🇸 _US_美国->🇨🇱_CL_智利
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
-  ws-opts:
-    headers:
-      Host: sdyg.shabijichang.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇮🇳 India 01 @nodpai
-  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-  port: 10706
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_AU_
-  network: ws
-  port: 80
-  server: fd.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  ws-opts:
-    headers:
-      host: mrb.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '20|🇺🇸 _US_美国->🇩🇪_DE_德国 #3'
-  network: ws
-  port: '8080'
-  server: 162.159.129.245
-  tls: false
-  type: vmess
-  uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3
-  ws-opts:
-    headers:
-      Host: eu5.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_DE__1
-  network: ws
-  port: 8880
-  server: yd1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇳🇱 Netherlands 01 @nodpai
-  password: 4cf75408-967d-41c4-bf89-80517807e26f
-  port: 27117
-  server: foshan.chiguayun.cc
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,6,13,24,27,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 20,24,25,26,27|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: '2052'
-  server: cf.yx.alue.link
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_DE__3
-  network: ws
-  port: 8880
-  server: dx1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
 - alterId: 64
   cipher: auto
   name: 1,24|_US_->_NL_
@@ -123,10 +15,10 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,13,20,24,27|🇺🇸 _US_美国->🇩🇪_DE_德国 #2'
+  name: 0,2,3,4,6,13,20,24,27|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
   port: '8880'
-  server: lt1.992688.xyz
+  server: dx1.992688.xyz
   tls: false
   type: vmess
   uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
@@ -134,6 +26,27 @@ proxies:
     headers:
       Host: vceu3.vpn66.eu.org
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1,24|_US_->_DE__2
+  network: ws
+  port: 8880
+  server: lt1.992688.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇮🇳 India 01 @nodpai
+  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
+  port: 10706
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
 - name: 1|_JP_->_IN_
   network: tcp
   password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4
@@ -156,13 +69,45 @@ proxies:
     headers:
       host: ssrsub.v003.ssrsub.com
     path: /api/v3/download.getFile
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 01 @nodpai
-  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-  port: 10709
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '20,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡 #1'
+  network: ws
+  port: '2052'
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,13,20,24,27|🇺🇸 _US_美国->🇩🇪_DE_德国 #2'
+  network: ws
+  port: '8880'
+  server: lt1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 2,4,6,13,24,27,31|🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+  network: ws
+  port: 80
+  server: cf-lt.sharecentre.online
+  tls: false
+  type: vmess
+  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
+  ws-opts:
+    headers:
+      Host: ssrsub.v003.ssrsub.com
+    path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
   name: '0,3,6,13,24,27,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
@@ -176,13 +121,66 @@ proxies:
     headers:
       Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
     path: /phosphorylative.aurorainiceland.com/nimvws
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,13,20,24,27,31|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: '8880'
+  server: yd1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 1,24|_US_->_DE__1
+  network: ws
+  port: 8880
+  server: yd1.992688.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      host: vceu3.vpn66.eu.org
+    path: /?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇪🇸 Spain 01 @nodpai
+  name: 8|中转 🇺🇸 United States 02 @nodpai
   password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
-  port: 10720
+  port: 10709
   server: yidong.liulangdiqiu.cyou
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,13,24,27|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  ws-opts:
+    headers:
+      Host: mrb.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,2,3,4,6,13,24,27,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
 - alterId: 0
   cipher: auto
   name: 20|🇺🇸 _CN_中国->🇺🇸_US_美国
@@ -211,62 +209,37 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,13,20,24,27,31|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  name: 1,24|_US_->_AU_
   network: ws
-  port: '8880'
-  server: yd1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,13,24,27|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-  network: ws
-  port: '80'
+  port: 80
   server: fd.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
   ws-opts:
     headers:
-      Host: mrb.shabijichang.com
+      host: mrb.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,13,20,24,27|🇺🇸 _US_美国->🇩🇪_DE_德国
+  name: 20,24,25,26,27|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
   network: ws
-  port: '8880'
-  server: dx1.992688.xyz
+  port: '2052'
+  server: cf.yx.alue.link
   tls: false
   type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
   ws-opts:
     headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
+      Host: lu.wx.alue.link
+    path: /
 - alterId: 0
   cipher: auto
-  name: 2,4,6,13,24,27,31|🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
-  network: ws
-  port: 80
-  server: cf-lt.sharecentre.online
-  tls: false
-  type: vmess
-  uuid: bffa23aa-ae0a-4c02-af77-2a14c8c0b81c
-  ws-opts:
-    headers:
-      Host: ssrsub.v003.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_DE__2
+  name: 1,24|_US_->_DE__3
   network: ws
   port: 8880
-  server: lt1.992688.xyz
+  server: dx1.992688.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -277,21 +250,41 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '20,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡 #1'
+  name: 20,27|🇺🇸 _US_美国->🇨🇱_CL_智利
   network: ws
-  port: '2052'
-  server: 162.159.152.6
+  port: '80'
+  server: fd.shabijichang.com
   tls: false
   type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
   ws-opts:
     headers:
-      Host: lu.wx.alue.link
+      Host: sdyg.shabijichang.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 8,19|中转 🇹🇷 Turkey 01 @nodpai
-  password: 4cf75408-967d-41c4-bf89-80517807e26f
-  port: 27130
-  server: foshan.chiguayun.cc
+  name: 8|中转 🇩🇪 Germany 01 @nodpai
+  password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3
+  port: 27208
+  server: fs.xianyuwangluo.cyou
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8,19|中转 🇸🇦 Saudi Arabia 01 @nodpai
+  password: 6fc1c0c5-9851-4b06-accd-77d422cf8385
+  port: 10721
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '20|🇺🇸 _US_美国->🇩🇪_DE_德国 #3'
+  network: ws
+  port: '8080'
+  server: 162.159.129.245
+  tls: false
+  type: vmess
+  uuid: fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3
+  ws-opts:
+    headers:
+      Host: eu5.vpn66.eu.org
+    path: /?ed=2048
