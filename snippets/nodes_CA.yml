@@ -1,9 +1,22 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 7,8,24,27|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: 172.67.98.182
+  tls: false
+  type: vmess
+  uuid: 275f19a0-1cf0-4ebb-a0c3-285edba39afb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-155
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 134.195.198.95
+  name: 19|CA-134.195.196.149-074
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.149-179
@@ -12,9 +25,9 @@ proxies:
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.149-065
-  password: kDWvXYZoTBcGkC4
-  port: 8882
+  name: 19|CA-134.195.196.149-183
+  password: g5MeD6Ft3CWlJId
+  port: 5003
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
@@ -23,11 +36,21 @@ proxies:
   port: 2375
   server: 134.195.198.95
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.149-075
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 134.195.196.149
+  name: 19|CA-134.195.198.95-156
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.198.95
   type: ss
 - alterId: 0
   cipher: auto
@@ -39,10 +62,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.149-190
+  name: 19|CA-134.195.196.149-075
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 134.195.196.149
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.149-065
   password: kDWvXYZoTBcGkC4
-  port: 8881
+  port: 8882
   server: 134.195.196.149
   type: ss
 - cipher: aes-256-gcm
@@ -51,6 +90,32 @@ proxies:
   port: 7307
   server: 134.195.196.149
   type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-155
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.149-190
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 134.195.196.149
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇨🇦 加拿大 187
+  network: ws
+  port: 443
+  server: 172.67.132.15
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  ws-opts:
+    headers:
+      Host: ming2.kiwireich.com
+    path: /ray
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.149-072
   password: TEzjfAYq2IjtuoS
@@ -68,27 +133,9 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.149-186
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 134.195.196.149
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.149-183
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.196.149
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-156
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 134.195.198.95
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.149-074
-  password: XKFKl2rULjIp74
-  port: 8009
+  name: 19|CA-134.195.196.149-187
+  password: PCnnH6SQSnfoS27
+  port: 8090
   server: 134.195.196.149
   type: ss
 - alterId: 0
@@ -105,42 +152,8 @@ proxies:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.149-187
-  password: PCnnH6SQSnfoS27
-  port: 8090
+  name: 19|CA-134.195.196.149-186
+  password: Y6R9pAtvxxzmGC
+  port: 3306
   server: 134.195.196.149
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 7f7193c2-b975-4b5d-b59d-17db06a49095
-- alterId: 0
-  cipher: auto
-  name: 24,27|11,12|🇨🇦 加拿大 166
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5fc246e0-5f1f-41d3-bf63-e58661a3f1d7
