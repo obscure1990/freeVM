@@ -1,4 +1,30 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,13,15,20,24,27,30|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  ws-opts:
+    headers:
+      Host: mrb.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,9,13,24,27,30|🇺🇸_US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: 2052
+  server: 104.16.68.38
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
 - alterId: 64
   cipher: auto
   name: '0,2,3,4,16,20,24,27,30|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
@@ -12,6 +38,32 @@ proxies:
     headers:
       Host: www.42077230.xyz
     path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,13,20,24,25,26,27,30|🇺🇸 _CN_中国->🇺🇸_US_美国
+  network: ws
+  port: '61001'
+  server: 112.29.156.248
+  tls: false
+  type: vmess
+  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
+  ws-opts:
+    headers:
+      Host: a.cn-db.top
+    path: /dabai.in
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,20,24,30|🇺🇸 _US_美国->🇩🇪_DE_德国
+  network: ws
+  port: '8880'
+  server: dx1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 1,24|_US_->_AU_
@@ -28,63 +80,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,24|_CN_->_US__1
-  network: ws
-  port: 61001
-  server: 112.29.156.248
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
-  ws-opts:
-    headers:
-      host: a.cn-db.top
-    path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,13,15,20,24,27,30|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  ws-opts:
-    headers:
-      Host: mrb.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,20,24,30|🇺🇸 _US_美国->🇩🇪_DE_德国
-  network: ws
-  port: '8880'
-  server: dx1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,20,24,27|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '2082'
-  server: 104.17.88.252
-  tls: false
-  type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
-  ws-opts:
-    headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /phosphorylative.aurorainiceland.com/nimvws
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_DE__2
+  name: 1,24|_US_->_DE__1
   network: ws
   port: 8880
-  server: lt1.992688.xyz
+  server: dx1.992688.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -118,32 +117,6 @@ proxies:
     path: /phosphorylative.aurorainiceland.com/nimvws
 - alterId: 0
   cipher: auto
-  name: 6,9,13,24,27,30|🇺🇸_US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: 2052
-  server: 104.16.68.38
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6,13,20,24,27,30|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: '8880'
-  server: lt1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 1,17,24|_US_->_IR_
   network: ws
   port: 2052
@@ -158,10 +131,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,24|_US_->_DE__1
+  name: 1,24|_US_->_DE__2
   network: ws
   port: 8880
-  server: dx1.992688.xyz
+  server: lt1.992688.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -170,32 +143,6 @@ proxies:
     headers:
       host: vceu3.vpn66.eu.org
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,13,15,16,20,24,27,28,30|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '2052'
-  server: cf.yx.alue.link
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: us.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,13,20,24,25,26,27,30|🇺🇸 _CN_中国->🇺🇸_US_美国
-  network: ws
-  port: '61001'
-  server: 112.29.156.248
-  tls: false
-  type: vmess
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
-  ws-opts:
-    headers:
-      Host: a.cn-db.top
-    path: /dabai.in
 - alterId: 64
   cipher: auto
   name: 1,17,24|_US_->_NL__2
@@ -212,6 +159,32 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
+  name: 0,2,3,4,6,13,15,16,20,24,27,28,30|🇺🇸 _US_美国->🇮🇷_IR_伊朗
+  network: ws
+  port: '2052'
+  server: cf.yx.alue.link
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: us.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,6,13,20,24,27,30|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: '8880'
+  server: lt1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    headers:
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 6,13,24,25,26,27|🇨🇳_CN_中国->🇭🇰_HK_香港
   network: ws
   port: 61004
@@ -223,3 +196,30 @@ proxies:
     headers:
       Host: a.db-link.in
     path: /dabai.in
+- alterId: 0
+  cipher: auto
+  name: 1,24|_CN_->_US__1
+  network: ws
+  port: 61001
+  server: 112.29.156.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
+  ws-opts:
+    headers:
+      host: a.cn-db.top
+    path: /dabai.in
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,20,24,27|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '2082'
+  server: 104.17.88.252
+  tls: false
+  type: vmess
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  ws-opts:
+    headers:
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /phosphorylative.aurorainiceland.com/nimvws
