@@ -1,58 +1,139 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|CN-111.38.37.25-095
+  name: 19|CN-210.75.24.220-146
   network: ws
-  port: 3074
+  port: 443
+  server: 210.75.24.220
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a928a26c-2adb-45fe-e57d-8a27dade309e
+  ws-headers:
+    Host: sgarm.ptuu.cf
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-111.45.22.246-120
+  network: tcp
+  port: 16111
+  server: 111.45.22.246
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
+  ws-headers:
+    Host: 111.45.22.246
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 19,20|CN-111.23.252.218-092
+  network: tcp
+  port: 59902
+  server: 111.23.252.218
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 111.23.252.218
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-211
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|CN-14.29.161.95-105
+  network: ws
+  port: 3114
   server: iplc01.my1188.org
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: ca039e98-434d-31a5-9627-051921079ca6
   ws-headers:
-    Host: tw03.yaofan.in168.net
+    Host: hkg01.pqs.in168.net
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 14|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 19|CN-112.29.156.248-012
+  name: 19|CN-121.204.135.91-137
   network: ws
-  port: 61001
-  server: 112.29.156.248
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
-  ws-headers:
-    Host: a.cn-db.top
-  ws-path: /dabai.in
-- alterId: 0
-  cipher: auto
-  name: 19|CN-183.249.20.149-036
-  network: ws
-  port: 64087
-  server: in06.my1188.org
+  port: 3104
+  server: iplc01.my1188.org
   skip-cert-verify: true
   tls: true
   type: vmess
   uuid: ca039e98-434d-31a5-9627-051921079ca6
   ws-headers:
-    Host: sg-balancer.tencent.best
-  ws-path: /biteb
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-192
-  password: 4cf75408-967d-41c4-bf89-80517807e26f
-  port: 27120
-  server: hefei.chiguayun.cc
-  type: ss
+    Host: ru02.iepl.nbsd.us
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: '16,17,27|@hkaa0||中国 #3'
+  network: tcp
+  port: 1302
+  server: 120.232.235.157
+  tls: false
+  type: vmess
+  uuid: 1837498a-bd38-337b-a123-f03dad7d15e9
+- alterId: 64
+  cipher: auto
+  name: 9,16,17,24,26,27|中国_1007009
+  network: tcp
+  port: '39971'
+  server: 183.240.232.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 9,16,17,24,26,27|中国_1007092
+  network: tcp
+  port: '51904'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19|CN-121.204.135.91-104
+  network: ws
+  port: 3144
+  server: iplc01.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: hkt01.pqs-vds.in168.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '16,17,24,27,30|@hkaa0||中国 #1'
+  network: tcp
+  port: 35105
+  server: tanz-board.kunlun-one.com
+  tls: false
+  type: vmess
+  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
+- alterId: 0
+  cipher: auto
+  name: 19|CN-121.204.135.91-089
+  network: ws
+  port: 3174
+  server: iplc01.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: hk-fdc1.nbsd.us
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19|CN-183.249.20.143-133
@@ -66,110 +147,18 @@ proxies:
   ws-headers:
     Host: uk01-iepl.nbsd.us
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-183.240.117.54-123
-  network: tcp
-  port: 36679
-  server: 3.sg.zz.xxxxx.x-t-fuckword.network
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 3.sg.zz.xxxxx.x-t-fuckword.network
-  ws-path: /
 - alterId: 64
   cipher: auto
-  name: '14|中国_【YouTube-VV科技】 #1'
+  name: 19,20|CN-111.45.22.187-100
   network: tcp
-  port: 40702
-  server: 120.226.50.93
+  port: 50173
+  server: 111.45.22.187
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-116.129.254.184-167
-  network: tcp
-  port: 16104
-  server: 116.129.254.184
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
   ws-headers:
-    Host: 116.129.254.184
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-111.38.37.129-169
-  network: tcp
-  port: 36676
-  server: 4.hk.zz.xxxxx.x-t-fuckword.network
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '16,17,24,27,30|@hkaa0||中国 #1'
-  network: tcp
-  port: 35105
-  server: tanz-board.kunlun-one.com
-  tls: false
-  type: vmess
-  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
-- alterId: 1
-  cipher: auto
-  name: '16,17,27|@hkaa0||中国 #2'
-  network: tcp
-  port: 1302
-  server: 120.232.235.157
-  tls: false
-  type: vmess
-  uuid: 1837498a-bd38-337b-a123-f03dad7d15e9
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.245-171
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-183.240.117.54-116
-  network: tcp
-  port: 58418
-  server: 4.3.1.fuckppppp.today
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.3.1.fuckppppp.today
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|CN-112.29.200.51-106
-  network: ws
-  port: 3024
-  server: iplc01.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
-  ws-headers:
-    Host: hkbgp-biteb.iepl.nbsd.us
+    Host: 111.45.22.187
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -197,16 +186,25 @@ proxies:
   ws-headers:
     Host: 116.129.254.184
   ws-path: /
-- alterId: 64
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-192
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  port: 27120
+  server: hefei.chiguayun.cc
+  type: ss
+- alterId: 0
   cipher: auto
-  name: 10,16,17,27|广东省 移动
-  network: tcp
-  port: '40158'
-  server: 183.240.232.82
-  servername: ''
-  tls: false
+  name: 19|CN-183.249.20.149-036
+  network: ws
+  port: 64087
+  server: in06.my1188.org
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: sg-balancer.tencent.best
+  ws-path: /biteb
 - alterId: 0
   cipher: auto
   name: 19|CN-183.249.20.143-094
@@ -222,48 +220,29 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19|CN-14.29.161.95-117
+  name: 19|CN-112.29.156.248-012
   network: ws
-  port: 3014
-  server: iplc01.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
-  ws-headers:
-    Host: jp04.li.nbsd.us
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-211
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 19,20|CN-111.23.252.218-092
-  network: tcp
-  port: 59902
-  server: 111.23.252.218
+  port: 61001
+  server: 112.29.156.248
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: d531ebd3-64d7-3ccb-b49e-e2bfbdf70dfc
   ws-headers:
-    Host: 111.23.252.218
-  ws-path: /
+    Host: a.cn-db.top
+  ws-path: /dabai.in
 - alterId: 0
   cipher: auto
-  name: 19|CN-14.29.161.95-105
-  network: ws
-  port: 3114
-  server: iplc01.my1188.org
+  name: 19,20|CN-183.240.117.54-123
+  network: tcp
+  port: 36679
+  server: 3.sg.zz.xxxxx.x-t-fuckword.network
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
   ws-headers:
-    Host: hkg01.pqs.in168.net
+    Host: 3.sg.zz.xxxxx.x-t-fuckword.network
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -278,178 +257,6 @@ proxies:
   ws-headers:
     Host: sgarm.ptuu.ml
   ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: 19|CN-121.204.135.91-137
-  network: ws
-  port: 3104
-  server: iplc01.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
-  ws-headers:
-    Host: ru02.iepl.nbsd.us
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 9,16,17,24,26,27|中国_1007092
-  network: tcp
-  port: '51904'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19|CN-121.204.135.91-099
-  network: ws
-  port: 3094
-  server: iplc01.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
-  ws-headers:
-    Host: kr02.iepl.nbsd.us
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 9,16,17,24,26,27|中国_1007009
-  network: tcp
-  port: '39971'
-  server: 183.240.232.82
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19|CN-120.232.12.109-108
-  network: ws
-  port: 3044
-  server: iplc01.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
-  ws-headers:
-    Host: sg03.li.nbsd.us
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|CN-121.204.135.91-104
-  network: ws
-  port: 3144
-  server: iplc01.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
-  ws-headers:
-    Host: hkt01.pqs-vds.in168.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 15,16,17,24,27,30|github.com/freefq - 广东省移动 19
-  network: tcp
-  port: '35107'
-  server: tanz-board.kunlun-one.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-111.45.22.246-120
-  network: tcp
-  port: 16111
-  server: 111.45.22.246
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  ws-headers:
-    Host: 111.45.22.246
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|CN-112.29.156.251-056
-  network: ws
-  port: 64086
-  server: in06.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
-  ws-headers:
-    Host: jp-balancer.myn1des.com
-  ws-path: /biteb
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-120.195.184.63-197
-  password: 4cf75408-967d-41c4-bf89-80517807e26f
-  port: 27117
-  server: foshan.chiguayun.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-196
-  password: 4cf75408-967d-41c4-bf89-80517807e26f
-  port: 27142
-  server: hefei.chiguayun.cc
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|CN-121.204.135.91-089
-  network: ws
-  port: 3174
-  server: iplc01.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
-  ws-headers:
-    Host: hk-fdc1.nbsd.us
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 19,20|CN-111.45.22.187-100
-  network: tcp
-  port: 50173
-  server: 111.45.22.187
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 111.45.22.187
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|CN-210.75.24.220-146
-  network: ws
-  port: 443
-  server: 210.75.24.220
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a928a26c-2adb-45fe-e57d-8a27dade309e
-  ws-headers:
-    Host: sgarm.ptuu.cf
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: 19|CN-183.249.20.144-049
-  network: ws
-  port: 64088
-  server: in06.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ca039e98-434d-31a5-9627-051921079ca6
-  ws-headers:
-    Host: tw-load-balancer.myn1des.com
-  ws-path: /biteb
 - alterId: 0
   cipher: auto
   name: 19|CN-111.38.37.25-096
@@ -472,3 +279,195 @@ proxies:
   tls: true
   type: vmess
   uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
+- alterId: 64
+  cipher: auto
+  name: '14|中国_【YouTube-VV科技】 #1'
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-116.129.254.184-167
+  network: tcp
+  port: 16104
+  server: 116.129.254.184
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
+  ws-headers:
+    Host: 116.129.254.184
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CN-14.29.161.95-117
+  network: ws
+  port: 3014
+  server: iplc01.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: jp04.li.nbsd.us
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CN-112.29.156.251-056
+  network: ws
+  port: 64086
+  server: in06.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: jp-balancer.myn1des.com
+  ws-path: /biteb
+- alterId: 0
+  cipher: auto
+  name: 19|CN-121.204.135.91-099
+  network: ws
+  port: 3094
+  server: iplc01.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: kr02.iepl.nbsd.us
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-196
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  port: 27142
+  server: hefei.chiguayun.cc
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: '16,17,27|@hkaa0||中国 #2'
+  network: tcp
+  port: 40158
+  server: 183.240.232.82
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19|CN-112.29.200.51-106
+  network: ws
+  port: 3024
+  server: iplc01.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: hkbgp-biteb.iepl.nbsd.us
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-183.240.117.54-116
+  network: tcp
+  port: 58418
+  server: 4.3.1.fuckppppp.today
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  ws-headers:
+    Host: 4.3.1.fuckppppp.today
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CN-183.249.20.144-049
+  network: ws
+  port: 64088
+  server: in06.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: tw-load-balancer.myn1des.com
+  ws-path: /biteb
+- alterId: 0
+  cipher: auto
+  name: 19|CN-120.232.12.109-108
+  network: ws
+  port: 3044
+  server: iplc01.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: sg03.li.nbsd.us
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-111.38.37.129-169
+  network: tcp
+  port: 36676
+  server: 4.hk.zz.xxxxx.x-t-fuckword.network
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  ws-headers:
+    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CN-111.38.37.25-095
+  network: ws
+  port: 3074
+  server: iplc01.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ca039e98-434d-31a5-9627-051921079ca6
+  ws-headers:
+    Host: tw03.yaofan.in168.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 15,16,17,24,27,30|github.com/freefq - 广东省移动 19
+  network: tcp
+  port: '35107'
+  server: tanz-board.kunlun-one.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
+- alterId: 64
+  cipher: auto
+  name: 14|中国_【YouTube-VV科技】
+  network: tcp
+  port: 42055
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-120.195.184.63-197
+  password: 4cf75408-967d-41c4-bf89-80517807e26f
+  port: 27117
+  server: foshan.chiguayun.cc
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 19|CN-111.38.37.245-171
+  network: ws
+  port: 50205
+  server: data-hk-v2.shwjfkw.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    Host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
