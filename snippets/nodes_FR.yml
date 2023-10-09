@@ -1,26 +1,63 @@
 proxies:
 - alterId: 0
   cipher: aes-128-gcm
-  name: 9|法国_1009101
+  name: 9|法国_1009090
   network: tcp
-  port: '443'
-  server: 135.125.135.63
+  port: '1950'
+  server: 163.172.160.133
   servername: ''
   tls: false
   type: vmess
-  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
+  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_1009086
+  network: tcp
+  port: '443'
+  server: 51.158.238.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: kWNsYSByc82sNvvsPqovsnh
-  name: 27,28|法国_Telegram@kxswa
-  network: grpc
+  name: 18,24|🇫🇷_FR_法国_free4allVPN
+  network: ws
   port: '443'
+  server: phosphorylative.aurorainiceland.com
+  servername: phosphorylative.aurorainiceland.com
+  tls: true
+  type: vmess
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  ws-opts:
+    headers:
+      Host: phosphorylative.aurorainiceland.com
+    path: /nimvws
+- alterId: 0
+  cipher: auto
+  name: 16,27|@hkaa0||法国
+  network: grpc
+  port: 443
   server: hdfy1d1.cpi2hidd.eu.org
-  servername: ''
   tls: true
   type: vmess
   uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_1009084
+  network: tcp
+  port: '443'
+  server: sw-51.158.241.70.nip.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
+- cipher: aes-256-gcm
+  name: 19|FR-54.36.174.181-196
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 54.36.174.181
+  type: ss
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -35,61 +72,17 @@ proxies:
       Host: www.49291261.xyz
     path: /path/1693992821776
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1009090
-  network: tcp
-  port: '1950'
-  server: 163.172.160.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3370a3ec-e76e-4c94-a682-780cb6728599
-- alterId: 0
   cipher: auto
-  name: 16,27|@hkaa0||法国
+  grpc-opts:
+    grpc-service-name: kWNsYSByc82sNvvsPqovsnh
+  name: 27,28|法国_Telegram@kxswa
   network: grpc
-  port: 443
+  port: '443'
   server: hdfy1d1.cpi2hidd.eu.org
+  servername: ''
   tls: true
   type: vmess
   uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1009099
-  network: tcp
-  port: '1950'
-  server: 51.159.183.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0025
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.195.96
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 19|FR-54.36.174.181-196
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 54.36.174.181
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 18,27|🇫🇷_FR_法国_CollectorDonate
-  network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
 - cipher: aes-256-cfb
   name: 28|FR_speednode_0027
   password: asdKkaskJKfnsa
@@ -107,13 +100,26 @@ proxies:
   tls: false
   type: vmess
   uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0026
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.128.32.84
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_1009099
+  network: tcp
+  port: '1950'
+  server: 51.159.183.138
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4bd09859-c671-49a2-80c4-83d77264946d
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_1009101
+  network: tcp
+  port: '443'
+  server: 135.125.135.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
 - name: 1|_FR_
   network: tcp
   password: telegram-id-directvpn
@@ -122,37 +128,31 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1009086
-  network: tcp
-  port: '443'
-  server: 51.158.238.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1009084
-  network: tcp
-  port: '443'
-  server: sw-51.158.241.70.nip.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0026
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.128.32.84
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 18,24|🇫🇷_FR_法国_free4allVPN
+  name: 18,27|🇫🇷_FR_法国_CollectorDonate
   network: ws
-  port: '443'
-  server: phosphorylative.aurorainiceland.com
-  servername: phosphorylative.aurorainiceland.com
-  tls: true
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
   ws-opts:
     headers:
-      Host: phosphorylative.aurorainiceland.com
-    path: /nimvws
+      Host: bl.shabijichang.com
+    path: /
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0025
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.195.96
+  type: ss
+  udp: true
