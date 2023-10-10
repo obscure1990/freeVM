@@ -1,23 +1,43 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0009
-  password: 2e201a3c-e855-4414-a9c0-5d6e6fedca07
-  port: 19531
-  server: cn2-1-nc.go001.buzz
+  name: 19|CN-112.26.231.83-164
+  password: d376f270-1807-4522-9f92-b499658a2678
+  port: 27143
+  server: hefei.chiguayun.cc
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0003
-  password: a6692a28fdebb4e5
-  port: 41037
-  server: jscm01.celerlink.one
+  name: 19|CN-120.195.184.63-184
+  password: d376f270-1807-4522-9f92-b499658a2678
+  port: 27127
+  server: foshan.chiguayun.cc
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-116.129.254.6-037
+  name: 19,20|CN-116.129.254.6-036
   network: tcp
-  port: 9027
+  port: 11908
+  server: 116.129.254.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 116.129.254.6
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '16,17,27|@hkaa0||中国 #4'
+  network: tcp
+  port: 39971
+  server: 183.240.232.82
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-116.129.254.6-024
+  network: tcp
+  port: 9025
   server: 116.129.254.6
   skip-cert-verify: true
   tls: false
@@ -27,17 +47,30 @@ proxies:
     Host: 116.129.254.6
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0014
-  password: 69d2daa5-122e-4ff2-9787-0ada1f3acaa6
-  port: 19290
-  server: starspeed.tbh.iosds.com
+  name: 28|CN_speednode_0008
+  password: 3525588ee14ea924
+  port: 41020
+  server: jscm01.celerlink.one
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-221.131.165.72-023
+  name: 7,8,24,27|「蛋挞云,流媒体全解锁」🇨🇳 CN 02
+  network: ws
+  port: '80'
+  server: 36.150.27.31
+  tls: false
+  type: vmess
+  uuid: ae9e3c21-9445-4271-b4dd-eec737f64df2
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-118
   network: tcp
-  port: 11908
+  port: 9028
   server: 221.131.165.72
   skip-cert-verify: true
   tls: false
@@ -46,66 +79,13 @@ proxies:
   ws-headers:
     Host: 221.131.165.72
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-183.240.117.54-029
-  network: tcp
-  port: 58418
-  server: 4.3.1.fuckppppp.today
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.3.1.fuckppppp.today
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.46.61-018
-  password: cdb06941-b4e8-4aeb-8cd5-62c129edd075
-  port: 26902
-  server: ydyh.nanbei.info
+  name: 28|CN_speednode_0014
+  password: 69d2daa5-122e-4ff2-9787-0ada1f3acaa6
+  port: 19290
+  server: starspeed.tbh.iosds.com
   type: ss
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.245-070
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
-- alterId: 64
-  cipher: auto
-  name: 14|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 19,28|CN-116.148.226.159-017
-  password: yCf03vE7phaImZaVjeAF3L
-  port: 19923
-  server: uk.shawbrothersstudio.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-120.233.27.171-066
-  network: tcp
-  port: 36676
-  server: 4.hk.zz.xxxxx.x-t-fuckword.network
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
-  ws-path: /
+  udp: true
 - alterId: 0
   cipher: auto
   name: 27|浙江-PCG
@@ -122,157 +102,30 @@ proxies:
     path: /neimenggu001
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-221.131.165.72-022
+  name: 19,20|CN-120.233.27.171-066
   network: tcp
-  port: 9008
-  server: 221.131.165.72
+  port: 36676
+  server: 4.hk.zz.xxxxx.x-t-fuckword.network
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
   ws-headers:
-    Host: 221.131.165.72
+    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-221.131.165.72-075
+  name: 19,20|CN-183.240.117.54-029
   network: tcp
-  port: 9002
-  server: 221.131.165.72
+  port: 58418
+  server: 4.3.1.fuckppppp.today
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
   ws-headers:
-    Host: 221.131.165.72
+    Host: 4.3.1.fuckppppp.today
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-221.131.165.72-107
-  network: tcp
-  port: 11931
-  server: 221.131.165.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 221.131.165.72
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-116.148.226.159-155
-  password: Lam6mgI0ZnIqT459CTTOJR
-  port: 19922
-  server: us01.shawbrothersstudio.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-116.129.254.6-102
-  network: tcp
-  port: 11926
-  server: 116.129.254.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 116.129.254.6
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0005
-  password: 4a1d6d33-e985-45b2-874d-08eba8dc1ca0
-  port: 701
-  server: cm1.onebee.org
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: '16,17,24,26,27|@hkaa0||中国 #3'
-  network: tcp
-  port: 53737
-  server: 112.29.94.22
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 19,20|CN-111.45.22.187-079
-  network: tcp
-  port: 50173
-  server: 111.45.22.187
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 111.45.22.187
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 20,27|🇨🇳 广东省 移动
-  network: ws
-  port: '18700'
-  server: cnzz03.fastbiubiu.com
-  tls: false
-  type: vmess
-  uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982
-  ws-opts:
-    headers:
-      Host: cnzz03.fastbiubiu.com
-    path: /6
-- alterId: 0
-  cipher: auto
-  name: '16,17,27|@hkaa0||中国 #2'
-  network: tcp
-  port: 35107
-  server: tanz-board.kunlun-one.com
-  tls: false
-  type: vmess
-  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0016
-  password: 69d2daa5-122e-4ff2-9787-0ada1f3acaa6
-  port: 25854
-  server: starspeed.tbh.iosds.com
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: '14|中国_【YouTube-VV科技】 #1'
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 1
-  cipher: auto
-  name: '16,17,27|@hkaa0||中国 #5'
-  network: tcp
-  port: 1302
-  server: 120.232.235.157
-  tls: false
-  type: vmess
-  uuid: 1837498a-bd38-337b-a123-f03dad7d15e9
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-221.131.165.72-118
-  network: tcp
-  port: 9028
-  server: 221.131.165.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 221.131.165.72
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-166
-  password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27130
-  server: hefei.chiguayun.cc
-  type: ss
 - alterId: 2
   cipher: auto
   name: 16,17,27|@hkaa0||中国
@@ -282,55 +135,54 @@ proxies:
   tls: true
   type: vmess
   uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
-- alterId: 0
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-120.195.184.63-181
+  password: d376f270-1807-4522-9f92-b499658a2678
+  port: 27138
+  server: foshan.chiguayun.cc
+  type: ss
+- alterId: 1
   cipher: auto
-  name: 7,8,24,27|「蛋挞云,流媒体全解锁」🇨🇳 CN 02
+  name: 19|CN-111.38.37.245-070
   network: ws
-  port: '80'
-  server: 36.150.27.31
-  tls: false
-  type: vmess
-  uuid: ae9e3c21-9445-4271-b4dd-eec737f64df2
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '16,17,27|@hkaa0||中国 #4'
-  network: tcp
-  port: 39971
-  server: 183.240.232.82
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 27|上海-MGY
-  network: ws
-  port: '80'
-  server: 124.220.57.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-116.129.254.6-036
-  network: tcp
-  port: 11908
-  server: 116.129.254.6
+  port: 50205
+  server: data-hk-v2.shwjfkw.cn
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-headers:
-    Host: 116.129.254.6
-  ws-path: /
+    Host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.46.61-018
+  password: cdb06941-b4e8-4aeb-8cd5-62c129edd075
+  port: 26902
+  server: ydyh.nanbei.info
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 10,15,16,17,19,20,24,26,27|广东省 移动
+  network: tcp
+  port: '51904'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-175
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0013
+  password: 4a1d6d33-e985-45b2-874d-08eba8dc1ca0
+  port: 702
+  server: cm2.onebee.org
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 19,20|CN-183.240.117.54-035
@@ -346,9 +198,9 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-116.129.254.6-025
+  name: 19,20|CN-116.129.254.6-027
   network: tcp
-  port: 9016
+  port: 9024
   server: 116.129.254.6
   skip-cert-verify: true
   tls: false
@@ -358,40 +210,94 @@ proxies:
     Host: 116.129.254.6
   ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0002
-  password: 4a1d6d33-e985-45b2-874d-08eba8dc1ca0
-  port: 703
-  server: cm3.onebee.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-120.195.184.63-165
-  password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27119
-  server: foshan.chiguayun.cc
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 10,15,16,17,19,20,24,26,27|广东省 移动
-  network: tcp
-  port: '51904'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-120.195.184.63-181
-  password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27138
-  server: foshan.chiguayun.cc
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 19|CN-112.26.231.83-151
   password: d376f270-1807-4522-9f92-b499658a2678
   port: 27108
   server: hefei.chiguayun.cc
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 14|中国_【YouTube-VV科技】
+  network: tcp
+  port: 42055
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-022
+  network: tcp
+  port: 9008
+  server: 221.131.165.72
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 221.131.165.72
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19,28|CN-116.148.226.159-017
+  password: yCf03vE7phaImZaVjeAF3L
+  port: 19923
+  server: uk.shawbrothersstudio.com
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-108
+  network: tcp
+  port: 11909
+  server: 221.131.165.72
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 221.131.165.72
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-116.148.226.159-155
+  password: Lam6mgI0ZnIqT459CTTOJR
+  port: 19922
+  server: us01.shawbrothersstudio.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0005
+  password: 4a1d6d33-e985-45b2-874d-08eba8dc1ca0
+  port: 701
+  server: cm1.onebee.org
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '16,17,27|@hkaa0||中国 #1'
+  network: tcp
+  port: 35105
+  server: tanz-board.kunlun-one.com
+  tls: false
+  type: vmess
+  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
+- alterId: 0
+  cipher: auto
+  name: 19|CN-183.240.222.149-188
+  network: ws
+  port: 18700
+  server: cnzz03.fastbiubiu.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982
+  ws-headers:
+    Host: cnzz03.fastbiubiu.com
+  ws-path: /6
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0003
+  password: a6692a28fdebb4e5
+  port: 41037
+  server: jscm01.celerlink.one
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 19,20|CN-221.131.165.72-026
@@ -407,34 +313,72 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 7,8,24,27|「节点冠名招商 @nodpai」🇨🇳 CN 01
+  name: 27|上海-MGY
   network: ws
-  port: '19709'
-  server: 123.249.101.15
+  port: '80'
+  server: 124.220.57.75
+  servername: ''
   tls: false
   type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
   ws-opts:
     headers:
-      Host: ''
+      Host: tms.dingtalk.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-120.195.184.63-184
-  password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27127
-  server: foshan.chiguayun.cc
+  name: 28|CN_speednode_0010
+  password: 4a1d6d33-e985-45b2-874d-08eba8dc1ca0
+  port: 704
+  server: cm4.onebee.org
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-120.195.184.63-187
-  password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27123
-  server: foshan.chiguayun.cc
-  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-116.129.254.6-024
+  name: 20,27|🇨🇳 广东省 移动
+  network: ws
+  port: '18700'
+  server: cnzz03.fastbiubiu.com
+  tls: false
+  type: vmess
+  uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982
+  ws-opts:
+    headers:
+      Host: cnzz03.fastbiubiu.com
+    path: /6
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-107
   network: tcp
-  port: 9025
+  port: 11931
+  server: 221.131.165.72
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 221.131.165.72
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0002
+  password: 4a1d6d33-e985-45b2-874d-08eba8dc1ca0
+  port: 703
+  server: cm3.onebee.org
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: '14|中国_【YouTube-VV科技】 #1'
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-116.129.254.6-021
+  network: tcp
+  port: 11928
   server: 116.129.254.6
   skip-cert-verify: true
   tls: false
@@ -445,17 +389,17 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19|CN-183.240.222.149-188
-  network: ws
-  port: 18700
-  server: cnzz03.fastbiubiu.com
+  name: 19,20|CN-116.129.254.6-025
+  network: tcp
+  port: 9016
+  server: 116.129.254.6
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: bfe00cfc-5ecc-38a6-99ef-4c965305f982
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
   ws-headers:
-    Host: cnzz03.fastbiubiu.com
-  ws-path: /6
+    Host: 116.129.254.6
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19,20|CN-116.129.254.6-114
@@ -471,9 +415,22 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-221.131.165.72-108
+  name: 7,8,24,27|「节点冠名招商 @nodpai」🇨🇳 CN 01
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-023
   network: tcp
-  port: 11909
+  port: 11908
   server: 221.131.165.72
   skip-cert-verify: true
   tls: false
@@ -482,38 +439,11 @@ proxies:
   ws-headers:
     Host: 221.131.165.72
   ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-175
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0013
-  password: 4a1d6d33-e985-45b2-874d-08eba8dc1ca0
-  port: 702
-  server: cm2.onebee.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0010
-  password: 4a1d6d33-e985-45b2-874d-08eba8dc1ca0
-  port: 704
-  server: cm4.onebee.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0008
-  password: 3525588ee14ea924
-  port: 41020
-  server: jscm01.celerlink.one
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-116.129.254.6-021
+  name: 19,20|CN-116.129.254.6-037
   network: tcp
-  port: 11928
+  port: 9027
   server: 116.129.254.6
   skip-cert-verify: true
   tls: false
@@ -522,17 +452,27 @@ proxies:
   ws-headers:
     Host: 116.129.254.6
   ws-path: /
+- alterId: 1
+  cipher: auto
+  name: '16,17,27|@hkaa0||中国 #5'
+  network: tcp
+  port: 1302
+  server: 120.232.235.157
+  tls: false
+  type: vmess
+  uuid: 1837498a-bd38-337b-a123-f03dad7d15e9
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-164
-  password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27143
-  server: hefei.chiguayun.cc
+  name: 28|CN_speednode_0016
+  password: 69d2daa5-122e-4ff2-9787-0ada1f3acaa6
+  port: 25854
+  server: starspeed.tbh.iosds.com
   type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-221.131.165.72-048
+  name: 19,20|CN-221.131.165.72-075
   network: tcp
-  port: 9041
+  port: 9002
   server: 221.131.165.72
   skip-cert-verify: true
   tls: false
@@ -541,6 +481,47 @@ proxies:
   ws-headers:
     Host: 221.131.165.72
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0009
+  password: 2e201a3c-e855-4414-a9c0-5d6e6fedca07
+  port: 19531
+  server: cn2-1-nc.go001.buzz
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 19,20|CN-111.45.22.187-079
+  network: tcp
+  port: 50173
+  server: 111.45.22.187
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 111.45.22.187
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-166
+  password: d376f270-1807-4522-9f92-b499658a2678
+  port: 27130
+  server: hefei.chiguayun.cc
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: '16,17,24,26,27|@hkaa0||中国 #3'
+  network: tcp
+  port: 53737
+  server: 112.29.94.22
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-120.195.184.63-165
+  password: d376f270-1807-4522-9f92-b499658a2678
+  port: 27119
+  server: foshan.chiguayun.cc
+  type: ss
 - alterId: 0
   cipher: auto
   name: 27|上海-PCG
@@ -557,9 +538,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-116.129.254.6-027
+  name: '16,17,27|@hkaa0||中国 #2'
   network: tcp
-  port: 9024
+  port: 35107
+  server: tanz-board.kunlun-one.com
+  tls: false
+  type: vmess
+  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-116.129.254.6-102
+  network: tcp
+  port: 11926
   server: 116.129.254.6
   skip-cert-verify: true
   tls: false
@@ -570,10 +560,20 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '16,17,27|@hkaa0||中国 #1'
+  name: 19,20|CN-221.131.165.72-048
   network: tcp
-  port: 35105
-  server: tanz-board.kunlun-one.com
+  port: 9041
+  server: 221.131.165.72
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 221.131.165.72
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-120.195.184.63-187
+  password: d376f270-1807-4522-9f92-b499658a2678
+  port: 27123
+  server: foshan.chiguayun.cc
+  type: ss

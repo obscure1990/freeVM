@@ -1,20 +1,50 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 3
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本04
+  name: 22,24|日本 06  | 1x JP
   network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e06bb8fb-28d4-4f3a-acb4-97d8c8efd1f0
-- cipher: aes-256-cfb
-  name: 19|JP-54.199.83.239-173
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
+  uuid: 0c413098-c084-4395-88d2-9ad4c4746415
+- alterId: 0
+  cipher: auto
+  name: 19|JP-172.105.239.241-039
+  network: ws
+  port: 443
+  server: 172.105.239.241
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+  ws-headers:
+    Host: js.adbse.xyz
+  ws-path: /down
+- alterId: 0
+  cipher: auto
+  name: 19|JP-132.226.7.215-162
+  network: ws
+  port: 22053
+  server: jpdj5.gophers.gay
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 171979a2-037a-44bc-8ab0-b6d7aa431b0c
+  ws-headers:
+    Host: microsoft.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 27|日本-ihook
@@ -27,33 +57,72 @@ proxies:
   uuid: c0714f3e-1fac-44ac-d654-2607463d6517
 - alterId: 0
   cipher: auto
+  name: 19,20|JP-152.69.195.171-145
+  network: tcp
+  port: 55555
+  server: 152.69.195.171
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b86d95da-b843-4804-8443-d849d3207076
+  ws-headers:
+    Host: 152.69.195.171
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 27|🇯🇵·日本·TG@kkovokk·130
+  network: ws
+  port: 22053
+  server: jpdj5.gophers.gay
+  tls: false
+  type: vmess
+  uuid: 171979a2-037a-44bc-8ab0-b6d7aa431b0c
+  ws-opts:
+    headers:
+      Host: jpdj5.gophers.gay
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇯🇵 日本 57
+  network: tcp
+  port: 46222
+  server: 141.147.146.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 0c413098-c084-4395-88d2-9ad4c4746415
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30007
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 19|JP-8.209.252.35-080
   network: ws
   port: 443
   server: 8.209.252.35
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-headers:
-    Host: js.adbse.xyz
-  ws-path: /down
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e06bb8fb-28d4-4f3a-acb4-97d8c8efd1f0
-- alterId: 0
-  cipher: auto
-  name: 19|JP-172.105.239.241-039
-  network: ws
-  port: 443
-  server: 172.105.239.241
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -76,29 +145,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 20,24,25,26,27|🇯🇵 日本 V2CROSS.COM
-  network: ws
-  port: '43213'
-  server: kr-cdn-6273819.starnetcn.top
-  tls: false
-  type: vmess
-  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
-  ws-opts:
-    headers:
-      Host: desd2yn3ioa4smla.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
-- alterId: 64
-  cipher: auto
-  name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 3
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 22,24|日本 05  | 1x JP
   network: tcp
   port: '31106'
@@ -107,6 +153,26 @@ proxies:
   tls: true
   type: vmess
   uuid: 0c413098-c084-4395-88d2-9ad4c4746415
+- alterId: 0
+  cipher: auto
+  name: 27|日本_Telegram@kxswa
+  network: ws
+  port: '888'
+  server: jhryx-1087-v2-0.d-kcd.tuil.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- cipher: aes-256-cfb
+  name: 19|JP-54.199.83.239-173
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25,28|🇯🇵 日本KT|@ripaojiedian
@@ -139,14 +205,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|12|🇯🇵 日本 57
+  name: 11,24|🇯🇵日本06
   network: tcp
-  port: 46222
-  server: 141.147.146.29
-  servername: ''
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: e06bb8fb-28d4-4f3a-acb4-97d8c8efd1f0
+- alterId: 0
+  cipher: auto
+  name: 20,24,25,26,27|🇯🇵 日本 V2CROSS.COM
+  network: ws
+  port: '43213'
+  server: kr-cdn-6273819.starnetcn.top
   tls: false
   type: vmess
-  uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
+  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
+  ws-opts:
+    headers:
+      Host: desd2yn3ioa4smla.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
 - alterId: 0
   cipher: auto
   name: 11,24|🇯🇵日本05
@@ -157,58 +236,6 @@ proxies:
   tls: true
   type: vmess
   uuid: e06bb8fb-28d4-4f3a-acb4-97d8c8efd1f0
-- alterId: 0
-  cipher: auto
-  name: 27|🇯🇵·日本·TG@kkovokk·130
-  network: ws
-  port: 22053
-  server: jpdj5.gophers.gay
-  tls: false
-  type: vmess
-  uuid: 171979a2-037a-44bc-8ab0-b6d7aa431b0c
-  ws-opts:
-    headers:
-      Host: jpdj5.gophers.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|JP-132.226.7.215-162
-  network: ws
-  port: 22053
-  server: jpdj5.gophers.gay
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 171979a2-037a-44bc-8ab0-b6d7aa431b0c
-  ws-headers:
-    Host: microsoft.com
-  ws-path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 30007
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0c413098-c084-4395-88d2-9ad4c4746415
 - alterId: 64
   cipher: auto
   name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 5
@@ -221,41 +248,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 27|日本_Telegram@kxswa
-  network: ws
-  port: '888'
-  server: jhryx-1087-v2-0.d-kcd.tuil.xyz
-  servername: ''
+  name: 11,24|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0c413098-c084-4395-88d2-9ad4c4746415
-- alterId: 0
-  cipher: auto
-  name: 19,20|JP-152.69.195.171-145
-  network: tcp
-  port: 55555
-  server: 152.69.195.171
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b86d95da-b843-4804-8443-d849d3207076
-  ws-headers:
-    Host: 152.69.195.171
-  ws-path: /
+  uuid: e06bb8fb-28d4-4f3a-acb4-97d8c8efd1f0
 - alterId: 0
   cipher: auto
   name: 27|🇯🇵·日本·TG@kkovokk·113
