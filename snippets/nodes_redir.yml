@@ -1,29 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇮🇹 Italy 01 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10718
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 8|中转 🇯🇵 Japan 02 @nodpai
   password: 51239bce-01ab-454d-baa5-c0940c9f1751
   port: 10701
   server: yidong.liulangdiqiu.cyou
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇬🇧 United Kingdom 01 @nodpa...
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10713
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
+- alterId: 64
+  cipher: auto
+  name: '0,2,3,4,16,20,24,27,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
 - cipher: chacha20-ietf-poly1305
   name: 8|中转 🇸🇪 Sweden 01 @nodpai
   password: 51239bce-01ab-454d-baa5-c0940c9f1751
   port: 10719
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇦🇪 United Arab Emirates 01 ...
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10722
   server: yidong.liulangdiqiu.cyou
   type: ss
   udp: true
@@ -42,10 +48,41 @@ proxies:
     path: /@hopev2ray،@hopev2ray
 - alterId: 0
   cipher: auto
-  name: 3,24|🇮🇱 _SC_塞舌尔->🇮🇱_IL_以色列
+  name: 7,8,17,24,27|中转 🇨🇳 China 03 @nodpai
   network: ws
-  port: '31008'
-  server: 154.198.227.62
+  port: '443'
+  server: 198.2.202.84
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1694859605321
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·103
+  network: tcp
+  port: 35048
+  server: tg_mfbpn_t1.52vpn.eu.org
+  tls: false
+  type: vmess
+  uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·104
+  network: tcp
+  port: 35014
+  server: tg_mfbpn_t1.52vpn.eu.org
+  tls: false
+  type: vmess
+  uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef
+- alterId: 0
+  cipher: auto
+  name: 3,24|🇭🇰 _HK_香港->🇮🇱_IL_以色列
+  network: ws
+  port: '2083'
+  server: 8.218.105.223
   tls: true
   type: vmess
   uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
@@ -53,129 +90,35 @@ proxies:
     headers:
       Host: ylsl.kxking.eu.org
     path: /vm?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 8,19,28|中转 🇹🇼 Taiwan 01 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41021
-  server: jscm01.celerlink.one
-  type: ss
-  udp: true
-- name: 8,19,25,28|中转 🇯🇵 Japan 01 @nodpai
-  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
-  port: 40350
-  server: 39.164.141.104
-  skip-cert-verify: true
-  sni: chaosujp.ccoo520.xyz
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 3,24,31|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
-  network: tcp
-  port: '50007'
-  server: 07.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_AU_
+  name: 3,15,24,27,28|🇰🇷 _KR_韩国->🇺🇸_US_美国
   network: ws
-  port: 80
-  server: fd.shabijichang.com
-  skip-cert-verify: true
+  port: '31235'
+  server: kr-cdn-6273819.starnetcn.top
   tls: false
   type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
   ws-opts:
     headers:
-      host: mrb.shabijichang.com
+      Host: jxhoisldy718922.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·29
+  network: ws
+  port: 19709
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: 123.249.101.15
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,6,13,20,24,31|🇺🇸 _GB_英国->🇺🇸_US_美国
-  network: ws
-  port: '2096'
-  server: best.fakeopen.link
-  tls: true
-  type: vmess
-  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
-  ws-opts:
-    headers:
-      Host: us2.fakeopen.link
-    path: /us
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,20,24,31|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  ws-opts:
-    headers:
-      Host: mrb.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,16,17,24|中转 🇭🇰 Hong Kong 02 @nodpai
-  network: tcp
-  port: '40158'
-  server: 183.240.232.82
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 1,17,24|_US_->_NL__2
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.42077230.xyz
-    path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 3,6,13,24,31|🇮🇱 _CN_中国->🇮🇱_IL_以色列
-  network: ws
-  port: '10005'
-  server: 103.235.18.2
-  tls: true
-  type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇰🇷 South Korea 01 @nodpai
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10703
-  server: yidong.liulangdiqiu.cyou
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: '0,2,3,4,16,20,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 3,6,13,16,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  name: 3,6,13,16,24,27,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
   network: ws
   port: '2052'
   server: 162.159.152.6
@@ -187,10 +130,10 @@ proxies:
       Host: lu.wx.alue.link
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 8,28|中转 🇺🇸 United States 02 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41026
-  server: jscm01.celerlink.one
+  name: 8|中转 🇫🇷 France 01 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10716
+  server: yidong.liulangdiqiu.cyou
   type: ss
   udp: true
 - alterId: 0
@@ -216,40 +159,97 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3,15,24,28|🇰🇷 _KR_韩国->🇺🇸_US_美国
+  name: 0,2,3,4,20,24,27,31|🇺🇸 _US_美国->🇦🇺_AU_澳大利亚
   network: ws
-  port: '31235'
-  server: kr-cdn-6273819.starnetcn.top
+  port: '80'
+  server: fd.shabijichang.com
   tls: false
   type: vmess
-  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
   ws-opts:
     headers:
-      Host: jxhoisldy718922.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
+      Host: mrb.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·56
+  network: tcp
+  port: 21658
+  server: jscm1.r1u.cn
+  tls: false
+  type: vmess
+  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇨🇦 Canada 01 @nodpai
+  name: 8|中转 🇬🇧 United Kingdom 01 @nodpa...
   password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10712
+  port: 10713
   server: yidong.liulangdiqiu.cyou
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 3,24|🇭🇰 _HK_香港->🇮🇱_IL_以色列
-  network: ws
-  port: '2083'
-  server: 8.218.105.223
-  tls: true
+  name: 3,24,27,31|🇦🇹 _CN_中国->🇦🇹_AT_奥地利
+  network: tcp
+  port: '50007'
+  server: 07.kccic2pa.xyz
+  tls: false
   type: vmess
-  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
-  ws-opts:
-    headers:
-      Host: ylsl.kxking.eu.org
-    path: /vm?ed=2048
+  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·47
+  network: tcp
+  port: 44274
+  server: jscm1.r1u.cn
+  tls: false
+  type: vmess
+  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·7
+  network: tcp
+  port: 35020
+  server: tg_mfbpn_t2.52vpn.eu.org
+  tls: false
+  type: vmess
+  uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef
 - alterId: 64
   cipher: auto
-  name: 1,24|_US_->_NL__1
+  name: 1,17,24,27|_US_->_NL__2
+  network: ws
+  port: 30000
+  server: 45.199.138.191
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.42077230.xyz
+    path: /path/1696251522438
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇰🇷 South Korea 01 @nodpai
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10703
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,13,20,24,27,31|🇺🇸 _GB_英国->🇺🇸_US_美国
+  network: ws
+  port: '2096'
+  server: best.fakeopen.link
+  tls: true
+  type: vmess
+  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
+  ws-opts:
+    headers:
+      Host: us2.fakeopen.link
+    path: /us
+- alterId: 64
+  cipher: auto
+  name: 1,24,27|_US_->_NL__1
   network: ws
   port: 30000
   server: 45.199.138.152
@@ -261,16 +261,38 @@ proxies:
     headers:
       host: www.32522178.xyz
     path: /path/1696598013851
+- alterId: 0
+  cipher: auto
+  name: 3,24|🇮🇱 _SC_塞舌尔->🇮🇱_IL_以色列
+  network: ws
+  port: '31008'
+  server: 154.198.227.62
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: ylsl.kxking.eu.org
+    path: /vm?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇮🇹 Italy 01 @nodpai
-  password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10718
-  server: yidong.liulangdiqiu.cyou
+  name: 8,28|中转 🇺🇸 United States 02 @nodpai
+  password: 2739ce85d3b9e145
+  port: 41026
+  server: jscm01.celerlink.one
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·114
+  network: tcp
+  port: 50010
+  server: 10.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
 - alterId: 64
   cipher: auto
-  name: 0,2,3,4,6,13,20,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  name: 0,2,3,4,6,13,20,24,27,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰
   network: ws
   port: '30000'
   server: 45.199.138.152
@@ -283,21 +305,120 @@ proxies:
     path: /path/1696598013851
 - alterId: 0
   cipher: auto
-  name: 7,8,17,24|中转 🇨🇳 China 03 @nodpai
-  network: ws
-  port: '443'
-  server: 198.2.202.84
-  tls: true
+  name: 27|🇨🇳·中转·TG@kkovokk·55
+  network: tcp
+  port: 36295
+  server: jscm1.r1u.cn
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1694859605321
+  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
+- name: 8,19,25,28|中转 🇯🇵 Japan 01 @nodpai
+  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
+  port: 40350
+  server: 39.164.141.104
+  skip-cert-verify: true
+  sni: chaosujp.ccoo520.xyz
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·105
+  network: tcp
+  port: 35013
+  server: tg_mfbpn_t1.52vpn.eu.org
+  tls: false
+  type: vmess
+  uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇫🇷 France 01 @nodpai
+  name: 8|中转 🇨🇦 Canada 01 @nodpai
   password: 51239bce-01ab-454d-baa5-c0940c9f1751
-  port: 10716
+  port: 10712
   server: yidong.liulangdiqiu.cyou
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·54
+  network: tcp
+  port: 16803
+  server: jscm1.r1u.cn
+  tls: false
+  type: vmess
+  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
+- alterId: 0
+  cipher: auto
+  name: 3,6,13,24,27,31|🇮🇱 _CN_中国->🇮🇱_IL_以色列
+  network: ws
+  port: '10005'
+  server: 103.235.18.2
+  tls: true
+  type: vmess
+  uuid: a783230b-cd66-4492-9517-7f6cf569e1c9
+  ws-opts:
+    headers:
+      Host: ylsl.kxking.eu.org
+    path: /vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·69
+  network: tcp
+  port: 18707
+  server: jscm1.r1u.cn
+  tls: false
+  type: vmess
+  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·98
+  network: tcp
+  port: 50008
+  server: 08.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
+- cipher: chacha20-ietf-poly1305
+  name: 8|中转 🇦🇪 United Arab Emirates 01 ...
+  password: 51239bce-01ab-454d-baa5-c0940c9f1751
+  port: 10722
+  server: yidong.liulangdiqiu.cyou
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 8,19,28|中转 🇹🇼 Taiwan 01 @nodpai
+  password: 2739ce85d3b9e145
+  port: 41021
+  server: jscm01.celerlink.one
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,16,17,24,27|中转 🇭🇰 Hong Kong 02 @nodpai
+  network: tcp
+  port: '40158'
+  server: 183.240.232.82
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 1,24|_US_->_AU_
+  network: ws
+  port: 80
+  server: fd.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
+  ws-opts:
+    headers:
+      host: mrb.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇳·中转·TG@kkovokk·102
+  network: tcp
+  port: 35049
+  server: tg_mfbpn_t1.52vpn.eu.org
+  tls: false
+  type: vmess
+  uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef
