@@ -1,14 +1,28 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 5
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
+  name: 10|日本 V2CROSS.COM
+  network: ws
+  port: '51236'
+  server: kr-cdn-6273819.starnetcn.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
+  ws-opts:
+    headers:
+      Host: fd98201dijmasadj.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986.m3u8
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b0ef1f97-feb2-4f15-ae2f-95e34ce38864
 - alterId: 0
   cipher: auto
   name: 22,24|日本 04  | 1x JP
@@ -21,28 +35,30 @@ proxies:
   uuid: b0ef1f97-feb2-4f15-ae2f-95e34ce38864
 - alterId: 0
   cipher: auto
-  name: '10,20|日本 V2CROSS.COM #1'
+  name: 19|JP-172.105.239.241-027
   network: ws
-  port: '65223'
-  server: kr-cdn-6273819.starnetcn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
-  ws-opts:
-    headers:
-      Host: ruadsd4qqfspagagn.starnetcn.top
-    path: /Ec6QL8sn3glc432zgPg
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
+  port: 443
+  server: 172.105.239.241
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 756fd0de-a2c6-42df-b724-b182ee76336d
+  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+  ws-headers:
+    Host: js.adbse.xyz
+  ws-path: /down
+- alterId: 0
+  cipher: auto
+  name: 20|🇯🇵 日本(油管:破解资源君2.0)
+  network: ws
+  port: '443'
+  server: 172.105.239.241
+  tls: true
+  type: vmess
+  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+  ws-opts:
+    headers:
+      Host: js.adbse.xyz
+    path: /down
 - alterId: 0
   cipher: auto
   name: 11,24|🇯🇵日本06
@@ -53,20 +69,32 @@ proxies:
   tls: true
   type: vmess
   uuid: 756fd0de-a2c6-42df-b724-b182ee76336d
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 27|日本_Telegram@kxswa
-  network: ws
-  port: '888'
-  server: jhryx-1087-v2-0.d-kcd.tuil.xyz
+  name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 3
+  network: tcp
+  port: 51801
+  server: 45.88.43.163
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
-  ws-opts:
-    headers:
-      Host: cdn.cjhh.lol
-    path: /je5x3pBN1vez3NQudNkB
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30007
+  server: 183.232.170.32
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25,28|🇯🇵 日本KT|@ripaojiedian
@@ -85,32 +113,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 20,24,25,26,27|🇯🇵 日本 V2CROSS.COM
-  network: ws
-  port: '43213'
-  server: kr-cdn-6273819.starnetcn.top
-  tls: false
-  type: vmess
-  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
-  ws-opts:
-    headers:
-      Host: desd2yn3ioa4smla.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
-- alterId: 0
-  cipher: auto
-  name: 20|🇯🇵 日本(油管:破解资源君2.0)
-  network: ws
-  port: '443'
-  server: 172.105.239.241
-  tls: true
-  type: vmess
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-opts:
-    headers:
-      Host: js.adbse.xyz
-    path: /down
-- alterId: 0
-  cipher: auto
   name: 24|12|🇯🇵 日本 57
   network: tcp
   port: 46222
@@ -119,21 +121,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 4283de01-cff7-4b06-81f9-30a0543fb4a3
-- alterId: 0
+- cipher: aes-256-cfb
+  name: 19|JP-54.199.83.239-183
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 27|日本-ihook
+  name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 5
   network: tcp
-  port: '80'
-  server: 172.233.90.165
+  port: 51801
+  server: 45.88.43.143
   servername: ''
   tls: false
   type: vmess
-  uuid: c0714f3e-1fac-44ac-d654-2607463d6517
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 10,27|日本 V2CROSS.COM
+  name: '10,20|日本 V2CROSS.COM #1'
   network: ws
-  port: '51236'
+  port: '65223'
   server: kr-cdn-6273819.starnetcn.top
   servername: ''
   tls: false
@@ -141,8 +149,18 @@ proxies:
   uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
   ws-opts:
     headers:
-      Host: fd98201dijmasadj.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986.m3u8
+      Host: ruadsd4qqfspagagn.starnetcn.top
+    path: /Ec6QL8sn3glc432zgPg
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 756fd0de-a2c6-42df-b724-b182ee76336d
 - alterId: 0
   cipher: auto
   name: 22,24|日本 05  | 1x JP
@@ -153,12 +171,19 @@ proxies:
   tls: true
   type: vmess
   uuid: b0ef1f97-feb2-4f15-ae2f-95e34ce38864
-- cipher: aes-256-cfb
-  name: 19|JP-54.199.83.239-183
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 20|🇯🇵 github.com/freefq - 日本  14
+  network: ws
+  port: '31235'
+  server: kr-cdn-6273819.starnetcn.top
+  tls: false
+  type: vmess
+  uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
+  ws-opts:
+    headers:
+      Host: jxhoisldy718922.starnetcn.top
+    path: /
 - alterId: 0
   cipher: auto
   name: '20|🇯🇵 日本(油管:破解资源君2.0) #1'
@@ -174,113 +199,24 @@ proxies:
     path: /iso
 - alterId: 0
   cipher: auto
-  name: 22,24|日本 06  | 1x JP
+  name: 11,24|🇯🇵日本05
   network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b0ef1f97-feb2-4f15-ae2f-95e34ce38864
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 30007
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 27|🇯🇵·日本·TG@kkovokk·130
-  network: ws
-  port: 22053
-  server: jpdj5.gophers.gay
-  tls: false
-  type: vmess
-  uuid: 171979a2-037a-44bc-8ab0-b6d7aa431b0c
-  ws-opts:
-    headers:
-      Host: jpdj5.gophers.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
   tls: true
   type: vmess
   uuid: 756fd0de-a2c6-42df-b724-b182ee76336d
 - alterId: 0
   cipher: auto
-  name: 27|🇯🇵JP-178.173.230.174-1113
+  name: 20,24,25,26|🇯🇵 日本 V2CROSS.COM
   network: ws
-  port: 55959
-  server: 178.173.230.174
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 28bc85a7-b380-49db-87c1-6b87ad33e717
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 27|🇯🇵·日本·TG@kkovokk·113
-  network: ws
-  port: 22053
-  server: jpdj5.gophers.gay
-  tls: false
-  type: vmess
-  uuid: 171979a2-037a-44bc-8ab0-b6d7aa431b0c
-  ws-opts:
-    headers:
-      Host: jpdj5.gophers.gay
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 19|JP-172.105.239.241-027
-  network: ws
-  port: 443
-  server: 172.105.239.241
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-headers:
-    Host: js.adbse.xyz
-  ws-path: /down
-- alterId: 64
-  cipher: auto
-  name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan 3
-  network: tcp
-  port: 51801
-  server: 45.88.43.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 20|🇯🇵 github.com/freefq - 日本  14
-  network: ws
-  port: '31235'
+  port: '43213'
   server: kr-cdn-6273819.starnetcn.top
   tls: false
   type: vmess
   uuid: 95e3c4c4-5540-4b2e-ac07-a7505f4a9313
   ws-opts:
     headers:
-      Host: jxhoisldy718922.starnetcn.top
-    path: /
+      Host: desd2yn3ioa4smla.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
