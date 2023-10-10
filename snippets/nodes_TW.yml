@@ -1,31 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 24,25,26|12,14,15|台湾|tg频道:@ripaojiedian
-  network: ws
-  port: '2086'
-  server: 8.210.151.69
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
-  ws-opts:
-    headers:
-      Host: tw.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c1dfcd88-0014-40c3-9130-b42e5ee3ba1c
-- alterId: 0
-  cipher: auto
-  name: 19|TW-125.227.83.23-010
+  name: 1,2,4,6,13,15,24,31|_TW_
   network: ws
   port: 3331
   server: 46caadb.f2.gladns.com
@@ -33,9 +9,28 @@ proxies:
   tls: true
   type: vmess
   uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-headers:
-    Host: 46caadb.f2.gladns.com
-  ws-path: /s/46caadb.fm.apple.com:60980
+  ws-opts:
+    path: /s/46caadb.fm.apple.com:60980
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f5f77831-69ae-4811-9f4b-4bd99ad53da0
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 74224c26-5754-4a0b-aa8e-cd2376cf45e0
 - alterId: 0
   cipher: auto
   name: 0,3,20,24|🇹🇼 _TW_台湾
@@ -58,37 +53,17 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c593615b-5f0e-4d02-894f-7697813b90a7
+  uuid: 74224c26-5754-4a0b-aa8e-cd2376cf45e0
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
+  name: 22,24|台湾 04  | 1x TWN
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c1dfcd88-0014-40c3-9130-b42e5ee3ba1c
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: c1dfcd88-0014-40c3-9130-b42e5ee3ba1c
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: c593615b-5f0e-4d02-894f-7697813b90a7
+  uuid: f5f77831-69ae-4811-9f4b-4bd99ad53da0
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾04
@@ -98,10 +73,10 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c593615b-5f0e-4d02-894f-7697813b90a7
+  uuid: 74224c26-5754-4a0b-aa8e-cd2376cf45e0
 - alterId: 0
   cipher: auto
-  name: 1,2,4,6,13,15,24,31|_TW_
+  name: 19|TW-125.227.83.23-010
   network: ws
   port: 3331
   server: 46caadb.f2.gladns.com
@@ -109,5 +84,30 @@ proxies:
   tls: true
   type: vmess
   uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-headers:
+    Host: 46caadb.f2.gladns.com
+  ws-path: /s/46caadb.fm.apple.com:60980
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f5f77831-69ae-4811-9f4b-4bd99ad53da0
+- alterId: 0
+  cipher: auto
+  name: 24,25,26|12,14,15|台湾|tg频道:@ripaojiedian
+  network: ws
+  port: '2086'
+  server: 8.210.151.69
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
   ws-opts:
-    path: /s/46caadb.fm.apple.com:60980
+    headers:
+      Host: tw.kxking.eu.org
+    path: /vm?ed=2048
