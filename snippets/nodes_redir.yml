@@ -1,9 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '2,3,4,20,24,31|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大 #2'
+  name: 1|_GB_->_US_
   network: ws
-  port: 80
+  port: 2096
+  server: best.fakeopen.link
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
+  ws-opts:
+    headers:
+      host: us2.fakeopen.link
+    path: /us
+- alterId: 64
+  cipher: auto
+  name: 1,17,24|_US_->_NL__2
+  network: ws
+  port: 30000
+  server: 45.199.138.191
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.42077230.xyz
+    path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: '3,20,24,31|🇸🇬 _SG_新加坡->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: '80'
   server: direct-ca4.xn--pzypc.store
   tls: false
   type: vmess
@@ -14,31 +42,62 @@ proxies:
     path: /akile?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1,24|_SG_->_CA__2
+  name: 24|1|_SG_->_CA__1
   network: ws
   port: 80
-  server: direct-ca3.xn--pzypc.store
-  skip-cert-verify: true
+  server: direct-ca1.xn--pzypc.store
   tls: false
   type: vmess
   uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
-    headers:
-      host: ca3.xn--pzypc.store
     path: /akile?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1,24|_SG_->_CA__3
+  name: 3,9,24|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '2052'
+  server: 162.159.140.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|1|_US_->_DE_
+  network: ws
+  port: 8880
+  server: lt1.992688.xyz
+  tls: false
+  type: vmess
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
+  ws-opts:
+    path: /?ed=2048
+- alterId: 64
+  cipher: auto
+  name: '0,2,4,6,10,13,16,20,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: 24|1|_SG_->_CA__2
   network: ws
   port: 80
-  server: direct-ca4.xn--pzypc.store
-  skip-cert-verify: true
+  server: direct-ca3.xn--pzypc.store
   tls: false
   type: vmess
   uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
-    headers:
-      host: ca4.xn--pzypc.store
     path: /akile?ed=2048
 - alterId: 0
   cipher: auto
@@ -52,33 +111,6 @@ proxies:
   ws-opts:
     headers:
       Host: mrb.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_DE_
-  network: ws
-  port: 8880
-  server: lt1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      host: vceu3.vpn66.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 3,9,24|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: '2052'
-  server: 162.159.140.6
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
     path: /
 - alterId: 0
   cipher: auto
@@ -96,44 +128,28 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,3,4,20,24,31|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大
+  name: 24|1|_SG_->_CA__3
   network: ws
   port: 80
-  server: direct-ca1.xn--pzypc.store
+  server: direct-ca4.xn--pzypc.store
   tls: false
   type: vmess
   uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
-    headers:
-      Host: ca1.xn--pzypc.store
     path: /akile?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 1,17,24|_US_->_NL__2
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.42077230.xyz
-    path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 6,13,24,31|🇺🇸_US_美国->🇮🇳_IN_印度
+  name: 0,2,4,20|🇺🇸 _GB_英国->🇺🇸_US_美国
   network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  tls: false
+  port: '2096'
+  server: best.fakeopen.link
+  tls: true
   type: vmess
-  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
   ws-opts:
     headers:
-      Host: mm3.shabijichang.com
-    path: /
+      Host: us2.fakeopen.link
+    path: /us
 - alterId: 64
   cipher: auto
   name: 0,2,4,15,20,24|🇺🇸 _US_美国->🇳🇱_NL_荷兰
@@ -147,39 +163,26 @@ proxies:
     headers:
       Host: www.32522178.xyz
     path: /path/1696598013851
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: '0,2,4,6,10,13,16,20,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  name: '20,24,31|🇸🇬 _SG_新加坡->🇨🇦_CA_加拿大 #2'
   network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
+  port: '80'
+  server: direct-ca3.xn--pzypc.store
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
     headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
+      Host: ca3.xn--pzypc.store
+    path: /akile?ed=2048
 - cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 03 @nodpai
+  name: 8,28|中转 🇹🇼 Taiwan 01 @nodpai
   password: 2739ce85d3b9e145
-  port: 41026
+  port: 41020
   server: jscm01.celerlink.one
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 2,4,20,24|🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 8880
-  server: lt1.992688.xyz
-  tls: false
-  type: vmess
-  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
-  ws-opts:
-    headers:
-      Host: vceu3.vpn66.eu.org
-    path: /?ed=2048
 - alterId: 64
   cipher: auto
   name: 1,24,31|_US_->_NL__1
@@ -196,41 +199,40 @@ proxies:
     path: /path/1696598013851
 - alterId: 0
   cipher: auto
-  name: 0,20|🇺🇸 _GB_英国->🇺🇸_US_美国
+  name: 20,24|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
-  port: '2096'
-  server: best.fakeopen.link
-  tls: true
-  type: vmess
-  uuid: 12859d73-1c81-4909-e071-c1aacfeea221
-  ws-opts:
-    headers:
-      Host: us2.fakeopen.link
-    path: /us
-- alterId: 0
-  cipher: auto
-  name: '2,4,20,24,31|🇸🇬_SG_新加坡->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 80
-  server: direct-ca3.xn--pzypc.store
+  port: '8880'
+  server: lt1.992688.xyz
   tls: false
   type: vmess
-  uuid: 92b87a58-eee6-4377-a438-aac96d95192f
+  uuid: 2fc248d5-7c81-471d-c2cf-a14e7f5aed2d
   ws-opts:
     headers:
-      Host: ca3.xn--pzypc.store
-    path: /akile?ed=2048
+      Host: vceu3.vpn66.eu.org
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 1,24|_SG_->_CA__1
+  name: 6,13,24,31|🇺🇸_US_美国->🇮🇳_IN_印度
   network: ws
   port: 80
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,20,24,31|🇸🇬 _SG_新加坡->🇨🇦_CA_加拿大
+  network: ws
+  port: '80'
   server: direct-ca1.xn--pzypc.store
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 92b87a58-eee6-4377-a438-aac96d95192f
   ws-opts:
     headers:
-      host: ca1.xn--pzypc.store
+      Host: ca1.xn--pzypc.store
     path: /akile?ed=2048
