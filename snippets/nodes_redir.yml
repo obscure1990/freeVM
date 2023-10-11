@@ -1,17 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 2,4,20,24|🇺🇸_US_美国->🇫🇷_FR_法国
+  name: 0,3,6,13,16,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '2052'
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,24|_US_->_FR__2
   network: ws
   port: 80
   server: 104.18.203.232
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
   ws-opts:
     headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray،@hopev2ray
+      host: de1vm.cdn-03.live
+    path: /@hopev2ray@hopev2ray
 - alterId: 0
   cipher: auto
   name: 0,3,24|🇩🇪 _IR_伊朗->🇩🇪_DE_德国
@@ -27,26 +41,66 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇮🇳 India 01 @nodpai
-  network: tcp
-  port: '15018'
-  server: 15018.kuaiyin.win
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-- alterId: 0
-  cipher: auto
-  name: 0,3,6,13,16,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  name: 2,4,20,24|🇰🇷_KR_韩国->🇬🇧_GB_英国
   network: ws
-  port: '2052'
-  server: 162.159.152.6
-  tls: false
+  port: 443
+  server: 130.162.154.209
+  tls: true
   type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: lu.wx.alue.link
-    path: /
+      Host: cf.tonyluk.link
+    path: /ophelia.mom:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 7,16,17|中转 🇭🇰 Hong Kong 02 @nodpai
+  network: tcp
+  port: '40158'
+  server: 183.240.232.82
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 1,24|_KR_->_GB_
+  network: ws
+  port: 443
+  server: 130.162.154.209
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      host: cf.tonyluk.link
+    path: /ophelia.mom:443/linkvws
+- alterId: 64
+  cipher: auto
+  name: '6,13,16,24,31|🇺🇸_US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: 30000
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,20,24|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '80'
+  server: 104.18.202.232
+  tls: false
+  type: vmess
+  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
+  ws-opts:
+    headers:
+      Host: de1vm.cdn-03.live
+    path: /@hopev2ray،@hopev2ray
 - alterId: 0
   cipher: auto
   name: 1,24|_US_->_NL_
@@ -63,18 +117,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,24|_KR_->_GB_
+  name: 1,24|_US_->_FR__1
   network: ws
-  port: 443
-  server: 130.162.154.209
+  port: 80
+  server: 104.18.202.232
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
   ws-opts:
     headers:
-      host: cf.tonyluk.link
-    path: /ophelia.mom:443/linkvws
+      host: de1vm.cdn-03.live
+    path: /@hopev2ray@hopev2ray
 - alterId: 0
   cipher: auto
   name: 1,24|_US_->_ZA_
@@ -104,66 +158,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,4,20,24|🇰🇷_KR_韩国->🇬🇧_GB_英国
-  network: ws
-  port: 443
-  server: 130.162.154.209
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: cf.tonyluk.link
-    path: /ophelia.mom:443/linkvws
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,20,24|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '80'
-  server: 104.18.202.232
-  tls: false
-  type: vmess
-  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
-  ws-opts:
-    headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray،@hopev2ray
-- alterId: 64
-  cipher: auto
-  name: '6,13,16,24,31|🇺🇸_US_美国->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: 30000
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 02 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41027
-  server: jscm01.celerlink.one
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_FR__2
-  network: ws
-  port: 80
-  server: 104.18.203.232
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
-  ws-opts:
-    headers:
-      host: de1vm.cdn-03.live
-    path: /@hopev2ray@hopev2ray
-- alterId: 0
-  cipher: auto
   name: 2,4,20,24,31|🇺🇸_US_美国->🇳🇱_NL_荷兰
   network: ws
   port: 2096
@@ -177,18 +171,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,24|_US_->_FR__1
+  name: 2,4,20,24|🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
   port: 80
-  server: 104.18.202.232
-  skip-cert-verify: true
+  server: 104.18.203.232
   tls: false
   type: vmess
   uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
   ws-opts:
     headers:
-      host: de1vm.cdn-03.live
-    path: /@hopev2ray@hopev2ray
+      Host: de1vm.cdn-03.live
+    path: /@hopev2ray،@hopev2ray
 - alterId: 0
   cipher: auto
   name: 24,31|18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_4
@@ -202,3 +195,12 @@ proxies:
     headers:
       Host: lu.wx.alue.link
     path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇮🇳 India 01 @nodpai
+  network: tcp
+  port: '15086'
+  server: 15086.kuaiyin.win
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
