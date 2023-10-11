@@ -1,4 +1,24 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 19|CA-38.111.114.246-098
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.111.114.246
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇨🇦 加拿大 231
+  network: ws
+  port: 80
+  server: zfc.windowsupdate1.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 976cf01f-b22e-4bb4-c980-81352649d5a7
+  ws-opts:
+    headers:
+      Host: ka-cf.tlers.cf
+    path: /decf
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -8,7 +28,7 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5def64e2-2e97-43ae-b0ef-a14b09a81747
+  uuid: dacd7414-0f66-406b-977f-5099b454f132
 - cipher: aes-256-gcm
   name: 19|CA-38.111.114.246-096
   password: g5MeD6Ft3CWlJId
@@ -16,9 +36,9 @@ proxies:
   server: 38.111.114.246
   type: ss
 - cipher: aes-256-gcm
-  name: 19|CA-38.111.114.246-098
-  password: RexnBgU7EV5ADxG
-  port: 7001
+  name: 19|CA-38.111.114.246-097
+  password: kDWvXYZoTBcGkC4
+  port: 8882
   server: 38.111.114.246
   type: ss
 - alterId: 0
@@ -35,35 +55,6 @@ proxies:
     headers:
       Host: 51vfly1.win
     path: /myblog
-- cipher: aes-256-gcm
-  name: 19|CA-38.111.114.246-097
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.111.114.246
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4b6afd1a-c6d9-4b3f-ac8c-bd4f437759f7
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 144
@@ -80,15 +71,37 @@ proxies:
     path: /526-dekDP6Otf
 - alterId: 0
   cipher: auto
-  name: 24|12|🇨🇦 加拿大 231
-  network: ws
-  port: 80
-  server: zfc.windowsupdate1.com
-  servername: ''
-  tls: false
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 976cf01f-b22e-4bb4-c980-81352649d5a7
+  uuid: f335200d-2d52-4afa-98b1-9dcdfed9b924
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
   ws-opts:
     headers:
-      Host: ka-cf.tlers.cf
-    path: /decf
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: '24|7,8|🇨🇦 Canada 01 @nodpai #1'
+  network: ws
+  port: 80
+  server: mtlr.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 53701585-591f-48a3-9515-8831ed0524ac
+  ws-opts:
+    headers:
+      Host: mtlr.shabijichang.com
+    path: /
