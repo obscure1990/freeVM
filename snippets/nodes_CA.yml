@@ -1,16 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-38.111.114.246-096
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.111.114.246
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.111.114.246-098
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.111.114.246
-  type: ss
 - alterId: 0
   cipher: auto
   name: 7,8,24|🇨🇦 Canada 01 @nodpai
@@ -25,25 +13,21 @@ proxies:
       Host: mtlr.shabijichang.com
     path: /
 - cipher: aes-256-gcm
-  name: 19|CA-38.111.114.246-097
-  password: kDWvXYZoTBcGkC4
-  port: 8882
+  name: 19|CA-38.111.114.246-096
+  password: g5MeD6Ft3CWlJId
+  port: 5004
   server: 38.111.114.246
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|12|🇨🇦 12|🇨🇦 加拿大 165 2
-  network: ws
-  port: 443
-  server: 51vfly1.win
-  servername: ''
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9681f99e-d251-477a-d777-1d01ee550481
-  ws-opts:
-    headers:
-      Host: 51vfly1.win
-    path: /myblog
+  uuid: 0a266bb5-9b55-4114-a718-877cf2f5af78
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -69,11 +53,27 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 24|12|🇨🇦 12|🇨🇦 加拿大 165 2
+  network: ws
+  port: 443
+  server: 51vfly1.win
+  servername: ''
   tls: true
   type: vmess
-  uuid: 25f5871a-fbf0-45ac-8465-d3cc2500e360
+  uuid: 9681f99e-d251-477a-d777-1d01ee550481
+  ws-opts:
+    headers:
+      Host: 51vfly1.win
+    path: /myblog
+- cipher: aes-256-gcm
+  name: 19|CA-38.111.114.246-098
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.111.114.246
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.111.114.246-097
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.111.114.246
+  type: ss
