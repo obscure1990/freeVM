@@ -1,16 +1,7 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·103
-  network: tcp
-  port: 35048
-  server: tg_mfbpn_t1.52vpn.eu.org
-  tls: false
-  type: vmess
-  uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef
 - alterId: 64
   cipher: auto
-  name: '6,13,16,24,27,31|🇺🇸_US_美国->🇳🇱_NL_荷兰 #1'
+  name: '6,13,16,24,31|🇺🇸_US_美国->🇳🇱_NL_荷兰 #1'
   network: ws
   port: 30000
   server: 45.199.138.191
@@ -23,19 +14,24 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·98
-  network: tcp
-  port: 50008
-  server: 08.kccic2pa.xyz
-  tls: false
+  name: 1,24|_US_->_NL_
+  network: ws
+  port: 2096
+  server: 162.159.129.71
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
+  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
+  ws-opts:
+    headers:
+      host: s1.shargh.shop
+    path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,6,13,16,24,27,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  name: 24,31|18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_4
   network: ws
-  port: '2052'
-  server: 162.159.152.6
+  port: 2052
+  server: 162.159.140.6
   tls: false
   type: vmess
   uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
@@ -45,27 +41,13 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·104
+  name: 7,16,17,19,20,24|中转 🇭🇰 Hong Kong 01 @nodpai
   network: tcp
-  port: 35014
-  server: tg_mfbpn_t1.52vpn.eu.org
+  port: '40158'
+  server: 183.240.232.82
   tls: false
   type: vmess
-  uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_FR__1
-  network: ws
-  port: 80
-  server: 104.18.202.232
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
-  ws-opts:
-    headers:
-      host: de1vm.cdn-03.live
-    path: /@hopev2ray@hopev2ray
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 1,24|_US_->_FR__2
@@ -82,77 +64,87 @@ proxies:
     path: /@hopev2ray@hopev2ray
 - alterId: 0
   cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·105
-  network: tcp
-  port: 35013
-  server: tg_mfbpn_t1.52vpn.eu.org
-  tls: false
-  type: vmess
-  uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·7
-  network: tcp
-  port: 35020
-  server: tg_mfbpn_t2.52vpn.eu.org
-  tls: false
-  type: vmess
-  uuid: 37e5dcf8-8625-3143-9c12-f3d378c0a6ef
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·47
-  network: tcp
-  port: 44274
-  server: jscm1.r1u.cn
-  tls: false
-  type: vmess
-  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·114
-  network: tcp
-  port: 50010
-  server: 10.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
-- alterId: 0
-  cipher: auto
-  name: 0,3,24,27|🇩🇪 _IR_伊朗->🇩🇪_DE_德国
+  name: 1,24|_KR_->_GB_
   network: ws
-  port: '26295'
-  server: 31.14.114.56
-  tls: false
+  port: 443
+  server: 130.162.154.209
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: d759d4c4-b7e7-475f-a313-5cb1ff154309
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,16,17,19,20,24,27|中转 🇭🇰 Hong Kong 01 @nodpai
-  network: tcp
-  port: '40158'
-  server: 183.240.232.82
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·16
-  network: tcp
-  port: 50007
-  server: 07.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: 10b5b766-62d6-46cd-9fb6-a80f4d55baf6
+      host: cf.tonyluk.link
+    path: /ophelia.mom:443/linkvws
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,20,24|🇺🇸 _US_美国->🇫🇷_FR_法国
   network: ws
   port: '80'
   server: 104.18.202.232
+  tls: false
+  type: vmess
+  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
+  ws-opts:
+    headers:
+      Host: de1vm.cdn-03.live
+    path: /@hopev2ray،@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,13,16,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '2052'
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2,4,20,24,31|🇺🇸_US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: 2096
+  server: 162.159.129.71
+  tls: true
+  type: vmess
+  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
+  ws-opts:
+    headers:
+      Host: s1.shargh.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '8,19,25,28|中转 🇭🇰 Hong Kong 01 @nodpai #1'
+  port: 40158
+  server: 183.240.232.82
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 1,24|_US_->_FR__1
+  network: ws
+  port: 80
+  server: 104.18.202.232
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
+  ws-opts:
+    headers:
+      host: de1vm.cdn-03.live
+    path: /@hopev2ray@hopev2ray
+- alterId: 0
+  cipher: auto
+  name: 2,4,10,20,24|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 80
+  server: 104.18.203.232
   tls: false
   type: vmess
   uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
@@ -176,7 +168,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 2,4,20,24,27|🇺🇸_US_美国->🇿🇦_ZA_南非
+  name: 2,4,20,24|🇺🇸_US_美国->🇿🇦_ZA_南非
   network: ws
   port: 80
   server: fd.shabijichang.com
@@ -189,30 +181,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·29
+  name: 0,3,24|🇩🇪 _IR_伊朗->🇩🇪_DE_德国
   network: ws
-  port: 19709
-  server: 123.249.101.15
+  port: '26295'
+  server: 31.14.114.56
   tls: false
   type: vmess
-  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  uuid: d759d4c4-b7e7-475f-a313-5cb1ff154309
   ws-opts:
     headers:
-      Host: 123.249.101.15
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 24,31|18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_4
-  network: ws
-  port: 2052
-  server: 162.159.140.6
+  name: 7,16,17,24,26|中转 🇭🇰 Hong Kong 02 @nodpai
+  network: tcp
+  port: '53737'
+  server: 112.29.94.22
   tls: false
   type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 2,4,20,24|🇰🇷_KR_韩国->🇬🇧_GB_英国
@@ -225,114 +213,4 @@ proxies:
   ws-opts:
     headers:
       Host: cf.tonyluk.link
-    path: /ophelia.mom:443/linkvws
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·112
-  network: ws
-  port: 80
-  server: 36.150.27.31
-  tls: false
-  type: vmess
-  uuid: ae9e3c21-9445-4271-b4dd-eec737f64df2
-  ws-opts:
-    headers:
-      Host: 36.150.27.31
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,4,20,24|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 80
-  server: 104.18.203.232
-  tls: false
-  type: vmess
-  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
-  ws-opts:
-    headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray،@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·69
-  network: tcp
-  port: 18707
-  server: jscm1.r1u.cn
-  tls: false
-  type: vmess
-  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·54
-  network: tcp
-  port: 16803
-  server: jscm1.r1u.cn
-  tls: false
-  type: vmess
-  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
-- alterId: 0
-  cipher: auto
-  name: 2,4,9,20,24,31|🇺🇸_US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 2096
-  server: 162.159.129.71
-  tls: true
-  type: vmess
-  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇺🇸 United States 03 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41027
-  server: jscm01.celerlink.one
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·56
-  network: tcp
-  port: 21658
-  server: jscm1.r1u.cn
-  tls: false
-  type: vmess
-  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇳·中转·TG@kkovokk·55
-  network: tcp
-  port: 36295
-  server: jscm1.r1u.cn
-  tls: false
-  type: vmess
-  uuid: 23bdd982-25b2-426c-ab4c-8dc61a23e1e6
-- alterId: 0
-  cipher: auto
-  name: 1,24|_US_->_NL_
-  network: ws
-  port: 2096
-  server: 162.159.129.71
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
-  ws-opts:
-    headers:
-      host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,24|_KR_->_GB_
-  network: ws
-  port: 443
-  server: 130.162.154.209
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      host: cf.tonyluk.link
     path: /ophelia.mom:443/linkvws
