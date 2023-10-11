@@ -1,49 +1,4 @@
 proxies:
-- name: 1|_FR__2
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.37.64.113
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 16|@hkaa0||法国
-  network: grpc
-  port: 443
-  server: hdfy1d1.cpi2hidd.eu.org
-  tls: true
-  type: vmess
-  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇫🇷_FR_法国_wmt_203
-  network: ws
-  port: 80
-  server: pl1-vmess.greenssh.xyz
-  tls: false
-  type: vmess
-  uuid: 26cd2459-4f68-4e56-b19c-b0b26f6ff843
-  ws-opts:
-    headers:
-      Host: pl1-vmess.greenssh.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_free4allVPN
-  network: ws
-  port: '443'
-  server: phosphorylative.aurorainiceland.com
-  servername: phosphorylative.aurorainiceland.com
-  tls: true
-  type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
-  ws-opts:
-    headers:
-      Host: phosphorylative.aurorainiceland.com
-    path: /nimvws
 - alterId: 64
   cipher: auto
   name: 24|12|🇫🇷_FR_法国_wmt_45
@@ -57,6 +12,56 @@ proxies:
     headers:
       Host: www.69414502.xyz
     path: /path/1696944806961
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇫🇷_FR_法国_wmt_203
+  network: ws
+  port: 80
+  server: pl1-vmess.greenssh.xyz
+  tls: false
+  type: vmess
+  uuid: 26cd2459-4f68-4e56-b19c-b0b26f6ff843
+  ws-opts:
+    headers:
+      Host: pl1-vmess.greenssh.xyz
+    path: /
+- name: 1|_FR__2
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.37.64.113
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0051
+  obfs: tls1.2_ticket_auth
+  password: RcfVcDzzB
+  port: 8181
+  protocol: origin
+  protocol-param: Non%%
+  server: fr-am1-5.eqsunshine.com
+  type: ssr
+- name: 1|_FR__3
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.36.61.217
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - alterId: 64
   cipher: auto
   name: 24|12|🇫🇷_FR_法国_wmt_62
@@ -70,36 +75,6 @@ proxies:
     headers:
       Host: www.57424349.xyz
     path: /path/1696944806961
-- name: 1|_FR__3
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.36.61.217
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0048
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.84.198
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
 - name: 1|_FR__1
   network: tcp
   password: telegram-id-directvpn
@@ -123,34 +98,15 @@ proxies:
       Host: www.49291261.xyz
     path: /path/1693992821776
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0051
-  obfs: tls1.2_ticket_auth
-  password: RcfVcDzzB
-  port: 8181
-  protocol: origin
-  protocol-param: Non%%
-  server: fr-am1-5.eqsunshine.com
-  type: ssr
-- alterId: 0
   cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
+  name: 18|🇫🇷_FR_法国_fnet00
   network: ws
   port: '80'
-  server: 104.19.81.78
+  server: fd.shabijichang.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
   ws-opts:
     headers:
       Host: bl.shabijichang.com
@@ -169,3 +125,47 @@ proxies:
   type: vmess
   udp: true
   uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- alterId: 0
+  cipher: auto
+  name: 16|@hkaa0||法国
+  network: grpc
+  port: 443
+  server: hdfy1d1.cpi2hidd.eu.org
+  tls: true
+  type: vmess
+  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0048
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.84.198
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_free4allVPN
+  network: ws
+  port: '443'
+  server: phosphorylative.aurorainiceland.com
+  servername: phosphorylative.aurorainiceland.com
+  tls: true
+  type: vmess
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  ws-opts:
+    headers:
+      Host: phosphorylative.aurorainiceland.com
+    path: /nimvws
