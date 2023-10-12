@@ -1,13 +1,4 @@
 proxies:
-- name: 1|_FR_
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.188.9.170
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 16|@hkaa0||法国
@@ -17,6 +8,20 @@ proxies:
   tls: true
   type: vmess
   uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 0
   cipher: aes-128-gcm
   name: 18|🇫🇷_FR_法国_oneclickvpnkeys
@@ -29,14 +34,14 @@ proxies:
   uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
+  name: 18|🇫🇷_FR_法国_fnet00
   network: ws
   port: '80'
-  server: 104.19.81.78
+  server: fd.shabijichang.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
   ws-opts:
     headers:
       Host: bl.shabijichang.com
@@ -54,20 +59,6 @@ proxies:
     headers:
       Host: fr2-vmess.greenssh.xyz
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -81,6 +72,15 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.188.9.170
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
