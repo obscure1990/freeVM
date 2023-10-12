@@ -1,118 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,16,20,24|🇺🇸 _US_美国->🇱🇺_LU_卢森堡 #1'
-  network: ws
-  port: '2052'
-  server: 162.159.152.6
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,16,17,24,26|中转 🇭🇰 Hong Kong 02 @nodpai
-  network: tcp
-  port: '53737'
-  server: 112.29.94.22
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '3,6,13,24,30|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: '2096'
-  server: 162.159.129.71
-  tls: true
-  type: vmess
-  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,16,17,24|中转 🇭🇰 Hong Kong 01 @nodpai
+  name: 7,16,17,24|中转 🇭🇰 Hong Kong 03 @nodpai
   network: tcp
   port: '40158'
   server: 183.240.232.82
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 1,24|_KR_->_GB_
-  network: ws
-  port: 443
-  server: 130.162.154.209
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      host: cf.tonyluk.link
-    path: /ophelia.mom:443/linkvws
-- cipher: chacha20-ietf-poly1305
-  name: 8,19|中转 🇺🇸 United States 05 @nodpai
-  password: 2739ce85d3b9e145
-  port: 41026
-  server: jscm01.celerlink.one
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1,17,24|_US_->_LU__2
-  network: ws
-  port: 2052
-  server: 162.159.152.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,4,16,20,24,25,26|🇺🇸 _US_美国->🇮🇷_IR_伊朗
-  network: ws
-  port: '2052'
-  server: cf.yx.alue.link
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: us.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,24|中转 🇺🇸 United States 02 @nodpai
-  network: tcp
-  port: '50020'
-  server: 20.kccic2pa.xyz
-  tls: false
-  type: vmess
-  uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,13,15,20,24,30|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: '2052'
-  server: 104.16.68.38
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
 - alterId: 0
   cipher: auto
   name: 1,17,24|_US_->_IR_
@@ -129,6 +24,80 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 7,24|中转 🇬🇧 United Kingdom 01 @nodpa...
+  network: tcp
+  port: '50009'
+  server: 09.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,10,13,15,20,24,30|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '2052'
+  server: 104.16.68.38
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|7|中转 🇮🇳 India 01 @nodpai
+  network: tcp
+  port: '15086'
+  server: 15086.kuaiyin.win
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- cipher: chacha20-ietf-poly1305
+  name: 8,19|中转 🇺🇸 United States 03 @nodpai
+  password: 2739ce85d3b9e145
+  port: 41026
+  server: jscm01.celerlink.one
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,16,20,24|🇺🇸 _US_美国->🇱🇺_LU_卢森堡 #1'
+  network: ws
+  port: '2052'
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,24|中转 🇩🇪 Germany 01 @nodpai
+  network: tcp
+  port: '50041'
+  server: 41.kccic2pa.xyz
+  tls: false
+  type: vmess
+  uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
+- alterId: 0
+  cipher: auto
+  name: 1,24|_KR_->_GB_
+  network: ws
+  port: 443
+  server: 130.162.154.209
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      host: cf.tonyluk.link
+    path: /ophelia.mom:443/linkvws
+- alterId: 0
+  cipher: auto
   name: 0,2,3,4,20,24,30|🇰🇷 _KR_韩国->🇬🇧_GB_英国
   network: ws
   port: '443'
@@ -140,41 +109,6 @@ proxies:
     headers:
       Host: cf.tonyluk.link
     path: /ophelia.mom:443/linkvws
-- alterId: 64
-  cipher: auto
-  name: 0,2,4,16,20,24,30|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 3,6,13,24,30|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '2082'
-  server: fr-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 87646364-c074-4b95-81cf-4bded967ca02
-  ws-opts:
-    headers:
-      Host: fr-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|7|中转 🇮🇳 India 01 @nodpai
-  network: tcp
-  port: '15086'
-  server: 15086.kuaiyin.win
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 64
   cipher: auto
   name: 1,17,24|_US_->_NL_
@@ -191,6 +125,19 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
+  name: 3,6,13,24,30|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '2082'
+  server: fr-01.cloudlion.me
+  tls: false
+  type: vmess
+  uuid: 87646364-c074-4b95-81cf-4bded967ca02
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
   name: 1,24|_US_->_LU__1
   network: ws
   port: 2052
@@ -205,10 +152,63 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,24|中转 🇩🇪 Germany 01 @nodpai
+  name: '3,6,13,24,30|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: '2096'
+  server: 162.159.129.71
+  tls: true
+  type: vmess
+  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
+  ws-opts:
+    headers:
+      Host: s1.shargh.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,7,8,17,24|_US_->_LU__2
+  network: ws
+  port: 2052
+  server: 162.159.152.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,24|中转 🇺🇸 United States 04 @nodpai
   network: tcp
-  port: '50041'
-  server: 41.kccic2pa.xyz
+  port: '50020'
+  server: 20.kccic2pa.xyz
   tls: false
   type: vmess
   uuid: f6602bb3-d438-4f7c-9cf5-5fd548bc76dd
+- alterId: 0
+  cipher: auto
+  name: 0,2,4,10,16,20,24,25,26|🇺🇸 _US_美国->🇮🇷_IR_伊朗
+  network: ws
+  port: '2052'
+  server: cf.yx.alue.link
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: us.wx.alue.link
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,2,4,16,20,24,30|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
