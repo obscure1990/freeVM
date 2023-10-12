@@ -15,6 +15,40 @@ proxies:
     path: /opt/video/images
 - alterId: 0
   cipher: auto
+  name: 24,25,26|14,15|香港B|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hktddns.aikun.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ee484d37-3168-4a63-a0c3-72e96ea02508
+  ws-opts:
+    headers:
+      Host: sanmao17.hkbn.n.optage.moe
+    path: /hkbn
+- alterId: 0
+  cipher: auto
+  name: 22,24|香港 04 | 1x HK
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d2cff069-5a64-4db5-ba44-f23dc698aa47
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇭🇰香港04
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a6c41327-0fce-4ce8-8182-65e0f9a88805
+- alterId: 0
+  cipher: auto
   name: '16|@hkaa0||香港 #1'
   network: ws
   port: 57754
@@ -26,14 +60,31 @@ proxies:
     headers:
       Host: ylsl.kxking.eu.org
     path: /vm?ed=2048
-- name: 28|HK_speednode_0012
-  network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48009
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
+- alterId: 0
+  cipher: auto
+  name: 28|HK_speednode_0026
+  network: ws
+  port: 80
+  server: hk3.jiedian.stream
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: b40fa07c-29c3-4eb1-a4af-f5b221594212
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a6c41327-0fce-4ce8-8182-65e0f9a88805
 - alterId: 0
   cipher: auto
   name: 24|12|HK_speednode_0057
@@ -50,30 +101,24 @@ proxies:
     path: /c6d6b130f9?ed=2048
 - alterId: 0
   cipher: auto
-  name: 22,24|香港 05 | 1x HK
+  name: 22,24|香港 06 | 1x HK
   network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e932cd2d-cbab-478f-9fd7-7ca08c30a789
+  uuid: d2cff069-5a64-4db5-ba44-f23dc698aa47
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 25,26|🇭🇰 香港B|@ripaojiedian
-  network: ws
-  port: 80
-  server: hktddns.aikun.online
-  skip-cert-verify: false
-  tfo: false
+  name: '8,19,25,28|「蛋挞云,流媒体全解锁」🇭🇰 HK 01 #1'
+  port: 53737
+  server: 112.29.94.22
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: ee484d37-3168-4a63-a0c3-72e96ea02508
-  ws-opts:
-    headers:
-      Host: sanmao17.hkbn.n.optage.moe
-    path: /hkbn
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 24,26|12,15|香港A|@ripaojiedian
@@ -84,14 +129,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 28|HK_speednode_0009
+- alterId: 0
+  cipher: auto
+  name: 7,10,16,17,24,26|「蛋挞云,流媒体全解锁」🇭🇰 HK 01
   network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48006
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  port: '53737'
+  server: 112.29.94.22
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: '14|香港_【YouTube-VV科技】 #1'
@@ -105,44 +151,6 @@ proxies:
     headers:
       Host: 18.wyhkaa0.gq
     path: /TG:@hkaa0
-- name: 28|HK_speednode_0016
-  network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48015
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 24|12|HK_speednode_0058
-  network: ws
-  port: 443
-  server: 43.132.125.32
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d0cab687-cc1b-494c-95c7-d4b0b069c76b
-  ws-opts:
-    headers:
-      Host: t.zhulida.cc
-    path: /c6d6b130f9?ed=2048
-- name: 28|HK_speednode_0008
-  network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48007
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 28|HK_speednode_0015
-  network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48003
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 11,24|🇭🇰香港05
@@ -152,31 +160,7 @@ proxies:
   servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 99c43248-05f8-41e4-a364-0726dd295805
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇭🇰香港04
-  network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 99c43248-05f8-41e4-a364-0726dd295805
-- alterId: 32
-  cipher: auto
-  name: 24|12|⚡️@DeamNet_🔻 🇭🇰Hong Kong 2
-  network: ws
-  port: 80
-  server: 182.16.1.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      Host: 182.16.1.194
-    path: /opt/video/images
+  uuid: a6c41327-0fce-4ce8-8182-65e0f9a88805
 - alterId: 0
   cipher: auto
   name: 16|@hkaa0||香港
@@ -190,61 +174,6 @@ proxies:
     headers:
       Host: ylsl.kxking.eu.org
     path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 22,24|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e932cd2d-cbab-478f-9fd7-7ca08c30a789
-- name: 28|HK_speednode_0011
-  network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48050
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 28|HK_speednode_0010
-  network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48010
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 28|HK_speednode_0013
-  network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48013
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 20|🇭🇰 香港(油管:破解资源君2.0)
-  network: ws
-  port: '30001'
-  server: hk-v2.superyuluo.asia
-  tls: true
-  type: vmess
-  uuid: 7b30dbe2-5fd9-4f87-a733-facef379632b
-  ws-opts:
-    headers:
-      Host: hk-v2.superyuluo.asia
-    path: /
-- name: 28|HK_speednode_0014
-  network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48001
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 64
   cipher: auto
   name: 14|香港_【YouTube-VV科技】
@@ -269,32 +198,43 @@ proxies:
     path: /path/1693018744512
 - alterId: 0
   cipher: auto
-  name: 11,24|🇭🇰香港06
+  name: 22,24|香港 05 | 1x HK
   network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 99c43248-05f8-41e4-a364-0726dd295805
+  uuid: d2cff069-5a64-4db5-ba44-f23dc698aa47
 - alterId: 0
   cipher: auto
-  name: 22,24|香港 04 | 1x HK
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
+  name: 24|12|🇭🇰 14,15|香港C|@ripaojiedian
+  network: ws
+  port: 2086
+  server: 8.218.143.10
+  servername: ''
+  tls: false
   type: vmess
-  uuid: e932cd2d-cbab-478f-9fd7-7ca08c30a789
-- name: 28|HK_speednode_0018
-  network: tcp
-  password: ccbdc122-db63-4d56-b995-f3e27fcf4de9
-  port: 48014
-  server: bpg-nd-cc-ora.nbnodeyyds.xyz
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: hk1.kxking.eu.org
+    path: /vm?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 28|HK_speednode_0025
+  network: ws
+  port: 80
+  server: hk2.jiedian.stream
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: b40fa07c-29c3-4eb1-a4af-f5b221594212
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25|🇭🇰 香港KT|@ripaojiedian
@@ -313,15 +253,42 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|12,14,15|香港C|@ripaojiedian
+  name: 24|12|HK_speednode_0058
   network: ws
-  port: '2086'
-  server: 8.218.143.10
+  port: 443
+  server: 43.132.125.32
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d0cab687-cc1b-494c-95c7-d4b0b069c76b
+  ws-opts:
+    headers:
+      Host: t.zhulida.cc
+    path: /c6d6b130f9?ed=2048
+- alterId: 32
+  cipher: auto
+  name: 24|12|⚡️@DeamNet_🔻 🇭🇰Hong Kong 2
+  network: ws
+  port: 80
+  server: 182.16.1.194
   servername: ''
   tls: false
   type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
   ws-opts:
     headers:
-      Host: hk1.kxking.eu.org
-    path: /vm?ed=2048
+      Host: 182.16.1.194
+    path: /opt/video/images
+- alterId: 0
+  cipher: auto
+  name: 20|🇭🇰 香港(油管:破解资源君2.0)
+  network: ws
+  port: '30001'
+  server: hk-v2.superyuluo.asia
+  tls: true
+  type: vmess
+  uuid: 7b30dbe2-5fd9-4f87-a733-facef379632b
+  ws-opts:
+    headers:
+      Host: hk-v2.superyuluo.asia
+    path: /
