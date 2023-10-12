@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '0,2,3,4,16,20,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡 #1'
+  network: ws
+  port: '2052'
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
   name: 0,2,3,4,6,13,20,24|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
   network: ws
   port: '2052'
@@ -12,40 +25,19 @@ proxies:
     headers:
       Host: lu.wx.alue.link
     path: /
-- name: 8,19,25,28|中转 🇯🇵 Japan 01 @nodpai
-  password: ff0675b0-c665-3d69-800b-f7fc29e1ead8
-  port: 40350
-  server: zz.chaosu999.com
-  skip-cert-verify: true
-  sni: chaosujp.ccoo520.xyz
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇨🇳 China 02 @nodpai
+  name: '3,6,13,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
   network: ws
-  port: '443'
-  server: 198.2.216.212
+  port: '2096'
+  server: 162.159.129.71
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
   ws-opts:
     headers:
-      Host: ''
-    path: /path/1695993071029
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,20,24|🇰🇷 _KR_韩国->🇬🇧_GB_英国
-  network: ws
-  port: '443'
-  server: 130.162.154.209
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: cf.tonyluk.link
-    path: /ophelia.mom:443/linkvws
+      Host: s1.shargh.shop
+    path: /
 - alterId: 0
   cipher: auto
   name: 1,24|_KR_->_GB_
@@ -62,10 +54,36 @@ proxies:
     path: /ophelia.mom:443/linkvws
 - alterId: 0
   cipher: auto
-  name: 1,17,24|_US_->_LU__2
+  name: 24,31|18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_4
   network: ws
   port: 2052
-  server: 162.159.152.6
+  server: 162.159.140.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 0,2,4,16,20,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '30000'
+  server: 45.199.138.191
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42077230.xyz
+    path: /path/1696251522438
+- alterId: 0
+  cipher: auto
+  name: 1,24|_US_->_LU__1
+  network: ws
+  port: 2052
+  server: 104.16.68.38
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -76,16 +94,30 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,6,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国
+  name: 0,2,3,4,20,24|🇰🇷 _KR_韩国->🇬🇧_GB_英国
   network: ws
-  port: '2082'
-  server: fr-01.cloudlion.me
-  tls: false
+  port: '443'
+  server: 130.162.154.209
+  tls: true
   type: vmess
-  uuid: 87646364-c074-4b95-81cf-4bded967ca02
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: fr-01.cloudlion.me
+      Host: cf.tonyluk.link
+    path: /ophelia.mom:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 1,17,24|_US_->_IR_
+  network: ws
+  port: 2052
+  server: cf.yx.alue.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      host: us.wx.alue.link
     path: /
 - alterId: 64
   cipher: auto
@@ -116,23 +148,23 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,16,20,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡 #1'
+  name: 3,6,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国
   network: ws
-  port: '2052'
-  server: 162.159.152.6
+  port: '2082'
+  server: fr-01.cloudlion.me
   tls: false
   type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  uuid: 87646364-c074-4b95-81cf-4bded967ca02
   ws-opts:
     headers:
-      Host: lu.wx.alue.link
+      Host: fr-01.cloudlion.me
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,24|_US_->_LU__1
+  name: 1,17,24|_US_->_LU__2
   network: ws
   port: 2052
-  server: 104.16.68.38
+  server: 162.159.152.6
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -140,57 +172,4 @@ proxies:
   ws-opts:
     headers:
       host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,17,24|_US_->_IR_
-  network: ws
-  port: 2052
-  server: cf.yx.alue.link
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      host: us.wx.alue.link
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 0,2,4,16,20,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '30000'
-  server: 45.199.138.191
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42077230.xyz
-    path: /path/1696251522438
-- alterId: 0
-  cipher: auto
-  name: 24,31|18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_4
-  network: ws
-  port: 2052
-  server: 162.159.140.6
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,6,13,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
-  network: ws
-  port: '2096'
-  server: 162.159.129.71
-  tls: true
-  type: vmess
-  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
     path: /
