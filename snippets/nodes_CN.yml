@@ -1,10 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-153
-  password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27130
-  server: hefei.chiguayun.cc
+  name: 19|CN-223.111.150.130-155
+  password: a6692a28fdebb4e5
+  port: 41026
+  server: jscm01.celerlink.one
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 19,20,24,26|CN-112.29.94.22-138
+  network: tcp
+  port: 53300
+  server: 112.29.94.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 112.29.94.22
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19,20|CN-116.129.254.6-131
@@ -18,17 +31,53 @@ proxies:
   ws-headers:
     Host: 116.129.254.6
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '16,17|@hkaa0||中国 #1'
+  network: tcp
+  port: 35105
+  server: tanz-board.kunlun-one.com
+  tls: false
+  type: vmess
+  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
+- alterId: 0
+  cipher: auto
+  name: 1,24|_CN__1
+  network: ws
+  port: 10052
+  server: 111.67.201.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
+  ws-opts:
+    headers:
+      host: tms.dingtalk.com
+    path: /neimenggu001
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0004
-  password: add56d8f-eeef-4531-ba20-f9a30f0f021e
-  port: 26906
-  server: ydyh.nanbei.info
+  name: 19|CN-223.111.150.130-162
+  password: a6692a28fdebb4e5
+  port: 41033
+  server: jscm01.celerlink.one
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-116.129.254.6-120
+  name: 19,20|CN-120.233.27.171-030
   network: tcp
-  port: 11908
+  port: 36676
+  server: 4.hk.zz.xxxxx.x-t-fuckword.network
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  ws-headers:
+    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-116.129.254.6-113
+  network: tcp
+  port: 9016
   server: 116.129.254.6
   skip-cert-verify: true
   tls: false
@@ -48,19 +97,98 @@ proxies:
   uuid: 1837498a-bd38-337b-a123-f03dad7d15e9
 - alterId: 0
   cipher: auto
-  name: 28|CN_speednode_0001
+  name: 19,20|CN-221.131.165.72-116
   network: tcp
-  port: 25001
-  server: a.baozinet.top
+  port: 9008
+  server: 221.131.165.72
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 221.131.165.72
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-116.129.254.6-073
+  name: '0,2,3,4,20,24|_CN_中国 #1'
+  network: ws
+  port: '80'
+  server: 124.220.57.75
+  tls: false
+  type: vmess
+  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24,31|18|🇨🇳_CN_中国_26
+  network: ws
+  port: 80
+  server: 175.178.65.137
+  tls: false
+  type: vmess
+  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /neimenggu001
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-116.129.254.6-137
   network: tcp
-  port: 11917
+  port: 11904
+  server: 116.129.254.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 116.129.254.6
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  name: '16,17|@hkaa0||中国 #3'
+  network: tcp
+  port: 39971
+  server: 183.240.232.82
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-153
+  password: d376f270-1807-4522-9f92-b499658a2678
+  port: 27130
+  server: hefei.chiguayun.cc
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: '14|中国_【YouTube-VV科技】 #1'
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-063
+  network: tcp
+  port: 11931
+  server: 221.131.165.72
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 221.131.165.72
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-116.129.254.6-112
+  network: tcp
+  port: 9027
   server: 116.129.254.6
   skip-cert-verify: true
   tls: false
@@ -84,16 +212,29 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-36.140.102.210-139
+  name: 7,8,24|「节点冠名招商 @nodpai」🇨🇳 CN 01
+  network: ws
+  port: '19709'
+  server: 123.249.101.15
+  tls: false
+  type: vmess
+  uuid: 2f278a45-940a-46c1-c886-77f3b2d33987
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-099
   network: tcp
-  port: 25002
-  server: b.baozinet.top
+  port: 9002
+  server: 221.131.165.72
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
   ws-headers:
-    Host: b.baozinet.top
+    Host: 221.131.165.72
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -108,72 +249,50 @@ proxies:
   ws-headers:
     Host: 221.131.165.72
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-221.131.165.72-116
-  network: tcp
-  port: 9008
-  server: 221.131.165.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 221.131.165.72
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 24,31|18|🇨🇳_CN_中国_26
-  network: ws
-  port: 80
-  server: 175.178.65.137
-  tls: false
-  type: vmess
-  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /neimenggu001
-- alterId: 64
-  cipher: auto
-  name: '16,17|@hkaa0||中国 #3'
-  network: tcp
-  port: 39971
-  server: 183.240.232.82
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-221.131.165.72-032
-  network: tcp
-  port: 9028
-  server: 221.131.165.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 221.131.165.72
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-120.195.184.63-152
-  password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27119
-  server: foshan.chiguayun.cc
+  name: 19|CN-223.111.150.130-157
+  password: a6692a28fdebb4e5
+  port: 41023
+  server: jscm01.celerlink.one
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 19,20,24,26|CN-112.29.94.22-138
+  name: 19,20|CN-116.129.254.6-036
   network: tcp
-  port: 53300
-  server: 112.29.94.22
+  port: 9022
+  server: 116.129.254.6
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
   ws-headers:
-    Host: 112.29.94.22
+    Host: 116.129.254.6
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-116.129.254.6-073
+  network: tcp
+  port: 11917
+  server: 116.129.254.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 116.129.254.6
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-183.240.117.54-117
+  network: tcp
+  port: 58418
+  server: 4.3.1.fuckppppp.today
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  ws-headers:
+    Host: 4.3.1.fuckppppp.today
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -191,17 +310,110 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-221.131.165.72-076
+  name: 19,20|CN-116.129.254.6-115
   network: tcp
-  port: 11913
-  server: 221.131.165.72
+  port: 9024
+  server: 116.129.254.6
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
   ws-headers:
-    Host: 221.131.165.72
+    Host: 116.129.254.6
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 28|CN_speednode_0001
+  network: tcp
+  port: 25001
+  server: a.baozinet.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+- alterId: 0
+  cipher: auto
+  name: '16,17|@hkaa0||中国 #2'
+  network: tcp
+  port: 35107
+  server: tanz-board.kunlun-one.com
+  tls: false
+  type: vmess
+  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
+- alterId: 64
+  cipher: auto
+  name: 19,20|CN-111.45.22.187-069
+  network: tcp
+  port: 50173
+  server: 111.45.22.187
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 111.45.22.187
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-169
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 15,16,17,19,20,24,26|github.com/freefq - 广东省移动 14
+  network: tcp
+  port: '51904'
+  server: 183.238.202.173
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-183.240.117.54-124
+  network: tcp
+  port: 36679
+  server: 3.sg.zz.xxxxx.x-t-fuckword.network
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
+  ws-headers:
+    Host: 3.sg.zz.xxxxx.x-t-fuckword.network
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-120.195.184.63-151
+  password: d376f270-1807-4522-9f92-b499658a2678
+  port: 27138
+  server: foshan.chiguayun.cc
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-36.140.102.210-139
+  network: tcp
+  port: 25002
+  server: b.baozinet.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+  ws-headers:
+    Host: b.baozinet.top
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|CN-111.67.201.33-007
+  network: ws
+  port: 10052
+  server: 111.67.201.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
+  ws-headers:
+    Host: tms.dingtalk.com
+  ws-path: /neimenggu001
 - alterId: 0
   cipher: auto
   name: '3,6,13,24,31|_CN_中国 #2'
@@ -217,9 +429,48 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-221.131.165.72-063
+  name: 19,20|CN-116.129.254.6-120
   network: tcp
-  port: 11931
+  port: 11908
+  server: 116.129.254.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 116.129.254.6
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-129
+  network: tcp
+  port: 9039
+  server: 221.131.165.72
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 221.131.165.72
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-076
+  network: tcp
+  port: 11913
+  server: 221.131.165.72
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 221.131.165.72
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-032
+  network: tcp
+  port: 9028
   server: 221.131.165.72
   skip-cert-verify: true
   tls: false
@@ -238,31 +489,47 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-120.195.184.63-151
+  name: 19|CN-120.195.184.63-152
   password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27138
+  port: 27119
   server: foshan.chiguayun.cc
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '16,17|@hkaa0||中国 #2'
-  network: tcp
-  port: 35107
-  server: tanz-board.kunlun-one.com
-  tls: false
-  type: vmess
-  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-223.111.150.130-157
-  password: a6692a28fdebb4e5
-  port: 41023
-  server: jscm01.celerlink.one
+  name: 28|CN_speednode_0004
+  password: add56d8f-eeef-4531-ba20-f9a30f0f021e
+  port: 26906
+  server: ydyh.nanbei.info
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-36.139.241.88-141
+  password: Lam6mgI0ZnIqT459CTTOJR
+  port: 19922
+  server: us01.shawbrothersstudio.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-112.26.231.83-156
+  password: d376f270-1807-4522-9f92-b499658a2678
+  port: 27125
+  server: hefei.chiguayun.cc
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-221.131.165.72-129
+  name: 19,20|CN-221.131.165.72-121
   network: tcp
-  port: 9039
+  port: 11908
+  server: 221.131.165.72
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
+  ws-headers:
+    Host: 221.131.165.72
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|CN-221.131.165.72-062
+  network: tcp
+  port: 11909
   server: 221.131.165.72
   skip-cert-verify: true
   tls: false
@@ -286,28 +553,9 @@ proxies:
     path: /neimenggu001
 - alterId: 0
   cipher: auto
-  name: 19,20|CN-116.129.254.6-112
+  name: 19,20|CN-116.129.254.6-123
   network: tcp
-  port: 9027
-  server: 116.129.254.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 116.129.254.6
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-223.111.150.130-162
-  password: a6692a28fdebb4e5
-  port: 41033
-  server: jscm01.celerlink.one
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-116.129.254.6-036
-  network: tcp
-  port: 9022
+  port: 9025
   server: 116.129.254.6
   skip-cert-verify: true
   tls: false
@@ -325,244 +573,9 @@ proxies:
   tls: true
   type: vmess
   uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-221.131.165.72-099
-  network: tcp
-  port: 9002
-  server: 221.131.165.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 221.131.165.72
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 1,24|_CN__1
-  network: ws
-  port: 10052
-  server: 111.67.201.33
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
-  ws-opts:
-    headers:
-      host: tms.dingtalk.com
-    path: /neimenggu001
-- alterId: 0
-  cipher: auto
-  name: 19|CN-111.67.201.33-007
-  network: ws
-  port: 10052
-  server: 111.67.201.33
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3097c8db-70a5-4b3f-a54d-54685a00d086
-  ws-headers:
-    Host: tms.dingtalk.com
-  ws-path: /neimenggu001
-- alterId: 64
-  cipher: auto
-  name: '14|中国_【YouTube-VV科技】 #1'
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-116.129.254.6-123
-  network: tcp
-  port: 9025
-  server: 116.129.254.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 116.129.254.6
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-112.26.231.83-156
-  password: d376f270-1807-4522-9f92-b499658a2678
-  port: 27125
-  server: hefei.chiguayun.cc
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-120.233.27.171-030
-  network: tcp
-  port: 36676
-  server: 4.hk.zz.xxxxx.x-t-fuckword.network
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.hk.zz.xxxxx.x-t-fuckword.network
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-169
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,20,24|_CN_中国 #1'
-  network: ws
-  port: '80'
-  server: 124.220.57.75
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-221.131.165.72-062
-  network: tcp
-  port: 11909
-  server: 221.131.165.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 221.131.165.72
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-183.240.117.54-117
-  network: tcp
-  port: 58418
-  server: 4.3.1.fuckppppp.today
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 4.3.1.fuckppppp.today
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-116.129.254.6-137
-  network: tcp
-  port: 11904
-  server: 116.129.254.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 116.129.254.6
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-116.129.254.6-113
-  network: tcp
-  port: 9016
-  server: 116.129.254.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 116.129.254.6
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-183.240.117.54-124
-  network: tcp
-  port: 36679
-  server: 3.sg.zz.xxxxx.x-t-fuckword.network
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5
-  ws-headers:
-    Host: 3.sg.zz.xxxxx.x-t-fuckword.network
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: 19|CN-120.195.184.63-154
   password: d376f270-1807-4522-9f92-b499658a2678
   port: 27126
   server: foshan.chiguayun.cc
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-116.129.254.6-115
-  network: tcp
-  port: 9024
-  server: 116.129.254.6
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 116.129.254.6
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 15,16,17,19,20,24,26|github.com/freefq - 广东省移动 14
-  network: tcp
-  port: '51904'
-  server: 183.238.202.173
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 19,20|CN-111.45.22.187-069
-  network: tcp
-  port: 50173
-  server: 111.45.22.187
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 111.45.22.187
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-223.111.150.130-155
-  password: a6692a28fdebb4e5
-  port: 41026
-  server: jscm01.celerlink.one
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-36.139.241.88-141
-  password: Lam6mgI0ZnIqT459CTTOJR
-  port: 19922
-  server: us01.shawbrothersstudio.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19,20|CN-221.131.165.72-121
-  network: tcp
-  port: 11908
-  server: 221.131.165.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2
-  ws-headers:
-    Host: 221.131.165.72
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '16,17|@hkaa0||中国 #1'
-  network: tcp
-  port: 35105
-  server: tanz-board.kunlun-one.com
-  tls: false
-  type: vmess
-  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
