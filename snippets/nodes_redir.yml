@@ -1,17 +1,43 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 1,17,24|_US_->_NL_
+  network: ws
+  port: 30000
+  server: 45.199.138.191
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.42077230.xyz
+    path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 1,24|_US_->_LU__1
+  name: 24,31|18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_4
   network: ws
   port: 2052
-  server: 104.16.68.38
-  skip-cert-verify: true
+  server: 162.159.140.6
   tls: false
   type: vmess
   uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
   ws-opts:
     headers:
-      host: lu.wx.alue.link
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,4,15,16,20,24,25,26|🇺🇸 _US_美国->🇮🇷_IR_伊朗
+  network: ws
+  port: '2052'
+  server: cf.yx.alue.link
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: us.wx.alue.link
     path: /
 - alterId: 0
   cipher: auto
@@ -29,71 +55,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,2,3,4,16,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: '2052'
-  server: 162.159.152.6
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,24|🇩🇪 _IR_伊朗->🇩🇪_DE_德国
-  network: ws
-  port: '26295'
-  server: 31.14.114.56
-  tls: false
-  type: vmess
-  uuid: d759d4c4-b7e7-475f-a313-5cb1ff154309
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,6,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #1'
-  network: ws
-  port: '2082'
-  server: fr-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: 87646364-c074-4b95-81cf-4bded967ca02
-  ws-opts:
-    headers:
-      Host: fr-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 20|🇺🇸 _US_美国->🇿🇦_ZA_南非
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: 5e48a497-f4ae-4129-afd6-ba26d75b792a
-  ws-opts:
-    headers:
-      Host: yhnsb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,20,24|🇺🇸 _US_美国->🇫🇷_FR_法国
-  network: ws
-  port: '80'
-  server: 104.18.202.232
-  tls: false
-  type: vmess
-  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
-  ws-opts:
-    headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray،@hopev2ray
-- alterId: 0
-  cipher: auto
   name: 1,24|_KR_->_GB_
   network: ws
   port: 443
@@ -108,9 +69,9 @@ proxies:
     path: /ophelia.mom:443/linkvws
 - alterId: 0
   cipher: auto
-  name: 2,3,4,20,24|🇰🇷_KR_韩国->🇬🇧_GB_英国
+  name: 0,2,3,4,20,24|🇰🇷 _KR_韩国->🇬🇧_GB_英国
   network: ws
-  port: 443
+  port: '443'
   server: 130.162.154.209
   tls: true
   type: vmess
@@ -121,95 +82,49 @@ proxies:
     path: /ophelia.mom:443/linkvws
 - alterId: 0
   cipher: auto
-  name: 3,6,13,20,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '2096'
-  server: 162.159.129.71
-  tls: true
-  type: vmess
-  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
-  ws-opts:
-    headers:
-      Host: s1.shargh.shop
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|中转 🇬🇷 Greece 01 @nodpai
-  password: 89805270-c3ab-4d75-9ad5-9448aff5d3c8
-  port: 27134
-  server: hefei.chiguayun.cc
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 2,4,15,16,24,25,26|🇺🇸_US_美国->🇮🇷_IR_伊朗
+  name: 1,24|_US_->_LU__1
   network: ws
   port: 2052
-  server: cf.yx.alue.link
+  server: 104.16.68.38
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
   ws-opts:
     headers:
-      Host: us.wx.alue.link
+      host: lu.wx.alue.link
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,8|中转 🇨🇳 China 02 @nodpai
+  name: 3,6,13,24|🇺🇸 _US_美国->🇫🇷_FR_法国
   network: ws
-  port: '80'
-  server: 36.150.27.31
+  port: '2082'
+  server: fr-01.cloudlion.me
   tls: false
   type: vmess
-  uuid: ae9e3c21-9445-4271-b4dd-eec737f64df2
+  uuid: 87646364-c074-4b95-81cf-4bded967ca02
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|0|🇩🇪 _IR_伊朗->🇩🇪_DE_德国
+  network: ws
+  port: '26295'
+  server: 31.14.114.56
+  tls: false
+  type: vmess
+  uuid: d759d4c4-b7e7-475f-a313-5cb1ff154309
   ws-opts:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: '20|🇺🇸 _US_美国->🇫🇷_FR_法国 #2'
-  network: ws
-  port: '80'
-  server: 104.18.203.232
-  tls: false
-  type: vmess
-  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
-  ws-opts:
-    headers:
-      Host: de1vm.cdn-03.live
-    path: /@hopev2ray،@hopev2ray
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,6,13,24|🇺🇸_US_美国->🇱🇺_LU_卢森堡
-  network: ws
-  port: 2052
-  server: 104.16.68.38
-  tls: false
-  type: vmess
-  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
-  ws-opts:
-    headers:
-      Host: lu.wx.alue.link
-    path: /
 - alterId: 64
   cipher: auto
-  name: 1,17,24|_US_->_NL_
+  name: 0,2,4,16,20,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰
   network: ws
-  port: 30000
-  server: 45.199.138.191
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.42077230.xyz
-    path: /path/1696251522438
-- alterId: 64
-  cipher: auto
-  name: 2,4,16,24,31|🇺🇸_US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: 30000
+  port: '30000'
   server: 45.199.138.191
   tls: true
   type: vmess
@@ -220,10 +135,23 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: 24,31|18|🇺🇸_US_美国->🇱🇺_LU_卢森堡_4
+  name: '0,2,3,4,16,20,24,31|🇺🇸 _US_美国->🇱🇺_LU_卢森堡 #1'
   network: ws
-  port: 2052
-  server: 162.159.140.6
+  port: '2052'
+  server: 162.159.152.6
+  tls: false
+  type: vmess
+  uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
+  ws-opts:
+    headers:
+      Host: lu.wx.alue.link
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,13,20,24|🇺🇸 _US_美国->🇱🇺_LU_卢森堡
+  network: ws
+  port: '2052'
+  server: 104.16.68.38
   tls: false
   type: vmess
   uuid: fe5edf04-c2af-4ac5-84ee-16d43024decb
@@ -245,3 +173,29 @@ proxies:
     headers:
       host: us.wx.alue.link
     path: /
+- alterId: 0
+  cipher: auto
+  name: '3,6,13,24,31|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #1'
+  network: ws
+  port: '2096'
+  server: 162.159.129.71
+  tls: true
+  type: vmess
+  uuid: d8d39fca-8b6d-4f76-a505-e7917aa75435
+  ws-opts:
+    headers:
+      Host: s1.shargh.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|0|🇺🇸 _US_美国->🇫🇷_FR_法国
+  network: ws
+  port: '80'
+  server: 104.18.202.232
+  tls: false
+  type: vmess
+  uuid: 6bf1b342-2bf0-4608-b288-8ee515e2d594
+  ws-opts:
+    headers:
+      Host: de1vm.cdn-03.live
+    path: /@hopev2ray،@hopev2ray
