@@ -1,10 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 28|CA_speednode_0003
+  name: 28|CA_speednode_0002
   network: ws
   port: 80
-  server: ca-one.1234585.xyz
+  server: us-two.1234585.xyz
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -12,12 +12,24 @@ proxies:
   uuid: 6ddf4fbe-90b4-4de8-abf3-eedf2e994261
   ws-opts:
     headers:
-      Host: ca-one.1234585.xyz
+      Host: us-two.1234585.xyz
     path: /
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-084
-  password: faBAoD54k87UJG7
-  port: 2375
+  name: 19|CA-134.195.198.95-080
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-086
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-081
+  password: Y6R9pAtvxxzmGC
+  port: 3389
   server: 134.195.198.95
   type: ss
 - alterId: 0
@@ -35,62 +47,10 @@ proxies:
     headers:
       Host: us.quanstring.top
     path: /quanstring?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 28|CA_speednode_0002
-  network: ws
-  port: 80
-  server: us-two.1234585.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6ddf4fbe-90b4-4de8-abf3-eedf2e994261
-  ws-opts:
-    headers:
-      Host: us-two.1234585.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-086
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-085
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 134.195.198.95
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-082
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-081
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 134.195.198.95
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-083
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  name: 19|CA-134.195.198.95-084
+  password: faBAoD54k87UJG7
+  port: 2375
   server: 134.195.198.95
   type: ss
 - alterId: 0
@@ -104,8 +64,48 @@ proxies:
   type: vmess
   uuid: 56188c2a-f8ec-4e9f-9b5f-49ae1f8e7879
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-080
-  password: PCnnH6SQSnfoS27
-  port: 8091
+  name: 19|CA-134.195.198.95-085
+  password: KixLvKzwjekG00rm
+  port: 8080
   server: 134.195.198.95
   type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-083
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-082
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 28|CA_speednode_0003
+  network: ws
+  port: 80
+  server: ca-one.1234585.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6ddf4fbe-90b4-4de8-abf3-eedf2e994261
+  ws-opts:
+    headers:
+      Host: ca-one.1234585.xyz
+    path: /
