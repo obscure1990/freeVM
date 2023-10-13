@@ -1,24 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 28|CA_speednode_0001
-  network: ws
-  port: 8080
-  server: 74.48.98.249
-  skip-cert-verify: false
-  tls: false
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  udp: true
-  uuid: 36d32ec1-3993-4f08-b442-9c8bfc79b93f
-  ws-opts:
-    headers:
-      Host: us.quanstring.top
-    path: /quanstring?ed=2048
+  uuid: 7a7d5053-43fd-40ae-a2c5-980fd3abfac1
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-083
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.198.95
+  name: 19|CA-134.195.196.231-082
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 134.195.196.231
   type: ss
 - alterId: 0
   cipher: auto
@@ -35,22 +30,39 @@ proxies:
     headers:
       Host: us-two.1234585.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 7a7d5053-43fd-40ae-a2c5-980fd3abfac1
 - cipher: aes-256-gcm
   name: 19|CA-134.195.198.95-080
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 134.195.198.95
   type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-085
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-084
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.198.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 28|CA_speednode_0001
+  network: ws
+  port: 8080
+  server: 74.48.98.249
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 36d32ec1-3993-4f08-b442-9c8bfc79b93f
+  ws-opts:
+    headers:
+      Host: us.quanstring.top
+    path: /quanstring?ed=2048
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -80,12 +92,6 @@ proxies:
       Host: ca-one.1234585.xyz
     path: /
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-082
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
   name: 19|CA-134.195.198.95-081
   password: Y6R9pAtvxxzmGC
   port: 3389
@@ -98,14 +104,8 @@ proxies:
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-084
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 134.195.198.95
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-085
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: 19|CA-134.195.198.95-083
+  password: g5MeD6Ft3CWlJId
+  port: 5003
   server: 134.195.198.95
   type: ss
