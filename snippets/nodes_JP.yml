@@ -1,54 +1,27 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|JP-172.105.239.241-107
+  name: 27|日本01-南方移动
   network: ws
-  port: 443
-  server: 172.105.239.241
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-headers:
-    Host: js.adbse.xyz
-  ws-path: /down
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇯🇵 14,15|东京|tg频道@ripaojiedi...
-  network: ws
-  port: 8443
-  server: 8.217.147.230
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
-  ws-opts:
-    headers:
-      Host: dj.kxking.eu.org
-    path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 815ebac2-fac6-4eea-b232-6b0cea2410cf
-- alterId: 0
-  cipher: auto
-  name: 20|🇯🇵 github.com/freefq - 日本东京Ama...
-  network: ws
-  port: '31235'
-  server: kr-cdn-6273819.starnetcn.top
+  port: '80'
+  server: yd.xingsu.fun
   tls: false
   type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  uuid: 3994cb7a-a825-4d02-b740-be545155ec39
   ws-opts:
     headers:
-      Host: jxhoisldy718922.starnetcn.top
-    path: /
+      Host: jpyd1.xingsu.fun
+    path: /xingsu
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9372e9a6-f664-4477-9fd4-df1d5f8b5216
 - alterId: 0
   cipher: auto
   name: 24|12|🇯🇵TG频道 @oeo12 =21
@@ -63,41 +36,19 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-cfb
-  name: 19|JP-54.199.83.239-147
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25,28|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20014
-  server: 183.232.170.32
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #1'
+  name: 19|JP-172.105.239.241-107
   network: ws
-  port: '443'
-  server: 172.105.238.164
+  port: 443
+  server: 172.105.239.241
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-opts:
-    headers:
-      Host: js.adbse.xyz
-    path: /down
+  ws-headers:
+    Host: js.adbse.xyz
+  ws-path: /down
 - alterId: 0
   cipher: auto
   name: 11,24|🇯🇵日本04
@@ -108,6 +59,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 1c70b1f6-978b-4a06-8139-5bc6651f91f9
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇯🇵白嫖-061
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25,28|🇯🇵 日本KT2|@ripaojiedian
@@ -126,6 +87,39 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 20|🇯🇵 日本(油管:破解资源君2.0)
+  network: ws
+  port: '443'
+  server: 172.105.239.241
+  tls: true
+  type: vmess
+  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+  ws-opts:
+    headers:
+      Host: js.adbse.xyz
+    path: /down
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇯🇵 14,15|东京|tg频道@ripaojiedi...
+  network: ws
+  port: 8443
+  server: 8.217.147.230
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 701a0cda-32c5-4c63-9bea-9e8dcc4a8541
+  ws-opts:
+    headers:
+      Host: dj.kxking.eu.org
+    path: /vm?ed=2048
+- cipher: aes-256-cfb
+  name: 19|JP-54.199.83.239-147
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.19...
   network: tcp
   port: '1069'
@@ -134,19 +128,25 @@ proxies:
   tls: false
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 19|JP-54.199.189.190-136
-  network: ws
-  port: 31235
-  server: kr-cdn-6273819.starnetcn.top
-  skip-cert-verify: true
+  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43....
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
   tls: false
   type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-headers:
-    Host: jxhoisldy718922.starnetcn.top
-  ws-path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9372e9a6-f664-4477-9fd4-df1d5f8b5216
 - alterId: 0
   cipher: auto
   name: 11,24|🇯🇵日本05
@@ -159,26 +159,50 @@ proxies:
   uuid: 1c70b1f6-978b-4a06-8139-5bc6651f91f9
 - alterId: 0
   cipher: auto
-  name: 19|JP-172.105.238.164-108
+  name: 11,24|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1c70b1f6-978b-4a06-8139-5bc6651f91f9
+- alterId: 0
+  cipher: auto
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #1'
   network: ws
-  port: 443
+  port: '443'
   server: 172.105.238.164
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-headers:
-    Host: js.adbse.xyz
-  ws-path: /down
-- alterId: 64
-  cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43....
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: js.adbse.xyz
+    path: /down
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25,28|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20014
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 8|「节点冠名招商 @nodpai」🇯🇵 JP 01
+  password: amazonskr05
+  port: 443
+  server: 57.180.61.140
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 24|12|🇯🇵 日本_1013024 2 2
@@ -195,14 +219,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 22,24|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
+  name: 19|JP-54.199.189.190-136
+  network: ws
+  port: 31235
+  server: kr-cdn-6273819.starnetcn.top
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 815ebac2-fac6-4eea-b232-6b0cea2410cf
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-headers:
+    Host: jxhoisldy718922.starnetcn.top
+  ws-path: /
 - alterId: 64
   cipher: auto
   name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan
@@ -213,26 +240,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本06
-  network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1c70b1f6-978b-4a06-8139-5bc6651f91f9
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇯🇵白嫖-061
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - cipher: aes-256-gcm
   name: 19|JP-85.208.108.60-044
   password: kDWvXYZoTBcGkC4
@@ -241,25 +248,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 20|🇯🇵 日本(油管:破解资源君2.0)
+  name: 20|🇯🇵 github.com/freefq - 日本东京Ama...
   network: ws
-  port: '443'
-  server: 172.105.239.241
+  port: '31235'
+  server: kr-cdn-6273819.starnetcn.top
+  tls: false
+  type: vmess
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: jxhoisldy718922.starnetcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|JP-172.105.238.164-108
+  network: ws
+  port: 443
+  server: 172.105.238.164
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-opts:
-    headers:
-      Host: js.adbse.xyz
-    path: /down
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 46.51.233.234
-  tfo: false
-  type: ss
+  ws-headers:
+    Host: js.adbse.xyz
+  ws-path: /down
 - alterId: 0
   cipher: auto
   name: 22,24|日本 04  | 1x JP
@@ -269,4 +281,25 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 815ebac2-fac6-4eea-b232-6b0cea2410cf
+  uuid: 9372e9a6-f664-4477-9fd4-df1d5f8b5216
+- alterId: 0
+  cipher: auto
+  name: 27|日本_Telegram@kxswa
+  network: ws
+  port: '888'
+  server: jhryx-1087-v2-0.d-kcd.tuil.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b00a4568-6396-44c6-8697-f1d1600ba9fd
+  ws-opts:
+    headers:
+      Host: cdn.cjhh.lol
+    path: /je5x3pBN1vez3NQudNkB
+- cipher: aes-256-cfb
+  name: 8,25|🇯🇵 Japan 02 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 46.51.233.234
+  type: ss
+  udp: true
