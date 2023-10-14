@@ -6,67 +6,24 @@ proxies:
   server: www.outline.network.ak1919.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
   type: ss
 - alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 27|🇫🇷 法国 优选
-  network: ws
-  port: '2082'
-  server: go.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: d08cf983-754c-410d-b877-aac54ae43ac1
-  ws-opts:
-    headers:
-      Host: fr-01.cloudlion.me
-    path: /
-- name: 1|_FR_
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
   network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.188.231.182
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: kWNsYSByc82sNvvsPqovsnh
-  name: 27|法国_Telegram@kxswa
+  name: 16|@hkaa0||法国
   network: grpc
-  port: '443'
+  port: 443
   server: hdfy1d1.cpi2hidd.eu.org
-  servername: ''
   tls: true
   type: vmess
   uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
-- alterId: 0
-  cipher: auto
-  name: 18,27|🇫🇷_FR_法国_CollectorDonate
-  network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
 - cipher: aes-256-cfb
   name: 19,25,28|FR-51.158.195.96-022
   password: asdKkaskJKfnsa
@@ -89,33 +46,18 @@ proxies:
     path: /nimvws
 - alterId: 0
   cipher: auto
-  name: 27|🇫🇷 法国
+  name: 18|🇫🇷_FR_法国_fnet00
   network: ws
-  port: '2082'
-  server: fr-01.cloudlion.me
-  tls: false
-  type: vmess
-  uuid: d08cf983-754c-410d-b877-aac54ae43ac1
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
+  port: '80'
+  server: fd.shabijichang.com
   servername: ''
   tls: false
   type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- cipher: chacha20-ietf-poly1305
-  name: 19,28|FR-57.128.198.193-021
-  password: YzQwY
-  port: 8388
-  server: 57.128.198.193
-  type: ss
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -131,10 +73,30 @@ proxies:
     path: /path/1693992821776
 - alterId: 0
   cipher: auto
-  name: 16,27|@hkaa0||法国
-  network: grpc
-  port: 443
-  server: hdfy1d1.cpi2hidd.eu.org
-  tls: true
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
   type: vmess
-  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- name: 1|_FR_
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.231.182
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 19,28|FR-57.128.198.193-021
+  password: YzQwY
+  port: 8388
+  server: 57.128.198.193
+  type: ss
