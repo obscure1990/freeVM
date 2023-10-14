@@ -1,18 +1,37 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 27|台湾省宜兰县 中华电信
-  network: ws
-  port: 80
-  server: ap-east-cht.lnaspiring.com
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
+- alterId: 0
+  cipher: auto
+  name: 24,26|7,15|台湾B|@ripaojiedian
+  network: tcp
+  port: '25010'
+  server: b.baozinet.top
   servername: ''
   tls: false
   type: vmess
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+- alterId: 0
+  cipher: auto
+  name: 19|TW-61.228.97.141-125
+  network: ws
+  port: 80
+  server: ap-east-cht.lnaspiring.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   uuid: e1b82442-c4fa-4fce-801e-5f5836c0e866
-  ws-opts:
-    headers:
-      Host: ''
-    path: /coco/13
+  ws-headers:
+    Host: ap-east-cht.lnaspiring.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 06  | 1x TWN
@@ -22,7 +41,17 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9ca61f30-f912-4c47-be64-d4e74d87d92c
+  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 583dfa5f-14f6-404d-a6b6-63a296543246
 - alterId: 0
   cipher: auto
   name: 19|TW-122.118.136.77-097
@@ -38,14 +67,34 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
+  name: 19|TW-122.118.136.77-098
+  network: ws
+  port: 63069
+  server: in03.my1188.org
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 7600e889-44fb-41de-a564-1176954a7bfd
+  uuid: ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b
+  ws-headers:
+    Host: mugua-us03.covid19.rip
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 2f2c33a1-d708-453e-8a12-e825c3d9ae89
+- cipher: chacha20-ietf-poly1305
+  name: 8|「蛋挞云,流媒体全解锁」🇹🇼 TW 01
+  password: 3525588ee14ea924
+  port: 41021
+  server: jscm01.celerlink.one
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 19|TW-122.118.136.77-094
@@ -61,29 +110,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 9|台湾_1014062
-  network: ''
-  port: '12290'
-  server: y1ktw1.kozow.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 12eb03fe-4433-4624-bdfe-b448b7464ebf
-- alterId: 0
-  cipher: auto
-  name: 19|TW-122.118.136.77-081
-  network: ws
-  port: 63004
-  server: in05.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b
-  ws-headers:
-    Host: mugua-kr01.covid19.rip
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 11,24|🇹🇼台湾04
   network: tcp
   port: '36301'
@@ -91,46 +117,13 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7600e889-44fb-41de-a564-1176954a7bfd
+  uuid: 583dfa5f-14f6-404d-a6b6-63a296543246
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9ca61f30-f912-4c47-be64-d4e74d87d92c
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 7600e889-44fb-41de-a564-1176954a7bfd
-- alterId: 0
-  cipher: auto
-  name: 19|TW-122.118.136.77-098
-  network: ws
-  port: 63069
-  server: in03.my1188.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b
-  ws-headers:
-    Host: mugua-us03.covid19.rip
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|TW-122.118.136.77-101
+  name: 19|TW-122.118.136.77-081
   network: ws
   port: 63004
-  server: in02.my1188.org
+  server: in05.my1188.org
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -153,24 +146,24 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 19|TW-61.228.97.141-125
-  network: ws
-  port: 80
-  server: ap-east-cht.lnaspiring.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e1b82442-c4fa-4fce-801e-5f5836c0e866
-  ws-headers:
-    Host: ap-east-cht.lnaspiring.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
+  name: 11,24|🇹🇼台湾05
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9ca61f30-f912-4c47-be64-d4e74d87d92c
+  uuid: 583dfa5f-14f6-404d-a6b6-63a296543246
+- alterId: 0
+  cipher: auto
+  name: 19|TW-122.118.136.77-101
+  network: ws
+  port: 63004
+  server: in02.my1188.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ec908e55-25f5-3da5-9d0b-3e4d20fa1a3b
+  ws-headers:
+    Host: mugua-kr01.covid19.rip
+  ws-path: /
