@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
-  network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
 - name: 1|_FR__1
   network: tcp
   password: telegram-id-directvpn
@@ -30,14 +16,27 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|15|法国|@ripaojiedian
-  network: tcp
-  port: '55448'
-  server: 188.165.194.100
+  name: 18|🇫🇷_FR_法国_fnet00
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 9de32e59-d621-41da-8266-280fe35987b0
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|@hkaa0||法国
+  network: grpc
+  port: 443
+  server: hdfy1d1.cpi2hidd.eu.org
+  tls: true
+  type: vmess
+  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
@@ -52,38 +51,6 @@ proxies:
     headers:
       Host: phosphorylative.aurorainiceland.com
     path: /nimvws
-- alterId: 0
-  cipher: auto
-  name: 16|@hkaa0||法国
-  network: grpc
-  port: 443
-  server: hdfy1d1.cpi2hidd.eu.org
-  tls: true
-  type: vmess
-  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
-- name: 1|_FR__2
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.37.45.239
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 19,28|FR-57.128.198.193-021
   password: YzQwY
@@ -103,6 +70,35 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
+- name: 1|_FR__2
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.37.45.239
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 28|FR_speednode_0026
+  password: YzQwY
+  port: 8388
+  server: www.outline.network.ak1919.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
+  type: ss
 - alterId: 0
   cipher: aes-128-gcm
   name: 18|🇫🇷_FR_法国_oneclickvpnkeys
@@ -113,3 +109,13 @@ proxies:
   tls: false
   type: vmess
   uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+- alterId: 0
+  cipher: auto
+  name: 24|15|法国|@ripaojiedian
+  network: tcp
+  port: '55448'
+  server: 188.165.194.100
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9de32e59-d621-41da-8266-280fe35987b0
