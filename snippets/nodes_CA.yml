@@ -1,24 +1,18 @@
 proxies:
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 24|12|🇨🇦 加拿大 134
+  network: ws
+  port: 443
+  server: octavi.cfd
+  servername: ''
   tls: true
   type: vmess
-  uuid: 3b3d2ad6-c146-4d86-a146-200d0214582b
-- alterId: 0
-  cipher: auto
-  name: 9,19,20,24,27|加拿大_1014005
-  network: tcp
-  port: '53787'
-  server: 159.203.40.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13a41f47-5be2-462b-d86a-27f74ded6e2c
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -34,6 +28,30 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 3b3d2ad6-c146-4d86-a146-200d0214582b
+- alterId: 1
+  cipher: auto
+  name: 24|12|Channel id @ShadowProxy66🇨🇦
+  network: ws
+  port: 443
+  server: 104.21.4.29
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: oliv.beauty
+    path: linkvws
+- alterId: 0
+  cipher: auto
   name: 11,24,30|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -41,37 +59,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4fb00db8-93e4-4d64-ada1-16f283ea136a
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1014097
-  network: tcp
-  port: '3389'
-  server: 159.89.120.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1014001
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1014029
-  network: ''
-  port: '53787'
-  server: 159.203.40.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13a41f47-5be2-462b-d86a-27f74ded6e2c
+  uuid: 0b238149-0bc0-4dbe-8e89-bcba9d56d2c8
 - alterId: 0
   cipher: auto
   name: 28|CA_speednode_0001
@@ -89,11 +77,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_1014041
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
+  name: 19,20,24|CA-159.203.40.212-125
+  network: tcp
+  port: 53787
+  server: 159.203.40.212
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 13a41f47-5be2-462b-d86a-27f74ded6e2c
+  ws-headers:
+    Host: 159.203.40.212
+  ws-path: /
