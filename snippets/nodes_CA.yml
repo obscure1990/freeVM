@@ -1,16 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-096
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-124
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 134.195.196.231
-  type: ss
 - alterId: 0
   cipher: auto
   name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
@@ -21,41 +9,33 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-132
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 11,24,31|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 86cf6cac-a483-4090-88d5-97caf825b26c
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
+  name: 24|12|🇨🇦 加拿大 134
   network: ws
   port: 443
-  server: 23.227.39.109
+  server: octavi.cfd
+  servername: ''
   tls: true
   type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-082
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 134.195.196.231
-  type: ss
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '80'
+  server: ca-one.1234585.xyz
+  tls: false
+  type: vmess
+  uuid: 519740d7-0e19-4111-ad0a-4cc56205dc1c
+  ws-opts:
+    headers:
+      Host: ca-one.1234585.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 28|CA_speednode_0001
@@ -71,20 +51,22 @@ proxies:
     headers:
       Host: ca-one.1234585.xyz
     path: /
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 24|12|🇨🇦 加拿大 134
-  network: ws
-  port: 443
-  server: octavi.cfd
-  servername: ''
+  name: 11,24,31|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: octavi.cfd
-    path: linkvws
+  uuid: c98a0045-8c56-409d-a2f8-51b51af0cced
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-132
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.196.231
+  type: ss
 - alterId: 1
   cipher: auto
   name: 24|12|Channel id @ShadowProxy66🇨🇦
@@ -109,3 +91,34 @@ proxies:
   tls: true
   type: vmess
   uuid: dbefda3d-02f5-4521-9e04-38c930db93bc
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-082
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-124
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-096
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 134.195.196.231
+  type: ss
