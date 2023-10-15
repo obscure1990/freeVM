@@ -1,17 +1,15 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  name: 14|法国_【YouTube-VV科技】
-  network: ws
+- cipher: aes-256-ctr
+  name: 28|FR_speednode_0023
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: HowdyBypasser2022
   port: 443
-  server: 156.249.18.25
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.49291261.xyz
-    path: /path/1693992821776
+  protocol: origin
+  protocol-param: ''
+  server: 94.23.116.190
+  type: ssr
+  udp: true
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_CollectorDonate
@@ -26,6 +24,19 @@ proxies:
     headers:
       Host: bl.shabijichang.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 14|法国_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 156.249.18.25
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.49291261.xyz
+    path: /path/1693992821776
 - cipher: aes-256-cfb
   name: 19|FR-57.128.32.83-005
   password: asdKkaskJKfnsa
@@ -33,25 +44,50 @@ proxies:
   server: 57.128.32.83
   type: ss
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1015214
-  network: tcp
-  port: '443'
-  server: sw-51.158.241.70.nip.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
-- alterId: 0
   cipher: auto
-  name: 9,24|法国_1015058
+  name: 24|12|🇫🇷 法国 17
   network: tcp
-  port: '55448'
+  port: 55448
   server: 188.165.194.100
   servername: ''
   tls: false
   type: vmess
   uuid: 9de32e59-d621-41da-8266-280fe35987b0
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_fnet00
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|@hkaa0||法国
+  network: grpc
+  port: 443
+  server: hdfy1d1.cpi2hidd.eu.org
+  tls: true
+  type: vmess
+  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- cipher: aes-256-cfb
+  name: 19|FR-162.19.59.163-020
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.59.163
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|FR-146.59.110.171-013
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 146.59.110.171
+  type: ss
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
@@ -67,55 +103,6 @@ proxies:
       Host: phosphorylative.aurorainiceland.com
     path: /nimvws
 - alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
-- cipher: aes-256-cfb
-  name: 19|FR-146.59.110.171-013
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 146.59.110.171
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|法国_1015002
-  network: ws
-  port: '80'
-  server: 51.15.19.206
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 067b99e0-68b5-11ee-b535-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16,27|@hkaa0||法国
-  network: grpc
-  port: 443
-  server: hdfy1d1.cpi2hidd.eu.org
-  tls: true
-  type: vmess
-  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
-- cipher: aes-256-cfb
-  name: 19|FR-162.19.59.163-020
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.59.163
-  type: ss
-- alterId: 0
   cipher: aes-128-gcm
   name: 18|🇫🇷_FR_法国_oneclickvpnkeys
   network: tcp
@@ -125,47 +112,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- alterId: 0
-  cipher: auto
-  name: 9|法国_1015119
-  network: ''
-  port: '55448'
-  server: 188.165.194.100
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9de32e59-d621-41da-8266-280fe35987b0
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1015229
-  network: tcp
-  port: '443'
-  server: 135.125.135.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_1015216
-  network: tcp
-  port: '443'
-  server: 51.158.238.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b060a4e1-22b7-4e0f-91fb-93496a1881ae
-- alterId: 0
-  cipher: auto
-  name: 9|法国_1015244
-  network: ws
-  port: '80'
-  server: ge1.09vpn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d159729b-a93a-463a-b1b2-3dad3b6bdf35
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
