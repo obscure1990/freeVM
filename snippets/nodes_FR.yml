@@ -1,20 +1,26 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 19,25,28|FR-51.158.195.96-005
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.195.96
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 7,8,24|🇫🇷 France 04 @nodpai
+  name: 7,8,24|🇫🇷 France 02 @nodpai
   network: ws
   port: '443'
-  server: 104.24.67.59
+  server: fbl.369777.xyz
   tls: true
   type: vmess
   uuid: 531356ec-6785-324b-be4e-0d90ff8f2512
   ws-opts:
     headers:
-      Host: ''
+      Host: fbl.369777.xyz
     path: /wwwnet
 - alterId: 0
   cipher: auto
-  name: 7,8,24|🇫🇷 France 01 @nodpai
+  name: 7,8,24|🇫🇷 France 04 @nodpai
   network: ws
   port: '443'
   server: kbl.997755.xyz
@@ -27,9 +33,9 @@ proxies:
     path: /wwwnet
 - alterId: 0
   cipher: auto
-  name: '24|7,8|🇫🇷 France 06 @nodpai #1'
+  name: 7,8,24|🇫🇷 France 01 @nodpai
   network: ws
-  port: 443
+  port: '443'
   server: fls.997755.xyz
   tls: true
   type: vmess
@@ -40,23 +46,10 @@ proxies:
     path: /wwwnet
 - alterId: 0
   cipher: auto
-  name: 20|🇫🇷 github.com/freefq - 法国国际航空电...
-  network: ws
-  port: '53782'
-  server: kr-cdn-6273819.starnetcn.top
-  tls: false
-  type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: 127.0.0.1
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇫🇷 France 02 @nodpai
+  name: 7,8,24|🇫🇷 France 03 @nodpai
   network: ws
   port: '443'
-  server: 104.18.242.176
+  server: 104.24.67.59
   tls: true
   type: vmess
   uuid: 531356ec-6785-324b-be4e-0d90ff8f2512
@@ -64,6 +57,16 @@ proxies:
     headers:
       Host: ''
     path: /wwwnet
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - alterId: 0
   cipher: auto
   name: 24|12|🇫🇷 法国 17
@@ -74,6 +77,69 @@ proxies:
   tls: false
   type: vmess
   uuid: 9de32e59-d621-41da-8266-280fe35987b0
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇫🇷 France 06 @nodpai
+  network: ws
+  port: '443'
+  server: 104.25.54.230
+  tls: true
+  type: vmess
+  uuid: 531356ec-6785-324b-be4e-0d90ff8f2512
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wwwnet
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: kWNsYSByc82sNvvsPqovsnh
+  name: 28|FR_speednode_0023
+  network: grpc
+  port: 443
+  server: hdfy1d1.cpi2hidd.eu.org
+  servername: hdfy1d1.cpi2hidd.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- alterId: 0
+  cipher: auto
+  name: 16|@hkaa0||法国
+  network: grpc
+  port: 443
+  server: hdfy1d1.cpi2hidd.eu.org
+  tls: true
+  type: vmess
+  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_fnet00
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,8,24|🇫🇷 France 05 @nodpai
+  network: ws
+  port: '443'
+  server: 104.18.242.176
+  tls: true
+  type: vmess
+  uuid: 531356ec-6785-324b-be4e-0d90ff8f2512
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wwwnet
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -89,14 +155,14 @@ proxies:
     path: /path/1693992821776
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
+  name: 18|🇫🇷_FR_法国_CollectorDonate
   network: ws
   port: '80'
-  server: fd.shabijichang.com
+  server: 104.19.81.78
   servername: ''
   tls: false
   type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
   ws-opts:
     headers:
       Host: bl.shabijichang.com
@@ -117,66 +183,14 @@ proxies:
     path: /nimvws
 - alterId: 0
   cipher: auto
-  name: 7,8,24|🇫🇷 France 05 @nodpai
+  name: 20|🇫🇷 github.com/freefq - 法国国际航空电...
   network: ws
-  port: '443'
-  server: fbl.369777.xyz
-  tls: true
-  type: vmess
-  uuid: 531356ec-6785-324b-be4e-0d90ff8f2512
-  ws-opts:
-    headers:
-      Host: fbl.369777.xyz
-    path: /wwwnet
-- alterId: 0
-  cipher: auto
-  name: 16|@hkaa0||法国
-  network: grpc
-  port: 443
-  server: hdfy1d1.cpi2hidd.eu.org
-  tls: true
-  type: vmess
-  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
-- cipher: aes-256-cfb
-  name: 19,25|FR-51.158.195.96-005
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.195.96
-  type: ss
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
+  port: '53782'
+  server: kr-cdn-6273819.starnetcn.top
   tls: false
   type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇫🇷 France 03 @nodpai
-  network: ws
-  port: '443'
-  server: 104.25.54.230
-  tls: true
-  type: vmess
-  uuid: 531356ec-6785-324b-be4e-0d90ff8f2512
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
   ws-opts:
     headers:
-      Host: ''
-    path: /wwwnet
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
-  network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
+      Host: 127.0.0.1
     path: /
