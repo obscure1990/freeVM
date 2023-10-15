@@ -1,8 +1,46 @@
 proxies:
 - cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-109
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-145
   password: faBAoD54k87UJG7
   port: 2376
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-137
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_1015001
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_1015021
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-095
+  password: zDNVedRFPQexG9v
+  port: 6379
   server: 134.195.196.231
   type: ss
 - alterId: 0
@@ -19,12 +57,16 @@ proxies:
     headers:
       Host: ca-one.1234585.xyz
     path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-109
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 134.195.196.231
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24,31|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: f2a0616b-859d-4da7-87fd-2115c2554536
 - alterId: 0
   cipher: auto
   name: 9|加拿大_1015105
@@ -61,46 +103,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 033bb2e0-d12c-4de6-8721-c7a46aeb9f7b
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-137
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-095
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24,31|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 374015bf-0ed2-4f5b-9945-8fe01394d96a
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1015021
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1015001
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 486e443a-1d5f-454a-8236-21202978ae87
