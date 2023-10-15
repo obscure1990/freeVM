@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-095
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 134.195.196.231
-  type: ss
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 138
@@ -19,6 +13,29 @@ proxies:
     headers:
       Host: sub.yifenjichang.top
     path: /octavi.cfd:443/linkvws
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f4dfa2ff-aef0-4aa0-a778-b0987f7720cb
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 304
@@ -53,29 +70,6 @@ proxies:
     headers:
       Host: x10.mehdimoghaddam.fun
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24,30|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5ddf63b2-0f5d-43d2-8f4a-00519afd4283
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-145
   password: faBAoD54k87UJG7
@@ -90,11 +84,17 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
+  name: 11,24,30|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1d369c8a-c5ac-44cd-ac0e-e741161024ce
+  uuid: 5ddf63b2-0f5d-43d2-8f4a-00519afd4283
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-095
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 134.195.196.231
+  type: ss
