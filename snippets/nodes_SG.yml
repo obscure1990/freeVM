@@ -1,82 +1,22 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 19|SG-170.187.230.231-127
+  network: ws
+  port: 63632
+  server: 170.187.230.231
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 49166929-020e-4ef0-97e7-7989ce92fc69
+  ws-headers:
+    Host: 170.187.230.231
+  ws-path: /
 - cipher: aes-256-cfb
   name: 19|SG-54.251.168.143-161
   password: amazonskr05
   port: 443
   server: 54.251.168.143
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 22 @nodpai
-  network: ws
-  port: '443'
-  server: welfare.kk-proxy.pro
-  tls: true
-  type: vmess
-  uuid: 3190f0de-ef9f-416d-89e7-502a0f276f91
-  ws-opts:
-    headers:
-      Host: welfare.kk-proxy.pro
-    path: /ec3a017507e0/
-- alterId: 0
-  cipher: auto
-  name: 19|SG-18.143.159.173-114
-  network: ws
-  port: 443
-  server: 18.143.159.173
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1d8999fd-9045-40df-83e8-190721913412
-  ws-headers:
-    Host: 18.143.159.173
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8,24|🇸🇬 Singapore 21 @nodpai
-  network: ws
-  port: '80'
-  server: xjp2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: xjp2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|新加坡_【YouTube-VV科技】
-  network: ws
-  port: 2082
-  server: 8.222.197.251
-  tls: false
-  type: vmess
-  uuid: 6db5d855-657d-4ede-9023-e594bb936d90
-  ws-opts:
-    headers:
-      Host: hostodo.galenet.online
-    path: /hostodo
-- alterId: 0
-  cipher: auto
-  name: 19,20|SG-54.151.172.209-079
-  network: tcp
-  port: 443
-  server: 54.151.172.209
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1d8999fd-9045-40df-83e8-190721913412
-  ws-headers:
-    Host: 54.151.172.209
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇸🇬 新加坡A|@ripaojiedian
-  password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504
-  port: 40399
-  server: drus.hkforwardban.xyz
-  tfo: false
   type: ss
 - alterId: 64
   cipher: auto
@@ -91,32 +31,6 @@ proxies:
   ws-headers:
     Host: 159.223.94.156
   ws-path: /anti13.zingfast.vn
-- alterId: 0
-  cipher: auto
-  name: 19|SG-170.187.230.231-127
-  network: ws
-  port: 63632
-  server: 170.187.230.231
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 49166929-020e-4ef0-97e7-7989ce92fc69
-  ws-headers:
-    Host: 170.187.230.231
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 20 @nodpai
-  network: ws
-  port: '80'
-  server: xjp3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: xjp3.shabijichang.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 19|SG-146.190.96.141-152
@@ -138,6 +52,46 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 7,8|🇸🇬 Singapore 20 @nodpai
+  network: ws
+  port: '80'
+  server: xjp3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: xjp3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24,27|12|🇸🇬 新加坡_1012102
+  network: ws
+  port: 80
+  server: 18.142.51.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 484e15da-0666-486d-b138-78622e795fed
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19,20|SG-54.151.172.209-079
+  network: tcp
+  port: 443
+  server: 54.151.172.209
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1d8999fd-9045-40df-83e8-190721913412
+  ws-headers:
+    Host: 54.151.172.209
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 24|12|🇸🇬 新加坡_1011095
   network: ws
   port: 8080
@@ -152,15 +106,71 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|12|🇸🇬 新加坡_1012102
+  name: 7,8,24|🇸🇬 Singapore 18 @nodpai
   network: ws
-  port: 80
-  server: 18.142.51.35
-  servername: ''
+  port: '80'
+  server: xjp2.shabijichang.com
   tls: false
   type: vmess
-  uuid: 484e15da-0666-486d-b138-78622e795fed
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
   ws-opts:
     headers:
-      Host: ''
+      Host: xjp2.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 19|SG-18.143.159.173-114
+  network: ws
+  port: 443
+  server: 18.143.159.173
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 1d8999fd-9045-40df-83e8-190721913412
+  ws-headers:
+    Host: 18.143.159.173
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇸🇬 新加坡A|@ripaojiedian
+  password: 0091c7dc-fc52-46a3-a49e-cd8a80f99504
+  port: 40399
+  server: drus.hkforwardban.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡_【YouTube-VV科技】
+  network: ws
+  port: 2082
+  server: 8.222.197.251
+  tls: false
+  type: vmess
+  uuid: 6db5d855-657d-4ede-9023-e594bb936d90
+  ws-opts:
+    headers:
+      Host: hostodo.galenet.online
+    path: /hostodo
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 21 @nodpai
+  network: ws
+  port: '443'
+  server: welfare.kk-proxy.pro
+  tls: true
+  type: vmess
+  uuid: 3190f0de-ef9f-416d-89e7-502a0f276f91
+  ws-opts:
+    headers:
+      Host: welfare.kk-proxy.pro
+    path: /ec3a017507e0/
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 56fae67c-bce1-41a1-83d0-57e383a58465
