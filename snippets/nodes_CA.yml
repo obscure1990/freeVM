@@ -1,11 +1,5 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-145
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-109
   password: Y6R9pAtvxxzmGC
   port: 8888
@@ -13,7 +7,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|7,8,12|🇨🇦 加拿大 302
+  name: 24,27|7,8,12|🇨🇦 加拿大 302
   network: ws
   port: 2087
   server: x10.mehdimoghaddam.fun
@@ -25,36 +19,6 @@ proxies:
     headers:
       Host: x10.mehdimoghaddam.fun
     path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-137
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4a9e7852-6a7b-4b83-8226-e40fcd2bd228
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇨🇦 加拿大 304
-  network: ws
-  port: 443
-  server: 172.67.142.191
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: edeen.makeup
-    path: linkvws
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -68,6 +32,26 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 24,27|12|🇨🇦 加拿大 138
+  network: ws
+  port: 443
+  server: laravel.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: sub.yifenjichang.top
+    path: /octavi.cfd:443/linkvws
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-145
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24,31|🇨🇦加拿大04
@@ -86,15 +70,31 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|12|🇨🇦 加拿大 138
+  name: 24,27|12|🇨🇦 加拿大 304
   network: ws
   port: 443
-  server: laravel.com
+  server: 172.67.142.191
   servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: sub.yifenjichang.top
-    path: /octavi.cfd:443/linkvws
+      Host: edeen.makeup
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 4a9e7852-6a7b-4b83-8226-e40fcd2bd228
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-137
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 134.195.196.231
+  type: ss
