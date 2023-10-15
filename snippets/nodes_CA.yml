@@ -1,4 +1,26 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-108
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-099
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 304
@@ -15,36 +37,14 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
+  name: 11,24,30|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 56fae67c-bce1-41a1-83d0-57e383a58465
-- alterId: 0
-  cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-099
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-107
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 134.195.196.231
-  type: ss
+  uuid: 6de9e032-7585-40c6-9b97-b12725bff640
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -60,20 +60,14 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 11,24,30|🇨🇦加拿大04
+  name: 22,24|加拿大 02 | 1x CA
   network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6de9e032-7585-40c6-9b97-b12725bff640
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-108
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 134.195.196.231
-  type: ss
+  uuid: 56fae67c-bce1-41a1-83d0-57e383a58465
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 180
@@ -88,3 +82,9 @@ proxies:
     headers:
       Host: main.animelover.ir
     path: /amstd.digires.shop/12796
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-107
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 134.195.196.231
+  type: ss
