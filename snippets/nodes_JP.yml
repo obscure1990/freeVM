@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.21-076
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 85.208.108.21
+  type: ss
 - alterId: 0
   cipher: auto
   name: 10|日本 东京Amazon数据中心
@@ -12,6 +18,25 @@ proxies:
     headers:
       Host: jxhoisldy718922.starnetcn.top
     path: /315d825893fc34aca0231ab967157986
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.60-123
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 85.208.108.60
+  type: ss
+- name: 28|JP_speednode_0024
+  network: ws
+  password: 3febb05ea76a940f
+  port: 3306
+  server: 54.168.244.142
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: n2.gladns.com
+    path: /gateway/connect
 - alterId: 0
   cipher: auto
   name: 11,24|🇯🇵日本04
@@ -22,34 +47,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 5ddf63b2-0f5d-43d2-8f4a-00519afd4283
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25,28|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.65.211.149
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 19|JP-54.199.83.239-216
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.21-076
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 85.208.108.21
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇯🇵 东京|频道:@ripaojiedian
-  password: 6cc1b03a-2eab-4f13-ab25-32e7622f0a56
-  port: 25854
-  server: starspeed.tbh.iosds.com
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本05
+  network: tcp
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5ddf63b2-0f5d-43d2-8f4a-00519afd4283
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 25|🇯🇵 日本B|@ripaojiedian
@@ -58,16 +65,6 @@ proxies:
   server: sh-zz-xx.newbluecloud.top
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f4dfa2ff-aef0-4aa0-a778-b0987f7720cb
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25,28|🇯🇵 日本KT|@ripaojiedian
@@ -84,6 +81,24 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25,28|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.65.211.149
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f4dfa2ff-aef0-4aa0-a778-b0987f7720cb
 - alterId: 0
   cipher: auto
   name: 11,24|🇯🇵日本06
@@ -94,58 +109,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 5ddf63b2-0f5d-43d2-8f4a-00519afd4283
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本05
-  network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5ddf63b2-0f5d-43d2-8f4a-00519afd4283
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f4dfa2ff-aef0-4aa0-a778-b0987f7720cb
-- alterId: 0
-  cipher: auto
-  name: 19|JP-54.238.175.203-210
-  network: ws
-  port: 53782
-  server: kr-cdn-6273819.starnetcn.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-headers:
-    Host: 127.0.0.1
-  ws-path: /
-- name: 28|JP_speednode_0024
-  network: ws
-  password: 3febb05ea76a940f
-  port: 3306
-  server: 54.168.244.142
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: n2.gladns.com
-    path: /gateway/connect
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.60-123
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 85.208.108.60
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25|🇯🇵 日本KT2|@ripaojiedian
@@ -162,13 +125,50 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: 19|JP-54.199.83.239-216
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 22,24|日本 05  | 1x JP
+  name: 22,24|日本 06  | 1x JP
   network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f4dfa2ff-aef0-4aa0-a778-b0987f7720cb
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇯🇵 东京|频道:@ripaojiedian
+  password: 6cc1b03a-2eab-4f13-ab25-32e7622f0a56
+  port: 25854
+  server: starspeed.tbh.iosds.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|JP-54.238.175.203-210
+  network: ws
+  port: 53782
+  server: kr-cdn-6273819.starnetcn.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-headers:
+    Host: 127.0.0.1
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
   tls: true
   type: vmess
   uuid: f4dfa2ff-aef0-4aa0-a778-b0987f7720cb
