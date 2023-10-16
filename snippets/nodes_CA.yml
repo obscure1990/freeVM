@@ -1,20 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-112
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 91f420b1-d96a-46a1-a667-3a7c5267e940
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 180
@@ -48,16 +32,12 @@ proxies:
   port: 6379
   server: 134.195.196.231
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24,30|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 1f51bbee-2652-454f-a3ba-3092269d251d
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-111
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
@@ -68,6 +48,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7d3e4cbf-8147-411a-b0c6-89c4f6f058fd
 - alterId: 0
   cipher: auto
   name: 0,24,25,26|🇨🇦 _CA_加拿大
@@ -82,9 +72,9 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-111
-  password: RexnBgU7EV5ADxG
-  port: 7002
+  name: 19|CA-134.195.196.231-112
+  password: faBAoD54k87UJG7
+  port: 2375
   server: 134.195.196.231
   type: ss
 - alterId: 0
@@ -103,14 +93,11 @@ proxies:
     path: /u6o5txhi
 - alterId: 0
   cipher: auto
-  name: 7,8|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '443'
-  server: jnd1.531131.xyz
+  name: 11,24,30|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0bdcd202-a39e-426a-9d1d-0ce454b9dd35
-  ws-opts:
-    headers:
-      Host: jnd1.531131.xyz
-    path: /jnd1?ed=2048
+  uuid: ff19bab0-cffe-4227-9f62-514828cdfd8d
