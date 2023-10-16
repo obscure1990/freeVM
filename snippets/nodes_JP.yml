@@ -16,19 +16,12 @@ proxies:
     headers:
       Host: dj.kxking.eu.org
     path: /vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 19|JP-172.105.239.241-063
-  network: ws
-  port: 443
-  server: 172.105.239.241
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  ws-headers:
-    Host: js.adbse.xyz
-  ws-path: /down
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.93-118
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 85.208.108.93
+  type: ss
 - alterId: 0
   cipher: auto
   name: '20|🇯🇵 日本(油管:破解资源君2.0) #1'
@@ -42,6 +35,28 @@ proxies:
     headers:
       Host: vjp1.0bad.com
     path: /chat
+- cipher: aes-256-gcm
+  name: 19|JP-85.208.108.21-117
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 85.208.108.21
+  type: ss
+- cipher: aes-256-cfb
+  name: 8,19,25|🇯🇵 Japan 02 @nodpai
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43....
+  network: tcp
+  port: 51801
+  server: 45.88.43.143
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 20|🇯🇵 日本(油管:破解资源君2.0)
@@ -55,6 +70,49 @@ proxies:
     headers:
       Host: js.adbse.xyz
     path: /down
+- cipher: aes-256-cfb
+  name: 8|🇯🇵 Japan 03 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 46.51.233.234
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20014
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 04  | 1x JP
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: f31457de-97be-45c0-8d1b-b1ecdec6e8b3
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本04
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 91f0aed0-970b-4984-9a67-1011ed0d4f31
 - name: 28|JP_speednode_0046
   network: ws
   password: 0cc6b4268dea0ba8
@@ -80,81 +138,6 @@ proxies:
   uuid: f31457de-97be-45c0-8d1b-b1ecdec6e8b3
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本04
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 91f0aed0-970b-4984-9a67-1011ed0d4f31
-- alterId: 64
-  cipher: auto
-  name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20014
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.21-117
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 85.208.108.21
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.65.211.149
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|JP-85.208.108.93-118
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 85.208.108.93
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43....
-  network: tcp
-  port: 51801
-  server: 45.88.43.143
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.19...
-  network: tcp
-  port: '1069'
-  server: 152.69.197.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
   name: 22,24|日本 05  | 1x JP
   network: tcp
   port: '31106'
@@ -165,30 +148,14 @@ proxies:
   uuid: f31457de-97be-45c0-8d1b-b1ecdec6e8b3
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本06
+  name: 11,24|🇯🇵日本05
   network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
+  port: '36106'
+  server: 1j8p05.abzoones.xyz
+  servername: jp05.abpilot.xyz
   tls: true
   type: vmess
   uuid: 91f0aed0-970b-4984-9a67-1011ed0d4f31
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 04  | 1x JP
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: f31457de-97be-45c0-8d1b-b1ecdec6e8b3
-- cipher: aes-256-cfb
-  name: 19,25|JP-54.199.83.239-160
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25|🇯🇵 日本KT2|@ripaojiedian
@@ -207,11 +174,51 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇯🇵日本05
+  name: 19|JP-172.105.239.241-063
+  network: ws
+  port: 443
+  server: 172.105.239.241
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
+  ws-headers:
+    Host: js.adbse.xyz
+  ws-path: /down
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.19...
   network: tcp
-  port: '36106'
-  server: 1j8p05.abzoones.xyz
-  servername: jp05.abpilot.xyz
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- cipher: aes-256-cfb
+  name: 8,25|🇯🇵 Japan 01 @nodpai
+  password: amazonskr05
+  port: 443
+  server: 54.65.211.149
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
   tls: true
   type: vmess
   uuid: 91f0aed0-970b-4984-9a67-1011ed0d4f31
+- alterId: 64
+  cipher: auto
+  name: 24|12|🇯🇵 ⚡️@DeamNet_🔻 🇯🇵Japan
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
