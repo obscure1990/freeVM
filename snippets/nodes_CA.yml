@@ -5,36 +5,19 @@ proxies:
   port: 5600
   server: 134.195.196.231
   type: ss
-- Inc. 2: None
-  alterId: 0
-  cipher: auto
-  name: 28|CA_speednode_0004
-  network: ws
-  port: 80
-  server: 142.171.123.80
-  servername: us-two.1234585.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5cc28fef-2ae7-4644-b422-39601852e7ca
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  name: 7,8|🇨🇦 Canada 01 @nodpai
+  network: ws
+  port: '28391'
+  server: kr-cdn-6273819.starnetcn.top
+  tls: false
   type: vmess
-  uuid: 1b7535c0-e494-4015-b9ec-79d3cfb06ea2
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-105
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 134.195.196.231
-  type: ss
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: kr-cdn-6273819.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-103
   password: e4FCWrgpkji3QY
@@ -56,17 +39,49 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 28|CA_speednode_0002
+  name: 24|7,8,12|TG频道:@hkaa0||加拿大
   network: ws
-  port: 8080
-  server: 74.48.98.249
-  skip-cert-verify: false
+  port: 80
+  server: 108.181.10.17
   tls: false
   type: vmess
-  udp: true
-  uuid: f13f2a0a-fb49-4139-8fcc-618cdaf2938b
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
   ws-opts:
-    path: /quanstring?ed=2048
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- Inc. 2: None
+  alterId: 0
+  cipher: auto
+  name: 28|CA_speednode_0004
+  network: ws
+  port: 80
+  server: 142.171.123.80
+  servername: us-two.1234585.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5cc28fef-2ae7-4644-b422-39601852e7ca
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9c3fb431-27b7-4cff-aa9d-e5d7c12abe87
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦 加拿大 148
@@ -81,53 +96,38 @@ proxies:
     headers:
       Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
     path: /acetaffy
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-105
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 24|7,8,12|TG频道:@hkaa0||加拿大
+  name: 28|CA_speednode_0002
   network: ws
-  port: 80
-  server: 108.181.10.17
+  port: 8080
+  server: 74.48.98.249
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  udp: true
+  uuid: f13f2a0a-fb49-4139-8fcc-618cdaf2938b
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '28391'
-  server: kr-cdn-6273819.starnetcn.top
-  tls: false
-  type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
-  ws-opts:
-    headers:
-      Host: kr-cdn-6273819.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9c3fb431-27b7-4cff-aa9d-e5d7c12abe87
+    path: /quanstring?ed=2048
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-102
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 134.195.196.231
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 1b7535c0-e494-4015-b9ec-79d3cfb06ea2
