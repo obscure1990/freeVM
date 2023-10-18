@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,24|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 07760ae2-6e4f-4d73-99a3-53a5e96cbdca
+- alterId: 0
+  cipher: auto
   name: 22,24|台湾 05  | 1x TWN
   network: tcp
   port: '31306'
@@ -8,17 +18,17 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b4563c03-01d7-43a3-9b15-6ff30ae08ca9
+  uuid: 09ded06a-b134-4181-9ffa-9558052a36b4
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
+  name: 22,24|台湾 04  | 1x TWN
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b4563c03-01d7-43a3-9b15-6ff30ae08ca9
+  uuid: 09ded06a-b134-4181-9ffa-9558052a36b4
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾06
@@ -31,24 +41,27 @@ proxies:
   uuid: 07760ae2-6e4f-4d73-99a3-53a5e96cbdca
 - alterId: 0
   cipher: auto
-  name: 24,26,27|15|台湾B|@ripaojiedian
-  network: tcp
-  port: '25010'
-  server: b.baozinet.top
-  servername: ''
+  name: '24|7,8|🇹🇼 Taiwan 06 @nodpai #1'
+  network: ws
+  port: 80
+  server: tw-one.1234585.xyz
   tls: false
   type: vmess
-  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e
+  uuid: 4fde6eef-1604-465b-b586-d239d9293ba8
+  ws-opts:
+    headers:
+      Host: tw-one.1234585.xyz
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾04
+  name: 22,24|台湾 06  | 1x TWN
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 07760ae2-6e4f-4d73-99a3-53a5e96cbdca
+  uuid: 09ded06a-b134-4181-9ffa-9558052a36b4
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾05
@@ -61,24 +74,11 @@ proxies:
   uuid: 07760ae2-6e4f-4d73-99a3-53a5e96cbdca
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
+  name: 24,26|15|台湾B|@ripaojiedian
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b4563c03-01d7-43a3-9b15-6ff30ae08ca9
-- alterId: 0
-  cipher: auto
-  name: '24,27|7,8|🇹🇼 Taiwan 06 @nodpai #1'
-  network: ws
-  port: 80
-  server: tw-one.1234585.xyz
+  port: '25010'
+  server: b.baozinet.top
+  servername: ''
   tls: false
   type: vmess
-  uuid: 4fde6eef-1604-465b-b586-d239d9293ba8
-  ws-opts:
-    headers:
-      Host: tw-one.1234585.xyz
-    path: /
+  uuid: 50b479e6-888d-42bb-b0dd-0ea9935f7a7e

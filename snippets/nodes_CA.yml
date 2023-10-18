@@ -1,4 +1,23 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-112
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,15,20,24|🇨🇦 _CA_加拿大
+  network: ws
+  port: '8080'
+  server: dongtaiwang3.com
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: dongtaiwang8.dtku47.xyz
+    path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
   name: 1,24|_CA_
@@ -13,6 +32,12 @@ proxies:
     headers:
       host: dongtaiwang8.dtku47.xyz
     path: /1IKYjV0r/
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-109
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
@@ -25,17 +50,30 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
   tls: true
   type: vmess
-  uuid: 07760ae2-6e4f-4d73-99a3-53a5e96cbdca
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 24,27|12|TG频道:@hkaa0||加拿大
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 09ded06a-b134-4181-9ffa-9558052a36b4
+- alterId: 0
+  cipher: auto
+  name: 24|12|TG频道:@hkaa0||加拿大
   network: ws
   port: 80
   server: 108.181.10.17
@@ -58,49 +96,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-109
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,15,20,24,27|🇨🇦 _CA_加拿大
-  network: ws
-  port: '8080'
-  server: dongtaiwang3.com
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang8.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
+  name: 11,24|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b4563c03-01d7-43a3-9b15-6ff30ae08ca9
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-112
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 134.195.196.231
-  type: ss
+  uuid: 07760ae2-6e4f-4d73-99a3-53a5e96cbdca
