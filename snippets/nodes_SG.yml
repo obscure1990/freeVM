@@ -1,39 +1,6 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-175
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #3'
-  network: ws
-  port: '9333'
-  server: st-1.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 3155e00f-71ef-3edc-b6d0-5bce283daf90
-  ws-opts:
-    headers:
-      Host: hkt04.dnspro.icu
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: 24|12|🔒 VM-WS-NA 🇸🇬 SG-146.190.10...
-  network: ws
-  port: '26448'
-  server: 146.190.108.6
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 72cc1029-b304-44ab-d181-5582aea3ab43
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /Shalana
 - cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 21 @nodpai
+  name: 8|🇸🇬 Singapore 09 @nodpai
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -43,19 +10,146 @@ proxies:
   server: 4e3a8f7.s3.glados-config.net
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.143.182.115
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 17 @nodpai
+  network: ws
+  port: '80'
+  server: xjp2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c
+  ws-opts:
+    headers:
+      Host: xjp2.shabijichang.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 8|🇸🇬 Singapore 08 @nodpai
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 4e3a8f7.dl.nintendo.com:18860
+    host: 4e3a8f7.dl.microsoft.dk:18860
     mode: tls
   port: 2377
-  server: 4e3a8f7.j1.glados-config.net
+  server: 4e3a8f7.dc.glados-config.net
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-175
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-WS-NONE 🇸🇬 SG-146.190....
+  network: ws
+  port: '55599'
+  server: 146.190.96.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cdbca266-10d9-4018-e99e-c561497d6542
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /isuru
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇸🇬 新加坡_1012102
+  network: ws
+  port: 80
+  server: 18.142.51.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 484e15da-0666-486d-b138-78622e795fed
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 06 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.microsoft.dk:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.s2.glados-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 19 @nodpai
+  name: 8|🇸🇬 Singapore 07 @nodpai
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4e3a8f7.dl.microsoft.eu:18860
+    mode: tls
+  port: 2377
+  server: 4e3a8f7.b6.glados-config.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 18 @nodpai
+  network: ws
+  port: '443'
+  server: welfare.kk-proxy.pro
+  tls: true
+  type: vmess
+  uuid: 3190f0de-ef9f-416d-89e7-502a0f276f91
+  ws-opts:
+    headers:
+      Host: welfare.kk-proxy.pro
+    path: /ec3a017507e0/
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇸🇬 新加坡_1011095
+  network: ws
+  port: 8080
+  server: 139.180.143.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 19|SG-159.223.94.156-179
+  network: ws
+  port: 80
+  server: 159.223.94.156
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  ws-headers:
+    Host: 159.223.94.156
+  ws-path: /anti13.zingfast.vn
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 10 @nodpai
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -80,180 +174,6 @@ proxies:
     path: /hostodo
 - alterId: 0
   cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2699786b-180e-442a-8b23-7beb07466f39
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 14 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.nintendo.be:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.j2.glados-config.net
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 18 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.nintendo.eu:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.h2.glados-config.net
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇸🇬 新加坡_1011095
-  network: ws
-  port: 8080
-  server: 139.180.143.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|12|🔒 VM-WS-NONE 🇸🇬 SG-146.190....
-  network: ws
-  port: '55599'
-  server: 146.190.96.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cdbca266-10d9-4018-e99e-c561497d6542
-  ws-opts:
-    headers:
-      Host: media-exp1.licdn.com
-    path: /isuru
-- alterId: 64
-  cipher: auto
-  name: 19|SG-159.223.94.156-179
-  network: ws
-  port: 80
-  server: 159.223.94.156
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  ws-headers:
-    Host: 159.223.94.156
-  ws-path: /anti13.zingfast.vn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇸🇬 新加坡|频道:@ripaojiedian
-  password: 3525588ee14ea924
-  port: 41040
-  server: gzcm01.celerlink.one
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 11 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.blizzard.com:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.e1.glados-config.net
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇸🇬 新加坡_1012102
-  network: ws
-  port: 80
-  server: 18.142.51.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 484e15da-0666-486d-b138-78622e795fed
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 17 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.microsoft.dk:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.dc.glados-config.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 16 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.microsoft.eu:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.h1.glados-config.net
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 26 @nodpai
-  network: ws
-  port: '443'
-  server: welfare.kk-proxy.pro
-  tls: true
-  type: vmess
-  uuid: 3190f0de-ef9f-416d-89e7-502a0f276f91
-  ws-opts:
-    headers:
-      Host: welfare.kk-proxy.pro
-    path: /ec3a017507e0/
-- alterId: 0
-  cipher: auto
-  name: 19|SG-54.254.147.16-074
-  network: ws
-  port: 40515
-  server: madush.duckdns.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f0e69c63-99e9-455c-a8ae-cbab068c7481
-  ws-headers:
-    Host: ar.linkedin.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 11,24|🇸🇬新加坡04
   network: tcp
   port: '36201'
@@ -262,52 +182,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 2699786b-180e-442a-8b23-7beb07466f39
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 15 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.microsoft.de:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.h3.glados-config.net
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 7,8|🇸🇬 Singapore 25 @nodpai
-  network: ws
-  port: '55599'
-  server: 146.190.96.141
-  tls: false
-  type: vmess
-  uuid: cdbca266-10d9-4018-e99e-c561497d6542
-  ws-opts:
-    headers:
-      Host: ''
-    path: /isuru
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 20 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.microsoft.dk:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.s2.glados-config.net
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 8|「节点冠名招商 @nodpai」🇸🇬 SG 01
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.microsoft.io:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.b3.glados-config.net
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 24|12|🇸🇬 新加坡_1018254
@@ -322,78 +196,6 @@ proxies:
     headers:
       Host: ''
     path: /vmws
-- cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 09 @nodpai
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.microsoft.fi:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.j3.glados-config.net
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #1'
-  network: ws
-  port: '20029'
-  server: aws-beijing-1.dnspro.icu
-  tls: false
-  type: vmess
-  uuid: 3155e00f-71ef-3edc-b6d0-5bce283daf90
-  ws-opts:
-    headers:
-      Host: aws-beijing-1.dnspro.icu
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #2'
-  network: ws
-  port: '35789'
-  server: sg-6.wumaojichang.ml
-  tls: false
-  type: vmess
-  uuid: d3978bd0-dade-4181-81de-bae3091339f1
-  ws-opts:
-    headers:
-      Host: sg-6.wumaojichang.ml
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 2699786b-180e-442a-8b23-7beb07466f39
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.143.182.115
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-173
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 8|「蛋挞云,超低价格,超高体验」🇸🇬 SG 02
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4e3a8f7.dl.microsoft.md:18860
-    mode: tls
-  port: 2377
-  server: 4e3a8f7.t6.glados-config.net
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 20|🇸🇬 新加坡(油管:破解资源君2.0)
@@ -409,6 +211,19 @@ proxies:
     path: /linod
 - alterId: 0
   cipher: auto
+  name: 19|SG-54.254.147.16-074
+  network: ws
+  port: 40515
+  server: madush.duckdns.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f0e69c63-99e9-455c-a8ae-cbab068c7481
+  ws-headers:
+    Host: ar.linkedin.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
   name: 22,24|新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -416,15 +231,134 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
+  uuid: e92678a6-d397-488c-bb3f-827de003b15c
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e92678a6-d397-488c-bb3f-827de003b15c
 - cipher: chacha20-ietf-poly1305
-  name: 8|🇸🇬 Singapore 10 @nodpai
+  client-fingerprint: chrome
+  name: 25|🇸🇬 新加坡|频道:@ripaojiedian
+  password: 3525588ee14ea924
+  port: 41040
+  server: gzcm01.celerlink.one
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #1'
+  network: ws
+  port: '20029'
+  server: aws-beijing-1.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 3155e00f-71ef-3edc-b6d0-5bce283daf90
+  ws-opts:
+    headers:
+      Host: aws-beijing-1.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #3'
+  network: ws
+  port: '9333'
+  server: st-1.dnspro.icu
+  tls: false
+  type: vmess
+  uuid: 3155e00f-71ef-3edc-b6d0-5bce283daf90
+  ws-opts:
+    headers:
+      Host: hkt04.dnspro.icu
+    path: /iso
+- alterId: 0
+  cipher: auto
+  name: 7,8|🇸🇬 Singapore 14 @nodpai
+  network: ws
+  port: '55599'
+  server: 146.190.96.141
+  tls: false
+  type: vmess
+  uuid: cdbca266-10d9-4018-e99e-c561497d6542
+  ws-opts:
+    headers:
+      Host: ''
+    path: /isuru
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君2.0) #2'
+  network: ws
+  port: '35789'
+  server: sg-6.wumaojichang.ml
+  tls: false
+  type: vmess
+  uuid: d3978bd0-dade-4181-81de-bae3091339f1
+  ws-opts:
+    headers:
+      Host: sg-6.wumaojichang.ml
+    path: /
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-173
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
+- alterId: 0
+  cipher: auto
+  name: 7|🇸🇬 Singapore 12 @nodpai
+  network: tcp
+  port: '23502'
+  server: ora-sg4.cou.gay
+  tls: false
+  type: vmess
+  uuid: 580330b8-4dfe-47f3-9898-c1a1120c8edd
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 05 @nodpai
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 4e3a8f7.dl.microsoft.io:18860
+    host: 4e3a8f7.dl.microsoft.eu:18860
     mode: tls
   port: 2377
-  server: 4e3a8f7.e2.glados-config.net
+  server: 4e3a8f7.h1.glados-config.net
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: e92678a6-d397-488c-bb3f-827de003b15c
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-WS-NA 🇸🇬 SG-146.190.10...
+  network: ws
+  port: '26448'
+  server: 146.190.108.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 72cc1029-b304-44ab-d181-5582aea3ab43
+  ws-opts:
+    headers:
+      Host: media-exp1.licdn.com
+    path: /Shalana
