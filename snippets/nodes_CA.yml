@@ -1,10 +1,14 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-112
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 134.195.196.231
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a96c751d-88f3-4219-824b-c8b88d3d092b
 - alterId: 0
   cipher: auto
   name: 1,24|_CA_
@@ -19,16 +23,12 @@ proxies:
     headers:
       host: dongtaiwang8.dtku47.xyz
     path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ea9e1cce-077f-42a9-b43f-300178b46e02
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-111
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -42,12 +42,16 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-109
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 134.195.196.231
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2699786b-180e-442a-8b23-7beb07466f39
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,20,24|🇨🇦 _CA_加拿大
@@ -63,20 +67,18 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  name: 24|12|🇨🇦 V1C | 加拿大 01
+  network: ws
+  port: 28391
+  server: kr-cdn-6273819.starnetcn.top
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 84592762-8b8a-4bf1-8592-fd5647500ac3
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-110
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 134.195.196.231
-  type: ss
+  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  ws-opts:
+    headers:
+      Host: xgui2agy3dq8y.starnetcn.top
+    path: /315d825893fc34aca0231ab967157986
 - alterId: 0
   cipher: auto
   name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
@@ -88,8 +90,34 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-111
-  password: Y6R9pAtvxxzmGC
-  port: 5600
+  name: 19|CA-134.195.196.231-109
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 15,24|github.com/freefq - 加拿大  6
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-110
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-112
+  password: XKFKl2rULjIp74
+  port: 8009
   server: 134.195.196.231
   type: ss
