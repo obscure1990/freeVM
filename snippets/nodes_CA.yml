@@ -1,4 +1,36 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-111
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-109
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,24|_CA_
+  network: ws
+  port: 8080
+  server: dongtaiwang3.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      host: dongtaiwang8.dtku47.xyz
+    path: /1IKYjV0r/
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-112
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -12,31 +44,29 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-110
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-112
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 134.195.196.231
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 7,8|「节点冠名招商 @nodpai」🇨🇦 CA 01
-  network: ws
-  port: '28391'
-  server: kr-cdn-6273819.starnetcn.top
+  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
   tls: false
   type: vmess
-  uuid: 8e73f50a-35cd-4235-9c18-a3e061e7bc9f
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,20,24|🇨🇦 _CA_加拿大
+  network: ws
+  port: '8080'
+  server: dongtaiwang3.com
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   ws-opts:
     headers:
-      Host: kr-cdn-6273819.starnetcn.top
-    path: /315d825893fc34aca0231ab967157986
+      Host: dongtaiwang8.dtku47.xyz
+    path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -58,6 +88,22 @@ proxies:
   uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
   ws-opts:
     path: /
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-110
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 863019c1-7ad8-4aa3-9430-d38e8d750e8a
 - alterId: 0
   cipher: auto
   name: 24|12|🇨🇦TG频道 @oeo12  =CA
@@ -72,62 +118,3 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 1,24|_CA_
-  network: ws
-  port: 8080
-  server: dongtaiwang3.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      host: dongtaiwang8.dtku47.xyz
-    path: /1IKYjV0r/
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-109
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,20,24|🇨🇦 _CA_加拿大
-  network: ws
-  port: '8080'
-  server: dongtaiwang3.com
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang8.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 863019c1-7ad8-4aa3-9430-d38e8d750e8a
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-111
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 134.195.196.231
-  type: ss
