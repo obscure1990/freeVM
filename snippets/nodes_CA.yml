@@ -1,7 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3,7,8,15,20,24|🇨🇦 _CA_加拿大
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: ce302ad3-7b91-4b94-b6bf-b88317b91c7b
+- alterId: 0
+  cipher: auto
+  name: 3,15,20,24|🇨🇦 _CA_加拿大
   network: ws
   port: '80'
   server: 108.181.10.17
@@ -12,32 +22,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-103
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a7985c50-8d57-4b93-81b9-24e4db5b5c87
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ce302ad3-7b91-4b94-b6bf-b88317b91c7b
 - alterId: 0
   cipher: auto
   name: 24|12|V1C | 加拿大 01
@@ -52,14 +36,6 @@ proxies:
     headers:
       Host: xgui2agy3dq8y.starnetcn.top
     path: /315d825893fc34aca0231ab967157986
-- name: 1|_CA_
-  network: tcp
-  password: e869fbd0-6d5f-11ee-90fd-1239d0255272
-  port: 443
-  server: 51.222.15.68
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-gcm
   name: 19|CA-134.195.198.95-100
   password: faBAoD54k87UJG7
@@ -68,14 +44,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.3...
+  name: 11,24|🇨🇦加拿大04
   network: tcp
-  port: '3389'
-  server: 134.122.38.104
-  servername: ''
-  tls: false
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: a7985c50-8d57-4b93-81b9-24e4db5b5c87
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -89,3 +65,27 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.3...
+  network: tcp
+  port: '3389'
+  server: 134.122.38.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-103
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.114.114.19
+  type: ss
+- name: 1|_CA_
+  network: tcp
+  password: e869fbd0-6d5f-11ee-90fd-1239d0255272
+  port: 443
+  server: 51.222.15.68
+  skip-cert-verify: true
+  type: trojan
+  udp: true
