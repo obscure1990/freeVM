@@ -1,41 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,24|_FR__3
+  name: 0,2,4,20,24,27,28|🇫🇷 _FR_法国
   network: ws
-  port: 80
+  port: '80'
   server: de1-vmess.greenssh.xyz
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
   ws-opts:
     headers:
-      host: de1-vmess.greenssh.xyz
+      Host: de1-vmess.greenssh.xyz
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
-  network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
-- name: 1,28|_FR__1
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 15.236.116.176
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 - name: 1,28|_FR__2
   network: tcp
   password: telegram-id-directvpn
@@ -45,6 +21,51 @@ proxies:
   sni: trj.rollingnext.co.uk
   type: trojan
   udp: true
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+- alterId: 0
+  cipher: auto
+  name: 24,27|12|法国new01（1倍率）
+  network: ws
+  port: '8080'
+  server: fr-new01.gujuji.top
+  tls: false
+  type: vmess
+  uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- name: 1,28|_FR__1
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.116.176
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0049
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.25.187
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 19|FR-54.36.174.181-006
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 54.36.174.181
+  type: ss
 - alterId: 0
   cipher: auto
   name: 27|法国new01优选（1倍率）
@@ -60,23 +81,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|FR-135.125.190.73-034
+  name: 16,27|@hkaa0||法国
+  network: grpc
+  port: 443
+  server: hdfy1d1.cpi2hidd.eu.org
+  tls: true
+  type: vmess
+  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
   network: ws
-  port: 80
-  server: de1-vmess.greenssh.xyz
-  skip-cert-verify: true
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
   tls: false
   type: vmess
-  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
-  ws-headers:
-    Host: de1-vmess.greenssh.xyz
-  ws-path: /vmess
-- cipher: aes-256-gcm
-  name: 19|FR-54.36.174.181-006
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 54.36.174.181
-  type: ss
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
@@ -93,6 +118,20 @@ proxies:
     path: /nimvws
 - alterId: 0
   cipher: auto
+  name: 1,24|_FR__3
+  network: ws
+  port: 80
+  server: de1-vmess.greenssh.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
+  ws-opts:
+    headers:
+      host: de1-vmess.greenssh.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: 24|12|🇫🇷_FR_法国_yui科技_364
   network: ws
   port: 80
@@ -104,15 +143,18 @@ proxies:
     headers:
       Host: pl1-vmess.greenssh.xyz
     path: /
-- alterId: 0
-  cipher: auto
-  name: 16,27|@hkaa0||法国
-  network: grpc
-  port: 443
-  server: hdfy1d1.cpi2hidd.eu.org
-  tls: true
-  type: vmess
-  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- cipher: aes-256-cfb
+  name: 19,28|FR-51.158.195.96-000
+  password: asdKkaskJKfnsa
+  port: 110
+  server: 51.158.195.96
+  type: ss
+- cipher: aes-256-cfb
+  name: 19,28|FR-51.158.195.96-007
+  password: asdKkaskJKfnsa
+  port: 80
+  server: 51.158.195.96
+  type: ss
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_fnet00
@@ -127,36 +169,6 @@ proxies:
     headers:
       Host: bl.shabijichang.com
     path: /
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0049
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.25.187
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 24,27|12|法国new01（1倍率）
-  network: ws
-  port: '8080'
-  server: fr-new01.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -170,28 +182,16 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
-- cipher: aes-256-cfb
-  name: 19,28|FR-51.158.195.96-007
-  password: asdKkaskJKfnsa
-  port: 80
-  server: 51.158.195.96
-  type: ss
-- cipher: aes-256-cfb
-  name: 19,28|FR-51.158.195.96-000
-  password: asdKkaskJKfnsa
-  port: 110
-  server: 51.158.195.96
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 0,2,4,20,24,27,28|🇫🇷 _FR_法国
+  name: 19|FR-135.125.190.73-034
   network: ws
-  port: '80'
+  port: 80
   server: de1-vmess.greenssh.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 12612b4e-e426-4b7c-84bd-4a02850abb1e
-  ws-opts:
-    headers:
-      Host: de1-vmess.greenssh.xyz
-    path: /vmess
+  ws-headers:
+    Host: de1-vmess.greenssh.xyz
+  ws-path: /vmess
