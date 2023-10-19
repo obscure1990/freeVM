@@ -1,33 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 915c436e-e1e6-47c1-a06b-2c0f75a1e5b6
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·10
-  network: tcp
-  port: 3389
-  server: 137.184.160.72
+  name: 27|🇨🇦·加拿大·TG@kkovokk·25
+  network: ws
+  port: 80
+  server: us-two.1234585.xyz
   tls: false
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1019026
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 4fde6eef-1604-465b-b586-d239d9293ba8
+  ws-opts:
+    headers:
+      Host: us-two.1234585.xyz
+    path: /
 - alterId: 0
   cipher: auto
   name: 24,27|12|加拿大new01（1倍率）
@@ -43,6 +27,16 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
+  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.3...
+  network: tcp
+  port: '3389'
+  server: 134.122.38.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
   name: 24,27,31|12|加拿大new01优选（1倍率）
   network: ws
   port: '8080'
@@ -53,6 +47,28 @@ proxies:
   ws-opts:
     headers:
       Host: ca-new01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇦·加拿大·TG@kkovokk·3
+  network: tcp
+  port: 3389
+  server: 146.190.248.111
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 3,24,27|🇨🇦 _CA_加拿大
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  tls: false
+  type: vmess
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - cipher: aes-256-gcm
   name: 19|CA-38.114.114.19-065
@@ -69,38 +85,17 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e8a3317e-4a5c-47b3-8cc9-096055eeada1
+  uuid: 9b51c4d9-2c92-4177-91a1-7acfe5f07b9a
 - alterId: 0
   cipher: auto
-  name: 3,24,27|🇨🇦 _CA_加拿大
-  network: ws
-  port: '80'
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 1|_CA_
+  name: 11,24|🇨🇦加拿大04
   network: tcp
-  password: e869fbd0-6d5f-11ee-90fd-1239d0255272
-  port: 443
-  server: 51.222.15.68
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1019001
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 915c436e-e1e6-47c1-a06b-2c0f75a1e5b6
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -114,36 +109,20 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 9,24|加拿大_1019037
+- name: 1|_CA_
   network: tcp
-  port: '3389'
-  server: 134.122.38.104
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  password: e869fbd0-6d5f-11ee-90fd-1239d0255272
+  port: 443
+  server: 51.222.15.68
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 9,27|加拿大_1019094
-  network: ws
-  port: '80'
-  server: us-two.1234585.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: edafa6df-6dbe-4b29-adc4-53e633a4a6a8
-  ws-opts:
-    headers:
-      Host: us-two.1234585.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·3
+  name: 27|🇨🇦·加拿大·TG@kkovokk·10
   network: tcp
   port: 3389
-  server: 146.190.248.111
+  server: 137.184.160.72
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
