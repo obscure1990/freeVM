@@ -1,41 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 28|CN_speednode_0028
-  network: ws
-  port: 50206
-  server: data-hk-v2.shwjfkw.cn
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      host: data-hk-v2.shwjfkw.cn
-    path: /debian
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.245-037
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
-- alterId: 64
-  cipher: auto
-  name: '14|中国_【YouTube-VV科技】 #1'
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 1
   cipher: auto
   name: '16,17,27|@hkaa0||中国 #6'
@@ -45,33 +8,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 1837498a-bd38-337b-a123-f03dad7d15e9
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0022
+  password: Lam6mgI0ZnIqT459CTTOJR
+  port: 19922
+  server: us01.shawbrothersstudio.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
-  name: '16,17,27|@hkaa0||中国 #5'
+  name: 14|中国_【YouTube-VV科技】
   network: tcp
-  port: 39971
-  server: 183.240.232.82
+  port: 42055
+  server: 120.226.50.93
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: '16,17,24,26,27|@hkaa0||中国 #7'
-  network: tcp
-  port: 51904
-  server: 183.238.202.173
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '16,17,27|@hkaa0||中国 #2'
-  network: tcp
-  port: 35107
-  server: tanz-board.kunlun-one.com
-  tls: false
-  type: vmess
-  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
 - alterId: 0
   cipher: auto
   name: 19,20|CN-183.240.117.54-036
@@ -85,13 +37,52 @@ proxies:
   ws-headers:
     Host: 3.sg.zz.xxxxx.x-t-fuckword.network
   ws-path: /
+- alterId: 1
+  cipher: auto
+  name: 19|CN-111.38.37.245-037
+  network: ws
+  port: 50205
+  server: data-hk-v2.shwjfkw.cn
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    Host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: '16,17,27|@hkaa0||中国 #1'
+  network: tcp
+  port: 35105
+  server: tanz-board.kunlun-one.com
+  tls: false
+  type: vmess
+  uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0022
-  password: Lam6mgI0ZnIqT459CTTOJR
-  port: 19922
-  server: us01.shawbrothersstudio.com
+  name: 28|CN_speednode_0021
+  password: r1Rivb0NOPyab8gI828uG7
+  port: 19921
+  server: hk.shawbrothersstudio.com
   type: ss
-  udp: true
+- alterId: 64
+  cipher: auto
+  name: '14|中国_【YouTube-VV科技】 #1'
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '16,17,27|@hkaa0||中国 #5'
+  network: tcp
+  port: 39971
+  server: 183.240.232.82
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 19|CN-119.36.161.40-068
@@ -105,6 +96,15 @@ proxies:
   ws-headers:
     Host: www.99136853.xyz
   ws-path: /path/120306182525
+- alterId: 2
+  cipher: auto
+  name: 16,17,27|@hkaa0||中国
+  network: tcp
+  port: 25018
+  server: leonis.verdens.xyz
+  tls: true
+  type: vmess
+  uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
 - alterId: 64
   cipher: auto
   name: '16,17,27|@hkaa0||中国 #4'
@@ -114,6 +114,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 28|CN_speednode_0024
+  network: tcp
+  password: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
+  port: 11031
+  server: tg_mfbpn_d5.52vpn.eu.org
+  skip-cert-verify: true
+  sni: tg_mfbpn_d5.52vpn.eu.org
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 19|CN-120.232.56.38-089
+  password: 70906fed-4f59-495e-942a-2cda06391411
+  port: 8010
+  server: iplcdn.in
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-117
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
 - alterId: 64
   cipher: auto
   name: '16,17,27|@hkaa0||中国 #3'
@@ -136,52 +157,24 @@ proxies:
     headers:
       Host: jp.kxking.eu.org
     path: /
-- alterId: 2
+- alterId: 64
   cipher: auto
-  name: 16,17,27|@hkaa0||中国
+  name: '16,17,24,26,27|@hkaa0||中国 #7'
   network: tcp
-  port: 25018
-  server: leonis.verdens.xyz
-  tls: true
+  port: 51904
+  server: 183.238.202.173
+  tls: false
   type: vmess
-  uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-117
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '16,17,27|@hkaa0||中国 #1'
+  name: '16,17,27|@hkaa0||中国 #2'
   network: tcp
-  port: 35105
+  port: 35107
   server: tanz-board.kunlun-one.com
   tls: false
   type: vmess
   uuid: d9961c41-a491-3bfd-91a5-41d5a7f79915
-- alterId: 0
-  cipher: auto
-  name: 7,8,24,27|「节点冠名招商 @nodpai」🇨🇳 CN 01
-  network: ws
-  port: '80'
-  server: 1.117.69.235
-  tls: false
-  type: vmess
-  uuid: ee0a4b54-be8d-4f56-be4d-521bd1ae443d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 28|CN_speednode_0031
-  network: tcp
-  password: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
-  port: 11034
-  server: tg_mfbpn_d5.52vpn.eu.org
-  skip-cert-verify: true
-  sni: tg_mfbpn_d5.52vpn.eu.org
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 19,20|CN-183.240.117.54-033
@@ -195,36 +188,6 @@ proxies:
   ws-headers:
     Host: 4.3.1.fuckppppp.today
   ws-path: /
-- alterId: 64
-  cipher: auto
-  name: 14|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: 19|CN-120.232.56.38-089
-  password: 70906fed-4f59-495e-942a-2cda06391411
-  port: 8010
-  server: iplcdn.in
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0021
-  password: r1Rivb0NOPyab8gI828uG7
-  port: 19921
-  server: hk.shawbrothersstudio.com
-  type: ss
-- name: 28|CN_speednode_0024
-  network: tcp
-  password: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
-  port: 11031
-  server: tg_mfbpn_d5.52vpn.eu.org
-  skip-cert-verify: true
-  sni: tg_mfbpn_d5.52vpn.eu.org
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 19,20|CN-120.233.27.171-038
@@ -238,3 +201,27 @@ proxies:
   ws-headers:
     Host: 4.hk.zz.xxxxx.x-t-fuckword.network
   ws-path: /
+- name: 28|CN_speednode_0031
+  network: tcp
+  password: 14538fc3-08d1-36b5-8fa2-d5557efe01ce
+  port: 11034
+  server: tg_mfbpn_d5.52vpn.eu.org
+  skip-cert-verify: true
+  sni: tg_mfbpn_d5.52vpn.eu.org
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 28|CN_speednode_0028
+  network: ws
+  port: 50206
+  server: data-hk-v2.shwjfkw.cn
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      host: data-hk-v2.shwjfkw.cn
+    path: /debian
