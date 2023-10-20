@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 3,24|🇨🇦 _CA_加拿大
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  tls: false
+  type: vmess
+  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 19|CA-209.209.11.14-082
   network: ws
   port: 56301
@@ -14,37 +27,53 @@ proxies:
   ws-path: /xiaodao?ed=2048
 - alterId: 0
   cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·3
+  name: 22,24|加拿大 02 | 1x CA
   network: tcp
-  port: 3389
-  server: 146.190.248.111
-  tls: false
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: ba454390-f952-4a30-82d5-a3868be1c605
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_1020083
-  network: tcp
-  port: '3389'
-  server: 159.89.120.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 9,27|加拿大_1020090
+  name: 7,8,15,20,24|🇨🇦 Canada 01 @nodpai
   network: ws
-  port: '80'
-  server: us-two.1234585.xyz
-  servername: ''
-  tls: false
+  port: '56301'
+  server: ca-000.xiaoxiaobujidao.xyz
+  tls: true
   type: vmess
-  uuid: 945fe926-d7c0-4b1f-b999-dd2fb134b5e8
+  uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
   ws-opts:
     headers:
-      Host: us-two.1234585.xyz
-    path: /
+      Host: ca-000.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 643bc17a-b984-4749-a296-80a3d754164f
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-051
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.198.95
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -58,121 +87,3 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1020091
-  network: ''
-  port: '20070'
-  server: 108.181.113.100
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ec911abf-1101-4d70-abd1-5473e6aea960
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a9fcb38d-4583-4c0d-b98e-9f30b1fc63f9
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·10
-  network: tcp
-  port: 3389
-  server: 137.184.160.72
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 7,8,15,20,24,27|🇨🇦 Canada 01 @nodpai
-  network: ws
-  port: '56301'
-  server: ca-000.xiaoxiaobujidao.xyz
-  tls: true
-  type: vmess
-  uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
-  ws-opts:
-    headers:
-      Host: ca-000.xiaoxiaobujidao.xyz
-    path: /xiaodao?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 03b70bd5-fc73-466f-aae8-db8c0be67a3b
-- alterId: 0
-  cipher: auto
-  name: 3,24|🇨🇦 _CA_加拿大
-  network: ws
-  port: '80'
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: f5500880-6ae4-11ee-b736-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-051
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1020025
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1020076
-  network: ws
-  port: '8080'
-  server: dongtaiwang3.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang9.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 27|加拿大new01（1倍率）
-  network: ws
-  port: '8080'
-  server: ca-new01.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: 9,24|加拿大_1020001
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
