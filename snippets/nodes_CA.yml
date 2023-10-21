@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9,24|加拿大_1021001
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 11,24|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -18,44 +8,23 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 60640df6-fa17-4b4c-a493-467934ba2eef
+  uuid: 2a2d3e66-95e6-4ae3-a950-a6ec113f1f27
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-041
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.198.95
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·3
+  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
   network: tcp
-  port: 3389
-  server: 146.190.248.111
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 24,27|12|🇨🇦 加拿大 240
-  network: ws
-  port: 8443
-  server: brcf.duaaoped.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d
-  ws-opts:
-    headers:
-      Host: brcf.duaaoped.xyz
-    path: /xtsmol
-- alterId: 0
-  cipher: auto
-  name: 9,27|加拿大_1021092
-  network: ws
-  port: '80'
-  server: us-two.1234585.xyz
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: 739b5a60-8d09-4439-be48-b334e050e99b
-  ws-opts:
-    headers:
-      Host: us-two.1234585.xyz
-    path: /
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-134.122.3...
@@ -75,69 +44,67 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8a93fb39-cd2c-4864-8876-55ed5545fd8e
+  uuid: f1557728-05dd-4c1f-a43c-ddc9c560f2a8
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_1021083
-  network: tcp
-  port: '3389'
-  server: 159.89.120.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇨🇦 加拿大 206
+  name: 24,27|12|🇨🇦 加拿大 240
   network: ws
-  port: 443
-  server: main.animelover.ir
+  port: 8443
+  server: brcf.duaaoped.xyz
   servername: ''
   tls: true
   type: vmess
-  uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+  uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d
   ws-opts:
     headers:
-      Host: main.animelover.ir
-    path: /amstd.digires.shop/12796
+      Host: brcf.duaaoped.xyz
+    path: /xtsmol
 - alterId: 0
   cipher: auto
-  name: 27|加拿大new01（1倍率）
-  network: ws
-  port: '8080'
-  server: ca-new01.gujuji.top
-  tls: false
-  type: vmess
-  uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-041
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|CA-209.209.11.14-077
+  name: 6,20,24,27|🇨🇦_CA_加拿大
   network: ws
   port: 56301
   server: ca-000.xiaoxiaobujidao.xyz
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
-  ws-headers:
-    Host: ca-000.xiaoxiaobujidao.xyz
-  ws-path: /xiaodao?ed=2048
+  ws-opts:
+    headers:
+      Host: ca-000.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
 - alterId: 0
   cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·10
+  name: 27|🇨🇦·加拿大·TG@kkovokk·25
+  network: ws
+  port: 80
+  server: us-two.1234585.xyz
+  tls: false
+  type: vmess
+  uuid: 4fde6eef-1604-465b-b586-d239d9293ba8
+  ws-opts:
+    headers:
+      Host: us-two.1234585.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇨🇦 加拿大 243
+  network: ws
+  port: 443
+  server: zula.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: CA74039A-294D-4953-AA5A-A6A5920DCC58
+  ws-opts:
+    headers:
+      Host: Lille.bobbykotick.rip
+    path: speedtest
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇦·加拿大·TG@kkovokk·3
   network: tcp
   port: 3389
-  server: 137.184.160.72
+  server: 146.190.248.111
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
@@ -156,48 +123,50 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_1021096
-  network: ''
-  port: '20070'
-  server: 108.181.113.100
-  servername: ''
+  name: 27|🇨🇦·加拿大·TG@kkovokk·10
+  network: tcp
+  port: 3389
+  server: 137.184.160.72
   tls: false
   type: vmess
-  uuid: b38a6b0e-4e55-426f-a154-d12399381d6f
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: 24|12|🇨🇦 加拿大 243
+  name: 27|加拿大new01（1倍率）
+  network: ws
+  port: '8080'
+  server: ca-new01.gujuji.top
+  tls: false
+  type: vmess
+  uuid: 8f7948ce-2314-42c6-825a-035f0a3291fa
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇨🇦 加拿大 206
   network: ws
   port: 443
-  server: zula.ir
+  server: main.animelover.ir
   servername: ''
   tls: true
   type: vmess
-  uuid: CA74039A-294D-4953-AA5A-A6A5920DCC58
+  uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
   ws-opts:
     headers:
-      Host: Lille.bobbykotick.rip
-    path: speedtest
+      Host: main.animelover.ir
+    path: /amstd.digires.shop/12796
 - alterId: 0
   cipher: auto
-  name: 6,20,24,27|🇨🇦_CA_加拿大
+  name: 19|CA-209.209.11.14-077
   network: ws
   port: 56301
   server: ca-000.xiaoxiaobujidao.xyz
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
-  ws-opts:
-    headers:
-      Host: ca-000.xiaoxiaobujidao.xyz
-    path: /xiaodao?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_1021025
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  ws-headers:
+    Host: ca-000.xiaoxiaobujidao.xyz
+  ws-path: /xiaodao?ed=2048
