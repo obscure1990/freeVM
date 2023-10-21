@@ -1,57 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-041
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 6,13,24|🇨🇦_CA_加拿大
-  network: ws
-  port: 56301
-  server: ca-000.xiaoxiaobujidao.xyz
-  tls: true
-  type: vmess
-  uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
-  ws-opts:
-    headers:
-      Host: ca-000.xiaoxiaobujidao.xyz
-    path: /xiaodao?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d37d571a-dd11-4b5c-9dfc-28dd4ebd6d6d
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇨🇦 加拿大 240
-  network: ws
-  port: 8443
-  server: brcf.duaaoped.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d
-  ws-opts:
-    headers:
-      Host: brcf.duaaoped.xyz
-    path: /xtsmol
-- alterId: 0
-  cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -75,3 +22,56 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 6,13,24|🇨🇦_CA_加拿大
+  network: ws
+  port: 56301
+  server: ca-000.xiaoxiaobujidao.xyz
+  tls: true
+  type: vmess
+  uuid: ffbd4a77-297b-3ec8-8631-b592334aafac
+  ws-opts:
+    headers:
+      Host: ca-000.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇨🇦 加拿大 240
+  network: ws
+  port: 8443
+  server: brcf.duaaoped.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 865897ad-8d07-4021-b7c3-d8eb4a29ee8d
+  ws-opts:
+    headers:
+      Host: brcf.duaaoped.xyz
+    path: /xtsmol
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d37d571a-dd11-4b5c-9dfc-28dd4ebd6d6d
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-041
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.198.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
