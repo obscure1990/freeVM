@@ -1,9 +1,9 @@
 proxies:
-- name: 28|FR_speednode_0045
+- name: 28|FR_speednode_0042
   network: tcp
-  password: telegram-id-privatevpns
+  password: telegram-id-directvpn
   port: 22222
-  server: 15.236.116.176
+  server: 15.237.104.194
   skip-cert-verify: true
   sni: trj.rollingnext.co.uk
   type: trojan
@@ -21,19 +21,6 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0044
-  password: asdKkaskJKfnsa
-  port: 80
-  server: 51.158.195.96
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 19,28|FR-51.158.195.96-004
-  password: asdKkaskJKfnsa
-  port: 110
-  server: 51.158.195.96
-  type: ss
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
@@ -49,6 +36,73 @@ proxies:
       Host: phosphorylative.aurorainiceland.com
     path: /nimvws
 - alterId: 0
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- cipher: aes-256-cfb
+  name: 19|FR-62.210.88.167-009
+  password: asdKkaskJKfnsa
+  port: 80
+  server: 62.210.88.167
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|FR-62.210.88.167-019
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 62.210.88.167
+  type: ss
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0049
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.25.187
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19,28|FR-51.158.195.96-004
+  password: asdKkaskJKfnsa
+  port: 110
+  server: 51.158.195.96
+  type: ss
+- name: 28|FR_speednode_0045
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.236.116.176
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 16,27|@hkaa0||法国
+  network: grpc
+  port: 443
+  server: hdfy1d1.cpi2hidd.eu.org
+  tls: true
+  type: vmess
+  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
+- alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_fnet00
   network: ws
@@ -62,15 +116,6 @@ proxies:
     headers:
       Host: bl.shabijichang.com
     path: /
-- name: 28|FR_speednode_0042
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.237.104.194
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 24,28|12|FR_speednode_0050
@@ -86,54 +131,9 @@ proxies:
       Host: de1-vmess.greenssh.xyz
     path: /vmess
 - cipher: aes-256-cfb
-  name: 19|FR-62.210.88.167-009
+  name: 28|FR_speednode_0044
   password: asdKkaskJKfnsa
   port: 80
-  server: 62.210.88.167
-  type: ss
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0049
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.25.187
+  server: 51.158.195.96
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 19|FR-62.210.88.167-019
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 62.210.88.167
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16,27|@hkaa0||法国
-  network: grpc
-  port: 443
-  server: hdfy1d1.cpi2hidd.eu.org
-  tls: true
-  type: vmess
-  uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
-  network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
