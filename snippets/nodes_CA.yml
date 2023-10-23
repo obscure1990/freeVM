@@ -1,15 +1,9 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-080
-  password: FoOiGlkAA9yPEGP
-  port: 7306
+  name: 19|CA-38.114.114.19-066
+  password: zDNVedRFPQexG9v
+  port: 6379
   server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-052
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 134.195.198.95
   type: ss
 - alterId: 0
   cipher: auto
@@ -20,6 +14,65 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-080
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.114.114.19
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇨🇦 加拿大_1022001
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-072
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-078
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.114.114.19
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2,3,4,10,15,20,24,27|🇨🇦_CA_加拿大
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: teams.microsoft.com
+    path: /0vixdm74
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-052
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-079
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-065
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 27|🇨🇦·加拿大·TG@kkovokk·25
@@ -35,6 +88,39 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 1,24,27|_CA_
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      host: teams.microsoft.com
+    path: /0vixdm74
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d6e92718-b47c-4314-a8f4-9dbc27c47f59
+- alterId: 0
+  cipher: auto
+  name: 27|🇨🇦·加拿大·TG@kkovokk·3
+  network: tcp
+  port: 3389
+  server: 146.190.248.111
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
   network: ws
   port: 443
@@ -48,47 +134,6 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 2,3,4,10,15,20,24,27|🇨🇦_CA_加拿大
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: teams.microsoft.com
-    path: /0vixdm74
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-043
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇨🇦 加拿大_1022001
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-066
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-065
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 11,24|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -97,54 +142,9 @@ proxies:
   tls: true
   type: vmess
   uuid: 53172040-032c-43f9-a636-7bf575c2fd17
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: d6e92718-b47c-4314-a8f4-9dbc27c47f59
 - cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-078
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·3
-  network: tcp
-  port: 3389
-  server: 146.190.248.111
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-079
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,24,27|_CA_
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      host: teams.microsoft.com
-    path: /0vixdm74
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-072
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 38.114.114.19
+  name: 19|CA-134.195.196.231-043
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 134.195.196.231
   type: ss
