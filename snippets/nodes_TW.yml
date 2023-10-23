@@ -1,29 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|TW-211.72.35.110-039
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
-  ws-headers:
-    Host: lindo.cnabc.eu.org
-  ws-path: /linod
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: bd70b588-1710-43bd-866f-0fdebc785bce
-- alterId: 0
-  cipher: auto
   name: 11,24|🇹🇼台湾04
   network: tcp
   port: '36301'
@@ -31,7 +8,16 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bd70b588-1710-43bd-866f-0fdebc785bce
+  uuid: a57ee333-b74d-49ae-b1ba-86c26bbf6962
+- name: 28|TW_speednode_0131
+  network: tcp
+  password: 39a211c5-504a-4aaa-bf78-3380f586ce30
+  port: 443
+  server: download1tw.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 06  | 1x TWN
@@ -61,16 +47,17 @@ proxies:
   servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bd70b588-1710-43bd-866f-0fdebc785bce
-- name: 28|TW_speednode_0131
+  uuid: a57ee333-b74d-49ae-b1ba-86c26bbf6962
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
   network: tcp
-  password: 39a211c5-504a-4aaa-bf78-3380f586ce30
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: a57ee333-b74d-49ae-b1ba-86c26bbf6962
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 05  | 1x TWN
@@ -81,3 +68,16 @@ proxies:
   tls: true
   type: vmess
   uuid: d80b4811-ec25-475c-ad3e-a79898abad14
+- alterId: 0
+  cipher: auto
+  name: 19|TW-211.72.35.110-039
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
+  ws-headers:
+    Host: lindo.cnabc.eu.org
+  ws-path: /linod
