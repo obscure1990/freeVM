@@ -1,13 +1,4 @@
 proxies:
-- name: 28|TW_speednode_0131
-  network: tcp
-  password: 39a211c5-504a-4aaa-bf78-3380f586ce30
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾06
@@ -15,6 +6,16 @@ proxies:
   port: '36311'
   server: 8t6w06.abzoones.xyz
   servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4aaca4c8-b06b-4ade-84d3-913cde91ba8b
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
   uuid: 4aaca4c8-b06b-4ade-84d3-913cde91ba8b
@@ -32,29 +33,25 @@ proxies:
     headers:
       Host: tw135037538.pkmkwvxqnn.xyz
     path: /video/MNBrTghv
-- alterId: 0
-  cipher: auto
-  name: 19|TW-211.72.35.110-039
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
-  ws-headers:
-    Host: lindo.cnabc.eu.org
-  ws-path: /linod
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
+- name: 28|TW_speednode_0131
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
+  password: 39a211c5-504a-4aaa-bf78-3380f586ce30
+  port: 443
+  server: download1tw.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_1023050
+  network: ''
+  port: '12290'
+  server: y1ktw1.kozow.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: ee677cdb-45bd-46e5-86f3-139047c70e6f
+  uuid: 5d45a046-2328-481f-ac9e-90dfb7bb4027
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾05
@@ -77,14 +74,14 @@ proxies:
   uuid: ee677cdb-45bd-46e5-86f3-139047c70e6f
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾04
+  name: 22,24|台湾 04  | 1x TWN
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4aaca4c8-b06b-4ade-84d3-913cde91ba8b
+  uuid: ee677cdb-45bd-46e5-86f3-139047c70e6f
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 06  | 1x TWN
@@ -95,3 +92,16 @@ proxies:
   tls: true
   type: vmess
   uuid: ee677cdb-45bd-46e5-86f3-139047c70e6f
+- alterId: 0
+  cipher: auto
+  name: 19|TW-211.72.35.110-039
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
+  ws-headers:
+    Host: lindo.cnabc.eu.org
+  ws-path: /linod
