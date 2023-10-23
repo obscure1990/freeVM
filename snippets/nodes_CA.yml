@@ -5,42 +5,6 @@ proxies:
   port: 5003
   server: 134.195.196.231
   type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-141
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-138
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,24|_CA_
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      host: teams.microsoft.com
-    path: /0vixdm74
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 86eeecf3-ba11-4e35-86dc-ca0009bb93c7
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -51,34 +15,11 @@ proxies:
   tls: true
   type: vmess
   uuid: 813034d1-3a07-4f55-9e88-dbc044158d22
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,20,24|🇨🇦_CA_加拿大
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: teams.microsoft.com
-    path: /0vixdm74
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇨🇦 加拿大_1022001
-  network: tcp
-  port: 22324
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-108
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 134.195.196.231
+  name: 19|CA-38.114.114.19-141
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 38.114.114.19
   type: ss
 - alterId: 0
   cipher: auto
@@ -94,16 +35,61 @@ proxies:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
 - alterId: 0
-  cipher: ''
-  name: 10|加拿大 V2CROSS.COM
+  cipher: auto
+  name: 24|12|🇨🇦 加拿大_1022001
+  network: tcp
+  port: 22324
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 1,24|_CA_
   network: ws
   port: 80
   server: 108.181.10.17
-  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      host: teams.microsoft.com
+    path: /0vixdm74
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-138
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 38.114.114.19
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 2,3,4,20,24|🇨🇦_CA_加拿大
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: teams.microsoft.com
+    path: /0vixdm74
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 86eeecf3-ba11-4e35-86dc-ca0009bb93c7
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-108
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 134.195.196.231
+  type: ss
