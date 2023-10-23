@@ -1,31 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: bd70b588-1710-43bd-866f-0fdebc785bce
-- alterId: 0
-  cipher: auto
   name: 11,24|🇹🇼台湾04
   network: tcp
   port: '36301'
   server: 8t6w04.abzoones.xyz
   servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: bd70b588-1710-43bd-866f-0fdebc785bce
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
   tls: true
   type: vmess
   uuid: bd70b588-1710-43bd-866f-0fdebc785bce
@@ -41,6 +21,16 @@ proxies:
   uuid: 4d202bf6-2cdd-49f1-afef-9bf35df974a9
 - alterId: 0
   cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: bd70b588-1710-43bd-866f-0fdebc785bce
+- alterId: 0
+  cipher: auto
   name: 22,24|台湾 04  | 1x TWN
   network: tcp
   port: '31301'
@@ -49,15 +39,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 4d202bf6-2cdd-49f1-afef-9bf35df974a9
-- name: 28|TW_speednode_0131
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
   network: tcp
-  password: 39a211c5-504a-4aaa-bf78-3380f586ce30
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: bd70b588-1710-43bd-866f-0fdebc785bce
 - alterId: 0
   cipher: auto
   name: 19|TW-211.72.35.110-039
@@ -71,6 +62,15 @@ proxies:
   ws-headers:
     Host: lindo.cnabc.eu.org
   ws-path: /linod
+- name: 28|TW_speednode_0131
+  network: tcp
+  password: 39a211c5-504a-4aaa-bf78-3380f586ce30
+  port: 443
+  server: download1tw.windowsupdatea.com
+  skip-cert-verify: true
+  sni: glc-tw1.windowsupdatea.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 05  | 1x TWN
