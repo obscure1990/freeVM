@@ -1,32 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0004
-  password: Lam6mgI0ZnIqT459CTTOJR
-  port: 19922
-  server: us01.shawbrothersstudio.com
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: '14|中国_【YouTube-VV科技】 #1'
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 1
-  cipher: auto
-  name: 19|CN-111.38.37.245-024
-  network: ws
-  port: 50205
-  server: data-hk-v2.shwjfkw.cn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-hk-v2.shwjfkw.cn
-  ws-path: /hls/cctv5phd.m3u8
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 28|CN_speednode_0006
@@ -56,19 +28,21 @@ proxies:
   ws-headers:
     Host: 111.45.22.239
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-098
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 19|CN-119.36.161.40-077
-  network: ws
-  port: 443
-  server: 119.36.161.40
-  skip-cert-verify: true
-  tls: true
+  name: '14|中国_【YouTube-VV科技】 #1'
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  tls: false
   type: vmess
-  uuid: 946ba5df-5771-4873-a3cb-892378526147
-  ws-headers:
-    Host: www.99136853.xyz
-  ws-path: /path/120306182525
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: 28|CN_speednode_0007
@@ -84,12 +58,15 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-098
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 14|中国_【YouTube-VV科技】
+  network: tcp
+  port: 42055
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 19|CN-223.111.122.199-028
@@ -103,12 +80,35 @@ proxies:
   ws-headers:
     Host: www.189.cn
   ws-path: /guolicheng/hinet
-- alterId: 64
+- alterId: 1
   cipher: auto
-  name: 14|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
+  name: 19|CN-111.38.37.245-024
+  network: ws
+  port: 50205
+  server: data-hk-v2.shwjfkw.cn
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-headers:
+    Host: data-hk-v2.shwjfkw.cn
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 64
+  cipher: auto
+  name: 19|CN-119.36.161.40-077
+  network: ws
+  port: 443
+  server: 119.36.161.40
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 946ba5df-5771-4873-a3cb-892378526147
+  ws-headers:
+    Host: www.99136853.xyz
+  ws-path: /path/120306182525
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0004
+  password: Lam6mgI0ZnIqT459CTTOJR
+  port: 19922
+  server: us01.shawbrothersstudio.com
+  type: ss
