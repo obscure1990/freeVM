@@ -1,4 +1,23 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0004
+  password: Lam6mgI0ZnIqT459CTTOJR
+  port: 19922
+  server: us01.shawbrothersstudio.com
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 19,20|CN-111.45.22.239-063
+  network: tcp
+  port: 30302
+  server: 111.45.22.239
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-headers:
+    Host: 111.45.22.239
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19|CN-223.111.122.199-028
@@ -29,6 +48,15 @@ proxies:
     path: /oooo
 - alterId: 64
   cipher: auto
+  name: 14|中国_【YouTube-VV科技】
+  network: tcp
+  port: 42055
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: '14|中国_【YouTube-VV科技】 #1'
   network: tcp
   port: 40702
@@ -36,6 +64,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 19|CN-117.149.247.11-098
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
+  type: ss
 - alterId: 1
   cipher: auto
   name: 19|CN-111.38.37.245-024
@@ -49,15 +83,6 @@ proxies:
   ws-headers:
     Host: data-hk-v2.shwjfkw.cn
   ws-path: /hls/cctv5phd.m3u8
-- alterId: 64
-  cipher: auto
-  name: 14|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 28|CN_speednode_0006
@@ -74,12 +99,6 @@ proxies:
   server: 183.232.170.32
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-098
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
 - alterId: 64
   cipher: auto
   name: 19|CN-119.36.161.40-077
@@ -93,22 +112,3 @@ proxies:
   ws-headers:
     Host: www.99136853.xyz
   ws-path: /path/120306182525
-- alterId: 64
-  cipher: auto
-  name: 19,20|CN-111.45.22.239-063
-  network: tcp
-  port: 30302
-  server: 111.45.22.239
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-headers:
-    Host: 111.45.22.239
-  ws-path: /
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0004
-  password: Lam6mgI0ZnIqT459CTTOJR
-  port: 19922
-  server: us01.shawbrothersstudio.com
-  type: ss
