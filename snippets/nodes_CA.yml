@@ -1,20 +1,89 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: fe252b7c-f6ae-445c-b374-78fb2d98b86c
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 15c2b6ed-7555-4ef8-8a78-403411b6e66f
+- alterId: 0
+  cipher: auto
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-134.122.3...
+  network: tcp
+  port: '3389'
+  server: 134.122.38.203
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 0
+  cipher: auto
+  name: 10|加拿大 V2CROSS.COM
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: teams.microsoft.com
+    path: /0vixdm74
 - cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-071
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.114.114.19
+  name: 19|CA-134.195.198.95-044
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.198.95
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-057
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 134.195.196.231
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.2...
+  network: tcp
+  port: '3389'
+  server: 146.190.248.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-070
-  password: XKFKl2rULjIp74
-  port: 8008
+  name: 19|CA-134.195.196.231-035
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-058
+  password: zDNVedRFPQexG9v
+  port: 6379
   server: 38.114.114.19
   type: ss
 - alterId: 0
@@ -42,84 +111,15 @@ proxies:
   port: 8000
   server: 38.114.114.19
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-044
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 134.195.198.95
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-134.122.3...
-  network: tcp
-  port: '3389'
-  server: 134.122.38.203
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 15c2b6ed-7555-4ef8-8a78-403411b6e66f
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fe252b7c-f6ae-445c-b374-78fb2d98b86c
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-058
-  password: zDNVedRFPQexG9v
-  port: 6379
+  name: 19|CA-38.114.114.19-071
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 38.114.114.19
   type: ss
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-035
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 134.195.196.231
+  name: 19|CA-38.114.114.19-070
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.114.114.19
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 10|加拿大 V2CROSS.COM
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: teams.microsoft.com
-    path: /0vixdm74
-- alterId: 0
-  cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.2...
-  network: tcp
-  port: '3389'
-  server: 146.190.248.140
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7

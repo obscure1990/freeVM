@@ -1,18 +1,34 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0009
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.204.78
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 28|FR_speednode_0010
+  password: 5g0KaaXfhu
+  port: 33263
+  server: 217.182.35.127
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 19|FR-51.158.195.96-017
+  password: asdKkaskJKfnsa
+  port: 110
+  server: 51.158.195.96
+  type: ss
 - alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_free4allVPN
-  network: ws
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
   port: '443'
-  server: phosphorylative.aurorainiceland.com
-  servername: phosphorylative.aurorainiceland.com
-  tls: true
+  server: 135.125.134.177
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
-  ws-opts:
-    headers:
-      Host: phosphorylative.aurorainiceland.com
-    path: /nimvws
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -28,6 +44,20 @@ proxies:
     path: /path/1693992821776
 - alterId: 0
   cipher: auto
+  name: 18|🇫🇷_FR_法国_free4allVPN
+  network: ws
+  port: '443'
+  server: phosphorylative.aurorainiceland.com
+  servername: phosphorylative.aurorainiceland.com
+  tls: true
+  type: vmess
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  ws-opts:
+    headers:
+      Host: phosphorylative.aurorainiceland.com
+    path: /nimvws
+- alterId: 0
+  cipher: auto
   name: 18|🇫🇷_FR_法国_CollectorDonate
   network: ws
   port: '80'
@@ -40,23 +70,6 @@ proxies:
     headers:
       Host: bl.shabijichang.com
     path: /
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- cipher: aes-256-gcm
-  name: 28|FR_speednode_0010
-  password: 5g0KaaXfhu
-  port: 33263
-  server: 217.182.35.127
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_fnet00
@@ -72,22 +85,9 @@ proxies:
       Host: bl.shabijichang.com
     path: /
 - cipher: aes-256-cfb
-  name: 28|FR_speednode_0009
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.204.78
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 19,25|FR-51.158.195.96-021
   password: asdKkaskJKfnsa
   port: 443
-  server: 51.158.195.96
-  type: ss
-- cipher: aes-256-cfb
-  name: 19|FR-51.158.195.96-013
-  password: asdKkaskJKfnsa
-  port: 80
   server: 51.158.195.96
   type: ss
 - name: 1|_FR_
@@ -100,8 +100,8 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 19|FR-51.158.195.96-017
+  name: 19|FR-51.158.195.96-013
   password: asdKkaskJKfnsa
-  port: 110
+  port: 80
   server: 51.158.195.96
   type: ss
