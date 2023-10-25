@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-061
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 0,24,25|🇨🇦 _CA_加拿大
@@ -12,66 +18,6 @@ proxies:
     headers:
       Host: cadld2.gophers.gay
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5f3cdc35-24d6-4363-a217-8f2c373c1582
-- alterId: 0
-  cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-142.93.14...
-  network: tcp
-  port: '3389'
-  server: 142.93.144.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.2...
-  network: tcp
-  port: '3389'
-  server: 146.190.248.140
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a0aec0ba-fe63-4213-b7b1-9dd590acb582
-- alterId: 0
-  cipher: auto
-  name: 24|11|🇨🇦 加拿大 253
-  network: ws
-  port: 443
-  server: laravel.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4548b8de-c6f5-41f2-8cb6-723c8db8ed03
-  ws-opts:
-    headers:
-      Host: sub.xn--9kq89d4y0g.top
-    path: /us.binghe.design:443/
-- cipher: aes-256-gcm
-  name: 19|CA-38.91.107.37-025
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.91.107.37
-  type: ss
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-054
   password: TEzjfAYq2IjtuoS
@@ -91,22 +37,28 @@ proxies:
   ws-headers:
     Host: ca2.v2rayserv.com
   ws-path: /sshocean
-- alterId: 0
-  cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-gcm
+  name: 19|CA-38.91.107.37-025
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.91.107.37
+  type: ss
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-058
   password: XKFKl2rULjIp74
   port: 8008
   server: 134.195.196.231
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.2...
+  network: tcp
+  port: '3389'
+  server: 146.190.248.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -120,6 +72,50 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 5f3cdc35-24d6-4363-a217-8f2c373c1582
+- alterId: 0
+  cipher: auto
+  name: 24|11|🇨🇦 加拿大 253
+  network: ws
+  port: 443
+  server: laravel.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4548b8de-c6f5-41f2-8cb6-723c8db8ed03
+  ws-opts:
+    headers:
+      Host: sub.xn--9kq89d4y0g.top
+    path: /us.binghe.design:443/
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 135562da-258f-4a4c-b1b7-a98939ecf539
 - cipher: aes-256-gcm
   name: 19|CA-38.114.114.19-019
   password: faBAoD54k87UJG7
@@ -127,14 +123,18 @@ proxies:
   server: 38.114.114.19
   type: ss
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-061
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
   name: 19|CA-38.114.114.19-033
   password: XKFKl2rULjIp74
   port: 8008
   server: 38.114.114.19
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-142.93.14...
+  network: tcp
+  port: '3389'
+  server: 142.93.144.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
