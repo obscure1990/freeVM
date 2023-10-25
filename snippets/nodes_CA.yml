@@ -1,45 +1,20 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-058
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.91.107.37-025
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.91.107.37
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 9,24|加拿大_102521001
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 27|加拿大|三网优化|1x
-  network: tcp
-  port: '26042'
-  server: gz.daxun.cyou
-  tls: false
-  type: vmess
-  uuid: 4364cb63-0fb5-4806-8db1-52b1724c5668
-- alterId: 0
-  cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-142.93.14...
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.2...
   network: tcp
   port: '3389'
-  server: 142.93.144.99
+  server: 146.190.248.140
   servername: ''
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-061
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 0,24,25|🇨🇦 _CA_加拿大
@@ -68,14 +43,54 @@ proxies:
   ws-path: /sshocean
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
+  name: 11,24|🇨🇦加拿大04
   network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4afb68df-8bd6-447d-9884-3ca247d8c885
+  uuid: 6cfb324e-eb13-403e-a3f0-1191feccedd1
+- alterId: 0
+  cipher: auto
+  name: 24|11|🇨🇦 加拿大 253
+  network: ws
+  port: 443
+  server: laravel.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 4548b8de-c6f5-41f2-8cb6-723c8db8ed03
+  ws-opts:
+    headers:
+      Host: sub.xn--9kq89d4y0g.top
+    path: /us.binghe.design:443/
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-033
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.114.114.19
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|11|🇨🇦 CA 19
+  network: ws
+  port: 80
+  server: 108.181.10.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: teams.microsoft.com
+    path: /
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-058
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -91,40 +106,8 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.2...
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
   network: tcp
-  port: '3389'
-  server: 146.190.248.140
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-061
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-033
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 5f3cdc35-24d6-4363-a217-8f2c373c1582
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_102521019
-  network: ''
   port: '22324'
   server: 198.57.27.212
   servername: ''
@@ -133,49 +116,14 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 24|11|🇨🇦 加拿大 253
-  network: ws
-  port: 443
-  server: laravel.com
-  servername: ''
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4548b8de-c6f5-41f2-8cb6-723c8db8ed03
-  ws-opts:
-    headers:
-      Host: sub.xn--9kq89d4y0g.top
-    path: /us.binghe.design:443/
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·25
-  network: ws
-  port: 80
-  server: us-two.1234585.xyz
-  tls: false
-  type: vmess
-  uuid: 4fde6eef-1604-465b-b586-d239d9293ba8
-  ws-opts:
-    headers:
-      Host: us-two.1234585.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·3
-  network: tcp
-  port: 3389
-  server: 146.190.248.111
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 27|🇨🇦·加拿大·TG@kkovokk·10
-  network: tcp
-  port: 3389
-  server: 137.184.160.72
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+  uuid: 4afb68df-8bd6-447d-9884-3ca247d8c885
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-054
   password: TEzjfAYq2IjtuoS
@@ -188,13 +136,9 @@ proxies:
   port: 2376
   server: 38.114.114.19
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_102521080
-  network: ''
-  port: '20070'
-  server: 108.181.113.100
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 10e36cfa-d304-4742-9bf0-6a73c8ca9e2c
+- cipher: aes-256-gcm
+  name: 19|CA-38.91.107.37-025
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.91.107.37
+  type: ss
