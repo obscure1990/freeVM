@@ -1,33 +1,5 @@
 proxies:
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_102611179
-  network: tcp
-  port: '443'
-  server: 135.125.135.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
-- alterId: 0
-  cipher: auto
-  name: 27|🇫🇷 [法] FRA DIRECT [0.1X]
-  network: tcp
-  port: '30088'
-  server: direct-relay.292228.xyz
-  tls: false
-  type: vmess
-  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
-- alterId: 0
-  cipher: auto
-  name: 27|🇫🇷 [法] FRA RELAY
-  network: tcp
-  port: '32000'
-  server: cmcc-2.292228.xyz
-  tls: false
-  type: vmess
-  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
-- alterId: 0
   cipher: auto
   name: 9|法国_102611127
   network: ws
@@ -41,20 +13,38 @@ proxies:
     headers:
       Host: fr-v.sshmax.xyz
     path: /vmess
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
+  name: 14|法国_【YouTube-VV科技】
   network: ws
-  port: '80'
-  server: fd.shabijichang.com
+  port: 443
+  server: 156.249.18.25
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.49291261.xyz
+    path: /path/1693992821776
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_102611179
+  network: tcp
+  port: '443'
+  server: 135.125.135.63
   servername: ''
   tls: false
   type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
+  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
+- alterId: 0
+  cipher: auto
+  name: 27|🇫🇷 [法] FRA RELAY
+  network: tcp
+  port: '32000'
+  server: cmcc-2.292228.xyz
+  tls: false
+  type: vmess
+  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
 - alterId: 0
   cipher: auto
   name: 9|法国_102611126
@@ -69,33 +59,6 @@ proxies:
     headers:
       Host: 141.95.160.235
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
-  network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 14|法国_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 156.249.18.25
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.49291261.xyz
-    path: /path/1693992821776
 - alterId: 0
   cipher: aes-128-gcm
   name: 9|法国_102611178
@@ -118,6 +81,20 @@ proxies:
   uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - alterId: 0
   cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
   network: ws
   port: '443'
@@ -131,6 +108,15 @@ proxies:
       Host: phosphorylative.aurorainiceland.com
     path: /nimvws
 - alterId: 0
+  cipher: auto
+  name: 27|🇫🇷 [法] FRA DIRECT [0.1X]
+  network: tcp
+  port: '30088'
+  server: direct-relay.292228.xyz
+  tls: false
+  type: vmess
+  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
+- alterId: 0
   cipher: aes-128-gcm
   name: 9|法国_102611177
   network: tcp
@@ -140,3 +126,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 691aed00-01a8-4b04-b8dc-ce2266d41952
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_fnet00
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /

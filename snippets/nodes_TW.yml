@@ -1,19 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾05
+  name: 11,24|🇹🇼台湾04
   network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: db2bf81a-1511-42fe-8741-56bb973f1301
+  uuid: 38c1ea7a-17e7-4c37-aec8-1af4ae53edb0
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇼 [台] TWN RELAY A
+  name: 27|🇹🇼 [台] TWN HiNet RELAY A [0.5X...
   network: tcp
-  port: '30049'
+  port: '30072'
   server: ap-hk-tunnel.292228.xyz
   tls: false
   type: vmess
@@ -33,13 +33,23 @@ proxies:
   ws-path: /linod
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇼 [台] TWN DIRECT [0.1X]
+  name: 27|🇹🇼 [台] TWN RELAY A
   network: tcp
-  port: '45344'
-  server: direct-relay.292228.xyz
+  port: '30049'
+  server: ap-hk-tunnel.292228.xyz
   tls: false
   type: vmess
   uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
+- alterId: 0
+  cipher: auto
+  name: 24,26,27|14|台湾|@ripaojiedian
+  network: tcp
+  port: '50008'
+  server: 08.kccic2pa.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: efb313db-cafb-417a-96e8-740212ec4132
 - alterId: 0
   cipher: auto
   name: 27|🇹🇼 [台] TWN RELAY B
@@ -49,16 +59,6 @@ proxies:
   tls: false
   type: vmess
   uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: db2bf81a-1511-42fe-8741-56bb973f1301
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 06  | 1x TWN
@@ -71,13 +71,14 @@ proxies:
   uuid: 9e3f918c-cffb-4234-96be-08fa8948e5e4
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇼 [台] TWN HiNet RELAY B [0.5X...
+  name: 11,24|🇹🇼台湾06
   network: tcp
-  port: '30072'
-  server: relay2.292228.xyz
-  tls: false
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
+  uuid: 38c1ea7a-17e7-4c37-aec8-1af4ae53edb0
 - alterId: 0
   cipher: auto
   name: 19|TW-220.130.80.179-079
@@ -93,25 +94,6 @@ proxies:
   ws-path: /howdy
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇼 [台] TWN HiNet RELAY A [0.5X...
-  network: tcp
-  port: '30072'
-  server: ap-hk-tunnel.292228.xyz
-  tls: false
-  type: vmess
-  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: db2bf81a-1511-42fe-8741-56bb973f1301
-- alterId: 0
-  cipher: auto
   name: 22,24|台湾 04  | 1x TWN
   network: tcp
   port: '31301'
@@ -120,6 +102,25 @@ proxies:
   tls: true
   type: vmess
   uuid: 9e3f918c-cffb-4234-96be-08fa8948e5e4
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 38c1ea7a-17e7-4c37-aec8-1af4ae53edb0
+- alterId: 0
+  cipher: auto
+  name: 27|🇹🇼 [台] TWN DIRECT [0.1X]
+  network: tcp
+  port: '45344'
+  server: direct-relay.292228.xyz
+  tls: false
+  type: vmess
+  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 05  | 1x TWN
@@ -132,11 +133,10 @@ proxies:
   uuid: 9e3f918c-cffb-4234-96be-08fa8948e5e4
 - alterId: 0
   cipher: auto
-  name: 24,26,27|14|台湾|@ripaojiedian
+  name: 27|🇹🇼 [台] TWN HiNet RELAY B [0.5X...
   network: tcp
-  port: '50008'
-  server: 08.kccic2pa.xyz
-  servername: ''
+  port: '30072'
+  server: relay2.292228.xyz
   tls: false
   type: vmess
-  uuid: efb313db-cafb-417a-96e8-740212ec4132
+  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
