@@ -1,14 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
+  name: 27|🇹🇼 [台] TWN HiNet RELAY B [0.5X...
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '30072'
+  server: relay2.292228.xyz
+  tls: false
+  type: vmess
+  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
+  uuid: 48ff440c-a2f9-4938-8696-5af9969c4ee4
+- alterId: 0
+  cipher: auto
+  name: 10,27|台湾省台北市 中华电信
+  network: ws
+  port: 80
+  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
+  tls: false
+  type: vmess
+  uuid: 7a0816b2-3af5-4739-9784-941b75150e98
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 19|TW-211.72.35.110-078
@@ -24,24 +46,42 @@ proxies:
   ws-path: /linod
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
+  name: 27|🇹🇼 [台] TWN RELAY B
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
+  port: '30049'
+  server: relay-hk.292228.xyz
+  tls: false
   type: vmess
-  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
+  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾06
+  name: 11,24|🇹🇼台湾05
   network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
   uuid: 871c3922-cb74-49e7-bdfb-87f66afd27ca
+- alterId: 0
+  cipher: auto
+  name: 27|🇹🇼 [台] TWN RELAY A
+  network: tcp
+  port: '30049'
+  server: ap-hk-tunnel.292228.xyz
+  tls: false
+  type: vmess
+  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 48ff440c-a2f9-4938-8696-5af9969c4ee4
 - alterId: 0
   cipher: auto
   name: 19|TW-220.130.80.179-079
@@ -57,7 +97,7 @@ proxies:
   ws-path: /howdy
 - alterId: 0
   cipher: auto
-  name: 24,26|14|台湾|@ripaojiedian
+  name: 24,26,27|14|台湾|@ripaojiedian
   network: tcp
   port: '50008'
   server: 08.kccic2pa.xyz
@@ -65,6 +105,15 @@ proxies:
   tls: false
   type: vmess
   uuid: efb313db-cafb-417a-96e8-740212ec4132
+- alterId: 0
+  cipher: auto
+  name: 27|🇹🇼 [台] TWN DIRECT [0.1X]
+  network: tcp
+  port: '45344'
+  server: direct-relay.292228.xyz
+  tls: false
+  type: vmess
+  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾04
@@ -77,6 +126,25 @@ proxies:
   uuid: 871c3922-cb74-49e7-bdfb-87f66afd27ca
 - alterId: 0
   cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 871c3922-cb74-49e7-bdfb-87f66afd27ca
+- alterId: 0
+  cipher: auto
+  name: 27|🇹🇼 [台] TWN HiNet RELAY A [0.5X...
+  network: tcp
+  port: '30072'
+  server: ap-hk-tunnel.292228.xyz
+  tls: false
+  type: vmess
+  uuid: be1efd58-569f-4573-b5ca-279ac8794d6a
+- alterId: 0
+  cipher: auto
   name: 22,24|台湾 05  | 1x TWN
   network: tcp
   port: '31306'
@@ -84,27 +152,4 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 728c4448-7e12-4b27-a982-139393f4ca29
-- alterId: 0
-  cipher: auto
-  name: 10|台湾省台北市 中华电信
-  network: ws
-  port: 80
-  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
-  tls: false
-  type: vmess
-  uuid: 7a0816b2-3af5-4739-9784-941b75150e98
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 871c3922-cb74-49e7-bdfb-87f66afd27ca
+  uuid: 48ff440c-a2f9-4938-8696-5af9969c4ee4
