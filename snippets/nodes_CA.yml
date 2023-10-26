@@ -1,39 +1,107 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '3,6,13,20,24|🇨🇦 _CA_加拿大 #1'
+  network: ws
+  port: '80'
+  server: 108.181.10.17
+  tls: false
+  type: vmess
+  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: teams.microsoft.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 2b90bd5a-c1ae-41a4-bc1d-c9d5e6da31c3
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-066
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 134.195.198.95
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.107.226.146-031
-  password: PCnnH6SQSnfoS27
-  port: 8090
+  name: 19|CA-38.107.226.146-030
+  password: g5MeD6Ft3CWlJId
+  port: 5004
   server: 38.107.226.146
   type: ss
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-065
+  name: 19|CA-38.107.226.146-029
   password: g5MeD6Ft3CWlJId
   port: 5003
-  server: 134.195.198.95
+  server: 38.107.226.146
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 19|CA-155.248.221.191-123
-  network: ws
-  port: 21106
-  server: cadld2.gophers.gay
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6713cd03-2cd4-49e9-9d8a-b768ee0a72fb
-  ws-headers:
-    Host: cadld2.gophers.gay
-  ws-path: /
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-034
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-059
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-036
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-058
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 134.195.196.231
+  type: ss
 - cipher: aes-256-gcm
   name: 19|CA-134.195.196.231-057
   password: g5MeD6Ft3CWlJId
   port: 5003
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-067
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-062
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-064
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.2...
+  network: tcp
+  port: '3389'
+  server: 146.190.248.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: aes-256-gcm
+  name: 19|CA-38.107.226.146-027
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.107.226.146
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-060
+  password: Y6R9pAtvxxzmGC
+  port: 5000
   server: 134.195.196.231
   type: ss
 - alterId: 0
@@ -49,126 +117,6 @@ proxies:
     headers:
       Host: cadld2.gophers.gay
     path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-060
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-053
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-061
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.107.226.146-028
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.107.226.146
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-063
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 134.195.196.231
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b7c39d6e-a96c-486d-b369-610e911aea1a
-- cipher: aes-256-gcm
-  name: 19|CA-38.107.226.146-027
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.107.226.146
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-036
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-062
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.67-037
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.114.114.67
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-054
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-067
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 134.195.198.95
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-034
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-056
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.107.226.146-030
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 38.107.226.146
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-032
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-146.190.2...
-  network: tcp
-  port: '3389'
-  server: 146.190.248.140
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -182,6 +130,111 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.67-037
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.114.114.67
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-055
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|11|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-gcm
+  name: 19|CA-38.107.226.146-031
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.107.226.146
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|CA-155.248.221.191-123
+  network: ws
+  port: 21106
+  server: cadld2.gophers.gay
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6713cd03-2cd4-49e9-9d8a-b768ee0a72fb
+  ws-headers:
+    Host: cadld2.gophers.gay
+  ws-path: /
+- cipher: aes-256-gcm
+  name: 19|CA-38.107.226.146-028
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.107.226.146
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-032
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-035
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-054
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-061
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 134.195.196.231
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b8cf6e89-ed17-4f52-98c0-9b880460c457
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-053
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-065
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-033
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-066
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.198.95
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19|CA-142.44.247.53-088
@@ -196,67 +249,14 @@ proxies:
     Host: ca2.v2rayserv.com
   ws-path: /sshocean
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-064
-  password: e4FCWrgpkji3QY
-  port: 9102
+  name: 19|CA-134.195.196.231-056
+  password: faBAoD54k87UJG7
+  port: 2376
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: 19|CA-38.107.226.146-029
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.107.226.146
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-033
+  name: 19|CA-134.195.196.231-063
   password: FoOiGlkAA9yPEGP
   port: 7306
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-059
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-058
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-035
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b0efb1e8-e9cd-4a73-ae9c-30422fa0dd16
-- alterId: 0
-  cipher: auto
-  name: 6,13,20,24|🇨🇦_CA_加拿大
-  network: ws
-  port: 80
-  server: 108.181.10.17
-  tls: false
-  type: vmess
-  uuid: 474e8680-701f-11ee-b436-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: teams.microsoft.com
-    path: /
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-055
-  password: g5MeD6Ft3CWlJId
-  port: 5004
   server: 134.195.196.231
   type: ss
