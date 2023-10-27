@@ -1,10 +1,26 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  name: 14|中国_【YouTube-VV科技】
+  network: tcp
+  port: 42055
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0012
-  password: f42ab2fa-391b-4ce2-8b90-7720504f2632
-  port: 23218
-  server: hks03.bigpings.com
+  name: 28|CN_speednode_0008
+  password: r1Rivb0NOPyab8gI828uG7
+  port: 19921
+  server: hk.shawbrothersstudio.com
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0003
+  password: b674d81b-5e9a-417d-8ce0-901ffacde887
+  port: 50021
+  server: e.superjj.cc
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: '14|中国_【YouTube-VV科技】 #1'
@@ -15,11 +31,41 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0013
-  password: d9fbe6612bdf9696
-  port: 41032
-  server: gzcm01.celerlink.one
+  name: 28|CN_speednode_0012
+  password: f42ab2fa-391b-4ce2-8b90-7720504f2632
+  port: 23218
+  server: hks03.bigpings.com
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 15,27|github.com/freefq - 广东省移动 13
+  network: tcp
+  port: '12580'
+  server: www.lp-airdrop.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1296f28f-fbc3-41a0-800d-84e236d33f16
+- alterId: 0
+  cipher: auto
+  name: 2,3,4,6,24,27|🇨🇳_CN_中国
+  network: ws
+  port: 80
+  server: 124.220.57.75
+  tls: false
+  type: vmess
+  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
+  ws-opts:
+    headers:
+      Host: 124.220.57.75
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0005
+  password: c9328e3f-90b7-4273-abe2-8309462fd872
+  port: 50011
+  server: ep.superjj.cc
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 19|CN-120.241.46.222-133
@@ -35,14 +81,18 @@ proxies:
   ws-path: /dabai.in
 - alterId: 0
   cipher: auto
-  name: 15,27|github.com/freefq - 广东省移动 13
-  network: tcp
-  port: '12580'
-  server: www.lp-airdrop.top
-  servername: ''
-  tls: true
+  name: 1,24,27|_CN_
+  network: ws
+  port: 80
+  server: 124.220.57.75
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 1296f28f-fbc3-41a0-800d-84e236d33f16
+  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
+  ws-opts:
+    headers:
+      host: 124.220.57.75
+    path: /
 - alterId: 64
   cipher: auto
   name: 19|CN-119.36.161.40-015
@@ -56,19 +106,6 @@ proxies:
   ws-headers:
     Host: www.99136853.xyz
   ws-path: /path/120306182525
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0008
-  password: r1Rivb0NOPyab8gI828uG7
-  port: 19921
-  server: hk.shawbrothersstudio.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0003
-  password: b674d81b-5e9a-417d-8ce0-901ffacde887
-  port: 50021
-  server: e.superjj.cc
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 20,24,32|🇨🇳 广东省深圳市 移动
@@ -83,18 +120,11 @@ proxies:
       Host: c.cn-db.top
     path: /dabai.in
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-126
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0005
+  name: 28|CN_speednode_0004
   password: c9328e3f-90b7-4273-abe2-8309462fd872
-  port: 50011
+  port: 50021
   server: ep.superjj.cc
   type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 19|CN-223.111.122.199-080
@@ -108,45 +138,15 @@ proxies:
   ws-headers:
     Host: www.189.cn
   ws-path: /guolicheng/hinet
-- alterId: 64
-  cipher: auto
-  name: 14|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 28|CN_speednode_0004
-  password: c9328e3f-90b7-4273-abe2-8309462fd872
-  port: 50021
-  server: ep.superjj.cc
+  name: 19|CN-117.149.247.11-126
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,6,27|🇨🇳_CN_中国
-  network: ws
-  port: 80
-  server: 124.220.57.75
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    headers:
-      Host: 124.220.57.75
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,27|_CN_
-  network: ws
-  port: 80
-  server: 124.220.57.75
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c
-  ws-opts:
-    headers:
-      host: 124.220.57.75
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 28|CN_speednode_0013
+  password: d9fbe6612bdf9696
+  port: 41032
+  server: gzcm01.celerlink.one
+  type: ss
