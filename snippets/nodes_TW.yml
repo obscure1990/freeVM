@@ -1,6 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4a47026a-16de-4771-b68f-5aceec25b708
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4a47026a-16de-4771-b68f-5aceec25b708
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 49e4499e-3ff5-41c7-a855-228b02487ab5
+- alterId: 0
+  cipher: auto
   name: 19|TW-211.72.35.110-078
   network: ws
   port: 443
@@ -14,14 +44,17 @@ proxies:
   ws-path: /linod
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  name: 19|TW-220.130.80.179-079
+  network: ws
+  port: 443
+  server: 220.130.80.179
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 4a47026a-16de-4771-b68f-5aceec25b708
+  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
+  ws-headers:
+    Host: v2ray2.udpgw.com
+  ws-path: /howdy
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 05  | 1x TWN
@@ -31,27 +64,7 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7fc1c3b0-75c7-4b3b-824a-cf16423a85cb
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 7fc1c3b0-75c7-4b3b-824a-cf16423a85cb
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4a47026a-16de-4771-b68f-5aceec25b708
+  uuid: 49e4499e-3ff5-41c7-a855-228b02487ab5
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 04  | 1x TWN
@@ -61,7 +74,7 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7fc1c3b0-75c7-4b3b-824a-cf16423a85cb
+  uuid: 49e4499e-3ff5-41c7-a855-228b02487ab5
 - alterId: 0
   cipher: auto
   name: 10,15,24,27|台湾省 安源通讯股份有限公司
@@ -86,16 +99,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 4a47026a-16de-4771-b68f-5aceec25b708
-- alterId: 0
-  cipher: auto
-  name: 19|TW-220.130.80.179-079
-  network: ws
-  port: 443
-  server: 220.130.80.179
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
-  ws-headers:
-    Host: v2ray2.udpgw.com
-  ws-path: /howdy
