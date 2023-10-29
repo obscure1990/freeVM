@@ -1,17 +1,13 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0,3,20,24|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: hdlb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: hdlb2.shabijichang.com
-    path: /
+- name: 1|_JP_->_US_
+  network: tcp
+  password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102
+  port: 20006
+  server: fschk.1234567890spcloud.com
+  skip-cert-verify: true
+  sni: ceshii.1234567890spcloud.com
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
   name: 24|12|🇺🇸_US_美国->🇳🇱_NL_荷兰
@@ -41,19 +37,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '20|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: '80'
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 6,13,20,24|🇺🇸_US_美国->🇩🇪_DE_德国
   network: ws
   port: 80
@@ -64,6 +47,19 @@ proxies:
   ws-opts:
     headers:
       Host: flkf2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,20,24|🇺🇸 _US_美国->🇮🇳_IN_印度
+  network: ws
+  port: '80'
+  server: hdlb2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: hdlb2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -92,12 +88,16 @@ proxies:
     headers:
       host: ld2.shabijichang.com
     path: /
-- name: 1|_JP_->_US_
-  network: tcp
-  password: 7cea4e6c-ccb7-48c0-a8ba-77826f836102
-  port: 20006
-  server: fschk.1234567890spcloud.com
-  skip-cert-verify: true
-  sni: ceshii.1234567890spcloud.com
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '20|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: '80'
+  server: mm3.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm3.shabijichang.com
+    path: /
