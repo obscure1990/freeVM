@@ -1,40 +1,45 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇹🇼 台湾2|@ripaojiedian
+  password: 596b325b-1f14-44ed-b12d-e6b52cc64567
+  port: 26911
+  server: ydyh.nanbei.info
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b8d70046-fff6-458b-b8c4-65ed044b7c85
-- alterId: 0
-  cipher: auto
-  name: 19|TW-220.130.80.179-079
+  name: 19|TW-211.72.35.110-078
   network: ws
   port: 443
-  server: 220.130.80.179
+  server: 211.72.35.110
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
+  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
   ws-headers:
-    Host: v2ray2.udpgw.com
-  ws-path: /howdy
+    Host: lindo.cnabc.eu.org
+  ws-path: /linod
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇼 台湾2「晚高峰拥挤」
-  network: ws
-  port: '81'
-  server: tw2.jiedian.stream
-  tls: false
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
+  uuid: b8fd1d02-b09d-4cfc-af65-c0ee9de722b8
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b8fd1d02-b09d-4cfc-af65-c0ee9de722b8
 - alterId: 0
   cipher: auto
   name: 27|🇹🇼 台湾3「晚高峰拥挤」
@@ -50,17 +55,81 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|TW-211.72.35.110-078
+  name: 27|🇹🇼 台湾2「晚高峰拥挤」
+  network: ws
+  port: '81'
+  server: tw2.jiedian.stream
+  tls: false
+  type: vmess
+  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 3b46b34a-8392-407a-bd2b-ba2fb001a29a
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 3b46b34a-8392-407a-bd2b-ba2fb001a29a
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 3b46b34a-8392-407a-bd2b-ba2fb001a29a
+- alterId: 0
+  cipher: auto
+  name: 19|TW-220.130.80.179-079
   network: ws
   port: 443
-  server: 211.72.35.110
+  server: 220.130.80.179
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
+  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
   ws-headers:
-    Host: lindo.cnabc.eu.org
-  ws-path: /linod
+    Host: v2ray2.udpgw.com
+  ws-path: /howdy
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 25|🇹🇼 台湾1|@ripaojiedian
+  password: '!!str 123456'
+  port: 31201
+  server: 58.242.130.163
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 27|🇹🇼 台湾4「晚高峰拥挤」
+  network: ws
+  port: '80'
+  server: tw4.jiedian.stream
+  tls: false
+  type: vmess
+  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 06  | 1x TWN
@@ -84,72 +153,3 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b8d70046-fff6-458b-b8c4-65ed044b7c85
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: b8d70046-fff6-458b-b8c4-65ed044b7c85
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇹🇼 台湾2|@ripaojiedian
-  password: 596b325b-1f14-44ed-b12d-e6b52cc64567
-  port: 26911
-  server: ydyh.nanbei.info
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 27|🇹🇼 台湾4「晚高峰拥挤」
-  network: ws
-  port: '80'
-  server: tw4.jiedian.stream
-  tls: false
-  type: vmess
-  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b8fd1d02-b09d-4cfc-af65-c0ee9de722b8
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: b8fd1d02-b09d-4cfc-af65-c0ee9de722b8
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 25|🇹🇼 台湾1|@ripaojiedian
-  password: '!!str 123456'
-  port: 31201
-  server: 58.242.130.163
-  tfo: false
-  type: ss
