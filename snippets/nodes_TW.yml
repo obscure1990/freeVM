@@ -1,17 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 27|🇹🇼 台湾4「晚高峰拥挤」
-  network: ws
-  port: '80'
-  server: tw4.jiedian.stream
-  tls: false
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
   type: vmess
-  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
+  uuid: 2e0e2733-2726-43fc-96e3-9bc0b750c37a
 - alterId: 0
   cipher: auto
   name: 27|🇹🇼 台湾2「晚高峰拥挤」
@@ -25,40 +22,16 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇹🇼 台湾2|@ripaojiedian
-  password: 596b325b-1f14-44ed-b12d-e6b52cc64567
-  port: 26911
-  server: ydyh.nanbei.info
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 19|TW-220.130.80.179-079
-  network: ws
-  port: 443
-  server: 220.130.80.179
-  skip-cert-verify: true
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
-  ws-headers:
-    Host: v2ray2.udpgw.com
-  ws-path: /howdy
-- alterId: 0
-  cipher: auto
-  name: 19|TW-211.72.35.110-078
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
-  ws-headers:
-    Host: lindo.cnabc.eu.org
-  ws-path: /linod
+  uuid: 2e0e2733-2726-43fc-96e3-9bc0b750c37a
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 04  | 1x TWN
@@ -69,19 +42,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 77f15577-bf34-40ef-9c45-a2bda62d47b7
-- alterId: 0
-  cipher: auto
-  name: 27|🇹🇼 台湾1「晚高峰拥挤」
-  network: ws
-  port: '80'
-  server: tw1.jiedian.stream
-  tls: false
-  type: vmess
-  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 25|🇹🇼 台湾1|@ripaojiedian
@@ -103,26 +63,40 @@ proxies:
     headers:
       Host: gw.alicdn.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇹🇼 台湾2|@ripaojiedian
+  password: 596b325b-1f14-44ed-b12d-e6b52cc64567
+  port: 26911
+  server: ydyh.nanbei.info
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  name: 19|TW-211.72.35.110-078
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 2e0e2733-2726-43fc-96e3-9bc0b750c37a
+  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
+  ws-headers:
+    Host: lindo.cnabc.eu.org
+  ws-path: /linod
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
+  name: 27|🇹🇼 台湾4「晚高峰拥挤」
+  network: ws
+  port: '80'
+  server: tw4.jiedian.stream
+  tls: false
   type: vmess
-  uuid: 2e0e2733-2726-43fc-96e3-9bc0b750c37a
+  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 05  | 1x TWN
@@ -145,11 +119,37 @@ proxies:
   uuid: 77f15577-bf34-40ef-9c45-a2bda62d47b7
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾06
+  name: 27|🇹🇼 台湾1「晚高峰拥挤」
+  network: ws
+  port: '80'
+  server: tw1.jiedian.stream
+  tls: false
+  type: vmess
+  uuid: 4b4c9c8c-c086-4173-a694-a20c477d4b38
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
   network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
   tls: true
   type: vmess
   uuid: 2e0e2733-2726-43fc-96e3-9bc0b750c37a
+- alterId: 0
+  cipher: auto
+  name: 19|TW-220.130.80.179-079
+  network: ws
+  port: 443
+  server: 220.130.80.179
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
+  ws-headers:
+    Host: v2ray2.udpgw.com
+  ws-path: /howdy
