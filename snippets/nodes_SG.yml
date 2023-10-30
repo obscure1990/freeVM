@@ -1,9 +1,23 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-123
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
+- alterId: 0
+  cipher: auto
+  name: 9,24|新加坡_103011034
+  network: ws
+  port: '8080'
+  server: 139.180.143.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 28|SG_speednode_0036
+  password: 0b5edd68-b084-4990-a5dc-de3898bfbe4e
+  port: 24352
+  server: sg.fanqiecloud.top
   type: ss
 - alterId: 0
   cipher: auto
@@ -14,88 +28,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a46adf3f-7aab-4402-8dc8-1c5a986ecfd8
-- alterId: 64
-  cipher: auto
-  name: 19|SG-159.223.94.156-129
-  network: ws
-  port: 80
-  server: 159.223.94.156
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  ws-headers:
-    Host: 159.223.94.156
-  ws-path: /anti13.zingfast.vn
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_103011093
-  network: ws
-  port: '15916'
-  server: 18.141.192.165
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b7af78d1-1666-4f20-fda0-09b60219e698
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3c66ff1d-e40a-42f0-9888-c7f8c085770d
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_103011144
-  network: ws
-  port: '80'
-  server: 51.79.145.112
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3c906bab-3b86-4fa2-b7a3-f2c60e159db4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-125
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 28|SG_speednode_0036
-  password: 0b5edd68-b084-4990-a5dc-de3898bfbe4e
-  port: 24352
-  server: sg.fanqiecloud.top
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3c66ff1d-e40a-42f0-9888-c7f8c085770d
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 122.248.215.227
-  tfo: false
-  type: ss
+  uuid: 8dcc9ca8-3bfa-450e-beae-ff02d4186581
 - alterId: 0
   cipher: auto
   name: 9,24,28|新加坡_103011133
@@ -110,19 +43,6 @@ proxies:
     headers:
       Host: dl.kgvn.garenanow.com
     path: /4Gfree.asia
-- alterId: 0
-  cipher: auto
-  name: 19|SG-51.79.164.146-086
-  network: ws
-  port: 80
-  server: 51.79.164.146
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
-  ws-headers:
-    Host: 51.79.164.146
-  ws-path: /fastssh/putdcbb/63500f2541b87/
 - alterId: 0
   cipher: auto
   name: 19|SG-15.235.147.186-073
@@ -145,21 +65,139 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3c66ff1d-e40a-42f0-9888-c7f8c085770d
+  uuid: 652706ce-7e19-442f-9415-0a72fd30973a
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-123
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 9,24|新加坡_103011034
+  name: 11,24|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 652706ce-7e19-442f-9415-0a72fd30973a
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 122.248.215.227
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇸🇬 新加坡特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.255.165.104
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|SG-51.79.164.146-086
   network: ws
-  port: '8080'
-  server: 139.180.143.251
+  port: 80
+  server: 51.79.164.146
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
+  ws-headers:
+    Host: 51.79.164.146
+  ws-path: /fastssh/putdcbb/63500f2541b87/
+- alterId: 64
+  cipher: auto
+  name: 19|SG-159.223.94.156-129
+  network: ws
+  port: 80
+  server: 159.223.94.156
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  ws-headers:
+    Host: 159.223.94.156
+  ws-path: /anti13.zingfast.vn
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-125
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8dcc9ca8-3bfa-450e-beae-ff02d4186581
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_103011136
+  network: ws
+  port: '80'
+  server: 157.230.35.155
   servername: ''
   tls: false
   type: vmess
-  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
+  uuid: 83b0546f-1d9f-4f8d-82ee-03c3bc0d472a
+  ws-opts:
+    headers:
+      Host: dl.kgvn.garenanow.com
+    path: /viefast.vn
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_103011135
+  network: ''
+  port: '23502'
+  server: ora-sg4.cou.gay
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fb68cfb-b8a8-4e09-ae30-1e0c489ad5a6
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 652706ce-7e19-442f-9415-0a72fd30973a
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 8dcc9ca8-3bfa-450e-beae-ff02d4186581
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_103011144
+  network: ws
+  port: '80'
+  server: 51.79.145.112
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3c906bab-3b86-4fa2-b7a3-f2c60e159db4
   ws-opts:
     headers:
       Host: ''
-    path: /
+    path: /vmess/
 - alterId: 0
   cipher: auto
   name: 9|新加坡_103011134
@@ -189,38 +227,6 @@ proxies:
     path: /hostodo
 - alterId: 0
   cipher: auto
-  name: 9|新加坡_103011136
-  network: ws
-  port: '80'
-  server: 157.230.35.155
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 83b0546f-1d9f-4f8d-82ee-03c3bc0d472a
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /viefast.vn
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a46adf3f-7aab-4402-8dc8-1c5a986ecfd8
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.255.165.104
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
   name: 9|新加坡_103011094
   network: ws
   port: '80'
@@ -243,21 +249,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|新加坡_103011135
-  network: ''
-  port: '23502'
-  server: ora-sg4.cou.gay
+  name: 9|新加坡_103011093
+  network: ws
+  port: '15916'
+  server: 18.141.192.165
   servername: ''
   tls: false
   type: vmess
-  uuid: 2fb68cfb-b8a8-4e09-ae30-1e0c489ad5a6
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a46adf3f-7aab-4402-8dc8-1c5a986ecfd8
+  uuid: b7af78d1-1666-4f20-fda0-09b60219e698
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
