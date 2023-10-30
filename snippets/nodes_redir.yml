@@ -1,26 +1,54 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '2,3,4,24|🇺🇸_US_美国->🇬🇧_GB_英国 #1'
+  name: 20|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
-  port: 80
-  server: mrb2.shabijichang.com
+  port: '80'
+  server: mm3.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: mrb2.shabijichang.com
+      Host: mm3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 14 @nodpai
+  name: 1,15,24|_US_->_SA_
+  network: ws
+  port: 80
+  server: jd3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: jd3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|中转 🇸🇬 Singapore 04 @nodpai
   network: tcp
-  port: '26023'
+  port: '26021'
   server: 120.233.43.51
   tls: false
   type: vmess
   uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
+- alterId: 0
+  cipher: auto
+  name: 1,24|_US_->_GB__1
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 1,24|_US_->_GB__2
@@ -37,27 +65,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,15,24|_US_->_SA_
-  network: ws
-  port: 80
-  server: jd3.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: jd3.shabijichang.com
-    path: /
-- cipher: aes-128-gcm
-  name: 8|「线路包含IEPL，中转，覆盖冷门地区」🇬🇧 GB 02
-  password: shadowsocks
-  port: 443
-  server: ak1793.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 2,3,4,6,13,16,17,20,24|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
@@ -69,41 +76,6 @@ proxies:
     headers:
       Host: ld2.shabijichang.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 20|🇺🇸 _US_美国->🇮🇳_IN_印度
-  network: ws
-  port: '80'
-  server: mm3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2,3,4,6,13,20,24|🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯
-  network: ws
-  port: 80
-  server: jd3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: jd3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 7|中转 🇸🇬 Singapore 10 @nodpai
-  network: tcp
-  port: '26020'
-  server: 120.233.43.51
-  tls: false
-  type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
 - alterId: 0
   cipher: auto
   name: 2,3,4,6,13,20,24|🇺🇸_US_美国->🇩🇪_DE_德国
@@ -132,31 +104,38 @@ proxies:
     path: /2d08a9f8-204f-4c11-aab5-f5bb8daf9b4c
 - alterId: 0
   cipher: auto
-  name: 1,24|_US_->_GB__1
+  name: 7|中转 🇸🇬 Singapore 06 @nodpai
+  network: tcp
+  port: '26020'
+  server: 120.233.43.51
+  tls: false
+  type: vmess
+  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
+- alterId: 0
+  cipher: auto
+  name: '2,3,4,24|🇺🇸_US_美国->🇬🇧_GB_英国 #1'
   network: ws
   port: 80
-  server: ld2.shabijichang.com
-  skip-cert-verify: true
+  server: mrb2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: ld2.shabijichang.com
+      Host: mrb2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,24|_US_->_DE_
+  name: 2,3,4,6,13,20,24|🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯
   network: ws
   port: 80
-  server: flkf2.shabijichang.com
-  skip-cert-verify: true
+  server: jd3.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: flkf2.shabijichang.com
+      Host: jd3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
@@ -187,10 +166,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7|中转 🇸🇬 Singapore 07 @nodpai
-  network: tcp
-  port: '26022'
-  server: 120.233.43.51
+  name: 1,24|_US_->_DE_
+  network: ws
+  port: 80
+  server: flkf2.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: flkf2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,9|「线路包含IEPL，中转，覆盖冷门地区」🇩🇪 DE 01
+  network: tcp
+  port: '21872'
+  server: 130.61.111.167
+  tls: false
+  type: vmess
+  uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084
