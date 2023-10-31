@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: aff722ee-3eee-4c24-87d7-0c7f73eed4c9
 - name: 28|TW_speednode_0050
   network: tcp
   password: 5ab02a74-b9aa-4a27-bdf3-7c787fa22733
@@ -8,39 +18,24 @@ proxies:
   sni: in01.170203.xyz
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 25|🇹🇼 台湾|@ripaojiedian
+  password: 5c8b210a-2f00-4292-964b-05281c7ad5d1
+  port: 33952
+  server: bjcu.xzyunjiasu.icu
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 04  | 1x TWN
+  name: 22,24|台湾 05  | 1x TWN
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
   uuid: aff722ee-3eee-4c24-87d7-0c7f73eed4c9
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fd5d02e5-32ec-4351-bcd7-8766f118bc4c
-- alterId: 0
-  cipher: auto
-  name: 19|TW-211.72.35.110-078
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
-  ws-headers:
-    Host: lindo.cnabc.eu.org
-  ws-path: /linod
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 25|🇹🇼 台湾2|@ripaojiedian
@@ -59,32 +54,47 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
+  name: 19|TW-211.72.35.110-078
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: fd5d02e5-32ec-4351-bcd7-8766f118bc4c
+  uuid: f6d7b072-de00-45dc-9e24-49f8cf43530d
+  ws-headers:
+    Host: lindo.cnabc.eu.org
+  ws-path: /linod
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
+  name: 11,24|🇹🇼台湾05
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4f5ad455-2cb6-48ed-8fc2-73b4e45e4a93
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4f5ad455-2cb6-48ed-8fc2-73b4e45e4a93
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
   uuid: aff722ee-3eee-4c24-87d7-0c7f73eed4c9
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 25|🇹🇼 台湾|@ripaojiedian
-  password: 5c8b210a-2f00-4292-964b-05281c7ad5d1
-  port: 33952
-  server: bjcu.xzyunjiasu.icu
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 19|TW-220.130.80.179-079
@@ -100,21 +110,11 @@ proxies:
   ws-path: /howdy
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
+  name: 11,24|🇹🇼台湾06
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: aff722ee-3eee-4c24-87d7-0c7f73eed4c9
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: fd5d02e5-32ec-4351-bcd7-8766f118bc4c
+  uuid: 4f5ad455-2cb6-48ed-8fc2-73b4e45e4a93
