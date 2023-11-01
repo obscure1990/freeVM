@@ -1,14 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22,24|新加坡 05 | 1x SG
+  name: 22,24|新加坡 06 | 1x SG
   network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fa3d1b2d-5f65-4203-92c1-764909a54313
+  uuid: 5e159f07-70eb-44fe-ad23-63990a1d0334
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5e159f07-70eb-44fe-ad23-63990a1d0334
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.102.196
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇸🇬新加坡05
@@ -19,37 +37,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 102ab240-3513-4642-a4a2-e191c0de0efc
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇸🇬 新加坡|@ripaojiedian
-  password: 91256cea-c41c-4b66-83a5-d348c63a7b03
-  port: 32013
-  server: a.karyl.cc
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|SG_speednode_0131
-  password: 62f4274b-44e8-429f-b85f-bb333753f5c2
-  port: 39045
-  server: sg4.lianpi.xyz
-  tfo: false
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇸🇬 新加坡_102611087
-  network: ws
-  port: 8080
-  server: 139.180.143.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 19|SG-51.79.164.146-086
@@ -65,20 +52,6 @@ proxies:
   ws-path: /fastssh/putdcbb/63500f2541b87/
 - alterId: 0
   cipher: auto
-  name: 24|12|新加坡 - 新加坡 - DigitalOcean, L...
-  network: ws
-  port: 443
-  server: dosg1.cou.gay
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 63a29a21-d0db-48ad-94e2-98908d75bcfc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /dosg1?ed=2048
-- alterId: 0
-  cipher: auto
   name: 14|新加坡_【YouTube-VV科技】
   network: ws
   port: 2082
@@ -90,22 +63,6 @@ proxies:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-123
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 102ab240-3513-4642-a4a2-e191c0de0efc
 - alterId: 0
   cipher: auto
   name: 11,24|🇸🇬新加坡06
@@ -116,38 +73,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 102ab240-3513-4642-a4a2-e191c0de0efc
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: fa3d1b2d-5f65-4203-92c1-764909a54313
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.250.102.196
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 15,24|github.com/freefq - 新加坡  16
-  network: ws
-  port: 80
-  server: GAMEVIP1.5GTOCDOCAO.COM
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c
-  ws-opts:
-    headers:
-      Host: dl.ops.kgvn.garenanow.com
-    path: /5gtocdocao.com
 - alterId: 64
   cipher: auto
   name: 19|SG-159.223.94.156-129
@@ -161,12 +86,30 @@ proxies:
   ws-headers:
     Host: 159.223.94.156
   ws-path: /anti13.zingfast.vn
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-125
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 15,24|github.com/freefq - 新加坡  18
+  network: ws
+  port: 80
+  server: ANTI555.5GTOCDOCAO.COM
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c
+  ws-opts:
+    headers:
+      Host: dl.ops.kgvn.garenanow.com
+    path: /5gtocdocao.com
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 5e159f07-70eb-44fe-ad23-63990a1d0334
 - alterId: 0
   cipher: auto
   name: 19|SG-15.235.147.186-073
@@ -180,16 +123,32 @@ proxies:
   ws-headers:
     Host: 15.235.147.186
   ws-path: /sshkit/Ertusg86/635014638c264/
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-123
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 22,24|新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
+  name: 15,24|github.com/freefq - 新加坡  14
+  network: ws
+  port: 80
+  server: GAMEVIP1.5GTOCDOCAO.COM
+  servername: ''
+  tls: false
   type: vmess
-  uuid: fa3d1b2d-5f65-4203-92c1-764909a54313
+  uuid: e9882e7b-c7bc-4c13-ab4d-bc127d39925c
+  ws-opts:
+    headers:
+      Host: dl.ops.kgvn.garenanow.com
+    path: /5gtocdocao.com
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-125
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
 - alterId: 0
   cipher: auto
   name: 24,26|15|新加坡2|@ripaojiedian
@@ -200,3 +159,44 @@ proxies:
   tls: false
   type: vmess
   uuid: 54eac280-1192-3bda-8812-7acfdec61cfd
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇸🇬 新加坡|@ripaojiedian
+  password: 91256cea-c41c-4b66-83a5-d348c63a7b03
+  port: 32013
+  server: a.karyl.cc
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇸🇬 新加坡_102611087
+  network: ws
+  port: 8080
+  server: 139.180.143.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|SG_speednode_0131
+  password: 62f4274b-44e8-429f-b85f-bb333753f5c2
+  port: 39045
+  server: sg4.lianpi.xyz
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 102ab240-3513-4642-a4a2-e191c0de0efc
