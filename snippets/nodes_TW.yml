@@ -1,6 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 22,24|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: eeb0307f-6280-4a58-9321-7bb2581579bb
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04 PRO
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- alterId: 0
+  cipher: auto
   name: 9|台湾_110220057
   network: ws
   port: '80'
@@ -15,37 +35,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾05
+  name: 22,24|台湾 05  | 1x TWN
   network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 04  | 1x TWN PRO
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 722db66e-255d-448a-89b4-8baf617c167b
-- alterId: 0
-  cipher: auto
-  name: 19|TW-220.130.80.179-079
-  network: ws
-  port: 443
-  server: 220.130.80.179
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
-  ws-headers:
-    Host: v2ray2.udpgw.com
-  ws-path: /howdy
+  uuid: eeb0307f-6280-4a58-9321-7bb2581579bb
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾06
@@ -56,26 +53,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 722db66e-255d-448a-89b4-8baf617c167b
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 722db66e-255d-448a-89b4-8baf617c167b
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 25|🇹🇼 台湾2|@ripaojiedian
@@ -94,18 +71,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|台湾_110220058
-  network: ws
-  port: '80'
-  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
-  servername: ''
-  tls: false
+  name: 22,24|台湾 04  | 1x TWN PRO
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 0876403d-5467-4d9f-8d85-23d520e22e94
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: eeb0307f-6280-4a58-9321-7bb2581579bb
 - alterId: 0
   cipher: auto
   name: 19|TW-211.72.35.110-078
@@ -121,11 +94,38 @@ proxies:
   ws-path: /linod
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾04 PRO
+  name: 11,24|🇹🇼台湾05
   network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
   tls: true
   type: vmess
   uuid: 75a3d0b1-64c0-4929-b6a0-b1ef3379cf2e
+- alterId: 0
+  cipher: auto
+  name: 19|TW-220.130.80.179-079
+  network: ws
+  port: 443
+  server: 220.130.80.179
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
+  ws-headers:
+    Host: v2ray2.udpgw.com
+  ws-path: /howdy
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_110220058
+  network: ws
+  port: '80'
+  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0876403d-5467-4d9f-8d85-23d520e22e94
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
