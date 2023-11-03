@@ -1,12 +1,86 @@
 proxies:
-- name: 28|CN_speednode_0019
-  network: tcp
-  password: 8952d4bb-7f95-483c-9807-0764dfca2df3
-  port: 10818
-  server: jp.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0034
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 14882
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: 28|CN_speednode_0057
+  obfs: plain
+  obfs-param: None
+  password: bxsnucrgk6hfish
+  port: 5956
+  protocol: auth_aes128_sha1
+  protocol-param: 229225:zZ4fCm
+  server: yd-04.paofunlink.com
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0043
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 17201
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0054
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 18127
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: 28|CN_speednode_0056
+  obfs: tls1.2_ticket_auth
+  obfs-param: f69eb206651.www.gov.hk
+  password: di15PV
+  port: 6001
+  protocol: auth_aes128_md5
+  protocol-param: 206651:test1234
+  server: mysql.accessconnect.cc
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0023
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 23718
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0026
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 47558
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0044
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 38322
+  server: 59.81.87.116
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0048
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 14506
+  server: 120.240.48.244
+  tfo: false
+  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -17,16 +91,88 @@ proxies:
   tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf
-  name: 28|CN_speednode_0002
-  obfs: plain
-  obfs-param: 2b49f229225.microsoft.com
-  password: bxsnucrgk6hfish
-  port: 5953
-  protocol: auth_aes128_sha1
-  protocol-param: 229225:zZ4fCm
-  server: yd-06.paofunlink.com
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0042
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 48464
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|CN-223.111.122.199-080
+  network: ws
+  port: 38080
+  server: 223.111.122.199
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a
+  ws-headers:
+    Host: www.189.cn
+  ws-path: /guolicheng/hinet
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0008
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 24517
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0012
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 22299
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0047
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 34467
+  server: 59.81.87.116
+  tfo: false
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0013
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20295
+  server: 223.95.40.85
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0022
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 20037
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0032
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 48641
+  server: 120.240.48.244
+  tfo: false
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -43,80 +189,6 @@ proxies:
   ws-path: /dabai.in
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0026
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 47558
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0039
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 35197
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0007
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 34242
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0051
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 34467
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 28|CN_speednode_0058
-  obfs: plain
-  obfs-param: None
-  password: bxsnucrgk6hfish
-  port: 5957
-  protocol: auth_aes128_sha1
-  protocol-param: 229225:zZ4fCm
-  server: yd-07.paofunlink.com
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0012
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 22299
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 9,24,26|中国_110309096
-  network: tcp
-  port: '49884'
-  server: 112.29.94.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0022
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 20037
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 28|CN_speednode_0021
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
   port: 34558
@@ -126,117 +198,35 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0024
+  name: 28|CN_speednode_0053
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 36708
+  port: 30988
   server: 120.240.48.244
   tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0032
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 48641
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: 28|CN_speednode_0059
-  obfs: plain
-  obfs-param: 2b49f229225.microsoft.com
-  password: bxsnucrgk6hfish
-  port: 5957
-  protocol: auth_aes128_sha1
-  protocol-param: 229225:zZ4fCm
-  server: yd-07.paofunlink.com
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0054
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 18127
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0044
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 38322
-  server: 59.81.87.116
-  tfo: false
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 19|CN-119.36.161.40-015
-  network: ws
-  port: 443
-  server: 119.36.161.40
+- name: 28|CN_speednode_0019
+  network: tcp
+  password: 8952d4bb-7f95-483c-9807-0764dfca2df3
+  port: 10818
+  server: jp.kunlun-ppg.com
   skip-cert-verify: true
-  tls: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 24,32|19|🇨🇳_CN_中国_3_42
+  network: ws
+  port: 11303
+  server: userpd.haitunvip.vip
+  tls: false
   type: vmess
-  uuid: 946ba5df-5771-4873-a3cb-892378526147
-  ws-headers:
-    Host: www.99136853.xyz
-  ws-path: /path/120306182525
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0006
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 49486
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0048
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 14506
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0033
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 40546
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0046
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 30006
-  server: 173.249.204.113.globalssh.cn
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0035
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 14556
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0031
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 19310
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
+  uuid: 6ae0df67-5a91-3af0-b7f2-ac08ca4c88ad
+  ws-opts:
+    headers:
+      Host: userpd.haitunvip.vip
+    path: /ef483582-6269-468c-93af-c512ec2b8a61
 - cipher: chacha20-ietf
   name: 28|CN_speednode_0001
   obfs: plain
@@ -250,65 +240,18 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0047
+  name: 28|CN_speednode_0052
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 34467
-  server: 59.81.87.116
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0049
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 22090
+  port: 31479
   server: 120.240.48.244
   tfo: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 19|CN-117.149.247.11-126
-  password: 8e949d75-3510-4678-8593-3c5032dd931a
-  port: 30818
-  server: wqfuinwqffq.dfcloud.xyz
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|🇨🇳 广东省深圳市 移动
-  network: ws
-  port: '62009'
-  server: 120.241.46.222
-  tls: false
-  type: vmess
-  uuid: 22de7de9-26c8-396a-9258-7cc0658ac370
-  ws-opts:
-    headers:
-      Host: c.cn-db.top
-    path: /dabai.in
-- alterId: 64
-  cipher: auto
-  name: '14|中国_【YouTube-VV科技】 #1'
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
-  name: 28|CN_speednode_0057
-  obfs: plain
-  obfs-param: None
-  password: bxsnucrgk6hfish
-  port: 5956
-  protocol: auth_aes128_sha1
-  protocol-param: 229225:zZ4fCm
-  server: yd-04.paofunlink.com
-  type: ssr
-- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0038
+  name: 28|CN_speednode_0051
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 23464
+  port: 34467
   server: 120.240.48.244
   tfo: false
   type: ss
@@ -326,15 +269,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0050
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 29126
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
 - cipher: chacha20-ietf
   name: 28|CN_speednode_0060
   obfs: tls1.2_ticket_auth
@@ -347,9 +281,49 @@ proxies:
   type: ssr
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0042
+  name: 28|CN_speednode_0005
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 48464
+  port: 33938
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0035
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 14556
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0039
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 35197
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 20|🇨🇳 广东省深圳市 移动
+  network: ws
+  port: '62009'
+  server: 120.241.46.222
+  tls: false
+  type: vmess
+  uuid: 22de7de9-26c8-396a-9258-7cc0658ac370
+  ws-opts:
+    headers:
+      Host: c.cn-db.top
+    path: /dabai.in
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0033
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 40546
   server: 120.240.48.244
   tfo: false
   type: ss
@@ -363,29 +337,89 @@ proxies:
   tfo: false
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: 28|CN_speednode_0056
-  obfs: tls1.2_ticket_auth
-  obfs-param: f69eb206651.www.gov.hk
-  password: di15PV
-  port: 6001
-  protocol: auth_aes128_md5
-  protocol-param: 206651:test1234
-  server: mysql.accessconnect.cc
+- cipher: chacha20-ietf
+  name: 28|CN_speednode_0058
+  obfs: plain
+  obfs-param: None
+  password: bxsnucrgk6hfish
+  port: 5957
+  protocol: auth_aes128_sha1
+  protocol-param: 229225:zZ4fCm
+  server: yd-07.paofunlink.com
   type: ssr
-- alterId: 0
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0049
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 22090
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0040
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 34781
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0045
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 38322
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0024
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 36708
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0031
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 19310
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|CN_speednode_0007
+  password: 66b32246-7507-42e2-ad5f-79202cc94e13
+  port: 34242
+  server: 120.240.48.244
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 64
   cipher: auto
-  name: 19|CN-223.111.122.199-080
-  network: ws
-  port: 38080
-  server: 223.111.122.199
-  skip-cert-verify: true
+  name: 9,15,24,26|中国_110309096
+  network: tcp
+  port: '49884'
+  server: 112.29.94.23
+  servername: ''
   tls: false
   type: vmess
-  uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a
-  ws-headers:
-    Host: www.189.cn
-  ws-path: /guolicheng/hinet
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 64
+  cipher: auto
+  name: '14|中国_【YouTube-VV科技】 #1'
+  network: tcp
+  port: 40702
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: chacha20-poly1305
   name: 24,32|19|🇨🇳_CN_中国_由快嘴科技提供;kkzui.com_...
@@ -401,67 +435,49 @@ proxies:
     path: /ef483582-6269-468c-93af-c512ec2b8a61
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0005
+  name: 28|CN_speednode_0006
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 33938
+  port: 49486
   server: 120.240.48.244
   tfo: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0043
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 17201
-  server: 120.240.48.244
-  tfo: false
+  name: 19|CN-117.149.247.11-126
+  password: 8e949d75-3510-4678-8593-3c5032dd931a
+  port: 30818
+  server: wqfuinwqffq.dfcloud.xyz
   type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0045
+  name: 28|CN_speednode_0038
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 38322
+  port: 23464
   server: 120.240.48.244
   tfo: false
   type: ss
   udp: true
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 24,32|19|🇨🇳_CN_中国_2_34
-  network: ws
-  port: 54003
-  server: userpd.haitunvip.vip
-  tls: false
-  type: vmess
-  uuid: 6ae0df67-5a91-3af0-b7f2-ac08ca4c88ad
-  ws-opts:
-    headers:
-      Host: userpd.haitunvip.vip
-    path: /ef4b2f71-6269-468c-93af-c511eccb8a69
-- alterId: 64
-  cipher: auto
-  name: 24|12|🇨🇳_电报频道： @pjrjzy
-  network: auto
-  port: '49553'
-  server: 183.233.187.214
-  tls: false
-  type: vmess
-  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
-- cipher: aes-128-gcm
-  name: 28|CN_speednode_0061
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: /
-    skip-cert-verify: true
-    tls: false
-  port: 20295
-  server: 223.95.40.85
-  type: ss
+- cipher: chacha20-ietf
+  name: 28|CN_speednode_0002
+  obfs: plain
+  obfs-param: 2b49f229225.microsoft.com
+  password: bxsnucrgk6hfish
+  port: 5953
+  protocol: auth_aes128_sha1
+  protocol-param: 229225:zZ4fCm
+  server: yd-06.paofunlink.com
+  type: ssr
+  udp: true
+- cipher: chacha20-ietf
+  name: 28|CN_speednode_0059
+  obfs: plain
+  obfs-param: 2b49f229225.microsoft.com
+  password: bxsnucrgk6hfish
+  port: 5957
+  protocol: auth_aes128_sha1
+  protocol-param: 229225:zZ4fCm
+  server: yd-07.paofunlink.com
+  type: ssr
 - alterId: 64
   cipher: auto
   name: 14|中国_【YouTube-VV科技】
@@ -473,10 +489,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0011
+  name: 28|CN_speednode_0046
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
   port: 30006
-  server: 185.244.208.152.globalssh.cn
+  server: 173.249.204.113.globalssh.cn
   tfo: false
   type: ss
   udp: true
@@ -491,36 +507,45 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0034
+  name: 28|CN_speednode_0011
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 14882
-  server: 120.240.48.244
+  port: 30006
+  server: 185.244.208.152.globalssh.cn
   tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0052
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 31479
-  server: 120.240.48.244
-  tfo: false
+- alterId: 64
+  cipher: auto
+  name: 19|CN-119.36.161.40-015
+  network: ws
+  port: 443
+  server: 119.36.161.40
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 946ba5df-5771-4873-a3cb-892378526147
+  ws-headers:
+    Host: www.99136853.xyz
+  ws-path: /path/120306182525
+- cipher: aes-128-gcm
+  name: 28|CN_speednode_0061
+  password: a-wym4ovY4Yw
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: /
+    skip-cert-verify: true
+    tls: false
+  port: 20295
+  server: 223.95.40.85
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0040
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 34781
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
 - alterId: 0
   cipher: chacha20-poly1305
-  name: 24,32|19|🇨🇳_CN_中国_3_42
+  name: 24,32|19|🇨🇳_CN_中国_2_34
   network: ws
-  port: 11303
+  port: 54003
   server: userpd.haitunvip.vip
   tls: false
   type: vmess
@@ -528,31 +553,22 @@ proxies:
   ws-opts:
     headers:
       Host: userpd.haitunvip.vip
-    path: /ef483582-6269-468c-93af-c512ec2b8a61
+    path: /ef4b2f71-6269-468c-93af-c511eccb8a69
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 28|CN_speednode_0053
+  name: 28|CN_speednode_0050
   password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 30988
+  port: 29126
   server: 120.240.48.244
   tfo: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0023
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 23718
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|CN_speednode_0008
-  password: 66b32246-7507-42e2-ad5f-79202cc94e13
-  port: 24517
-  server: 120.240.48.244
-  tfo: false
-  type: ss
-  udp: true
+- alterId: 64
+  cipher: auto
+  name: 24|12|🇨🇳_电报频道： @pjrjzy
+  network: auto
+  port: '49553'
+  server: 183.233.187.214
+  tls: false
+  type: vmess
+  uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd
