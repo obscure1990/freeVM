@@ -1,4 +1,20 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 25|🇹🇼 台湾2|@ripaojiedian
+  password: a0068c048cb0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: fn600mtw005.testnewline.info
+    mode: websocket
+    mux: true
+    path: /gfrotntnxv
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: fn600mtw005.testnewline.info
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 06  | 1x TWN
@@ -9,62 +25,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 56eaab4a-be3a-4fcb-9f21-7a3c6a386845
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a1a16d66-8aa3-4671-9b2b-96f370d283b7
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04 PRO
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a1a16d66-8aa3-4671-9b2b-96f370d283b7
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a1a16d66-8aa3-4671-9b2b-96f370d283b7
-- cipher: aes-128-gcm
-  name: 8|🇹🇼 Taiwan 183 @nodpai
-  password: 1126ea1f8ae8fe2828e3
-  plugin: obfs
-  plugin-opts:
-    host: b86ef18a78a90d6e987d.microsoft.com
-    mode: http
-  port: 9527
-  server: tw.tag-global-ddns.top
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 8,25|🇹🇼 Taiwan 01 @nodpai
-  password: a0068c048cb0
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: fn600mtw005.testnewline.info
-    mode: websocket
-    mux: true
-    path: /gfrotntnxv
-    skip-cert-verify: true
-    tls: true
-  port: 443
-  server: fn600mtw005.testnewline.info
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 19|TW-220.130.80.179-079
@@ -80,14 +40,24 @@ proxies:
   ws-path: /howdy
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 04  | 1x TWN PRO
+  name: 22,24|台湾 05  | 1x TWN
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
   uuid: 56eaab4a-be3a-4fcb-9f21-7a3c6a386845
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: eda34531-b27e-4e81-8ad0-d9c7c86cb36d
 - alterId: 0
   cipher: auto
   name: 19|TW-211.72.35.110-078
@@ -103,11 +73,31 @@ proxies:
   ws-path: /linod
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
+  name: 11,24|🇹🇼台湾05
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: eda34531-b27e-4e81-8ad0-d9c7c86cb36d
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04 PRO
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: eda34531-b27e-4e81-8ad0-d9c7c86cb36d
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 04  | 1x TWN PRO
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
   uuid: 56eaab4a-be3a-4fcb-9f21-7a3c6a386845
