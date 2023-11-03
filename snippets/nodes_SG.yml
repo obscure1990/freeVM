@@ -1,81 +1,11 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-123
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 08 @nodpai
+  password: 68e537c7-3a77-424c-803a-14589c681d40
+  port: 20052
+  server: sg3.doushimeng.com
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4ab8ab20-24cf-4e2c-ab7c-0dbd112a0cdb
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇸🇬 狮城特殊2|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.1.200.50
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|12|新加坡 - 新加坡 - Oracle Corporat...
-  network: tcp
-  port: 23502
-  server: ora-sg4.cou.gay
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03079eb8-2dab-4e18-981d-6dcb47560909
-- alterId: 0
-  cipher: auto
-  name: 24,26|15|新加坡|@ripaojiedian
-  network: tcp
-  port: '35013'
-  server: 183.240.232.65
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 942fa1bb-a34f-35a9-9ef6-af8a023eb67f
-- alterId: 64
-  cipher: auto
-  name: 19|SG-159.223.94.156-129
-  network: ws
-  port: 80
-  server: 159.223.94.156
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
-  ws-headers:
-    Host: 159.223.94.156
-  ws-path: /anti13.zingfast.vn
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.mcfront.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4bc42c7c-8846-4557-b1ae-e872b62f6848
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡04 PRO
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 4ab8ab20-24cf-4e2c-ab7c-0dbd112a0cdb
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|新加坡_110309003
@@ -90,26 +20,69 @@ proxies:
     headers:
       Host: ''
     path: /vmess/
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇸🇬 狮城特殊2|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.1.200.50
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 22,24|新加坡 04 | 1x SG PRO
+  name: 11,24|🇸🇬新加坡04 PRO
   network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 4bc42c7c-8846-4557-b1ae-e872b62f6848
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
   uuid: 4ab8ab20-24cf-4e2c-ab7c-0dbd112a0cdb
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4ab8ab20-24cf-4e2c-ab7c-0dbd112a0cdb
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.mcfront.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9a6b7daf-9439-4cb7-8251-18ed99f47755
+- alterId: 0
+  cipher: auto
+  name: 14|新加坡_【YouTube-VV科技】
+  network: ws
+  port: 2082
+  server: 8.222.197.251
+  tls: false
+  type: vmess
+  uuid: 6db5d855-657d-4ede-9023-e594bb936d90
+  ws-opts:
+    headers:
+      Host: hostodo.galenet.online
+    path: /hostodo
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-125
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-123
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|新加坡_110309088
@@ -126,18 +99,80 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 9,24|新加坡_110309037
+  name: 11,24|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4ab8ab20-24cf-4e2c-ab7c-0dbd112a0cdb
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 49 @nodpai
+  password: 75172987-c67e-4903-80a9-bbd8128a57e5
+  port: 24352
+  server: sg.fanqiecloud.top
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 8|🇸🇬 Singapore 06 @nodpai
+  password: 71a9d8c2d1dee1a5a5ad
+  plugin: obfs
+  plugin-opts:
+    host: b86ef18a78a90d6e987d.microsoft.com
+    mode: http
+  port: 9527
+  server: sg-m1.tag-global-ddns.top
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 19|SG-159.223.94.156-129
   network: ws
-  port: '8080'
-  server: 139.180.143.251
+  port: 80
+  server: 159.223.94.156
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  ws-headers:
+    Host: 159.223.94.156
+  ws-path: /anti13.zingfast.vn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 25|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.141.177.65
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 8|🇸🇬 Singapore 48 @nodpai
+  password: 68e537c7-3a77-424c-803a-14589c681d40
+  port: 20252
+  server: sgggg.doushimeng.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 24|12|新加坡 - 新加坡 - Oracle Corporat...
+  network: tcp
+  port: 23502
+  server: ora-sg4.cou.gay
   servername: ''
   tls: false
   type: vmess
-  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 03079eb8-2dab-4e18-981d-6dcb47560909
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 04 | 1x SG PRO
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 9a6b7daf-9439-4cb7-8251-18ed99f47755
 - alterId: 0
   cipher: auto
   name: 22,24|新加坡 05 | 1x SG
@@ -147,13 +182,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4bc42c7c-8846-4557-b1ae-e872b62f6848
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-125
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
+  uuid: 9a6b7daf-9439-4cb7-8251-18ed99f47755
 - alterId: 0
   cipher: auto
   name: 19|SG-51.79.164.146-086
@@ -167,27 +196,31 @@ proxies:
   ws-headers:
     Host: 51.79.164.146
   ws-path: /fastssh/putdcbb/63500f2541b87/
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 25|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.141.177.65
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 14|新加坡_【YouTube-VV科技】
+  name: 9,24|新加坡_110309037
   network: ws
-  port: 2082
-  server: 8.222.197.251
+  port: '8080'
+  server: 139.180.143.251
+  servername: ''
   tls: false
   type: vmess
-  uuid: 6db5d855-657d-4ede-9023-e594bb936d90
+  uuid: e918ba7d-5092-40dd-bfa5-7c3ecd13c68c
   ws-opts:
     headers:
-      Host: hostodo.galenet.online
-    path: /hostodo
+      Host: ''
+    path: /
+- cipher: aes-128-gcm
+  name: 8|🇸🇬 Singapore 04 @nodpai
+  password: 3cc507510e1e301a9d93
+  plugin: obfs
+  plugin-opts:
+    host: b86ef18a78a90d6e987d.microsoft.com
+    mode: http
+  port: 9527
+  server: sg-singtel.tag-global-ddns.top
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 19|SG-15.235.147.186-073
@@ -201,3 +234,13 @@ proxies:
   ws-headers:
     Host: 15.235.147.186
   ws-path: /sshkit/Ertusg86/635014638c264/
+- alterId: 0
+  cipher: auto
+  name: 24,26|15|新加坡|@ripaojiedian
+  network: tcp
+  port: '35013'
+  server: 183.240.232.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 942fa1bb-a34f-35a9-9ef6-af8a023eb67f
