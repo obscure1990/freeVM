@@ -1,21 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|新加坡_110220134
-  network: ws
-  port: '80'
-  server: 51.79.145.112
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3c906bab-3b86-4fa2-b7a3-f2c60e159db4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_110220001
+  name: 9|新加坡_110309003
   network: ws
   port: '80'
   server: si4co.09vpn.com
@@ -27,16 +13,12 @@ proxies:
     headers:
       Host: ''
     path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 548055a4-1352-4e84-b5f9-81cc5e95b792
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-125
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19|SG-15.235.147.186-073
@@ -52,27 +34,17 @@ proxies:
   ws-path: /sshkit/Ertusg86/635014638c264/
 - alterId: 0
   cipher: auto
-  name: 11,24|🇸🇬新加坡04 PRO
+  name: 22,24|新加坡 04 | 1x SG PRO
   network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8f8ab40f-6732-4789-b780-fce8eb975ffb
+  uuid: 85f34175-5943-45a1-bd37-172567bf7097
 - alterId: 0
   cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 8f8ab40f-6732-4789-b780-fce8eb975ffb
-- alterId: 0
-  cipher: auto
-  name: 9,24|新加坡_110220036
+  name: 9,24|新加坡_110309037
   network: ws
   port: '8080'
   server: 139.180.143.251
@@ -84,32 +56,12 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_110220035
-  network: tcp
-  port: '23502'
-  server: ora-sg4.cou.gay
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e2fbc71-d106-47a8-98eb-4ae381d8f376
 - cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-125
+  name: 19|SG-13.213.46.196-123
   password: amazonskr05
   port: 443
-  server: 54.251.168.143
+  server: 13.213.46.196
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_110220038
-  network: ''
-  port: '23502'
-  server: ora-sg4.cou.gay
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e2fbc71-d106-47a8-98eb-4ae381d8f376
 - alterId: 0
   cipher: auto
   name: 22,24|新加坡 06 | 1x SG
@@ -119,15 +71,37 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 548055a4-1352-4e84-b5f9-81cc5e95b792
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇸🇬 新加坡|@ripaojiedian
-  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
-  port: 56138
-  server: sg1.lianpi.xyz
-  tfo: false
-  type: ss
+  uuid: 85f34175-5943-45a1-bd37-172567bf7097
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d81062e9-91f2-47a1-87af-b54b99bdfd48
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d81062e9-91f2-47a1-87af-b54b99bdfd48
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡04 PRO
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: d81062e9-91f2-47a1-87af-b54b99bdfd48
 - alterId: 64
   cipher: auto
   name: 19|SG-159.223.94.156-129
@@ -141,6 +115,30 @@ proxies:
   ws-headers:
     Host: 159.223.94.156
   ws-path: /anti13.zingfast.vn
+- alterId: 0
+  cipher: auto
+  name: 22,24|新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 85f34175-5943-45a1-bd37-172567bf7097
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_110309088
+  network: ws
+  port: '80'
+  server: si2.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3c906bab-3b86-4fa2-b7a3-f2c60e159db4
+  ws-opts:
+    headers:
+      Host: si2.09vpn.com
+    path: /vmess/
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 25|🇸🇬 狮城特殊|@ripaojiedian
@@ -149,49 +147,6 @@ proxies:
   server: 13.212.19.180
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|新加坡 04 | 1x SG PRO
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 548055a4-1352-4e84-b5f9-81cc5e95b792
-- alterId: 0
-  cipher: auto
-  name: 19|SG-51.79.164.146-086
-  network: ws
-  port: 80
-  server: 51.79.164.146
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
-  ws-headers:
-    Host: 51.79.164.146
-  ws-path: /fastssh/putdcbb/63500f2541b87/
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-123
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_110220103
-  network: ws
-  port: '15916'
-  server: 18.141.192.165
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b7af78d1-1666-4f20-fda0-09b60219e698
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 0
   cipher: auto
   name: 14|新加坡_【YouTube-VV科技】
@@ -205,13 +160,24 @@ proxies:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇸🇬 新加坡|@ripaojiedian
+  password: 1f3d67b4-6929-4598-90ca-84a841bf02e4
+  port: 56138
+  server: sg1.lianpi.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇸🇬新加坡06
-  network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
-  tls: true
+  name: 19|SG-51.79.164.146-086
+  network: ws
+  port: 80
+  server: 51.79.164.146
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 8f8ab40f-6732-4789-b780-fce8eb975ffb
+  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
+  ws-headers:
+    Host: 51.79.164.146
+  ws-path: /fastssh/putdcbb/63500f2541b87/
