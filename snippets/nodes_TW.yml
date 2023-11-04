@@ -1,35 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|TW-220.130.80.179-052
-  network: ws
-  port: 443
-  server: 220.130.80.179
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
-  ws-headers:
-    Host: v2ray2.udpgw.com
-  ws-path: /howdy
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
+  name: 22,24|台湾 06  | 1x TWN
   network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9acc53ef-2f37-4652-8860-79c274a1ce1c
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇹🇼 台湾|@ripaojiedian
-  password: 8ac00a0d-3aca-4d01-b7a5-89feee52948e
-  port: 27260
-  server: gtm.ktmwan.com
-  tfo: false
-  type: ss
+  uuid: c88cf69a-72f7-4cbf-9db4-5ac9c8338cfa
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾04 PRO
@@ -40,32 +19,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 9acc53ef-2f37-4652-8860-79c274a1ce1c
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 25|🇹🇼 台湾2|@ripaojiedian
-  password: a0068c048cb0
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: fn600mtw005.testnewline.info
-    mode: websocket
-    mux: true
-    path: /gfrotntnxv
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: fn600mtw005.testnewline.info
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 110394da-2bd7-42d5-95dc-f6a1fb260c46
 - alterId: 0
   cipher: auto
   name: 9|台湾_110320048
@@ -82,14 +35,14 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
+  name: 11,24|🇹🇼台湾06
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 110394da-2bd7-42d5-95dc-f6a1fb260c46
+  uuid: 9acc53ef-2f37-4652-8860-79c274a1ce1c
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾05
@@ -102,6 +55,16 @@ proxies:
   uuid: 9acc53ef-2f37-4652-8860-79c274a1ce1c
 - alterId: 0
   cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: c88cf69a-72f7-4cbf-9db4-5ac9c8338cfa
+- alterId: 0
+  cipher: auto
   name: 22,24|台湾 04  | 1x TWN PRO
   network: tcp
   port: '31301'
@@ -109,4 +72,41 @@ proxies:
   servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 110394da-2bd7-42d5-95dc-f6a1fb260c46
+  uuid: c88cf69a-72f7-4cbf-9db4-5ac9c8338cfa
+- alterId: 0
+  cipher: auto
+  name: 19|TW-220.130.80.179-052
+  network: ws
+  port: 443
+  server: 220.130.80.179
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
+  ws-headers:
+    Host: v2ray2.udpgw.com
+  ws-path: /howdy
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 25|🇹🇼 台湾2|@ripaojiedian
+  password: a0068c048cb0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: fn600mtw005.testnewline.info
+    mode: websocket
+    mux: true
+    path: /gfrotntnxv
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: fn600mtw005.testnewline.info
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇹🇼 台湾|@ripaojiedian
+  password: 8ac00a0d-3aca-4d01-b7a5-89feee52948e
+  port: 27260
+  server: gtm.ktmwan.com
+  tfo: false
+  type: ss
