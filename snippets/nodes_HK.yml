@@ -1,28 +1,32 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22,24|香港 05 | 1x HK
-  network: tcp
-  port: '31606'
-  server: 5m4h0k05.mcfront.xyz
-  servername: hk05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ef6158d8-b634-423b-bc27-f77d3a02c53e
-- alterId: 0
-  cipher: auto
-  name: 15,20,24,27|github.com/freefq - 香港阿里云 14
+  name: 9|香港_110320001
   network: ws
   port: '443'
-  server: n1697765772.izwhvan.cn
+  server: 103.232.213.241
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d0fa8fa7-e217-4fb9-fed3-34c6a17851db
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 24|12|香港_欢迎订阅yui科技_22
+  network: ws
+  port: '30000'
+  server: 156.245.8.223
   servername: ''
   tls: true
   type: vmess
-  uuid: ba984678-ca81-4443-a9da-58adea43d5b0
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: n1697765772.izwhvan.cn
-    path: /
+      Host: www.38991360.xyz
+    path: /path/1699017821148
 - alterId: 1
   cipher: auto
   name: 20|🇭🇰 香港(油管:破解资源君2.0)
@@ -38,69 +42,45 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 9,10,27|香港_110320005
-  network: ws
-  port: '443'
-  server: n1698814075.aaigefm.cn
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
-  ws-opts:
-    headers:
-      Host: n1698814075.aaigefm.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇭🇰香港04 PRO
+  name: 11,24|🇭🇰香港05
   network: tcp
-  port: '36601'
-  server: 8h2k04.abzoones.xyz
-  servername: hk04.abpilot.xyz
+  port: '36606'
+  server: 8h2k05.abzoones.xyz
+  servername: hk05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3aa606a3-ed2b-4e71-b0d5-fb3bd8a127ff
-- alterId: 64
+  uuid: 9e4179a4-037b-4909-91c2-0bb27c95270e
+- alterId: 1
   cipher: auto
-  name: 24|12|香港_欢迎订阅yui科技_71
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #3'
   network: ws
-  port: '30000'
-  server: 156.245.8.144
-  servername: ''
-  tls: true
+  port: '50205'
+  server: data-hk-v1.heisey.cn
+  tls: false
   type: vmess
-  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
   ws-opts:
     headers:
-      Host: www.32159877.xyz
-    path: /path/1699017821148
+      Host: tv.cctv.com
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '20|🇭🇰 香港(油管:破解资源君2.0) #2'
-  network: ws
-  port: '443'
-  server: 167.179.32.53
+  name: 22,24|香港 06 | 1x HK
+  network: tcp
+  port: '31611'
+  server: 5m4h0k06.mcfront.xyz
+  servername: hk06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
-- alterId: 64
-  cipher: auto
-  name: 15,20,24,27|github.com/freefq - 香港  20
-  network: ws
-  port: '30000'
-  server: 156.245.8.166
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
-  ws-opts:
-    headers:
-      Host: www.12460158.xyz
-    path: /path/1699017575351
+  uuid: 36e2965e-fbcd-40ec-b70d-90640ead66b7
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇭🇰 香港3|@ripaojiedian
+  password: b3c8858a-5053-424c-b3bf-e769dc53bf56
+  port: 10001
+  server: gdyd.aikunapp.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|香港_110320027
@@ -115,22 +95,79 @@ proxies:
     headers:
       Host: n1697555557.aaigefm.cn
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇭🇰 香港5|@ripaojiedian
-  password: 20544f92a1fb
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jyn42.xjhssba.today
-    mode: websocket
-    mux: true
-    path: /vtprtcemdw
-    skip-cert-verify: false
-    tls: true
+- alterId: 64
+  cipher: auto
+  name: 14|香港_【YouTube-VV科技】
+  network: tcp
+  port: 34417
+  server: 156.245.8.247
+  tls: false
+  type: vmess
+  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇭🇰香港06
+  network: tcp
+  port: '36611'
+  server: 8h2k06.abzoones.xyz
+  servername: hk06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9e4179a4-037b-4909-91c2-0bb27c95270e
+- alterId: 0
+  cipher: auto
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #1'
+  network: ws
+  port: '443'
+  server: 159.100.206.88
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-opts:
+    headers:
+      Host: lg30.cfcdn3.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 19|HK-159.100.206.88-053
+  network: ws
   port: 443
-  server: 123.254.105.107
-  tfo: false
-  type: ss
+  server: 159.100.206.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 15,20,24,27|github.com/freefq - 香港阿里云 14
+  network: ws
+  port: '443'
+  server: n1697765772.izwhvan.cn
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ba984678-ca81-4443-a9da-58adea43d5b0
+  ws-opts:
+    headers:
+      Host: n1697765772.izwhvan.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24,25,26,27,28|14,15|香港4|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: hytron.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b24f87b1-d3d1-42d5-c909-e56ff77d4fef
+  ws-opts:
+    headers:
+      Host: hk2.daozhang.love
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25|🇭🇰 香港KT2|@ripaojiedian
@@ -149,18 +186,30 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|香港_110320001
+  name: 19|HK-167.179.32.53-084
+  network: ws
+  port: 443
+  server: 167.179.32.53
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: '20|🇭🇰 香港(油管:破解资源君2.0) #2'
   network: ws
   port: '443'
-  server: 103.232.213.241
-  servername: ''
-  tls: false
+  server: 167.179.32.53
+  tls: true
   type: vmess
-  uuid: d0fa8fa7-e217-4fb9-fed3-34c6a17851db
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: lg30.cfcdn3.xyz
+    path: /ray
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 25|🇭🇰 香港KT1|@ripaojiedian
@@ -173,6 +222,43 @@ proxies:
   server: 8.217.218.147
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇭🇰香港04 PRO
+  network: tcp
+  port: '36601'
+  server: 8h2k04.abzoones.xyz
+  servername: hk04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 9e4179a4-037b-4909-91c2-0bb27c95270e
+- alterId: 0
+  cipher: auto
+  name: 9,10,27|香港_110320005
+  network: ws
+  port: '443'
+  server: n1698814075.aaigefm.cn
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f5d1e638-f78d-4e1b-90af-cc7944ea2de0
+  ws-opts:
+    headers:
+      Host: n1698814075.aaigefm.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '14|香港_【YouTube-VV科技】 #1'
+  network: ws
+  port: 80
+  server: 103.160.204.12
+  tls: false
+  type: vmess
+  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
+  ws-opts:
+    headers:
+      Host: 18.wyhkaa0.gq
+    path: /TG:@hkaa0
 - alterId: 64
   cipher: auto
   name: '14|香港_【YouTube-VV科技】 #2'
@@ -186,27 +272,40 @@ proxies:
     headers:
       Host: www.92873889.xyz
     path: /path/1693018744512
-- alterId: 0
+- cipher: aes-128-gcm
+  name: 28|HK_speednode_0092
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: None
+    mode: http
+  port: 80
+  server: 8.217.134.91
+  type: ss
+- alterId: 64
   cipher: auto
-  name: 19|HK-167.179.32.53-084
+  name: 24|12|香港_欢迎订阅yui科技_71
   network: ws
-  port: 443
-  server: 167.179.32.53
-  skip-cert-verify: true
+  port: '30000'
+  server: 156.245.8.144
+  servername: ''
   tls: true
   type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  ws-path: /ray
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇭🇰 香港3|@ripaojiedian
-  password: b3c8858a-5053-424c-b3bf-e769dc53bf56
-  port: 10001
-  server: gdyd.aikunapp.com
-  tfo: false
-  type: ss
+  uuid: 63b4b829-7f01-4e26-b037-f04b1f098765
+  ws-opts:
+    headers:
+      Host: www.32159877.xyz
+    path: /path/1699017821148
+- alterId: 0
+  cipher: auto
+  name: 22,24|香港 04 | 1x HK PRO
+  network: tcp
+  port: '31601'
+  server: 5m4h0k04.mcfront.xyz
+  servername: hk04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 36e2965e-fbcd-40ec-b70d-90640ead66b7
 - alterId: 64
   cipher: auto
   name: 15,20,24,27|github.com/freefq - 香港  2
@@ -223,140 +322,41 @@ proxies:
     path: /path/1699017575351
 - alterId: 0
   cipher: auto
-  name: 24,25,26,27,28|14,15|香港4|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: hytron.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b24f87b1-d3d1-42d5-c909-e56ff77d4fef
-  ws-opts:
-    headers:
-      Host: hk2.daozhang.love
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇭🇰香港06
+  name: 22,24|香港 05 | 1x HK
   network: tcp
-  port: '36611'
-  server: 8h2k06.abzoones.xyz
-  servername: hk06.abpilot.xyz
+  port: '31606'
+  server: 5m4h0k05.mcfront.xyz
+  servername: hk05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3aa606a3-ed2b-4e71-b0d5-fb3bd8a127ff
-- alterId: 0
-  cipher: auto
-  name: 19|HK-159.100.206.88-053
-  network: ws
+  uuid: 36e2965e-fbcd-40ec-b70d-90640ead66b7
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇭🇰 香港5|@ripaojiedian
+  password: 20544f92a1fb
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jyn42.xjhssba.today
+    mode: websocket
+    mux: true
+    path: /vtprtcemdw
+    skip-cert-verify: false
+    tls: true
   port: 443
-  server: 159.100.206.88
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: 22,24|香港 06 | 1x HK
-  network: tcp
-  port: '31611'
-  server: 5m4h0k06.mcfront.xyz
-  servername: hk06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ef6158d8-b634-423b-bc27-f77d3a02c53e
-- alterId: 1
-  cipher: auto
-  name: '20|🇭🇰 香港(油管:破解资源君2.0) #3'
-  network: ws
-  port: '50205'
-  server: data-hk-v1.heisey.cn
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: tv.cctv.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: '14|香港_【YouTube-VV科技】 #1'
-  network: ws
-  port: 80
-  server: 103.160.204.12
-  tls: false
-  type: vmess
-  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
-  ws-opts:
-    headers:
-      Host: 18.wyhkaa0.gq
-    path: /TG:@hkaa0
+  server: 123.254.105.107
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
-  name: 24|12|香港_欢迎订阅yui科技_22
+  name: 15,20,24,27|github.com/freefq - 香港  20
   network: ws
   port: '30000'
-  server: 156.245.8.223
+  server: 156.245.8.166
   servername: ''
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
   ws-opts:
     headers:
-      Host: www.38991360.xyz
-    path: /path/1699017821148
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇭🇰香港05
-  network: tcp
-  port: '36606'
-  server: 8h2k05.abzoones.xyz
-  servername: hk05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3aa606a3-ed2b-4e71-b0d5-fb3bd8a127ff
-- alterId: 64
-  cipher: auto
-  name: 14|香港_【YouTube-VV科技】
-  network: tcp
-  port: 34417
-  server: 156.245.8.247
-  tls: false
-  type: vmess
-  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
-- alterId: 0
-  cipher: auto
-  name: '20|🇭🇰 香港(油管:破解资源君2.0) #1'
-  network: ws
-  port: '443'
-  server: 159.100.206.88
-  tls: true
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
-- cipher: aes-128-gcm
-  name: 28|HK_speednode_0092
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: None
-    mode: http
-  port: 80
-  server: 8.217.134.91
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 22,24|香港 04 | 1x HK PRO
-  network: tcp
-  port: '31601'
-  server: 5m4h0k04.mcfront.xyz
-  servername: hk04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: ef6158d8-b634-423b-bc27-f77d3a02c53e
+      Host: www.12460158.xyz
+    path: /path/1699017575351
