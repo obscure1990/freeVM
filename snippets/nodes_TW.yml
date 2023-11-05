@@ -1,11 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
+  name: 19|TW-211.72.35.110-086
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2c0afd0e-e288-4754-8d26-103f01a98e14
+  ws-headers:
+    Host: 20hk.letitbe.ink
+  ws-path: /20hk.letitbe.inkvws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
   uuid: 048b4d76-d9eb-451b-8d0c-c8a421577a77
@@ -25,16 +38,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 048b4d76-d9eb-451b-8d0c-c8a421577a77
-- alterId: 0
-  cipher: auto
   name: 22,24|台湾 04  | 1x TWN PRO
   network: tcp
   port: '31301'
@@ -43,6 +46,30 @@ proxies:
   tls: true
   type: vmess
   uuid: 048b4d76-d9eb-451b-8d0c-c8a421577a77
+- alterId: 0
+  cipher: auto
+  name: 24,25,26,27|14,15|台湾|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: hytron.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 010c265f-5455-4141-ca23-4d69357ded0d
+  ws-opts:
+    headers:
+      Host: aktw.daozhang.love
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04 PRO
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: f85873e7-ba85-44e3-b65e-fd969432ffcf
 - cipher: aes-256-gcm
   name: 25|🇹🇼 台湾2|@ripaojiedian
   password: a0068c048cb0
@@ -60,43 +87,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24,25,26,27|14,15|台湾|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: hytron.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 010c265f-5455-4141-ca23-4d69357ded0d
-  ws-opts:
-    headers:
-      Host: aktw.daozhang.love
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 19|TW-211.72.35.110-086
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2c0afd0e-e288-4754-8d26-103f01a98e14
-  ws-headers:
-    Host: 20hk.letitbe.ink
-  ws-path: /20hk.letitbe.inkvws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04 PRO
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: f85873e7-ba85-44e3-b65e-fd969432ffcf
-- alterId: 0
-  cipher: auto
   name: 11,24|🇹🇼台湾05
   network: tcp
   port: '36306'
@@ -105,6 +95,16 @@ proxies:
   tls: true
   type: vmess
   uuid: f85873e7-ba85-44e3-b65e-fd969432ffcf
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 048b4d76-d9eb-451b-8d0c-c8a421577a77
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾06
