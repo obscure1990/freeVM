@@ -1,15 +1,31 @@
 proxies:
-- name: 1,23|_CA_->_DE_
+- alterId: 64
+  cipher: auto
+  name: 1,23,24,27|_US_->_NL_
   network: ws
-  password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a
-  port: 443
-  server: 23.227.39.163
+  port: 30000
+  server: 156.225.67.106
   skip-cert-verify: true
-  sni: jde1.jsjc.sbs
-  type: trojan
-  udp: true
+  tls: true
+  type: vmess
+  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
   ws-opts:
-    path: /jsjc/de1
+    headers:
+      host: www.41758112.xyz
+    path: /path/1698671600986
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,20,24|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+  network: ws
+  port: '80'
+  server: 8.222.235.92
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      Host: warp.chigua.tk
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,9,20,24|🇺🇸 _US_美国->🇨🇦_CA_加拿大
@@ -78,19 +94,17 @@ proxies:
     headers:
       host: ca-new01.gujuji.top
     path: /
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,20,24|🇸🇬 _SG_新加坡->🇺🇸_US_美国
+- name: 1,23|_CA_->_DE_
   network: ws
-  port: '80'
-  server: 8.222.235.92
-  tls: false
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a
+  port: 443
+  server: 23.227.39.163
+  skip-cert-verify: true
+  sni: jde1.jsjc.sbs
+  type: trojan
+  udp: true
   ws-opts:
-    headers:
-      Host: warp.chigua.tk
-    path: /
+    path: /jsjc/de1
 - alterId: 64
   cipher: auto
   name: 0,2,3,4,6,9,13,15,20,24,27|🇺🇸 _US_美国->🇳🇱_NL_荷兰
@@ -103,18 +117,4 @@ proxies:
   ws-opts:
     headers:
       Host: www.41758112.xyz
-    path: /path/1698671600986
-- alterId: 64
-  cipher: auto
-  name: 1,23,24,27|_US_->_NL_
-  network: ws
-  port: 30000
-  server: 156.225.67.106
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
-  ws-opts:
-    headers:
-      host: www.41758112.xyz
     path: /path/1698671600986
