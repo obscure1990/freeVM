@@ -1,4 +1,37 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: df45071c-c948-4a7f-b5ca-cd352cf8f64a
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04 PRO
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6f77c477-44d0-40e1-937a-db3ebb13ce93
+- alterId: 0
+  cipher: auto
+  name: 19|TW-211.72.35.110-110
+  network: ws
+  port: 443
+  server: 211.72.35.110
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7
+  ws-headers:
+    Host: ru.tzccifq.ga
+  ws-path: /
 - cipher: aes-256-gcm
   name: 25|🇹🇼 台湾2|@ripaojiedian
   password: a0068c048cb0
@@ -16,31 +49,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24,25,26|14,15|台湾|@ripaojiedian
+  name: 9|台湾_110511044
   network: ws
-  port: '8080'
-  server: hytron.io
+  port: '80'
+  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
   servername: ''
   tls: false
   type: vmess
-  uuid: 010c265f-5455-4141-ca23-4d69357ded0d
+  uuid: 0876403d-5467-4d9f-8d85-23d520e22e94
   ws-opts:
     headers:
-      Host: aktw.daozhang.love
+      Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 19|TW-211.72.35.110-110
-  network: ws
-  port: 443
-  server: 211.72.35.110
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7
-  ws-headers:
-    Host: ru.tzccifq.ga
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾05
@@ -50,47 +70,7 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e61323f8-d308-4d6e-b9b6-e88032d6f8c9
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e61323f8-d308-4d6e-b9b6-e88032d6f8c9
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04 PRO
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: e61323f8-d308-4d6e-b9b6-e88032d6f8c9
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 86018fea-fc57-4306-b9e7-4dbe2ce4588b
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 04  | 1x TWN PRO
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 86018fea-fc57-4306-b9e7-4dbe2ce4588b
+  uuid: 6f77c477-44d0-40e1-937a-db3ebb13ce93
 - alterId: 0
   cipher: auto
   name: 22,24|台湾 06  | 1x TWN
@@ -100,7 +80,7 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 86018fea-fc57-4306-b9e7-4dbe2ce4588b
+  uuid: df45071c-c948-4a7f-b5ca-cd352cf8f64a
 - alterId: 0
   cipher: auto
   name: 19|TW-220.130.80.179-082
@@ -114,3 +94,37 @@ proxies:
   ws-headers:
     Host: v2ray2.udpgw.com
   ws-path: /howdy
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 04  | 1x TWN PRO
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: df45071c-c948-4a7f-b5ca-cd352cf8f64a
+- alterId: 0
+  cipher: auto
+  name: 24,25,26,27|14,15|台湾|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: hytron.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 010c265f-5455-4141-ca23-4d69357ded0d
+  ws-opts:
+    headers:
+      Host: aktw.daozhang.love
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6f77c477-44d0-40e1-937a-db3ebb13ce93
