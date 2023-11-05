@@ -1,16 +1,44 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 24,31|19|🇺🇸_US_美国->🇧🇷_BR_巴西_由快嘴科技提供;...
+  name: 13,27|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
   port: 80
-  server: sbl4.shabijichang.com
+  server: ld2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: sbl4.shabijichang.com
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,23,24|_SG_->_US_
+  network: ws
+  port: 80
+  server: 8.222.235.92
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      host: warp.chigua.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,23,24|_US_->_CA_
+  network: ws
+  port: 8080
+  server: ca-new01.gujuji.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7e77fc12-a7b0-439d-bd6a-7a1e593de5c9
+  ws-opts:
+    headers:
+      host: ca-new01.gujuji.top
     path: /
 - alterId: 64
   cipher: auto
@@ -25,6 +53,32 @@ proxies:
     headers:
       Host: www.41758112.xyz
     path: /path/1698671600986
+- alterId: 0
+  cipher: auto
+  name: 24,31|19|🇺🇸_US_美国->🇧🇷_BR_巴西_由快嘴科技提供;...
+  network: ws
+  port: 80
+  server: sbl4.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: sbl4.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24,31|19|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供;...
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,2,3,4,20,24|🇸🇬 _SG_新加坡->🇺🇸_US_美国
@@ -65,6 +119,17 @@ proxies:
     headers:
       Host: ca-new01.gujuji.top
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇮🇷_IR_伊朗->🇹🇷_TR_土耳其
+  network: ws
+  port: 55007
+  server: 176.126.120.38
+  tls: false
+  type: vmess
+  uuid: 26840da4-9dbe-476c-bc44-05ea3b7c7a87
+  ws-opts:
+    path: /
 - name: 1,23|_CA_->_DE_
   network: ws
   password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a
@@ -88,69 +153,4 @@ proxies:
   ws-opts:
     headers:
       Host: mm3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,23,24|_SG_->_US_
-  network: ws
-  port: 80
-  server: 8.222.235.92
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      host: warp.chigua.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇮🇷_IR_伊朗->🇹🇷_TR_土耳其
-  network: ws
-  port: 55007
-  server: 176.126.120.38
-  tls: false
-  type: vmess
-  uuid: 26840da4-9dbe-476c-bc44-05ea3b7c7a87
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13,27|🇺🇸_US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 80
-  server: ld2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,23,24|_US_->_CA_
-  network: ws
-  port: 8080
-  server: ca-new01.gujuji.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7e77fc12-a7b0-439d-bd6a-7a1e593de5c9
-  ws-opts:
-    headers:
-      host: ca-new01.gujuji.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,31|19|🇺🇸_US_美国->🇮🇳_IN_印度_由快嘴科技提供;...
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
     path: /
