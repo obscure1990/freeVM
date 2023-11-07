@@ -1,4 +1,21 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0040
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.195.96
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9,24|法国_110620100
+  network: tcp
+  port: '34310'
+  server: 51.210.110.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03873ff8-7e49-434e-8024-a92b6f1d2d7d
 - alterId: 0
   cipher: auto
   name: 19|FR-51.195.140.208-043
@@ -14,60 +31,32 @@ proxies:
   ws-path: /wmzmvws
 - alterId: 0
   cipher: auto
-  name: 9|法国_110620117
+  name: 18|🇫🇷_FR_法国_free4allVPN
   network: ws
-  port: '80'
-  server: fr-v.sshmax.xyz
-  servername: ''
-  tls: false
+  port: '443'
+  server: phosphorylative.aurorainiceland.com
+  servername: phosphorylative.aurorainiceland.com
+  tls: true
   type: vmess
-  uuid: 8500264f-8362-4c30-a97f-6594d8445e0b
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
   ws-opts:
     headers:
-      Host: fr-v.sshmax.xyz
-    path: /vmess
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0041
-  password: asdKkaskJKfnsa
-  port: 80
-  server: 51.158.195.96
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_110620170
-  network: tcp
-  port: '443'
-  server: 135.125.135.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0042
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.128.32.80
-  type: ss
-- cipher: aes-256-cfb
-  name: 19|FR-162.19.59.163-021
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 162.19.59.163
-  type: ss
+      Host: phosphorylative.aurorainiceland.com
+    path: /nimvws
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
+  name: 25,26|🇫🇷 法国|@ripaojiedian
   network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
+  port: 80
+  server: 13.38.23.174
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  uuid: 3a354261-a8c1-4da1-a4b1-5fd2cabc8c48
   ws-opts:
     headers:
-      Host: bl.shabijichang.com
+      Host: 13.38.23.174
     path: /
 - alterId: 0
   cipher: auto
@@ -83,6 +72,122 @@ proxies:
     headers:
       Host: 141.95.160.235
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 19|FR-57.128.45.161-081
+  network: ws
+  port: 80
+  server: 57.128.45.161
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
+  ws-headers:
+    Host: 57.128.45.161
+  ws-path: /user
+- cipher: aes-256-cfb
+  name: 19|FR-162.19.59.163-021
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 162.19.59.163
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-WS-TLS 🇫🇷 FR-146.59.12...
+  network: ws
+  port: '26830'
+  server: 146.59.124.245
+  servername: v-nl1.ngvip.net
+  tls: true
+  type: vmess
+  uuid: d7ac450b-a858-493b-8c77-d6abb58e9113
+  ws-opts:
+    headers:
+      Host: v-nl1.ngvip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_fnet00
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_110620170
+  network: tcp
+  port: '443'
+  server: 135.125.135.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
+- alterId: 0
+  cipher: auto
+  name: 20|🇫🇷 法国(油管:破解资源君2.0)
+  network: ws
+  port: '443'
+  server: 198.244.148.214
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-opts:
+    headers:
+      Host: lg30.cfcdn3.xyz
+    path: /ray
+- cipher: aes-256-cfb
+  name: 19|FR-51.158.54.209-005
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.54.209
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|法国_110620117
+  network: ws
+  port: '80'
+  server: fr-v.sshmax.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8500264f-8362-4c30-a97f-6594d8445e0b
+  ws-opts:
+    headers:
+      Host: fr-v.sshmax.xyz
+    path: /vmess
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0042
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.128.32.80
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- cipher: aes-256-cfb
+  name: 19,25,28|FR-51.158.195.96-017
+  password: asdKkaskJKfnsa
+  port: 110
+  server: 51.158.195.96
+  type: ss
 - alterId: 0
   cipher: aes-128-gcm
   name: 18|🇫🇷_FR_法国_oneclickvpnkeys
@@ -103,39 +208,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 03873ff8-7e49-434e-8024-a92b6f1d2d7d
-- cipher: aes-256-cfb
-  name: 19,25,28|FR-51.158.195.96-017
-  password: asdKkaskJKfnsa
-  port: 110
-  server: 51.158.195.96
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20|🇫🇷 法国(油管:破解资源君2.0)
-  network: ws
-  port: '443'
-  server: 198.244.148.214
-  tls: true
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -150,55 +222,12 @@ proxies:
       Host: www.49291261.xyz
     path: /path/1693992821776
 - cipher: aes-256-cfb
-  name: 19|FR-51.158.54.209-005
+  name: 28|FR_speednode_0041
   password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.54.209
-  type: ss
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0040
-  password: asdKkaskJKfnsa
-  port: 443
+  port: 80
   server: 51.158.195.96
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 19|FR-57.128.45.161-081
-  network: ws
-  port: 80
-  server: 57.128.45.161
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  ws-headers:
-    Host: 57.128.45.161
-  ws-path: /user
-- alterId: 0
-  cipher: auto
-  name: 9,24|法国_110620100
-  network: tcp
-  port: '34310'
-  server: 51.210.110.248
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03873ff8-7e49-434e-8024-a92b6f1d2d7d
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_free4allVPN
-  network: ws
-  port: '443'
-  server: phosphorylative.aurorainiceland.com
-  servername: phosphorylative.aurorainiceland.com
-  tls: true
-  type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
-  ws-opts:
-    headers:
-      Host: phosphorylative.aurorainiceland.com
-    path: /nimvws
 - alterId: 0
   cipher: auto
   name: 19|FR-51.83.97.167-093
