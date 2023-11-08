@@ -1,4 +1,36 @@
 proxies:
+- name: 1,23|_CA_
+  network: tcp
+  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
+  port: 443
+  server: 108.181.22.161
+  skip-cert-verify: true
+  sni: glc-us2.windowsupdatea.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|CA-137.184.164.233-139
+  network: ws
+  port: 80
+  server: 137.184.164.233
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb
+  ws-headers:
+    Host: 137.184.164.233
+  ws-path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_110811017
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -12,90 +44,6 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_110811002
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-065
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-112
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.49-058
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 38.114.114.49
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 24,27|12|加拿大 086
-  network: ws
-  port: 443
-  server: 104.16.67.38
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: alvvin.click
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: '24|12|Channel id: @ShadowProxy66🇨...'
-  network: ws
-  port: '443'
-  server: 162.159.134.234
-  servername: octavi.cfd
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: octavi.cfd
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 24,27|12|加拿大 093
-  network: ws
-  port: 443
-  server: 104.27.193.64
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 172dc69f-3b43-4457-8ef8-d555b2d37f4a
-  ws-opts:
-    headers:
-      Host: service4.karop.homes
-    path: /aHFYCl4zLtepo0YwKHeQ
-- alterId: 0
-  cipher: auto
-  name: 24|12|加拿大 236
-  network: ws
-  port: 443
-  server: mtnc.ircf.space
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 02DD674F-898E-4835-9958-97670C4CCA71
-  ws-opts:
-    headers:
-      Host: red-leaf-2332.walidfree20.workers.dev
-    path: /speedtest/Kansas.kotick.site
 - alterId: 0
   cipher: auto
   name: 24|12|加拿大 109
@@ -112,53 +60,32 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 19|CA-137.184.164.233-139
-  network: ws
-  port: 80
-  server: 137.184.164.233
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb
-  ws-headers:
-    Host: 137.184.164.233
-  ws-path: /vmess
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-066
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|12|加拿大 114
+  name: 24|12|加拿大 246
   network: ws
   port: 443
-  server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
+  server: bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz
   servername: ''
   tls: true
   type: vmess
   uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
   ws-opts:
     headers:
-      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
+      Host: bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz
     path: /acetaffy.top
 - alterId: 0
   cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
+  name: 9,24|加拿大_110811019
+  network: ws
+  port: '8080'
+  server: 23.227.39.84
+  servername: ''
+  tls: false
   type: vmess
-  uuid: af144a6f-7048-4242-8c64-a08d39cd0e10
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-127
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 134.195.198.95
-  type: ss
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: dongtaiwang13.dtku47.xyz
+    path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
   name: 24|12|加拿大 044
@@ -175,72 +102,52 @@ proxies:
     path: /526-dekDP6Otf
 - alterId: 0
   cipher: auto
-  name: 9,24|加拿大_110811019
+  name: 24|12|加拿大 089
   network: ws
-  port: '8080'
-  server: 23.227.39.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang13.dtku47.xyz
-    path: /1IKYjV0r/
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-121
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-054
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|12|加拿大 088
-  network: ws
-  port: 8880
-  server: ns1.v2-vip.fun
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr7.tehme100.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 0
-  cipher: auto
-  name: 9,24|加拿大_110811020
-  network: ws
-  port: '8080'
-  server: 23.227.38.86
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang13.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 1
-  cipher: auto
-  name: 24,27|12|加拿大 057
-  network: ws
-  port: 443
-  server: 172.67.179.37
+  port: 8443
+  server: 104.27.97.42
   servername: ''
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
   ws-opts:
     headers:
-      Host: octavi.cfd
-    path: linkvws
+      Host: cloudconebbb.gorgorchicken.one
+    path: /cloudconebbb
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_110811002
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 24,27|12|加拿大 093
+  network: ws
+  port: 443
+  server: 104.27.193.64
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 172dc69f-3b43-4457-8ef8-d555b2d37f4a
+  ws-opts:
+    headers:
+      Host: service4.karop.homes
+    path: /aHFYCl4zLtepo0YwKHeQ
+- alterId: 0
+  cipher: auto
+  name: 22,24|加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 023ebd73-4911-4393-acb3-5a2511b73f28
 - alterId: 0
   cipher: auto
   name: 24,27|12|加拿大 042
@@ -257,42 +164,38 @@ proxies:
     path: /cloudconebbb
 - alterId: 0
   cipher: auto
-  name: 22,24|加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 023ebd73-4911-4393-acb3-5a2511b73f28
-- alterId: 0
-  cipher: auto
-  name: 24|12|加拿大 089
+  name: 9,24|加拿大_110811020
   network: ws
-  port: 8443
-  server: 104.27.97.42
+  port: '8080'
+  server: 23.227.38.86
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: aa0c4744-9568-4bee-a08b-73668a9b2a42
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   ws-opts:
     headers:
-      Host: cloudconebbb.gorgorchicken.one
-    path: /cloudconebbb
-- alterId: 0
+      Host: dongtaiwang13.dtku47.xyz
+    path: /1IKYjV0r/
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-112
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 134.195.196.231
+  type: ss
+- alterId: 1
   cipher: auto
-  name: 24|12|加拿大 246
+  name: 24,27|12|加拿大 086
   network: ws
   port: 443
-  server: bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz
+  server: 104.16.67.38
   servername: ''
   tls: true
   type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: bdd5db87-d943-450e-99cf-bc95c28f0363.asoul-diana.xyz
-    path: /acetaffy.top
+      Host: alvvin.click
+    path: linkvws
 - cipher: aes-256-gcm
   name: 19|CA-38.114.114.49-049
   password: TEzjfAYq2IjtuoS
@@ -313,28 +216,125 @@ proxies:
     headers:
       Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-diana.xyz
     path: /acetaffy.top
-- name: 1,23|_CA_
-  network: tcp
-  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
-  port: 443
-  server: 108.181.22.161
-  skip-cert-verify: true
-  sni: glc-us2.windowsupdatea.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_110811017
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
+  name: '24|12|Channel id: @ShadowProxy66🇨...'
+  network: ws
+  port: '443'
+  server: 162.159.134.234
+  servername: octavi.cfd
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-121
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-066
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-065
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 38.114.114.19
+  type: ss
 - cipher: aes-256-gcm
   name: 19|CA-38.114.114.19-071
   password: XKFKl2rULjIp74
   port: 8009
   server: 38.114.114.19
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|加拿大 088
+  network: ws
+  port: 8880
+  server: ns1.v2-vip.fun
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr7.tehme100.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-127
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 134.195.198.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|加拿大 114
+  network: ws
+  port: 443
+  server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-diana.xyz
+    path: /acetaffy.top
+- alterId: 0
+  cipher: auto
+  name: 24|12|加拿大 236
+  network: ws
+  port: 443
+  server: mtnc.ircf.space
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+  ws-opts:
+    headers:
+      Host: red-leaf-2332.walidfree20.workers.dev
+    path: /speedtest/Kansas.kotick.site
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.49-058
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 38.114.114.49
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-054
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 38.114.114.19
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 24,27|12|加拿大 057
+  network: ws
+  port: 443
+  server: 172.67.179.37
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: af144a6f-7048-4242-8c64-a08d39cd0e10
