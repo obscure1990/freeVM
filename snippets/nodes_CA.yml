@@ -7,24 +7,33 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24|12|加拿大 125
-  network: ws
-  port: 443
-  server: de-1.8080.eu.org
-  servername: de-1.8080.eu.org
-  tls: true
+  name: 9|加拿大_110820002
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 03bad296-8170-4756-a6be-760198f13413
-  ws-opts:
-    headers:
-      Host: de-1.8080.eu.org
-    path: /xwdn8sj2aw
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-134
-  password: PCnnH6SQSnfoS27
-  port: 8090
+  name: 19|CA-134.195.196.231-125
+  password: Y6R9pAtvxxzmGC
+  port: 5000
   server: 134.195.196.231
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|CA-137.184.164.233-152
+  network: ws
+  port: 80
+  server: 137.184.164.233
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb
+  ws-headers:
+    Host: 137.184.164.233
+  ws-path: /vmess
 - alterId: 0
   cipher: auto
   name: 22,24|加拿大 02 | 1x CA
@@ -35,20 +44,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 44d2e2cc-5fb4-4804-8515-183dd74cbbf0
-- alterId: 0
-  cipher: auto
-  name: 24|12|加拿大 236
-  network: ws
-  port: 443
-  server: mtnc.ircf.space
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 02DD674F-898E-4835-9958-97670C4CCA71
-  ws-opts:
-    headers:
-      Host: red-leaf-2332.walidfree20.workers.dev
-    path: /speedtest/Kansas.kotick.site
 - alterId: 1
   cipher: auto
   name: 24,27|12|加拿大 057
@@ -63,129 +58,23 @@ proxies:
     headers:
       Host: octavi.cfd
     path: linkvws
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-079
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-067
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-125
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 134.195.196.231
-  type: ss
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-078
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.114.114.19
-  type: ss
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: 24|12|加拿大 112
+  name: 24,27|12|加拿大 094
   network: ws
   port: 443
-  server: alvvin.click
+  server: 162.159.133.234
   servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: alvvin.click
+      Host: octavi.cfd
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 19|CA-137.184.164.233-152
-  network: ws
-  port: 80
-  server: 137.184.164.233
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb
-  ws-headers:
-    Host: 137.184.164.233
-  ws-path: /vmess
-- name: 1,23|_CA_
-  network: tcp
-  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
-  port: 443
-  server: 108.181.22.161
-  skip-cert-verify: true
-  sni: glc-us2.windowsupdatea.com
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.19-084
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 38.114.114.19
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_110820002
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 24,27|12|加拿大 093
-  network: ws
-  port: 443
-  server: 104.27.193.64
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 172dc69f-3b43-4457-8ef8-d555b2d37f4a
-  ws-opts:
-    headers:
-      Host: service4.karop.homes
-    path: /aHFYCl4zLtepo0YwKHeQ
-- alterId: 0
-  cipher: auto
-  name: 24|12|加拿大 109
-  network: ws
-  port: 443
-  server: waynn.makeup
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: linkvws
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.49-071
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 38.114.114.49
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: a8c88664-743f-4a7d-9e78-b5759ec1312c
-- alterId: 0
-  cipher: auto
-  name: 24,27|12|加拿大 253
+  name: 24|12|加拿大 243
   network: ws
   port: 443
   server: 162.159.130.234
@@ -199,37 +88,17 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: '24|12|Channel id: @ShadowProxy66🇨...'
+  name: 24,27|12|加拿大 059
   network: ws
-  port: '443'
-  server: 162.159.134.234
-  servername: octavi.cfd
+  port: 443
+  server: 104.31.16.120
+  servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: octavi.cfd
-    path: linkvws
-- cipher: aes-256-gcm
-  name: 19|CA-38.114.114.49-062
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 38.114.114.49
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: '24|12|Channel id: @ShadowProxy66🇨... #1'
-  network: ws
-  port: '443'
-  server: www.speedtest.net
-  servername: ophelia.mom
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ophelia.mom
+      Host: edeen.makeup
     path: linkvws
 - alterId: 0
   cipher: auto
@@ -244,6 +113,31 @@ proxies:
     headers:
       Host: 3.freek1.xyz
     path: /dongtaiwang.com
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.49-071
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 38.114.114.49
+  type: ss
+- name: 1,23|_CA_
+  network: tcp
+  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
+  port: 443
+  server: 108.181.22.161
+  skip-cert-verify: true
+  sni: glc-us2.windowsupdatea.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 4c104ac5-1b09-459e-9e7b-cf2cb7bfdcc9
 - alterId: 0
   cipher: auto
   name: 9|加拿大_110820029
@@ -254,3 +148,109 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-078
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-134
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.231
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-079
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.114.114.19
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '24|12|Channel id: @ShadowProxy66🇨...'
+  network: ws
+  port: '443'
+  server: 162.159.134.234
+  servername: octavi.cfd
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 24|12|加拿大 112
+  network: ws
+  port: 443
+  server: alvvin.click
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: alvvin.click
+    path: linkvws
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-084
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 38.114.114.19
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24|12|加拿大 234
+  network: ws
+  port: 443
+  server: 172.67.180.138
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+  ws-opts:
+    headers:
+      Host: Lille.bobbykotick.rip
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  name: 24|12|加拿大 236
+  network: ws
+  port: 443
+  server: mtnc.ircf.space
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 02DD674F-898E-4835-9958-97670C4CCA71
+  ws-opts:
+    headers:
+      Host: red-leaf-2332.walidfree20.workers.dev
+    path: /speedtest/Kansas.kotick.site
+- alterId: 0
+  cipher: auto
+  name: 24|12|加拿大 125
+  network: ws
+  port: 443
+  server: de-1.8080.eu.org
+  servername: de-1.8080.eu.org
+  tls: true
+  type: vmess
+  uuid: 03bad296-8170-4756-a6be-760198f13413
+  ws-opts:
+    headers:
+      Host: de-1.8080.eu.org
+    path: /xwdn8sj2aw
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.49-062
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 38.114.114.49
+  type: ss
+- cipher: aes-256-gcm
+  name: 19|CA-38.114.114.19-067
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 38.114.114.19
+  type: ss
