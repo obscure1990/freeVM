@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 25|🇹🇼 台湾|@ripaojiedian
-  password: 544a2f10-2393-3735-b9f8-35fa035ff552
-  port: 20006
-  server: g03.tw01-ae5.entry.hsrtd.club
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾04 PRO
@@ -15,27 +8,44 @@ proxies:
   servername: tw04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1dabead1-5268-4a34-b712-0da5050963e2
+  uuid: af144a6f-7048-4242-8c64-a08d39cd0e10
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾06
-  network: tcp
-  port: '36311'
-  server: 8t6w06.abzoones.xyz
-  servername: tw06.abpilot.xyz
-  tls: true
+  name: 27|台湾混合· 01 · 线路1
+  network: ws
+  port: '30058'
+  server: v02.gutingting.com
+  tls: false
   type: vmess
-  uuid: 1dabead1-5268-4a34-b712-0da5050963e2
+  uuid: 0259f763-c4f3-4a7b-a028-589d9102f95d
+  ws-opts:
+    headers:
+      Host: sh01.fastcloud.club
+    path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 04  | 1x TWN PRO
+  name: 22,24|台湾 06  | 1x TWN
   network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4603448d-a6bc-4c2e-b07b-73d34935c917
+  uuid: 023ebd73-4911-4393-acb3-5a2511b73f28
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_110811036
+  network: ws
+  port: '80'
+  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0876403d-5467-4d9f-8d85-23d520e22e94
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾05
@@ -45,52 +55,22 @@ proxies:
   servername: tw05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1dabead1-5268-4a34-b712-0da5050963e2
-- name: 28|TW_speednode_0087
-  network: tcp
-  password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
-  port: 443
-  server: download1tw.windowsupdatea.com
-  skip-cert-verify: true
-  sni: glc-tw1.windowsupdatea.com
-  type: trojan
-  udp: true
+  uuid: af144a6f-7048-4242-8c64-a08d39cd0e10
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 05  | 1x TWN
+  name: 22,24|台湾 04  | 1x TWN PRO
   network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4603448d-a6bc-4c2e-b07b-73d34935c917
-- alterId: 0
-  cipher: auto
-  name: 27|台湾Hinet· 01 · 线路1
-  network: ws
-  port: '30064'
-  server: v01.gutingting.com
-  tls: false
-  type: vmess
-  uuid: 0259f763-c4f3-4a7b-a028-589d9102f95d
-  ws-opts:
-    headers:
-      Host: sh01.fastcloud.club
-    path: /aceamedv
+  uuid: 023ebd73-4911-4393-acb3-5a2511b73f28
 - cipher: aes-256-gcm
-  name: 25|🇹🇼 台湾2|@ripaojiedian
-  password: a0068c048cb0
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: fn600mtw005.testnewline.info
-    mode: websocket
-    mux: true
-    path: /gfrotntnxv
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: fn600mtw005.testnewline.info
+  name: 25|🇹🇼 台湾|@ripaojiedian
+  password: 544a2f10-2393-3735-b9f8-35fa035ff552
+  port: 20006
+  server: g03.tw01-ae5.entry.hsrtd.club
   tfo: false
   type: ss
 - alterId: 0
@@ -108,10 +88,10 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: 27|台湾混合· 01 · 线路1
+  name: 27|台湾Hinet· 01 · 线路1
   network: ws
-  port: '30058'
-  server: v02.gutingting.com
+  port: '30064'
+  server: v01.gutingting.com
   tls: false
   type: vmess
   uuid: 0259f763-c4f3-4a7b-a028-589d9102f95d
@@ -134,11 +114,36 @@ proxies:
     path: /aceamedv
 - alterId: 0
   cipher: auto
-  name: 22,24|台湾 06  | 1x TWN
+  name: 22,24|台湾 05  | 1x TWN
   network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4603448d-a6bc-4c2e-b07b-73d34935c917
+  uuid: 023ebd73-4911-4393-acb3-5a2511b73f28
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾06
+  network: tcp
+  port: '36311'
+  server: 8t6w06.abzoones.xyz
+  servername: tw06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: af144a6f-7048-4242-8c64-a08d39cd0e10
+- cipher: aes-256-gcm
+  name: 25|🇹🇼 台湾2|@ripaojiedian
+  password: a0068c048cb0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: fn600mtw005.testnewline.info
+    mode: websocket
+    mux: true
+    path: /gfrotntnxv
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: fn600mtw005.testnewline.info
+  tfo: false
+  type: ss
