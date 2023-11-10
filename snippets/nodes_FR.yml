@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|FR-152.228.191.232-108
+  name: 19|FR-57.128.45.161-065
   network: ws
-  port: 443
-  server: 152.228.191.232
+  port: 80
+  server: 57.128.45.161
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
   ws-headers:
-    Host: lg30.cfcdn3.xyz
-  ws-path: /ray
+    Host: 57.128.45.161
+  ws-path: /user
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
@@ -28,6 +28,36 @@ proxies:
     path: /nimvws
 - alterId: 0
   cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 9|法国_111020191
+  network: tcp
+  port: '443'
+  server: 135.125.135.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
+- cipher: aes-256-cfb
+  name: 19|FR-51.158.54.209-002
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.54.209
+  type: ss
+- alterId: 0
+  cipher: auto
   name: 18|🇫🇷_FR_法国_fnet00
   network: ws
   port: '80'
@@ -41,47 +71,6 @@ proxies:
       Host: bl.shabijichang.com
     path: /
 - alterId: 0
-  cipher: auto
-  name: 24|12|🔒 VM-TCP-NONE 🇫🇷 FR-94.23.1...
-  network: tcp
-  port: 59972
-  server: 94.23.121.193
-  tls: false
-  type: vmess
-  uuid: 2e76958a-90fb-4c05-b5a4-751739387b19
-- alterId: 64
-  cipher: auto
-  name: 14|法国_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 156.249.18.25
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.49291261.xyz
-    path: /path/1693992821776
-- alterId: 0
-  cipher: auto
-  name: 19|FR-57.128.45.161-065
-  network: ws
-  port: 80
-  server: 57.128.45.161
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  ws-headers:
-    Host: 57.128.45.161
-  ws-path: /user
-- cipher: aes-256-cfb
-  name: 19|FR-51.158.54.209-002
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 51.158.54.209
-  type: ss
-- alterId: 0
   cipher: aes-128-gcm
   name: 18|🇫🇷_FR_法国_oneclickvpnkeys
   network: tcp
@@ -91,16 +80,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_111020191
-  network: tcp
-  port: '443'
-  server: 135.125.135.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
 - alterId: 0
   cipher: auto
   name: 19|FR-51.195.140.208-098
@@ -127,17 +106,38 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
     path: /ray
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
+  name: 14|法国_【YouTube-VV科技】
   network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
-  tls: false
+  port: 443
+  server: 156.249.18.25
+  tls: true
   type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: bl.shabijichang.com
-    path: /
+      Host: www.49291261.xyz
+    path: /path/1693992821776
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-TCP-NONE 🇫🇷 FR-94.23.1...
+  network: tcp
+  port: 59972
+  server: 94.23.121.193
+  tls: false
+  type: vmess
+  uuid: 2e76958a-90fb-4c05-b5a4-751739387b19
+- alterId: 0
+  cipher: auto
+  name: 19|FR-152.228.191.232-108
+  network: ws
+  port: 443
+  server: 152.228.191.232
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  ws-path: /ray
