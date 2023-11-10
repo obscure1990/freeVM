@@ -8,7 +8,49 @@ proxies:
   servername: tw06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0497c253-3826-4142-8b4f-e028c57a85f4
+  uuid: 7f47037d-003b-4fd4-b105-1ab207f9cb3c
+- cipher: rc4-md5
+  name: 25|🇹🇼 台湾|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: 72106203723.www.gov.hk
+  password: di15PV
+  port: 1130
+  protocol: auth_aes128_md5
+  protocol-param: 203723:kS6Oji
+  server: oracle.accessconnect.cc
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 27|Scloud台湾03—原生IP|0.5x
+  network: tcp
+  port: '26041'
+  server: gz.daxun.cyou
+  tls: false
+  type: vmess
+  uuid: 258281a2-0ece-4eba-90f3-155306faa292
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_111020006
+  network: ws
+  port: '80'
+  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7a0816b2-3af5-4739-9784-941b75150e98
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 27|台湾hinet01|优选原生IP|1x
+  network: tcp
+  port: '38015'
+  server: gz.daxun.cyou
+  tls: false
+  type: vmess
+  uuid: 258281a2-0ece-4eba-90f3-155306faa292
 - alterId: 0
   cipher: auto
   name: 11,24|🇹🇼台湾06
@@ -21,13 +63,23 @@ proxies:
   uuid: 96245100-98cd-41b4-9277-290eae77e96a
 - alterId: 0
   cipher: auto
-  name: 27|Scloud台湾02-原生IP|0.5x
+  name: 27|Scloud台湾01—可下载|0.5x
   network: tcp
-  port: '38011'
+  port: '26040'
   server: gz.daxun.cyou
   tls: false
   type: vmess
   uuid: 258281a2-0ece-4eba-90f3-155306faa292
+- alterId: 0
+  cipher: auto
+  name: 22,24|台湾 04  | 1x TWN PRO
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 7f47037d-003b-4fd4-b105-1ab207f9cb3c
 - cipher: aes-256-gcm
   name: 25|🇹🇼 台湾2|@ripaojiedian
   password: a0068c048cb0
@@ -45,100 +97,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,24|🇹🇼台湾05
-  network: tcp
-  port: '36306'
-  server: 8t6w05.abzoones.xyz
-  servername: tw05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 96245100-98cd-41b4-9277-290eae77e96a
-- alterId: 0
-  cipher: auto
-  name: 19|TW-61.228.88.29-198
-  network: ws
-  port: 80
-  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a0816b2-3af5-4739-9784-941b75150e98
-  ws-headers:
-    Host: tms.dingtalk.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_111020006
-  network: ws
-  port: '80'
-  server: 80412c42-0fb8-6b74-1eb8-d58b05e67e50.nachoneko.ltd
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a0816b2-3af5-4739-9784-941b75150e98
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 22,24|台湾 04  | 1x TWN PRO
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0497c253-3826-4142-8b4f-e028c57a85f4
-- alterId: 0
-  cipher: auto
-  name: 27|Scloud台湾03—原生IP|0.5x
-  network: tcp
-  port: '26041'
-  server: gz.daxun.cyou
-  tls: false
-  type: vmess
-  uuid: 258281a2-0ece-4eba-90f3-155306faa292
-- alterId: 0
-  cipher: auto
-  name: 27|Scloud台湾01—可下载|0.5x
-  network: tcp
-  port: '26040'
-  server: gz.daxun.cyou
-  tls: false
-  type: vmess
-  uuid: 258281a2-0ece-4eba-90f3-155306faa292
-- cipher: rc4-md5
-  name: 25|🇹🇼 台湾|@ripaojiedian
-  obfs: tls1.2_ticket_auth
-  obfs-param: 72106203723.www.gov.hk
-  password: di15PV
-  port: 1130
-  protocol: auth_aes128_md5
-  protocol-param: 203723:kS6Oji
-  server: oracle.accessconnect.cc
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 27|台湾hinet01|优选原生IP|1x
-  network: tcp
-  port: '38015'
-  server: gz.daxun.cyou
-  tls: false
-  type: vmess
-  uuid: 258281a2-0ece-4eba-90f3-155306faa292
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇹🇼台湾04 PRO
-  network: tcp
-  port: '36301'
-  server: 8t6w04.abzoones.xyz
-  servername: tw04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 96245100-98cd-41b4-9277-290eae77e96a
-- alterId: 0
-  cipher: auto
   name: 22,24|台湾 05  | 1x TWN
   network: tcp
   port: '31306'
@@ -146,7 +104,7 @@ proxies:
   servername: tw05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0497c253-3826-4142-8b4f-e028c57a85f4
+  uuid: 7f47037d-003b-4fd4-b105-1ab207f9cb3c
 - alterId: 0
   cipher: auto
   name: 27|🇹🇼 Taiwan 2
@@ -160,3 +118,32 @@ proxies:
     headers:
       Host: cf-tw.fanqiecloud.top
     path: /sssddd
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾04 PRO
+  network: tcp
+  port: '36301'
+  server: 8t6w04.abzoones.xyz
+  servername: tw04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 96245100-98cd-41b4-9277-290eae77e96a
+- alterId: 0
+  cipher: auto
+  name: 27|Scloud台湾02-原生IP|0.5x
+  network: tcp
+  port: '38011'
+  server: gz.daxun.cyou
+  tls: false
+  type: vmess
+  uuid: 258281a2-0ece-4eba-90f3-155306faa292
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇹🇼台湾05
+  network: tcp
+  port: '36306'
+  server: 8t6w05.abzoones.xyz
+  servername: tw05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 96245100-98cd-41b4-9277-290eae77e96a
