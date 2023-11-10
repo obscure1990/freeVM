@@ -1,17 +1,28 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: 20|🇫🇷 法国(油管:破解资源君2.0)
-  network: ws
+  cipher: aes-128-gcm
+  name: 9|法国_111020191
+  network: tcp
   port: '443'
-  server: 198.244.148.214
+  server: 135.125.135.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
+- alterId: 0
+  cipher: auto
+  name: 24|12|🔒 VM-WS-TLS 🇫🇷 FR-146.59.12...
+  network: ws
+  port: '26830'
+  server: 146.59.124.245
+  servername: v-nl1.ngvip.net
   tls: true
   type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  uuid: d7ac450b-a858-493b-8c77-d6abb58e9113
   ws-opts:
     headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
+      Host: v-nl1.ngvip.net
+    path: /
 - alterId: 0
   cipher: aes-128-gcm
   name: 18|🇫🇷_FR_法国_oneclickvpnkeys
@@ -37,58 +48,30 @@ proxies:
     path: /path/1693992821776
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_free4allVPN
+  name: 20|🇫🇷 法国(油管:破解资源君2.0)
   network: ws
   port: '443'
-  server: phosphorylative.aurorainiceland.com
-  servername: phosphorylative.aurorainiceland.com
+  server: 198.244.148.214
   tls: true
   type: vmess
-  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   ws-opts:
     headers:
-      Host: phosphorylative.aurorainiceland.com
-    path: /nimvws
+      Host: lg30.cfcdn3.xyz
+    path: /ray
 - alterId: 0
   cipher: auto
-  name: 19|FR-57.128.45.161-065
-  network: ws
-  port: 80
-  server: 57.128.45.161
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  ws-headers:
-    Host: 57.128.45.161
-  ws-path: /user
-- alterId: 0
-  cipher: auto
-  name: 19|FR-51.195.140.208-098
+  name: 19|FR-152.228.191.232-108
   network: ws
   port: 443
-  server: univstar.51.195.140.208.sslip.io
+  server: 152.228.191.232
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   ws-headers:
-    Host: goodfamily19.site
-  ws-path: /wmzmvws
+    Host: lg30.cfcdn3.xyz
+  ws-path: /ray
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_CollectorDonate
@@ -105,44 +88,61 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|FR-152.228.191.232-108
+  name: 19|FR-57.128.45.161-065
+  network: ws
+  port: 80
+  server: 57.128.45.161
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
+  ws-headers:
+    Host: 57.128.45.161
+  ws-path: /user
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_free4allVPN
+  network: ws
+  port: '443'
+  server: phosphorylative.aurorainiceland.com
+  servername: phosphorylative.aurorainiceland.com
+  tls: true
+  type: vmess
+  uuid: 6388bd92-6cbc-4b72-a9a6-931f071d0ffa
+  ws-opts:
+    headers:
+      Host: phosphorylative.aurorainiceland.com
+    path: /nimvws
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_fnet00
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|FR-51.195.140.208-098
   network: ws
   port: 443
-  server: 152.228.191.232
+  server: univstar.51.195.140.208.sslip.io
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4
   ws-headers:
-    Host: lg30.cfcdn3.xyz
-  ws-path: /ray
+    Host: goodfamily19.site
+  ws-path: /wmzmvws
 - cipher: aes-256-cfb
   name: 19|FR-51.158.54.209-002
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209
   type: ss
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 9|法国_111020191
-  network: tcp
-  port: '443'
-  server: 135.125.135.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
-- alterId: 0
-  cipher: auto
-  name: 24|12|🔒 VM-WS-TLS 🇫🇷 FR-146.59.12...
-  network: ws
-  port: '26830'
-  server: 146.59.124.245
-  servername: v-nl1.ngvip.net
-  tls: true
-  type: vmess
-  uuid: d7ac450b-a858-493b-8c77-d6abb58e9113
-  ws-opts:
-    headers:
-      Host: v-nl1.ngvip.net
-    path: /
