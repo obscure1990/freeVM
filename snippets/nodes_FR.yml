@@ -1,19 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|FR-57.128.45.161-055
-  network: ws
-  port: 80
-  server: 57.128.45.161
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  ws-headers:
-    Host: 57.128.45.161
-  ws-path: /user
-- alterId: 0
-  cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
   network: ws
   port: '443'
@@ -26,12 +13,6 @@ proxies:
     headers:
       Host: phosphorylative.aurorainiceland.com
     path: /nimvws
-- cipher: aes-256-cfb
-  name: 28|FR_speednode_0048
-  password: asdKkaskJKfnsa
-  port: 443
-  server: 57.128.32.81
-  type: ss
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -55,6 +36,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 2ebed3b4-de9b-437c-a962-5ce12523b0f0
+- name: 1,23|_FR_
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 35.181.201.102
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 19|FR-51.195.140.208-049
@@ -75,29 +65,19 @@ proxies:
   server: 146.59.110.240
   type: ss
   udp: true
-- name: 1,23|_FR_
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 35.181.201.102
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
+  name: 19|FR-57.128.45.161-055
   network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
+  port: 80
+  server: 57.128.45.161
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
+  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
+  ws-headers:
+    Host: 57.128.45.161
+  ws-path: /user
 - alterId: 64
   cipher: auto
   name: 24|12|法国_欢迎订阅yui科技_35
@@ -136,3 +116,23 @@ proxies:
     headers:
       Host: bl.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- cipher: aes-256-cfb
+  name: 28|FR_speednode_0048
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 57.128.32.81
+  type: ss
