@@ -1,19 +1,14 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 25|🇯🇵 日本KT2|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 30009
-  server: 183.232.170.32
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9,24|日本_111509006
+  network: tcp
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
   name: 20|🇯🇵 日本(油管:破解资源君2.0)
@@ -29,91 +24,20 @@ proxies:
     path: /JPZZ02
 - alterId: 64
   cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-45.88.43....
+  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-140.83.63...
   network: tcp
-  port: '51801'
-  server: 45.88.43.143
-  servername: ''
+  port: 24445
+  server: 140.83.63.38
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: 25,28|🇯🇵 日本KT|@ripaojiedian
-  password: g12sQi#ss#&1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 20022
-  server: 183.232.170.32
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #2'
-  network: ws
-  port: '20631'
-  server: gz.daxun.cyou
-  tls: false
-  type: vmess
-  uuid: fde7ae9b-c0c8-4ec1-9300-299450a4a304
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /dj01
-- alterId: 0
-  cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #3'
-  network: ws
-  port: '20631'
-  server: gz.daxun.cyou
-  tls: false
-  type: vmess
-  uuid: fde7ae9b-c0c8-4ec1-9300-299450a4a304
-  ws-opts:
-    headers:
-      Host: www.baidu.com
-    path: /JPZZ03
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇯🇵白嫖-061
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 0
-  cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #5'
-  network: ws
-  port: '443'
-  server: 47.91.23.182
-  tls: true
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-opts:
-    headers:
-      Host: lg30.cfcdn3.xyz
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 19|JP-47.91.23.182-057
-  network: ws
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- cipher: aes-256-cfb
+  name: 28|JP_speednode_0086
+  password: amazonskr05
   port: 443
-  server: 47.91.23.182
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  ws-headers:
-    Host: lg30.cfcdn3.xyz
-  ws-path: /ray
+  server: 18.183.109.230
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 24,26,27|15|日本|浏览器输入 翻墙.com
@@ -138,59 +62,83 @@ proxies:
   tls: true
   type: vmess
   uuid: db9b9fbf-49d2-497f-9894-a1087426fb7c
+- cipher: aes-256-cfb
+  name: 19|JP-54.199.83.239-192
+  password: doub.io
+  port: 2333
+  server: 54.199.83.239
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 28|JP_speednode_0089
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #3'
   network: ws
-  port: 10260
-  server: tk-007.xiaoxiaobujidao.xyz
-  skip-cert-verify: true
+  port: '20631'
+  server: gz.daxun.cyou
+  tls: false
+  type: vmess
+  uuid: fde7ae9b-c0c8-4ec1-9300-299450a4a304
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /JPZZ03
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本04 PRO
+  network: tcp
+  port: '36116'
+  server: 1j8p04.abzoones.xyz
+  servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  udp: true
-  uuid: 651a546e-9549-303b-af13-56c9d61b012d
-  ws-opts:
-    headers:
-      Host: tk-007.xiaoxiaobujidao.xyz
-    path: /xiaodao?ed=2048
-- cipher: aes-256-cfb
-  name: 28|JP_speednode_0087
-  password: amazonskr05
-  port: 443
-  server: 13.230.251.10
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-140.83.63...
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+  uuid: db9b9fbf-49d2-497f-9894-a1087426fb7c
 - alterId: 0
   cipher: auto
-  name: 25,26|🇯🇵 日本|低价实惠 翻墙.com
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #4'
   network: ws
-  port: 8880
-  server: 25.namesilo123.top
-  skip-cert-verify: false
-  tfo: false
+  port: '20631'
+  server: gz.daxun.cyou
   tls: false
   type: vmess
-  uuid: 6b56be2c-4aaf-4177-8218-fca4102fd3cd
+  uuid: fde7ae9b-c0c8-4ec1-9300-299450a4a304
   ws-opts:
     headers:
-      Host: japan.sanfen002.top
-    path: /grdohhgrdh4hhhhhj?ed
-- cipher: aes-256-cfb
-  name: 25|🇯🇵 日本特殊|浏览器输入 翻墙.com
-  password: amazonskr05
-  port: 443
-  server: 52.194.205.164
+      Host: www.baidu.com
+    path: /jp01
+- cipher: aes-128-gcm
+  name: 25|🇯🇵 日本KT2|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 30009
+  server: 183.232.170.32
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 9,24|日本_111509023
+  network: tcp
+  port: '20081'
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- alterId: 64
+  cipher: auto
+  name: 9|日本_111509036
+  network: ''
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 24,25|14|🇯🇵 日本|浏览器输入 翻墙.com
@@ -206,69 +154,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24|12|🔒 VM-TCP-NA 🇯🇵 JP-152.69.19...
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇯🇵日本04 PRO
-  network: tcp
-  port: '36116'
-  server: 1j8p04.abzoones.xyz
-  servername: jp04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: db9b9fbf-49d2-497f-9894-a1087426fb7c
-- cipher: aes-256-cfb
-  name: 19|JP-54.199.83.239-192
-  password: doub.io
-  port: 2333
-  server: 54.199.83.239
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #7'
+  name: 25,26|🇯🇵 日本|低价实惠 翻墙.com
   network: ws
-  port: '80'
-  server: 8.209.240.54
+  port: 8880
+  server: 25.namesilo123.top
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  uuid: 6b56be2c-4aaf-4177-8218-fca4102fd3cd
   ws-opts:
     headers:
-      Host: sg3-v2ray.sshkit.org
-    path: /sshkit/1736960111/635cb6dd4206c/
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 05  | 1x JP
-  network: tcp
-  port: '31106'
-  server: 6w7j3p05.mcfront.xyz
-  servername: jp05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 591fe9fa-bc55-4b5f-be94-9cc3597d397b
-- cipher: aes-256-cfb
-  name: 28|JP_speednode_0086
-  password: amazonskr05
-  port: 443
-  server: 18.183.109.230
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 22,24|日本 04  | 1x JP PRO
-  network: tcp
-  port: '31116'
-  server: 6w7j3p04.mcfront.xyz
-  servername: jp04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 591fe9fa-bc55-4b5f-be94-9cc3597d397b
+      Host: japan.sanfen002.top
+    path: /grdohhgrdh4hhhhhj?ed
 - alterId: 0
   cipher: auto
   name: '20|🇯🇵 日本(油管:破解资源君2.0) #6'
@@ -284,17 +182,180 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: '20|🇯🇵 日本(油管:破解资源君2.0) #4'
-  network: ws
-  port: '20631'
-  server: gz.daxun.cyou
+  name: 22,24|日本 05  | 1x JP
+  network: tcp
+  port: '31106'
+  server: 6w7j3p05.mcfront.xyz
+  servername: jp05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 42c9e145-553e-450d-8c44-387658d1a6da
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 06  | 1x JP
+  network: tcp
+  port: '31111'
+  server: 6w7j3p06.mcfront.xyz
+  servername: jp06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 42c9e145-553e-450d-8c44-387658d1a6da
+- alterId: 64
+  cipher: auto
+  name: 9,24|日本_111509038
+  network: tcp
+  port: '51801'
+  server: 45.88.43.143
+  servername: ''
   tls: false
   type: vmess
-  uuid: fde7ae9b-c0c8-4ec1-9300-299450a4a304
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #5'
+  network: ws
+  port: '443'
+  server: 47.91.23.182
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   ws-opts:
     headers:
-      Host: www.baidu.com
-    path: /jp01
+      Host: lg30.cfcdn3.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 9|日本_111509011
+  network: ''
+  port: '1069'
+  server: 152.69.197.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: 22,24|日本 04  | 1x JP PRO
+  network: tcp
+  port: '31116'
+  server: 6w7j3p04.mcfront.xyz
+  servername: jp04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 42c9e145-553e-450d-8c44-387658d1a6da
+- cipher: aes-256-cfb
+  name: 25|🇯🇵 日本特殊|浏览器输入 翻墙.com
+  password: amazonskr05
+  port: 443
+  server: 52.194.205.164
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|日本_111509035
+  network: ''
+  port: '20081'
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- cipher: aes-256-cfb
+  name: 28|JP_speednode_0087
+  password: amazonskr05
+  port: 443
+  server: 13.230.251.10
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 19|JP-8.209.240.54-059
+  network: ws
+  port: 80
+  server: 8.209.240.54
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  ws-headers:
+    Host: sg3-v2ray.sshkit.org
+  ws-path: /sshkit/1736960111/635cb6dd4206c/
+- cipher: aes-128-gcm
+  name: 25,28|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 20022
+  server: 183.232.170.32
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 9|日本_111509050
+  network: ''
+  port: '51801'
+  server: 45.88.43.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #7'
+  network: ws
+  port: '80'
+  server: 8.209.240.54
+  tls: false
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  ws-opts:
+    headers:
+      Host: sg3-v2ray.sshkit.org
+    path: /sshkit/1736960111/635cb6dd4206c/
+- alterId: 0
+  cipher: auto
+  name: 28|JP_speednode_0089
+  network: ws
+  port: 10260
+  server: tk-007.xiaoxiaobujidao.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 651a546e-9549-303b-af13-56c9d61b012d
+  ws-opts:
+    headers:
+      Host: tk-007.xiaoxiaobujidao.xyz
+    path: /xiaodao?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 19|JP-47.91.23.182-057
+  network: ws
+  port: 443
+  server: 47.91.23.182
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇯🇵日本06
+  network: tcp
+  port: '36111'
+  server: 1j8p06.abzoones.xyz
+  servername: jp06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: db9b9fbf-49d2-497f-9894-a1087426fb7c
 - alterId: 0
   cipher: auto
   name: '20|🇯🇵 日本(油管:破解资源君2.0) #1'
@@ -310,34 +371,24 @@ proxies:
     path: /JPZZ01
 - alterId: 0
   cipher: auto
-  name: 22,24|日本 06  | 1x JP
-  network: tcp
-  port: '31111'
-  server: 6w7j3p06.mcfront.xyz
-  servername: jp06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 591fe9fa-bc55-4b5f-be94-9cc3597d397b
-- alterId: 0
-  cipher: auto
-  name: 19|JP-8.209.240.54-059
+  name: '20|🇯🇵 日本(油管:破解资源君2.0) #2'
   network: ws
-  port: 80
-  server: 8.209.240.54
-  skip-cert-verify: true
+  port: '20631'
+  server: gz.daxun.cyou
   tls: false
   type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  ws-headers:
-    Host: sg3-v2ray.sshkit.org
-  ws-path: /sshkit/1736960111/635cb6dd4206c/
-- alterId: 0
+  uuid: fde7ae9b-c0c8-4ec1-9300-299450a4a304
+  ws-opts:
+    headers:
+      Host: www.baidu.com
+    path: /dj01
+- alterId: 64
   cipher: auto
-  name: 11,24|🇯🇵日本06
+  name: 9|日本_111509048
   network: tcp
-  port: '36111'
-  server: 1j8p06.abzoones.xyz
-  servername: jp06.abpilot.xyz
-  tls: true
+  port: '51801'
+  server: 45.88.43.163
+  servername: ''
+  tls: false
   type: vmess
-  uuid: db9b9fbf-49d2-497f-9894-a1087426fb7c
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
