@@ -1,39 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 28|TW_speednode_0088
+  name: 12,24|台湾省中华电信 16
   network: ws
   port: 443
-  server: b21.ntbq.dynu.net
+  server: b24.ntbq.dynu.net
   servername: ''
-  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: d201923c-daa9-4459-8e98-9b3ea0435926
   ws-opts:
     headers:
-      host: b21.ntbq.dynu.net
-    path: /b21
-- alterId: 0
-  cipher: auto
-  name: 22,24|【BGP】台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0e62586c-8689-44d0-a746-18a31588a98b
-- alterId: 0
-  cipher: auto
-  name: 22,24|【BGP】台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 0e62586c-8689-44d0-a746-18a31588a98b
+      Host: b24.ntbq.dynu.net
+    path: /b24
 - alterId: 0
   cipher: auto
   name: 22,24|【BGP】台湾 05  | 1x TWN
@@ -44,47 +23,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 0e62586c-8689-44d0-a746-18a31588a98b
-- alterId: 0
-  cipher: auto
-  name: 19|TW-220.130.80.179-035
-  network: ws
-  port: 443
-  server: 220.130.80.179
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 70206490-8292-4242-b263-e7d11589362e
-  ws-headers:
-    Host: wx.adbse.xyz
-  ws-path: /down
-- alterId: 0
-  cipher: auto
-  name: 24,25|14|🇹🇼 台湾|@ripaojiedian
-  network: ws
-  port: 443
-  server: b23.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8
-  ws-opts:
-    headers:
-      Host: b23.ntbq.dynu.net
-    path: /b23
-- cipher: aes-256-gcm
-  name: 25|🇹🇼 台湾2|@ripaojiedian
-  password: a0068c048cb0
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: fn600mtw005.testnewline.info
-    mode: websocket
-    mux: true
-    path: /gfrotntnxv
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: fn600mtw005.testnewline.info
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 28|TW_speednode_0086
@@ -102,20 +40,6 @@ proxies:
     path: /vbub2
 - alterId: 0
   cipher: auto
-  name: 12,24|台湾省中华电信 16
-  network: ws
-  port: 443
-  server: b24.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d201923c-daa9-4459-8e98-9b3ea0435926
-  ws-opts:
-    headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
-- alterId: 0
-  cipher: auto
   name: 28|TW_speednode_0087
   network: ws
   port: 443
@@ -129,6 +53,72 @@ proxies:
     headers:
       host: tc12.kq1.dynu.net
     path: /vbub2
+- alterId: 0
+  cipher: auto
+  name: 28|TW_speednode_0088
+  network: ws
+  port: 443
+  server: b21.ntbq.dynu.net
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d201923c-daa9-4459-8e98-9b3ea0435926
+  ws-opts:
+    headers:
+      host: b21.ntbq.dynu.net
+    path: /b21
+- cipher: aes-256-gcm
+  name: 25|🇹🇼 台湾2|@ripaojiedian
+  password: a0068c048cb0
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: fn600mtw005.testnewline.info
+    mode: websocket
+    mux: true
+    path: /gfrotntnxv
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: fn600mtw005.testnewline.info
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|TW-220.130.80.179-035
+  network: ws
+  port: 443
+  server: 220.130.80.179
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 70206490-8292-4242-b263-e7d11589362e
+  ws-headers:
+    Host: wx.adbse.xyz
+  ws-path: /down
+- alterId: 0
+  cipher: auto
+  name: 22,24|【BGP】台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 0e62586c-8689-44d0-a746-18a31588a98b
+- alterId: 0
+  cipher: auto
+  name: 24,25|14|🇹🇼 台湾|@ripaojiedian
+  network: ws
+  port: 443
+  server: b23.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 6152dab2-5a09-44fe-9c14-3ece9dbbc4b8
+  ws-opts:
+    headers:
+      Host: b23.ntbq.dynu.net
+    path: /b23
 - alterId: 0
   cipher: auto
   name: 19|TW-114.37.112.123-245
@@ -156,3 +146,13 @@ proxies:
     headers:
       Host: ''
     path: /b23
+- alterId: 0
+  cipher: auto
+  name: 22,24|【BGP】台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 0e62586c-8689-44d0-a746-18a31588a98b
