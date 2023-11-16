@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 22,24|【BGP】台湾 05  | 1x TWN
+  network: tcp
+  port: '31306'
+  server: 2d1t5w05.mcfront.xyz
+  servername: tw05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 59ffcffa-1ca0-48b4-a22a-b7acf33cac0d
 - cipher: aes-256-gcm
   name: 25|🇹🇼 台湾2|@ripaojiedian
   password: a0068c048cb0
@@ -16,31 +26,40 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 24,28|12|TW-板桥2-1
+  name: 24,28|12|TW-板桥1-2
   network: ws
   port: '443'
-  server: b21.ntbq.dynu.net
+  server: nbq12.ntbq.dynu.net
   tls: true
   type: vmess
   uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
   ws-opts:
     headers:
-      Host: b21.ntbq.dynu.net
-    path: /b21
+      Host: nbq12.ntbq.dynu.net
+    path: /b12
 - alterId: 0
   cipher: auto
-  name: 28|TW_speednode_0088
+  name: 19|TW-220.130.80.179-057
   network: ws
   port: 443
-  server: tc11.kq1.dynu.net
+  server: 220.130.80.179
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
-  ws-opts:
-    headers:
-      Host: tc11.kq1.dynu.net
-    path: /vbub1
+  uuid: 70206490-8292-4242-b263-e7d11589362e
+  ws-headers:
+    Host: wx.adbse.xyz
+  ws-path: /down
+- alterId: 0
+  cipher: auto
+  name: 22,24|【BGP】台湾 06  | 1x TWN
+  network: tcp
+  port: '31311'
+  server: 2d1t5w06.mcfront.xyz
+  servername: tw06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 59ffcffa-1ca0-48b4-a22a-b7acf33cac0d
 - alterId: 0
   cipher: auto
   name: 28|TW_speednode_0089
@@ -57,6 +76,43 @@ proxies:
     path: /vbub2
 - alterId: 0
   cipher: auto
+  name: 22,24|【BGP】台湾 04  | 1x TWN
+  network: tcp
+  port: '31301'
+  server: 2d1t5w04.mcfront.xyz
+  servername: tw04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 59ffcffa-1ca0-48b4-a22a-b7acf33cac0d
+- alterId: 0
+  cipher: auto
+  name: 24,28|12|TW-板桥1-1
+  network: ws
+  port: '443'
+  server: nbq11.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
+  ws-opts:
+    headers:
+      Host: nbq11.ntbq.dynu.net
+    path: /b11
+- alterId: 0
+  cipher: auto
+  name: 28|TW_speednode_0088
+  network: ws
+  port: 443
+  server: tc11.kq1.dynu.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
+  ws-opts:
+    headers:
+      Host: tc11.kq1.dynu.net
+    path: /vbub1
+- alterId: 0
+  cipher: auto
   name: 24|12|TW-板桥2-3
   network: ws
   port: '443'
@@ -70,19 +126,6 @@ proxies:
     path: /b23
 - alterId: 0
   cipher: auto
-  name: 24,28|12|TW-板桥1-2
-  network: ws
-  port: '443'
-  server: nbq12.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
-  ws-opts:
-    headers:
-      Host: nbq12.ntbq.dynu.net
-    path: /b12
-- alterId: 0
-  cipher: auto
   name: 24,28|12|TW-板桥1-3
   network: ws
   port: '443'
@@ -94,6 +137,19 @@ proxies:
     headers:
       Host: nbq13.ntbq.dynu.net
     path: /b13
+- alterId: 0
+  cipher: auto
+  name: 24,28|12|TW-板桥2-2
+  network: ws
+  port: '443'
+  server: b22.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
+  ws-opts:
+    headers:
+      Host: b22.ntbq.dynu.net
+    path: /b22
 - alterId: 0
   cipher: auto
   name: 24,28|12|TW_youtube@资源分享师_178
@@ -110,70 +166,14 @@ proxies:
     path: /b24
 - alterId: 0
   cipher: auto
-  name: 22,24|【BGP】台湾 05  | 1x TWN
-  network: tcp
-  port: '31306'
-  server: 2d1t5w05.mcfront.xyz
-  servername: tw05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e7816ba3-9408-4a2b-8c99-9a64d50f1420
-- alterId: 0
-  cipher: auto
-  name: 22,24|【BGP】台湾 04  | 1x TWN
-  network: tcp
-  port: '31301'
-  server: 2d1t5w04.mcfront.xyz
-  servername: tw04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e7816ba3-9408-4a2b-8c99-9a64d50f1420
-- alterId: 0
-  cipher: auto
-  name: 22,24|【BGP】台湾 06  | 1x TWN
-  network: tcp
-  port: '31311'
-  server: 2d1t5w06.mcfront.xyz
-  servername: tw06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: e7816ba3-9408-4a2b-8c99-9a64d50f1420
-- alterId: 0
-  cipher: auto
-  name: 24,28|12|TW-板桥2-2
+  name: 24,28|12|TW-板桥2-1
   network: ws
   port: '443'
-  server: b22.ntbq.dynu.net
+  server: b21.ntbq.dynu.net
   tls: true
   type: vmess
   uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
   ws-opts:
     headers:
-      Host: b22.ntbq.dynu.net
-    path: /b22
-- alterId: 0
-  cipher: auto
-  name: 24,28|12|TW-板桥1-1
-  network: ws
-  port: '443'
-  server: nbq11.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: b4224a4d-6754-47e5-99ef-124697d24b4e
-  ws-opts:
-    headers:
-      Host: nbq11.ntbq.dynu.net
-    path: /b11
-- alterId: 0
-  cipher: auto
-  name: 19|TW-220.130.80.179-057
-  network: ws
-  port: 443
-  server: 220.130.80.179
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 70206490-8292-4242-b263-e7d11589362e
-  ws-headers:
-    Host: wx.adbse.xyz
-  ws-path: /down
+      Host: b21.ntbq.dynu.net
+    path: /b21
