@@ -1,33 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 27|台湾①{移动|V2ray}
-  network: ws
-  port: '25232'
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 44c47535-2d1b-4afa-8c56-6bf39f7b03ad
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  name: '12,20,24|台湾省 中华电信(HiNet)数据中心 #1'
-  network: ws
-  port: '443'
-  server: tc12.kq1.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
-  ws-opts:
-    headers:
-      Host: tc12.kq1.dynu.net
-    path: /vbub2
-- alterId: 0
-  cipher: auto
   name: 19|TW-1.164.148.9-088
   network: ws
   port: 443
@@ -39,6 +12,34 @@ proxies:
   ws-headers:
     Host: nbq11.ntbq.dynu.net
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|TW-118.167.86.44-160
+  network: ws
+  port: 443
+  server: b23.ntbq.dynu.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
+  ws-headers:
+    Host: b23.ntbq.dynu.net
+  ws-path: /b23
+- cipher: aes-256-gcm
+  name: 25|🇹🇼 台湾2|@ripaojiedian
+  password: d7570e231c78
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: fn300mtw015.flybirdline.xyz
+    mode: websocket
+    mux: true
+    path: /uanrmeers
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: fn300mtw015.flybirdline.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9,20,24|台湾_111820001
@@ -78,17 +79,43 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: 27|台湾01{移动|V2ray}
+  name: 12,20,24|台湾省 中华电信(HiNet)数据中心
   network: ws
-  port: '25233'
-  server: cm1.awslcn.info
-  tls: false
+  port: 443
+  server: b23.ntbq.dynu.net
+  tls: true
   type: vmess
-  uuid: 44c47535-2d1b-4afa-8c56-6bf39f7b03ad
+  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: b23.ntbq.dynu.net
+    path: /b23
+- alterId: 0
+  cipher: auto
+  name: 19|TW-125.224.156.194-161
+  network: ws
+  port: 443
+  server: tc12.kq1.dynu.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
+  ws-headers:
+    Host: tc12.kq1.dynu.net
+  ws-path: /vbub2
+- alterId: 0
+  cipher: auto
+  name: 19|TW-220.130.80.179-043
+  network: ws
+  port: 443
+  server: 220.130.80.179
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 70206490-8292-4242-b263-e7d11589362e
+  ws-headers:
+    Host: wx.adbse.xyz
+  ws-path: /down
 - alterId: 0
   cipher: auto
   name: 19|TW-114.37.112.123-110
@@ -104,17 +131,58 @@ proxies:
   ws-path: /b24
 - alterId: 0
   cipher: auto
-  name: 12,20,24|台湾省 中华电信(HiNet)数据中心
+  name: 19|TW-118.165.46.236-083
   network: ws
   port: 443
-  server: b23.ntbq.dynu.net
+  server: nbq12.ntbq.dynu.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
+  ws-headers:
+    Host: nbq12.ntbq.dynu.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 9,24|台湾_111820002
+  network: ws
+  port: '443'
+  server: b22.ntbq.dynu.net
+  servername: ''
   tls: true
   type: vmess
   uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
   ws-opts:
     headers:
-      Host: b23.ntbq.dynu.net
-    path: /b23
+      Host: b22.ntbq.dynu.net
+    path: /b22
+- alterId: 0
+  cipher: auto
+  name: 27|台湾01{移动|V2ray}
+  network: ws
+  port: '25233'
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 44c47535-2d1b-4afa-8c56-6bf39f7b03ad
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '12,20,24|台湾省 中华电信(HiNet)数据中心 #1'
+  network: ws
+  port: '443'
+  server: tc12.kq1.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
+  ws-opts:
+    headers:
+      Host: tc12.kq1.dynu.net
+    path: /vbub2
 - alterId: 0
   cipher: auto
   name: 9,24|台湾_111820003
@@ -131,45 +199,6 @@ proxies:
     path: /b13
 - alterId: 0
   cipher: auto
-  name: 19|TW-220.130.80.179-043
-  network: ws
-  port: 443
-  server: 220.130.80.179
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 70206490-8292-4242-b263-e7d11589362e
-  ws-headers:
-    Host: wx.adbse.xyz
-  ws-path: /down
-- alterId: 0
-  cipher: auto
-  name: 19|TW-118.165.46.236-083
-  network: ws
-  port: 443
-  server: nbq12.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
-  ws-headers:
-    Host: nbq12.ntbq.dynu.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|TW-125.224.156.194-161
-  network: ws
-  port: 443
-  server: tc12.kq1.dynu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
-  ws-headers:
-    Host: tc12.kq1.dynu.net
-  ws-path: /vbub2
-- alterId: 0
-  cipher: auto
   name: '12,15,24,27|台湾省 中华电信(HiNet)数据中心 #2'
   network: ws
   port: 443
@@ -184,23 +213,10 @@ proxies:
     path: /b12
 - alterId: 0
   cipher: auto
-  name: 19|TW-118.167.86.44-160
+  name: 27|台湾①{移动|V2ray}
   network: ws
-  port: 443
-  server: b23.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
-  ws-headers:
-    Host: b23.ntbq.dynu.net
-  ws-path: /b23
-- alterId: 0
-  cipher: auto
-  name: 27|台湾02{移动|V2ray}
-  network: ws
-  port: '25233'
-  server: cm.awslcn.info
+  port: '25232'
+  server: cm1.awslcn.info
   tls: false
   type: vmess
   uuid: 44c47535-2d1b-4afa-8c56-6bf39f7b03ad
@@ -224,30 +240,14 @@ proxies:
     path: /b11
 - alterId: 0
   cipher: auto
-  name: 9,24|台湾_111820002
+  name: 27|台湾02{移动|V2ray}
   network: ws
-  port: '443'
-  server: b22.ntbq.dynu.net
-  servername: ''
-  tls: true
+  port: '25233'
+  server: cm.awslcn.info
+  tls: false
   type: vmess
-  uuid: bf5eb8e2-462c-4c21-9df2-b5b990b12636
+  uuid: 44c47535-2d1b-4afa-8c56-6bf39f7b03ad
   ws-opts:
     headers:
-      Host: b22.ntbq.dynu.net
-    path: /b22
-- cipher: aes-256-gcm
-  name: 25|🇹🇼 台湾2|@ripaojiedian
-  password: d7570e231c78
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: fn300mtw015.flybirdline.xyz
-    mode: websocket
-    mux: true
-    path: /uanrmeers
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: fn300mtw015.flybirdline.xyz
-  tfo: false
-  type: ss
+      Host: ''
+    path: ''
