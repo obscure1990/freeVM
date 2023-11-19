@@ -1,58 +1,4 @@
 proxies:
-- name: 1|_CN_->_AT_
-  network: tcp
-  password: b1169481-07ac-4eff-91f2-4306aa1c545c
-  port: 10848
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 23|_US_->_IN_
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm2.shabijichang.com
-    path: /
-- name: 1,23|_CN_->_US__1
-  network: tcp
-  password: b1169481-07ac-4eff-91f2-4306aa1c545c
-  port: 10850
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 0,2,3,4,6,9,12,13,20,24,27,32|🇺🇸 _US_美国->🇬🇧_GB_英国
-  network: ws
-  port: '80'
-  server: ld2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: ld2.shabijichang.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 0,3,24|🇩🇪 _CN_中国->🇩🇪_DE_德国
-  network: tcp
-  port: '50707'
-  server: 183.237.20.148
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 1,24|_US_->_GB_
@@ -67,28 +13,46 @@ proxies:
     headers:
       host: ld2.shabijichang.com
     path: /
+- name: 1,23|_CN_->_US__1
+  network: tcp
+  password: b1169481-07ac-4eff-91f2-4306aa1c545c
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
 - alterId: 64
   cipher: auto
-  name: 0,1,2,3,4,10,12,19,20,24,26,27,32|🇬🇧 _CN_中国->🇬🇧_GB_英国
+  name: 0,3,24|🇩🇪 _CN_中国->🇩🇪_DE_德国
+  network: tcp
+  port: '50707'
+  server: 183.237.20.148
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,12,19,20,24,26,27,32|🇬🇧 _CN_中国->🇬🇧_GB_英国
   network: tcp
   port: '49223'
   server: 112.29.94.23
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- name: 1,23|_CN_->_UA_
+- name: 1,23|_CN_->_US__2
   network: tcp
   password: b1169481-07ac-4eff-91f2-4306aa1c545c
-  port: 10845
+  port: 10838
   server: other.kunlun-ppg.com
   skip-cert-verify: true
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- name: 1,23|_CN_->_US__2
+- name: 1,23|_CN_->_US__3
   network: tcp
   password: b1169481-07ac-4eff-91f2-4306aa1c545c
-  port: 10838
+  port: 10837
   server: other.kunlun-ppg.com
   skip-cert-verify: true
   sni: alibaba-node.cn
@@ -108,15 +72,33 @@ proxies:
     headers:
       host: warp.chigua.tk
     path: /
-- name: 1,23|_CN_->_US__3
-  network: tcp
-  password: b1169481-07ac-4eff-91f2-4306aa1c545c
-  port: 10837
-  server: other.kunlun-ppg.com
+- alterId: 0
+  cipher: auto
+  name: 0,2,3,4,6,9,12,13,20,24,27,32|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: ld2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 23|_US_->_IN_
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
   skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 0,3,6,13,24,27,32|🇺🇸 _US_美国->🇮🇳_IN_印度
@@ -130,6 +112,24 @@ proxies:
     headers:
       Host: mm2.shabijichang.com
     path: /
+- name: 1,23|_CN_->_UA_
+  network: tcp
+  password: b1169481-07ac-4eff-91f2-4306aa1c545c
+  port: 10845
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- name: 1|_CN_->_AT_
+  network: tcp
+  password: b1169481-07ac-4eff-91f2-4306aa1c545c
+  port: 10848
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 0,1,2,3,4,6,13,19,20,24,27|🇫🇷 _IR_伊朗->🇫🇷_FR_法国
