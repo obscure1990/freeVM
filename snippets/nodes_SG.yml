@@ -1,32 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19|SG-18.143.123.35-044
-  network: ws
-  port: 80
-  server: 18.143.123.35
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
-  ws-headers:
-    Host: 18.143.123.35
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|SG-8.222.181.177-025
-  network: ws
-  port: 443
-  server: cdn.chigua.tk
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3d683981-c68c-43ca-a91b-ae71bfcbf365
-  ws-headers:
-    Host: philip-did-disclaimers-bill.trycloudflare.com
-  ws-path: /3d683981
-- alterId: 0
-  cipher: auto
   name: 9|新加坡_112011068
   network: ws
   port: '80'
@@ -41,17 +15,24 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 19|SG-8.219.204.195-085
+  name: 27|[ v1 ] 新加坡 · 01 · 线路1
   network: ws
-  port: 80
-  server: 8.219.204.195
-  skip-cert-verify: true
+  port: '30035'
+  server: v01.gutingting.com
   tls: false
   type: vmess
-  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
-  ws-headers:
-    Host: w1.800876.xyz
-  ws-path: /?ed=2048
+  uuid: e73b5d06-b2c6-4af2-8b91-eae3004c07cb
+  ws-opts:
+    headers:
+      Host: v01.gutingting.com
+    path: /aceamedv
+- cipher: aes-256-cfb
+  name: 28|SG_speednode_0086
+  password: amazonskr05
+  port: 443
+  server: 13.215.249.53
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 9|新加坡_112011094
@@ -66,6 +47,12 @@ proxies:
     headers:
       Host: ''
     path: /vmess/
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-099
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
 - alterId: 0
   cipher: auto
   name: 14|新加坡_【YouTube-VV科技】
@@ -79,63 +66,6 @@ proxies:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_112011095
-  network: ws
-  port: '80'
-  server: 194.233.95.180
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 22,24|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cfa820b6-d024-4877-9071-cccd6f2b8396
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 3936ff51-78d9-4c36-9611-4a1291b11d08
-- alterId: 0
-  cipher: auto
-  name: 19|SG-15.235.147.186-034
-  network: ws
-  port: 80
-  server: 15.235.147.186
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  ws-headers:
-    Host: 15.235.147.186
-  ws-path: /sshkit/Ertusg86/635014638c264/
-- alterId: 2
-  cipher: auto
-  name: 24|12|[vip1]︱V2ray︱②新加坡 1000M｜×1倍...
-  network: tcp
-  port: 11204
-  server: 4.wogg1.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
 - alterId: 0
   cipher: auto
   name: 22,24|【BGP】新加坡 06 | 1x SG
@@ -155,14 +85,54 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3936ff51-78d9-4c36-9611-4a1291b11d08
-- cipher: aes-256-cfb
-  name: 25|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.229.80.190
-  tfo: false
-  type: ss
+  uuid: 6d140309-7707-4f41-be62-f4f191907607
+- alterId: 2
+  cipher: auto
+  name: 24|12|[vip1]︱V2ray︱③新加坡 1000M｜×1倍...
+  network: tcp
+  port: 11205
+  server: 5.wogg1.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_112011095
+  network: ws
+  port: '80'
+  server: 194.233.95.180
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 034f7e88-561a-4fb9-b917-4ab3343b6755
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: 19|SG-8.219.204.195-085
+  network: ws
+  port: 80
+  server: 8.219.204.195
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0f1f1cca-56dc-4feb-8b4b-50ab074f4467
+  ws-headers:
+    Host: w1.800876.xyz
+  ws-path: /?ed=2048
+- alterId: 2
+  cipher: auto
+  name: 24|12|[vip1]︱V2ray︱②新加坡 1000M｜×1倍...
+  network: tcp
+  port: 11204
+  server: 4.wogg1.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
 - alterId: 0
   cipher: auto
   name: 24,25,26,27|14,15|新加坡|@ripaojiedian
@@ -177,6 +147,69 @@ proxies:
     headers:
       Host: 6666.golinkwuxian.top
     path: /apple
+- cipher: aes-256-cfb
+  name: 25|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.229.80.190
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22,24|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cfa820b6-d024-4877-9071-cccd6f2b8396
+- cipher: aes-256-cfb
+  name: 25|🇸🇬 新加坡特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.1.195.164
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-097
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡06
+  network: tcp
+  port: '36211'
+  server: 9s5g06.abzoones.xyz
+  servername: sg06.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 6d140309-7707-4f41-be62-f4f191907607
+- alterId: 0
+  cipher: auto
+  name: 19|SG-15.235.147.186-034
+  network: ws
+  port: 80
+  server: 15.235.147.186
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-headers:
+    Host: 15.235.147.186
+  ws-path: /sshkit/Ertusg86/635014638c264/
+- alterId: 0
+  cipher: auto
+  name: 22,24|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.mcfront.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: cfa820b6-d024-4877-9071-cccd6f2b8396
 - alterId: 64
   cipher: auto
   name: 19|SG-159.223.94.156-103
@@ -190,72 +223,39 @@ proxies:
   ws-headers:
     Host: 159.223.94.156
   ws-path: /anti13.zingfast.vn
-- cipher: aes-256-cfb
-  name: 28|SG_speednode_0086
-  password: amazonskr05
-  port: 443
-  server: 13.215.249.53
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 11,24|🇸🇬新加坡06
+  name: 11,24|🇸🇬新加坡04
   network: tcp
-  port: '36211'
-  server: 9s5g06.abzoones.xyz
-  servername: sg06.abpilot.xyz
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3936ff51-78d9-4c36-9611-4a1291b11d08
-- cipher: aes-256-cfb
-  name: 25|🇸🇬 新加坡特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.1.195.164
-  tfo: false
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 24|12|[vip1]︱V2ray︱③新加坡 1000M｜×1倍...
-  network: tcp
-  port: 11205
-  server: 5.wogg1.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ee624acd-92a5-3d18-9137-2f9a5409bd0c
+  uuid: 6d140309-7707-4f41-be62-f4f191907607
 - alterId: 0
   cipher: auto
-  name: 22,24|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.mcfront.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: cfa820b6-d024-4877-9071-cccd6f2b8396
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-099
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-097
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 27|[ v1 ] 新加坡 · 01 · 线路1
+  name: 19|SG-8.222.181.177-025
   network: ws
-  port: '30035'
-  server: v01.gutingting.com
+  port: 443
+  server: cdn.chigua.tk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3d683981-c68c-43ca-a91b-ae71bfcbf365
+  ws-headers:
+    Host: philip-did-disclaimers-bill.trycloudflare.com
+  ws-path: /3d683981
+- alterId: 0
+  cipher: auto
+  name: 19|SG-18.143.123.35-044
+  network: ws
+  port: 80
+  server: 18.143.123.35
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e73b5d06-b2c6-4af2-8b91-eae3004c07cb
-  ws-opts:
-    headers:
-      Host: v01.gutingting.com
-    path: /aceamedv
+  uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+  ws-headers:
+    Host: 18.143.123.35
+  ws-path: /
