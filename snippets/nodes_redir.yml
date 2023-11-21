@@ -1,25 +1,36 @@
 proxies:
-- name: 1|_HK_->_FR_
-  network: tcp
-  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
-  port: 443
-  server: uk.liangyuandiancloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,20,24|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
+  name: 1,23,24|_US_->_IN__1
   network: ws
-  port: '2052'
-  server: family.mgtajhiz.ir
+  port: 80
+  server: mm3.shabijichang.com
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: family.mgtajhiz.ir
+      host: mm3.shabijichang.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 24,31|19|🇷🇴_RO_罗马尼亚->🇺🇦_UA_乌克兰_22
+  network: http
+  port: 18785
+  server: ss.wwww.htttbbx.alirezashhamraz.tk
+  tls: false
+  type: vmess
+  uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22
+- name: 23|_CN_->_US__2
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10838
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 24,31|19|🇺🇸_US_美国->🇮🇷_IR_伊朗_3
@@ -35,29 +46,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,24,27|_US_->_GB__1
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,31|19|🇷🇴_RO_罗马尼亚->🇺🇦_UA_乌克兰_22
-  network: http
-  port: 18785
-  server: ss.wwww.htttbbx.alirezashhamraz.tk
-  tls: false
-  type: vmess
-  uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22
-- alterId: 0
-  cipher: auto
   name: 0,2,3,4,6,13,20,24,27|🇺🇸 _US_美国->🇬🇧_GB_英国
   network: ws
   port: '80'
@@ -71,6 +59,71 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '0,2,3,4,6,13,20,24,27,31|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: '80'
+  server: mm2.shabijichang.com
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      Host: mm2.shabijichang.com
+    path: /
+- name: 1|_HK_->_CA_
+  network: tcp
+  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
+  port: 443
+  server: ca.liangyuandiancloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 1|_HK_->_US_
+  network: tcp
+  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
+  port: 443
+  server: usa.liangyuandiancloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1,10,23,24|_US_->_IN__2
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,10,20,24|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
+  network: ws
+  port: '2052'
+  server: family.mgtajhiz.ir
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
+    path: /
+- name: 23|_CN_->_US__1
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10837
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 0,2,3,4,6,9,13,20,24,27,31|🇺🇸 _US_美国->🇮🇳_IN_印度
   network: ws
   port: '80'
@@ -82,21 +135,40 @@ proxies:
     headers:
       Host: mm3.shabijichang.com
     path: /
-- name: 1|_HK_->_CA_
+- alterId: 0
+  cipher: auto
+  name: 1,9,24|_US_->_GB__2
+  network: ws
+  port: 2052
+  server: family.mgtajhiz.ir
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      host: family.mgtajhiz.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,24,27|_US_->_GB__1
+  network: ws
+  port: 80
+  server: mrb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mrb2.shabijichang.com
+    path: /
+- name: 1|_HK_->_FR_
   network: tcp
   password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
   port: 443
-  server: ca.liangyuandiancloud.com
+  server: uk.liangyuandiancloud.com
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 23|_CN_->_US__3
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10850
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
   type: trojan
   udp: true
 - alterId: 0
@@ -113,43 +185,15 @@ proxies:
     headers:
       host: warp.chigua.tk
     path: /
-- alterId: 0
-  cipher: auto
-  name: 1,23,24|_US_->_IN__1
-  network: ws
-  port: 80
-  server: mm3.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm3.shabijichang.com
-    path: /
-- name: 23|_CN_->_US__1
+- name: 23|_CN_->_US__3
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10837
+  port: 10850
   server: other.kunlun-ppg.com
   skip-cert-verify: true
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1,9,24|_US_->_GB__2
-  network: ws
-  port: 2052
-  server: family.mgtajhiz.ir
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      host: family.mgtajhiz.ir
-    path: /
 - name: 23|_CN_->_UA_
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
@@ -159,47 +203,3 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- name: 23|_CN_->_US__2
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10838
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1,23,24|_US_->_IN__2
-  network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: mm2.shabijichang.com
-    path: /
-- name: 1|_HK_->_US_
-  network: tcp
-  password: 4f2f34cc-d2e9-4ca8-a687-68efe5ad5959
-  port: 443
-  server: usa.liangyuandiancloud.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6,13,20,24,27,31|🇺🇸 _US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: '80'
-  server: mm2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mm2.shabijichang.com
-    path: /
