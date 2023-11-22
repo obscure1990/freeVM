@@ -1,6 +1,46 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 24,26,27|15|香港2|@ripaojiedian
+  network: ws
+  port: '46005'
+  server: mf805f.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d60bfa14-b952-4d2c-809f-ce4730b02e02
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 19|HK-199.15.77.157-137
+  network: ws
+  port: 24336
+  server: 199.15.77.157
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f
+  ws-headers:
+    Host: hk-hy02.changding.tech
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 24,25|14|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 46005
+  server: mf805f.micloud.buzz
+  tls: false
+  type: vmess
+  uuid: d60bfa14-b952-4d2c-809f-ce4730b02e02
+  ws-opts:
+    headers:
+      Host: mf805f.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
   name: 19|HK-167.179.32.53-084
   network: ws
   port: 443
@@ -12,15 +52,20 @@ proxies:
   ws-headers:
     Host: lg30.cfcdn3.xyz
   ws-path: /ray
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 14|香港_【YouTube-VV科技】
-  network: tcp
-  port: 34417
-  server: 156.245.8.247
+  name: 9,24|香港_112220038
+  network: ws
+  port: '10086'
+  server: 47.243.98.160
+  servername: ''
   tls: false
   type: vmess
-  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+  uuid: eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f
+  ws-opts:
+    headers:
+      Host: hk-hy.changding.tech
+    path: /changding-tls0?ed=2048
 - alterId: 0
   cipher: auto
   name: '14|香港_【YouTube-VV科技】 #1'
@@ -49,34 +94,6 @@ proxies:
     path: /path/1693018744512
 - alterId: 0
   cipher: auto
-  name: 9,24|香港_112220038
-  network: ws
-  port: '10086'
-  server: 47.243.98.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f
-  ws-opts:
-    headers:
-      Host: hk-hy.changding.tech
-    path: /changding-tls0?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 24,26,27|15|香港2|@ripaojiedian
-  network: ws
-  port: '46005'
-  server: mf805f.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d60bfa14-b952-4d2c-809f-ce4730b02e02
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   name: 19|HK-207.46.147.148-038
   network: ws
   port: 443
@@ -88,6 +105,17 @@ proxies:
   ws-headers:
     Host: fullaccesstohongkongnet.azurewebsites.net
   ws-path: /ws
+- cipher: aes-128-gcm
+  name: 25|🇭🇰 香港KT1|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.178.215
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   name: 25|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -101,43 +129,6 @@ proxies:
     tls: false
   port: 20297
   server: 223.95.40.85
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 24,25|14|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 46005
-  server: mf805f.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: d60bfa14-b952-4d2c-809f-ce4730b02e02
-  ws-opts:
-    headers:
-      Host: mf805f.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 20|🇭🇰 香港(油管:破解资源君2.0)
-  network: ws
-  port: '443'
-  server: fullaccesstohongkongnet.azurewebsites.net
-  tls: true
-  type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstohongkongnet.azurewebsites.net
-    path: /ws
-- cipher: aes-128-gcm
-  name: 25|🇭🇰 香港KT1|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.178.215
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -164,14 +155,23 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19|HK-199.15.77.157-137
+  name: 20|🇭🇰 香港(油管:破解资源君2.0)
   network: ws
-  port: 24336
-  server: 199.15.77.157
-  skip-cert-verify: true
+  port: '443'
+  server: fullaccesstohongkongnet.azurewebsites.net
   tls: true
   type: vmess
-  uuid: eb0632c0-3aa3-40d7-aa7f-d5a4e436af1f
-  ws-headers:
-    Host: hk-hy02.changding.tech
-  ws-path: /
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstohongkongnet.azurewebsites.net
+    path: /ws
+- alterId: 64
+  cipher: auto
+  name: 14|香港_【YouTube-VV科技】
+  network: tcp
+  port: 34417
+  server: 156.245.8.247
+  tls: false
+  type: vmess
+  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
