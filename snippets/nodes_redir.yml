@@ -1,142 +1,36 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,24,27|_US_->_GB_
+  name: 0,3,6,13,24,27|🇺🇸 _GB_英国->🇺🇸_US_美国
   network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  skip-cert-verify: true
+  port: '443'
+  server: aa2.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
+  ws-opts:
+    headers:
+      Host: 111.golinkwuxian.top
+    path: /apple
+- alterId: 0
+  cipher: auto
+  name: 0,3,20,24|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: ld2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: mrb2.shabijichang.com
+      Host: ld2.shabijichang.com
     path: /
-- name: 23|_CN_->_UA_
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10845
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #8'
-  network: ws
-  port: '2095'
-  server: 172.67.229.16
-  tls: false
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr4.v2-teh.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
 - alterId: 0
   cipher: auto
   name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #6'
   network: ws
   port: '2095'
   server: 172.67.229.10
-  tls: false
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr4.v2-teh.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 0
-  cipher: auto
-  name: 2,4,20,24|🇺🇸_US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 80
-  server: mrb2.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: mrb2.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 0,3,6,12,13,15,24,27|🇯🇵 _JP_日本->🇺🇸_US_美国
-  network: ws
-  port: '443'
-  server: aa9.wuxianliulianng.xyz
-  tls: true
-  type: vmess
-  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
-  ws-opts:
-    headers:
-      Host: 555.golinkwuxian.top
-    path: /apple
-- alterId: 0
-  cipher: auto
-  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #7'
-  network: ws
-  port: '2095'
-  server: 172.67.229.25
-  tls: false
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr4.v2-teh.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 64
-  cipher: auto
-  name: 0,1,2,3,4,6,13,24,27|🇺🇸 _US_美国->🇳🇱_NL_荷兰
-  network: ws
-  port: '443'
-  server: 156.225.67.96
-  tls: true
-  type: vmess
-  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/1696251693048
-- alterId: 0
-  cipher: auto
-  name: '20,24|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
-  network: ws
-  port: '2052'
-  server: family.mgtajhiz.ir
-  tls: false
-  type: vmess
-  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
-  ws-opts:
-    headers:
-      Host: family.mgtajhiz.ir
-    path: /
-- name: 23|_CN_->_US__1
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10837
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- name: 23|_CN_->_US__2
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10838
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #4'
-  network: ws
-  port: '2095'
-  server: 172.67.229.30
   tls: false
   type: vmess
   uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
@@ -160,43 +54,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,3,20,24|🇺🇸 _US_美国->🇬🇧_GB_英国
+  name: 2,4,20,24,31|🇺🇸_US_美国->🇮🇳_IN_印度
   network: ws
-  port: '80'
-  server: ld2.shabijichang.com
+  port: 80
+  server: mm2.shabijichang.com
   tls: false
   type: vmess
   uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: ld2.shabijichang.com
+      Host: mm2.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #9'
-  network: ws
-  port: '2095'
-  server: 172.67.229.11
+  name: 24,31|19|🇷🇴_RO_罗马尼亚->🇺🇦_UA_乌克兰_22
+  network: http
+  port: 18785
+  server: ss.wwww.htttbbx.alirezashhamraz.tk
   tls: false
   type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr4.v2-teh.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
-- alterId: 0
-  cipher: auto
-  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #1'
-  network: ws
-  port: '2095'
-  server: 172.67.229.33
-  tls: false
-  type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
-  ws-opts:
-    headers:
-      Host: fr4.v2-teh.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+  uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22
 - alterId: 0
   cipher: auto
   name: 1,23,24|_US_->_IN__2
@@ -213,13 +90,79 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24,31|19|🇷🇴_RO_罗马尼亚->🇺🇦_UA_乌克兰_22
-  network: http
-  port: 18785
-  server: ss.wwww.htttbbx.alirezashhamraz.tk
+  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #4'
+  network: ws
+  port: '2095'
+  server: 172.67.229.30
   tls: false
   type: vmess
-  uuid: 4388d6ff-ef7e-4263-a91f-6db05bdc3d22
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr4.v2-teh.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #3'
+  network: ws
+  port: '2095'
+  server: 172.67.229.12
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr4.v2-teh.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: 1,24,27|_US_->_GB_
+  network: ws
+  port: 80
+  server: mrb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mrb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '20,24|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
+  network: ws
+  port: '2052'
+  server: family.mgtajhiz.ir
+  tls: false
+  type: vmess
+  uuid: 544f2e93-51b0-4d47-fd72-e7d858021bbd
+  ws-opts:
+    headers:
+      Host: family.mgtajhiz.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3,6,12,13,15,24,27|🇯🇵 _JP_日本->🇺🇸_US_美国
+  network: ws
+  port: '443'
+  server: aa9.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
+  ws-opts:
+    headers:
+      Host: 555.golinkwuxian.top
+    path: /apple
+- name: 23|_CN_->_US__3
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 1,23,24|_US_->_IN__1
@@ -236,23 +179,80 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 24,31|19|🇺🇸_US_美国->🇮🇷_IR_伊朗_3
-  network: ws
-  port: 2053
-  server: 104.16.122.175
-  tls: true
-  type: vmess
-  uuid: c9c724b1-e7f8-429d-93a7-631db13f6ead
-  ws-opts:
-    headers:
-      Host: zUla.eSMaIlkOrEa.sHOp
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #2'
+  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #1'
   network: ws
   port: '2095'
-  server: 172.67.229.29
+  server: 172.67.229.33
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr4.v2-teh.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- name: 23|_CN_->_US__2
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10838
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 6,13,24,27,31|🇯🇵_JP_日本->🇺🇸_US_美国
+  network: ws
+  port: 443
+  server: aa1.wuxianliulianng.xyz
+  tls: true
+  type: vmess
+  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
+  ws-opts:
+    headers:
+      Host: 111.golinkwuxian.top
+    path: /apple
+- alterId: 0
+  cipher: auto
+  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #7'
+  network: ws
+  port: '2095'
+  server: 172.67.229.25
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr4.v2-teh.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- name: 23|_CN_->_US__1
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10837
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #8'
+  network: ws
+  port: '2095'
+  server: 172.67.229.16
+  tls: false
+  type: vmess
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  ws-opts:
+    headers:
+      Host: fr4.v2-teh.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #9'
+  network: ws
+  port: '2095'
+  server: 172.67.229.11
   tls: false
   type: vmess
   uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
@@ -273,28 +273,45 @@ proxies:
     headers:
       Host: mm3.shabijichang.com
     path: /
-- name: 23|_CN_->_US__3
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10850
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2,4,20,24,31|🇺🇸_US_美国->🇮🇳_IN_印度
+  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #2'
   network: ws
-  port: 80
-  server: mm2.shabijichang.com
+  port: '2095'
+  server: 172.67.229.29
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
   ws-opts:
     headers:
-      Host: mm2.shabijichang.com
+      Host: fr4.v2-teh.fun
+    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- alterId: 0
+  cipher: auto
+  name: 24,31|19|🇺🇸_US_美国->🇮🇷_IR_伊朗_3
+  network: ws
+  port: 2053
+  server: 104.16.122.175
+  tls: true
+  type: vmess
+  uuid: c9c724b1-e7f8-429d-93a7-631db13f6ead
+  ws-opts:
+    headers:
+      Host: zUla.eSMaIlkOrEa.sHOp
     path: /
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,6,13,24,27|🇺🇸 _US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: '443'
+  server: 156.225.67.96
+  tls: true
+  type: vmess
+  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
+  ws-opts:
+    headers:
+      Host: ''
+    path: /path/1696251693048
 - alterId: 0
   cipher: auto
   name: 0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国
@@ -308,45 +325,28 @@ proxies:
     headers:
       Host: fr4.v2-teh.fun
     path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- name: 23|_CN_->_UA_
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10845
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 6,13,24,27,31|🇯🇵_JP_日本->🇺🇸_US_美国
+  name: 2,4,20,24|🇺🇸_US_美国->🇬🇧_GB_英国
   network: ws
-  port: 443
-  server: aa1.wuxianliulianng.xyz
-  tls: true
-  type: vmess
-  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
-  ws-opts:
-    headers:
-      Host: 111.golinkwuxian.top
-    path: /apple
-- alterId: 0
-  cipher: auto
-  name: 0,3,6,13,24,27|🇺🇸 _GB_英国->🇺🇸_US_美国
-  network: ws
-  port: '443'
-  server: aa2.wuxianliulianng.xyz
-  tls: true
-  type: vmess
-  uuid: b0e43362-72b7-49ac-8eb6-fff69e07cfae
-  ws-opts:
-    headers:
-      Host: 111.golinkwuxian.top
-    path: /apple
-- alterId: 0
-  cipher: auto
-  name: '0,3,24|🇺🇸 _US_美国->🇫🇷_FR_法国 #3'
-  network: ws
-  port: '2095'
-  server: 172.67.229.12
+  port: 80
+  server: mrb2.shabijichang.com
   tls: false
   type: vmess
-  uuid: 617c9bc4-4116-41c6-99e0-ace49a38fcdb
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      Host: fr4.v2-teh.fun
-    path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+      Host: mrb2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '0,3,10,12,15,20,24,27|🇺🇸 _US_美国->🇫🇷_FR_法国 #5'
