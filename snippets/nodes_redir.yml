@@ -21,16 +21,6 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 24,32|19|🇮🇷_IR_伊朗->🇫🇮_FI_芬兰_由快嘴科技提供：...
-  network: ws
-  port: 33273
-  server: 158.58.188.22
-  tls: false
-  type: vmess
-  uuid: a0ca0796-3f90-4908-8f78-8f5922908dd8
-  ws-opts: {}
 - name: 23|_CN_->_US__3
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
@@ -40,6 +30,20 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 23|_SG_->_US_
+  network: ws
+  port: 80
+  server: 8.222.198.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      host: warp.chigua.tk
+    path: /
 - name: 23|_CN_->_US__2
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
@@ -60,18 +64,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 23|_SG_->_US_
+  name: 24,32|19|🇮🇷_IR_伊朗->🇫🇮_FI_芬兰_由快嘴科技提供：...
   network: ws
-  port: 80
-  server: 8.222.198.105
-  skip-cert-verify: true
+  port: 33273
+  server: 158.58.188.22
   tls: false
   type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  ws-opts:
-    headers:
-      host: warp.chigua.tk
-    path: /
+  uuid: a0ca0796-3f90-4908-8f78-8f5922908dd8
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: '0,3,24|🇺🇸 _US_美国->🇬🇧_GB_英国 #1'
