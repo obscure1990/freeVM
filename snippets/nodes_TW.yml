@@ -1,11 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12,15,24,27|台湾省台北市 中华电信
+  name: 19|TW-61.228.170.25-157
   network: ws
   port: 443
   server: nbq13.ntbq.dynu.net
-  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f2f304d9-cb53-4d7f-a76c-3f396f1f5512
+  ws-headers:
+    Host: nbq13.ntbq.dynu.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 10,12,15,24,27|台湾省台北市 中华电信
+  network: ws
+  port: 443
+  server: nbq13.ntbq.dynu.net
   tls: true
   type: vmess
   uuid: f2f304d9-cb53-4d7f-a76c-3f396f1f5512
@@ -13,21 +25,6 @@ proxies:
     headers:
       Host: nbq13.ntbq.dynu.net
     path: /b13
-- cipher: aes-256-gcm
-  name: 25|🇹🇼 台湾2|@ripaojiedian
-  password: d7570e231c78
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: fn300mtw015.flybirdline.xyz
-    mode: websocket
-    mux: true
-    path: /uanrmeers
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: fn300mtw015.flybirdline.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 9|台湾_112411001
@@ -48,16 +45,18 @@ proxies:
   protocol-param: 54984:89iw22e0jvl
   server: bs3.jymzffbquawl.com
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 19|TW-61.228.170.25-157
-  network: ws
+- cipher: aes-256-gcm
+  name: 25|🇹🇼 台湾2|@ripaojiedian
+  password: d7570e231c78
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: fn300mtw015.flybirdline.xyz
+    mode: websocket
+    mux: true
+    path: /uanrmeers
+    skip-cert-verify: false
+    tls: true
   port: 443
-  server: nbq13.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f2f304d9-cb53-4d7f-a76c-3f396f1f5512
-  ws-headers:
-    Host: nbq13.ntbq.dynu.net
-  ws-path: /
+  server: fn300mtw015.flybirdline.xyz
+  tfo: false
+  type: ss
