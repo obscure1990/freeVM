@@ -1,4 +1,60 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 25,28|🇭🇰 香港3|@ripaojiedian
+  password: 99301d55-a41f-4919-986b-1435996533aa
+  port: 20001
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 19|HK-119.237.43.96-029
+  network: ws
+  port: 80
+  server: tgunivstar-119-237-43-96.sslip.io
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
+  ws-headers:
+    Host: vn3.thanhhaivpn.name.vn
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '14|香港_【YouTube-VV科技】 #1'
+  network: ws
+  port: 80
+  server: 103.160.204.12
+  tls: false
+  type: vmess
+  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
+  ws-opts:
+    headers:
+      Host: 18.wyhkaa0.gq
+    path: /TG:@hkaa0
+- alterId: 64
+  cipher: auto
+  name: 14|香港_【YouTube-VV科技】
+  network: tcp
+  port: 34417
+  server: 156.245.8.247
+  tls: false
+  type: vmess
+  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+- alterId: 0
+  cipher: auto
+  name: 9,24|香港_112509004
+  network: ws
+  port: '80'
+  server: 103.252.116.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zingfast.vn
 - alterId: 0
   cipher: auto
   name: 10,12,15,20,24,27|香港 阿里云
@@ -12,16 +68,34 @@ proxies:
     headers:
       Host: n1700303374.aaigefm.cn
     path: /
-- cipher: aes-128-gcm
-  name: 28|HK_speednode_0160
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: None
-    mode: http
-  port: 80
-  server: 8.210.119.75
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 24,25,26,27|14,15|香港5|@ripaojiedian
+  network: ws
+  port: '443'
+  server: n1699974613.aaigefm.cn
+  servername: n1699974613.aaigefm.cn
+  tls: true
+  type: vmess
+  uuid: 98e145b7-35ff-4309-aa5e-fd6107f199eb
+  ws-opts:
+    headers:
+      Host: n1699974613.aaigefm.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9,24|香港_112509001
+  network: ws
+  port: '80'
+  server: 45.126.127.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zingfast.vn
 - alterId: 0
   cipher: auto
   name: 24,25,26,27|14,15|香港|浏览器输入 翻墙.com
@@ -38,10 +112,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9,24|香港_112509002
+  name: 9,15,20,24,25,26,27|香港_112509003
   network: ws
   port: '80'
-  server: 45.126.125.105
+  server: 45.126.127.113
   servername: ''
   tls: false
   type: vmess
@@ -50,33 +124,6 @@ proxies:
     headers:
       Host: ''
     path: /zingfast.vn
-- alterId: 0
-  cipher: auto
-  name: 9,24|香港_112509001
-  network: ws
-  port: '80'
-  server: 45.126.127.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zingfast.vn
-- alterId: 64
-  cipher: auto
-  name: 20|🇭🇰 香港(油管:破解资源君2.0)
-  network: ws
-  port: '80'
-  server: tgunivstar-119-237-43-96.sslip.io
-  tls: false
-  type: vmess
-  uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
-  ws-opts:
-    headers:
-      Host: vn3.thanhhaivpn.name.vn
-    path: /
 - alterId: 64
   cipher: auto
   name: '14|香港_【YouTube-VV科技】 #2'
@@ -90,6 +137,29 @@ proxies:
     headers:
       Host: www.92873889.xyz
     path: /path/1693018744512
+- cipher: aes-128-gcm
+  name: 28|HK_speednode_0160
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: None
+    mode: http
+  port: 80
+  server: 8.210.119.75
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 19|HK-45.126.127.113-086
+  network: ws
+  port: 80
+  server: 45.126.127.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
+  ws-headers:
+    Host: 45.126.127.113
+  ws-path: /zingfast.vn
 - cipher: aes-128-gcm
   name: 25|🇭🇰 香港K|浏览器输入 翻墙.com
   password: a-wym4ovY4Yw
@@ -107,47 +177,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9,24|香港_112509004
+  name: 9,24|香港_112509002
   network: ws
   port: '80'
-  server: 103.252.116.243
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zingfast.vn
-- alterId: 64
-  cipher: auto
-  name: 14|香港_【YouTube-VV科技】
-  network: tcp
-  port: 34417
-  server: 156.245.8.247
-  tls: false
-  type: vmess
-  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
-- alterId: 0
-  cipher: auto
-  name: 24,25,26,27|14,15|香港5|@ripaojiedian
-  network: ws
-  port: '443'
-  server: n1699974613.aaigefm.cn
-  servername: n1699974613.aaigefm.cn
-  tls: true
-  type: vmess
-  uuid: 98e145b7-35ff-4309-aa5e-fd6107f199eb
-  ws-opts:
-    headers:
-      Host: n1699974613.aaigefm.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 9,15,20,24,25,26,27|香港_112509003
-  network: ws
-  port: '80'
-  server: 45.126.127.113
+  server: 45.126.125.105
   servername: ''
   tls: false
   type: vmess
@@ -169,50 +202,17 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 19|HK-119.237.43.96-029
+  name: 20|🇭🇰 香港(油管:破解资源君2.0)
   network: ws
-  port: 80
+  port: '80'
   server: tgunivstar-119-237-43-96.sslip.io
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: d7f2b592-2e56-4a12-8f24-20f55b422ef2
-  ws-headers:
-    Host: vn3.thanhhaivpn.name.vn
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19|HK-45.126.127.113-086
-  network: ws
-  port: 80
-  server: 45.126.127.113
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 057177db-f003-40dc-a14b-488e8ceefcaa
-  ws-headers:
-    Host: 45.126.127.113
-  ws-path: /zingfast.vn
-- alterId: 0
-  cipher: auto
-  name: '14|香港_【YouTube-VV科技】 #1'
-  network: ws
-  port: 80
-  server: 103.160.204.12
-  tls: false
-  type: vmess
-  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
   ws-opts:
     headers:
-      Host: 18.wyhkaa0.gq
-    path: /TG:@hkaa0
-- cipher: chacha20-ietf-poly1305
-  name: 25,28|🇭🇰 香港3|@ripaojiedian
-  password: 99301d55-a41f-4919-986b-1435996533aa
-  port: 20001
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+      Host: vn3.thanhhaivpn.name.vn
+    path: /
 - alterId: 0
   cipher: auto
   name: 9|香港_112509063
