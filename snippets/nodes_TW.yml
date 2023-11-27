@@ -11,17 +11,17 @@ proxies:
   uuid: d2a1cd29-9ac2-3165-a082-cf09cdd3bf50
 - alterId: 0
   cipher: auto
-  name: 24,26,27|15|台湾|浏览器输入 翻墙.com
+  name: 10,12,15,24,25,27|台湾省新竹市 中华电信
   network: ws
-  port: '443'
+  port: 443
   server: b22.ntbq.dynu.net
   servername: ''
   tls: true
   type: vmess
-  uuid: b979cbad-64a2-4d71-9244-ff3b78557f2b
+  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
   ws-opts:
     headers:
-      Host: ''
+      Host: b22.ntbq.dynu.net
     path: /b22
 - alterId: 0
   cipher: auto
@@ -54,20 +54,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10,12,15,24,25,27|台湾省新竹市 中华电信
-  network: ws
-  port: 443
-  server: b22.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
-  ws-opts:
-    headers:
-      Host: b22.ntbq.dynu.net
-    path: /b22
-- alterId: 0
-  cipher: auto
   name: 19|TW-61.228.152.125-250
   network: ws
   port: 443
@@ -79,6 +65,33 @@ proxies:
   ws-headers:
     Host: b23.ntbq.dynu.net
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|TW-36.226.152.36-158
+  network: ws
+  port: 443
+  server: b22.ntbq.dynu.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
+  ws-headers:
+    Host: b22.ntbq.dynu.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 24,26,27|15|台湾|浏览器输入 翻墙.com
+  network: ws
+  port: '443'
+  server: b22.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b979cbad-64a2-4d71-9244-ff3b78557f2b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b22
 - alterId: 0
   cipher: auto
   name: 12,24|台湾省新竹市中华电信 7
@@ -93,19 +106,6 @@ proxies:
     headers:
       Host: b23.ntbq.dynu.net
     path: /b23
-- alterId: 0
-  cipher: auto
-  name: 19|TW-36.226.152.36-158
-  network: ws
-  port: 443
-  server: b22.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
-  ws-headers:
-    Host: b22.ntbq.dynu.net
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19|TW-118.165.46.189-155
