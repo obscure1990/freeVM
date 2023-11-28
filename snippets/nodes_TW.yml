@@ -1,6 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 12,24|台湾省 中华电信(HiNet)数据中心
+  network: ws
+  port: 443
+  server: b23.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
+  ws-opts:
+    headers:
+      Host: b23.ntbq.dynu.net
+    path: /b23
+- alterId: 0
+  cipher: auto
+  name: 12,15,24,25,27|台湾省台北市 中华电信
+  network: ws
+  port: 443
+  server: nbq11.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
+  ws-opts:
+    headers:
+      Host: nbq11.ntbq.dynu.net
+    path: /b11
+- alterId: 0
+  cipher: auto
   name: 19|TW-36.226.152.36-158
   network: ws
   port: 443
@@ -11,6 +38,19 @@ proxies:
   uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
   ws-headers:
     Host: b22.ntbq.dynu.net
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 19|TW-61.228.152.125-250
+  network: ws
+  port: 443
+  server: b23.ntbq.dynu.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
+  ws-headers:
+    Host: b23.ntbq.dynu.net
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -28,19 +68,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|TW-61.228.152.125-250
-  network: ws
-  port: 443
-  server: b23.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
-  ws-headers:
-    Host: b23.ntbq.dynu.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 24,26,27|15|台湾|浏览器输入 翻墙.com
   network: ws
   port: '443'
@@ -55,18 +82,18 @@ proxies:
     path: /b11
 - alterId: 0
   cipher: auto
-  name: 10,12,15,24,25,27|台湾省台北市 中华电信
+  name: 12,15,24,27|台湾省新竹市中华电信 2
   network: ws
   port: 443
-  server: nbq11.ntbq.dynu.net
+  server: b22.ntbq.dynu.net
   servername: ''
   tls: true
   type: vmess
   uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
   ws-opts:
     headers:
-      Host: nbq11.ntbq.dynu.net
-    path: /b11
+      Host: b22.ntbq.dynu.net
+    path: /b22
 - alterId: 0
   cipher: auto
   name: 19|TW-118.165.46.189-155
@@ -95,30 +122,3 @@ proxies:
   server: fn600mtw001.testnewline.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 12,24|台湾省 中华电信(HiNet)数据中心
-  network: ws
-  port: 443
-  server: b23.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
-  ws-opts:
-    headers:
-      Host: b23.ntbq.dynu.net
-    path: /b23
-- alterId: 0
-  cipher: auto
-  name: 12,15,24,27|台湾省新竹市中华电信 2
-  network: ws
-  port: 443
-  server: b22.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 3feeacfc-dee3-47a1-8f0c-4079220f4bc2
-  ws-opts:
-    headers:
-      Host: b22.ntbq.dynu.net
-    path: /b22
