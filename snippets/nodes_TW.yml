@@ -1,6 +1,60 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 19|TW-36.226.152.36-197
+  network: ws
+  port: 443
+  server: b22.ntbq.dynu.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
+  ws-headers:
+    Host: b22.ntbq.dynu.net
+  ws-path: /b22
+- alterId: 0
+  cipher: auto
+  name: 27|台湾①{移动|V2ray}
+  network: ws
+  port: '25232'
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 6375fab4-e5ae-43f9-a745-e268274013a3
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 10,24,25,28|台湾省台北市 中华电信
+  network: ws
+  port: 443
+  server: b24.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
+  ws-opts:
+    headers:
+      Host: b24.ntbq.dynu.net
+    path: /b24
+- alterId: 0
+  cipher: auto
+  name: '15,24|github.com/freefq - 台湾省中华电信(Hi... #1'
+  network: ws
+  port: 443
+  server: b23.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
+  ws-opts:
+    headers:
+      Host: b23.ntbq.dynu.net
+    path: /b23
+- alterId: 0
+  cipher: auto
   name: 24,28|12|TW台湾(mibei77.com 米贝节点分享)
   network: ws
   port: '443'
@@ -13,6 +67,33 @@ proxies:
     headers:
       Host: nbq13.ntbq.dynu.net
     path: /b13
+- alterId: 0
+  cipher: auto
+  name: 15,24|github.com/freefq - 台湾省中华电信(Hi...
+  network: ws
+  port: '443'
+  server: nbq11.ntbq.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
+  ws-opts:
+    headers:
+      Host: nbq11.ntbq.dynu.net
+    path: /b11
+- alterId: 0
+  cipher: auto
+  name: 19|TW-61.228.140.108-175
+  network: ws
+  port: 443
+  server: b21.ntbq.dynu.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
+  ws-headers:
+    Host: b21.ntbq.dynu.net
+  ws-path: /b21
 - alterId: 0
   cipher: auto
   name: 19|TW-61.228.186.44-184
@@ -28,30 +109,31 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 27|台湾02{移动|V2ray}
+  name: 15,20,24,27|github.com/freefq - 台湾省台中市中华电信...
   network: ws
-  port: '25233'
-  server: cm.awslcn.info
-  tls: false
+  port: '443'
+  server: tc12.kq1.dynu.net
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 6375fab4-e5ae-43f9-a745-e268274013a3
+  uuid: f5450865-78a2-4157-a5b1-55ee50170aaa
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: tc12.kq1.dynu.net
+    path: /vbub2
 - alterId: 0
   cipher: auto
-  name: 27|台湾01{移动|V2ray}
+  name: 19|TW-36.232.128.43-190
   network: ws
-  port: '25233'
-  server: cm1.awslcn.info
-  tls: false
+  port: 443
+  server: tc12.kq1.dynu.net
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: 6375fab4-e5ae-43f9-a745-e268274013a3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: f5450865-78a2-4157-a5b1-55ee50170aaa
+  ws-headers:
+    Host: tc12.kq1.dynu.net
+  ws-path: /vbub2
 - cipher: chacha20-ietf-poly1305
   name: 28|TW_speednode_0050
   password: 87a3e771-9d8f-40bf-8937-099079d4dfd2
@@ -76,58 +158,9 @@ proxies:
     path: /b12
 - alterId: 0
   cipher: auto
-  name: '15,24|github.com/freefq - 台湾省中华电信(Hi... #1'
+  name: 27|台湾02{移动|V2ray}
   network: ws
-  port: 443
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
-  ws-opts:
-    headers:
-      Host: b23.ntbq.dynu.net
-    path: /b23
-- alterId: 0
-  cipher: auto
-  name: 19|TW-61.228.140.108-175
-  network: ws
-  port: 443
-  server: b21.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
-  ws-headers:
-    Host: b21.ntbq.dynu.net
-  ws-path: /b21
-- cipher: chacha20-ietf-poly1305
-  name: 28|TW_speednode_0053
-  password: 87a3e771-9d8f-40bf-8937-099079d4dfd2
-  port: 48887
-  server: tw.colacloud.site
-  tfo: false
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 15,20,24,27|github.com/freefq - 台湾省台中市中华电信...
-  network: ws
-  port: '443'
-  server: tc12.kq1.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f5450865-78a2-4157-a5b1-55ee50170aaa
-  ws-opts:
-    headers:
-      Host: tc12.kq1.dynu.net
-    path: /vbub2
-- alterId: 0
-  cipher: auto
-  name: 27|台湾②{移动|V2ray}
-  network: ws
-  port: '25232'
+  port: '25233'
   server: cm.awslcn.info
   tls: false
   type: vmess
@@ -136,34 +169,6 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: 10,24,25,28|台湾省台北市 中华电信
-  network: ws
-  port: 443
-  server: b24.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
-  ws-opts:
-    headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
-- alterId: 0
-  cipher: auto
-  name: 15,24|github.com/freefq - 台湾省中华电信(Hi...
-  network: ws
-  port: '443'
-  server: nbq11.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
-  ws-opts:
-    headers:
-      Host: nbq11.ntbq.dynu.net
-    path: /b11
 - alterId: 0
   cipher: auto
   name: 10,20,24|台湾省新竹市 中华电信
@@ -179,19 +184,6 @@ proxies:
     path: /b22
 - alterId: 0
   cipher: auto
-  name: 27|台湾①{移动|V2ray}
-  network: ws
-  port: '25232'
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 6375fab4-e5ae-43f9-a745-e268274013a3
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
   name: 24,26,27|15|台湾|@ripaojiedian
   network: ws
   port: '443'
@@ -204,6 +196,27 @@ proxies:
     headers:
       Host: ''
     path: /b24
+- cipher: chacha20-ietf-poly1305
+  name: 28|TW_speednode_0053
+  password: 87a3e771-9d8f-40bf-8937-099079d4dfd2
+  port: 48887
+  server: tw.colacloud.site
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 27|台湾②{移动|V2ray}
+  network: ws
+  port: '25232'
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 6375fab4-e5ae-43f9-a745-e268274013a3
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - cipher: aes-256-gcm
   name: 25|🇹🇼 台湾3|@ripaojiedian
   password: 6cb1057882ee
@@ -221,27 +234,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19|TW-36.232.128.43-190
+  name: 27|台湾01{移动|V2ray}
   network: ws
-  port: 443
-  server: tc12.kq1.dynu.net
-  skip-cert-verify: true
-  tls: true
+  port: '25233'
+  server: cm1.awslcn.info
+  tls: false
   type: vmess
-  uuid: f5450865-78a2-4157-a5b1-55ee50170aaa
-  ws-headers:
-    Host: tc12.kq1.dynu.net
-  ws-path: /vbub2
-- alterId: 0
-  cipher: auto
-  name: 19|TW-36.226.152.36-197
-  network: ws
-  port: 443
-  server: b22.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03b47562-d220-4bdb-bfda-2f08ec20e5fa
-  ws-headers:
-    Host: b22.ntbq.dynu.net
-  ws-path: /b22
+  uuid: 6375fab4-e5ae-43f9-a745-e268274013a3
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
