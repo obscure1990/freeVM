@@ -1,17 +1,34 @@
 proxies:
-- alterId: 0
+- cipher: chacha20-ietf-poly1305
+  name: 25|🇹🇼 台湾3|@ripaojiedian
+  password: 4d1e8cd03847
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw1000mline004.chilines.club
+    mode: websocket
+    mux: true
+    path: /wlkldrkdzet
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: wtw1000mline004.chilines.club
+  tfo: false
+  type: ss
+- 12|TW-板桥1-1 - 麻雀加速器 Sparrow〖电报：@c...: None
+  alterId: 0
   cipher: auto
-  name: 19|TW-36.226.128.61-209
+  name: 28|TW_speednode_0108
   network: ws
   port: 443
-  server: b24.ntbq.dynu.net
-  skip-cert-verify: true
+  server: nbq11.ntbq.dynu.net
+  servername: ''
   tls: true
   type: vmess
-  uuid: 54f3bbea-3524-40db-b576-7cf02aea4562
-  ws-headers:
-    Host: b24.ntbq.dynu.net
-  ws-path: /
+  uuid: 4727ad0a-4b52-4b01-bb36-8b43ef15d11c
+  ws-opts:
+    headers:
+      Host: nbq11.ntbq.dynu.net
+    path: /b11
 - alterId: 0
   cipher: auto
   name: 15,20,24,25,26,27,28|github.com/freefq - 台湾省彰化县中华电信...
@@ -54,21 +71,19 @@ proxies:
     headers:
       Host: b24.ntbq.dynu.net
     path: /b24
-- cipher: chacha20-ietf-poly1305
-  name: 25|🇹🇼 台湾3|@ripaojiedian
-  password: 4d1e8cd03847
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw1000mline004.chilines.club
-    mode: websocket
-    mux: true
-    path: /wlkldrkdzet
-    skip-cert-verify: false
-    tls: true
+- alterId: 0
+  cipher: auto
+  name: 19|TW-36.226.128.61-209
+  network: ws
   port: 443
-  server: wtw1000mline004.chilines.club
-  tfo: false
-  type: ss
+  server: b24.ntbq.dynu.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 54f3bbea-3524-40db-b576-7cf02aea4562
+  ws-headers:
+    Host: b24.ntbq.dynu.net
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 19|TW-36.233.235.237-208
@@ -82,18 +97,3 @@ proxies:
   ws-headers:
     Host: tc11.twtc.dynu.net
   ws-path: /vbub1
-- 12|TW-板桥1-1 - 麻雀加速器 Sparrow〖电报：@c...: None
-  alterId: 0
-  cipher: auto
-  name: 28|TW_speednode_0108
-  network: ws
-  port: 443
-  server: nbq11.ntbq.dynu.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4727ad0a-4b52-4b01-bb36-8b43ef15d11c
-  ws-opts:
-    headers:
-      Host: nbq11.ntbq.dynu.net
-    path: /b11
