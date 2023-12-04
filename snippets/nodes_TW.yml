@@ -1,18 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 15,20,24,25,26,27,28|github.com/freefq - 台湾省彰化县中华电信...
+  name: 10,15,24,25,26,27|台湾省台北市 中华电信
   network: ws
   port: 443
-  server: tc11.twtc.dynu.net
+  server: b24.ntbq.dynu.net
   servername: ''
   tls: true
   type: vmess
   uuid: 54f3bbea-3524-40db-b576-7cf02aea4562
   ws-opts:
     headers:
-      Host: tc11.twtc.dynu.net
-    path: /vbub1
+      Host: b24.ntbq.dynu.net
+    path: /b24
 - 12|TW-板桥1-1 - 麻雀加速器 Sparrow〖电报：@c...: None
   alterId: 0
   cipher: auto
@@ -30,18 +30,17 @@ proxies:
     path: /b11
 - alterId: 0
   cipher: auto
-  name: 10,15,24,25,26,27|台湾省台北市 中华电信
+  name: 19|TW-36.233.235.237-208
   network: ws
   port: 443
-  server: b24.ntbq.dynu.net
-  servername: ''
+  server: tc11.twtc.dynu.net
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 54f3bbea-3524-40db-b576-7cf02aea4562
-  ws-opts:
-    headers:
-      Host: b24.ntbq.dynu.net
-    path: /b24
+  uuid: b0912b17-b2d2-4c53-9d53-710f6c88251a
+  ws-headers:
+    Host: tc11.twtc.dynu.net
+  ws-path: /vbub1
 - cipher: chacha20-ietf-poly1305
   name: 25|🇹🇼 台湾3|@ripaojiedian
   password: 4d1e8cd03847
@@ -59,19 +58,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 19|TW-36.233.235.237-208
-  network: ws
-  port: 443
-  server: tc11.twtc.dynu.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b0912b17-b2d2-4c53-9d53-710f6c88251a
-  ws-headers:
-    Host: tc11.twtc.dynu.net
-  ws-path: /vbub1
-- alterId: 0
-  cipher: auto
   name: 19|TW-36.226.128.61-209
   network: ws
   port: 443
@@ -83,3 +69,17 @@ proxies:
   ws-headers:
     Host: b24.ntbq.dynu.net
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 15,20,24,25,26,27,28|github.com/freefq - 台湾省彰化县中华电信...
+  network: ws
+  port: 443
+  server: tc11.twtc.dynu.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 54f3bbea-3524-40db-b576-7cf02aea4562
+  ws-opts:
+    headers:
+      Host: tc11.twtc.dynu.net
+    path: /vbub1
