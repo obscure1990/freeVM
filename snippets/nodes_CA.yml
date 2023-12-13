@@ -13,15 +13,20 @@ proxies:
     headers:
       Host: dongtaiwang13.dtku47.xyz
     path: /1IKYjV0r/
-- name: 1|_CA_
-  network: tcp
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
-  port: 443
-  server: 172.105.5.158
-  skip-cert-verify: true
-  sni: ddragon.leagueoflegends.com
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 11|加拿大_121320032
+  network: ws
+  port: '80'
+  server: 193.203.203.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d
+  ws-opts:
+    headers:
+      Host: 193.203.203.63
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 26,29|14|加拿大 052
@@ -38,6 +43,16 @@ proxies:
     path: /526-dekDP6Otf
 - alterId: 0
   cipher: auto
+  name: 24,26|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 77bde827-17fd-4841-a727-7f5d168417a5
+- alterId: 0
+  cipher: auto
   name: 26|14|加拿大 243
   network: ws
   port: 80
@@ -50,6 +65,25 @@ proxies:
     headers:
       Host: fr9.tehme100.fun
     path: /Jnv8ViZOUVgijjOh0p5uGjHnXIiY
+- name: 1|_CA_
+  network: tcp
+  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
+  port: 443
+  server: 172.105.5.158
+  skip-cert-verify: true
+  sni: ddragon.leagueoflegends.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 26|14|🔒 VM-TCP-NA 🇨🇦 CA-167.99.17...
+  network: tcp
+  port: '3389'
+  server: 167.99.179.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 16|加拿大_【YouTube-VV科技】
@@ -65,24 +99,14 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 26|14|🔒 VM-TCP-NA 🇨🇦 CA-167.99.17...
+  name: 13,26|🇨🇦加拿大04
   network: tcp
-  port: '3389'
-  server: 167.99.179.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 24,26|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 47e97ba4-ad81-4621-9c82-5bde9012d60c
+  uuid: 0b7989ff-7e6c-4254-ae11-39377a701fc4
 - alterId: 0
   cipher: auto
   name: 11|加拿大_121320003
@@ -95,37 +119,6 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 11|加拿大_121320032
-  network: ws
-  port: '80'
-  server: 193.203.203.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d
-  ws-opts:
-    headers:
-      Host: 193.203.203.63
-    path: /vmess
-- name: 21,27,30|CA-172.105.5.158-008
-  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
-  port: 443
-  server: 172.105.5.158
-  skip-cert-verify: true
-  sni: ddragon.leagueoflegends.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13,26|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 8d4f8552-0d3f-4866-a189-7abfdde982d4
-- alterId: 0
-  cipher: auto
   name: 11,26|加拿大_121320028
   network: ''
   port: '22324'
@@ -134,3 +127,10 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 21,27,30|CA-172.105.5.158-008
+  password: 027c71ac-026b-4755-9a33-26558ce6f6a2
+  port: 443
+  server: 172.105.5.158
+  skip-cert-verify: true
+  sni: ddragon.leagueoflegends.com
+  type: trojan
