@@ -1,31 +1,56 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_121320032
-  network: ws
-  port: '80'
-  server: 193.203.203.63
+  name: 22,24|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.198.95-080
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.198.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9,24|加拿大_121320003
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d
-  ws-opts:
-    headers:
-      Host: 193.203.203.63
-    path: /vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 1,24|_CA__2
+  name: 24|12|加拿大 192
   network: ws
   port: 8080
-  server: 23.227.39.84
-  skip-cert-verify: true
+  server: 23.227.38.86
+  servername: ''
   tls: false
   type: vmess
   uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   ws-opts:
     headers:
-      host: dongtaiwang13.dtku47.xyz
+      Host: dongtaiwang13.dtku47.xyz
+    path: /1IKYjV0r/
+- alterId: 0
+  cipher: auto
+  name: 2,4,20,24|🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 23.227.39.84
+  tls: false
+  type: vmess
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: dongtaiwang13.dtku47.xyz
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
@@ -52,57 +77,18 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 2,4,20,24|🇨🇦_CA_加拿大
+  name: 1,24|_CA__2
   network: ws
   port: 8080
   server: 23.227.39.84
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   ws-opts:
     headers:
-      Host: dongtaiwang13.dtku47.xyz
+      host: dongtaiwang13.dtku47.xyz
     path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 9,24|加拿大_121320003
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 22,24|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 94a80edb-7c40-40d1-8aeb-6e28f74ae06a
-- alterId: 0
-  cipher: auto
-  name: 24|12|加拿大 192
-  network: ws
-  port: 8080
-  server: 23.227.38.86
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang13.dtku47.xyz
-    path: /1IKYjV0r/
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.198.95-080
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 134.195.198.95
-  type: ss
 - alterId: 0
   cipher: auto
   name: 11,24|🇨🇦加拿大04
@@ -125,3 +111,17 @@ proxies:
   uuid: d8c4b4ce-be77-4e66-cb05-cffeffa634a3
   ws-opts:
     path: /d8c4b4ce
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_121320032
+  network: ws
+  port: '80'
+  server: 193.203.203.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d
+  ws-opts:
+    headers:
+      Host: 193.203.203.63
+    path: /vmess
