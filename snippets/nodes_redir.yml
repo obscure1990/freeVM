@@ -1,17 +1,26 @@
 proxies:
-- name: 23|_CN_->_UA_
+- name: 23|_CN_->_US__3
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10845
+  port: 10850
   server: other.kunlun-ppg.com
   skip-cert-verify: true
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- name: 23|_CN_->_US__3
+- name: 23|_CN_->_US__1
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10850
+  port: 10837
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- name: 23|_CN_->_US__2
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10838
   server: other.kunlun-ppg.com
   skip-cert-verify: true
   sni: alibaba-node.cn
@@ -45,24 +54,6 @@ proxies:
     headers:
       host: mm2.shabijichang.com
     path: /
-- name: 23|_CN_->_US__1
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10837
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- name: 23|_CN_->_US__2
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10838
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 24,31|12,18|🇺🇸_US_美国->🇩🇪_DE_德国
@@ -76,3 +67,12 @@ proxies:
     headers:
       Host: PAnEl128.MookomeIlz.Homes
     path: /@FreeVPNHomes@FreeVPNHomes
+- name: 23|_CN_->_UA_
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10845
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
