@@ -1,32 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12,24|台湾省桃园市 中华电信
+  name: 9|台湾_121320001
   network: ws
-  port: 443
-  server: nb11.ntbq.dynu.net
-  tls: true
-  type: vmess
-  uuid: cd8fd89b-096f-49a0-afe4-908734e32a99
-  ws-opts:
-    headers:
-      Host: ''
-    path: /b11
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_121320011
-  network: ''
-  port: '19588'
-  server: 152.32.167.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
-- alterId: 0
-  cipher: auto
-  name: 27|🇹🇼TW-103.159.206.35-0208
-  network: ws
-  port: 31945
+  port: '31945'
   server: 103.159.206.35
   servername: ''
   tls: false
@@ -34,41 +11,17 @@ proxies:
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
     headers:
-      Host: ''
+      Host: 103.159.206.35
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320002
-  network: ''
-  port: '10001'
-  server: 45.121.48.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_121320008
+  name: 10|台湾省高雄市 中华电信
   network: tcp
-  port: '10001'
-  server: 45.121.48.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- alterId: 0
-  cipher: auto
-  name: 19|TW-118.165.40.77-327
-  network: ws
-  port: 443
-  server: nb11.ntbq.dynu.net
-  skip-cert-verify: true
+  port: 41332
+  server: v94.topman8846.cc
   tls: true
   type: vmess
-  uuid: cd8fd89b-096f-49a0-afe4-908734e32a99
-  ws-headers:
-    Host: nb11.ntbq.dynu.net
-  ws-path: /b11
+  uuid: d2a1cd29-9ac2-3165-a082-cf09cdd3bf50
 - alterId: 0
   cipher: auto
   name: 12,20,24|台湾省桃园市中华电信 3
@@ -82,6 +35,29 @@ proxies:
     headers:
       Host: nb11.ntbq.dynu.net
     path: /b11
+- alterId: 0
+  cipher: auto
+  name: 12,24|台湾省桃园市 中华电信
+  network: ws
+  port: 443
+  server: nb11.ntbq.dynu.net
+  tls: true
+  type: vmess
+  uuid: cd8fd89b-096f-49a0-afe4-908734e32a99
+  ws-opts:
+    headers:
+      Host: ''
+    path: /b11
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320007
+  network: tcp
+  port: '19588'
+  server: 152.32.167.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - cipher: chacha20-ietf-poly1305
   name: 25,28|🇹🇼 台湾3|@ripaojiedian
   password: 4d1e8cd03847
@@ -99,18 +75,9 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 10|台湾省高雄市 中华电信
-  network: tcp
-  port: 41332
-  server: v94.topman8846.cc
-  tls: true
-  type: vmess
-  uuid: d2a1cd29-9ac2-3165-a082-cf09cdd3bf50
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_121320001
+  name: 27|🇹🇼TW-103.159.206.35-0208
   network: ws
-  port: '31945'
+  port: 31945
   server: 103.159.206.35
   servername: ''
   tls: false
@@ -118,26 +85,21 @@ proxies:
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
     headers:
-      Host: 103.159.206.35
+      Host: ''
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 28|TW_speednode_0072
-  password: 99e39047-9298-404e-b632-1867f7ed1b37
-  port: 7773
-  server: b13.ntbq.dynu.net
-  tfo: false
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320007
-  network: tcp
-  port: '19588'
-  server: 152.32.167.166
-  servername: ''
-  tls: false
+  name: 19|TW-118.165.40.77-327
+  network: ws
+  port: 443
+  server: nb11.ntbq.dynu.net
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+  uuid: cd8fd89b-096f-49a0-afe4-908734e32a99
+  ws-headers:
+    Host: nb11.ntbq.dynu.net
+  ws-path: /b11
 - alterId: 0
   cipher: auto
   name: 9|台湾_121320006
@@ -152,3 +114,41 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320011
+  network: ''
+  port: '19588'
+  server: 152.32.167.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320008
+  network: tcp
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- cipher: chacha20-ietf-poly1305
+  name: 28|TW_speednode_0072
+  password: 99e39047-9298-404e-b632-1867f7ed1b37
+  port: 7773
+  server: b13.ntbq.dynu.net
+  tfo: false
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320002
+  network: ''
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
