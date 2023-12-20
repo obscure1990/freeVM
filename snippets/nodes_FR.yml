@@ -1,31 +1,64 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
-  network: ws
-  port: '80'
-  server: 104.19.81.78
+  name: 9,24|法国_121320070
+  network: tcp
+  port: '29776'
+  server: 146.59.147.250
   servername: ''
   tls: false
   type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
+- alterId: 0
+  cipher: auto
+  name: 20|🇫🇷 github.com/freefq - 法国OVH S...
+  network: ws
+  port: '17772'
+  server: 193.70.33.128
+  tls: false
+  type: vmess
+  uuid: 157ab24c-2f02-44d2-b211-6d70612c9f64
+  ws-opts:
+    headers:
+      Host: 193.70.33.128
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_fnet00
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
   ws-opts:
     headers:
       Host: bl.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 19|FR-146.59.92.219-055
+  name: 19|FR-51.77.158.169-083
   network: ws
   port: 2096
-  server: 146.59.92.219
+  server: 51.77.158.169
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: aca71b13-ec8a-466d-c28f-43516d3cf246
+  uuid: c92fd902-b5d3-4208-bb48-630b1c7babea
   ws-headers:
-    Host: 146.59.92.219
+    Host: 51.77.158.169
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 9|法国_121320069
+  network: ''
+  port: '29776'
+  server: 146.59.147.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_free4allVPN
@@ -42,18 +75,41 @@ proxies:
     path: /nimvws
 - alterId: 0
   cipher: auto
-  name: 24|12|法国new01（1x） - 快狗云〖电报：@ccbao...
+  name: 20|Relay_🏁ZZ-🇫🇷FR_1398
   network: ws
-  port: '8080'
-  server: fr-new01.gujuji.top
+  port: '443'
+  server: 141.101.114.33
+  tls: true
+  type: vmess
+  uuid: e5a88ce2-fc1b-45d1-9c5f-553721d28004
+  ws-opts:
+    headers:
+      Host: v2ray1.zhujicn2.org
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
   servername: ''
   tls: false
   type: vmess
-  uuid: f533362b-a56e-4226-afd5-2b52da6176d3
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
   ws-opts:
     headers:
-      Host: fr-new01.gujuji.top
+      Host: bl.shabijichang.com
     path: /
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - alterId: 64
   cipher: auto
   name: 14|法国_【YouTube-VV科技】
@@ -69,16 +125,30 @@ proxies:
     path: /path/1693992821776
 - alterId: 0
   cipher: auto
-  name: 19|FR-51.77.158.169-083
+  name: 24|12|法国new01（1x） - 快狗云〖电报：@ccbao...
+  network: ws
+  port: '8080'
+  server: fr-new01.gujuji.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f533362b-a56e-4226-afd5-2b52da6176d3
+  ws-opts:
+    headers:
+      Host: fr-new01.gujuji.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|FR-146.59.92.219-055
   network: ws
   port: 2096
-  server: 51.77.158.169
+  server: 146.59.92.219
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: c92fd902-b5d3-4208-bb48-630b1c7babea
+  uuid: aca71b13-ec8a-466d-c28f-43516d3cf246
   ws-headers:
-    Host: 51.77.158.169
+    Host: 146.59.92.219
   ws-path: /
 - name: 23|_FR_
   network: tcp
@@ -89,47 +159,3 @@ proxies:
   sni: trj.rollingnext.co.uk
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 9|法国_121320069
-  network: ''
-  port: '29776'
-  server: 146.59.147.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- alterId: 0
-  cipher: auto
-  name: 9,24|法国_121320070
-  network: tcp
-  port: '29776'
-  server: 146.59.147.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
