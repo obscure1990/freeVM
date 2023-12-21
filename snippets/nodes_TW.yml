@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 9|台湾_121320007
+  network: tcp
+  port: '19588'
+  server: 152.32.167.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+- alterId: 0
+  cipher: auto
   name: 9|台湾_121320008
   network: tcp
   port: '10001'
@@ -29,48 +39,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320001
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: 103.159.206.35
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|台湾_121320011
   network: ''
-  port: '19588'
-  server: 152.32.167.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25|🇹🇼 台湾3|@ripaojiedian
-  password: 4d1e8cd03847
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw1000mline004.chilines.club
-    mode: websocket
-    mux: true
-    path: /wlkldrkdzet
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: wtw1000mline004.chilines.club
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_121320007
-  network: tcp
   port: '19588'
   server: 152.32.167.166
   servername: ''
@@ -90,4 +60,34 @@ proxies:
   ws-opts:
     headers:
       Host: ''
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25|🇹🇼 台湾3|@ripaojiedian
+  password: 4d1e8cd03847
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw1000mline004.chilines.club
+    mode: websocket
+    mux: true
+    path: /wlkldrkdzet
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: wtw1000mline004.chilines.club
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320001
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: 103.159.206.35
     path: /
