@@ -1,32 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20,28|TW-118.167.79.124-1849
-  network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 99e39047-9298-404e-b632-1867f7ed1b37
-  ws-headers:
-    Host: nb22.ntbq.dynu.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 19,20|TW-61.228.154.125-1860
-  network: tcp
-  port: 24443
-  server: nb24.ntbq.dynu.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c64adf03-3bfe-47e0-b38b-870a9f8032e8
-  ws-headers:
-    Host: nb24.ntbq.dynu.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
   name: 9|台湾_121320001
   network: ws
   port: '31945'
@@ -39,6 +13,16 @@ proxies:
     headers:
       Host: 103.159.206.35
     path: /
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320007
+  network: tcp
+  port: '19588'
+  server: 152.32.167.166
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 25|🇹🇼 台湾2|@ripaojiedian
@@ -57,22 +41,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 25,28|🇹🇼 台湾3|@ripaojiedian
-  password: 4d1e8cd03847
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: wtw1000mline004.chilines.club
-    mode: websocket
-    mux: true
-    path: /wlkldrkdzet
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: wtw1000mline004.chilines.club
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 19,20|TW-118.166.246.144-1894
@@ -88,6 +56,16 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: 9|台湾_121320008
+  network: tcp
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
   name: 9|台湾_121320011
   network: ''
   port: '19588'
@@ -98,14 +76,17 @@ proxies:
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320008
+  name: 19,20,28|TW-118.167.79.124-1849
   network: tcp
-  port: '10001'
-  server: 45.121.48.196
-  servername: ''
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+  uuid: 99e39047-9298-404e-b632-1867f7ed1b37
+  ws-headers:
+    Host: nb22.ntbq.dynu.net
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 9|台湾_121320006
@@ -122,11 +103,30 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320007
+  name: 19,20|TW-61.228.154.125-1860
   network: tcp
-  port: '19588'
-  server: 152.32.167.166
-  servername: ''
+  port: 24443
+  server: nb24.ntbq.dynu.net
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+  uuid: c64adf03-3bfe-47e0-b38b-870a9f8032e8
+  ws-headers:
+    Host: nb24.ntbq.dynu.net
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 25,28|🇹🇼 台湾3|@ripaojiedian
+  password: 4d1e8cd03847
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: wtw1000mline004.chilines.club
+    mode: websocket
+    mux: true
+    path: /wlkldrkdzet
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: wtw1000mline004.chilines.club
+  tfo: false
+  type: ss
