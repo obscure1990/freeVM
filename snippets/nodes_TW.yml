@@ -10,20 +10,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320001
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: 103.159.206.35
-    path: /
-- alterId: 0
-  cipher: auto
   name: 9|台湾_121320011
   network: ''
   port: '19588'
@@ -32,15 +18,16 @@ proxies:
   tls: false
   type: vmess
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 28|TW_speednode_0062
-  password: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
-  port: 7773
-  server: b13.ntbq.dynu.net
-  tfo: false
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 10,19,20,24,27|台湾省 中华电信(HiNet)数据中心
+  network: tcp
+  port: 4443
+  server: nb24.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
 - alterId: 0
   cipher: auto
   name: 19,20,24|TW-125.224.150.250-180
@@ -54,26 +41,24 @@ proxies:
   ws-headers:
     Host: c12.twtc.dynu.net
   ws-path: /
+- Ltd. 12: None
+  cipher: chacha20-ietf-poly1305
+  name: 28|TW_speednode_0059
+  password: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
+  port: 4303
+  server: ty12.twty.dynu.net
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320002
-  network: ''
+  name: 9,24|台湾_121320008
+  network: tcp
   port: '10001'
   server: 45.121.48.196
   servername: ''
   tls: false
   type: vmess
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- alterId: 0
-  cipher: auto
-  name: 10,19,20,24,27|台湾省 中华电信(HiNet)数据中心
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
 - alterId: 0
   cipher: auto
   name: 9|台湾_121320007
@@ -94,25 +79,26 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9,24|台湾_121320008
-  network: tcp
+  name: 9|台湾_121320002
+  network: ''
   port: '10001'
   server: 45.121.48.196
   servername: ''
   tls: false
   type: vmess
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- Ltd. 12: None
-  cipher: chacha20-ietf-poly1305
-  name: 28|TW_speednode_0059
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 28|TW_speednode_0062
   password: 7b039abd-ad30-4ce4-a876-0a97a3ccaf74
-  port: 4303
-  server: ty12.twty.dynu.net
+  port: 7773
+  server: b13.ntbq.dynu.net
+  tfo: false
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 24|12|🔒 VM-WS-NA 🇹🇼 TW-103.159.20...
+  name: 9|台湾_121320001
   network: ws
   port: '31945'
   server: 103.159.206.35
@@ -120,6 +106,20 @@ proxies:
   tls: false
   type: vmess
   uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: 103.159.206.35
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320006
+  network: ws
+  port: '443'
+  server: 123.58.197.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
   ws-opts:
     headers:
       Host: ''
@@ -139,14 +139,14 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320006
+  name: 24|12|🔒 VM-WS-NA 🇹🇼 TW-103.159.20...
   network: ws
-  port: '443'
-  server: 123.58.197.70
+  port: '31945'
+  server: 103.159.206.35
   servername: ''
   tls: false
   type: vmess
-  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
     headers:
       Host: ''
