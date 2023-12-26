@@ -1,45 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 24,31|18|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_43
-  network: ws
-  port: 80
-  server: 162.159.142.214
-  tls: false
-  type: vmess
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,31|18|🇺🇸_US_美国->🇬🇧_GB_英国_4_40
-  network: ws
-  port: 80
-  server: 162.159.142.242
-  tls: false
-  type: vmess
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  ws-opts:
-    headers:
-      Host: uk3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,12,20,24,31|🇨🇦 _CN_中国->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: '16648'
-  server: t.cnmjcn.cyou
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 23|_US_->_IN_
   network: ws
   port: 80
@@ -51,6 +12,56 @@ proxies:
   ws-opts:
     headers:
       host: mm2.shabijichang.com
+    path: /
+- name: 23|_CN_->_UA_
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10845
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 24,27,31|12,18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技...
+  network: ws
+  port: 2096
+  server: 104.19.155.92
+  servername: PAnEl128.MookomeIlz.Homes
+  tls: true
+  type: vmess
+  uuid: c7ccf81e-2f35-4170-aeb8-f84fb2ec2b29
+  ws-opts:
+    headers:
+      Host: PAnEl128.MookomeIlz.Homes
+    path: /@FreeVPNHomes@FreeVPNHomes
+- alterId: 0
+  cipher: auto
+  name: '6,12,13,20,24,27,28|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  network: ws
+  port: 25239
+  server: us1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,24|_CN_->_CA__2
+  network: ws
+  port: 16648
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
 - alterId: 0
   cipher: auto
@@ -65,6 +76,46 @@ proxies:
     headers:
       Host: v.nagisa.cyou
     path: /de2b04f9
+- alterId: 0
+  cipher: auto
+  name: 24,31|18|🇺🇸_US_美国->🇬🇧_GB_英国_2_36
+  network: ws
+  port: 80
+  server: 162.159.142.241
+  tls: false
+  type: vmess
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
+  ws-opts:
+    headers:
+      Host: uk3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,13,20,24,27,28|🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 25257
+  server: us2.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: us2.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 23|_SG_->_US_
+  network: ws
+  port: 80
+  server: 8.222.198.105
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  ws-opts:
+    headers:
+      host: warp.chigua.tk
+    path: /
 - alterId: 0
   cipher: auto
   name: 24,31|18|🇺🇸_US_美国->🇬🇧_GB_英国_5_42
@@ -93,30 +144,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,13,20,24,27,28|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+  name: 24,31|18|🇺🇸_US_美国->🇨🇦_CA_加拿大_2_43
   network: ws
-  port: 25230
-  server: cm1.awslcn.info
+  port: 80
+  server: 162.159.142.214
   tls: false
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
   ws-opts:
     headers:
-      Host: cm1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,24|_CN_->_CA__2
-  network: ws
-  port: 16648
-  server: t.cnmjcn.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
-  ws-opts:
-    headers:
-      host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+      Host: ca3.889611.com
     path: /
 - alterId: 0
   cipher: auto
@@ -131,10 +168,58 @@ proxies:
     headers:
       Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- name: 23|_CN_->_UA_
+- alterId: 0
+  cipher: auto
+  name: 24,31|18|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供...
+  network: ws
+  port: 80
+  server: 162.159.142.212
+  tls: false
+  type: vmess
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 6,13,20,24,27,28|🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: cm1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 24,31|18|🇺🇸_US_美国->🇬🇧_GB_英国_4_40
+  network: ws
+  port: 80
+  server: 162.159.142.242
+  tls: false
+  type: vmess
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
+  ws-opts:
+    headers:
+      Host: uk3.889611.com
+    path: /
+- name: 23|_CN_->_US__3
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10845
+  port: 10850
+  server: other.kunlun-ppg.com
+  skip-cert-verify: true
+  sni: alibaba-node.cn
+  type: trojan
+  udp: true
+- name: 23|_CN_->_US__2
+  network: tcp
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10838
   server: other.kunlun-ppg.com
   skip-cert-verify: true
   sni: alibaba-node.cn
@@ -142,17 +227,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 23|_SG_->_US_
+  name: 24,31|18|🇺🇸_US_美国->🇬🇧_GB_英国_3_38
   network: ws
   port: 80
-  server: 8.222.198.105
-  skip-cert-verify: true
+  server: 162.159.142.245
   tls: false
   type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
   ws-opts:
     headers:
-      host: warp.chigua.tk
+      Host: uk3.889611.com
     path: /
 - alterId: 0
   cipher: auto
@@ -170,80 +254,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,13,20,24,27,28|🇨🇳_CN_中国->🇺🇸_US_美国
-  network: ws
-  port: 25257
-  server: us2.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us2.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,31|18|🇺🇸_US_美国->🇨🇦_CA_加拿大_由快嘴科技提供...
-  network: ws
-  port: 80
-  server: 162.159.142.212
-  tls: false
-  type: vmess
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- name: 23|_CN_->_US__3
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10850
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 24,31|18|🇺🇸_US_美国->🇬🇧_GB_英国_2_36
-  network: ws
-  port: 80
-  server: 162.159.142.241
-  tls: false
-  type: vmess
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  ws-opts:
-    headers:
-      Host: uk3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '6,12,13,20,24,27,28|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: ws
-  port: 25239
-  server: us1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: us1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24,31|18|🇺🇸_US_美国->🇬🇧_GB_英国_3_38
-  network: ws
-  port: 80
-  server: 162.159.142.245
-  tls: false
-  type: vmess
-  uuid: dbb98828-4b51-437a-aa8e-fa9dd627cf90
-  ws-opts:
-    headers:
-      Host: uk3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 24,31|18|🇺🇸_US_美国->🇬🇧_GB_英国_6_44
   network: ws
   port: 80
@@ -255,15 +265,19 @@ proxies:
     headers:
       Host: uk3.889611.com
     path: /
-- name: 23|_CN_->_US__2
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10838
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '0,2,3,4,12,20,24,31|🇨🇦 _CN_中国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: '16648'
+  server: t.cnmjcn.cyou
+  tls: false
+  type: vmess
+  uuid: c2c76420-257f-492a-b20f-6560f3bfa78d
+  ws-opts:
+    headers:
+      Host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+    path: /
 - name: 23|_CN_->_US__1
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
@@ -273,17 +287,3 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 24,27,31|12,18|🇺🇸_US_美国->🇩🇪_DE_德国_由快嘴科技...
-  network: ws
-  port: 2096
-  server: 104.19.155.92
-  servername: PAnEl128.MookomeIlz.Homes
-  tls: true
-  type: vmess
-  uuid: c7ccf81e-2f35-4170-aeb8-f84fb2ec2b29
-  ws-opts:
-    headers:
-      Host: PAnEl128.MookomeIlz.Homes
-    path: /@FreeVPNHomes@FreeVPNHomes
