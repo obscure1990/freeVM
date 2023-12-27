@@ -1,59 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 24,26,27|10,15|台湾|@ripaojiedian
-  network: tcp
-  port: '2024'
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_121320011
-  network: ''
-  port: '19588'
-  server: 152.32.167.166
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
-- alterId: 0
-  cipher: auto
-  name: 19|TW-103.159.206.35-497
-  network: ws
-  port: 31945
-  server: 103.159.206.35
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-headers:
-    Host: 103.159.206.35
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 9,12,15,19,20,24,27|台湾_121320008
-  network: tcp
-  port: '10001'
-  server: 45.121.48.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_121320002
-  network: ''
-  port: '10001'
-  server: 45.121.48.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- alterId: 0
-  cipher: auto
   name: 24|10|台湾省台北市中华电信 10
   network: tcp
   port: 5643
@@ -64,14 +11,38 @@ proxies:
   uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
 - alterId: 0
   cipher: auto
-  name: 24|10|台湾省中华电信(HiNet)数据中心 1
+  name: 9|台湾_121320007
   network: tcp
-  port: '4443'
-  server: nb24.ntbq.dynu.net
+  port: '19588'
+  server: 152.32.167.166
   servername: ''
   tls: false
   type: vmess
-  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320001
+  network: ws
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-opts:
+    headers:
+      Host: 103.159.206.35
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,15,19,20,24,27|台湾省 v2rayfree.eu.org
+  network: tcp
+  port: '10001'
+  server: 45.121.48.172
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
 - alterId: 0
   cipher: auto
   name: 9,12,15,20,24,27|台湾_121320006
@@ -101,8 +72,70 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320007
+  name: 24|10|台湾省南投县中华电信 29
   network: tcp
+  port: '6899'
+  server: c11.twtc.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320002
+  network: ''
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: 19|TW-103.159.206.35-497
+  network: ws
+  port: 31945
+  server: 103.159.206.35
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
+  ws-headers:
+    Host: 103.159.206.35
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 10|台湾省嘉义市 中华电信
+  network: tcp
+  port: 41332
+  server: v94.topman8846.cc
+  tls: true
+  type: vmess
+  uuid: d2a1cd29-9ac2-3165-a082-cf09cdd3bf50
+- alterId: 0
+  cipher: auto
+  name: 9,12,15,19,20,24,27|台湾_121320008
+  network: tcp
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
+- alterId: 0
+  cipher: auto
+  name: 24,26,27|10,15|台湾|@ripaojiedian
+  network: tcp
+  port: '2024'
+  server: b23.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320011
+  network: ''
   port: '19588'
   server: 152.32.167.166
   servername: ''
@@ -123,44 +156,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12,15,19,20,24,27|台湾省 v2rayfree.eu.org
+  name: 24|10|台湾省中华电信(HiNet)数据中心 1
   network: tcp
-  port: '10001'
-  server: 45.121.48.172
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
-- alterId: 0
-  cipher: auto
-  name: 24|10|台湾省南投县中华电信 29
-  network: tcp
-  port: '6899'
-  server: c11.twtc.dynu.net
+  port: '4443'
+  server: nb24.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
   uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
-- alterId: 0
-  cipher: auto
-  name: 10|台湾省嘉义市 中华电信
-  network: tcp
-  port: 41332
-  server: v94.topman8846.cc
-  tls: true
-  type: vmess
-  uuid: d2a1cd29-9ac2-3165-a082-cf09cdd3bf50
-- alterId: 0
-  cipher: auto
-  name: 9|台湾_121320001
-  network: ws
-  port: '31945'
-  server: 103.159.206.35
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
-  ws-opts:
-    headers:
-      Host: 103.159.206.35
-    path: /
