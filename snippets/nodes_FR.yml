@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_CollectorDonate
-  network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
 - name: '23|_FR_ #1'
   network: tcp
   password: telegram-id-directvpn
@@ -38,11 +24,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 9|法国_121320069
-  network: ''
-  port: '29776'
+  name: 1,2,3,4,6,10,12,15,19,20,24,27,31|_FR_
+  network: tcp
+  port: 29776
   server: 146.59.147.250
-  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
@@ -73,11 +59,11 @@ proxies:
     headers:
       Host: phosphorylative.aurorainiceland.com
     path: /nimvws
-- cipher: chacha20-ietf-poly1305
-  name: 19|FR-185.231.205.80-226
-  password: MGQwNTgw
-  port: 1443
-  server: 185.231.205.80
+- cipher: aes-128-gcm
+  name: 19|FR-141.95.106.33-019
+  password: KAffy7oieVJYGKFjHvUE3g
+  port: 1080
+  server: 141.95.106.33
   type: ss
 - alterId: 0
   cipher: auto
@@ -94,14 +80,24 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 1,2,3,4,6,9,10,12,15,19,20,24,27,31|_FR_
-  network: tcp
-  port: 29776
-  server: 146.59.147.250
-  skip-cert-verify: true
+  name: 18|🇫🇷_FR_法国_CollectorDonate
+  network: ws
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
   tls: false
   type: vmess
-  uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19|FR-185.231.205.80-226
+  password: MGQwNTgw
+  port: 1443
+  server: 185.231.205.80
+  type: ss
 - alterId: 0
   cipher: aes-128-gcm
   name: 18|🇫🇷_FR_法国_oneclickvpnkeys
@@ -112,9 +108,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- cipher: aes-128-gcm
-  name: 19|FR-141.95.106.33-019
-  password: KAffy7oieVJYGKFjHvUE3g
-  port: 1080
-  server: 141.95.106.33
-  type: ss
