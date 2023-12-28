@@ -1,14 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320011
-  network: ''
-  port: '19588'
-  server: 152.32.167.166
+  name: 10,12,15,19,20,24,27,28|台湾省南投县 中华电信
+  network: tcp
+  port: 6899
+  server: c11.twtc.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
+- alterId: 0
+  cipher: auto
+  name: 24|12|TW-板桥3-6(TCP) - 麻雀加速器 Sparr...
+  network: tcp
+  port: 4211
+  server: nb36.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320002
+  network: ''
+  port: '10001'
+  server: 45.121.48.196
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
   name: 12,15,19,20,24,27|台湾省  78
@@ -33,26 +53,55 @@ proxies:
     headers:
       Host: 103.159.206.35
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 19,28|TW-220.141.141.66-218
+  password: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d
+  port: 2203
+  server: ty11.twty.dynu.net
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 24|12|TW-板桥2-2(TCP) - 麻雀加速器 Sparr...
+  name: 24|12|🇹🇼|TW|台湾|@wxgqlfx|18
   network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
+  port: 2024
+  server: b23.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
   uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
 - alterId: 0
   cipher: auto
-  name: 12,15,19,20,24,27|台湾省中华电信(HiNet)数据中心 19
+  name: 9,10,12,15,20,24,27|台湾_121320006
+  network: ws
+  port: '443'
+  server: 123.58.197.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 10,12,15,19,20,24,27|台湾省 中华电信(HiNet)数据中心
   network: tcp
   port: 5643
   server: b11.ntbq.dynu.net
+  tls: false
+  type: vmess
+  uuid: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320007
+  network: tcp
+  port: '19588'
+  server: 152.32.167.166
   servername: ''
   tls: false
   type: vmess
-  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
   name: 19|TW-123.58.197.70-284
@@ -76,16 +125,20 @@ proxies:
   tls: false
   type: vmess
   uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
-- cipher: chacha20-ietf-poly1305
-  name: 19,28|TW-220.141.141.66-218
-  password: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d
-  port: 2203
-  server: ty11.twty.dynu.net
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320007
+  name: 24|12|TW-板桥2-2(TCP) - 麻雀加速器 Sparr...
   network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
+- alterId: 0
+  cipher: auto
+  name: 9|台湾_121320011
+  network: ''
   port: '19588'
   server: 152.32.167.166
   servername: ''
@@ -94,44 +147,10 @@ proxies:
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  name: 9,12,15,20,24,27|台湾_121320006
-  network: ws
-  port: '443'
-  server: 123.58.197.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇹🇼|TW|台湾|@wxgqlfx|18
-  network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
-- alterId: 0
-  cipher: auto
-  name: 12,19,20,24,27|台湾省南投县 中华电信
+  name: '12,19,20,24,27|台湾省南投县 中华电信 #1'
   network: tcp
   port: 6899
   server: 36.232.179.132
-  tls: false
-  type: vmess
-  uuid: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d
-- alterId: 0
-  cipher: auto
-  name: 12,15,19,20,24,27,28|台湾省南投县中华电信 3
-  network: tcp
-  port: 6899
-  server: c11.twtc.dynu.net
-  servername: ''
   tls: false
   type: vmess
   uuid: 88162ed0-5a4d-4d7b-8a5c-ed5b5fa70e0d
@@ -150,16 +169,6 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320002
-  network: ''
-  port: '10001'
-  server: 45.121.48.196
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- alterId: 0
-  cipher: auto
   name: 9,12,15,19,20,24,27|台湾_121320008
   network: tcp
   port: '10001'
@@ -168,13 +177,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
-- alterId: 0
-  cipher: auto
-  name: 24|12|TW-板桥3-6(TCP) - 麻雀加速器 Sparr...
-  network: tcp
-  port: 4211
-  server: nb36.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
