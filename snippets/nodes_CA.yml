@@ -1,14 +1,41 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 22,24|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.mcfront.xyz
-  servername: ca04.lovemc.xyz
+  name: 9|加拿大_121320028
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 64
+  cipher: auto
+  name: 1,16,17,20,24,27|_CA__2
+  network: ws
+  port: 443
+  server: 142.171.202.130
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 5cfed8a6-3715-463c-af27-7c82106756f5
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.87981532.xyz
+    path: /path/1702650992491
+- alterId: 64
+  cipher: auto
+  name: 0,2,3,4,12,20,24,31|🇨🇦 _CA_加拿大
+  network: ws
+  port: '443'
+  server: 142.171.122.68
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.21463847.xyz
+    path: /path/1703231262875
 - alterId: 0
   cipher: auto
   name: 9|加拿大_121320032
@@ -33,47 +60,43 @@ proxies:
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 64
+  cipher: auto
+  name: '0,2,3,4,20,24,27,31|🇨🇦 _CA_加拿大 #1'
+  network: ws
+  port: '443'
+  server: 142.171.202.130
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.87981532.xyz
+    path: /path/1702650992491
 - alterId: 0
   cipher: auto
-  name: 19|CA-159.203.18.119-110
-  network: ws
-  port: 80
-  server: 159.203.18.119
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: af3e47fc-f817-4845-822c-1f35ecf90b31
-  ws-headers:
-    Host: 159.203.18.119
-  ws-path: /vmess
-- alterId: 64
-  cipher: auto
-  name: 1,12,15,24,27|_CA__1
-  network: ws
-  port: 443
-  server: 142.171.122.68
-  skip-cert-verify: true
+  name: 22,24|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.mcfront.xyz
+  servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      host: www.21463847.xyz
-    path: /path/1703231262875
-- alterId: 64
+  uuid: 76f9e5b3-8d00-46c5-b237-e7d1c22ead65
+- alterId: 0
   cipher: auto
-  name: 1,16,17,20,24,27|_CA__2
+  name: '24,27|12|Channel id: @ShadowProxy66🇨... #1'
   network: ws
-  port: 443
-  server: 142.171.202.130
-  skip-cert-verify: true
+  port: '2083'
+  server: 2bbiozh7wbc.servecounterstrike.com
+  servername: PAneljadid.mookoMEilz.homes
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
   ws-opts:
     headers:
-      host: www.87981532.xyz
-    path: /path/1702650992491
+      Host: PAneljadid.mookoMEilz.homes
+    path: /snsk
 - alterId: 64
   cipher: auto
   name: 20|🇨🇦 github.com/freefq - 加拿大  16
@@ -96,44 +119,20 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8b4c0407-b778-4197-b089-a104f4493fe3
+  uuid: 9222ad2b-8bb1-413a-a608-833f0fc3f2cd
 - alterId: 0
   cipher: auto
-  name: '24,27|12|Channel id: @ShadowProxy66🇨... #1'
+  name: 19|CA-159.203.18.119-110
   network: ws
-  port: '2083'
-  server: 2bbiozh7wbc.servecounterstrike.com
-  servername: PAneljadid.mookoMEilz.homes
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      Host: PAneljadid.mookoMEilz.homes
-    path: /snsk
-- alterId: 0
-  cipher: auto
-  name: 14|加拿大_【YouTube-VV科技】
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      Host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 9|加拿大_121320028
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
+  port: 80
+  server: 159.203.18.119
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: af3e47fc-f817-4845-822c-1f35ecf90b31
+  ws-headers:
+    Host: 159.203.18.119
+  ws-path: /vmess
 - alterId: 0
   cipher: auto
   name: '24,27|12|Channel id: @ShadowProxy66🇨...'
@@ -148,32 +147,6 @@ proxies:
     headers:
       Host: PAneljadid.mookoMEilz.homes
     path: /snsk
-- alterId: 64
-  cipher: auto
-  name: '0,2,3,4,20,24,27,31|🇨🇦 _CA_加拿大 #1'
-  network: ws
-  port: '443'
-  server: 142.171.202.130
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.87981532.xyz
-    path: /path/1702650992491
-- alterId: 64
-  cipher: auto
-  name: 0,2,3,4,12,20,24,31|🇨🇦 _CA_加拿大
-  network: ws
-  port: '443'
-  server: 142.171.122.68
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.21463847.xyz
-    path: /path/1703231262875
 - alterId: 0
   cipher: auto
   name: 24,27|12|加拿大 051
@@ -188,3 +161,30 @@ proxies:
     headers:
       Host: v118a.ai88888.top
     path: /526-dekDP6Otf
+- alterId: 64
+  cipher: auto
+  name: 1,12,15,24,27|_CA__1
+  network: ws
+  port: 443
+  server: 142.171.122.68
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      host: www.21463847.xyz
+    path: /path/1703231262875
+- alterId: 0
+  cipher: auto
+  name: 14|加拿大_【YouTube-VV科技】
+  network: ws
+  port: 443
+  server: 23.227.39.109
+  tls: true
+  type: vmess
+  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
+  ws-opts:
+    headers:
+      Host: 3.freek1.xyz
+    path: /dongtaiwang.com
