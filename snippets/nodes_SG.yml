@@ -1,4 +1,10 @@
 proxies:
+- cipher: aes-256-cfb
+  name: 19|SG-13.213.46.196-312
+  password: amazonskr05
+  port: 443
+  server: 13.213.46.196
+  type: ss
 - alterId: 0
   cipher: auto
   name: 19|SG-43.153.215.113-059
@@ -14,73 +20,64 @@ proxies:
   ws-path: /das321S8
 - alterId: 0
   cipher: auto
-  name: 22,24|【BGP】新加坡 06 | 1x SG
+  name: 24|12|V4-4004|新加坡|x2.0 - 海豚云〖电报：@...
+  network: ws
+  port: '12002'
+  server: dnspsdhaitun.ncsuwei.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1e83a5ad-c1ed-381b-8794-806fac9e4fc1
+  ws-opts:
+    headers:
+      Host: dnspsdhaitun.ncsuwei.top
+    path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_121320039
+  network: tcp
+  port: '30327'
+  server: 8.222.239.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b313e670-bfd4-4b62-d314-0d296e363192
+- alterId: 0
+  cipher: auto
+  name: 19|SG-157.245.52.0-343
+  network: ws
+  port: 2092
+  server: 157.245.52.0
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 26b592f4-b447-4de8-cbef-d517d17dfd76
+  ws-headers:
+    Host: Telegram-Channel.hkaa0.66688888.xyz
+  ws-path: /telegram:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君) #6'
+  network: ws
+  port: '443'
+  server: do7.yyhm9.com
+  tls: true
+  type: vmess
+  uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
+  ws-opts:
+    headers:
+      Host: do7.yyhm9.com
+    path: /book
+- alterId: 0
+  cipher: auto
+  name: 24|13|【BGP】新加坡 06 | 1x SG
   network: tcp
   port: '31211'
   server: 1c7s2g06.mcfront.xyz
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9c68ec72-c2c1-4a66-a9f1-85fb004e5793
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_121320038
-  network: ''
-  port: '32969'
-  server: 8.219.240.120
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
-- alterId: 0
-  cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君) #5'
-  network: ws
-  port: '443'
-  server: 162.159.135.42
-  tls: true
-  type: vmess
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  ws-opts:
-    headers:
-      Host: gcssg.sylu.cyou
-    path: /Falling42gcssgnode
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡05
-  network: tcp
-  port: '36206'
-  server: 9s5g05.abzoones.xyz
-  servername: sg05.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9222ad2b-8bb1-413a-a608-833f0fc3f2cd
-- alterId: 0
-  cipher: auto
-  name: 19|SG-43.159.50.39-047
-  network: ws
-  port: 443
-  server: do7.yyhm9.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-  ws-headers:
-    Host: do7.yyhm9.com
-  ws-path: /book
-- alterId: 0
-  cipher: auto
-  name: 20,28|🇸🇬 新加坡03{优化2|V2ray}
-  network: ws
-  port: '25221'
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
-    path: /
+  uuid: d55ccc26-125c-447b-a9d1-527aa359e094
 - alterId: 0
   cipher: auto
   name: 24,27|12|🇸🇬|SG|新加坡|@wxgqlfx|152
@@ -92,6 +89,29 @@ proxies:
   uuid: 26b592f4-b447-4de8-cbef-d517d17dfd76
   ws-opts:
     path: /telegram:@hkaa0
+- alterId: 0
+  cipher: auto
+  name: 24|13|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.mcfront.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: d55ccc26-125c-447b-a9d1-527aa359e094
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君) #1'
+  network: ws
+  port: '80'
+  server: 157.230.36.235
+  tls: false
+  type: vmess
+  uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+  ws-opts:
+    headers:
+      Host: ''
+    path: /graphql
 - alterId: 0
   cipher: auto
   name: 19|SG-51.79.173.222-126
@@ -120,14 +140,60 @@ proxies:
   ws-path: /jhndsmlanj11223
 - alterId: 0
   cipher: auto
-  name: 9,12,19,20,24,27|新加坡_121320009
-  network: tcp
-  port: '12681'
-  server: 8.219.59.63
-  servername: ''
+  name: '20|🇸🇬 新加坡(油管:破解资源君) #7'
+  network: ws
+  port: '11451'
+  server: r001.baipiaoxd.com
   tls: false
   type: vmess
-  uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b
+  uuid: d57d3206-d398-449e-b637-19471a3943e4
+  ws-opts:
+    headers:
+      Host: r001.baipiaoxd.com
+    path: /ws
+- cipher: aes-256-gcm
+  name: 19|SG-185.151.146.169-293
+  password: chG0C20Pab
+  port: 38935
+  server: 185.151.146.169
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君) #5'
+  network: ws
+  port: '443'
+  server: 162.159.135.42
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcssg.sylu.cyou
+    path: /Falling42gcssgnode
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君) #3'
+  network: ws
+  port: '443'
+  server: 162.159.135.42
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcoresg.sylu.cyou
+    path: /Falling42gcoresgnode
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 25,28|🇸🇬 狮城R|@ripaojiedian
+  obfs: plain
+  obfs-param: 5d3ee46961.microsoft.com
+  password: jFa4F1
+  port: 6705
+  protocol: auth_aes128_sha1
+  protocol-param: 46961:1210-Tha
+  server: cm03.newcome.xyz
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 20|🇸🇬 新加坡(油管:破解资源君)
@@ -156,24 +222,49 @@ proxies:
     path: /das3218ssxc
 - alterId: 0
   cipher: auto
-  name: 22,24|【BGP】新加坡 04 | 1x SG
+  name: 24|13|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
   server: 1c7s2g04.mcfront.xyz
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9c68ec72-c2c1-4a66-a9f1-85fb004e5793
+  uuid: d55ccc26-125c-447b-a9d1-527aa359e094
 - alterId: 0
   cipher: auto
-  name: 9,10|新加坡_121320008
+  name: 27|麦块云-新加坡03
   network: tcp
-  port: '32969'
-  server: 8.219.240.120
-  servername: ''
+  port: '44606'
+  server: zz101.maikcloud.com
   tls: false
   type: vmess
-  uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
+  uuid: d81a4bd4-ba86-49ad-b6bd-6d57e6b07577
+- alterId: 64
+  cipher: auto
+  name: 19|SG-159.223.94.156-318
+  network: ws
+  port: 80
+  server: 159.223.94.156
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  ws-headers:
+    Host: 159.223.94.156
+  ws-path: /anti13.zingfast.vn
+- alterId: 0
+  cipher: auto
+  name: 20,28|🇸🇬 新加坡02{优化1|V2ray}
+  network: ws
+  port: '25243'
+  server: sg1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: sg1.awslcn.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 27|🇸🇬SG-194.233.81.125-8088
@@ -190,31 +281,76 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 9|新加坡_121320004
+  name: 19|SG-15.235.147.186-138
   network: ws
-  port: '2'
-  server: 207.148.77.215
-  servername: ''
+  port: 80
+  server: sg-lb.vhax.net
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-headers:
+    Host: zoom.us
+  ws-path: /sshkit/Ertusg86/635014638c264/
+- alterId: 0
+  cipher: auto
+  name: 20,28|🇸🇬 新加坡6-wap
+  network: ws
+  port: '25282'
+  server: sg1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
   ws-opts:
     headers:
-      Host: ''
+      Host: sg1.awslcn.info
     path: /
 - alterId: 0
   cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君) #4'
+  name: 9,10|新加坡_121320008
+  network: tcp
+  port: '32969'
+  server: 8.219.240.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
+- alterId: 0
+  cipher: auto
+  name: 20,28|🇸🇬 新加坡5-DO
   network: ws
-  port: '443'
-  server: 162.159.135.42
+  port: '25270'
+  server: sg1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: sg1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|SG-43.159.62.37-117
+  network: ws
+  port: 443
+  server: az.mvzaixian3.com
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-  ws-opts:
-    headers:
-      Host: do9.yyhm9.com
-    path: /das321S8
+  ws-headers:
+    Host: az.mvzaixian3.com
+  ws-path: /das2
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_121320038
+  network: ''
+  port: '32969'
+  server: 8.219.240.120
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 95249020-fbb7-4592-efce-6ad3954c3fad
 - alterId: 0
   cipher: auto
   name: 19|SG-157.230.36.235-041
@@ -230,18 +366,40 @@ proxies:
   ws-path: /graphql
 - alterId: 0
   cipher: auto
-  name: 24|12|V4-4004|新加坡|x2.0 - 海豚云〖电报：@...
-  network: ws
-  port: '12002'
-  server: dnspsdhaitun.ncsuwei.top
-  servername: ''
-  tls: false
+  name: 22|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 1e83a5ad-c1ed-381b-8794-806fac9e4fc1
-  ws-opts:
-    headers:
-      Host: dnspsdhaitun.ncsuwei.top
-    path: /12e884bf-1622-7ceb-3009-7d47fd1322f9a5
+  uuid: b59249e6-6c85-4d5d-ac5f-505f1d58b7f9
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇸🇬新加坡05
+  network: tcp
+  port: '36206'
+  server: 9s5g05.abzoones.xyz
+  servername: sg05.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 26f0e54b-dd46-4c48-a3b1-63dc612044f0
+- cipher: aes-256-cfb
+  name: 19|SG-54.251.168.143-314
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 22|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: b59249e6-6c85-4d5d-ac5f-505f1d58b7f9
 - alterId: 0
   cipher: auto
   name: 14|新加坡_【YouTube-VV科技】
@@ -255,19 +413,57 @@ proxies:
     headers:
       Host: hostodo.galenet.online
     path: /hostodo
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 19|SG-159.223.94.156-318
+  name: 27|🇸🇬SG-15.235.131.9-3883
   network: ws
   port: 80
-  server: 159.223.94.156
+  server: sg.vpndata.vn
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a2c7eeea-53f9-480a-be9d-536518b4fb0b
+  ws-opts:
+    headers:
+      Host: sg.vpndata.vn
+    path: /VPNDATA.xYx
+- alterId: 0
+  cipher: auto
+  name: 9|新加坡_121320090
+  network: ws
+  port: '40637'
+  server: 143.42.66.9
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e30d039-1751-4fbd-aa0a-918b03003515
+  ws-opts:
+    headers:
+      Host: ''
+    path: /chami
+- alterId: 0
+  cipher: auto
+  name: 19|SG-15.235.131.9-283
+  network: ws
+  port: 80
+  server: sg.vpndata.vn
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 533724ad-58ef-4147-88dc-9da523c15fc4
+  uuid: a2c7eeea-53f9-480a-be9d-536518b4fb0b
   ws-headers:
-    Host: 159.223.94.156
-  ws-path: /anti13.zingfast.vn
+    Host: dl.kgvn.garenanow.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 9,12,19,20,24,27|新加坡_121320009
+  network: tcp
+  port: '12681'
+  server: 8.219.59.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b
 - alterId: 0
   cipher: auto
   name: 19|SG-15.235.147.186-153
@@ -283,6 +479,19 @@ proxies:
   ws-path: /sshkit/Ertusg86/635014638c264/
 - alterId: 0
   cipher: auto
+  name: 20,28|🇸🇬 新加坡03{优化2|V2ray}
+  network: ws
+  port: '25221'
+  server: sg1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: sg1.awslcn.info
+    path: /
+- alterId: 0
+  cipher: auto
   name: 19|SG-43.156.14.46-050
   network: ws
   port: 443
@@ -296,6 +505,16 @@ proxies:
   ws-path: /das3218ssxc
 - alterId: 0
   cipher: auto
+  name: 11,24|🇸🇬新加坡04
+  network: tcp
+  port: '36201'
+  server: 9s5g04.abzoones.xyz
+  servername: sg04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: 26f0e54b-dd46-4c48-a3b1-63dc612044f0
+- alterId: 0
+  cipher: auto
   name: 9|新加坡_121320001
   network: ''
   port: '30327'
@@ -304,6 +523,32 @@ proxies:
   tls: false
   type: vmess
   uuid: b313e670-bfd4-4b62-d314-0d296e363192
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君) #2'
+  network: ws
+  port: '443'
+  server: 162.159.128.7
+  tls: true
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-opts:
+    headers:
+      Host: sg-lb.vhax.net
+    path: /sshkit/Ertusg86/635014638c264/
+- alterId: 0
+  cipher: auto
+  name: 27|🇸🇬 新加坡超速1区
+  network: ws
+  port: '80'
+  server: sg1.s2fjeyeeyafe.bond
+  tls: true
+  type: vmess
+  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
+  ws-opts:
+    headers:
+      Host: sg1.s2fjeyeeyafe.bond
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 24|12|V4-4003|新加坡|x2.0 - 海豚云〖电报：@...
@@ -320,30 +565,30 @@ proxies:
     path: /12e884bf-1622-7ceb-3009-7d47fdfs2f9a5
 - alterId: 0
   cipher: auto
-  name: 19|SG-15.235.147.186-138
+  name: '20|🇸🇬 新加坡(油管:破解资源君) #4'
   network: ws
-  port: 80
-  server: sg-lb.vhax.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  ws-headers:
-    Host: zoom.us
-  ws-path: /sshkit/Ertusg86/635014638c264/
-- alterId: 0
-  cipher: auto
-  name: 19|SG-43.159.62.37-117
-  network: ws
-  port: 443
-  server: az.mvzaixian3.com
-  skip-cert-verify: true
+  port: '443'
+  server: 162.159.135.42
   tls: true
   type: vmess
   uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-  ws-headers:
-    Host: az.mvzaixian3.com
-  ws-path: /das2
+  ws-opts:
+    headers:
+      Host: do9.yyhm9.com
+    path: /das321S8
+- alterId: 0
+  cipher: auto
+  name: '20|🇸🇬 新加坡(油管:破解资源君) #9'
+  network: ws
+  port: '443'
+  server: 172.67.199.34
+  tls: true
+  type: vmess
+  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+  ws-opts:
+    headers:
+      Host: gcssg.sylu.cyou
+    path: /Falling42gcssgnode
 - alterId: 0
   cipher: auto
   name: 11,24|🇸🇬新加坡06
@@ -353,60 +598,17 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9222ad2b-8bb1-413a-a608-833f0fc3f2cd
+  uuid: 26f0e54b-dd46-4c48-a3b1-63dc612044f0
 - alterId: 0
   cipher: auto
-  name: 20,28|🇸🇬 新加坡02{优化1|V2ray}
-  network: ws
-  port: '25243'
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 27|🇸🇬 新加坡超速1区
-  network: ws
-  port: '80'
-  server: sg1.s2fjeyeeyafe.bond
+  name: 22|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 65d79be3-7327-45f8-86fc-bd7f27948eec
-  ws-opts:
-    headers:
-      Host: sg1.s2fjeyeeyafe.bond
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 19|SG-157.245.52.0-343
-  network: ws
-  port: 2092
-  server: 157.245.52.0
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 26b592f4-b447-4de8-cbef-d517d17dfd76
-  ws-headers:
-    Host: Telegram-Channel.hkaa0.66688888.xyz
-  ws-path: /telegram:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_121320090
-  network: ws
-  port: '40637'
-  server: 143.42.66.9
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e30d039-1751-4fbd-aa0a-918b03003515
-  ws-opts:
-    headers:
-      Host: ''
-    path: /chami
+  uuid: b59249e6-6c85-4d5d-ac5f-505f1d58b7f9
 - alterId: 0
   cipher: auto
   name: 9|新加坡_121320037
@@ -436,110 +638,31 @@ proxies:
   ws-path: /vmess
 - alterId: 0
   cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君) #6'
+  name: 19|SG-43.159.50.39-047
   network: ws
-  port: '443'
+  port: 443
   server: do7.yyhm9.com
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73
-  ws-opts:
-    headers:
-      Host: do7.yyhm9.com
-    path: /book
+  ws-headers:
+    Host: do7.yyhm9.com
+  ws-path: /book
 - alterId: 0
   cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君) #1'
+  name: 9|新加坡_121320004
   network: ws
-  port: '80'
-  server: 157.230.36.235
+  port: '2'
+  server: 207.148.77.215
+  servername: ''
   tls: false
   type: vmess
-  uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+  uuid: 6e2080bc-07b0-4046-8c6a-bb5a18e12f7c
   ws-opts:
     headers:
       Host: ''
-    path: /graphql
-- alterId: 0
-  cipher: auto
-  name: 27|🇸🇬SG-15.235.131.9-3883
-  network: ws
-  port: 80
-  server: sg.vpndata.vn
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a2c7eeea-53f9-480a-be9d-536518b4fb0b
-  ws-opts:
-    headers:
-      Host: sg.vpndata.vn
-    path: /VPNDATA.xYx
-- alterId: 0
-  cipher: auto
-  name: 9|新加坡_121320039
-  network: tcp
-  port: '30327'
-  server: 8.222.239.7
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b313e670-bfd4-4b62-d314-0d296e363192
-- alterId: 0
-  cipher: auto
-  name: 22,24|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.mcfront.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 9c68ec72-c2c1-4a66-a9f1-85fb004e5793
-- alterId: 0
-  cipher: auto
-  name: 20,28|🇸🇬 新加坡5-DO
-  network: ws
-  port: '25270'
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
     path: /
-- alterId: 0
-  cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君) #7'
-  network: ws
-  port: '11451'
-  server: r001.baipiaoxd.com
-  tls: false
-  type: vmess
-  uuid: d57d3206-d398-449e-b637-19471a3943e4
-  ws-opts:
-    headers:
-      Host: r001.baipiaoxd.com
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: 27|麦块云-新加坡03
-  network: tcp
-  port: '44606'
-  server: zz101.maikcloud.com
-  tls: false
-  type: vmess
-  uuid: d81a4bd4-ba86-49ad-b6bd-6d57e6b07577
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 25,28|🇸🇬 狮城R|@ripaojiedian
-  obfs: plain
-  obfs-param: 5d3ee46961.microsoft.com
-  password: jFa4F1
-  port: 6705
-  protocol: auth_aes128_sha1
-  protocol-param: 46961:1210-Tha
-  server: cm03.newcome.xyz
-  type: ssr
 - alterId: 0
   cipher: auto
   name: 9|新加坡_121320036
@@ -550,96 +673,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cc58cbdc-c36f-42f4-9254-8f4fc564246b
-- alterId: 0
-  cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君) #3'
-  network: ws
-  port: '443'
-  server: 162.159.135.42
-  tls: true
-  type: vmess
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  ws-opts:
-    headers:
-      Host: gcoresg.sylu.cyou
-    path: /Falling42gcoresgnode
-- alterId: 0
-  cipher: auto
-  name: 19|SG-15.235.131.9-283
-  network: ws
-  port: 80
-  server: sg.vpndata.vn
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a2c7eeea-53f9-480a-be9d-536518b4fb0b
-  ws-headers:
-    Host: dl.kgvn.garenanow.com
-  ws-path: /
-- cipher: aes-256-cfb
-  name: 19|SG-13.213.46.196-312
-  password: amazonskr05
-  port: 443
-  server: 13.213.46.196
-  type: ss
-- cipher: aes-256-cfb
-  name: 19|SG-54.251.168.143-314
-  password: amazonskr05
-  port: 443
-  server: 54.251.168.143
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇸🇬新加坡04
-  network: tcp
-  port: '36201'
-  server: 9s5g04.abzoones.xyz
-  servername: sg04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: 9222ad2b-8bb1-413a-a608-833f0fc3f2cd
-- cipher: aes-256-gcm
-  name: 19|SG-185.151.146.169-293
-  password: chG0C20Pab
-  port: 38935
-  server: 185.151.146.169
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 20,28|🇸🇬 新加坡6-wap
-  network: ws
-  port: '25282'
-  server: sg1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: sg1.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君) #2'
-  network: ws
-  port: '443'
-  server: 162.159.128.7
-  tls: true
-  type: vmess
-  uuid: 6fea1649-425b-4092-bf53-29792152c925
-  ws-opts:
-    headers:
-      Host: sg-lb.vhax.net
-    path: /sshkit/Ertusg86/635014638c264/
-- alterId: 0
-  cipher: auto
-  name: '20|🇸🇬 新加坡(油管:破解资源君) #9'
-  network: ws
-  port: '443'
-  server: 172.67.199.34
-  tls: true
-  type: vmess
-  uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
-  ws-opts:
-    headers:
-      Host: gcssg.sylu.cyou
-    path: /Falling42gcssgnode
