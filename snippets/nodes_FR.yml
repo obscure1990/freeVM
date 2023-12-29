@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - name: 23|_FR_
   network: tcp
   password: telegram-id-directvpn
@@ -24,8 +34,8 @@ proxies:
     path: /nimvws
 - alterId: 0
   cipher: auto
-  name: 9|法国_121320069
-  network: ''
+  name: 9|法国_121320070
+  network: tcp
   port: '29776'
   server: 146.59.147.250
   servername: ''
@@ -47,24 +57,28 @@ proxies:
     path: /path/1693992821776
 - alterId: 0
   cipher: auto
-  name: 9|法国_121320070
-  network: tcp
+  name: 18|🇫🇷_FR_法国_fnet00
+  network: ws
+  port: '80'
+  server: fd.shabijichang.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|法国_121320069
+  network: ''
   port: '29776'
   server: 146.59.147.250
   servername: ''
   tls: false
   type: vmess
   uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 18|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
 - alterId: 0
   cipher: auto
   name: 18|🇫🇷_FR_法国_CollectorDonate
@@ -75,20 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 18|🇫🇷_FR_法国_fnet00
-  network: ws
-  port: '80'
-  server: fd.shabijichang.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4732350b-14a1-421e-985a-155a78e9ae80
   ws-opts:
     headers:
       Host: bl.shabijichang.com
