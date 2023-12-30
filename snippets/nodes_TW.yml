@@ -1,21 +1,35 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 19,20,24|TW-118.167.83.208-390
-  network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
+  name: 9,10|台湾_121320006
+  network: ws
+  port: '443'
+  server: 123.58.197.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 19|TW-36.228.223.226-056
+  network: ws
+  port: 80
+  server: d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+  uuid: d761c5e4-8af1-4be8-8b20-af82fff30af2
   ws-headers:
-    Host: b23.ntbq.dynu.net
+    Host: tms.dingtalk.com
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320002
-  network: ''
+  name: 9,12,15,19,20,24,27|台湾_121320008
+  network: tcp
   port: '10001'
   server: 45.121.48.196
   servername: ''
@@ -24,34 +38,18 @@ proxies:
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
-  name: 9|台湾_121320007
-  network: tcp
-  port: '19588'
-  server: 152.32.167.166
+  name: 24,27|15|台湾2|@ripaojiedian
+  network: ws
+  port: '25233'
+  server: cm.awslcn.info
   servername: ''
   tls: false
   type: vmess
-  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
-- alterId: 0
-  cipher: auto
-  name: 12,15,19,20,24,27|台湾省新竹市中华电信 3
-  network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 847bfa48-992d-4634-904f-be77beb390ce
-- alterId: 0
-  cipher: auto
-  name: 12,15,19,20,24,26,27|台湾省台北市中华电信 2
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 12,15,19,20,24,27|台湾省台中市中华电信 8
@@ -74,55 +72,18 @@ proxies:
   uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  name: 24,27|15|台湾2|@ripaojiedian
-  network: ws
-  port: '25233'
-  server: cm.awslcn.info
+  name: 9|台湾_121320007
+  network: tcp
+  port: '19588'
+  server: 152.32.167.166
   servername: ''
   tls: false
   type: vmess
-  uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: e160d0ba-5b1a-448c-fcfb-35bfc5c2b1b5
 - alterId: 0
   cipher: auto
-  name: 24,27|15|台湾1|@ripaojiedian
-  network: tcp
-  port: '6122'
-  server: 36.232.130.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
-- alterId: 0
-  cipher: auto
-  name: 9,10|台湾_121320006
-  network: ws
-  port: '443'
-  server: 123.58.197.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12,15,19,20,24,27|台湾省  100
-  network: tcp
-  port: 10001
-  server: 45.121.48.172
-  tls: false
-  type: vmess
-  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
-- alterId: 0
-  cipher: auto
-  name: 9,12,15,19,20,24,27|台湾_121320008
-  network: tcp
+  name: 9|台湾_121320002
+  network: ''
   port: '10001'
   server: 45.121.48.196
   servername: ''
@@ -131,16 +92,26 @@ proxies:
   uuid: 0ed35629-919a-4891-ba0f-13cd198f863b
 - alterId: 0
   cipher: auto
-  name: 19|TW-36.228.223.226-056
-  network: ws
-  port: 80
-  server: d041a585-0c1e-e928-dfbb-c5c4bb7f9685.cnnic.rip
+  name: 12,15,19,20,24,27|台湾省 中华电信(HiNet)数据中心
+  network: tcp
+  port: '4211'
+  server: nb36.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
+  name: 19,20,24|TW-118.167.83.208-390
+  network: tcp
+  port: 2024
+  server: b23.ntbq.dynu.net
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: d761c5e4-8af1-4be8-8b20-af82fff30af2
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
   ws-headers:
-    Host: tms.dingtalk.com
+    Host: b23.ntbq.dynu.net
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -157,6 +128,35 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
+  name: 12,15,19,20,24,26,27|台湾省台北市中华电信 2
+  network: tcp
+  port: 4443
+  server: nb24.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
+  name: 12,15,19,20,24,27|台湾省新竹市中华电信 3
+  network: tcp
+  port: 12002
+  server: nb22.ntbq.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+- alterId: 0
+  cipher: auto
+  name: 12,15,19,20,24,27|台湾省  100
+  network: tcp
+  port: 10001
+  server: 45.121.48.172
+  tls: false
+  type: vmess
+  uuid: dba51a2e-a788-43b7-9ac4-9f7cc1255f15
+- alterId: 0
+  cipher: auto
   name: 9|台湾_121320001
   network: ws
   port: '31945'
@@ -171,11 +171,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12,15,19,20,24,27|台湾省 中华电信(HiNet)数据中心
+  name: 24,27|15|台湾1|@ripaojiedian
   network: tcp
-  port: '4211'
-  server: nb36.ntbq.dynu.net
+  port: '6122'
+  server: 36.232.130.218
   servername: ''
   tls: false
   type: vmess
-  uuid: 847bfa48-992d-4634-904f-be77beb390ce
+  uuid: be59c6eb-baf9-4bb5-aac0-a17f31c4d486
