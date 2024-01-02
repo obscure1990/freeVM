@@ -1,36 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11,24|🇨🇦加拿大04
-  network: tcp
-  port: '36701'
-  server: 5c1a04.abzoones.xyz
-  servername: ca04.abpilot.xyz
-  tls: true
-  type: vmess
-  uuid: cc0f107d-62e6-4f20-8ca7-2f9a6682eb99
-- alterId: 0
-  cipher: auto
-  name: 24|12|🇨🇦加拿大4丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.142.214
-  tls: false
-  type: vmess
-  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- name: 1|_CA__2
-  network: tcp
-  password: d71655f5-d095-4365-8796-4f52772c0cc6
-  port: 443
-  server: 138.197.152.9
-  skip-cert-verify: true
-  sni: dl.kgvn.garenanow.com
-  type: trojan
-  udp: true
+- cipher: aes-256-gcm
+  name: 19|CA-134.195.196.231-127
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 134.195.196.231
+  type: ss
 - alterId: 0
   cipher: auto
   name: 9|加拿大_121320032
@@ -45,6 +19,29 @@ proxies:
     headers:
       Host: 193.203.203.63
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_121320028
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 24|12|🇨🇦加拿大4丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.214
+  tls: false
+  type: vmess
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 0,2,3,4,20,24,27|🇨🇦 _CA_加拿大
@@ -58,31 +55,19 @@ proxies:
     headers:
       Host: www.87981532.xyz
     path: /path/1702650992491
-- cipher: aes-256-gcm
-  name: 19|CA-134.195.196.231-127
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 134.195.196.231
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 22,24|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m1k2s.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 19df61a1-40c5-478c-9397-e87b6b74d070
-- alterId: 0
-  cipher: auto
-  name: 27|加拿大|三网优化|1x
-  network: tcp
-  port: '26042'
-  server: gz.daxun.cyou
+  name: 24,27|12|🇨🇦加拿大5丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.142.215
   tls: false
   type: vmess
-  uuid: caa26a60-b796-45f6-a5ff-f9a6e6d259eb
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 1,16,17,24,27|_CA__1
@@ -99,31 +84,32 @@ proxies:
     path: /path/1702650992491
 - alterId: 0
   cipher: auto
-  name: 24|12|加拿大 168
-  network: ws
-  port: 8080
-  server: 23.227.39.84
+  name: 27|加拿大|三网优化|1x
+  network: tcp
+  port: '26042'
+  server: gz.daxun.cyou
+  tls: false
+  type: vmess
+  uuid: caa26a60-b796-45f6-a5ff-f9a6e6d259eb
+- alterId: 0
+  cipher: auto
+  name: 9|加拿大_121320003
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
-  ws-opts:
-    headers:
-      Host: dongtaiwang13.dtku47.xyz
-    path: /1IKYjV0r/
-- alterId: 0
-  cipher: auto
-  name: 24,27|12|🇨🇦加拿大5丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.142.215
-  tls: false
-  type: vmess
-  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 1|_CA__2
+  network: tcp
+  password: d71655f5-d095-4365-8796-4f52772c0cc6
+  port: 443
+  server: 138.197.152.9
+  skip-cert-verify: true
+  sni: dl.kgvn.garenanow.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 14|加拿大_【YouTube-VV科技】
@@ -139,21 +125,35 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_121320028
-  network: ''
-  port: '22324'
-  server: 198.57.27.212
+  name: 24|12|加拿大 168
+  network: ws
+  port: 8080
+  server: 23.227.39.84
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+  ws-opts:
+    headers:
+      Host: dongtaiwang13.dtku47.xyz
+    path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: 9|加拿大_121320003
+  name: 22,24|【BGP】加拿大 02 | 1x CA
   network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
+  port: '31701'
+  server: 3d1c4a04.m1k2s.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 19df61a1-40c5-478c-9397-e87b6b74d070
+- alterId: 0
+  cipher: auto
+  name: 11,24|🇨🇦加拿大04
+  network: tcp
+  port: '36701'
+  server: 5c1a04.abzoones.xyz
+  servername: ca04.abpilot.xyz
+  tls: true
+  type: vmess
+  uuid: cc0f107d-62e6-4f20-8ca7-2f9a6682eb99
