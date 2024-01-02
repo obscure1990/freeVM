@@ -1,9 +1,73 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 27|🇭🇰HK-20.239.80.27-5687
+  network: ws
+  port: 443
+  server: hkaz.takeshi.wiki
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 803b8c6b-192e-4500-a919-485566f8e058
+  ws-opts:
+    headers:
+      Host: hkaz.takeshi.wiki
+    path: /takeshi.wiki
+- alterId: 0
+  cipher: auto
+  name: 9|香港_121320012
+  network: ws
+  port: '45631'
+  server: 47.242.76.125
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-gcm
   name: 19|HK-8.210.231.146-404
   password: jmtgsmW40R
   port: 1146
   server: 8.210.231.146
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '24|12|HK香港(mibei77.com 米贝节点分享) #1'
+  network: ws
+  port: '80'
+  server: cz1-vmess.sshmax.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 9|香港_121320027
+  network: ''
+  port: '59638'
+  server: 91.149.236.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 25|🇭🇰 香港KT2|@ripaojiedian
+  password: a-wym4ovY4Yw
+  plugin: obfs
+  plugin-opts:
+    host: ''
+    mode: http
+  port: 80
+  server: 8.217.217.138
+  tfo: false
   type: ss
 - alterId: 0
   cipher: auto
@@ -17,23 +81,41 @@ proxies:
   uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
 - alterId: 0
   cipher: auto
-  name: 9|香港_121320001
-  network: ''
-  port: '16399'
-  server: 115.126.50.111
+  name: '24|12|【ccbaohe.com】 永久免费机场节点|深港隧道... #1'
+  network: ws
+  port: '443'
+  server: hdfy7c1.cpionline.co
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 01596265-168b-46a7-bcb7-25662c7a9546
+  ws-opts:
+    headers:
+      Host: ''
+    path: /mrX5XBSsE4fQALebvMmvby47
+- alterId: 0
+  cipher: auto
+  name: 19|HK-85.208.104.22-283
+  network: ws
+  port: 40400
+  server: 85.208.104.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: eb6f75a1-3cee-4935-c76c-115114a36c09
+  ws-headers:
+    Host: 85.208.104.22
+  ws-path: /eb6f75a1
+- alterId: 64
+  cipher: auto
+  name: 24,26,27|15|香港1|@ripaojiedian
+  network: tcp
+  port: '45055'
+  server: 112.28.208.10
   servername: ''
   tls: false
   type: vmess
-  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
-- alterId: 0
-  cipher: auto
-  name: 27|香港BGP|优选原生IP|2x
-  network: tcp
-  port: '38001'
-  server: gz.daxun.cyou
-  tls: false
-  type: vmess
-  uuid: caa26a60-b796-45f6-a5ff-f9a6e6d259eb
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 20|🇭🇰 香港(油管:破解资源君)
@@ -47,6 +129,19 @@ proxies:
     headers:
       Host: gcsshkkk.sylu.cyou
     path: /Falling42gcsshkkknode
+- alterId: 0
+  cipher: auto
+  name: '14|香港_【YouTube-VV科技】 #1'
+  network: ws
+  port: 80
+  server: 103.160.204.12
+  tls: false
+  type: vmess
+  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
+  ws-opts:
+    headers:
+      Host: 18.wyhkaa0.gq
+    path: /TG:@hkaa0
 - alterId: 64
   cipher: auto
   name: 14|香港_【YouTube-VV科技】
@@ -72,69 +167,6 @@ proxies:
   server: 1.65.139.54
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|香港_121320022
-  network: tcp
-  port: '16399'
-  server: 115.126.50.111
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
-- alterId: 0
-  cipher: auto
-  name: 27|🇭🇰HK-20.239.80.27-5687
-  network: ws
-  port: 443
-  server: hkaz.takeshi.wiki
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 803b8c6b-192e-4500-a919-485566f8e058
-  ws-opts:
-    headers:
-      Host: hkaz.takeshi.wiki
-    path: /takeshi.wiki
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 25|🇭🇰 香港KT2|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: 80
-  server: 8.217.217.138
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '24|12|HK香港(mibei77.com 米贝节点分享) #1'
-  network: ws
-  port: '80'
-  server: cz1-vmess.sshmax.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ef7cfdf6-63e1-4307-bb61-40eb81acb5bd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 19|HK-85.208.104.22-283
-  network: ws
-  port: 40400
-  server: 85.208.104.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: eb6f75a1-3cee-4935-c76c-115114a36c09
-  ws-headers:
-    Host: 85.208.104.22
-  ws-path: /eb6f75a1
 - alterId: 1
   cipher: auto
   name: 20|🇭🇰 香港(油管:破解资源君2.0)
@@ -150,65 +182,18 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: 9|香港_121320012
+  name: 24|12|【ccbaohe.com】 永久免费机场节点|深港隧道...
   network: ws
-  port: '45631'
-  server: 47.242.76.125
+  port: '80'
+  server: UK99.5GTOCDOCAO.COM
   servername: ''
   tls: false
   type: vmess
-  uuid: f17d1a99-5b3a-43da-e59a-ad55cba85c27
+  uuid: 7a2c5296-683d-48db-9856-373cafac48b5
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 24,26,27|15|香港1|@ripaojiedian
-  network: tcp
-  port: '45055'
-  server: 112.28.208.10
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 9|香港_121320027
-  network: ''
-  port: '59638'
-  server: 91.149.236.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9fcec31d-40aa-4f98-8c47-0296084fe3ff
-- alterId: 0
-  cipher: auto
-  name: '24|12|【ccbaohe.com】 永久免费机场节点|深港隧道... #1'
-  network: ws
-  port: '443'
-  server: hdfy7c1.cpionline.co
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 01596265-168b-46a7-bcb7-25662c7a9546
-  ws-opts:
-    headers:
-      Host: ''
-    path: /mrX5XBSsE4fQALebvMmvby47
-- alterId: 0
-  cipher: auto
-  name: '14|香港_【YouTube-VV科技】 #1'
-  network: ws
-  port: 80
-  server: 103.160.204.12
-  tls: false
-  type: vmess
-  uuid: 21d60b8c-cd9d-4cbc-9a68-b29ce7d28ed8
-  ws-opts:
-    headers:
-      Host: 18.wyhkaa0.gq
-    path: /TG:@hkaa0
+      Host: dl.kgvn.garenanow.com
+    path: /5gtocdocao.com
 - alterId: 64
   cipher: auto
   name: '14|香港_【YouTube-VV科技】 #2'
@@ -222,6 +207,35 @@ proxies:
     headers:
       Host: www.92873889.xyz
     path: /path/1693018744512
+- alterId: 0
+  cipher: auto
+  name: 27|香港BGP|优选原生IP|2x
+  network: tcp
+  port: '38001'
+  server: gz.daxun.cyou
+  tls: false
+  type: vmess
+  uuid: caa26a60-b796-45f6-a5ff-f9a6e6d259eb
+- alterId: 0
+  cipher: auto
+  name: 9|香港_121320001
+  network: ''
+  port: '16399'
+  server: 115.126.50.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
+- alterId: 0
+  cipher: auto
+  name: 9|香港_121320022
+  network: tcp
+  port: '16399'
+  server: 115.126.50.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0a824660-8b17-4665-d2b4-a86c7f15d32a
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 25|🇭🇰 香港2|@ripaojiedian
@@ -230,17 +244,3 @@ proxies:
   server: 103.47.113.226
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 24|12|【ccbaohe.com】 永久免费机场节点|深港隧道...
-  network: ws
-  port: '80'
-  server: UK99.5GTOCDOCAO.COM
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7a2c5296-683d-48db-9856-373cafac48b5
-  ws-opts:
-    headers:
-      Host: dl.kgvn.garenanow.com
-    path: /5gtocdocao.com
