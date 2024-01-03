@@ -1,13 +1,40 @@
 proxies:
-- name: 23|_CN_->_UA_
+- name: 23|_CN_->_US__3
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10845
+  port: 10850
   server: other.kunlun-ppg.com
   skip-cert-verify: true
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 23|_US_->_IN_
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,24|🇺🇸 _US_美国->🇬🇧_GB_英国
+  network: ws
+  port: '80'
+  server: 162.159.142.244
+  tls: false
+  type: vmess
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
+  ws-opts:
+    headers:
+      Host: uk3.889611.com
+    path: /
 - name: 23|_CN_->_US__2
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
@@ -17,6 +44,15 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
+- alterId: 64
+  cipher: auto
+  name: 0,1,2,3,4,19,20,24|🇩🇪 _CN_中国->🇩🇪_DE_德国
+  network: tcp
+  port: '52707'
+  server: 183.237.20.148
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 23|_SG_->_US_
@@ -33,39 +69,26 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,24|🇺🇸 _US_美国->🇨🇿_CZ_捷克
+  name: 6,13,24,27|🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
-  port: '80'
-  server: 162.159.200.1
+  port: 80
+  server: 162.159.142.212
   tls: false
   type: vmess
   uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
   ws-opts:
     headers:
-      Host: tr3.889611.com
+      Host: ca3.889611.com
     path: /
-- name: 23|_CN_->_US__1
+- name: 23|_CN_->_UA_
   network: tcp
   password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10837
+  port: 10845
   server: other.kunlun-ppg.com
   skip-cert-verify: true
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 0,24|🇺🇸 _US_美国->🇹🇷_TR_土耳其
-  network: ws
-  port: '80'
-  server: 162.159.142.202
-  tls: false
-  type: vmess
-  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
-  ws-opts:
-    headers:
-      Host: tr3.889611.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 2,3,4,6,13,15,20,24,27|🇺🇸_US_美国->🇩🇪_DE_德国
@@ -79,15 +102,6 @@ proxies:
     headers:
       Host: pAnel159.moOkomeILz.homes
     path: /@FreeVPNHomes@FreeVPNHomes
-- alterId: 64
-  cipher: auto
-  name: 0,1,2,3,4,19,20,24|🇩🇪 _CN_中国->🇩🇪_DE_德国
-  network: tcp
-  port: '52707'
-  server: 183.237.20.148
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 1,24|_CN_->_IN_
@@ -102,25 +116,13 @@ proxies:
     headers:
       host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 6,13,24,27|🇺🇸_US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: 80
-  server: 162.159.142.212
-  tls: false
-  type: vmess
-  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- name: 1|_CN_->_GI_
+- name: 23|_CN_->_US__1
   network: tcp
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
+  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
+  port: 10837
+  server: other.kunlun-ppg.com
   skip-cert-verify: true
+  sni: alibaba-node.cn
   type: trojan
   udp: true
 - alterId: 0
@@ -139,28 +141,6 @@ proxies:
     path: /@FreeVPNHomes@FreeVPNHomes
 - alterId: 0
   cipher: auto
-  name: 0,24|🇺🇸 _US_美国->🇬🇧_GB_英国
-  network: ws
-  port: '80'
-  server: 162.159.142.244
-  tls: false
-  type: vmess
-  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
-  ws-opts:
-    headers:
-      Host: uk3.889611.com
-    path: /
-- name: 23|_CN_->_US__3
-  network: tcp
-  password: cb9c8687-b85d-4f43-88a3-4829e3ec27eb
-  port: 10850
-  server: other.kunlun-ppg.com
-  skip-cert-verify: true
-  sni: alibaba-node.cn
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
   name: 0,2,3,4,12,15,20,24,27,28,31|🇮🇳 _CN_中国->🇮🇳_IN_印度
   network: ws
   port: '16626'
@@ -174,15 +154,35 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 23|_US_->_IN_
+  name: 0,24|🇺🇸 _US_美国->🇹🇷_TR_土耳其
   network: ws
-  port: 80
-  server: mm2.shabijichang.com
-  skip-cert-verify: true
+  port: '80'
+  server: 162.159.142.202
   tls: false
   type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
   ws-opts:
     headers:
-      host: mm2.shabijichang.com
+      Host: tr3.889611.com
+    path: /
+- name: 1|_CN_->_GI_
+  network: tcp
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0,24|🇺🇸 _US_美国->🇨🇿_CZ_捷克
+  network: ws
+  port: '80'
+  server: 162.159.200.1
+  tls: false
+  type: vmess
+  uuid: b7c3855f-e549-4fce-8439-ea44d5392f8d
+  ws-opts:
+    headers:
+      Host: tr3.889611.com
     path: /
