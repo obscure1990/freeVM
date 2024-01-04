@@ -1,54 +1,28 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 20|FR-57.129.14.199-055
+  name: 19|🇫🇷_FR_法国_CollectorDonate
   network: ws
-  port: 80
-  server: de-v.sshmax.xyz
-  skip-cert-verify: true
+  port: '80'
+  server: 104.19.81.78
+  servername: ''
   tls: false
   type: vmess
-  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
-  ws-headers:
-    Host: de-v.sshmax.xyz
-  ws-path: /vmess
-- cipher: aes-256-cfb
-  name: 20,29|FR-195.154.185.174-002
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.185.174
-  type: ss
+  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
+  ws-opts:
+    headers:
+      Host: bl.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 10|法国_121320069
-  network: ''
+  name: 10|法国_121320070
+  network: tcp
   port: '29776'
   server: 146.59.147.250
   servername: ''
   tls: false
   type: vmess
   uuid: 82447abf-dcb9-408a-9ca6-79e0a7698d08
-- cipher: aes-256-cfb
-  name: 20,29|FR-195.154.169.198-027
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 195.154.169.198
-  type: ss
-- cipher: aes-256-gcm
-  name: 20|FR-145.239.6.202-009
-  password: pKEW8JPByTVTLtM
-  port: 4444
-  server: 145.239.6.202
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 25|12|🇫🇷|FR|法国|@wxgqlfx|18
-  network: tcp
-  port: 8080
-  server: 57.129.16.96
-  tls: false
-  type: vmess
-  uuid: d059bdd0-5dfc-5496-9ac1-025dffb1520b
 - alterId: 0
   cipher: auto
   name: 19|🇫🇷_FR_法国_free4allVPN
@@ -64,29 +38,18 @@ proxies:
       Host: phosphorylative.aurorainiceland.com
     path: /nimvws
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 19|🇫🇷_FR_法国_oneclickvpnkeys
-  network: tcp
-  port: '443'
-  server: 135.125.134.177
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
-- alterId: 0
   cipher: auto
-  name: 19|🇫🇷_FR_法国_CollectorDonate
+  name: 20|FR-57.129.14.199-055
   network: ws
-  port: '80'
-  server: 104.19.81.78
-  servername: ''
+  port: 80
+  server: de-v.sshmax.xyz
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2c4a17e8-ff59-42a2-989c-e5d67753ffef
-  ws-opts:
-    headers:
-      Host: bl.shabijichang.com
-    path: /
+  uuid: 5668ff97-631f-4602-a13f-b56552c67abe
+  ws-headers:
+    Host: de-v.sshmax.xyz
+  ws-path: /vmess
 - name: 24|_FR_
   network: tcp
   password: telegram-id-directvpn
@@ -96,6 +59,18 @@ proxies:
   sni: trj.rollingnext.co.uk
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 20,29|FR-195.154.169.198-027
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.169.198
+  type: ss
+- cipher: aes-256-cfb
+  name: 20,29|FR-51.159.111.208-007
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.159.111.208
+  type: ss
 - alterId: 64
   cipher: auto
   name: 15|法国_【YouTube-VV科技】
@@ -109,10 +84,32 @@ proxies:
     headers:
       Host: www.49291261.xyz
     path: /path/1693992821776
+- cipher: aes-256-gcm
+  name: 20|FR-145.239.6.202-009
+  password: pKEW8JPByTVTLtM
+  port: 4444
+  server: 145.239.6.202
+  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 19|🇫🇷_FR_法国_oneclickvpnkeys
+  network: tcp
+  port: '443'
+  server: 135.125.134.177
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4734bd8-906b-4426-b9ff-9dbc388d56da
+- cipher: aes-256-cfb
+  name: 20,29|FR-195.154.185.174-002
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 195.154.185.174
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 10|法国_121320070
-  network: tcp
+  name: 10|法国_121320069
+  network: ''
   port: '29776'
   server: 146.59.147.250
   servername: ''
@@ -133,9 +130,3 @@ proxies:
     headers:
       Host: bl.shabijichang.com
     path: /
-- cipher: aes-256-cfb
-  name: 20,29|FR-51.159.111.208-007
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.159.111.208
-  type: ss
