@@ -1,8 +1,8 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 20,26|CN-183.233.187.230-206
+  name: 20|CN-183.233.187.230-205
   password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 20003
+  port: 50002
   server: service.ouluyun9803.com
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -11,38 +11,23 @@ proxies:
   port: 30818
   server: wqfuinwqffq.dfcloud.xyz
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 15|中国_【YouTube-VV科技】
-  network: tcp
-  port: 42055
-  server: 120.226.50.93
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 20|CN-112.16.244.34-204
+  name: 11,13,16,21,25,26,27,28|浙江省 移动数据上网公共出口
   network: ws
-  port: 20401
+  port: '20401'
   server: data-us-v1.shwjfkw.cn
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-headers:
-    Host: data-us-v1.shwjfkw.cn
-  ws-path: /debian
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 20|CN-36.248.203.179-241
-  password: 56633687-3c35-4bae-9a15-efff8eb67f98
-  port: 33567
-  server: ad.cutecloud.link
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|CN-183.233.187.235-214
+  name: 20,26|CN-183.233.187.230-243
   password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 20007
+  port: 20001
   server: service.ouluyun9803.com
   type: ss
 - alterId: 0
@@ -59,35 +44,28 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 20|CN-183.233.187.230-338
+  name: 20|CN-183.233.187.235-214
   password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 20009
-  server: service.ouluyun9803.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 20|CN-183.233.187.230-205
-  password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 50002
+  port: 20007
   server: service.ouluyun9803.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13,16,21,25,26,27,28|浙江省移动 26
+  name: 20|CN-112.16.244.34-204
   network: ws
-  port: '20401'
+  port: 20401
   server: data-us-v1.shwjfkw.cn
-  servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
+  ws-headers:
+    Host: data-us-v1.shwjfkw.cn
+  ws-path: /debian
 - cipher: chacha20-ietf-poly1305
-  name: 20,26|CN-183.233.187.230-243
+  name: 20|CN-183.233.187.230-338
   password: 73637cec-699d-4d87-99af-0776ac880604
-  port: 20001
+  port: 20009
   server: service.ouluyun9803.com
   type: ss
 - alterId: 1
@@ -112,3 +90,37 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 21|🇨🇳 github.com/freefq - 河南省郑州市河...
+  network: ws
+  port: '443'
+  server: 123.58.197.70
+  tls: false
+  type: vmess
+  uuid: 4ca0196c-05e7-45eb-9036-692c201f45fb
+  ws-opts:
+    headers:
+      Host: '%7B%22host%22:%22123.58.197.70%22%7D'
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 15|中国_【YouTube-VV科技】
+  network: tcp
+  port: 42055
+  server: 120.226.50.93
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 20|CN-36.248.203.179-241
+  password: 56633687-3c35-4bae-9a15-efff8eb67f98
+  port: 33567
+  server: ad.cutecloud.link
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20,26|CN-183.233.187.230-206
+  password: 73637cec-699d-4d87-99af-0776ac880604
+  port: 20003
+  server: service.ouluyun9803.com
+  type: ss
