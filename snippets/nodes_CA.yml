@@ -1,8 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 10|加拿大_121320028
-  network: ''
+  name: 10,25|加拿大_121320003
+  network: tcp
   port: '22324'
   server: 198.57.27.212
   servername: ''
@@ -11,20 +11,52 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 23,25|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m1k2s.xyz
-  servername: ca04.lovemc.xyz
+  name: 10|加拿大_121320032
+  network: ws
+  port: '80'
+  server: 193.203.203.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d
+  ws-opts:
+    headers:
+      Host: 193.203.203.63
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 25|13|加拿大【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: 8443
+  server: yy.yangjinplus.cn
+  servername: ''
   tls: true
   type: vmess
-  uuid: 7bbe37a4-b7db-4689-a722-ab1569737b39
+  uuid: 1512650b-800e-4db2-afee-0e3826ba6182
+  ws-opts:
+    headers:
+      Host: yy.yangjinplus.cn
+    path: 1512650b-800e-4db2-afee-0e3826ba6182-vm
 - alterId: 0
   cipher: auto
   name: 25|13|加拿大 169
   network: ws
   port: 2086
   server: 172.67.229.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ca6.tehme100.fun
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 25|13|加拿大 041
+  network: ws
+  port: 2086
+  server: 172.67.229.37
   servername: ''
   tls: false
   type: vmess
@@ -42,13 +74,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 57970c52-129e-4ef7-bba1-d98c812b7b44
-- cipher: chacha20-ietf-poly1305
-  name: 20|CA-134.195.196.178-189
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 134.195.196.178
-  type: ss
+  uuid: 6c8e2d90-45b9-425e-b116-3e19ae6ec2ba
 - alterId: 0
   cipher: auto
   name: 25|13|加拿大 035
@@ -65,18 +91,14 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: 10|加拿大_121320032
-  network: ws
-  port: '80'
-  server: 193.203.203.63
-  servername: ''
-  tls: false
+  name: 23,25|【BGP】加拿大 02 | 1x CA
+  network: tcp
+  port: '31701'
+  server: 3d1c4a04.m1k2s.xyz
+  servername: ca04.lovemc.xyz
+  tls: true
   type: vmess
-  uuid: f61203bd-f386-4d12-9853-cc829d6b7c9d
-  ws-opts:
-    headers:
-      Host: 193.203.203.63
-    path: /vmess
+  uuid: 048c2938-408a-4749-9ed6-0c57f25e6cbe
 - alterId: 0
   cipher: auto
   name: 25|13|加拿大 263
@@ -91,44 +113,6 @@ proxies:
     headers:
       Host: no1-vmess.sshmax.xyz
     path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 25|13|加拿大 041
-  network: ws
-  port: 2086
-  server: 172.67.229.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 25|13|加拿大【TG：@ccbaohe】定时更新节点订阅
-  network: ws
-  port: 8443
-  server: yy.yangjinplus.cn
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1512650b-800e-4db2-afee-0e3826ba6182
-  ws-opts:
-    headers:
-      Host: yy.yangjinplus.cn
-    path: 1512650b-800e-4db2-afee-0e3826ba6182-vm
-- alterId: 0
-  cipher: auto
-  name: 10,25|加拿大_121320003
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 15|加拿大_【YouTube-VV科技】
@@ -166,9 +150,25 @@ proxies:
     headers:
       Host: adenc35.fixedlfoat.top
     path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 10|加拿大_121320028
+  network: ''
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: chacha20-ietf-poly1305
   name: 20|CA-134.195.196.178-185
   password: G!yBwPWH3Vao
   port: 804
+  server: 134.195.196.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20|CA-134.195.196.178-189
+  password: G!yBwPWH3Vao
+  port: 811
   server: 134.195.196.178
   type: ss
